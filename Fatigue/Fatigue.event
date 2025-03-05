@@ -1,4 +1,4 @@
-#ifdef USE_FATIGUE
+#include "Extensions/Hack Installation.txt"
 
 #ifdef _FE8_
 #ifndef FE8_FATIGUE
@@ -57,5 +57,3 @@ ALIGN 4
 #else // _FE8_
 ERROR Fatigue is only for FE8!
 #endif // _FE8_
-
-#endif // USE_FATIGUE

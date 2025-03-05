@@ -27,7 +27,7 @@
 	@   +28 | u32 state
 	@   +2C | (end)
 
-	GameSaveUnit.size = 0x2C
+	GameSaveUnit.size = 0x30
 
 	@ SuspendSaveUnit (Common):
 	@   +00 | <GameSaveUnit>
@@ -41,7 +41,8 @@
 	@ SuspendSaveUnit (Blue):
 	@   +00 | <SuspendSaveUnit>
 	@   +31 | u8 support gains
-	@   +32 | (end, 2 byte padding)
+	@   +32 | u8 stair asm byte
+	@   +33 | u8 fatigue byte
 
 	PlayerSuspendSaveUnit.size = 0x34
 
@@ -123,7 +124,8 @@ PackGameSaveUnit.set_class:
 	ldrb r2, [r1, #0x14] @ r2 = Unit->pow
 	strb r2, [r0, #0x03] @ GameSaveUnit->str = Unit->pow
 
-	mov  r2, #0          @ r2 = Unit->mag
+	mov r3, #0x3A
+	ldrb r2, [r1, r3] @ r2 = Unit->mag
 	strb r2, [r0, #0x04] @ GameSaveUnit->mag = Unit->mag
 
 	ldrb r2, [r1, #0x15] @ r2 = Unit->skl
@@ -234,7 +236,17 @@ PackGameSaveUnit.lop_items:
 
 	ldr r2, [r1, #0x0C] @ r2 = Unit->state
 	str r2, [r0, #0x28] @ GameSaveUnit->state = Unit->state
-
+	
+	@FATIGUE
+		
+	mov r4,r1
+	add r4,#0x3B
+	mov r5,r0
+	add r5,#0x2C
+	
+	ldrb r2, [r4]
+	strb r2, [r5]
+	
 	@ END
 
 	pop {r4-r5}
@@ -286,7 +298,8 @@ UnpackGameSaveUnit:
 	strb r2, [r4, #0x14] @ GameSaveUnit->str = GameSaveUnit->pow
 
 	ldrb r2, [r5, #0x04] @ r2 = GameSaveUnit->mag
-	@ do nothing         @ Unit->mag = GameSaveUnit->mag
+	mov r3, #0x3A
+	strb r2, [r4, r3]
 
 	ldrb r2, [r5, #0x05] @ r2 = GameSaveUnit->skl
 	strb r2, [r4, #0x15] @ Unit->skl = GameSaveUnit->skl
@@ -411,6 +424,16 @@ UnpackGameSaveUnit.lop_items:
 
 	ldr r2, [r5, #0x28] @ r2 = GameSaveUnit->state
 	str r2, [r4, #0x0C] @ Unit->state = GameSaveUnit->state
+	
+	@FATIGUE
+	
+	add r5,#0x2C
+	add r4,#0x3B
+	ldrb r2, [r5] @r2 = GameSaveUnit->fatigue
+	strb r2, [r4] @Unit->fatigue = GameSaveUnit->fatigue
+	sub r5,#0x2C
+	sub r4,#0x3B
+
 
 	@ MISC
 
@@ -479,6 +502,16 @@ PackPlayerSuspendSaveUnit:
 	ldrb r1, [r4, r1]    @ r1 = u->supportbits
 	strb r1, [r2, #0x05] @ su->supportbits = u->supportbits
 
+	ldr r1, =CharacterStructStairByte
+	ldrb r1, [ r1 ]
+	ldrb r1, [r4, r1]	 @ r1 = u->stairbyte
+	strb r1, [r2, #0x06]	 @ su->stairasmbyte = u->stairbyte
+	
+	ldr r1, =CharacterStructFatigueByte
+	ldrb r1, [ r1 ]
+	ldrb r1, [r4, r1]	 @ r1 = u->fatiguebyte
+	strb r1, [r2, #0x07]	 @ su->fatiguebyte = u->fatiguebyte
+	
 	pop {r4}
 
 	pop {r1}
@@ -523,6 +556,16 @@ UnpackPlayerSuspendSaveUnit:
 	mov  r3, #0x39
 	ldrb r1, [r2, #0x05] @ r1 = su->supportbits
 	strb r1, [r0, r3]    @ u->supportbits = su->supportbits
+	
+	ldr r3, =CharacterStructStairByte
+	ldrb r3, [ r3 ]
+	ldrb r1, [r2, #0x06]	 @ r1 = su->stairasmbyte
+	strb r1, [r0, r3]	 @ u->stairbyte = su->stairasmbyte
+	
+	ldr r3, =CharacterStructFatigueByte
+	ldrb r3, [ r3 ]
+	ldrb r1, [r2, #0x07]	 @ r1 = su->fatiguebyte
+	strb r1, [r0, r3]	 @ u->fatiguebyte = su->fatiguebyte
 
 	pop {r4}
 

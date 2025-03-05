@@ -10,7 +10,7 @@ void MSu_SaveActionState(void* target, unsigned size) {
 }
 
 void MSu_LoadActionState(void* source, unsigned size) {
-	ReadSramFast(source, &gActionData, size);
+	gpReadSramFast(source, &gActionData, size);
 	LoadRNStateFromActionStruct();
 }
 
@@ -64,7 +64,7 @@ void MSu_LoadMenuRelated(void* source, unsigned size) {
 
 	u8 buf[0x10];
 
-	ReadSramFast(source, buf, size);
+	gpReadSramFast(source, buf, size);
 	UnpackMenuRelatedSaveStruct(buf);
 }
 
@@ -82,7 +82,7 @@ void MSu_LoadDungeonState(void* source, unsigned size) {
 
 	u8 buf[0xC];
 
-	ReadSramFast(source, buf, size);
+	gpReadSramFast(source, buf, size);
 	UnpackIdk(buf);
 }
 
@@ -94,11 +94,11 @@ void MSu_SaveEventCounter(void* target, unsigned size) {
 void MSu_LoadEventCounter(void* source, unsigned size) {
 	unsigned counter;
 
-	ReadSramFast(source, &counter, size);
+	gpReadSramFast(source, &counter, size);
 	SetEventCounter(counter);
 }
 
 void MSu_LoadClaimFlagsFromParentSave(void* source, unsigned size) {
 	// This doesn't load anything from the actual block
-	SetBonusContentClaimFlags(MS_GetClaimFlagsFromGameSave(gChapterData.saveSlotIndex));
+	Set0203EDB4(MS_GetClaimFlagsFromGameSave(gChapterData.saveSlotIndex));
 }
