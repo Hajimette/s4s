@@ -427,3 +427,4 @@
 #define PrepScreenUseSkillScroll  0xfB5
 #define SS_FatigueText 0x0FB6
 #define MessageFatigueRestored 0x0FB7
+#define SS_FatigueRText 0xFB8

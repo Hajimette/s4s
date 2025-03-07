@@ -207,12 +207,12 @@ add    r7, #8
 draw_gaiden_spells_at 13, 13, GaidenStatScreen @ GaidenStatScreen is a pointer to the routine, GaidenStatScreen.
 
 ldr r0, SS_FatigueText
-draw_textID_at 21, 9 @Fatigue label text
+draw_textID_at 21, 15 @Fatigue label text
 
 ldr r0,=MSSFatigueGetter
 mov r14,r0
 .short 0xF800 @returns # in r0
-draw_number_at 25, 13
+draw_number_at 25, 15
 
 page_end
 

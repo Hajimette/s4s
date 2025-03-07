@@ -1,4 +1,5 @@
 #include "Extensions/Hack Installation.txt"
+#include "Tools/Tool Helpers.txt"
 
 #ifdef _FE8_
 #ifndef FE8_FATIGUE
@@ -8,6 +9,24 @@
 //Take the the cannot be deployed hack and make its conditions be if fatigue > max HP
 //Add S Drink, which removes all fatigue when used
 //At the end of the prep screen, set fatigue to 0 for everyone marked undeployed
+
+//Filling in text here because custom build doesn't like text processing
+
+ALIGN 4
+SS_FatigueRText_String:
+String("This unit's level of fatigue."); BYTE 0
+
+ALIGN 4
+SS_FatigueText_String:
+String("Ftg"); BYTE 0
+
+ALIGN 4
+MessageFatigueRestored_String:
+String("Fatigue restored"); BYTE 0
+
+setText(SS_FatigueRText, SS_FatigueRText_String)
+setText(SS_FatigueText, SS_FatigueText_String)
+setText(MessageFatigueRestored, MessageFatigueRestored_String)
 
 //Contains check if unit can be fatigued, routines for incrementing fatigue after action, routine for clearing fatigue on undeployed units
 #include "Fatigue.lyn.event"

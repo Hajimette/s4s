@@ -275,15 +275,18 @@ ST_Skill6:
 	#ifdef GAIDEN_MAGIC
 	  RMenu(ST_Dislikes,ST_Spell1,ST_Class4,ST_Height,0x66,0x58,AgeDesc)
 	#else
-	  RMenu(ST_Dislikes,0,ST_Class4,ST_Height,0x66,0x58,AgeDesc)
+	  RMenu(ST_Dislikes,ST_Fatigue,ST_Class4,ST_Height,0x66,0x58,AgeDesc)
 	#endif
 	
   ST_Height:
 	#ifdef GAIDEN_MAGIC
       RMenu(ST_Dislikes,ST_Spell2,ST_Age,0,0xa6,0x58,HeightDesc)
     #else
-	  RMenu(ST_Dislikes,0,ST_Age,0,0xa6,0x58,HeightDesc)
+	  RMenu(ST_Dislikes,ST_Fatigue,ST_Age,0,0xa6,0x58,HeightDesc)
 	#endif
+
+  ST_Fatigue:
+    RMenu(ST_Height,0,ST_Name4,0,0xA6,0x78,SS_FatigueRText)
 
 #else // ENABLE_PERSONAL_INFO
 
