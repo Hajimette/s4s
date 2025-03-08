@@ -1,4 +1,3 @@
-#define SS_FatigueText 0x00CD
 #ifndef MODULAR_STAT_SCREEN
 #define MODULAR_STAT_SCREEN
 
@@ -151,7 +150,6 @@
   
   #ifdef LEADERSHIP_STARS
 	#include "pages/strmag/mss_page1_skills_leadership.lyn.event"
-WORD SS_FatigueText
   #else // LEADERSHIP_STARS
 	#include "pages/strmag/mss_page1_skills.lyn.event"
   #endif // LEADERSHIP_STARS  
@@ -181,6 +179,7 @@ WORD SS_FatigueText
   #ifdef ENABLE_PERSONAL_INFO
   
       #include "pages/mss_page4_runa.lyn.event"
+      WORD SS_FatigueText
 	  
 	ALIGN 4
     PageNumberCheck:
