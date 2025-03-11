@@ -60,20 +60,20 @@
 
 
 // Gaiden Versions
-#define Botan_Gaiden
-#define Risu_Gaiden
-#define RBC_Gaiden
+#define Botan_Gaiden 0x3C
+#define Risu_Gaiden 0x3D
+#define RBC_Gaiden 0x3E
 
 
 //Bosses
-#define Mori
-#define Nousagi1
-#define Nousagi2
-#define Nousagi3
-#define Nousagi4
-#define Nousagi5
-#define Nousagi6
-#define Nousagi7
+#define Mori 0x41
+#define Nousagi1 0x42
+#define Nousagi2 0x43
+#define Nousagi3 0x44
+#define Nousagi4 0x45
+#define Nousagi5 0x46
+#define Nousagi6 0x47
+#define Nousagi7 0x48
 #define Entombed_boss 0x49
 #define Entombed_boss2 0x4A
 #define Anti 0x4B
@@ -141,7 +141,7 @@
 
 // Agua
 #define Aqua_20 0xCA
-#define Aqua_13
+#define Aqua_13 0xEF
 
 // Amongus
 #define Red 0x4C
