@@ -1,9 +1,3 @@
-#ifndef FreeSpace
-	#ifdef _FE8_
-		#define FreeSpace $B50000
-	#endif
-	ORG FreeSpace
-#endif
 //Dance refresh staff
 
 #include "../_StaffTemplates.event"

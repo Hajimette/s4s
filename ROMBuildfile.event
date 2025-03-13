@@ -12,14 +12,22 @@
 //    MESSAGE Used text space ends at currentOffset
     #include "Text/TextDefinitions.event"
 
-    #include Fatigue/Fatigue.event
-
     //CSV tables
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks
+    #include "New Stuff/CustomItems/_Staff6C_BasicCases.event"
     #include "EngineHacks/_MasterHackInstaller.event"
+
+    #include "Fatigue/Fatigue.event"
+    #include "NewStuff/AumStaff/Aum.event"
+
+    #include "New Stuff/CustomItems/StealStaff/_StealStaff_Setup.event"
+    #include "New Stuff/CustomItems/RewarpStaff/_RewarpStaff_Setup.event"
+    #include "New Stuff/CustomItems/UnlockStaffv2/_BurglarStaff_Setup.event"
+    #include "New Stuff/CustomItems/RefreshStaves/_AgainStaff_Setup.event"
+
     MESSAGE Used hax space ends at currentOffset
 
 	#ifdef USE_TEST_MAP
