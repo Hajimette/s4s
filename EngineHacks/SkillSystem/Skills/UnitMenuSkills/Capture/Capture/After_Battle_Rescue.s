@@ -27,6 +27,7 @@
 
 @if capturing:
 
+
 	ldr     r0,[r5, #0xC]
 	mov		r1,#0x80
 	lsl		r1,#0x17
@@ -34,13 +35,10 @@
 	and		r0,r1
 	str		r0,[r5,#0xC]		@remove the 'is capturing' bit from attacker
 
-	ldrb	r0,[r4,#0x13]		@is enemy(defender) NOT dead?
-	cmp		r0,#0x0
-	bne		NotCapture
 
-	ldrb	r0,[r5,#0x13]		@is player(attacker) dead?
+	ldrb	r0,[r4,#0x13]		@is defender dead?
 	cmp		r0,#0x0
-	beq		NotCapture
+	bne End
 
 	@if defender dead and capturing:
 

@@ -17,7 +17,7 @@ push 	{r4-r5, r14}
 @mov 	r4, r0
 mov 	r4, r1
 mov 	r5, r2
-ldr 	r2, =SelectedUnit
+ldr 	r2, =#SelectedUnit
 str 	r0, [r2]
 ldr 	r0, =RangeMapRows
 ldr 	r0, [r0]

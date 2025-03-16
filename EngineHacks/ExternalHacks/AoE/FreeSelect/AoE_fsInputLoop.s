@@ -10,6 +10,7 @@ FreeSelect6C_Loop:
 
 	ldr 	r0, =pGameDataStruct
 	ldr 	r5, [r0, #0x14]
+	mov r6, r5 
 @cursor movement
 	_blh HandlePPCursorMovement
 
@@ -68,7 +69,6 @@ NoBPress:
 	
 	ldr 	r3, [r4, #0x2C]
 	ldr 	r3, [r3, #0x14] @ OnRPress
-	mov r6, r5 
 	
 	cmp 	r3, #0x0
 	beq 	NoRPress
@@ -93,7 +93,6 @@ NoLPress:
 
 	ldr 	r0, =pGameDataStruct
 	ldr 	r0, [r0, #0x14] @ r0 = Cursor Position Pair
-	mov r6, r5 @ cursor coords 
 	cmp 	r0, r5
 	beq NoCursorMovement
 	
@@ -284,6 +283,7 @@ lsl r1, r6, #8
 lsr r1, #24 
 @r2 is still rotation byte 
 bl AoE_CallDisplayDamageArea
+mov r0, #0
 b HandleCode
 
 End:

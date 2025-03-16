@@ -1,10 +1,9 @@
 .thumb
 .align
 
-.equ DebuffTable, AuraSkillCheck+4
-.equ ArmorMarchBit, DebuffTable+4
-.equ EntrySize, ArmorMarchBit+4
-.equ SkillTester, EntrySize+4
+
+
+.equ SkillTester, AuraSkillCheck+4
 .equ ArmorMarchList, SkillTester+4
 .equ IndoorTerrainList, ArmorMarchList+4
 .equ ForagerList, IndoorTerrainList+4
@@ -15,13 +14,25 @@
 .equ CantoPlusID, CantoID+4
 
 .equ TerrainMap,0x202E4DC
+.equ GetUnit,0x08019431
 
 @the bit is being unset by armor march already
 @we just want to set it if the skills here check true
 
 push {r4-r7,r14}
-mov r4,r0 @attacker
-mov r5,r1 @defender
+mov r5,#0
+
+PreBattleLoop:
+add r5,#1
+cmp	r5,#0xB3
+bgt	AllUnitsChecked
+
+KeepUpAndFriendsLoop:
+mov r0,r5
+ldr r1,=GetUnit
+mov r14,r1
+.short 0xF800
+mov r4,r0
 
 @first, test for Keep Up on this unit
 
@@ -132,22 +143,15 @@ b ForagerLoop
 
 Set:
 @set the bit for this skill in the debuff table entry for the unit
-ldr	r0,DebuffTable
-ldrb r1,[r4,#0xB]
-ldr	r2,EntrySize
-mul	r1,r2
-add	r0,r1		@debuff table entry for this unit
-push	{r0}
-ldr	r0,ArmorMarchBit
-mov	r1,#8
-swi	6		@get the byte
-pop	{r2}
-add	r0,r2		@byte we are modifying
-mov	r2,#1
-lsl	r2,r1		@bit to set
-ldrb	r1,[r0]
-orr	r1,r2
-strb	r1,[r0]		@set the bit
+mov r0, r4 @ unit 
+bl GetUnitDebuffEntry 
+ldr r1, =ArmorMarchBitOffset_Link
+ldr r1, [r1] 
+bl SetBit 
+
+b PreBattleLoop
+
+AllUnitsChecked:
 
 GoBack:
 pop	{r4-r7}

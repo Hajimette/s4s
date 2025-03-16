@@ -29,3 +29,4 @@ CFLAGS := $(ARCH) -Wall -Os -mtune=arm7tdmi -mlong-calls
 # ASM to OBJ
 %.o: %.s *.s
 	$(AS) $(ARCH) $< -o $@
+	

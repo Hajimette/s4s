@@ -12,5 +12,4 @@ ALIGN 4
 SkillActivationChanceCalcLoop:
 POIN RightfulKing RightfulGod HeroSkill //skills
 POIN RightfulArch //has to go last!!
-
 WORD 0 //terminator

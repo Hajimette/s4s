@@ -32,10 +32,10 @@ ORG FreeSpaceBLRange //defined in custom definitions
 #define inBLRange
 
   //Talk and Support don't end your turn
-  //#include "QualityOfLife/ContemporaryTalkSupport/ContemporaryTalkSupport.event"
+  #include "QualityOfLife/ContemporaryTalkSupport/ContemporaryTalkSupport.event"
 
   //Hold L to toggle Anims
-  //#include "QualityOfLife/LToggle/LToggle.event"
+  #include "QualityOfLife/LToggle/LToggle.event"
 
   //negative wt/crit
   #include "QualityOfLife/NegativeWStatDisplay/NegativeDisplay.event"
@@ -45,19 +45,16 @@ ORG FreeSpaceBLRange //defined in custom definitions
   #incbin "SkillSystem/Internals/unset_attack_flag.dmp"
 
   #ifdef USE_STRMAG_SPLIT
-    
-    #ifndef USE_SAVE_EXPANSION
-	  #define USE_SAVE_EXPANSION // Force use of EMS with Str/Mag Split
-	#endif // USE_SAVE_EXPANSION
-	
 	#include "ExternalHacks/StrMagSplit/BLRange.event"
-  
   #endif // USE_STRMAG_SPLIT
 	
 #undef inBLRange
 POP
 
 ////////////////////////////////FREE SPACE OUT OF BL RANGE
+
+  // Expand unit promotion list
+  #include "ExternalHacks/ClassChgExpansion/ClassChgExpansion.event"
 
   // Display damage numbers in battle animations.
   #include "ExternalHacks/AnimNumbers/AnimNumbers.event"
@@ -66,17 +63,16 @@ POP
   #include "QualityOfLife/HpBars/HpBars.event"
 
   //Improved Sound Mixer
-  //#include "QualityOfLife/ImprovedSoundMixer/SoundMixer.event"
-  #include "QualityOfLife/m4a_hq_mixer/SoundMixer.txt"
+  #include "QualityOfLife/ImprovedSoundMixer/SoundMixer.event"
 
   //Danger Zone (select button)
   #include "QualityOfLife/DangerZone/DangerZone.event"
 
   //Event Writer ASMC
-  //#include "QualityOfLife/EventWriter/EventWriter.event"
+  #include "QualityOfLife/EventWriter/EventWriter.event"
 
   //Casual Mode (based on Event ID 0xB0)
-  //#include "QualityOfLife/CasualMode/CasualMode.event"
+  #include "QualityOfLife/CasualMode/CasualMode.event"
 
   //Movement Arrow doesn't update on allies
   #include "QualityOfLife/MovementArrowHack/MovementArrowHack.event"
@@ -87,17 +83,14 @@ POP
   //Trap Rework (Dragon Veins & Heal Tiles)
   #include "ExternalHacks/TrapRework/TrapRework.event"
   
-//Proper Range Getters	
-//  #include "ExternalHacks/ProperRangeGetters/ProperRangeGetters/ProperRangeGetters.event"
+  //Proper Range Getters
+  #include "ExternalHacks/ProperRangeGetters/ProperRangeGetters/ProperRangeGetters.event"
 
   //Leadership Stars
   #include "ExternalHacks/LeadershipStars/LeadershipStars.event"
   
-  // If uncommented, Biorhythm will be implemented.
-  // Go to "Biorhythm/Biorhythm.event" to edit settings.
-  // This adds an entry to the Pre-Battle loop and edits the status screen. There is currently no stat screen template that contains both Leadership Stars and Biorhythm, but they do function in tandem if you wish to make one.
-  // #include "ExternalHacks/Biorhythm/Biorhythm.event"
-  
+  //Biorhythm
+  #include "ExternalHacks/Biorhythm/Biorhythm.event"
 
   //Modular Stat Screen
   #include "Necessary/ModularStatScreen/ModularStatScreen.event"
@@ -114,50 +107,46 @@ POP
   
   //Modular EXP
   #include "ExternalHacks/ModularEXP/ModularEXP.event"
-
-  // If uncommented, PortraitSelectionASM will be implemented.
-  // Go to "PortraitSelectionASM/PortraitSelectionASM.event" to configure your modular portrait options.
-  // This patch normally conflitcs with Identity Problems and Random Mugs, but installing here remedies this.
-  // #include "ExternalHacks/PortraitSelectASM/PortraitSelectionASM.event"
+  
+  //Portrait Selection
+  #include "ExternalHacks/PortraitSelectASM/PortraitSelectionASM.event"
 	
   //Stairs
   #include "ExternalHacks/Stairs/Stairs.event"
-	//sme
-	#include "FixedDamageWeapons/FixedDamageWeapons.event"
-
-  //PromoteOnLevelUp
-  #include "ExternalHacks/PromoteOnLevelUp/PromoteOnLevelUp.event"
 
   //Raid
-  //#include "ExternalHacks/Raid/Raid.event"
+  #include "ExternalHacks/Raid/Raid.event"
   
   //Escape-Arrive
-  //#include "ExternalHacks/EscapeArrive/EscapeArrive.event"
-  #include "7743/EscapeMenu/EA.txt"
+  #include "ExternalHacks/EscapeArrive/EscapeArrive.event"
   
   //Debuffs
-  #include "Necessary/SuspendDebuffs/Debuffs.event"
+  #include "Necessary/Debuffs/Debuffs.event"
 
   //Stat Screens palette by allegiance
-  // #include "ExternalHacks/StatScreenAllegiance/StatScreenAllegiance.event"
+  #include "ExternalHacks/StatScreenAllegiance/StatScreenAllegiance.event"
+
+  //StealGfxFix
+  #include "QualityOfLife/StealGfxFix.event"
 
   //Menu Semitransparency
   #include "QualityOfLife/SemitransparencyChanges.event"
 
-  //#include "QualityOfLife/PrologueSupply.event"
+  //Supply available in prologue
+  #include "QualityOfLife/PrologueSupply.event"
   
   //Item Range Fix
   #include "Necessary/ItemRangeFix/ItemRangeFix.event"
   
   //Chapter Names as Text
-  //#include "QualityOfLife/TextChNames/TextChNames.event"
+  #include "QualityOfLife/TextChNames/TextChNames.event"
 
   //PC and Generic Music Hack (writes to e80000/e90000)
-  // #include "QualityOfLife/PCAndGenericMusic.event"
+  #include "QualityOfLife/PCAndGenericMusic.event"
 
-  //#include "QualityOfLife/EventRescue/EventRescue.event"
-  //#include "QualityOfLife/EventAddTraps/EventAddTraps.event"
-  //#include "QualityOfLife/EventSendToConvoy/EventSendToConvoy.event"
+  #include "QualityOfLife/EventRescue/EventRescue.event"
+  #include "QualityOfLife/EventAddTraps/EventAddTraps.event"
+  #include "QualityOfLife/EventSendToConvoy/EventSendToConvoy.event"
 
   // Fix gaining wexp from weapons you don't have wexp in (for Shadowgift/Lumina)
   #include "Necessary/FixWpnRnk.event"
@@ -183,31 +172,35 @@ POP
   
   //Status-Inflicting Weapons
   ALIGN 4
-  //#include "ExternalHacks/StatusWeapons/StatusWeapons.event"
-  #ifdef STATUS_WEAPONS2
-     #include "7743/StatusWeapons2/StatusWeapons2.event"
-  #endif
+  #include "ExternalHacks/StatusWeapons/StatusWeapons.event"
   
   //Narrow Fonts by Scraiza
   ALIGN 4
   #include "ExternalHacks/NarrowFont/NarrowFontInstaller.event"
   
+  //UTF8 Fonts by Vesly, 7743, Mokha, Colorz, Scraiza, MintX, and Bly
+  ALIGN 4 
+  #include "ExternalHacks/Fonts/Installer.event" 
+  
   //Crit Cap
   #ifdef CRIT_CAP
     #include "ExternalHacks/CritCap/CritCap.event"
   #endif
-  
+
   //Item Effect Revamp by Teraspark
   #include "Necessary/ItemEffectRevamp/IERevamp_Installer.event"
   
   //Durability-Based Items, for Skill Scrolls
   #include "Necessary/DurabilityBasedItems/DurabilityBasedItems.event"
+  
+  //Generic routines that other things may rely on 
+  #include "Necessary/Routines/Installer.event" 
 
   // Gaiden Magic 2.0
   #include "ExternalHacks/GaidenMagic/GaidenMagic.event"
   
   #ifdef INSTALL_AoE
-     #include "ExternalHacks/AoE/Installer.event"
+	#include "ExternalHacks/AoE/Installer.event"
   #endif 
   
   // Unlock working on chests
@@ -237,27 +230,6 @@ POP
   
   #include "Necessary/CalcLoops/CalcLoops.event"
 
-  #ifdef STAIRS_ASM
-    #ifndef USE_SAVE_EXPANSION
-	  #define USE_SAVE_EXPANSION // Force use of EMS with Stairs (for saving the stair debuff byte in suspend).
-	#endif // USE_SAVE_EXPANSION
-  #endif // STAIRS_ASM
-  
   // Save/Suspend Expansion
-  #ifdef USE_SAVE_EXPANSION
+    #include "Necessary/ExpandedModularSave/ExModularSave.event"
 
-    // Use new EMS-based expansion
-
-    MESSAGE "Using EMS Save/Suspend Expansion"
-
-    #include "Necessary/ExpandedModularSave_ExpandSupply/ExModularSave.event"
-
-  #else // USE_SAVE_EXPANSION
-
-    // Use legacy suspend expansion (for compatibility)
-
-    MESSAGE "Using Legacy Suspend Expansion"
-
-    #include "Necessary/SuspendDebuffs/SuspendExpansion.event"
-
-  #endif // USE_SAVE_EXPANSION

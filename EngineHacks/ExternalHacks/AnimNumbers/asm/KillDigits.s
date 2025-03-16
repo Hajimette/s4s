@@ -17,20 +17,22 @@ mov   r8, r0
 
 @ Kill existing DamageMoji procs.
 Loop:
-  ldr   r0, =gProc_efxDamageMojiEffectOBJ
-  ldr   r3, =ProcFind
+  ldr   r0, =ProcScr_efxDamageMojiEffectOBJ
+  ldr   r3, =Proc_Find
   bl    GOTO_R3
   cmp   r0, #0x0
   beq   EndLoop
-    @ Kill it, and the subAnimeEmulator proc.
-    mov   r6, r0
-    ldr   r0, [r6, #0x60]
-    ldr   r3, =EndProc
+    ldr   r6, [r0, #0x60]
+    ldr   r3, =Proc_End      @ Kill DamageMoji proc.
     bl    GOTO_R3
-    mov   r0, r6
-    ldr   r3, =EndProc
-    bl    GOTO_R3
-    b     Loop
+    cmp   r6, #0x0
+    beq   Loop              @ Skip if subAnimeEmulator proc* is NULL.
+      
+      @ Kill subAnimeEmulator proc.
+      mov   r0, r6
+      ldr   r3, =Proc_End
+      bl    GOTO_R3
+      b     Loop
 EndLoop:
 
 

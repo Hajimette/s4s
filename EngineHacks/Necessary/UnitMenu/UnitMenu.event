@@ -4,7 +4,21 @@
 #include "Extensions/Hack Installation.txt"
 #include "_UnitMenuDefs.event"
 
+#define ChapterMenuWidth 9
+#define ChapterMenuRightXCoord 20
+
+#define UnitMenuWidth 9
+#define UnitMenuLeftXCoord 1
+#define UnitMenuRightXCoord 20
+
 PUSH
+
+  // Chapter Menu stuff
+  ORG $59D216
+    BYTE ChapterMenuWidth // width
+  ORG $1CA86
+    BYTE ChapterMenuRightXCoord
+
   // Repoint Unit Menu
 
   ORG $59D1F8
@@ -12,20 +26,20 @@ PUSH
 
   // Make the unit menu wider (to fit longer words)
 
-  ORG $59d1f2
-    BYTE 0x9 // width
+  ORG $59d1f2 
+    BYTE UnitMenuWidth // width
 
   ORG $1d4fa
-    BYTE $01 // left x coord (open 1)
+    BYTE UnitMenuLeftXCoord // left x coord (open 1)
 
   ORG $1d4fc
-    BYTE $14 // right x coord (open 1)
+    BYTE UnitMenuRightXCoord // right x coord (open 1)
 
   ORG $1D44E
-    BYTE $01 // left x coord (open 2)
+    BYTE UnitMenuLeftXCoord // left x coord (open 2)
 
   ORG $1D450
-    BYTE $14 // right x coord (open 2)
+    BYTE UnitMenuRightXCoord // right x coord (open 2)
 
   /*
 
@@ -34,28 +48,28 @@ PUSH
   ORG $22882
     BYTE $01 // left x coord (go back 1)
 
-  ORG $22884
-    BYTE $14 // right x coord (go back 1)
-
   */
 
+  ORG $22884
+    BYTE UnitMenuRightXCoord // right x coord (go back 1)
+
   ORG $22818
-    BYTE $01 // left x coord (go back 2)
+    BYTE UnitMenuLeftXCoord // left x coord (go back 2)
 
   ORG $2281A
-    BYTE $14 // right x coord (go back 2)
+    BYTE UnitMenuRightXCoord // right x coord (go back 2)
 
   ORG $22772
-    BYTE $01 // left x coord (go back 3)
+    BYTE UnitMenuLeftXCoord // left x coord (go back 3)
 
   ORG $22774
-    BYTE $14 // right x coord (go back 3)
+    BYTE UnitMenuRightXCoord // right x coord (go back 3)
 
   ORG $23660
-    BYTE $01 // left x coord (go back 4)
+    BYTE UnitMenuLeftXCoord // left x coord (go back 4)
 
   ORG $23662
-    BYTE $14 // right x coord (go back 4)
+    BYTE UnitMenuRightXCoord // right x coord (go back 4)
 
 POP
 
@@ -69,15 +83,10 @@ UnitMenuTable:
   MenuCommand(0x67A, 0x6CC, BlueText, $22FDC, $23020)
   // UM_Seize
   #ifdef ESCAPE_ARRIVE
-    MenuCommand(ArriveName, ArriveDesc, BlueText, ArriveCheck|IsPointer, $8023021)
-    MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeLordUsability|IsPointer, $8023021)
-    MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeGeneralUsability|IsPointer, EscapeGeneralEffect|IsPointer)
+    MenuCommand(ArriveName, ArriveDesc, BlueText, ArriveCommandUsability, ArriveCommandEffect)
+    MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeCommandUsability, EscapeCommandEffect)
   #endif // ESCAPE_ARIVE
-  #ifdef _7743_ESCAPE_MENU
-    MenuCommand(EscapeName, EscapeDesc, BlueText, IsLoca0x13|IsPointer, RunEvent13)
-    MenuCommand(ArriveName, ArriveDesc, BlueText, IsLoca0x19|IsPointer, RunEvent19)
-  #endif // _7743_ESCAPE_MENU
-
+  
   #ifdef DRAGON_VEINS
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
   #endif // DRAGON_VEINS
@@ -104,7 +113,17 @@ UnitMenuTable:
 
 	//Capture
 	MenuCommand(UM_Capture, UM_CaptureDesc, NormalText, Capture_Usability, Capture_Effect_Func, $22c31, $22c99)
+
+  //GoddessDance
+	MenuCommand(UM_GoddessDance, UM_GoddessDanceDesc, NormalText, GoddessDanceUsability, GoddessDanceEffect, $22c31, $22c99)
+
+  //Detonate
+	MenuCommand(UM_Detonate, UM_DetonateDesc, NormalText, DetonateUsability, DetonateEffect, $22c31, $22c99)
+
   #endif // COMBAT_ARTS
+
+  //Stride
+	MenuCommand(UM_Stride, UM_StrideDesc, NormalText, StrideUsability, StrideEffect, $22c31, $22c99)
 
   UM_Staff
   UM_Ride
@@ -115,7 +134,8 @@ UnitMenuTable:
   MenuCommand(0x67E,0x6C2,NormalText,NewDanceUsability,0x231D0)
 
 #ifdef INSTALL_AoE
-  MenuCommand(UM_AoEName, UM_AoEDesc, NormalText, AoE_AreAnyUsable, AoE_Effect)
+#define MenuCommand_BPress(name,description,colour,usability,effect, unknown2) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; POIN 0 0 unknown2|1"
+  MenuCommand_BPress(UM_AoEName, UM_AoEDesc, NormalText, AoE_AreAnyUsable, AoE_Effect, AoE_ClearGraphics)
 #endif 
 
 
@@ -171,26 +191,21 @@ UnitMenuTable:
 	MenuCommand(UM_Pivot,      UM_PivotDesc,      NormalText, prPivotCommand_Usability,      prPivotCommand_Effect)
 	MenuCommand(UM_Reposition, UM_RepositionDesc, NormalText, prRepositionCommand_Usability, prRepositionCommand_Effect)
 	MenuCommand(UM_Swap,       UM_SwapDesc,       NormalText, prSwapCommand_Usability,       prSwapCommand_Effect)
-  MenuCommand(UM_Swarp,      UM_SwarpDesc,      NormalText, prSwarpCommand_Usability,      prSwarpCommand_Effect)
+	MenuCommand(UM_Swarp,      UM_SwarpDesc,      NormalText, prSwarpCommand_Usability,      prSwarpCommand_Effect)
   #endif // COMBAT_ARTS
-  
+ MenuCommand(UM_DrawBack, UM_DrawBackDesc, NormalText, DrawBack_Usability, DrawBack_Effect) 
+ MenuCommand(UM_Sacrifice, UM_SacrificeDesc, NormalText, Sacrifice_Usability, Sacrifice_Effect)
+ MenuCommand(UM_ArdentSacrifice, UM_ArdentSacrificeDesc, NormalText, ArdentSacrifice_Usability, ArdentSacrifice_Effect)
+ MenuCommand(UM_ReciprocalAid, UM_ReciprocalAidDesc, NormalText, ReciprocalAid_Usability, ReciprocalAid_Effect)
+ 
+ 
   UM_Rescue
   UM_Give
   UM_Take
   // MenuCommand(0x689, 0x6c5, 0, 0x228a4, RescueEffect) //rescue
   // MenuCommand(UMText_Transfer,UMText_TransferDesc,GreenText,TransferUsability,TransferTarget) //transfer
   // MenuCommand(UMText_Switch,UMText_SwitchDesc,GreenText,SwitchUsability,SwitchCommand)   //switch
-
-  #ifdef __USE_CAPTURE__
-    //If the unit you are capturing has an item, the Drop menu will change to grey.
-    //This is to avoid forgetting to pick up items.
-	#define MenuCommandWithDraw(name,description,colour,ID,usability,effect, OnDraw) "WORD $80d7d94; SHORT name description; BYTE colour ID; SHORT 0; POIN usability|1 OnDraw|1 effect|1; WORD 0x0 0x0 0x0"	//{U}
-
-    MenuCommandWithDraw(0x68A, 0x6C6, NormalText, 0x64, 0x22911, 0x22949, DropCommandPaint_MenuGray_IfCaptureEnemy)
-  #else
-    UM_Drop
-  #endif
-
+  UM_Drop
 
   #ifdef __DEBUG__
     MenuCommand(UM_EditSkill, UM_EditSkillDesc, OrangeText, $04F449, SkillDebugCommand_OnSelect)
@@ -198,34 +213,9 @@ UnitMenuTable:
 
   UM_Item
   UM_Trade
-
+  
   //UM_Supply
   MenuCommand(0x68F,0x6D5,GreenText,NewSupplyUsability,0x23FB8)
-  
-  
-  //FEBuilderGBA ADD
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  UM_Null
-  
-
   
   UM_Wait
 

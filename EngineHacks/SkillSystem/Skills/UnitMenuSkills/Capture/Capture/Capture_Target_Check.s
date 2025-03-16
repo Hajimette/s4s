@@ -33,9 +33,9 @@ mov		r1,r4
 cmp		r0,#0x0
 beq		GoBack				@can't capture if you can't rescue
 
-ldr	r1, [r4]
+ldr	r1, [r5]
 ldr	r1, [r1, #40]
-ldr	r0, [r4, #4]
+ldr	r0, [r5, #4]
 ldr	r0, [r0, #40]
 orr	r1, r0
 lsl	r0, r1, #22
