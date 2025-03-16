@@ -21,6 +21,7 @@
 #define Kiryu 0x26
 #define Korone 0x3F
 #define Kurokami 0x41
+#define Laplace 0x1F
 #define LuiMorph 0x2F
 #define LuiN 0x15
 #define Mel 0x52
@@ -191,6 +192,14 @@ Kurokami:
 #incbin "Kurokami_palette.dmp"
 #incbin "Kurokami_minimug.dmp"
 setMugEntry(Kurokami, KurokamiData, 4, 6, 4, 4)
+
+ALIGN 16
+Laplace:
+#incbin "Laplace_mug.dmp"
+#incbin "Laplace_frames.dmp"
+#incbin "Laplace_palette.dmp"
+#incbin "Laplace_minimug.dmp"
+setMugEntry(Laplace, LaplaceData, 3, 5, 3, 3)
 
 ALIGN 16
 LuiMorph:
