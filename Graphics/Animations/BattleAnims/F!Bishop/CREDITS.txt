@@ -1,3 +1,5 @@
-Animation by Melia.
+Original animation by Melia.
 
-Note that this animation lacks a shadow, making it appear to 'float' on battle platforms.
+Updated still/look by Hypergammaspaces.
+
+New animation by Knabepicer, Feier.
