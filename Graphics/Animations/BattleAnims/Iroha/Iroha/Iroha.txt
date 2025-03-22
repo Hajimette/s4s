@@ -1,0 +1,320 @@
+/// - Mode 1
+C03
+C07
+1 p- Iroha_000.png
+3 p- Iroha_001.png
+3 p- Iroha_002.png
+3 p- Iroha_003.png
+3 p- Iroha_004.png
+3 p- Iroha_005.png
+3 p- Iroha_006.png
+3 p- Iroha_007.png
+C36
+2 p- Iroha_008.png
+2 p- Iroha_009.png
+2 p- Iroha_010.png
+15 p- Iroha_011.png
+3 p- Iroha_012.png
+C24
+3 p- Iroha_013.png
+C24
+3 p- Iroha_014.png
+3 p- Iroha_015.png
+3 p- Iroha_016.png
+3 p- Iroha_017.png
+3 p- Iroha_018.png
+3 p- Iroha_018.png
+2 p- Iroha_019.png
+C24
+2 p- Iroha_020.png
+C1A
+C20
+2 p- Iroha_021.png
+3 p- Iroha_022.png
+3 p- Iroha_023.png
+C25
+4 p- Iroha_024.png
+4 p- Iroha_025.png
+C25
+4 p- Iroha_024.png
+4 p- Iroha_026.png
+4 p- Iroha_027.png
+4 p- Iroha_028.png
+3 p- Iroha_029.png
+3 p- Iroha_030.png
+4 p- Iroha_031.png
+4 p- Iroha_032.png
+5 p- Iroha_033.png
+6 p- Iroha_034.png
+C43
+8 p- Iroha_035.png
+10 p- Iroha_036.png
+C04
+C01
+8 p- Iroha_037.png
+2 p- Iroha_004.png
+2 p- Iroha_003.png
+2 p- Iroha_002.png
+2 p- Iroha_001.png
+C06
+C0D
+~~~
+/// - Mode 3
+C03
+C07
+1 p- Iroha_000.png
+2 p- Iroha_038.png
+2 p- Iroha_039.png
+2 p- Iroha_000.png
+2 p- Iroha_040.png
+2 p- Iroha_041.png
+2 p- Iroha_040.png
+2 p- Iroha_038.png
+2 p- Iroha_039.png
+2 p- Iroha_000.png
+2 p- Iroha_040.png
+2 p- Iroha_041.png
+1 p- Iroha_040.png
+1 p- Iroha_038.png
+1 p- Iroha_039.png
+1 p- Iroha_042.png
+1 p- Iroha_000.png
+1 p- Iroha_042.png
+1 p- Iroha_000.png
+1 p- Iroha_043.png
+1 p- Iroha_001.png
+1 p- Iroha_044.png
+1 p- Iroha_002.png
+1 p- Iroha_045.png
+1 p- Iroha_003.png
+1 p- Iroha_046.png
+1 p- Iroha_037.png
+1 p- Iroha_046.png
+1 p- Iroha_037.png
+1 p- Iroha_046.png
+1 p- Iroha_037.png
+1 p- Iroha_046.png
+2 p- Iroha_008.png
+C36
+2 p- Iroha_047.png
+2 p- Iroha_010.png
+2 p- Iroha_048.png
+2 p- Iroha_011.png
+2 p- Iroha_048.png
+2 p- Iroha_011.png
+2 p- Iroha_048.png
+2 p- Iroha_011.png
+2 p- Iroha_011.png
+1 p- Iroha_048.png
+1 p- Iroha_011.png
+2 p- Iroha_049.png
+C22
+2 p- Iroha_050.png
+2 p- Iroha_051.png
+2 p- Iroha_052.png
+2 p- Iroha_053.png
+2 p- Iroha_018.png
+3 p- Iroha_054.png
+3 p- Iroha_055.png
+C20
+3 p- Iroha_056.png
+3 p- Iroha_057.png
+C20
+3 p- Iroha_058.png
+3 p- Iroha_059.png
+C20
+3 p- Iroha_060.png
+3 p- Iroha_061.png
+C20
+3 p- Iroha_062.png
+3 p- Iroha_063.png
+C20
+C04
+3 p- Iroha_064.png
+3 p- Iroha_065.png
+C08
+C20
+3 p- Iroha_066.png
+3 p- Iroha_067.png
+3 p- Iroha_068.png
+3 p- Iroha_069.png
+3 p- Iroha_070.png
+3 p- Iroha_071.png
+3 p- Iroha_072.png
+3 p- Iroha_073.png
+3 p- Iroha_074.png
+3 p- Iroha_075.png
+3 p- Iroha_074.png
+3 p- Iroha_075.png
+3 p- Iroha_074.png
+2 p- Iroha_074.png
+2 p- Iroha_075.png
+2 p- Iroha_074.png
+2 p- Iroha_075.png
+2 p- Iroha_074.png
+2 p- Iroha_074.png
+2 p- Iroha_075.png
+2 p- Iroha_074.png
+2 p- Iroha_075.png
+2 p- Iroha_074.png
+20 p- Iroha_023.png
+C23
+2 p- Iroha_024.png
+12 p- Iroha_025.png
+C01
+C23
+2 p- Iroha_024.png
+10 p- Iroha_026.png
+3 p- Iroha_076.png
+3 p- Iroha_077.png
+C24
+3 p- Iroha_078.png
+3 p- Iroha_079.png
+C24
+3 p- Iroha_078.png
+3 p- Iroha_079.png
+C24
+3 p- Iroha_078.png
+3 p- Iroha_079.png
+C24
+3 p- Iroha_080.png
+3 p- Iroha_081.png
+4 p- Iroha_082.png
+4 p- Iroha_083.png
+C43
+3 p- Iroha_084.png
+3 p- Iroha_001.png
+2 p- Iroha_000.png
+C06
+C0D
+~~~
+/// - Mode 5
+C03
+C07
+1 p- Iroha_000.png
+C22
+3 p- Iroha_001.png
+3 p- Iroha_084.png
+3 p- Iroha_085.png
+C05
+3 p- Iroha_086.png
+C01
+C23
+3 p- Iroha_085.png
+3 p- Iroha_084.png
+1 p- Iroha_000.png
+C06
+C0D
+~~~
+/// - Mode 6
+C03
+C07
+1 p- Iroha_000.png
+C22
+3 p- Iroha_001.png
+3 p- Iroha_084.png
+3 p- Iroha_085.png
+3 p- Iroha_086.png
+3 p- Iroha_087.png
+3 p- Iroha_088.png
+3 p- Iroha_086.png
+3 p- Iroha_087.png
+3 p- Iroha_088.png
+3 p- Iroha_086.png
+3 p- Iroha_087.png
+3 p- Iroha_088.png
+C05
+1 p- Iroha_086.png
+C01
+C23
+3 p- Iroha_085.png
+3 p- Iroha_084.png
+1 p- Iroha_000.png
+C06
+C0D
+~~~
+/// - Mode 7
+C02
+1 p- Iroha_000.png
+C0E
+2 p- Iroha_089.png
+1 p- Iroha_090.png
+2 p- Iroha_089.png
+C01
+C0D
+~~~
+/// - Mode 8
+C02
+1 p- Iroha_000.png
+C0E
+3 p- Iroha_089.png
+1 p- Iroha_090.png
+2 p- Iroha_089.png
+C01
+C0D
+~~~
+/// - Mode 9
+1 p- Iroha_000.png
+C01
+~~~
+/// - Mode 10
+1 p- Iroha_000.png
+C01
+~~~
+/// - Mode 11
+1 p- Iroha_000.png
+C01
+~~~
+/// - Mode 12
+C03
+C07
+1 p- Iroha_000.png
+3 p- Iroha_001.png
+3 p- Iroha_002.png
+3 p- Iroha_003.png
+3 p- Iroha_004.png
+3 p- Iroha_005.png
+3 p- Iroha_006.png
+3 p- Iroha_007.png
+C36
+2 p- Iroha_008.png
+2 p- Iroha_009.png
+2 p- Iroha_010.png
+15 p- Iroha_011.png
+3 p- Iroha_012.png
+C24
+3 p- Iroha_013.png
+C24
+3 p- Iroha_014.png
+3 p- Iroha_015.png
+3 p- Iroha_016.png
+3 p- Iroha_017.png
+3 p- Iroha_018.png
+3 p- Iroha_018.png
+2 p- Iroha_019.png
+C24
+C04
+2 p- Iroha_020.png
+2 p- Iroha_021.png
+3 p- Iroha_022.png
+3 p- Iroha_023.png
+C01
+4 p- Iroha_028.png
+3 p- Iroha_029.png
+3 p- Iroha_030.png
+4 p- Iroha_031.png
+4 p- Iroha_032.png
+5 p- Iroha_033.png
+6 p- Iroha_034.png
+C43
+8 p- Iroha_035.png
+10 p- Iroha_036.png
+8 p- Iroha_037.png
+2 p- Iroha_004.png
+2 p- Iroha_003.png
+2 p- Iroha_002.png
+2 p- Iroha_001.png
+C06
+C0D
+~~~
+/// - End of animation
