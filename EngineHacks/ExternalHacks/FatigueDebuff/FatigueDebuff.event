@@ -1,0 +1,6 @@
+PUSH
+ORG 0x3388C
+jumpToHack(InitUnitHook)
+POP
+
+#include FatigueDebuff.lyn.event

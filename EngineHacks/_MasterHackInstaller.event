@@ -108,6 +108,14 @@ POP
   //Modular EXP
   #include "ExternalHacks/ModularEXP/ModularEXP.event"
   
+  //FatigueDebuffs
+  #include "ExternalHacks/FatigueDebuff/FatigueDebuff.event"
+
+  // If uncommented, PortraitSelectionASM will be implemented.
+  // Go to "PortraitSelectionASM/PortraitSelectionASM.event" to configure your modular portrait options.
+  // This patch normally conflitcs with Identity Problems and Random Mugs, but installing here remedies this.
+  // #include "ExternalHacks/PortraitSelectASM/PortraitSelectionASM.event"
+  
   //Portrait Selection
   #include "ExternalHacks/PortraitSelectASM/PortraitSelectionASM.event"
 	
