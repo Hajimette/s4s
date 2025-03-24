@@ -428,3 +428,4 @@
 #define SS_FatigueText 0x0FB6
 #define MessageFatigueRestored 0x0FB7
 #define SS_FatigueRText 0xFB8
+#define ItemMenuGrayStealText 0xFB9
