@@ -1,9 +1,6 @@
 
 
 ALIGN 4
-#include "Barricade/BarricadeHook.lyn.event" // Barricade uses r11 for various things through combat. This unsets it afterward.
-
-ALIGN 4
 Proc_Devil:
 #incbin "Devil/proc_devil.dmp"
 POIN SkillTester
@@ -45,6 +42,12 @@ Proc_Sol:
 #incbin "Sol/proc_sol.dmp"
 POIN SkillTester
 WORD SolID
+WORD LiquidOozeID
+
+Proc_SolarBrace:
+#incbin "SolarBrace/proc_solarbrace.dmp"
+POIN SkillTester
+WORD SolarBraceID
 WORD LiquidOozeID
 
 Proc_Luna:
@@ -98,6 +101,11 @@ Proc_Colossus:
 POIN SkillTester
 WORD ColossusID
 
+Proc_Pickup:
+#incbin "Pickup/proc_pickup.dmp"
+POIN SkillTester
+WORD PickupID
+
 Proc_Ignis:
 #incbin "Ignis/proc_ignis.dmp"
 POIN SkillTester
@@ -150,6 +158,12 @@ BlackMagic_AnimsOff:
 #incbin "BlackMagic/BlackMagic_AnimsOff.dmp"
 
 ALIGN 4
+Proc_Pursuer:
+#incbin "Pursuer/Pursuer.dmp"
+POIN SkillTester
+WORD PursuerID
+
+ALIGN 4
 Proc_Corona:
 #incbin "Corona/proc_corona.dmp"
 POIN SkillTester
@@ -190,6 +204,8 @@ Proc_Eclipse:
 #incbin "Eclipse/proc_eclipse.dmp"
 POIN SkillTester
 WORD EclipseID
+WORD CounterID
+WORD CountermagicID
 
 ALIGN 4
 Proc_Corrosion:
@@ -228,4 +244,4 @@ Proc_CmbArtHpCost:
 //BYTE 0x8 //not exactly sure what this is, but it makes berserk palette only last for one round, rather than throughout, and this fixes it
 //Note to self: if poison bit is set in rounds data, 0x2000 is set at...somewhere, and that's later checked at 55342. 55350 = mov r1,#1; replace 1 with status id
 
-#include "Animations/SkillAnimations.event"
+#include "_Animations/SkillAnimations.event"

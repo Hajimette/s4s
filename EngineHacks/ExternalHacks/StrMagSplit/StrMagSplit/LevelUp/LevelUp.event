@@ -142,13 +142,14 @@ PUSH
 	ORG $7F43C
 	POIN Growths_Anims_Off_Stat_Name_Table
 	
-	//Check Mag Cap
-	ORG $2C008
-	jumpToHack(LevelupMagCap)
-	
 	/*//Add mag boost in battle struct // This has been incorporated into MSS -> Write_Growths_To_Battle_Struct. - Snek
 	ORG $2BB44
 	callHack_r3(Write_Mag_Growth)*/
+	
+	//Check Mag Cap
+    ORG $2C008
+    jumpToHack(LevelupMagCap)
+	
 POP
 
 ALIGN 4

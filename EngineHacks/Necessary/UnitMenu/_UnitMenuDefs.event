@@ -43,7 +43,4 @@
 //                                          name    desc    color           usability pointer               effect pointer  
 #define UM_Separator  "WORD 0 0 0 0 0 0 0 0 0"
 
-//FEBuilderGBA ADD
-#define UM_Null       "BYTE $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $51 $F4 $04 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
-
 #endif // UNIT_MENU_DEFINITIONS

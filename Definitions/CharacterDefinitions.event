@@ -1,0 +1,156 @@
+#define Amelia 0x01
+#define Reine 0x02
+#define Mumei 0x03
+#define Fauna 0x04
+#define Miko 0x05
+#define Suisei 0x06
+#define Baelz 0x07
+#define Polka 0x08
+#define Noel 0x09
+#define Flare 0x0A
+#define Watame 0x0B
+#define Nene 0x0C
+#define Luna 0x0D
+#define Subaru 0x0E
+#define Iofi 0x0F
+#define Roboco 0x10
+#define Risu 0x11
+#define Matsuri 0x12
+#define Aki 0x13
+#define Botan 0x14
+#define Sora 0x15
+#define AZKi 0x16
+#define Pekora 0x17
+#define Moona 0x18
+#define Lamy 0x19
+#define Chloe 0x1A
+#define Rushia 0x1B
+#define Kiara 0x1C
+#define Aqua 0x1D
+#define Friend_C 0x1E
+#define Shion 0x1F
+#define Marine 0x20
+#define Gura 0x21
+#define Ina 0x22
+#define Calliope 0x23
+#define Ollie 0x24
+#define Shirakami 0x25
+#define Korone 0x26
+#define Okayu 0x27
+#define Mio 0x28
+#define Irys 0x29
+#define Kanata 0x2A
+#define Towa 0x2B
+#define Mel 0x2C
+#define Choco 0x2D
+#define Lui 0x2E
+#define Laplus 0x2F
+#define Anya 0x30
+#define Kobo 0x31
+#define Zeta 0x32
+#define Kaela 0x33
+#define Iroha 0x34
+#define Koyori 0x35
+#define Sana 0x36
+#define Ayame 0x37
+#define Kronii 0x38
+#define Kurokami 0x39
+#define PHaato 0xF9
+#define Pchama 0xF9
+
+
+// Gaiden Versions
+#define Botan_Gaiden 0x3C
+#define Risu_Gaiden 0x3D
+#define RBC_Gaiden 0x3E
+
+
+//Bosses
+#define Mori 0x41
+#define Nousagi1 0x42
+#define Nousagi2 0x43
+#define Nousagi3 0x44
+#define Nousagi4 0x45
+#define Nousagi5 0x46
+#define Nousagi6 0x47
+#define Nousagi7 0x48
+#define Entombed_boss 0x49
+#define Entombed_boss2 0x4A
+#define Anti 0x4B
+#define Kronii_Boss 0x4D
+#define Klonii 0x4E
+#define Klonii2 0x4f
+#define Nousagi8 0x55
+#define Pekoson 0x56
+#define Smol_Ame 0x57
+#define Nousagi9 0x58
+#define Comer 0x5A
+#define Skeleton King 0x5B
+#define Galzuschama 0x5E
+#define Laufey 0x61
+#define Ursula 0x63
+#define Limstella 0x64
+#define NousagiA 0x68
+#define NousagiB 0x69
+#define Galzuschama_babymode 0x6A
+#define Haato 0x6B
+#define Haachama 0x6C
+#define Capital 0x6D
+#define Ceres 0x74
+#define Nanashi 0x75
+#define Hakos 0x76
+#define Tskumo 0x77
+#define Laplace 0x78
+#define Irysosus 0x79
+#define Gloom 0x7A
+#define Bloom 0x7B
+#define Gen_Moona 0x9D
+#define Kureji 0x9E
+#define Pavolia 0x9F
+#define Melfissa 0xA0
+#define Ayunda 0xA1
+#define Hoshinova 0xA2
+#define Airani 0xA3
+#define Kanaeru 0xA4
+#define Kovalskia 0xA5
+#define Vestia 0xA6
+#define Gore1 0xC8
+#define Gore2 0xC9
+#define Hanako 0xCB
+#define Deadbeat 0xCC
+#define Yagoo 0xDE
+#define Alt_Amelia 0xDF
+#define Ninomae 0xE6
+#define Ship 0xE7
+#define Ship2 0xE8
+#define Ship3 0xE9
+#define Ship4 0xEA
+#define Ship5 0xEB
+#define Ship6 0xEC
+#define Ship7 0xED
+#define Neko 0xEE
+
+
+
+// Deadlords
+#define Lui_Deadlord 0xFD
+#define Sora_Deadlord 0xC7
+#define Zeta_Deadlord 0x5C
+#define AZKi_Morph 0x5F
+
+
+// Agua
+#define Aqua_20 0xCA
+#define Aqua_13 0xEF
+
+// Amongus
+#define Red 0x4C
+#define Megasus 0x6E
+#define Dark_green 0x6F
+#define Yellow 0x70
+#define Black 0x71
+#define White 0x72
+#define Orange 0x73
+
+// Regular Enemies
+#define Dancer 0x59

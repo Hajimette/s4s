@@ -52,12 +52,11 @@ POP
 ALIGN 4
 FatigueExemptCharList:
 BYTE Eirika
-BYTE Ephraim
 BYTE 0
 
 ALIGN 4
 FatigueStartingChapter:
-BYTE 0
+BYTE 06
 
 ALIGN 4
 CharacterStructFatigueByte: //for EMS

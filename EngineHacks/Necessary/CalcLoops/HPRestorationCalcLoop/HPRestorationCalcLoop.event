@@ -15,13 +15,6 @@ POIN Renewal Relief Imbue Forager Camaraderie Amaterasu Bond
 #ifdef HEAL_TILES
 POIN HealTiles
 #endif // HEAL_TILES
-
-POIN 0xA2EDE|1	//DUMMY mov r0,r1; bx lr
-POIN 0xA2EDE|1	//DUMMY mov r0,r1; bx lr
-POIN 0xA2EDE|1	//DUMMY mov r0,r1; bx lr
-POIN 0xA2EDE|1	//DUMMY mov r0,r1; bx lr
-POIN 0xA2EDE|1	//DUMMY mov r0,r1; bx lr
-
 WORD 0 //terminator
 
 

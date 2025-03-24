@@ -1,0 +1,331 @@
+// setMugEntry(UnitMugID, UnitMugData, MouthX, MouthY, EyeX, EyeY)
+#define setMugEntryExtend(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, extend1X, extend1Y, extend2X, extend2Y)"PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; BYTE extend1X extend1Y extend2X extend2Y; BYTE mouthX mouthY eyeX eyeY; BYTE 1 0 1 0; POP"
+
+#define AmeliaAlt1 0xD2
+#define Bloom 0xC6
+#define Chloe 0x23
+#define Choco 0xB6
+#define Corruptchama 0x4A
+#define Corrupthaato 0x3C
+#define Fadedhaato 0x47
+#define Galzus 0xB9
+#define Gloom 0xC7
+#define Haatoeyepatch 0x40
+#define HaatoNeck 0x4F
+#define IMP 0x28
+#define IMPWand 0x44
+#define IofiEvil 0xF1
+#define Iofifteen 0x14
+#define Kaela 0xC4
+#define KaelaEvil 0xF3
+#define Kiryu 0x26
+#define Korone 0x3F
+#define Kurokami 0x41
+#define Laplace 0x1F
+#define LuiMorph 0x2F
+#define LuiN 0x15
+#define Mel 0x52
+#define Okayu 0x42
+#define Ollie 0x45
+#define OllieEvil 0xF0
+#define Reine 0x4
+#define ReineEvil 0xF7
+#define Sana 0x53
+#define Towa 0x56
+#define Yagoo 0xD4
+#define Zeta 0x12
+#define ZetaMorph 0xD9
+#define ZetaSus 0xF5
+
+
+ALIGN 16
+Bloom:
+#incbin "Bloom_mug.dmp"
+#incbin "Bloom_frames.dmp"
+#incbin "Bloom_palette.dmp"
+#incbin "Bloom_minimug.dmp"
+setMugEntry(Bloom, BloomData, 2, 8, 2, 6)
+
+
+ALIGN 16
+Chloe:
+#incbin "Chloe_mug.dmp"
+#incbin "Chloe_frames.dmp"
+#incbin "Chloe_palette.dmp"
+#incbin "Chloe_minimug.dmp"
+setMugEntry(Chloe, ChloeData, 3, 6, 3, 4)
+
+ALIGN 16
+Choco:
+#incbin "Choco_mug.dmp"
+#incbin "Choco_frames.dmp"
+#incbin "Choco_palette.dmp"
+#incbin "Choco_minimug.dmp"
+setMugEntry(Choco, ChocoData, 3, 5, 3, 3)
+
+
+ALIGN 16
+Corruptchama:
+#incbin "Corruptchama_mug.dmp"
+#incbin "Corruptchama_frames.dmp"
+#incbin "Corruptchama_palette.dmp"
+#incbin "Corruptchama_minimug.dmp"
+setMugEntry(Corruptchama, CorruptchamaData, 3, 7, 3, 5)
+
+ALIGN 16
+Corrupthaato:
+#incbin "Corrupthaato_mug.dmp"
+#incbin "Corrupthaato_frames.dmp"
+#incbin "Corrupthaato_palette.dmp"
+#incbin "Corrupthaato_minimug.dmp"
+setMugEntry(Corrupthaato, CorrupthaatoData, 3, 7, 3, 5)
+
+ALIGN 16
+Fadedhaato:
+#incbin "Fadedhaato_mug.dmp"
+#incbin "Fadedhaato_frames.dmp"
+#incbin "Fadedhaato_palette.dmp"
+#incbin "Fadedhaato_minimug.dmp"
+setMugEntry(Fadedhaato, FadedhaatoData, 3, 7, 3, 5)
+
+ALIGN 16
+Galzus:
+#incbin "Galzus_mug.dmp"
+#incbin "Galzus_frames.dmp"
+#incbin "Galzus_palette.dmp"
+#incbin "Galzus_minimug.dmp"
+setMugEntry(Galzus, GalzusData, 3, 7, 3, 5)
+
+ALIGN 16
+Gloom:
+#incbin "Gloom_mug.dmp"
+#incbin "Gloom_frames.dmp"
+#incbin "Gloom_palette.dmp"
+#incbin "Gloom_minimug.dmp"
+setMugEntry(Gloom, GloomData, 2, 8, 3, 6)
+
+ALIGN 16
+Bloom:
+#incbin "Haatoeyepatch_mug.dmp"
+#incbin "Haatoeyepatch_frames.dmp"
+#incbin "Haatoeyepatch_palette.dmp"
+#incbin "Haatoeyepatch_minimug.dmp"
+setMugEntry(Haatoeyepatch, HaatoeyepatchData, 3, 7, 3, 5)
+
+ALIGN 16
+HaatoNeck:
+#incbin "HaatoNeck_mug.dmp"
+#incbin "HaatoNeck_frames.dmp"
+#incbin "HaatoNeck_palette.dmp"
+#incbin "HaatoNeck_minimug.dmp"
+setMugEntry(HaatoNeck, HaatoNeckData, 3, 7, 3, 5)
+
+ALIGN 16
+IMP:
+#incbin "IMP_mug.dmp"
+#incbin "IMP_frames.dmp"
+#incbin "IMP_palette.dmp"
+#incbin "IMP_minimug.dmp"
+setMugEntry(IMP, IMPData, 5, 6, 5, 4)
+
+ALIGN 16
+IMPWand:
+#incbin "IMPWand_mug.dmp"
+#incbin "IMPWand_frames.dmp"
+#incbin "IMPWand_palette.dmp"
+#incbin "IMPWand_minimug.dmp"
+setMugEntry(IMPWand, IMPWandData, 5, 6, 5, 4)
+
+
+ALIGN 16
+IofiEvil:
+#incbin "IofiEvil_mug.dmp"
+#incbin "IofiEvil_frames.dmp"
+#incbin "IofiEvil_palette.dmp"
+#incbin "IofiEvil_minimug.dmp"
+setMugEntry(IofiEvil, IofiEvilData, 3, 6, 3, 4)
+
+ALIGN 16
+Iofifteen:
+#incbin "Iofifteen_mug.dmp"
+#incbin "Iofifteen_frames.dmp"
+#incbin "Iofifteen_palette.dmp"
+#incbin "Iofifteen_minimug.dmp"
+setMugEntry(Iofifteen, IofifteenData, 3, 6, 3, 4)
+
+ALIGN 16
+Kaela:
+#incbin "Kaela_mug.dmp"
+#incbin "Kaela_frames.dmp"
+#incbin "Kaela_palette.dmp"
+#incbin "Kaela_minimug.dmp"
+setMugEntry(Kaela, KaelaData, 5, 5, 5, 3)
+
+ALIGN 16
+KaelaEvil:
+#incbin "KaelaEvil_mug.dmp"
+#incbin "KaelaEvil_frames.dmp"
+#incbin "KaelaEvil_palette.dmp"
+#incbin "KaelaEvil_minimug.dmp"
+setMugEntry(KaelaEvil, KaelaEvilData, 5, 5, 5, 3)
+
+ALIGN 16
+Kiryu:
+#incbin "Kiryu_mug.dmp"
+#incbin "Kiryu_frames.dmp"
+#incbin "Kiryu_palette.dmp"
+#incbin "Kiryu_minimug.dmp"
+setMugEntry(Kiryu, KiryuData, 4, 6, 4, 4)
+
+ALIGN 16
+Korone:
+#incbin "Korone_mug.dmp"
+#incbin "Korone_frames.dmp"
+#incbin "Korone_palette.dmp"
+#incbin "Korone_minimug.dmp"
+setMugEntry(Korone, KoroneData, 5, 7, 5, 5)
+
+ALIGN 16
+Kurokami:
+#incbin "Kurokami_mug.dmp"
+#incbin "Kurokami_frames.dmp"
+#incbin "Kurokami_palette.dmp"
+#incbin "Kurokami_minimug.dmp"
+setMugEntry(Kurokami, KurokamiData, 4, 6, 4, 4)
+
+ALIGN 16
+Laplace:
+#incbin "Laplace_mug.dmp"
+#incbin "Laplace_frames.dmp"
+#incbin "Laplace_palette.dmp"
+#incbin "Laplace_minimug.dmp"
+setMugEntry(Laplace, LaplaceData, 3, 5, 3, 3)
+
+ALIGN 16
+LuiMorph:
+#incbin "LuiMorph_mug.dmp"
+#incbin "LuiMorph_frames.dmp"
+#incbin "LuiMorph_palette.dmp"
+#incbin "LuiMorph_minimug.dmp"
+setMugEntry(LuiMorph, LuiMorphData, 4, 5, 4, 3)
+
+ALIGN 16
+LuiN:
+#incbin "LuiN_mug.dmp"
+#incbin "LuiN_frames.dmp"
+#incbin "LuiN_palette.dmp"
+#incbin "LuiN_minimug.dmp"
+setMugEntry(LuiN, LuiNData, 4, 5, 4, 3)
+
+ALIGN 16
+Mel:
+#incbin "Mel_mug.dmp"
+#incbin "Mel_frames.dmp"
+#incbin "Mel_palette.dmp"
+#incbin "Mel_minimug.dmp"
+setMugEntry(Mel, MelData, 3, 6, 3, 4)
+
+ALIGN 16
+Okayu:
+#incbin "Okayu_mug.dmp"
+#incbin "Okayu_frames.dmp"
+#incbin "Okayu_palette.dmp"
+#incbin "Okayu_minimug.dmp"
+setMugEntry(Okayu, OkayuData, 3, 6, 3, 4)
+
+ALIGN 16
+Ollie:
+#incbin "Ollie_mug.dmp"
+#incbin "Ollie_frames.dmp"
+#incbin "Ollie_palette.dmp"
+#incbin "Ollie_minimug.dmp"
+setMugEntry(Ollie, OllieData, 3, 6, 3, 4)
+
+ALIGN 16
+OllieEvil:
+#incbin "OllieEvil_mug.dmp"
+#incbin "OllieEvil_frames.dmp"
+#incbin "OllieEvil_palette.dmp"
+#incbin "OllieEvil_minimug.dmp"
+setMugEntry(OllieEvil, OllieEvilData, 3, 6, 3, 4)
+
+ALIGN 16
+Reine:
+#incbin "Reine_mug.dmp"
+#incbin "Reine_frames.dmp"
+#incbin "Reine_palette.dmp"
+#incbin "Reine_minimug.dmp"
+setMugEntry(Reine, ReineData, 4, 5, 4, 3)
+
+ALIGN 16
+ReineEvil:
+#incbin "ReineEvil_mug.dmp"
+#incbin "ReineEvil_frames.dmp"
+#incbin "ReineEvil_palette.dmp"
+#incbin "ReineEvil_minimug.dmp"
+setMugEntry(ReineEvil, ReineEvilData, 4, 5, 4, 3)
+
+ALIGN 16
+Sana:
+#incbin "Sana_mug.dmp"
+#incbin "Sana_frames.dmp"
+#incbin "Sana_palette.dmp"
+#incbin "Sana_minimug.dmp"
+setMugEntry(Sana, SanaData, 3, 5, 3, 3)
+
+ALIGN 16
+Towa:
+#incbin "Towa_mug.dmp"
+#incbin "Towa_frames.dmp"
+#incbin "Towa_palette.dmp"
+#incbin "Towa_minimug.dmp"
+setMugEntry(Towa, TowaData, 4, 6, 4, 4)
+
+ALIGN 16
+Yagoo:
+#incbin "Yagoo_mug.dmp"
+#incbin "Yagoo_frames.dmp"
+#incbin "Yagoo_palette.dmp"
+#incbin "Yagoo_minimug.dmp"
+setMugEntry(Yagoo, YagooData, 4, 6, 4, 4)
+
+ALIGN 16
+Zeta:
+#incbin "Zeta_mug.dmp"
+#incbin "Zeta_frames.dmp"
+#incbin "Zeta_palette.dmp"
+#incbin "Zeta_minimug.dmp"
+setMugEntry(Zeta, ZetaData, 4, 6, 4, 4)
+
+ALIGN 16
+ZetaMorph:
+#incbin "_mug.dmp"
+#incbin "_frames.dmp"
+#incbin "_palette.dmp"
+#incbin "_minimug.dmp"
+setMugEntry(, Data, 4, 6, 4, 4)
+
+ALIGN 16
+ZetaSus:
+#incbin "ZetaSus_mug.dmp"
+#incbin "ZetaSus_frames.dmp"
+#incbin "ZetaSus_palette.dmp"
+#incbin "ZetaSus_minimug.dmp"
+setMugEntry(ZetaSus, ZetaSusData, 4, 6, 4, 4)
+
+ALIGN 16
+AmeliaAlt1:
+#incbin "AmeliaAlt1_mug.dmp"
+#incbin "AmeliaAlt1_frames.dmp"
+#incbin "AmeliaAlt1_palette.dmp"
+#incbin "AmeliaAlt1_minimug.dmp"
+setMugEntry(AmeliaAlt1, AmeliaAlt1Data, 2, 6, 3, 4)
+
+ALIGN 16
+:
+#incbin "_mug.dmp"
+#incbin "_frames.dmp"
+#incbin "_palette.dmp"
+#incbin "_minimug.dmp"
+setMugEntry(, Data, 4, 6, 4, 4)
+

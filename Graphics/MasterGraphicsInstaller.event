@@ -1,0 +1,9 @@
+
+#include "Animations/MasterBattleAniInstaller.event"
+
+#include "ClassCards/MasterCardInstaller.event"
+
+#include "CGs/CGMasterInstaller.event"
+
+
+#include "Portraits/PortraitInstaller.event"

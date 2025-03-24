@@ -9,7 +9,7 @@ MSS_page4:
 
 page_start
 
-draw_textID_at 13, 3, textID=0xf1a, width=16, colour=Blue
+draw_textID_at 13, 3, textID=0xd4c, width=16, colour=Blue
 
 @ first like
 mov    r0,r8
@@ -71,7 +71,7 @@ mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
-draw_textID_at 13, 7, textID=0xf1b, width=16, colour=Blue
+draw_textID_at 13, 7, textID=0xd4d, width=16, colour=Blue
 
 b LiteralJump2
 .ltorg
@@ -133,7 +133,7 @@ mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
-draw_textID_at 13, 11, textID=0xf1d, width=16, colour=Blue
+draw_textID_at 13, 11, textID=0xd4f, width=16, colour=Blue
 
 b LiteralJump3
 .ltorg
@@ -168,7 +168,7 @@ mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
-draw_textID_at 21, 11, textID=0xf1c, width=16, colour=Blue
+draw_textID_at 21, 11, textID=0xd4e, width=16, colour=Blue
 
 b LiteralJump4
 .ltorg
@@ -206,18 +206,7 @@ add    r7, #8
 @ Next let's draw Gaiden spells if the hack is installed.
 draw_gaiden_spells_at 13, 13, GaidenStatScreen @ GaidenStatScreen is a pointer to the routine, GaidenStatScreen.
 
-ldr r0, SS_FatigueText
-draw_textID_at 21, 15 @Fatigue label text
-
-ldr r0,=MSSFatigueGetter
-mov r14,r0
-.short 0xF800 @returns # in r0
-draw_number_at 25, 15
-
 page_end
 
 .align
 .ltorg
-
-SS_FatigueText:
-@WORD SS_FatigueText

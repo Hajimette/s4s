@@ -8,20 +8,15 @@ jumpToHack(Armsthrift)
 ORG 0x2C864
 jumpToHack(DazzleCheck)
 
-//Desperation
-ORG $2AF0A
-SHORT 0
-jumpToHack(Desperation)
-
 POP
 
 ALIGN 4
 Armsthrift:
 AxeFaithArmsthrift:
 ArmsthriftAxeFaith:
-#incbin "Armsthrift/armsthriftaxefaith.dmp"
+#incbin "Armsthrift/armsthriftaxefaithblessing.dmp"
 POIN SkillTester|1
-WORD ArmsthriftID AxeFaithID
+WORD ArmsthriftID AxeFaithID BlessingID
 
 ALIGN 4
 DazzleCheck:
@@ -29,11 +24,4 @@ DazzleCheck:
 POIN SkillTester
 WORD DazzleID
 WORD MoonlightID
-
-ALIGN 4
-Desperation:
-#incbin "Desperation/DesperationAssassinate.dmp"
-POIN SkillTester
-WORD DesperationID
-WORD AssassinateID
 
