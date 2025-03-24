@@ -20,4 +20,10 @@ prMinZero:
 	prCheckLessThan(ConstantZero)
 }
 
+prFatigueDebuff:
+{
+	rIfUnitHasState(0x80000000)
+		rSubConst(4)
+}
+
 #endif // MODULAR_GETTER_COMMON_EVENT
