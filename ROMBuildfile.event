@@ -1,10 +1,10 @@
 #ifdef _FE8_
-//Å¬\¬‚ğ–Úw‚µ‚½‚¢‚Ì‚ÅA•K{–€ˆÈŠO‚Í‚·‚×‚ÄÁ‚·.
+//æœ€å°æ§‹æˆã‚’ç›®æŒ‡ã—ãŸã„ã®ã§ã€å¿…é ˆäº‹é …ä»¥å¤–ã¯ã™ã¹ã¦æ¶ˆã™.
     #include "EAstdlib.event"
     #include "CustomDefinitions.event"
 //PROTECT $25224
     ORG FreeSpace
-//FEBuilder‚Å‚â‚é‚Ì‚ÅA‚±‚±‚Å‚Í‚â‚ç‚È‚¢
+//FEBuilderã§ã‚„ã‚‹ã®ã§ã€ã“ã“ã§ã¯ã‚„ã‚‰ãªã„
 //    #include "repointedTextTable.event"
 //
     //Text first for Text ID definitions
@@ -21,7 +21,7 @@
     #include "EngineHacks/_MasterHackInstaller.event"
 
     #include "Fatigue/Fatigue.event"
-    #include "NewStuff/AumStaff/Aum.event"
+    #include "New Stuff/AumStaff/Aum.event"
 
     #include "New Stuff/CustomItems/StealStaff/_StealStaff_Setup.event"
     #include "New Stuff/CustomItems/RewarpStaff/_RewarpStaff_Setup.event"
