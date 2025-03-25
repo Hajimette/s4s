@@ -1,0 +1,68 @@
+
+/*
+Add "TryProcMoveStar" to PostCombatLoop
+*/
+
+ALIGN 4
+#include "MoveStars.lyn.event"
+
+ALIGN 4
+MoveStarProcEvent:
+POIN MoveStarProcEventRaw
+
+// copied from galeforce
+ALIGN 4
+MoveStarProcEventRaw:
+CAM1 0xFFFF
+SOUN 0x10F
+STAL 0x16
+NoFade
+ENDA
+
+ALIGN 4
+MoveStarTable:
+#include "MoveStarTable.event"
+
+#define SetUnitMoveStars(unit, stars) "PUSH; ORG MoveStarTable + unit; BYTE stars; POP"
+SetUnitMoveStars(Amelia,1)
+SetUnitMoveStars(Reine,2)
+SetUnitMoveStars(Mumei,3)
+SetUnitMoveStars(Miko,1)
+SetUnitMoveStars(Polka,3)
+SetUnitMoveStars(Watame,1)
+SetUnitMoveStars(Luna,3)
+SetUnitMoveStars(Iofi,1)
+SetUnitMoveStars(Roboco,2)
+SetUnitMoveStars(Sora,3)
+SetUnitMoveStars(AZKi,1)
+SetUnitMoveStars(Pekora,3)
+SetUnitMoveStars(Lamy,4)
+SetUnitMoveStars(Chloe,5)
+SetUnitMoveStars(Aqua,2)
+SetUnitMoveStars(Marine,5)
+SetUnitMoveStars(Calliope,3)
+SetUnitMoveStars(Ollie,10)
+SetUnitMoveStars(Shirakami,5)
+SetUnitMoveStars(Korone,2)
+SetUnitMoveStars(Okayu,4)
+SetUnitMoveStars(Towa,5)
+SetUnitMoveStars(Choco,1)
+SetUnitMoveStars(Laplus,5)
+SetUnitMoveStars(Matsuri,5)
+SetUnitMoveStars(Zeta,3)
+SetUnitMoveStars(Iroha,4)
+SetUnitMoveStars(Ayame,2)
+SetUnitMoveStars(Kronii,10)
+
+
+// Bosses
+SetUnitMoveStars(Kronii_Boss,5)
+SetUnitMoveStars(Klonii,5)
+SetUnitMoveStars(Klonii2,5)
+SetUnitMoveStars(Pekoson,3)
+SetUnitMoveStars(Smol_Ame,5)
+SetUnitMoveStars(Galzuschama,1)
+SetUnitMoveStars(Zeta_Deadlord,5)
+SetUnitMoveStars(Aqua_20,3)
+SetUnitMoveStars(Aqua_13,3)
+
