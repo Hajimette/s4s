@@ -1,5 +1,0 @@
-//Make only snowstorm weather use snow terrain cost
-PUSH
-ORG 0x18D6E
-SHORT 0xD007
-POP
