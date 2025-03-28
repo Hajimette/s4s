@@ -1,0 +1,182 @@
+
+
+
+
+// Item Definitions
+#define Iron Sword 0x01
+#define Slim Sword 0x02
+#define Steek Sword 0x03
+#define Silver Sword 0x04
+#define Training Blade 0x05
+#define Wing Clipper
+#define Superior Blade
+#define Master Sword
+#define Rapier
+#define Master Lance
+#define Brave Sword
+#define Thorn
+#define Killing Edge
+#define Armorslayer
+#define Dracoslayer
+#define Light Brand
+#define Rune Sword
+#define Lancereaver
+#define Thoron
+#define Iron Lance
+#define Slim lance
+#define Steel Lance
+#define Silver Lance
+#define Superior Lance
+#define Brave Lance
+#define Killer Lance
+#define Horseslayer
+#define Javelin
+#define Spear
+#define Axereaver
+#define Iron Axe
+#define Steel Axe
+#define Silver Axe
+#define Superior Axe
+#define Brave Axe
+#define Killer Axe
+#define Master Axe
+#define Hammer 
+#define Devil Axe
+#define Hand Axe
+#define Tomahawk
+#define Swordreaver
+#define Swordslayer
+#define Hatchet
+#define Iron Bow
+#define Steel Bow
+#define Silver Bow
+#define Master Bow
+#define Killer Bow
+#define Brave Bow
+#define Superior Bow
+#define Longbow
+#define Ballista
+#define Iron Ballista
+#define Killer Ballista
+#define Fire
+#define Thunder
+#define Elfire
+#define Bolting
+#define Fimbulvetr
+#define Tsunami
+#define Pettancaliber
+#define Lightning
+#define Shine
+#define Divine
+#define Purge
+#define Aura
+#define DUMMY
+#define Flux
+#define Luna
+#define Nosferatu
+#define Eclipse
+#define Fenrir
+#define Nephilim's Sorrow
+#define Heal
+#define Mend
+#define Recover
+#define Physic
+#define Fortify
+#define Restore
+#define Silence
+#define Sleep
+#define Berserk
+#define Warp
+#define Rescue
+#define Torch
+#define Hammerne
+#define Unlock
+#define Barrier
+#define Red Heart
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define
+#define Wind 0xC3
+#define Shaver 0xC4
+#define Arcwind 0xC5
+#define Water 0xC6
+#define Explosion 0xC7
+#define Ancient One 0xC8
+#define Dark Spikes 0xC9
+#define Starlight 0xCA
+#define Rat Magic 0xCB
+#define Necromancy 0xCC
+#define Society 0xCD
+#define Elite Sword 0xCE
+#define Chakimaru 0xCF
+#define Clock Hands 0xD0
+#define Manaslayer 0xD1
+#define Sleep Sword 0xD2
+#define Asura 0xD3
+#define Rakshasa 0xD4
+#define Keris 0xD5
+#define Antithesis 0xD6
+#define Barrier Blade 0xD7
+#define B. Sage Seal 0xD8
+#define Magic Ring 0xD9
+#define Seisoda 0xDA  //S Drink
+#define Ricky 0xDB
+#define Sus 0xDC
+#define Glock 0xDD
+#define Mace 0xDE
+#define Crossbow 0xDF
+#define Rifle 0xE0
+#define Doogstone 0xE1 
+#define Hand Cannon 0xE2
+#define Zetamin 0xE3
+#define Asacoco 0xE4
+#define Suicopath 0xE5
+#define MTG 0xE6
+#define Howtizer 0xE7
+#define Trident 0xE8
+#define Hawk Bow 0xE9
+#define Darksphere 0xEA
+#define Night Lance 0xEB
+#define Rancid Claw 0xEC
+#define Chicken Claw 0xED
+#define Kanabo 0xEE
+#define Duelist Sword 0xEF
+#define Duelist Axe 0xF0
+#define Duelist Lance 0xF1
+#define LifeCleaver 0xF2
+#define Scythe 0xF3
+#define Steel Scythe 0xF4
+#define Master Bow 0xF5
+#define Sharkbite 0xF6
+#define Poko-Wand 0xF7
+#define Rock 0xF8
+#define Tusks 0xF7
+#define Combat Stim 0xF8
+#define Entrap 0xF9
+#define KRH-69 0xFA
+#define Aum 0xFB
+#define Thief 0xFC
+#define Again 0xFD
+#define Abort 0xFE
+//Skill Scroll thing lmao

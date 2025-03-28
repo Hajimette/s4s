@@ -116,6 +116,11 @@ Cost[X]
 A scroll that teaches[N]
 a skill when used.[X]
 
+## AbortSubtitleText
+KILLS the targeted [N]
+unit on contact. [X]
+
+
 #include "unitmenu_text.txt"
 
 #include "skilldesc_text.txt"

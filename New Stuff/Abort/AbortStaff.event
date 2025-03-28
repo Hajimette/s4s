@@ -1,0 +1,28 @@
+// copy into other parts of buildfile
+/*
+#define Abort YOURABORTID
+
+## AbortSubtitleText
+Select target to abort.[X]
+*/
+
+ALIGN 4
+AbortSubtitleText_Link:
+WORD AbortSubtitleText
+
+ALIGN 4
+AbortID_Link:
+WORD DragonAxe
+
+ALIGN 4
+AbortSelectInfo:
+POIN AbortInitSelect|1
+POIN 0x4E884|1 //ClearBG0BG1
+WORD 0
+POIN AbortTargetChange|1
+WORD 0
+POIN 0x29550|1 //GenericStaffSelection_OnSelect
+POIN 0x2282C|1 //GenericSelection_BackToUM_CamWait
+WORD 0
+
+#include "AbortStaff.lyn.event"
