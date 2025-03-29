@@ -1,0 +1,116 @@
+// Area BGs
+// Palettes corresponding to the images are handled in Tables/AreaBGTable.event
+
+
+// Images
+// Victory Road Afternoon
+ALIGN 4
+Pallet:
+//#incext Png2Dmp "plain_main.png" --lz77
+#incbin "plain_main.dmp"
+
+ALIGN 4
+Route1:
+//#incext Png2Dmp "forest_main.png" --lz77
+#incbin "forest_main.dmp"
+//#incbin "IlexForestTest_8bit.dmp"
+
+
+ALIGN 4
+viridiancity:
+#incbin "shikemura_main.dmp"
+
+ALIGN 4
+hopecope:
+#incbin "hope_main.dmp"
+
+ALIGN 4
+amongus:
+#incbin "amongus_main.dmp"
+
+ALIGN 4
+invasion:
+#incbin "castle_main.dmp"
+
+ALIGN 4
+Route2s:
+#incbin "field_main.dmp"
+
+ALIGN 4
+viridianforest:
+#incbin "field2_main.dmp"
+
+ALIGN 4
+Route2n:
+#incbin "pos_main.dmp"
+
+ALIGN 4
+Pewter:
+#incbin "field_main.dmp"
+
+ALIGN 4
+seisoshrine:
+#incbin "field_main.dmp"
+
+ALIGN 4
+oni:
+#incbin "oni_main.dmp"
+
+ALIGN 4
+minato:
+#incbin "resistance_main.dmp"
+
+ALIGN 4
+pewtergym:
+#incbin "snow_main.dmp"
+
+ALIGN 4
+holox:
+#incbin "holox_main.dmp"
+
+ALIGN 4
+ship:
+#incbin "ship_main.dmp"
+
+ALIGN 4
+pekoland:
+#incbin "pekoland_main.dmp"
+
+ALIGN 4
+Route3:
+#incbin "lunar_main.dmp"
+
+ALIGN 4
+Pokecenter:
+#incbin "pokecenter.dmp"
+
+ALIGN 4
+marine:
+#incbin "marine_main.dmp"
+
+ALIGN 4
+beach:
+#incbin "beach_main.dmp"
+
+ALIGN 4
+mtmoon:
+#incbin "mt moon.dmp"
+
+ALIGN 4
+route4new:
+#incbin "route4new.dmp"
+
+ALIGN 4
+route4e:
+#incbin "route 4E.dmp"
+
+ALIGN 4
+plain:
+#incbin "plain_main.dmp"
+
+ALIGN 4
+route24:
+#incbin "route 24.dmp"
+
+
+

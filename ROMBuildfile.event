@@ -20,6 +20,7 @@
     #include "New Stuff/CustomItems/_Staff6C_BasicCases.event"
     #include "EngineHacks/_MasterHackInstaller.event"
 
+    #include "New Stuff/ChapterTransitions/ChapterTransitionInstaller.event"
     #include "Fatigue/Fatigue.event"
     #include "New Stuff/Abort/Abort.event"    
     #include "New Stuff/AumStaff/Aum.event"

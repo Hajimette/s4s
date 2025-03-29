@@ -1,0 +1,386 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	ChamaHorror_FINAL_grp  voicegroup000
+	#define	ChamaHorror_FINAL_pri  0
+	#define	ChamaHorror_FINAL_rev  0
+	#define	ChamaHorror_FINAL_mvl  80
+	#define	ChamaHorror_FINAL_key  0
+	#define	ChamaHorror_FINAL_tbs  1
+	#define	ChamaHorror_FINAL_exg  0
+	#define	ChamaHorror_FINAL_cmp  1
+
+	// .rodata
+	//	ChamaHorror_FINAL
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+ChamaHorror_FINAL_1:
+	BYTE	KEYSH   ChamaHorror_FINAL_key+0
+ChamaHorror_FINAL_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   125*ChamaHorror_FINAL_tbs/2
+	BYTE		VOICE   54
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     85*ChamaHorror_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W24
+	BYTE		N23     As3   v104
+	BYTE	W36
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W24
+// 001   ----------------------------------------
+ChamaHorror_FINAL_1_001:
+	BYTE	W06
+	BYTE	W06
+	BYTE		N11     Bn3   v104
+	BYTE	W12
+	BYTE		N23     Cs4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W30
+	BYTE	W06
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+ChamaHorror_FINAL_1_002:
+	BYTE		N23     Bn3   v104
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W48
+	BYTE	W24
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE	W30
+	BYTE	W06
+	BYTE		N11     As3 
+	BYTE	W12
+	BYTE		N23     Gs3 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+// 004   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W36
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE		        An3 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W48
+	BYTE	W24
+// 006   ----------------------------------------
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W36
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_1_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_1_002
+// 009   ----------------------------------------
+	BYTE		N23     Bn3   v104
+	BYTE	W30
+	BYTE	W06
+	BYTE		N11     As3 
+	BYTE	W12
+	BYTE		N23     Gs3 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W36
+	BYTE	W12
+// 011   ----------------------------------------
+	BYTE		N14     Cn4 
+	BYTE	W12
+	BYTE	W02
+	BYTE		N09     Dn4 
+	BYTE	W10
+	BYTE		N23     Ds4 
+	BYTE	W48
+	BYTE	W24
+// 012   ----------------------------------------
+	BYTE		VOL     85*ChamaHorror_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W24
+	BYTE		N23     As3 
+	BYTE	W36
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	ChamaHorror_FINAL_1_B1
+ChamaHorror_FINAL_1_B2:
+	BYTE	W07
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+ChamaHorror_FINAL_2:
+	BYTE	KEYSH   ChamaHorror_FINAL_key+0
+ChamaHorror_FINAL_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   52
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     85*ChamaHorror_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W24
+	BYTE		N23     Fs3   v044
+	BYTE	W72
+// 001   ----------------------------------------
+ChamaHorror_FINAL_2_001:
+	BYTE		N23     Fn3   v044
+	BYTE	W72
+	BYTE		        Fs3 
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+ChamaHorror_FINAL_2_002:
+	BYTE	W48
+	BYTE		N23     Fs3   v044
+	BYTE	W48
+	BYTE	PEND
+// 003   ----------------------------------------
+ChamaHorror_FINAL_2_003:
+	BYTE	W24
+	BYTE		N23     Gs3   v044
+	BYTE	W72
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE		N23   
+	BYTE	W72
+	BYTE		        Ds3 
+	BYTE	W24
+// 005   ----------------------------------------
+	BYTE	W48
+	BYTE		        Fn3 
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_2_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_2_002
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_2_003
+// 010   ----------------------------------------
+	BYTE		N23     Fs3   v044
+	BYTE	W72
+	BYTE		N13   
+	BYTE	W13
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		N04     Gs3 
+	BYTE	W05
+// 011   ----------------------------------------
+	BYTE		N23     An3 
+	BYTE	W48
+	BYTE		        As3 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE		VOL     85*ChamaHorror_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W24
+	BYTE		N23     Fs3 
+	BYTE	W40
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	ChamaHorror_FINAL_2_B1
+ChamaHorror_FINAL_2_B2:
+	BYTE	W07
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+ChamaHorror_FINAL_3:
+	BYTE	KEYSH   ChamaHorror_FINAL_key+0
+ChamaHorror_FINAL_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   52
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     85*ChamaHorror_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W24
+	BYTE		N23     Ds3   v044
+	BYTE	W72
+// 001   ----------------------------------------
+	BYTE		N23   
+	BYTE	W72
+	BYTE		N23   
+	BYTE	W24
+// 002   ----------------------------------------
+ChamaHorror_FINAL_3_002:
+	BYTE	W48
+	BYTE		N23     Cs3   v044
+	BYTE	W48
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE		N23   
+	BYTE	W72
+	BYTE		        Cs3 
+	BYTE	W24
+// 005   ----------------------------------------
+	BYTE	W48
+	BYTE		        Ds3 
+	BYTE	W48
+// 006   ----------------------------------------
+ChamaHorror_FINAL_3_006:
+	BYTE	W24
+	BYTE		N23     En3   v044
+	BYTE	W72
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W72
+	BYTE		        Fs3 
+	BYTE	W24
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_3_002
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_3_006
+// 010   ----------------------------------------
+	BYTE		N23     Fs3   v044
+	BYTE	W72
+	BYTE		N13     Dn3 
+	BYTE	W13
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		N04     En3 
+	BYTE	W05
+// 011   ----------------------------------------
+	BYTE		N23     Fn3 
+	BYTE	W48
+	BYTE		        Fs3 
+	BYTE	W48
+// 012   ----------------------------------------
+	BYTE		VOL     85*ChamaHorror_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W24
+	BYTE		N23     Ds3 
+	BYTE	W40
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	ChamaHorror_FINAL_3_B1
+ChamaHorror_FINAL_3_B2:
+	BYTE	W07
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+ChamaHorror_FINAL_4:
+	BYTE	KEYSH   ChamaHorror_FINAL_key+0
+ChamaHorror_FINAL_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   52
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     85*ChamaHorror_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N23     As2   v080
+	BYTE	W72
+	BYTE		N23   
+	BYTE	W24
+// 001   ----------------------------------------
+ChamaHorror_FINAL_4_001:
+	BYTE	W48
+	BYTE		N23     Bn2   v080
+	BYTE	W48
+	BYTE	PEND
+// 002   ----------------------------------------
+ChamaHorror_FINAL_4_002:
+	BYTE	W24
+	BYTE		N23     As2   v080
+	BYTE	W72
+	BYTE	PEND
+// 003   ----------------------------------------
+ChamaHorror_FINAL_4_003:
+	BYTE		N23     Gs2   v080
+	BYTE	W72
+	BYTE		        As2 
+	BYTE	W24
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	W48
+	BYTE		        An2 
+	BYTE	W48
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_4_002
+// 006   ----------------------------------------
+	BYTE		N23     As2   v080
+	BYTE	W72
+	BYTE		N23   
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_4_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_4_002
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ChamaHorror_FINAL_4_003
+// 010   ----------------------------------------
+	BYTE	W48
+	BYTE		N23     As2   v080
+	BYTE	W48
+// 011   ----------------------------------------
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	ChamaHorror_FINAL_4_B1
+ChamaHorror_FINAL_4_B2:
+	BYTE	W07
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+ChamaHorror_FINAL:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	ChamaHorror_FINAL_pri	// Priority
+	BYTE	ChamaHorror_FINAL_rev	// Reverb.
+
+	POIN2	ChamaHorror_FINAL_grp
+
+	POIN2	ChamaHorror_FINAL_1
+	POIN2	ChamaHorror_FINAL_2
+	POIN2	ChamaHorror_FINAL_3
+	POIN2	ChamaHorror_FINAL_4
+
+	

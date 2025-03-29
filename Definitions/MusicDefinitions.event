@@ -1,0 +1,94 @@
+//New Music poggers
+
+
+//HoloAdjacent
+#define ShinySmileyStory 0x01
+#define ShinySmileyStoryTitle 0x43
+#define Astrogirl 0x02
+#define BaskingintheSun 0x03 
+#define BlueClapper 0x04
+#define CaesuraofDespair 0x05
+#define 223AM 0x06
+#define ChoirWaltz 0x07
+#define Daydream 0x09
+#define Fantasia 0x0A
+#define Fukkireta 0x0B
+#define Ghost 0x0B
+#define Hologram_Circus 0x0C
+#define Identity 0x0D
+#define Inochi 0x0E
+#define KiramekiRider 0x0F 
+#define KisekiKnot 0x15
+#define Konpeko 0x16
+#define FE5MapB 0x17
+#define MarineSetSail 0x18
+#define Nonfiction  
+#define PlasmagicSeasons
+#define Rushiabgm 
+#define WatamesLullaby
+#define KawaiikuteGomen
+#define DanceoftheToys 0x318
+
+
+//FE4 
+#define FE4AnotherAssault
+#define FE4FoetoFriend
+#define FE4ThoughtsgoingAround 
+#define FE4DanceintheSkies
+#define FE4ValkyrieStaff
+#define FE4Silezha
+
+//FE5
+#define FE5AugustB
+#define FE5Advance
+#define FE5Adversity
+#define FE5BossBattle 0x1B
+#define FE5Curing
+#define FE5Defend 0x1A
+#define FE5DestinyThracia 0x12
+#define FE5Preps
+#define FE5PressingThreat
+#define FE5Sorrow
+#define FE5SquadA 0x13
+#define FE5SquadB 0x14
+#define FE5ThreatB
+#define FE5Victory
+#define FE5VictoryMinor
+#define FE5Attack 0x19
+#define FE5Conquest
+#define FE5Crisis
+#define FE5NearDefeat
+#define FE5NearVictory 0x10
+#define FE5LoptousA 
+#define FE5MapB
+#define FE5SearchingforVictory
+#define FE5ChargeB
+
+//FE6
+#define FE6Shaman
+
+//FE11
+#define FE11Leaps
+#define FE11IntoTheDarkness 0x11
+
+//misc
+#define Escape
+#define KingofMonsters
+#define Neko to Sanpo
+#define Kawanabe
+#define amongusdrip
+
+//FFT
+#define DecisiveBattle
+
+
+//Vanilla
+#define TiesofFriendship 0x07
+#define TwistedShadowsA 0x16
+#define WindyDaySoundEffect 0x47
+#define WindyDayBirdsSoundEffect 0x48
+#define Nighttime 0x4A
+#define WaterFlowingSoundEffect 0x4B
+#define SoftSwooshSoundEffect 0x4D
+#define SwordUnsheathingEffect 0xCE
+#define DivineWeaponEffect 0xF0
