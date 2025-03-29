@@ -18,44 +18,221 @@ POP
 
 
 #include "MusicEvents/223AM.event"
-SongTable(223AM_Song,223AM, MapMusicGroup)
+SongTable(_223AM,0x06, MapMusicGroup)
 
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
+#include "MusicEvents/amongusdrip.event"
+SongTable(amongusdrip,0x5E, MapMusicGroup)
 
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
+#include "MusicEvents/Astrogirl.event"
+SongTable(Astrogirl,0x02, MapMusicGroup)
 
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
+#include "MusicEvents/AstrogirlSlowed.event"
+SongTable(AstrogirlSlowed,0xC1, MapMusicGroup)
 
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
-
-
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
+#include "MusicEvents/FE5AugustB.event"
+SongTable(FE5AugustB,0x27, MapMusicGroup)
 
 
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
+#include "MusicEvents/BaskingintheSun.event"
+SongTable(BaskingintheSun,0x03, MapMusicGroup)
 
 
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
+#include "MusicEvents/BlessingoftheGeneralsI.event"
+SongTable(BlessingoftheGeneralsI,0x40, MapMusicGroup)
 
 
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
+#include "MusicEvents/BlessingoftheGeneralsII.event"
+SongTable(BlessingoftheGeneralsII,0x41, MapMusicGroup)
 
 
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
+#include "MusicEvents/BlueClapper.event"
+SongTable(BlueClapper,0x04, MapMusicGroup)
 
 
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
+#include "MusicEvents/CaesuraofDespair.event"
+SongTable(CaesuraofDespair,0x05, MapMusicGroup)
 
 
-#include "MusicEvents/.event"
-SongTable(WithUs_Song,WithUs, MapMusicGroup)
+#include "MusicEvents/FE5ChargeB.event"
+SongTable(FE5ChargeB,0x36, MapMusicGroup)
+
+
+#include "MusicEvents/ChoirWaltz.event"
+SongTable(ChoirWaltz,0x58, MapMusicGroup)
+
+#include "MusicEvents/FE5Curing.event"
+SongTable(FE5Curing,0x28 b, MapMusicGroup)
+
+#include "MusicEvents/Daydream.event"
+SongTable(Daydream,0x09, MapMusicGroup)
+
+#include "MusicEvents/FE5DestinyThracia.event"
+SongTable(FE5DestinyThracia,0x12, MapMusicGroup)
+
+#include "MusicEvents/Escape.event"
+SongTable(Escape,0x44, MapMusicGroup)
+
+#include "MusicEvents/Fantasia.event"
+SongTable(Fantasia,0x0A, MapMusicGroup)
+
+#include "MusicEvents/FantasiaCutscene.event"
+SongTable(FantasiaCutscene,0x24, MapMusicGroup)
+
+#include "MusicEvents/FE4AnotherAssault.event"
+SongTable(FE4AnotherAssault,0x21, MapMusicGroup)
+
+#include "MusicEvents/FE4DanceintheSkies.event"
+SongTable(FE4DanceintheSkies,0x24, MapMusicGroup)
+
+#include "MusicEvents/FE4FromFoetoFriend.event"
+SongTable(FE4FromFoetoFriend,0x22, MapMusicGroup)
+
+#include "MusicEvents/FE4ThoughtsGoingAround.event"
+SongTable(FE4ThoughtsGoingAround,0x23, MapMusicGroup)
+
+#include "MusicEvents/FE4ValkyrieStaff.event"
+SongTable(FE4ValkyrieStaff,0x25, MapMusicGroup)
+
+#include "MusicEvents/FE5Advance.event"
+SongTable(FE5Advance,0x28, MapMusicGroup)
+
+#include "MusicEvents/FE5Adversity.event"
+SongTable(FE5Adversity,0x29, MapMusicGroup)
+
+#include "MusicEvents/FE5BossBattle.event"
+SongTable(FE5BossBattle,0x1B, MapMusicGroup)
+
+#include "MusicEvents/FE5Defend.event"
+SongTable(FE5Defend,0x1A, MapMusicGroup)
+
+#include "MusicEvents/FE5Preps.event"
+SongTable(FE5Preps,0x2B, MapMusicGroup)
+
+#include "MusicEvents/FE5PressingThreat.event"
+SongTable(FE5PressingThreat,0x2C, MapMusicGroup)
+
+#include "MusicEvents/FE5Sorrow.event"
+SongTable(FE5Sorrow,0x2D, MapMusicGroup)
+
+#include "MusicEvents/FE5SquadA.event"
+SongTable(FE5SquadA,0x13, MapMusicGroup)
+
+#include "MusicEvents/FE5SquadB.event"
+SongTable(FE5SquadB,0x14, MapMusicGroup)
+
+#include "MusicEvents/FE5ThreatB.event"
+SongTable(FE5ThreatB,0x2D, MapMusicGroup)
+
+#include "MusicEvents/FE5Victory.event"
+SongTable(FE5Victory,0x2E, MapMusicGroup)
+
+#include "MusicEvents/FE5VictoryMinor.event"
+SongTable(FE5VictoryMinor,0x2F, MapMusicGroup)
+
+#include "MusicEvents/FE5Attack.event"
+SongTable(FE5Attack,0x19, BattleMusicGroup)
+
+#include "MusicEvents/FE5Conquest.event"
+SongTable(FE5Conquest,0x30, MapMusicGroup)
+
+#include "MusicEvents/FE5Crisis.event"
+SongTable(FE5Crisis,0x31, MapMusicGroup)
+
+#include "MusicEvents/FE5NearDefeat.event"
+SongTable(FE5NearDefeat,0x32, MapMusicGroup)
+
+#include "MusicEvents/FE5NearVictory.event"
+SongTable(FE5NearVictory,0x10, MapMusicGroup)
+
+#include "MusicEvents/FE5LoptousA.event"
+SongTable(FE5LoptousA,0x33, MapMusicGroup)
+
+#include "MusicEvents/FE5MapB.event"
+SongTable(FE5MapB,0x34, MapMusicGroup)
+
+#include "MusicEvents/FE5SearchingforVictory.event"
+SongTable(FE5SearchingforVictory,0x35, MapMusicGroup)
+
+#include "MusicEvents/FE5ChargeB.event"
+SongTable(FE5ChargeB,0x36, MapMusicGroup)
+
+#include "MusicEvents/FE6Shaman.event"
+SongTable(FE6Shaman,0x37, MapMusicGroup)
+
+#include "MusicEvents/FE11Leaps.event"
+SongTable(FE11Leaps,0x42, MapMusicGroup)
+
+#include "MusicEvents/DecisiveBattle.event"
+SongTable(DecisiveBattle,0x5F, BattleMusicGroup)
+
+#include "MusicEvents/Fukkireta.event"
+SongTable(Fukkireta,0x0B, MapMusicGroup)
+
+#include "MusicEvents/Ghost.event"
+SongTable(Ghost,0xC2, MapMusicGroup)
+
+#include "MusicEvents/Hologram_Circus.event"
+SongTable(Hologram_Circus,0x0C, MapMusicGroup)
+
+#include "MusicEvents/Identity.event"
+SongTable(Identity,0x0D, MapMusicGroup)
+
+#include "MusicEvents/Inochi.event"
+SongTable(Inochi,0x0E, MapMusicGroup)
+
+#include "MusicEvents/Infinity.event"
+SongTable(Infinity,0x46, MapMusicGroup)
+
+#include "MusicEvents/FE11IntoTheDarkness.event"
+SongTable(FE11IntoTheDarkness,0x11, MapMusicGroup)
+
+#include "MusicEvents/KawaiikuteGomen.event"
+SongTable(KawaiikuteGomen,0x20, MapMusicGroup)
+
+#include "New Stuff/ChapterTransitions/Music/songs/AmeliaMoment.event"
+SongTable(AmeliaMoment,0x318, MapMusicGroup)
+
+#include "MusicEvents/KingofMonsters.event"
+SongTable(KingofMonsters,0x45, MapMusicGroup)
+
+#include "MusicEvents/KiramekiRider.event"
+SongTable(KiramekiRider,0x0F, MapMusicGroup)
+
+#include "MusicEvents/KisekiKnot.event"
+SongTable(KisekiKnot,0x15, MapMusicGroup)
+
+#include "MusicEvents/Konpeko.event"
+SongTable(Konpeko,0x16, MapMusicGroup)
+
+#include "MusicEvents/MarineSetSail.event"
+SongTable(MarineSetSail,0x18, MapMusicGroup)
+
+#include "MusicEvents/NekotoSanpo.event"
+SongTable(NekotoSanpo,0x59, MapMusicGroup)
+
+#include "MusicEvents/Nonfiction.event"
+SongTable(Nonfiction,0x1C, MapMusicGroup)
+
+#include "MusicEvents/FE4Silezha.event"
+SongTable(FE4Silezha,0x26, MapMusicGroup)
+
+#include "MusicEvents/PlasmagicSeasons.event"
+SongTable(PlasmagicSeasons,0x1D, MapMusicGroup)
+
+#include "MusicEvents/PriestofDarkness.event"
+SongTable(PriestofDarkness,0xC7, MapMusicGroup)
+
+#include "MusicEvents/rushiabgm.event"
+SongTable(rushiabgm,0x1E, MapMusicGroup)
+
+#include "MusicEvents/ShinySmilyStory.event"
+SongTable(ShinySmilyStory,0x01, MapMusicGroup)
+
+#include "MusicEvents/ShinySmilyStoryTitle.event"
+SongTable(ShinySmilyStoryTitle,0x43, MapMusicGroup)
+
+#include "MusicEvents/Kawanabe.event"
+SongTable(Kawanabe,0x5D, MapMusicGroup)
+
+#include "MusicEvents/WatamesLullaby.event"
+SongTable(WatamesLullaby,0x1F, MapMusicGroup)

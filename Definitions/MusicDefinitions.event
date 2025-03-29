@@ -5,15 +5,17 @@
 #define ShinySmileyStory 0x01
 #define ShinySmileyStoryTitle 0x43
 #define Astrogirl 0x02
+#define AstrogirlSlowed 0xC1
 #define BaskingintheSun 0x03 
 #define BlueClapper 0x04
 #define CaesuraofDespair 0x05
-#define 223AM 0x06
-#define ChoirWaltz 0x07
+#define _223AM 0x06
+#define ChoirWaltz 0x58
 #define Daydream 0x09
 #define Fantasia 0x0A
+#define FantasiaCutscene 0x24
 #define Fukkireta 0x0B
-#define Ghost 0x0B
+#define Ghost 0xC2
 #define Hologram_Circus 0x0C
 #define Identity 0x0D
 #define Inochi 0x0E
@@ -22,64 +24,70 @@
 #define Konpeko 0x16
 #define FE5MapB 0x17
 #define MarineSetSail 0x18
-#define Nonfiction  
-#define PlasmagicSeasons
-#define Rushiabgm 
-#define WatamesLullaby
-#define KawaiikuteGomen
-#define DanceoftheToys 0x318
+#define Nonfiction 0x1C
+#define PlasmagicSeasons 0x1D
+#define rushiabgm 0x1E
+#define WatamesLullaby 0x1F
+#define KawaiikuteGomen 0x20
+#define AmeliaMoment 0x318
+#define Infinity 0x46
 
 
 //FE4 
-#define FE4AnotherAssault
-#define FE4FoetoFriend
-#define FE4ThoughtsgoingAround 
-#define FE4DanceintheSkies
-#define FE4ValkyrieStaff
-#define FE4Silezha
+#define FE4AnotherAssault 0x21
+#define FE4FromFoetoFriend 0x22
+#define FE4ThoughtsGoingAround 0x23
+#define FE4DanceintheSkies 0x24
+#define FE4ValkyrieStaff 0x25
+#define FE4Silezha 0x26
 
 //FE5
-#define FE5AugustB
-#define FE5Advance
-#define FE5Adversity
+#define FE5AugustB 0x27
+#define FE5Advance 0x28
+#define FE5Adversity 0x29
 #define FE5BossBattle 0x1B
-#define FE5Curing
+#define FE5Curing 0x2A
 #define FE5Defend 0x1A
 #define FE5DestinyThracia 0x12
-#define FE5Preps
-#define FE5PressingThreat
-#define FE5Sorrow
+#define FE5Preps 0x2B
+#define FE5PressingThreat 0x2C
+#define FE5Sorrow 0x2D
 #define FE5SquadA 0x13
 #define FE5SquadB 0x14
-#define FE5ThreatB
-#define FE5Victory
-#define FE5VictoryMinor
+#define FE5ThreatB 0x2D
+#define FE5Victory 0x2E
+#define FE5VictoryMinor 0x2F
 #define FE5Attack 0x19
-#define FE5Conquest
-#define FE5Crisis
-#define FE5NearDefeat
+#define FE5Conquest 0x30
+#define FE5Crisis 0x31
+#define FE5NearDefeat 0x32
 #define FE5NearVictory 0x10
-#define FE5LoptousA 
-#define FE5MapB
-#define FE5SearchingforVictory
-#define FE5ChargeB
+#define FE5LoptousA 0x33
+#define FE5MapB 0x34
+#define FE5SearchingforVictory 0x35
+#define FE5ChargeB 0x36
 
 //FE6
-#define FE6Shaman
+#define FE6Shaman 0x37
+#define PriestofDarkness 0xC3
+
+//FE7
+#define BlessingoftheGeneralsI 0x40 
+#define BlessingoftheGeneralsII 0x41
 
 //FE11
-#define FE11Leaps
+#define FE11Leaps 0x42
 #define FE11IntoTheDarkness 0x11
 
 //misc
-#define Escape
-#define KingofMonsters
-#define Neko to Sanpo
-#define Kawanabe
-#define amongusdrip
+#define Escape 0x44
+#define KingofMonsters 0x45
+#define NekotoSanpo 0x59
+#define Kawanabe 0x5D
+#define amongusdrip 0x5E
 
 //FFT
-#define DecisiveBattle
+#define DecisiveBattle 0x5F
 
 
 //Vanilla
