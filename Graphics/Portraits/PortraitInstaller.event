@@ -2,6 +2,8 @@
 #define setMugEntryExtend(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, extend1X, extend1Y, extend2X, extend2Y)"PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; BYTE extend1X extend1Y extend2X extend2Y; BYTE mouthX mouthY eyeX eyeY; BYTE 1 0 1 0; POP"
 
 #define AmeliaAlt1 0xD2
+#define AmeLonk 0xCE
+#define MKmelia 0xD5
 #define Bloom 0xC6
 #define Chloe 0x23
 #define Choco 0xB6
@@ -22,6 +24,7 @@
 #define Korone 0x3F
 #define Kurokami 0x41
 #define Laplace 0x1F
+#define Laufey 0x39
 #define LuiMorph 0x2F
 #define LuiN 0x15
 #define Mel 0x52
@@ -322,10 +325,35 @@ AmeliaAlt1:
 setMugEntry(AmeliaAlt1, AmeliaAlt1Data, 2, 6, 3, 4)
 
 ALIGN 16
+AmeLonk:
+#incbin "AmeLonk_mug.dmp"
+#incbin "AmeLonk_frames.dmp"
+#incbin "AmeLonk_palette.dmp"
+#incbin "AmeLonk_minimug.dmp"
+setMugEntry(AmeLonk, AmeLonkData, 3, 6, 3, 4)
+
+ALIGN 16
+MKmelia:
+#incbin "MKmelia_mug.dmp"
+#incbin "MKmelia_frames.dmp"
+#incbin "MKmelia_palette.dmp"
+#incbin "MKmelia_minimug.dmp"
+setMugEntry(MKmelia, MKmeliaData, 3, 6, 3, 4)
+
+ALIGN 16
+Laufey:
+#incbin "Laufey_mug.dmp"
+#incbin "Laufey_frames.dmp"
+#incbin "Laufey_palette.dmp"
+#incbin "Laufey_minimug.dmp"
+setMugEntry(Laufey, LaufeyData, 4, 6, 4, 4)
+
+ALIGN 16
 :
 #incbin "_mug.dmp"
 #incbin "_frames.dmp"
 #incbin "_palette.dmp"
 #incbin "_minimug.dmp"
 setMugEntry(, Data, 4, 6, 4, 4)
+
 
