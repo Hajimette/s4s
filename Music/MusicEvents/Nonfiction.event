@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song03DC_grp  voicegroup000
-	#define	song03DC_pri  0
-	#define	song03DC_rev  0
-	#define	song03DC_mvl  127
-	#define	song03DC_key  0
-	#define	song03DC_tbs  1
-	#define	song03DC_exg  0
-	#define	song03DC_cmp  1
+	#define	Nonfiction_grp  voicegroup000
+	#define	Nonfiction_pri  0
+	#define	Nonfiction_rev  0
+	#define	Nonfiction_mvl  127
+	#define	Nonfiction_key  0
+	#define	Nonfiction_tbs  1
+	#define	Nonfiction_exg  0
+	#define	Nonfiction_cmp  1
 
 	// .rodata
-	//	song03DC
+	//	Nonfiction
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song03DC_001:
+Nonfiction_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song03DC_key+0
- BYTE   TEMPO   180*song03DC_tbs/2
+ BYTE   KEYSH   Nonfiction_key+0
+ BYTE   TEMPO   180*Nonfiction_tbs/2
  BYTE   VOICE   100
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   47*song03DC_mvl/mxv
+ BYTE   VOL   47*Nonfiction_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N90  An4  v096
  BYTE   N90  An5
@@ -907,30 +907,30 @@ Label_01AEF14F:
  BYTE   W96
 //  #01 //182   ----------------------------------------
  BYTE   W72
- BYTE   TEMPO   160*song03DC_tbs/2
+ BYTE   TEMPO   160*Nonfiction_tbs/2
  BYTE   W24
 //  #01 //183   ----------------------------------------
  BYTE   W84
- BYTE   TEMPO   140*song03DC_tbs/2
+ BYTE   TEMPO   140*Nonfiction_tbs/2
  BYTE   W12
 //  #01 //184   ----------------------------------------
  BYTE   W24
- BYTE   TEMPO   120*song03DC_tbs/2
+ BYTE   TEMPO   120*Nonfiction_tbs/2
  BYTE   W24
- BYTE   TEMPO   100*song03DC_tbs/2
+ BYTE   TEMPO   100*Nonfiction_tbs/2
  BYTE   W24
- BYTE   TEMPO   30*song03DC_tbs/2
+ BYTE   TEMPO   30*Nonfiction_tbs/2
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song03DC_002:
+Nonfiction_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song03DC_key+0
+ BYTE   KEYSH   Nonfiction_key+0
  BYTE   VOICE   46
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   45*song03DC_mvl/mxv
+ BYTE   VOL   45*Nonfiction_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #02 //001   ----------------------------------------
@@ -2006,13 +2006,13 @@ Label_01AEF63E:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song03DC_003:
+Nonfiction_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song03DC_key+0
+ BYTE   KEYSH   Nonfiction_key+0
  BYTE   VOICE   1
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   61*song03DC_mvl/mxv
+ BYTE   VOL   61*Nonfiction_mvl/mxv
  BYTE   N11  An3  v068
  BYTE   W02
  BYTE   N09  Cn4
@@ -3351,13 +3351,13 @@ Label_01AEFB3D:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song03DC_004:
+Nonfiction_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song03DC_key+0
+ BYTE   KEYSH   Nonfiction_key+0
  BYTE   VOICE   49
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   42*song03DC_mvl/mxv
+ BYTE   VOL   42*Nonfiction_mvl/mxv
  BYTE   N68  Dn2  v060
  BYTE   N68  Dn3
  BYTE   W72
@@ -4382,13 +4382,13 @@ Label_01AF0122:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song03DC_005:
+Nonfiction_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song03DC_key+0
+ BYTE   KEYSH   Nonfiction_key+0
  BYTE   VOICE   40
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   57*song03DC_mvl/mxv
+ BYTE   VOL   57*Nonfiction_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N90  An1  v096
  BYTE   N90  An2
@@ -5181,13 +5181,13 @@ Label_01AF0458:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song03DC_006:
+Nonfiction_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song03DC_key+0
+ BYTE   KEYSH   Nonfiction_key+0
  BYTE   VOICE   28
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   66*song03DC_mvl/mxv
+ BYTE   VOL   66*Nonfiction_mvl/mxv
  BYTE   W96
 //  #06 //001   ----------------------------------------
  BYTE   W96
@@ -5999,13 +5999,13 @@ Label_01AF0A6B:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song03DC_007:
+Nonfiction_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song03DC_key+0
+ BYTE   KEYSH   Nonfiction_key+0
  BYTE   VOICE   54
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   68*song03DC_mvl/mxv
+ BYTE   VOL   68*Nonfiction_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #07 //001   ----------------------------------------
@@ -6809,13 +6809,13 @@ Label_01AF0E47:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song03DC_008:
+Nonfiction_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   song03DC_key+0
+ BYTE   KEYSH   Nonfiction_key+0
  BYTE   VOICE   47
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   68*song03DC_mvl/mxv
+ BYTE   VOL   68*Nonfiction_mvl/mxv
  BYTE   W96
 //  #08 //001   ----------------------------------------
  BYTE   W96
@@ -7627,10 +7627,10 @@ Label_01AF06BF:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song03DC_009:
+Nonfiction_009:
 //  #09 //000   ----------------------------------------
- BYTE   VOL   80*song03DC_mvl/mxv
- BYTE   KEYSH   song03DC_key+0
+ BYTE   VOL   80*Nonfiction_mvl/mxv
+ BYTE   KEYSH   Nonfiction_key+0
  BYTE   VOICE   122
  BYTE   MODT 0
  BYTE   LFOS 44
@@ -8259,13 +8259,13 @@ Label_01C71041:
 
 //**************** Track 10 (Midi-Chn.9) ****************//
 
-song03DC_010:
+Nonfiction_010:
 //  #10 //000   ----------------------------------------
- BYTE   KEYSH   song03DC_key+0
+ BYTE   KEYSH   Nonfiction_key+0
  BYTE   VOICE   54
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   40*song03DC_mvl/mxv
+ BYTE   VOL   40*Nonfiction_mvl/mxv
  BYTE   W96
 //  #10 //001   ----------------------------------------
  BYTE   W96
@@ -8880,23 +8880,23 @@ Label_01C71181:
 //******************************************************//
 	ALIGN 4
 
-song03DC:
+Nonfiction:
 	BYTE	10	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song03DC_pri	// Priority
-	BYTE	song03DC_rev	// Reverb.
+	BYTE	Nonfiction_pri	// Priority
+	BYTE	Nonfiction_rev	// Reverb.
     
-	POIN2	song03DC_grp
+	POIN2	Nonfiction_grp
     
-	POIN2	song03DC_001
-	POIN2	song03DC_002
-	POIN2	song03DC_003
-	POIN2	song03DC_004
-	POIN2	song03DC_005
-	POIN2	song03DC_006
-	POIN2	song03DC_007
-	POIN2	song03DC_008
-	POIN2	song03DC_009
-	POIN2	song03DC_010
+	POIN2	Nonfiction_001
+	POIN2	Nonfiction_002
+	POIN2	Nonfiction_003
+	POIN2	Nonfiction_004
+	POIN2	Nonfiction_005
+	POIN2	Nonfiction_006
+	POIN2	Nonfiction_007
+	POIN2	Nonfiction_008
+	POIN2	Nonfiction_009
+	POIN2	Nonfiction_010
 
 	

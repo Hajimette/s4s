@@ -1,31 +1,31 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song15_grp  voicegroup000
-	#define	song15_pri  0
-	#define	song15_rev  0
-	#define	song15_mvl  127
-	#define	song15_key  0
-	#define	song15_tbs  1
-	#define	song15_exg  0
-	#define	song15_cmp  1
+	#define	FE5PressingThreat_grp  voicegroup000
+	#define	FE5PressingThreat_pri  0
+	#define	FE5PressingThreat_rev  0
+	#define	FE5PressingThreat_mvl  127
+	#define	FE5PressingThreat_key  0
+	#define	FE5PressingThreat_tbs  1
+	#define	FE5PressingThreat_exg  0
+	#define	FE5PressingThreat_cmp  1
 
 	// .rodata
-	//	song15
+	//	FE5PressingThreat
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song15_001:
+FE5PressingThreat_001:
 // 000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
- BYTE   TEMPO   46*song15_tbs/2
+ BYTE   KEYSH   FE5PressingThreat_key+0
+ BYTE   TEMPO   46*FE5PressingThreat_tbs/2
  BYTE   W48
 Label_0_014EF7A9:
  BYTE   W07
  BYTE   VOICE   1
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N04  An2  v127
  BYTE   W40
@@ -59,7 +59,7 @@ Label_0_014EF7B5:
 // 007   ----------------------------------------
  BYTE   W08
  BYTE   VOICE   2
- BYTE   VOL   51*song15_mvl/mxv
+ BYTE   VOL   51*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N12  Dn3
  BYTE   W18
@@ -85,14 +85,14 @@ Label_0_014EF7B5:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song15_002:
+FE5PressingThreat_002:
 // 000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   FE5PressingThreat_key+0
  BYTE   W48
 Label_1_014EF7FB:
  BYTE   W07
  BYTE   VOICE   1
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   Fs4
  BYTE   W01
@@ -114,7 +114,7 @@ Label_1_014EF7FB:
  BYTE   N02
  BYTE   W11
  BYTE   VOICE   0
- BYTE   VOL   46*song15_mvl/mxv
+ BYTE   VOL   46*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v+14
  BYTE   W06
  BYTE   N03  En2  v108
@@ -154,7 +154,7 @@ Label_1_014EF7FB:
  BYTE   N03
  BYTE   W07
  BYTE   VOICE   1
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   W84
  BYTE   W01
@@ -179,7 +179,7 @@ Label_1_014EF7FB:
  BYTE   N02
  BYTE   W05
  BYTE   VOICE   1
- BYTE   VOL   40*song15_mvl/mxv
+ BYTE   VOL   40*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-34
  BYTE   W02
  BYTE   N12  Dn3
@@ -198,7 +198,7 @@ Label_1_014EF7FB:
 // 009   ----------------------------------------
  BYTE   W08
  BYTE   VOICE   47
- BYTE   VOL   58*song15_mvl/mxv
+ BYTE   VOL   58*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   Ds1
  BYTE   W01
@@ -239,14 +239,14 @@ Label_1_014EF7FB:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song15_003:
+FE5PressingThreat_003:
 // 000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   FE5PressingThreat_key+0
  BYTE   W48
 Label_2_014EF8C3:
  BYTE   W07
  BYTE   VOICE   0
- BYTE   VOL   40*song15_mvl/mxv
+ BYTE   VOL   40*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v+34
  BYTE   N32  Bn2  v104
  BYTE   W36
@@ -266,7 +266,7 @@ Label_2_014EF8C3:
 // 002   ----------------------------------------
  BYTE   W07
  BYTE   VOICE   2
- BYTE   VOL   51*song15_mvl/mxv
+ BYTE   VOL   51*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N22  En2  v076
  BYTE   W24
@@ -280,7 +280,7 @@ Label_2_014EF8C3:
  BYTE   N36  Gn2
  BYTE   W48
  BYTE   VOICE   1
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N54  An0  v127
  BYTE   W40
@@ -296,7 +296,7 @@ Label_2_014EF8C3:
 // 005   ----------------------------------------
  BYTE   W08
  BYTE   VOICE   1
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   W84
  BYTE   N02  Fn2
@@ -323,7 +323,7 @@ Label_2_014EF8C3:
 // 009   ----------------------------------------
  BYTE   W08
  BYTE   VOICE   47
- BYTE   VOL   58*song15_mvl/mxv
+ BYTE   VOL   58*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   Ds1
  BYTE   N05  Bn1  v116
@@ -368,18 +368,18 @@ Label_2_014EF8C3:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song15_004:
+FE5PressingThreat_004:
 // 000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   FE5PressingThreat_key+0
  BYTE   VOICE   47
  BYTE   W06
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   W36
- BYTE   VOL   36*song15_mvl/mxv
+ BYTE   VOL   36*FE5PressingThreat_mvl/mxv
  BYTE   N10  An1  v127
  BYTE   W01
- BYTE   VOL   37*song15_mvl/mxv
+ BYTE   VOL   37*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Ds1
  BYTE   W01
@@ -390,7 +390,7 @@ song15_004:
  BYTE   Gs1
  BYTE   W01
 Label_3_014EF973:
- BYTE   VOL   45*song15_mvl/mxv
+ BYTE   VOL   45*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Bn1
  BYTE   W01
@@ -478,7 +478,7 @@ Label_3_014EF99E:
  BYTE   W06
  BYTE   N01  En2  v096
  BYTE   W06
- BYTE   VOL   58*song15_mvl/mxv
+ BYTE   VOL   58*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W06
  BYTE   N03  En3  v108
@@ -517,7 +517,7 @@ Label_3_014EF99E:
  BYTE   W01
  BYTE   N03
  BYTE   W07
- BYTE   VOL   58*song15_mvl/mxv
+ BYTE   VOL   58*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N05  As1  v127
  BYTE   W06
@@ -625,7 +625,7 @@ Label_3_014EF99E:
  BYTE   W88
 // 008   ----------------------------------------
  BYTE   W08
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N07  Fs2  v104
  BYTE   W18
@@ -661,12 +661,12 @@ Label_3_014EF99E:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song15_005:
+FE5PressingThreat_005:
 // 000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   FE5PressingThreat_key+0
  BYTE   VOICE   47
  BYTE   W06
- BYTE   VOL   58*song15_mvl/mxv
+ BYTE   VOL   58*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   W06
  BYTE   N01  An2  v096
@@ -680,7 +680,7 @@ song15_005:
 Label_4_014EFB4A:
  BYTE   N03  Bn2  v092
  BYTE   W07
- BYTE   VOL   58*song15_mvl/mxv
+ BYTE   VOL   58*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N04  An1  v108
  BYTE   W06
@@ -760,7 +760,7 @@ Label_4_014EFB4A:
  BYTE   W12
  BYTE   N01  An2  v100
  BYTE   W06
- BYTE   VOL   58*song15_mvl/mxv
+ BYTE   VOL   58*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   W07
  BYTE   N03  An2  v108
@@ -799,12 +799,12 @@ Label_4_014EFB4A:
  BYTE   W02
  BYTE   N03
  BYTE   W06
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
- BYTE   VOL   44*song15_mvl/mxv
+ BYTE   VOL   44*FE5PressingThreat_mvl/mxv
  BYTE   N44  Gs2  v116
  BYTE   W01
- BYTE   VOL   45*song15_mvl/mxv
+ BYTE   VOL   45*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   An1
  BYTE   W01
@@ -854,7 +854,7 @@ Label_4_014EFB4A:
  BYTE   Gs1
  BYTE   N44  As2
  BYTE   W01
- BYTE   VOL   45*song15_mvl/mxv
+ BYTE   VOL   45*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   An1
  BYTE   W01
@@ -905,7 +905,7 @@ Label_4_014EFB4A:
  BYTE   Gs1
  BYTE   N42  Gn2
  BYTE   W01
- BYTE   VOL   45*song15_mvl/mxv
+ BYTE   VOL   45*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   An1
  BYTE   W01
@@ -956,7 +956,7 @@ Label_4_014EFB4A:
  BYTE   W40
 // 007   ----------------------------------------
  BYTE   W56
- BYTE   VOL   58*song15_mvl/mxv
+ BYTE   VOL   58*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   W30
  BYTE   N03  As2  v127
@@ -967,7 +967,7 @@ Label_4_014EFB4A:
  BYTE   W02
  BYTE   N03
  BYTE   W06
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N12  Dn3
  BYTE   W18
@@ -983,7 +983,7 @@ Label_4_014EFB4A:
  BYTE   W40
 // 009   ----------------------------------------
  BYTE   W08
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   Fn5
  BYTE   N17  Bn1  v108
@@ -1022,12 +1022,12 @@ Label_4_014EFB4A:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song15_006:
+FE5PressingThreat_006:
 // 000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   FE5PressingThreat_key+0
  BYTE   VOICE   60
  BYTE   W06
- BYTE   VOL   58*song15_mvl/mxv
+ BYTE   VOL   58*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N04  An1  v127
  BYTE   W06
@@ -1046,7 +1046,7 @@ song15_006:
 Label_5_014EFD37:
  BYTE   N02  Fn2  v096
  BYTE   W07
- BYTE   VOL   46*song15_mvl/mxv
+ BYTE   VOL   46*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v+14
  BYTE   N32  Cn4  v104
  BYTE   W36
@@ -1065,7 +1065,7 @@ Label_5_014EFD37:
  BYTE   W01
 // 002   ----------------------------------------
  BYTE   W07
- BYTE   VOL   51*song15_mvl/mxv
+ BYTE   VOL   51*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N22  En2  v076
  BYTE   W24
@@ -1078,12 +1078,12 @@ Label_5_014EFD37:
  BYTE   W07
  BYTE   N36  Gn2
  BYTE   W48
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
- BYTE   VOL   38*song15_mvl/mxv
+ BYTE   VOL   38*FE5PressingThreat_mvl/mxv
  BYTE   N56  An2  v080
  BYTE   W01
- BYTE   VOL   39*song15_mvl/mxv
+ BYTE   VOL   39*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Ds1
  BYTE   W01
@@ -1145,10 +1145,10 @@ Label_5_014EFD37:
  BYTE   W19
  BYTE   N10  As2  v096
  BYTE   W12
- BYTE   VOL   38*song15_mvl/mxv
+ BYTE   VOL   38*FE5PressingThreat_mvl/mxv
  BYTE   N56  Cn3  v092
  BYTE   W01
- BYTE   VOL   39*song15_mvl/mxv
+ BYTE   VOL   39*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Ds1
  BYTE   W01
@@ -1211,7 +1211,7 @@ Label_5_014EFD37:
  BYTE   W05
 // 005   ----------------------------------------
  BYTE   W08
- BYTE   VOL   58*song15_mvl/mxv
+ BYTE   VOL   58*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N05  As1  v127
  BYTE   W06
@@ -1291,7 +1291,7 @@ Label_5_014EFD37:
  BYTE   W02
  BYTE   Ds3  v116
  BYTE   W06
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N12  Gs2
  BYTE   W18
@@ -1307,7 +1307,7 @@ Label_5_014EFD37:
  BYTE   W40
 // 009   ----------------------------------------
  BYTE   W08
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N07  Bn2  v104
  BYTE   W18
@@ -1343,18 +1343,18 @@ Label_5_014EFD37:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song15_007:
+FE5PressingThreat_007:
 // 000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   FE5PressingThreat_key+0
  BYTE   VOICE   48
  BYTE   W06
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   W36
- BYTE   VOL   36*song15_mvl/mxv
+ BYTE   VOL   36*FE5PressingThreat_mvl/mxv
  BYTE   N10  En2  v127
  BYTE   W01
- BYTE   VOL   37*song15_mvl/mxv
+ BYTE   VOL   37*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Ds1
  BYTE   W01
@@ -1365,7 +1365,7 @@ song15_007:
  BYTE   Gs1
  BYTE   W01
 Label_6_014EFEEF:
- BYTE   VOL   45*song15_mvl/mxv
+ BYTE   VOL   45*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Bn1
  BYTE   W01
@@ -1399,7 +1399,7 @@ Label_6_014EFEEF:
  BYTE   W01
 // 002   ----------------------------------------
  BYTE   W07
- BYTE   VOL   51*song15_mvl/mxv
+ BYTE   VOL   51*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N23  Cn3  v076
  BYTE   W24
@@ -1412,12 +1412,12 @@ Label_6_014EFEEF:
  BYTE   W07
  BYTE   N36  En3
  BYTE   W48
- BYTE   VOL   51*song15_mvl/mxv
+ BYTE   VOL   51*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v+14
- BYTE   VOL   38*song15_mvl/mxv
+ BYTE   VOL   38*FE5PressingThreat_mvl/mxv
  BYTE   N56  En3  v096
  BYTE   W01
- BYTE   VOL   39*song15_mvl/mxv
+ BYTE   VOL   39*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Ds1
  BYTE   W01
@@ -1479,10 +1479,10 @@ Label_6_014EFEEF:
  BYTE   W19
  BYTE   N10  Fn3
  BYTE   W12
- BYTE   VOL   38*song15_mvl/mxv
+ BYTE   VOL   38*FE5PressingThreat_mvl/mxv
  BYTE   N56  An3  v100
  BYTE   W01
- BYTE   VOL   39*song15_mvl/mxv
+ BYTE   VOL   39*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Ds1
  BYTE   W01
@@ -1545,12 +1545,12 @@ Label_6_014EFEEF:
  BYTE   W05
 // 005   ----------------------------------------
  BYTE   W08
- BYTE   VOL   51*song15_mvl/mxv
+ BYTE   VOL   51*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
- BYTE   VOL   41*song15_mvl/mxv
+ BYTE   VOL   41*FE5PressingThreat_mvl/mxv
  BYTE   N44  Cs3  v116
  BYTE   W01
- BYTE   VOL   42*song15_mvl/mxv
+ BYTE   VOL   42*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Fs1
  BYTE   W01
@@ -1600,7 +1600,7 @@ Label_6_014EFEEF:
  BYTE   Fn1
  BYTE   N44  Ds3
  BYTE   W01
- BYTE   VOL   42*song15_mvl/mxv
+ BYTE   VOL   42*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Fs1
  BYTE   W01
@@ -1651,7 +1651,7 @@ Label_6_014EFEEF:
  BYTE   Fn1
  BYTE   N42  Cn3
  BYTE   W01
- BYTE   VOL   42*song15_mvl/mxv
+ BYTE   VOL   42*FE5PressingThreat_mvl/mxv
  BYTE   W01
  BYTE   Fs1
  BYTE   W01
@@ -1702,7 +1702,7 @@ Label_6_014EFEEF:
  BYTE   W40
 // 007   ----------------------------------------
  BYTE   W56
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   W30
  BYTE   N03  Fn2  v127
@@ -1713,7 +1713,7 @@ Label_6_014EFEEF:
  BYTE   W02
  BYTE   N03
  BYTE   W06
- BYTE   VOL   46*song15_mvl/mxv
+ BYTE   VOL   46*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v+14
  BYTE   N12  Dn4  v092
  BYTE   W18
@@ -1729,7 +1729,7 @@ Label_6_014EFEEF:
  BYTE   W40
 // 009   ----------------------------------------
  BYTE   W08
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*FE5PressingThreat_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   Fn5
  BYTE   N05  Bn0  v116
@@ -1774,10 +1774,10 @@ Label_6_014EFEEF:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song15_008:
+FE5PressingThreat_008:
 // 000   ----------------------------------------
- BYTE   VOL   65*song15_mvl/mxv
- BYTE   KEYSH   song15_key+0
+ BYTE   VOL   65*FE5PressingThreat_mvl/mxv
+ BYTE   KEYSH   FE5PressingThreat_key+0
  BYTE   VOICE   0
  BYTE   W06
  BYTE   N05  Ds0  v127
@@ -2052,21 +2052,21 @@ Label_7_014F01A9:
 //******************************************************//
 	ALIGN 4
 
-song15:
+FE5PressingThreat:
 	BYTE	8	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song15_pri	// Priority
-	BYTE	song15_rev	// Reverb.
+	BYTE	FE5PressingThreat_pri	// Priority
+	BYTE	FE5PressingThreat_rev	// Reverb.
     
-	POIN2	song15_grp
+	POIN2	FE5PressingThreat_grp
     
-	POIN2	song15_001
-	POIN2	song15_002
-	POIN2	song15_003
-	POIN2	song15_004
-	POIN2	song15_005
-	POIN2	song15_006
-	POIN2	song15_007
-	POIN2	song15_008
+	POIN2	FE5PressingThreat_001
+	POIN2	FE5PressingThreat_002
+	POIN2	FE5PressingThreat_003
+	POIN2	FE5PressingThreat_004
+	POIN2	FE5PressingThreat_005
+	POIN2	FE5PressingThreat_006
+	POIN2	FE5PressingThreat_007
+	POIN2	FE5PressingThreat_008
 
 	

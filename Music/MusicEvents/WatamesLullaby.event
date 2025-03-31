@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song28_grp  voicegroup000
-	#define	song28_pri  0
-	#define	song28_rev  0
-	#define	song28_mvl  127
-	#define	song28_key  0
-	#define	song28_tbs  1
-	#define	song28_exg  0
-	#define	song28_cmp  1
+	#define	WatamesLullaby_grp  voicegroup000
+	#define	WatamesLullaby_pri  0
+	#define	WatamesLullaby_rev  0
+	#define	WatamesLullaby_mvl  127
+	#define	WatamesLullaby_key  0
+	#define	WatamesLullaby_tbs  1
+	#define	WatamesLullaby_exg  0
+	#define	WatamesLullaby_cmp  1
 
 	// .rodata
-	//	song28
+	//	WatamesLullaby
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song28_001:
+WatamesLullaby_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song28_key+0
- BYTE   TEMPO   108*song28_tbs/2
+ BYTE   KEYSH   WatamesLullaby_key+0
+ BYTE   TEMPO   108*WatamesLullaby_tbs/2
  BYTE   VOICE   1
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song28_mvl/mxv
+ BYTE   VOL   53*WatamesLullaby_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W72
 Label_5654B3:
@@ -222,13 +222,13 @@ Label_56551E:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song28_002:
+WatamesLullaby_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song28_key+0
+ BYTE   KEYSH   WatamesLullaby_key+0
  BYTE   VOICE   52
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song28_mvl/mxv
+ BYTE   VOL   53*WatamesLullaby_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N23  An3  v060
  BYTE   W24
@@ -401,19 +401,19 @@ Label_56578E:
  BYTE   W24
 //  #02 //017   ----------------------------------------
  BYTE   W48
- BYTE   VOL   53*song28_mvl/mxv
+ BYTE   VOL   53*WatamesLullaby_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   FINE
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song28_003:
+WatamesLullaby_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song28_key+0
+ BYTE   KEYSH   WatamesLullaby_key+0
  BYTE   VOICE   13
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song28_mvl/mxv
+ BYTE   VOL   53*WatamesLullaby_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N23  An3  v060
  BYTE   W24
@@ -585,16 +585,16 @@ Label_010D972F:
 //******************************************************//
 	ALIGN 4
 
-song28:
+WatamesLullaby:
 	BYTE	3	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song28_pri	// Priority
-	BYTE	song28_rev	// Reverb.
+	BYTE	WatamesLullaby_pri	// Priority
+	BYTE	WatamesLullaby_rev	// Reverb.
     
-	POIN2	song28_grp
+	POIN2	WatamesLullaby_grp
     
-	POIN2	song28_001
-	POIN2	song28_002
-	POIN2	song28_003
+	POIN2	WatamesLullaby_001
+	POIN2	WatamesLullaby_002
+	POIN2	WatamesLullaby_003
 
 	

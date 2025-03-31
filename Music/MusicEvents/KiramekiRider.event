@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song5E_grp  voicegroup000
-	#define	song5E_pri  0
-	#define	song5E_rev  0
-	#define	song5E_mvl  127
-	#define	song5E_key  0
-	#define	song5E_tbs  1
-	#define	song5E_exg  0
-	#define	song5E_cmp  1
+	#define	KiramekiRider_grp  voicegroup000
+	#define	KiramekiRider_pri  0
+	#define	KiramekiRider_rev  0
+	#define	KiramekiRider_mvl  127
+	#define	KiramekiRider_key  0
+	#define	KiramekiRider_tbs  1
+	#define	KiramekiRider_exg  0
+	#define	KiramekiRider_cmp  1
 
 	// .rodata
-	//	song5E
+	//	KiramekiRider
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song5E_001:
+KiramekiRider_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song5E_key+0
- BYTE   TEMPO   140*song5E_tbs/2
+ BYTE   KEYSH   KiramekiRider_key+0
+ BYTE   TEMPO   140*KiramekiRider_tbs/2
  BYTE   VOICE   75
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   88*song5E_mvl/mxv
+ BYTE   VOL   88*KiramekiRider_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W24
  BYTE   W96
@@ -43,12 +43,12 @@ song5E_001:
 //  #01 //007   ----------------------------------------
  BYTE   W96
 //  #01 //008   ----------------------------------------
- BYTE   TEMPO   68*song5E_tbs/2
+ BYTE   TEMPO   68*KiramekiRider_tbs/2
  BYTE   W96
 //  #01 //009   ----------------------------------------
  BYTE   W96
 //  #01 //010   ----------------------------------------
- BYTE   TEMPO   160*song5E_tbs/2
+ BYTE   TEMPO   160*KiramekiRider_tbs/2
  BYTE   W96
 //  #01 //011   ----------------------------------------
 Label_0183B7C6:
@@ -849,20 +849,20 @@ Label_0183B99D:
  BYTE   GoTo
   POIN2 Label_0183B802
 //  #01 //153   ----------------------------------------
- BYTE   TEMPO   160*song5E_tbs/2
+ BYTE   TEMPO   160*KiramekiRider_tbs/2
  BYTE   W21
- BYTE   TEMPO   160*song5E_tbs/2
+ BYTE   TEMPO   160*KiramekiRider_tbs/2
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song5E_002:
+KiramekiRider_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song5E_key+0
+ BYTE   KEYSH   KiramekiRider_key+0
  BYTE   VOICE   1
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   94*song5E_mvl/mxv
+ BYTE   VOL   94*KiramekiRider_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N11  Fn4  v028
  BYTE   W12
@@ -3796,13 +3796,13 @@ Label_0183C832:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song5E_003:
+KiramekiRider_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song5E_key+0
+ BYTE   KEYSH   KiramekiRider_key+0
  BYTE   VOICE   52
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   88*song5E_mvl/mxv
+ BYTE   VOL   88*KiramekiRider_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W24
  BYTE   W96
@@ -4427,13 +4427,13 @@ Label_0183CEBD:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song5E_004:
+KiramekiRider_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song5E_key+0
+ BYTE   KEYSH   KiramekiRider_key+0
  BYTE   VOICE   48
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   88*song5E_mvl/mxv
+ BYTE   VOL   88*KiramekiRider_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W24
  BYTE   N68  Fs3  v016
@@ -5483,13 +5483,13 @@ Label_0183D25D:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song5E_005:
+KiramekiRider_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song5E_key+0
+ BYTE   KEYSH   KiramekiRider_key+0
  BYTE   VOICE   121
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   88*song5E_mvl/mxv
+ BYTE   VOL   88*KiramekiRider_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W24
  BYTE   W96
@@ -6649,18 +6649,18 @@ Label_0183D8F7:
 //******************************************************//
 	ALIGN 4
 
-song5E:
+KiramekiRider:
 	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song5E_pri	// Priority
-	BYTE	song5E_rev	// Reverb.
+	BYTE	KiramekiRider_pri	// Priority
+	BYTE	KiramekiRider_rev	// Reverb.
     
-	POIN2	song5E_grp
+	POIN2	KiramekiRider_grp
     
-	POIN2	song5E_001
-	POIN2	song5E_002
-	POIN2	song5E_003
-	POIN2	song5E_004
-	POIN2	song5E_005
+	POIN2	KiramekiRider_001
+	POIN2	KiramekiRider_002
+	POIN2	KiramekiRider_003
+	POIN2	KiramekiRider_004
+	POIN2	KiramekiRider_005
 
 	

@@ -2,101 +2,101 @@
 
 
 //HoloAdjacent
-#define ShinySmileyStory 0x01
-#define ShinySmileyStoryTitle 0x43
-#define Astrogirl 0x02
-#define AstrogirlSlowed 0xC1
-#define BaskingintheSun 0x03 
-#define BlueClapper 0x04
-#define CaesuraofDespair 0x05
-#define _223AM 0x06
-#define ChoirWaltz 0x58
-#define Daydream 0x09
-#define Fantasia 0x0A
-#define FantasiaCutscene 0x24
-#define Fukkireta 0x0B
-#define Ghost 0xC2
-#define Hologram_Circus 0x0C
-#define Identity 0x0D
-#define Inochi 0x0E
-#define KiramekiRider 0x0F 
-#define KisekiKnot 0x15
-#define Konpeko 0x16
-#define FE5MapB 0x17
-#define MarineSetSail 0x18
-#define Nonfiction 0x1C
-#define PlasmagicSeasons 0x1D
-#define rushiabgm 0x1E
-#define WatamesLullaby 0x1F
-#define KawaiikuteGomen 0x20
-#define AmeliaMoment 0x318
-#define Infinity 0x46
+#define ShinySmileyStoryID 0x01
+#define ShinySmileyStoryTitleID 0x43
+#define AstrogirlID 0x02
+#define AstrogirlSlowedID 0xC1
+#define BaskingintheSunID 0x03 
+#define BlueClapperID 0x04
+#define CaesuraofDespairID 0x05
+#define _223AMID 0x06
+#define ChoirWaltzID 0x58
+#define DaydreamID 0x09
+#define FantasiaID 0x0A
+#define FantasiaCutsceneID 0x24
+#define FukkiretaID 0x0B
+#define GhostID 0xC2
+#define Hologram_CircusID 0x0C
+#define IdentityID 0x0D
+#define InochiID 0x0E
+#define KiramekiRiderID 0x0F 
+#define KisekiKnotID 0x15
+#define KonpekoID 0x16
+#define FE5MapBID 0x17
+#define MarineSetSailID 0x18
+#define NonfictionID 0x1C
+#define PlasmagicSeasonsID 0x1D
+#define rushiabgmID 0x1E
+#define WatamesLullabyID 0x1F
+#define KawaiikuteGomenID 0x20
+#define AmeliaMomentID 0x318
+#define InfinityID 0x46
 
 
 //FE4 
-#define FE4AnotherAssault 0x21
-#define FE4FromFoetoFriend 0x22
-#define FE4ThoughtsGoingAround 0x23
-#define FE4DanceintheSkies 0x24
-#define FE4ValkyrieStaff 0x25
-#define FE4Silezha 0x26
+#define FE4AnotherAssaultID 0x21
+#define FE4FromFoetoFriendID 0x22
+#define FE4ThoughtsGoingAroundID 0x23
+#define FE4DanceintheSkiesID 0x24
+#define FE4ValkyrieStaffID 0x25
+#define FE4SilezhaID 0x26
 
 //FE5
-#define FE5AugustB 0x27
-#define FE5Advance 0x28
-#define FE5Adversity 0x29
-#define FE5BossBattle 0x1B
-#define FE5Curing 0x2A
-#define FE5Defend 0x1A
-#define FE5DestinyThracia 0x12
-#define FE5Preps 0x2B
-#define FE5PressingThreat 0x2C
-#define FE5Sorrow 0x2D
-#define FE5SquadA 0x13
-#define FE5SquadB 0x14
-#define FE5ThreatB 0x2D
-#define FE5Victory 0x2E
-#define FE5VictoryMinor 0x2F
-#define FE5Attack 0x19
-#define FE5Conquest 0x30
-#define FE5Crisis 0x31
-#define FE5NearDefeat 0x32
-#define FE5NearVictory 0x10
-#define FE5LoptousA 0x33
-#define FE5MapB 0x34
-#define FE5SearchingforVictory 0x35
-#define FE5ChargeB 0x36
+#define FE5AugustBID 0x27
+#define FE5AdvanceID 0x28
+#define FE5AdversityID 0x29
+#define FE5BossBattleID 0x1B
+#define FE5CuringID 0x2A
+#define FE5DefendID 0x1A
+#define FE5DestinyThraciaID 0x12
+#define FE5PrepsID 0x2B
+#define FE5PressingThreatID 0x2C
+#define FE5SorrowID 0x2D
+#define FE5SquadAID 0x13
+#define FE5SquadBID 0x14
+#define FE5ThreatBID 0x2D
+#define FE5VictoryID 0x2E
+#define FE5VictoryMinorID 0x2F
+#define FE5AttackID 0x19
+#define FE5ConquestID 0x30
+#define FE5CrisisID 0x31
+#define FE5NearDefeatID 0x32
+#define FE5NearVictoryID 0x10
+#define FE5LoptousAID 0x33
+#define FE5MapBID 0x34
+#define FE5SearchingforVictoryID 0x35
+#define FE5ChargeBID 0x36
 
 //FE6
-#define FE6Shaman 0x37
-#define PriestofDarkness 0xC3
+#define FE6ShamanID 0x37
+#define PriestofDarknessID 0xC3
 
 //FE7
-#define BlessingoftheGeneralsI 0x40 
-#define BlessingoftheGeneralsII 0x41
+#define BlessingoftheGeneralsIID 0x40 
+#define BlessingoftheGeneralsIIID 0x41
 
 //FE11
-#define FE11Leaps 0x42
-#define FE11IntoTheDarkness 0x11
+#define FE11LeapsID 0x42
+#define FE11IntoTheDarknessID 0x11
 
 //misc
-#define Escape 0x44
-#define KingofMonsters 0x45
-#define NekotoSanpo 0x59
-#define Kawanabe 0x5D
-#define amongusdrip 0x5E
+#define EscapeID 0x44
+#define KingofMonstersID 0x45
+#define NekotoSanpoID 0x59
+#define KawanabeID 0x5D
+#define amongusdripID 0x5E
 
 //FFT
-#define DecisiveBattle 0x5F
+#define DecisiveBattleID 0x5F
 
 
 //Vanilla
-#define TiesofFriendship 0x07
-#define TwistedShadowsA 0x16
-#define WindyDaySoundEffect 0x47
-#define WindyDayBirdsSoundEffect 0x48
-#define Nighttime 0x4A
-#define WaterFlowingSoundEffect 0x4B
-#define SoftSwooshSoundEffect 0x4D
-#define SwordUnsheathingEffect 0xCE
-#define DivineWeaponEffect 0xF0
+#define TiesofFriendshipID 0x07
+#define TwistedShadowsAID 0x16
+#define WindyDaySoundEffectID 0x47
+#define WindyDayBirdsSoundEffectID 0x48
+#define NighttimeID 0x4A
+#define WaterFlowingSoundEffectID 0x4B
+#define SoftSwooshSoundEffectID 0x4D
+#define SwordUnsheathingEffectID 0xCE
+#define DivineWeaponEffectID 0xF0

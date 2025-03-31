@@ -1,28 +1,28 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	songA9_grp  voicegroup000
-	#define	songA9_pri  0
-	#define	songA9_rev  0
-	#define	songA9_mvl  127
-	#define	songA9_key  0
-	#define	songA9_tbs  1
-	#define	songA9_exg  0
-	#define	songA9_cmp  1
+	#define	FE5LoptousA_grp  voicegroup000
+	#define	FE5LoptousA_pri  0
+	#define	FE5LoptousA_rev  0
+	#define	FE5LoptousA_mvl  127
+	#define	FE5LoptousA_key  0
+	#define	FE5LoptousA_tbs  1
+	#define	FE5LoptousA_exg  0
+	#define	FE5LoptousA_cmp  1
 
 	// .rodata
-	//	songA9
+	//	FE5LoptousA
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-songA9_001:
+FE5LoptousA_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   songA9_key+0
- BYTE   TEMPO   104*songA9_tbs/2
+ BYTE   KEYSH   FE5LoptousA_key+0
+ BYTE   TEMPO   104*FE5LoptousA_tbs/2
  BYTE   VOICE   48
- BYTE   VOL   62*songA9_mvl/mxv
+ BYTE   VOL   62*FE5LoptousA_mvl/mxv
  BYTE   N12  As3  v088
  BYTE   W12
  BYTE   An3
@@ -285,11 +285,11 @@ Label_013A4B5A:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-songA9_002:
+FE5LoptousA_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   songA9_key+0
+ BYTE   KEYSH   FE5LoptousA_key+0
  BYTE   VOICE   48
- BYTE   VOL   62*songA9_mvl/mxv
+ BYTE   VOL   62*FE5LoptousA_mvl/mxv
  BYTE   N12  As2  v088
  BYTE   W12
  BYTE   An2
@@ -559,11 +559,11 @@ Label_013A4C9C:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-songA9_003:
+FE5LoptousA_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   songA9_key+0
+ BYTE   KEYSH   FE5LoptousA_key+0
  BYTE   VOICE   48
- BYTE   VOL   58*songA9_mvl/mxv
+ BYTE   VOL   58*FE5LoptousA_mvl/mxv
  BYTE   W96
 //  #03 //001   ----------------------------------------
  BYTE   W96
@@ -626,7 +626,7 @@ songA9_003:
  BYTE   W96
 //  #03 //022   ----------------------------------------
 Label_013A4D48:
- BYTE   VOL   58*songA9_mvl/mxv
+ BYTE   VOL   58*FE5LoptousA_mvl/mxv
  BYTE   W96
 //  #03 //023   ----------------------------------------
  BYTE   W96
@@ -694,11 +694,11 @@ Label_013A4D48:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-songA9_004:
+FE5LoptousA_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   songA9_key+0
+ BYTE   KEYSH   FE5LoptousA_key+0
  BYTE   VOICE   48
- BYTE   VOL   52*songA9_mvl/mxv
+ BYTE   VOL   52*FE5LoptousA_mvl/mxv
  BYTE   W96
 //  #04 //001   ----------------------------------------
  BYTE   W96
@@ -761,7 +761,7 @@ songA9_004:
  BYTE   W96
 //  #04 //022   ----------------------------------------
 Label_013A4DBE:
- BYTE   VOL   52*songA9_mvl/mxv
+ BYTE   VOL   52*FE5LoptousA_mvl/mxv
  BYTE   W96
 //  #04 //023   ----------------------------------------
  BYTE   W96
@@ -829,11 +829,11 @@ Label_013A4DBE:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-songA9_005:
+FE5LoptousA_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   songA9_key+0
+ BYTE   KEYSH   FE5LoptousA_key+0
  BYTE   VOICE   60
- BYTE   VOL   55*songA9_mvl/mxv
+ BYTE   VOL   55*FE5LoptousA_mvl/mxv
  BYTE   TIE  Gn0  v100
  BYTE   W96
 //  #05 //001   ----------------------------------------
@@ -983,11 +983,11 @@ Label_013A4E42:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-songA9_006:
+FE5LoptousA_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   songA9_key+0
+ BYTE   KEYSH   FE5LoptousA_key+0
  BYTE   VOICE   60
- BYTE   VOL   55*songA9_mvl/mxv
+ BYTE   VOL   55*FE5LoptousA_mvl/mxv
  BYTE   TIE  Dn1  v100
  BYTE   W96
 //  #06 //001   ----------------------------------------
@@ -1137,11 +1137,11 @@ Label_013A4ED4:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-songA9_007:
+FE5LoptousA_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   songA9_key+0
+ BYTE   KEYSH   FE5LoptousA_key+0
  BYTE   VOICE   48
- BYTE   VOL   52*songA9_mvl/mxv
+ BYTE   VOL   52*FE5LoptousA_mvl/mxv
  BYTE   W06
  BYTE   N12  As3  v088
  BYTE   W12
@@ -1345,7 +1345,7 @@ Label_013AD1AB:
  BYTE   W18
 //  #07 //022   ----------------------------------------
 Label_013AD1B4:
- BYTE   VOL   52*songA9_mvl/mxv
+ BYTE   VOL   52*FE5LoptousA_mvl/mxv
  BYTE   W06
  BYTE   N12  As3  v088
  BYTE   W12
@@ -1444,11 +1444,11 @@ Label_013AD1B4:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-songA9_008:
+FE5LoptousA_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   songA9_key+0
+ BYTE   KEYSH   FE5LoptousA_key+0
  BYTE   VOICE   8
- BYTE   VOL   55*songA9_mvl/mxv
+ BYTE   VOL   55*FE5LoptousA_mvl/mxv
  BYTE   N12  Dn1  v100
  BYTE   N12  Dn2
  BYTE   W96
@@ -1625,21 +1625,21 @@ Label_013A4F9A:
 //******************************************************//
 	ALIGN 4
 
-songA9:
+FE5LoptousA:
 	BYTE	8	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	songA9_pri	// Priority
-	BYTE	songA9_rev	// Reverb.
+	BYTE	FE5LoptousA_pri	// Priority
+	BYTE	FE5LoptousA_rev	// Reverb.
     
-	POIN2	songA9_grp
+	POIN2	FE5LoptousA_grp
     
-	POIN2	songA9_001
-	POIN2	songA9_002
-	POIN2	songA9_003
-	POIN2	songA9_004
-	POIN2	songA9_005
-	POIN2	songA9_006
-	POIN2	songA9_007
-	POIN2	songA9_008
+	POIN2	FE5LoptousA_001
+	POIN2	FE5LoptousA_002
+	POIN2	FE5LoptousA_003
+	POIN2	FE5LoptousA_004
+	POIN2	FE5LoptousA_005
+	POIN2	FE5LoptousA_006
+	POIN2	FE5LoptousA_007
+	POIN2	FE5LoptousA_008
 
 	

@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song012D_grp  voicegroup000
-	#define	song012D_pri  10
-	#define	song012D_rev  0
-	#define	song012D_mvl  127
-	#define	song012D_key  0
-	#define	song012D_tbs  1
-	#define	song012D_exg  0
-	#define	song012D_cmp  1
+	#define	FE5Adversity_grp  voicegroup000
+	#define	FE5Adversity_pri  10
+	#define	FE5Adversity_rev  0
+	#define	FE5Adversity_mvl  127
+	#define	FE5Adversity_key  0
+	#define	FE5Adversity_tbs  1
+	#define	FE5Adversity_exg  0
+	#define	FE5Adversity_cmp  1
 
 	// .rodata
-	//	song012D
+	//	FE5Adversity
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song012D_001:
+FE5Adversity_001:
 // 000   ----------------------------------------
 Label_0_01542814:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   57
- BYTE   VOL   50*song012D_mvl/mxv
+ BYTE   VOL   50*FE5Adversity_mvl/mxv
  BYTE   N12  Gs2  v088
  BYTE   W12
  BYTE   As2
@@ -234,13 +234,13 @@ Label_0_01542880:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song012D_002:
+FE5Adversity_002:
 // 000   ----------------------------------------
 Label_1_015428FC:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   40
- BYTE   VOL   43*song012D_mvl/mxv
+ BYTE   VOL   43*FE5Adversity_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -387,13 +387,13 @@ Label_1_015428FC:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song012D_003:
+FE5Adversity_003:
 // 000   ----------------------------------------
 Label_2_01542974:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   110
- BYTE   VOL   42*song012D_mvl/mxv
+ BYTE   VOL   42*FE5Adversity_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -557,13 +557,13 @@ Label_2_01542996:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song012D_004:
+FE5Adversity_004:
 // 000   ----------------------------------------
 Label_3_011164CC:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   40
- BYTE   VOL   18*song012D_mvl/mxv
+ BYTE   VOL   18*FE5Adversity_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -682,13 +682,13 @@ Label_3_011164CC:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song012D_005:
+FE5Adversity_005:
 // 000   ----------------------------------------
 Label_4_01542A18:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   40
- BYTE   VOL   53*song012D_mvl/mxv
+ BYTE   VOL   53*FE5Adversity_mvl/mxv
  BYTE   PAN   c_v+16
  BYTE   W96
 // 001   ----------------------------------------
@@ -833,13 +833,13 @@ Label_4_01542A18:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song012D_006:
+FE5Adversity_006:
 // 000   ----------------------------------------
 Label_5_01542AA0:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   57
- BYTE   VOL   23*song012D_mvl/mxv
+ BYTE   VOL   23*FE5Adversity_mvl/mxv
  BYTE   PAN   c_v-16
  BYTE   N12  Ds2  v100
  BYTE   W24
@@ -974,13 +974,13 @@ Label_5_01542AF3:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song012D_007:
+FE5Adversity_007:
 // 000   ----------------------------------------
 Label_6_01542B7C:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   41
- BYTE   VOL   50*song012D_mvl/mxv
+ BYTE   VOL   50*FE5Adversity_mvl/mxv
  BYTE   PAN   c_v+16
  BYTE   W96
 // 001   ----------------------------------------
@@ -1125,13 +1125,13 @@ Label_6_01542B7C:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song012D_008:
+FE5Adversity_008:
 // 000   ----------------------------------------
 Label_7_01542C00:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   40
- BYTE   VOL   8*song012D_mvl/mxv
+ BYTE   VOL   8*FE5Adversity_mvl/mxv
  BYTE   PAN   c_v+3
  BYTE   N96  Gs1  v100
  BYTE   W96
@@ -1255,13 +1255,13 @@ Label_7_01542C00:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song012D_009:
+FE5Adversity_009:
 // 000   ----------------------------------------
 Label_8_01542C58:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   57
- BYTE   VOL   4*song012D_mvl/mxv
+ BYTE   VOL   4*FE5Adversity_mvl/mxv
  BYTE   PAN   c_v-48
  BYTE   N12  Gs2  v100
  BYTE   W12
@@ -1428,13 +1428,13 @@ Label_8_01542CB9:
 
 //**************** Track 10 (Midi-Chn.9) ****************//
 
-song012D_010:
+FE5Adversity_010:
 // 000   ----------------------------------------
 Label_9_01542D50:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   40
- BYTE   VOL   7*song012D_mvl/mxv
+ BYTE   VOL   7*FE5Adversity_mvl/mxv
  BYTE   PAN   c_v+2
  BYTE   N12  Gs2  v100
  BYTE   W12
@@ -1616,13 +1616,13 @@ Label_9_01542DBE:
 
 //**************** Track 11 (Midi-Chn.10) ****************//
 
-song012D_011:
+FE5Adversity_011:
 // 000   ----------------------------------------
 Label_10_01542E14:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   109
- BYTE   VOL   26*song012D_mvl/mxv
+ BYTE   VOL   26*FE5Adversity_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1779,13 +1779,13 @@ Label_10_01542E80:
 
 //**************** Track 12 (Midi-Chn.11) ****************//
 
-song012D_012:
+FE5Adversity_012:
 // 000   ----------------------------------------
 Label_11_01542EE4:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   47
- BYTE   VOL   92*song012D_mvl/mxv
+ BYTE   VOL   92*FE5Adversity_mvl/mxv
  BYTE   N24  Cn3  v100
  BYTE   W72
  BYTE   N12
@@ -1936,13 +1936,13 @@ Label_11_01542F51:
 
 //**************** Track 13 (Midi-Chn.12) ****************//
 
-song012D_013:
+FE5Adversity_013:
 // 000   ----------------------------------------
 Label_12_01542FE8:
- BYTE   TEMPO   210*song012D_tbs/2
- BYTE   KEYSH   song012D_key+0
+ BYTE   TEMPO   210*FE5Adversity_tbs/2
+ BYTE   KEYSH   FE5Adversity_key+0
  BYTE   VOICE   127
- BYTE   VOL   41*song012D_mvl/mxv
+ BYTE   VOL   41*FE5Adversity_mvl/mxv
  BYTE   N24  Dn1  v100
  BYTE   W72
  BYTE   N12
@@ -2094,26 +2094,26 @@ Label_12_01543055:
 //******************************************************//
 	ALIGN 4
 
-song012D:
+FE5Adversity:
 	BYTE	13	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song012D_pri	// Priority
-	BYTE	song012D_rev	// Reverb.
+	BYTE	FE5Adversity_pri	// Priority
+	BYTE	FE5Adversity_rev	// Reverb.
     
-	POIN2	song012D_grp
+	POIN2	FE5Adversity_grp
     
-	POIN2	song012D_001
-	POIN2	song012D_002
-	POIN2	song012D_003
-	POIN2	song012D_004
-	POIN2	song012D_005
-	POIN2	song012D_006
-	POIN2	song012D_007
-	POIN2	song012D_008
-	POIN2	song012D_009
-	POIN2	song012D_010
-	POIN2	song012D_011
-	POIN2	song012D_012
-	POIN2	song012D_013
+	POIN2	FE5Adversity_001
+	POIN2	FE5Adversity_002
+	POIN2	FE5Adversity_003
+	POIN2	FE5Adversity_004
+	POIN2	FE5Adversity_005
+	POIN2	FE5Adversity_006
+	POIN2	FE5Adversity_007
+	POIN2	FE5Adversity_008
+	POIN2	FE5Adversity_009
+	POIN2	FE5Adversity_010
+	POIN2	FE5Adversity_011
+	POIN2	FE5Adversity_012
+	POIN2	FE5Adversity_013
 
 	

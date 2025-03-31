@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song2B_grp  voicegroup000
-	#define	song2B_pri  0
-	#define	song2B_rev  0
-	#define	song2B_mvl  127
-	#define	song2B_key  0
-	#define	song2B_tbs  1
-	#define	song2B_exg  0
-	#define	song2B_cmp  1
+	#define	KisekiKnot_grp  voicegroup000
+	#define	KisekiKnot_pri  0
+	#define	KisekiKnot_rev  0
+	#define	KisekiKnot_mvl  127
+	#define	KisekiKnot_key  0
+	#define	KisekiKnot_tbs  1
+	#define	KisekiKnot_exg  0
+	#define	KisekiKnot_cmp  1
 
 	// .rodata
-	//	song2B
+	//	KisekiKnot
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song2B_001:
+KisekiKnot_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song2B_key+0
- BYTE   TEMPO   190*song2B_tbs/2
+ BYTE   KEYSH   KisekiKnot_key+0
+ BYTE   TEMPO   190*KisekiKnot_tbs/2
  BYTE   VOICE   1
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song2B_mvl/mxv
+ BYTE   VOL   53*KisekiKnot_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N05  Fs5  v044
  BYTE   W06
@@ -1065,15 +1065,15 @@ Label_010D9DCC:
  BYTE   W96
 //  #01 //196   ----------------------------------------
  BYTE   W24
- BYTE   TEMPO   78*song2B_tbs/2
+ BYTE   TEMPO   78*KisekiKnot_tbs/2
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song2B_002:
+KisekiKnot_002:
 //  #02 //000   ----------------------------------------
- BYTE   VOL   80*song2B_mvl/mxv
- BYTE   KEYSH   song2B_key+0
+ BYTE   VOL   80*KisekiKnot_mvl/mxv
+ BYTE   KEYSH   KisekiKnot_key+0
  BYTE   VOICE   38
  BYTE   MODT 0
  BYTE   LFOS 44
@@ -2303,14 +2303,14 @@ Label_010DA448:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song2B_003:
+KisekiKnot_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song2B_key+0
+ BYTE   KEYSH   KisekiKnot_key+0
  BYTE   VOICE   8
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song2B_mvl/mxv
+ BYTE   VOL   53*KisekiKnot_mvl/mxv
  BYTE   N05  Fs5  v044
  BYTE   W06
  BYTE   Fn5
@@ -3353,10 +3353,10 @@ Label_010DA74D:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song2B_004:
+KisekiKnot_004:
 //  #04 //000   ----------------------------------------
- BYTE   VOL   80*song2B_mvl/mxv
- BYTE   KEYSH   song2B_key+0
+ BYTE   VOL   80*KisekiKnot_mvl/mxv
+ BYTE   KEYSH   KisekiKnot_key+0
  BYTE   VOICE   39
  BYTE   MODT 0
  BYTE   LFOS 44
@@ -4587,17 +4587,17 @@ Label_010DADE0:
 //******************************************************//
 	ALIGN 4
 
-song2B:
+KisekiKnot:
 	BYTE	4	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song2B_pri	// Priority
-	BYTE	song2B_rev	// Reverb.
+	BYTE	KisekiKnot_pri	// Priority
+	BYTE	KisekiKnot_rev	// Reverb.
     
-	POIN2	song2B_grp
+	POIN2	KisekiKnot_grp
     
-	POIN2	song2B_001
-	POIN2	song2B_002
-	POIN2	song2B_003
-	POIN2	song2B_004
+	POIN2	KisekiKnot_001
+	POIN2	KisekiKnot_002
+	POIN2	KisekiKnot_003
+	POIN2	KisekiKnot_004
 
 	

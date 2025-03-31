@@ -1,31 +1,31 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song01_grp  voicegroup000
-	#define	song01_pri  10
-	#define	song01_rev  0
-	#define	song01_mvl  127
-	#define	song01_key  0
-	#define	song01_tbs  1
-	#define	song01_exg  0
-	#define	song01_cmp  1
+	#define	ShinySmilyStoryTitle_grp  voicegroup000
+	#define	ShinySmilyStoryTitle_pri  10
+	#define	ShinySmilyStoryTitle_rev  0
+	#define	ShinySmilyStoryTitle_mvl  127
+	#define	ShinySmilyStoryTitle_key  0
+	#define	ShinySmilyStoryTitle_tbs  1
+	#define	ShinySmilyStoryTitle_exg  0
+	#define	ShinySmilyStoryTitle_cmp  1
 
 	// .rodata
-	//	song01
+	//	ShinySmilyStoryTitle
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song01_001:
+ShinySmilyStoryTitle_001:
 //  #01 //000   ----------------------------------------
 Label_0104C68C:
- BYTE   VOL   75*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   75*ShinySmilyStoryTitle_mvl/mxv
+ BYTE   KEYSH   ShinySmilyStoryTitle_key+0
  BYTE   VOICE   48
  BYTE   LFOS 44
  BYTE   MODT 0
- BYTE   TEMPO   122*song01_tbs/2
+ BYTE   TEMPO   122*ShinySmilyStoryTitle_tbs/2
  BYTE   W96
 //  #01 //001   ----------------------------------------
  BYTE   W72
@@ -301,16 +301,16 @@ Label_0104C6CD:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song01_002:
+ShinySmilyStoryTitle_002:
 //  #02 //000   ----------------------------------------
 Label_0104C9F8:
- BYTE   VOL   70*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   70*ShinySmilyStoryTitle_mvl/mxv
+ BYTE   KEYSH   ShinySmilyStoryTitle_key+0
  BYTE   VOICE   56
  BYTE   PAN   c_v+26
  BYTE   LFOS 44
  BYTE   MODT 0
- BYTE   TEMPO   122*song01_tbs/2
+ BYTE   TEMPO   122*ShinySmilyStoryTitle_tbs/2
  BYTE   W96
 //  #02 //001   ----------------------------------------
  BYTE   W96
@@ -578,16 +578,16 @@ Label_0104C9F8:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song01_003:
+ShinySmilyStoryTitle_003:
 //  #03 //000   ----------------------------------------
 Label_0104C7D0:
- BYTE   VOL   65*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   65*ShinySmilyStoryTitle_mvl/mxv
+ BYTE   KEYSH   ShinySmilyStoryTitle_key+0
  BYTE   VOICE   92
  BYTE   PAN   c_v-11
  BYTE   LFOS 44
  BYTE   MODT 0
- BYTE   TEMPO   122*song01_tbs/2
+ BYTE   TEMPO   122*ShinySmilyStoryTitle_tbs/2
  BYTE   W96
 //  #03 //001   ----------------------------------------
  BYTE   W96
@@ -756,16 +756,16 @@ Label_0104C7D0:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song01_004:
+ShinySmilyStoryTitle_004:
 //  #04 //000   ----------------------------------------
 Label_0104CB74:
- BYTE   VOL   50*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   50*ShinySmilyStoryTitle_mvl/mxv
+ BYTE   KEYSH   ShinySmilyStoryTitle_key+0
  BYTE   VOICE   34
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N12  Gs1  v078
- BYTE   TEMPO   122*song01_tbs/2
+ BYTE   TEMPO   122*ShinySmilyStoryTitle_tbs/2
  BYTE   W12
  BYTE   N12  Gs1  v078
  BYTE   W12
@@ -1098,17 +1098,17 @@ Label_0104CC0B:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song01_005:
+ShinySmilyStoryTitle_005:
 //  #05 //000   ----------------------------------------
 Label_0104C8AC:
- BYTE   VOL   65*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   65*ShinySmilyStoryTitle_mvl/mxv
+ BYTE   KEYSH   ShinySmilyStoryTitle_key+0
  BYTE   VOICE   60
  BYTE   PAN   c_v+45
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N06  Gs1  v078
- BYTE   TEMPO   122*song01_tbs/2
+ BYTE   TEMPO   122*ShinySmilyStoryTitle_tbs/2
  BYTE   W36
  BYTE   N06  Gs1  v078
  BYTE   W36
@@ -1422,17 +1422,17 @@ Label_0104C8AC:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song01_006:
+ShinySmilyStoryTitle_006:
 //  #06 //000   ----------------------------------------
 Label_0104CCFC:
- BYTE   VOL   75*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   75*ShinySmilyStoryTitle_mvl/mxv
+ BYTE   KEYSH   ShinySmilyStoryTitle_key+0
  BYTE   VOICE   122
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N06  Dn1  v078
  BYTE   N06  Cn1
- BYTE   TEMPO   122*song01_tbs/2
+ BYTE   TEMPO   122*ShinySmilyStoryTitle_tbs/2
  BYTE   W36
  BYTE   N06  Dn1  v078
  BYTE   N06  Cn1
@@ -1670,16 +1670,16 @@ Label_0104CD4D:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song01_007:
+ShinySmilyStoryTitle_007:
 //  #07 //000   ----------------------------------------
 Label_0104CE58:
- BYTE   VOL   75*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   75*ShinySmilyStoryTitle_mvl/mxv
+ BYTE   KEYSH   ShinySmilyStoryTitle_key+0
  BYTE   VOICE   1
  BYTE   PAN   c_v-28
  BYTE   LFOS 44
  BYTE   MODT 0
- BYTE   TEMPO   122*song01_tbs/2
+ BYTE   TEMPO   122*ShinySmilyStoryTitle_tbs/2
  BYTE   W96
 //  #07 //001   ----------------------------------------
  BYTE   W72
@@ -2110,15 +2110,15 @@ Label_0104CE9B:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song01_008:
+ShinySmilyStoryTitle_008:
 //  #08 //000   ----------------------------------------
 Label_0104C064:
- BYTE   VOL   65*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   65*ShinySmilyStoryTitle_mvl/mxv
+ BYTE   KEYSH   ShinySmilyStoryTitle_key+0
  BYTE   VOICE   71
  BYTE   LFOS 44
  BYTE   MODT 0
- BYTE   TEMPO   122*song01_tbs/2
+ BYTE   TEMPO   122*ShinySmilyStoryTitle_tbs/2
  BYTE   W96
 //  #08 //001   ----------------------------------------
  BYTE   W96
@@ -2221,21 +2221,21 @@ Label_0104C07A:
 //******************************************************//
 	ALIGN 4
 
-song01:
+ShinySmilyStoryTitle:
 	BYTE	8	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song01_pri	// Priority
-	BYTE	song01_rev	// Reverb.
+	BYTE	ShinySmilyStoryTitle_pri	// Priority
+	BYTE	ShinySmilyStoryTitle_rev	// Reverb.
     
-	POIN2	song01_grp
+	POIN2	ShinySmilyStoryTitle_grp
     
-	POIN2	song01_001
-	POIN2	song01_002
-	POIN2	song01_003
-	POIN2	song01_004
-	POIN2	song01_005
-	POIN2	song01_006
-	POIN2	song01_007
-	POIN2	song01_008
+	POIN2	ShinySmilyStoryTitle_001
+	POIN2	ShinySmilyStoryTitle_002
+	POIN2	ShinySmilyStoryTitle_003
+	POIN2	ShinySmilyStoryTitle_004
+	POIN2	ShinySmilyStoryTitle_005
+	POIN2	ShinySmilyStoryTitle_006
+	POIN2	ShinySmilyStoryTitle_007
+	POIN2	ShinySmilyStoryTitle_008
 
 	

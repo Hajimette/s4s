@@ -1,32 +1,32 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song03E3_grp  voicegroup000
-	#define	song03E3_pri  0
-	#define	song03E3_rev  0
-	#define	song03E3_mvl  127
-	#define	song03E3_key  0
-	#define	song03E3_tbs  1
-	#define	song03E3_exg  0
-	#define	song03E3_cmp  1
+	#define	amongusdrip_grp  voicegroup000
+	#define	amongusdrip_pri  0
+	#define	amongusdrip_rev  0
+	#define	amongusdrip_mvl  127
+	#define	amongusdrip_key  0
+	#define	amongusdrip_tbs  1
+	#define	amongusdrip_exg  0
+	#define	amongusdrip_cmp  1
 
 	// .rodata
-	//	song03E3
+	//	amongusdrip
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song03E3_001:
+amongusdrip_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song03E3_key+0
- BYTE   TEMPO   92*song03E3_tbs/2
+ BYTE   KEYSH   amongusdrip_key+0
+ BYTE   TEMPO   92*amongusdrip_tbs/2
  BYTE   VOICE   102
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W24
  BYTE   N11  Cn4  v092
@@ -283,17 +283,17 @@ Label_010E7DF7:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song03E3_002:
+amongusdrip_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song03E3_key+0
+ BYTE   KEYSH   amongusdrip_key+0
  BYTE   VOICE   0
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N23  Cn1  v127
  BYTE   W04
@@ -435,15 +435,15 @@ Label_010E7EB6:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song03E3_003:
+amongusdrip_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song03E3_key+0
+ BYTE   KEYSH   amongusdrip_key+0
  BYTE   VOICE   119
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #03 //001   ----------------------------------------
@@ -516,17 +516,17 @@ Label_010E7F3E:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song03E3_004:
+amongusdrip_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song03E3_key+0
+ BYTE   KEYSH   amongusdrip_key+0
  BYTE   VOICE   98
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N23  Cn2  v112
  BYTE   W96
@@ -640,19 +640,19 @@ Label_010E7F9B:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song03E3_005:
+amongusdrip_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song03E3_key+0
+ BYTE   KEYSH   amongusdrip_key+0
  BYTE   VOICE   34
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #05 //001   ----------------------------------------
@@ -1490,15 +1490,15 @@ Label_010E819F:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song03E3_006:
+amongusdrip_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song03E3_key+0
+ BYTE   KEYSH   amongusdrip_key+0
  BYTE   VOICE   101
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   103*song03E3_mvl/mxv
+ BYTE   VOL   103*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #06 //001   ----------------------------------------
@@ -1624,17 +1624,17 @@ Label_010E8524:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song03E3_007:
+amongusdrip_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song03E3_key+0
+ BYTE   KEYSH   amongusdrip_key+0
  BYTE   VOICE   102
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   100*song03E3_mvl/mxv
+ BYTE   VOL   100*amongusdrip_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #07 //001   ----------------------------------------
@@ -1707,20 +1707,20 @@ Label_010E85A6:
 //******************************************************//
 	ALIGN 4
 
-song03E3:
+amongusdrip:
 	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song03E3_pri	// Priority
-	BYTE	song03E3_rev	// Reverb.
+	BYTE	amongusdrip_pri	// Priority
+	BYTE	amongusdrip_rev	// Reverb.
     
-	POIN2	song03E3_grp
+	POIN2	amongusdrip_grp
     
-	POIN2	song03E3_001
-	POIN2	song03E3_002
-	POIN2	song03E3_003
-	POIN2	song03E3_004
-	POIN2	song03E3_005
-	POIN2	song03E3_006
-	POIN2	song03E3_007
+	POIN2	amongusdrip_001
+	POIN2	amongusdrip_002
+	POIN2	amongusdrip_003
+	POIN2	amongusdrip_004
+	POIN2	amongusdrip_005
+	POIN2	amongusdrip_006
+	POIN2	amongusdrip_007
 
 	

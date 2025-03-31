@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song59_grp  voicegroup000
-	#define	song59_pri  0
-	#define	song59_rev  0
-	#define	song59_mvl  127
-	#define	song59_key  0
-	#define	song59_tbs  1
-	#define	song59_exg  0
-	#define	song59_cmp  1
+	#define	FE5MapB_grp  voicegroup000
+	#define	FE5MapB_pri  0
+	#define	FE5MapB_rev  0
+	#define	FE5MapB_mvl  127
+	#define	FE5MapB_key  0
+	#define	FE5MapB_tbs  1
+	#define	FE5MapB_exg  0
+	#define	FE5MapB_cmp  1
 
 	// .rodata
-	//	song59
+	//	FE5MapB
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song59_001:
+FE5MapB_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A24A2:
- BYTE   TEMPO   106*song59_tbs/2
+ BYTE   TEMPO   106*FE5MapB_tbs/2
  BYTE   VOICE   60
- BYTE   VOL   74*song59_mvl/mxv
+ BYTE   VOL   74*FE5MapB_mvl/mxv
  BYTE   W60
  BYTE   N03  Ds2  v100
  BYTE   W03
@@ -126,7 +126,7 @@ Label_013A2507:
 //  #01 //013   ----------------------------------------
  BYTE   W72
  BYTE   EOT
- BYTE   VOL   74*song59_mvl/mxv
+ BYTE   VOL   74*FE5MapB_mvl/mxv
  BYTE   W60
 //  #01 //014   ----------------------------------------
  BYTE   N03  Ds2  v100
@@ -216,12 +216,12 @@ Label_013A2507:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song59_002:
+FE5MapB_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A258E:
  BYTE   VOICE   50
- BYTE   VOL   61*song59_mvl/mxv
+ BYTE   VOL   61*FE5MapB_mvl/mxv
  BYTE   W72
  BYTE   W72
 //  #02 //001   ----------------------------------------
@@ -285,7 +285,7 @@ Label_013A25BD:
 //  #02 //012   ----------------------------------------
  BYTE   W72
  BYTE   EOT
- BYTE   VOL   61*song59_mvl/mxv
+ BYTE   VOL   61*FE5MapB_mvl/mxv
  BYTE   W72
 //  #02 //013   ----------------------------------------
  BYTE   W72
@@ -347,12 +347,12 @@ Label_013A25BD:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song59_003:
+FE5MapB_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A2616:
  BYTE   VOICE   33
- BYTE   VOL   52*song59_mvl/mxv
+ BYTE   VOL   52*FE5MapB_mvl/mxv
  BYTE   N09  Ds1  v100
  BYTE   W12
  BYTE   N09
@@ -603,12 +603,12 @@ Label_013A26C8:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song59_004:
+FE5MapB_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A276E:
  BYTE   VOICE   60
- BYTE   VOL   63*song59_mvl/mxv
+ BYTE   VOL   63*FE5MapB_mvl/mxv
  BYTE   W72
  BYTE   N60  Fs2  v100
  BYTE   W72
@@ -767,12 +767,12 @@ Label_013A27B4:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song59_005:
+FE5MapB_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A2822:
  BYTE   VOICE   60
- BYTE   VOL   63*song59_mvl/mxv
+ BYTE   VOL   63*FE5MapB_mvl/mxv
  BYTE   W72
  BYTE   N60  Ds2  v100
  BYTE   W72
@@ -927,12 +927,12 @@ Label_013A2866:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song59_006:
+FE5MapB_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A28CE:
  BYTE   VOICE   56
- BYTE   VOL   61*song59_mvl/mxv
+ BYTE   VOL   61*FE5MapB_mvl/mxv
  BYTE   W72
  BYTE   W72
 //  #06 //001   ----------------------------------------
@@ -981,7 +981,7 @@ Label_013A28D5:
  BYTE   W72
  BYTE   W72
 //  #06 //013   ----------------------------------------
- BYTE   VOL   61*song59_mvl/mxv
+ BYTE   VOL   61*FE5MapB_mvl/mxv
  BYTE   W72
  BYTE   W72
 //  #06 //014   ----------------------------------------
@@ -1032,12 +1032,12 @@ Label_013A28D5:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song59_007:
+FE5MapB_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A292A:
  BYTE   VOICE   50
- BYTE   VOL   66*song59_mvl/mxv
+ BYTE   VOL   66*FE5MapB_mvl/mxv
  BYTE   W72
  BYTE   W72
 //  #07 //001   ----------------------------------------
@@ -1101,7 +1101,7 @@ Label_013A2959:
 //  #07 //012   ----------------------------------------
  BYTE   W72
  BYTE   EOT
- BYTE   VOL   66*song59_mvl/mxv
+ BYTE   VOL   66*FE5MapB_mvl/mxv
  BYTE   W72
 //  #07 //013   ----------------------------------------
  BYTE   W72
@@ -1163,12 +1163,12 @@ Label_013A2959:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song59_008:
+FE5MapB_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A29B2:
  BYTE   VOICE   47
- BYTE   VOL   45*song59_mvl/mxv
+ BYTE   VOL   45*FE5MapB_mvl/mxv
  BYTE   N24  Gn2  v100
  BYTE   W60
  BYTE   N12  Gn2  v080
@@ -1307,7 +1307,7 @@ Label_013A2A23:
  BYTE   PATT
   POIN2 Label_013A2A23
 //  #08 //024   ----------------------------------------
- BYTE   VOL   45*song59_mvl/mxv
+ BYTE   VOL   45*FE5MapB_mvl/mxv
  BYTE   N24  Gn2  v100
  BYTE   W60
  BYTE   N12  Gn2  v080
@@ -1391,12 +1391,12 @@ Label_013A2A23:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song59_009:
+FE5MapB_009:
 //  #09 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A2AFA:
  BYTE   VOICE   56
- BYTE   VOL   68*song59_mvl/mxv
+ BYTE   VOL   68*FE5MapB_mvl/mxv
  BYTE   W60
  BYTE   N03  Ds2  v100
  BYTE   W03
@@ -1499,7 +1499,7 @@ Label_013A2B5D:
 //  #09 //013   ----------------------------------------
  BYTE   W72
  BYTE   EOT
- BYTE   VOL   68*song59_mvl/mxv
+ BYTE   VOL   68*FE5MapB_mvl/mxv
  BYTE   W60
 //  #09 //014   ----------------------------------------
  BYTE   N03  Ds2  v100
@@ -1589,12 +1589,12 @@ Label_013A2B5D:
 
 //**************** Track 10 (Midi-Chn.9) ****************//
 
-song59_010:
+FE5MapB_010:
 //  #10 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A2BE2:
  BYTE   VOICE   56
- BYTE   VOL   56*song59_mvl/mxv
+ BYTE   VOL   56*FE5MapB_mvl/mxv
  BYTE   W72
  BYTE   N60  Fs2  v100
  BYTE   W72
@@ -1753,12 +1753,12 @@ Label_013A2C28:
 
 //**************** Track 11 (Midi-Chn.10) ****************//
 
-song59_011:
+FE5MapB_011:
 //  #11 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A2C96:
  BYTE   VOICE   56
- BYTE   VOL   56*song59_mvl/mxv
+ BYTE   VOL   56*FE5MapB_mvl/mxv
  BYTE   W72
  BYTE   N60  Ds2  v100
  BYTE   W72
@@ -1913,12 +1913,12 @@ Label_013A2CDA:
 
 //**************** Track 12 (Midi-Chn.11) ****************//
 
-song59_012:
+FE5MapB_012:
 //  #12 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A2D42:
  BYTE   VOICE   60
- BYTE   VOL   63*song59_mvl/mxv
+ BYTE   VOL   63*FE5MapB_mvl/mxv
  BYTE   W72
  BYTE   W72
 //  #12 //001   ----------------------------------------
@@ -2017,12 +2017,12 @@ Label_013A2D49:
 
 //**************** Track 13 (Midi-Chn.12) ****************//
 
-song59_013:
+FE5MapB_013:
 //  #13 //000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   FE5MapB_key+0
 Label_013A2D9A:
  BYTE   VOICE   47
- BYTE   VOL   58*song59_mvl/mxv
+ BYTE   VOL   58*FE5MapB_mvl/mxv
  BYTE   N24  Gn1  v100
  BYTE   W60
  BYTE   N12  Gn1  v080
@@ -2245,26 +2245,26 @@ Label_013A2E0B:
 //******************************************************//
 	ALIGN 4
 
-song59:
+FE5MapB:
 	BYTE	13	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song59_pri	// Priority
-	BYTE	song59_rev	// Reverb.
+	BYTE	FE5MapB_pri	// Priority
+	BYTE	FE5MapB_rev	// Reverb.
     
-	POIN2	song59_grp
+	POIN2	FE5MapB_grp
     
-	POIN2	song59_001
-	POIN2	song59_002
-	POIN2	song59_003
-	POIN2	song59_004
-	POIN2	song59_005
-	POIN2	song59_006
-	POIN2	song59_007
-	POIN2	song59_008
-	POIN2	song59_009
-	POIN2	song59_010
-	POIN2	song59_011
-	POIN2	song59_012
-	POIN2	song59_013
+	POIN2	FE5MapB_001
+	POIN2	FE5MapB_002
+	POIN2	FE5MapB_003
+	POIN2	FE5MapB_004
+	POIN2	FE5MapB_005
+	POIN2	FE5MapB_006
+	POIN2	FE5MapB_007
+	POIN2	FE5MapB_008
+	POIN2	FE5MapB_009
+	POIN2	FE5MapB_010
+	POIN2	FE5MapB_011
+	POIN2	FE5MapB_012
+	POIN2	FE5MapB_013
 
 	

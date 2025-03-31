@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song0D_grp  voicegroup000
-	#define	song0D_pri  10
-	#define	song0D_rev  128
-	#define	song0D_mvl  127
-	#define	song0D_key  0
-	#define	song0D_tbs  1
-	#define	song0D_exg  0
-	#define	song0D_cmp  1
+	#define	BlessingoftheGeneralsI_grp  voicegroup000
+	#define	BlessingoftheGeneralsI_pri  10
+	#define	BlessingoftheGeneralsI_rev  128
+	#define	BlessingoftheGeneralsI_mvl  127
+	#define	BlessingoftheGeneralsI_key  0
+	#define	BlessingoftheGeneralsI_tbs  1
+	#define	BlessingoftheGeneralsI_exg  0
+	#define	BlessingoftheGeneralsI_cmp  1
 
 	// .rodata
-	//	song0D
+	//	BlessingoftheGeneralsI
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song0D_001:
+BlessingoftheGeneralsI_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song0D_key+0
+ BYTE   KEYSH   BlessingoftheGeneralsI_key+0
 Label_0110AE1E:
- BYTE   TEMPO   136*song0D_tbs/2
+ BYTE   TEMPO   136*BlessingoftheGeneralsI_tbs/2
  BYTE   VOICE   1
- BYTE   VOL   47*song0D_mvl/mxv
+ BYTE   VOL   47*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N28  Dn1  v120
  BYTE   W36
@@ -83,12 +83,12 @@ Label_0110AE42:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song0D_002:
+BlessingoftheGeneralsI_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song0D_key+0
+ BYTE   KEYSH   BlessingoftheGeneralsI_key+0
 Label_0110AE67:
  BYTE   VOICE   2
- BYTE   VOL   47*song0D_mvl/mxv
+ BYTE   VOL   47*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v+13
  BYTE   TIE  Cn3  v112
  BYTE   W96
@@ -144,12 +144,12 @@ Label_0110AE67:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song0D_003:
+BlessingoftheGeneralsI_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song0D_key+0
+ BYTE   KEYSH   BlessingoftheGeneralsI_key+0
 Label_0110AEAA:
  BYTE   VOICE   3
- BYTE   VOL   41*song0D_mvl/mxv
+ BYTE   VOL   41*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v-6
  BYTE   N04  An2  v120
  BYTE   N04  En3
@@ -461,12 +461,12 @@ Label_0110AFA9:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song0D_004:
+BlessingoftheGeneralsI_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song0D_key+0
+ BYTE   KEYSH   BlessingoftheGeneralsI_key+0
 Label_0110B0AB:
  BYTE   VOICE   4
- BYTE   VOL   52*song0D_mvl/mxv
+ BYTE   VOL   52*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N17  An2  v120
  BYTE   W36
@@ -550,12 +550,12 @@ Label_0110B0AB:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song0D_005:
+BlessingoftheGeneralsI_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song0D_key+0
+ BYTE   KEYSH   BlessingoftheGeneralsI_key+0
 Label_0110B104:
  BYTE   VOICE   5
- BYTE   VOL   35*song0D_mvl/mxv
+ BYTE   VOL   35*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v+4
  BYTE   N05  En3  v104
  BYTE   W06
@@ -681,13 +681,13 @@ Label_0110B175:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song0D_006:
+BlessingoftheGeneralsI_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song0D_key+0
+ BYTE   KEYSH   BlessingoftheGeneralsI_key+0
 Label_0110B1BE:
  BYTE   VOICE   2
  BYTE   MOD 3
- BYTE   VOL   41*song0D_mvl/mxv
+ BYTE   VOL   41*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v-23
  BYTE   BEND   c_v+0
  BYTE   W05
@@ -757,19 +757,19 @@ Label_0110B1BE:
 //******************************************************//
 	ALIGN 4
 
-song0D:
+BlessingoftheGeneralsI:
 	BYTE	6	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song0D_pri	// Priority
-	BYTE	song0D_rev	// Reverb.
+	BYTE	BlessingoftheGeneralsI_pri	// Priority
+	BYTE	BlessingoftheGeneralsI_rev	// Reverb.
     
-	POIN2	song0D_grp
+	POIN2	BlessingoftheGeneralsI_grp
     
-	POIN2	song0D_001
-	POIN2	song0D_002
-	POIN2	song0D_003
-	POIN2	song0D_004
-	POIN2	song0D_005
-	POIN2	song0D_006
+	POIN2	BlessingoftheGeneralsI_001
+	POIN2	BlessingoftheGeneralsI_002
+	POIN2	BlessingoftheGeneralsI_003
+	POIN2	BlessingoftheGeneralsI_004
+	POIN2	BlessingoftheGeneralsI_005
+	POIN2	BlessingoftheGeneralsI_006
 
 	

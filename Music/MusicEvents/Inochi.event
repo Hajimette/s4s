@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song20_grp  voicegroup000
-	#define	song20_pri  0
-	#define	song20_rev  0
-	#define	song20_mvl  127
-	#define	song20_key  0
-	#define	song20_tbs  1
-	#define	song20_exg  0
-	#define	song20_cmp  1
+	#define	Inochi_grp  voicegroup000
+	#define	Inochi_pri  0
+	#define	Inochi_rev  0
+	#define	Inochi_mvl  127
+	#define	Inochi_key  0
+	#define	Inochi_tbs  1
+	#define	Inochi_exg  0
+	#define	Inochi_cmp  1
 
 	// .rodata
-	//	song20
+	//	Inochi
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song20_001:
+Inochi_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song20_key+0
- BYTE   TEMPO   180*song20_tbs/2
+ BYTE   KEYSH   Inochi_key+0
+ BYTE   TEMPO   180*Inochi_tbs/2
  BYTE   VOICE   54
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song20_mvl/mxv
+ BYTE   VOL   53*Inochi_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W42
  BYTE   W06
@@ -257,13 +257,13 @@ Label_560D2C:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song20_002:
+Inochi_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song20_key+0
+ BYTE   KEYSH   Inochi_key+0
  BYTE   VOICE   73
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song20_mvl/mxv
+ BYTE   VOL   53*Inochi_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #02 //001   ----------------------------------------
@@ -480,13 +480,13 @@ Label_560B1D:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song20_003:
+Inochi_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song20_key+0
+ BYTE   KEYSH   Inochi_key+0
  BYTE   VOICE   71
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song20_mvl/mxv
+ BYTE   VOL   53*Inochi_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W72
  BYTE   N01  Gn3  v080
@@ -673,13 +673,13 @@ Label_010D7420:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song20_004:
+Inochi_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song20_key+0
+ BYTE   KEYSH   Inochi_key+0
  BYTE   VOICE   65
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   48*song20_mvl/mxv
+ BYTE   VOL   48*Inochi_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #04 //001   ----------------------------------------
@@ -851,17 +851,17 @@ Label_010D7511:
 //******************************************************//
 	ALIGN 4
 
-song20:
+Inochi:
 	BYTE	4	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song20_pri	// Priority
-	BYTE	song20_rev	// Reverb.
+	BYTE	Inochi_pri	// Priority
+	BYTE	Inochi_rev	// Reverb.
     
-	POIN2	song20_grp
+	POIN2	Inochi_grp
     
-	POIN2	song20_001
-	POIN2	song20_002
-	POIN2	song20_003
-	POIN2	song20_004
+	POIN2	Inochi_001
+	POIN2	Inochi_002
+	POIN2	Inochi_003
+	POIN2	Inochi_004
 
 	

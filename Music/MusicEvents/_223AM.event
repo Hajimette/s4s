@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song15_grp  voicegroup000
-	#define	song15_pri  0
-	#define	song15_rev  0
-	#define	song15_mvl  127
-	#define	song15_key  0
-	#define	song15_tbs  1
-	#define	song15_exg  0
-	#define	song15_cmp  1
+	#define	_223AM_grp  voicegroup000
+	#define	_223AM_pri  0
+	#define	_223AM_rev  0
+	#define	_223AM_mvl  127
+	#define	_223AM_key  0
+	#define	_223AM_tbs  1
+	#define	_223AM_exg  0
+	#define	_223AM_cmp  1
 
 	// .rodata
-	//	song15
+	//	_223AM
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song15_001:
+_223AM_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
- BYTE   TEMPO   88*song15_tbs/2
+ BYTE   KEYSH   _223AM_key+0
+ BYTE   TEMPO   88*_223AM_tbs/2
  BYTE   VOICE   10
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #01 //001   ----------------------------------------
@@ -417,102 +417,102 @@ Label_01592237:
  BYTE   W96
 //  #01 //074   ----------------------------------------
  BYTE   W24
- BYTE   TEMPO   14*song15_tbs/2
+ BYTE   TEMPO   14*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   22*song15_tbs/2
+ BYTE   TEMPO   22*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   30*song15_tbs/2
+ BYTE   TEMPO   30*_223AM_tbs/2
  BYTE   W24
- BYTE   TEMPO   44*song15_tbs/2
+ BYTE   TEMPO   44*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   52*song15_tbs/2
+ BYTE   TEMPO   52*_223AM_tbs/2
  BYTE   W12
 //  #01 //075   ----------------------------------------
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W06
 //  #01 //076   ----------------------------------------
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W24
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W24
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
 //  #01 //077   ----------------------------------------
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   62*song15_tbs/2
+ BYTE   TEMPO   62*_223AM_tbs/2
  BYTE   W06
 //  #01 //078   ----------------------------------------
- BYTE   TEMPO   62*song15_tbs/2
+ BYTE   TEMPO   62*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   62*song15_tbs/2
+ BYTE   TEMPO   62*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   64*song15_tbs/2
+ BYTE   TEMPO   64*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   64*song15_tbs/2
+ BYTE   TEMPO   64*_223AM_tbs/2
  BYTE   W24
- BYTE   TEMPO   70*song15_tbs/2
+ BYTE   TEMPO   70*_223AM_tbs/2
  BYTE   W24
- BYTE   TEMPO   76*song15_tbs/2
+ BYTE   TEMPO   76*_223AM_tbs/2
  BYTE   W02
- BYTE   TEMPO   78*song15_tbs/2
+ BYTE   TEMPO   78*_223AM_tbs/2
  BYTE   W02
- BYTE   TEMPO   78*song15_tbs/2
+ BYTE   TEMPO   78*_223AM_tbs/2
  BYTE   W02
- BYTE   TEMPO   80*song15_tbs/2
+ BYTE   TEMPO   80*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   82*song15_tbs/2
+ BYTE   TEMPO   82*_223AM_tbs/2
  BYTE   W02
- BYTE   TEMPO   84*song15_tbs/2
+ BYTE   TEMPO   84*_223AM_tbs/2
  BYTE   W02
- BYTE   TEMPO   84*song15_tbs/2
+ BYTE   TEMPO   84*_223AM_tbs/2
  BYTE   W02
- BYTE   TEMPO   86*song15_tbs/2
+ BYTE   TEMPO   86*_223AM_tbs/2
  BYTE   W06
 //  #01 //079   ----------------------------------------
- BYTE   TEMPO   88*song15_tbs/2
+ BYTE   TEMPO   88*_223AM_tbs/2
  BYTE   W96
 //  #01 //080   ----------------------------------------
  BYTE   W96
@@ -525,72 +525,72 @@ Label_01592237:
 //  #01 //084   ----------------------------------------
  BYTE   W96
 //  #01 //085   ----------------------------------------
- BYTE   TEMPO   88*song15_tbs/2
+ BYTE   TEMPO   88*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   88*song15_tbs/2
+ BYTE   TEMPO   88*_223AM_tbs/2
  BYTE   W04
- BYTE   TEMPO   86*song15_tbs/2
+ BYTE   TEMPO   86*_223AM_tbs/2
  BYTE   W03
- BYTE   TEMPO   86*song15_tbs/2
+ BYTE   TEMPO   86*_223AM_tbs/2
  BYTE   W05
- BYTE   TEMPO   86*song15_tbs/2
+ BYTE   TEMPO   86*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   84*song15_tbs/2
+ BYTE   TEMPO   84*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   84*song15_tbs/2
+ BYTE   TEMPO   84*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   82*song15_tbs/2
+ BYTE   TEMPO   82*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   80*song15_tbs/2
+ BYTE   TEMPO   80*_223AM_tbs/2
  BYTE   W04
- BYTE   TEMPO   78*song15_tbs/2
+ BYTE   TEMPO   78*_223AM_tbs/2
  BYTE   W03
- BYTE   TEMPO   78*song15_tbs/2
+ BYTE   TEMPO   78*_223AM_tbs/2
  BYTE   W05
- BYTE   TEMPO   78*song15_tbs/2
+ BYTE   TEMPO   78*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   76*song15_tbs/2
+ BYTE   TEMPO   76*_223AM_tbs/2
  BYTE   W06
- BYTE   TEMPO   76*song15_tbs/2
+ BYTE   TEMPO   76*_223AM_tbs/2
  BYTE   W12
 //  #01 //086   ----------------------------------------
- BYTE   TEMPO   74*song15_tbs/2
+ BYTE   TEMPO   74*_223AM_tbs/2
  BYTE   W08
- BYTE   TEMPO   72*song15_tbs/2
+ BYTE   TEMPO   72*_223AM_tbs/2
  BYTE   W04
- BYTE   TEMPO   72*song15_tbs/2
+ BYTE   TEMPO   72*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   70*song15_tbs/2
+ BYTE   TEMPO   70*_223AM_tbs/2
  BYTE   W08
- BYTE   TEMPO   70*song15_tbs/2
+ BYTE   TEMPO   70*_223AM_tbs/2
  BYTE   W04
- BYTE   TEMPO   68*song15_tbs/2
+ BYTE   TEMPO   68*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   66*song15_tbs/2
+ BYTE   TEMPO   66*_223AM_tbs/2
  BYTE   W08
- BYTE   TEMPO   66*song15_tbs/2
+ BYTE   TEMPO   66*_223AM_tbs/2
  BYTE   W04
- BYTE   TEMPO   64*song15_tbs/2
+ BYTE   TEMPO   64*_223AM_tbs/2
  BYTE   W12
- BYTE   TEMPO   62*song15_tbs/2
+ BYTE   TEMPO   62*_223AM_tbs/2
  BYTE   W08
- BYTE   TEMPO   62*song15_tbs/2
+ BYTE   TEMPO   62*_223AM_tbs/2
  BYTE   W04
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   W12
 //  #01 //087   ----------------------------------------
- BYTE   TEMPO   60*song15_tbs/2
+ BYTE   TEMPO   60*_223AM_tbs/2
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song15_002:
+_223AM_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   _223AM_key+0
  BYTE   VOICE   77
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #02 //001   ----------------------------------------
@@ -1057,13 +1057,13 @@ Label_559159:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song15_003:
+_223AM_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   _223AM_key+0
  BYTE   VOICE   62
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #03 //001   ----------------------------------------
@@ -1307,13 +1307,13 @@ Label_55888D:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song15_004:
+_223AM_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   _223AM_key+0
  BYTE   VOICE   91
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #04 //001   ----------------------------------------
@@ -1538,13 +1538,13 @@ Label_55897D:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song15_005:
+_223AM_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   _223AM_key+0
  BYTE   VOICE   4
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W72
  BYTE   N02  Gs4  v127
@@ -1921,25 +1921,25 @@ Label_0159257A:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song15_006:
+_223AM_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   _223AM_key+0
  BYTE   VOICE   124
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #06 //001   ----------------------------------------
@@ -2918,13 +2918,13 @@ Label_01592ACC:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song15_007:
+_223AM_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song15_key+0
+ BYTE   KEYSH   _223AM_key+0
  BYTE   VOICE   33
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song15_mvl/mxv
+ BYTE   VOL   53*_223AM_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #07 //001   ----------------------------------------
@@ -3155,20 +3155,20 @@ Label_5592DE:
 //******************************************************//
 	ALIGN 4
 
-song15:
+_223AM:
 	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song15_pri	// Priority
-	BYTE	song15_rev	// Reverb.
+	BYTE	_223AM_pri	// Priority
+	BYTE	_223AM_rev	// Reverb.
     
-	POIN2	song15_grp
+	POIN2	_223AM_grp
     
-	POIN2	song15_001
-	POIN2	song15_002
-	POIN2	song15_003
-	POIN2	song15_004
-	POIN2	song15_005
-	POIN2	song15_006
-	POIN2	song15_007
+	POIN2	_223AM_001
+	POIN2	_223AM_002
+	POIN2	_223AM_003
+	POIN2	_223AM_004
+	POIN2	_223AM_005
+	POIN2	_223AM_006
+	POIN2	_223AM_007
 
 	

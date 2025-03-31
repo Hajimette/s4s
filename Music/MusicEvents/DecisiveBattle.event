@@ -1,28 +1,28 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	decbattletest_grp  voicegroup000
-	#define	decbattletest_pri  0
-	#define	decbattletest_rev  0
-	#define	decbattletest_mvl  121
-	#define	decbattletest_key  0
-	#define	decbattletest_tbs  1
-	#define	decbattletest_exg  0
-	#define	decbattletest_cmp  1
+	#define	DecisiveBattle_grp  voicegroup000
+	#define	DecisiveBattle_pri  0
+	#define	DecisiveBattle_rev  0
+	#define	DecisiveBattle_mvl  121
+	#define	DecisiveBattle_key  0
+	#define	DecisiveBattle_tbs  1
+	#define	DecisiveBattle_exg  0
+	#define	DecisiveBattle_cmp  1
 
 	// .rodata
-	//	decbattletest
+	//	DecisiveBattle
 	ALIGN 4
 
 //**************** Track 1 (Midi-Chn.1) ****************//
 
-decbattletest_1:
-	BYTE	KEYSH   decbattletest_key+0
-decbattletest_1_B1:
+DecisiveBattle_1:
+	BYTE	KEYSH   DecisiveBattle_key+0
+DecisiveBattle_1_B1:
 // 000   ----------------------------------------
-	BYTE	TEMPO   155*decbattletest_tbs/2
+	BYTE	TEMPO   155*DecisiveBattle_tbs/2
 	BYTE		VOICE   107
-	BYTE		VOL     34*decbattletest_mvl/mxv
+	BYTE		VOL     34*DecisiveBattle_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		N04     An4   v127
 	BYTE		N04     Dn5 
@@ -49,7 +49,7 @@ decbattletest_1_B1:
 	BYTE		N04     Dn5 
 	BYTE	W12
 // 001   ----------------------------------------
-decbattletest_1_001:
+DecisiveBattle_1_001:
 	BYTE		N04     An4   v092
 	BYTE		N04     Dn5 
 	BYTE	W12
@@ -67,7 +67,7 @@ decbattletest_1_001:
 	BYTE	W48
 	BYTE	PEND
 // 002   ----------------------------------------
-decbattletest_1_002:
+DecisiveBattle_1_002:
 	BYTE		N04     An4   v127
 	BYTE		N04     Dn5 
 	BYTE	W12
@@ -94,7 +94,7 @@ decbattletest_1_002:
 	BYTE	W12
 	BYTE	PEND
 // 003   ----------------------------------------
-decbattletest_1_003:
+DecisiveBattle_1_003:
 	BYTE		N04     An4   v092
 	BYTE		N04     Dn5 
 	BYTE	W12
@@ -113,42 +113,42 @@ decbattletest_1_003:
 	BYTE	PEND
 // 004   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_002
+	 POIN2	DecisiveBattle_1_002
 // 005   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_001
+	 POIN2	DecisiveBattle_1_001
 // 006   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_002
+	 POIN2	DecisiveBattle_1_002
 // 007   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_003
+	 POIN2	DecisiveBattle_1_003
 // 008   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_002
+	 POIN2	DecisiveBattle_1_002
 // 009   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_001
+	 POIN2	DecisiveBattle_1_001
 // 010   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_002
+	 POIN2	DecisiveBattle_1_002
 // 011   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_003
+	 POIN2	DecisiveBattle_1_003
 // 012   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_002
+	 POIN2	DecisiveBattle_1_002
 // 013   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_001
+	 POIN2	DecisiveBattle_1_001
 // 014   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_002
+	 POIN2	DecisiveBattle_1_002
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_003
+	 POIN2	DecisiveBattle_1_003
 // 016   ----------------------------------------
-decbattletest_1_016:
+DecisiveBattle_1_016:
 	BYTE		N04     An4   v060
 	BYTE		N04     Dn5 
 	BYTE	W12
@@ -176,9 +176,9 @@ decbattletest_1_016:
 	BYTE	PEND
 // 017   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_016
+	 POIN2	DecisiveBattle_1_016
 // 018   ----------------------------------------
-decbattletest_1_018:
+DecisiveBattle_1_018:
 	BYTE		N04     An4   v108
 	BYTE		N04     Dn5 
 	BYTE	W12
@@ -205,7 +205,7 @@ decbattletest_1_018:
 	BYTE	W12
 	BYTE	PEND
 // 019   ----------------------------------------
-decbattletest_1_019:
+DecisiveBattle_1_019:
 	BYTE		N04     An4   v076
 	BYTE		N04     Dn5 
 	BYTE	W12
@@ -233,43 +233,43 @@ decbattletest_1_019:
 	BYTE	PEND
 // 020   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_018
+	 POIN2	DecisiveBattle_1_018
 // 021   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_019
+	 POIN2	DecisiveBattle_1_019
 // 022   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_018
+	 POIN2	DecisiveBattle_1_018
 // 023   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_019
+	 POIN2	DecisiveBattle_1_019
 // 024   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_018
+	 POIN2	DecisiveBattle_1_018
 // 025   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_019
+	 POIN2	DecisiveBattle_1_019
 // 026   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_018
+	 POIN2	DecisiveBattle_1_018
 // 027   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_019
+	 POIN2	DecisiveBattle_1_019
 // 028   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_018
+	 POIN2	DecisiveBattle_1_018
 // 029   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_019
+	 POIN2	DecisiveBattle_1_019
 // 030   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_018
+	 POIN2	DecisiveBattle_1_018
 // 031   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_019
+	 POIN2	DecisiveBattle_1_019
 // 032   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_018
+	 POIN2	DecisiveBattle_1_018
 // 033   ----------------------------------------
 	BYTE		N04     An4   v076
 	BYTE		N04     Dn5 
@@ -350,7 +350,7 @@ decbattletest_1_019:
 // 037   ----------------------------------------
 	BYTE	W96
 // 038   ----------------------------------------
-decbattletest_1_038:
+DecisiveBattle_1_038:
 	BYTE		N04     Bn4   v127
 	BYTE		N04     En5 
 	BYTE	W12
@@ -403,7 +403,7 @@ decbattletest_1_038:
 	BYTE	W12
 // 040   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_038
+	 POIN2	DecisiveBattle_1_038
 // 041   ----------------------------------------
 	BYTE		N04     Bn4   v108
 	BYTE		N04     En5 
@@ -430,7 +430,7 @@ decbattletest_1_038:
 	BYTE		N04     Fs5 
 	BYTE	W12
 // 042   ----------------------------------------
-decbattletest_1_042:
+DecisiveBattle_1_042:
 	BYTE		N04     Dn5   v127
 	BYTE		N04     Gn5 
 	BYTE	W12
@@ -483,7 +483,7 @@ decbattletest_1_042:
 	BYTE	W12
 // 044   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_042
+	 POIN2	DecisiveBattle_1_042
 // 045   ----------------------------------------
 	BYTE		N04     Dn5   v108
 	BYTE		N04     Gn5 
@@ -510,7 +510,7 @@ decbattletest_1_042:
 	BYTE		N04     Fs5 
 	BYTE	W12
 // 046   ----------------------------------------
-decbattletest_1_046:
+DecisiveBattle_1_046:
 	BYTE		N04     Cn5   v127
 	BYTE		N04     Fn5 
 	BYTE	W12
@@ -563,7 +563,7 @@ decbattletest_1_046:
 	BYTE	W12
 // 048   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_046
+	 POIN2	DecisiveBattle_1_046
 // 049   ----------------------------------------
 	BYTE		N04     Cn5   v108
 	BYTE		N04     Fn5 
@@ -590,7 +590,7 @@ decbattletest_1_046:
 	BYTE		N04     Gn5 
 	BYTE	W12
 // 050   ----------------------------------------
-decbattletest_1_050:
+DecisiveBattle_1_050:
 	BYTE		N04     Ds5   v127
 	BYTE		N04     Gs5 
 	BYTE	W12
@@ -643,7 +643,7 @@ decbattletest_1_050:
 	BYTE	W12
 // 052   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_050
+	 POIN2	DecisiveBattle_1_050
 // 053   ----------------------------------------
 	BYTE		N04     Ds5   v108
 	BYTE		N04     Gs5 
@@ -677,7 +677,7 @@ decbattletest_1_050:
 	BYTE		PAN     c_v+36
 	BYTE	W01
 // 056   ----------------------------------------
-decbattletest_1_056:
+DecisiveBattle_1_056:
 	BYTE		N04     An4   v084
 	BYTE		N04     Dn5 
 	BYTE	W12
@@ -704,7 +704,7 @@ decbattletest_1_056:
 	BYTE	W12
 	BYTE	PEND
 // 057   ----------------------------------------
-decbattletest_1_057:
+DecisiveBattle_1_057:
 	BYTE		N04     An4   v060
 	BYTE		N04     Dn5 
 	BYTE	W12
@@ -732,19 +732,19 @@ decbattletest_1_057:
 	BYTE	PEND
 // 058   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_056
+	 POIN2	DecisiveBattle_1_056
 // 059   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_057
+	 POIN2	DecisiveBattle_1_057
 // 060   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_056
+	 POIN2	DecisiveBattle_1_056
 // 061   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_057
+	 POIN2	DecisiveBattle_1_057
 // 062   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_056
+	 POIN2	DecisiveBattle_1_056
 // 063   ----------------------------------------
 	BYTE		N04     An4   v060
 	BYTE		N04     Dn5 
@@ -774,42 +774,42 @@ decbattletest_1_057:
 	BYTE	W01
 // 064   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_056
+	 POIN2	DecisiveBattle_1_056
 // 065   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_057
+	 POIN2	DecisiveBattle_1_057
 // 066   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_056
+	 POIN2	DecisiveBattle_1_056
 // 067   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_057
+	 POIN2	DecisiveBattle_1_057
 // 068   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_056
+	 POIN2	DecisiveBattle_1_056
 // 069   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_057
+	 POIN2	DecisiveBattle_1_057
 // 070   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_056
+	 POIN2	DecisiveBattle_1_056
 // 071   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_057
+	 POIN2	DecisiveBattle_1_057
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_056
+	 POIN2	DecisiveBattle_1_056
 // 073   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_057
+	 POIN2	DecisiveBattle_1_057
 // 074   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_056
+	 POIN2	DecisiveBattle_1_056
 // 075   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_057
+	 POIN2	DecisiveBattle_1_057
 // 076   ----------------------------------------
-decbattletest_1_076:
+DecisiveBattle_1_076:
 	BYTE		N04     An4   v127
 	BYTE		N04     Dn5 
 	BYTE	W12
@@ -837,24 +837,24 @@ decbattletest_1_076:
 	BYTE	PEND
 // 077   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_046
+	 POIN2	DecisiveBattle_1_046
 	BYTE	GoTo
-	 POIN2	decbattletest_1_B1
-decbattletest_1_B2:
+	 POIN2	DecisiveBattle_1_B1
+DecisiveBattle_1_B2:
 // 078   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_1_076
+	 POIN2	DecisiveBattle_1_076
 // 079   ----------------------------------------
 	BYTE	FINE
 
 //**************** Track 2 (Midi-Chn.2) ****************//
 
-decbattletest_2:
-	BYTE	KEYSH   decbattletest_key+0
-decbattletest_2_B1:
+DecisiveBattle_2:
+	BYTE	KEYSH   DecisiveBattle_key+0
+DecisiveBattle_2_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   62
-	BYTE		VOL     47*decbattletest_mvl/mxv
+	BYTE		VOL     47*DecisiveBattle_mvl/mxv
 	BYTE		PAN     c_v-40
 	BYTE		N11     Dn2   v104
 	BYTE	W12
@@ -871,7 +871,7 @@ decbattletest_2_B1:
 	BYTE		N11     Dn2   v104
 	BYTE	W12
 // 001   ----------------------------------------
-decbattletest_2_001:
+DecisiveBattle_2_001:
 	BYTE		N06     Dn2   v052
 	BYTE	W12
 	BYTE		N11     Dn2   v104
@@ -884,7 +884,7 @@ decbattletest_2_001:
 	BYTE	W48
 	BYTE	PEND
 // 002   ----------------------------------------
-decbattletest_2_002:
+DecisiveBattle_2_002:
 	BYTE		N11     Dn2   v104
 	BYTE	W12
 	BYTE		N06     Dn2   v052
@@ -901,7 +901,7 @@ decbattletest_2_002:
 	BYTE	W12
 	BYTE	PEND
 // 003   ----------------------------------------
-decbattletest_2_003:
+DecisiveBattle_2_003:
 	BYTE		N06     Dn2   v052
 	BYTE	W12
 	BYTE		N11     Dn2   v104
@@ -915,40 +915,40 @@ decbattletest_2_003:
 	BYTE	PEND
 // 004   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 005   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_001
+	 POIN2	DecisiveBattle_2_001
 // 006   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 007   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_003
+	 POIN2	DecisiveBattle_2_003
 // 008   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 009   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_001
+	 POIN2	DecisiveBattle_2_001
 // 010   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 011   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_003
+	 POIN2	DecisiveBattle_2_003
 // 012   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 013   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_001
+	 POIN2	DecisiveBattle_2_001
 // 014   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_003
+	 POIN2	DecisiveBattle_2_003
 // 016   ----------------------------------------
 	BYTE		N11     Dn2   v104
 	BYTE	W12
@@ -958,9 +958,9 @@ decbattletest_2_003:
 	BYTE	W96
 // 018   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 019   ----------------------------------------
-decbattletest_2_019:
+DecisiveBattle_2_019:
 	BYTE		N06     Dn2   v052
 	BYTE	W12
 	BYTE		N11     Dn2   v104
@@ -980,43 +980,43 @@ decbattletest_2_019:
 	BYTE	PEND
 // 020   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 021   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_019
+	 POIN2	DecisiveBattle_2_019
 // 022   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 023   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_019
+	 POIN2	DecisiveBattle_2_019
 // 024   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 025   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_019
+	 POIN2	DecisiveBattle_2_019
 // 026   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 027   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_019
+	 POIN2	DecisiveBattle_2_019
 // 028   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 029   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_019
+	 POIN2	DecisiveBattle_2_019
 // 030   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 031   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_019
+	 POIN2	DecisiveBattle_2_019
 // 032   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_002
+	 POIN2	DecisiveBattle_2_002
 // 033   ----------------------------------------
 	BYTE		N06     Dn2   v052
 	BYTE	W12
@@ -1074,7 +1074,7 @@ decbattletest_2_019:
 	BYTE		EOT   
 	BYTE	W06
 // 038   ----------------------------------------
-decbattletest_2_038:
+DecisiveBattle_2_038:
 	BYTE		N11     En2   v104
 	BYTE	W12
 	BYTE		N06     En2   v052
@@ -1102,7 +1102,7 @@ decbattletest_2_038:
 	BYTE	W12
 // 040   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_038
+	 POIN2	DecisiveBattle_2_038
 // 041   ----------------------------------------
 	BYTE	W12
 	BYTE		N11     En2   v104
@@ -1120,7 +1120,7 @@ decbattletest_2_038:
 	BYTE		N06     Fs2   v052
 	BYTE	W12
 // 042   ----------------------------------------
-decbattletest_2_042:
+DecisiveBattle_2_042:
 	BYTE		N11     Gn2   v104
 	BYTE	W12
 	BYTE		N06     Gn2   v052
@@ -1148,7 +1148,7 @@ decbattletest_2_042:
 	BYTE	W12
 // 044   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_042
+	 POIN2	DecisiveBattle_2_042
 // 045   ----------------------------------------
 	BYTE	W12
 	BYTE		N11     Gn2   v104
@@ -1166,7 +1166,7 @@ decbattletest_2_042:
 	BYTE		N06     Fs2   v052
 	BYTE	W12
 // 046   ----------------------------------------
-decbattletest_2_046:
+DecisiveBattle_2_046:
 	BYTE		N11     Fn2   v104
 	BYTE	W12
 	BYTE		N06     Fn2   v052
@@ -1194,7 +1194,7 @@ decbattletest_2_046:
 	BYTE	W12
 // 048   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_046
+	 POIN2	DecisiveBattle_2_046
 // 049   ----------------------------------------
 	BYTE	W12
 	BYTE		N11     Fn2   v104
@@ -1212,7 +1212,7 @@ decbattletest_2_046:
 	BYTE		N06     Gn2   v052
 	BYTE	W12
 // 050   ----------------------------------------
-decbattletest_2_050:
+DecisiveBattle_2_050:
 	BYTE		N11     Gs2   v104
 	BYTE	W12
 	BYTE		N06     Gs2   v052
@@ -1240,7 +1240,7 @@ decbattletest_2_050:
 	BYTE	W12
 // 052   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_050
+	 POIN2	DecisiveBattle_2_050
 // 053   ----------------------------------------
 	BYTE	W12
 	BYTE		N11     Gs2   v104
@@ -1292,7 +1292,7 @@ decbattletest_2_050:
 	BYTE		        Dn3 
 	BYTE	W12
 // 057   ----------------------------------------
-decbattletest_2_057:
+DecisiveBattle_2_057:
 	BYTE		N08     An3   v092
 	BYTE	W12
 	BYTE		        Dn3 
@@ -1311,7 +1311,7 @@ decbattletest_2_057:
 	BYTE	W12
 	BYTE	PEND
 // 058   ----------------------------------------
-decbattletest_2_058:
+DecisiveBattle_2_058:
 	BYTE		N08     An3   v092
 	BYTE	W12
 	BYTE		        Dn3 
@@ -1331,16 +1331,16 @@ decbattletest_2_058:
 	BYTE	PEND
 // 059   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_058
+	 POIN2	DecisiveBattle_2_058
 // 060   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_057
+	 POIN2	DecisiveBattle_2_057
 // 061   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_057
+	 POIN2	DecisiveBattle_2_057
 // 062   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_058
+	 POIN2	DecisiveBattle_2_058
 // 063   ----------------------------------------
 	BYTE		N08     An3   v092
 	BYTE	W12
@@ -1362,34 +1362,34 @@ decbattletest_2_058:
 	BYTE	W01
 // 064   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_057
+	 POIN2	DecisiveBattle_2_057
 // 065   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_057
+	 POIN2	DecisiveBattle_2_057
 // 066   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_058
+	 POIN2	DecisiveBattle_2_058
 // 067   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_058
+	 POIN2	DecisiveBattle_2_058
 // 068   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_057
+	 POIN2	DecisiveBattle_2_057
 // 069   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_057
+	 POIN2	DecisiveBattle_2_057
 // 070   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_058
+	 POIN2	DecisiveBattle_2_058
 // 071   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_058
+	 POIN2	DecisiveBattle_2_058
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_057
+	 POIN2	DecisiveBattle_2_057
 // 073   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_2_057
+	 POIN2	DecisiveBattle_2_057
 // 074   ----------------------------------------
 	BYTE		N08     An3   v092
 	BYTE	W12
@@ -1469,8 +1469,8 @@ decbattletest_2_058:
 	BYTE		        Cn5 
 	BYTE	W06
 	BYTE	GoTo
-	 POIN2	decbattletest_2_B1
-decbattletest_2_B2:
+	 POIN2	DecisiveBattle_2_B1
+DecisiveBattle_2_B2:
 // 078   ----------------------------------------
 	BYTE		N11     Dn2   v100
 	BYTE	W12
@@ -1491,13 +1491,13 @@ decbattletest_2_B2:
 
 //**************** Track 3 (Midi-Chn.3) ****************//
 
-decbattletest_3:
-	BYTE	KEYSH   decbattletest_key+0
-decbattletest_3_B1:
+DecisiveBattle_3:
+	BYTE	KEYSH   DecisiveBattle_key+0
+DecisiveBattle_3_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   65
 	BYTE		PAN     c_v+18
-	BYTE		VOL     65*decbattletest_mvl/mxv
+	BYTE		VOL     65*DecisiveBattle_mvl/mxv
 	BYTE	W48
 	BYTE		VOICE   65
 	BYTE		N90     Dn2   v092
@@ -1750,7 +1750,7 @@ decbattletest_3_B1:
 	BYTE		        As1 
 	BYTE	W06
 // 068   ----------------------------------------
-decbattletest_3_068:
+DecisiveBattle_3_068:
 	BYTE	W48
 	BYTE		TIE     Dn0   v127
 	BYTE	W48
@@ -1759,7 +1759,7 @@ decbattletest_3_068:
 	BYTE	W96
 	BYTE		EOT   
 // 070   ----------------------------------------
-decbattletest_3_070:
+DecisiveBattle_3_070:
 	BYTE	W48
 	BYTE		TIE     As0   v104
 	BYTE		TIE     As1   v064
@@ -1772,13 +1772,13 @@ decbattletest_3_070:
 	BYTE	W06
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_3_068
+	 POIN2	DecisiveBattle_3_068
 // 073   ----------------------------------------
 	BYTE	W96
 	BYTE		EOT     Dn0 
 // 074   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_3_070
+	 POIN2	DecisiveBattle_3_070
 // 075   ----------------------------------------
 	BYTE	W90
 	BYTE		EOT     As0 
@@ -1796,8 +1796,8 @@ decbattletest_3_070:
 	BYTE		        An1 
 	BYTE	W48
 	BYTE	GoTo
-	 POIN2	decbattletest_3_B1
-decbattletest_3_B2:
+	 POIN2	DecisiveBattle_3_B1
+DecisiveBattle_3_B2:
 // 078   ----------------------------------------
 	BYTE	W96
 // 079   ----------------------------------------
@@ -1805,12 +1805,12 @@ decbattletest_3_B2:
 
 //**************** Track 4 (Midi-Chn.4) ****************//
 
-decbattletest_4:
-	BYTE	KEYSH   decbattletest_key+0
-decbattletest_4_B1:
+DecisiveBattle_4:
+	BYTE	KEYSH   DecisiveBattle_key+0
+DecisiveBattle_4_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   49
-	BYTE		VOL     55*decbattletest_mvl/mxv
+	BYTE		VOL     55*DecisiveBattle_mvl/mxv
 	BYTE		PAN     c_v+18
 	BYTE	W96
 // 001   ----------------------------------------
@@ -1824,7 +1824,7 @@ decbattletest_4_B1:
 // 005   ----------------------------------------
 	BYTE	W96
 // 006   ----------------------------------------
-decbattletest_4_006:
+DecisiveBattle_4_006:
 	BYTE		N09     An3   v088
 	BYTE	W12
 	BYTE		        Dn3 
@@ -1843,7 +1843,7 @@ decbattletest_4_006:
 	BYTE	W12
 	BYTE	PEND
 // 007   ----------------------------------------
-decbattletest_4_007:
+DecisiveBattle_4_007:
 	BYTE		N09     An3   v088
 	BYTE	W12
 	BYTE		        Dn3 
@@ -1863,9 +1863,9 @@ decbattletest_4_007:
 	BYTE	PEND
 // 008   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_4_006
+	 POIN2	DecisiveBattle_4_006
 // 009   ----------------------------------------
-decbattletest_4_009:
+DecisiveBattle_4_009:
 	BYTE		N09     An3   v088
 	BYTE	W12
 	BYTE		        Dn3 
@@ -1885,22 +1885,22 @@ decbattletest_4_009:
 	BYTE	PEND
 // 010   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_4_006
+	 POIN2	DecisiveBattle_4_006
 // 011   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_4_007
+	 POIN2	DecisiveBattle_4_007
 // 012   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_4_006
+	 POIN2	DecisiveBattle_4_006
 // 013   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_4_009
+	 POIN2	DecisiveBattle_4_009
 // 014   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_4_006
+	 POIN2	DecisiveBattle_4_006
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_4_007
+	 POIN2	DecisiveBattle_4_007
 // 016   ----------------------------------------
 	BYTE		N09     An3   v088
 	BYTE	W12
@@ -2190,8 +2190,8 @@ decbattletest_4_009:
 	BYTE		        Cn4 
 	BYTE	W96
 	BYTE	GoTo
-	 POIN2	decbattletest_4_B1
-decbattletest_4_B2:
+	 POIN2	DecisiveBattle_4_B1
+DecisiveBattle_4_B2:
 // 078   ----------------------------------------
 	BYTE	W96
 // 079   ----------------------------------------
@@ -2199,13 +2199,13 @@ decbattletest_4_B2:
 
 //**************** Track 5 (Midi-Chn.5) ****************//
 
-decbattletest_5:
-	BYTE	KEYSH   decbattletest_key+0
-decbattletest_5_B1:
+DecisiveBattle_5:
+	BYTE	KEYSH   DecisiveBattle_key+0
+DecisiveBattle_5_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   66
 	BYTE		PAN     c_v-16
-	BYTE		VOL     63*decbattletest_mvl/mxv
+	BYTE		VOL     63*DecisiveBattle_mvl/mxv
 	BYTE	W96
 // 001   ----------------------------------------
 	BYTE	W96
@@ -2261,14 +2261,14 @@ decbattletest_5_B1:
 // 021   ----------------------------------------
 	BYTE	W96
 // 022   ----------------------------------------
-decbattletest_5_022:
+DecisiveBattle_5_022:
 	BYTE		N42     An3   v092
 	BYTE	W48
 	BYTE		        Dn3 
 	BYTE	W48
 	BYTE	PEND
 // 023   ----------------------------------------
-decbattletest_5_023:
+DecisiveBattle_5_023:
 	BYTE		N42     Gn3   v092
 	BYTE	W48
 	BYTE		TIE     Cn3 
@@ -2282,7 +2282,7 @@ decbattletest_5_023:
 	BYTE	W06
 // 026   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_5_022
+	 POIN2	DecisiveBattle_5_022
 // 027   ----------------------------------------
 	BYTE		N42     Gn3   v092
 	BYTE	W48
@@ -2297,10 +2297,10 @@ decbattletest_5_023:
 	BYTE	W06
 // 030   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_5_022
+	 POIN2	DecisiveBattle_5_022
 // 031   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_5_023
+	 POIN2	DecisiveBattle_5_023
 // 032   ----------------------------------------
 	BYTE	W96
 // 033   ----------------------------------------
@@ -2465,8 +2465,8 @@ decbattletest_5_023:
 	BYTE		        As3 
 	BYTE	W48
 	BYTE	GoTo
-	 POIN2	decbattletest_5_B1
-decbattletest_5_B2:
+	 POIN2	DecisiveBattle_5_B1
+DecisiveBattle_5_B2:
 // 078   ----------------------------------------
 	BYTE	W96
 // 079   ----------------------------------------
@@ -2474,12 +2474,12 @@ decbattletest_5_B2:
 
 //**************** Track 6 (Midi-Chn.6) ****************//
 
-decbattletest_6:
-	BYTE	KEYSH   decbattletest_key+0
-decbattletest_6_B1:
+DecisiveBattle_6:
+	BYTE	KEYSH   DecisiveBattle_key+0
+DecisiveBattle_6_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   101
-	BYTE		VOL     55*decbattletest_mvl/mxv
+	BYTE		VOL     55*DecisiveBattle_mvl/mxv
 	BYTE		PAN     c_v-26
 	BYTE	W96
 // 001   ----------------------------------------
@@ -2655,7 +2655,7 @@ decbattletest_6_B1:
 	BYTE		        Dn3 
 	BYTE	W09
 // 057   ----------------------------------------
-decbattletest_6_057:
+DecisiveBattle_6_057:
 	BYTE	W03
 	BYTE		N04     An3   v040
 	BYTE	W12
@@ -2675,7 +2675,7 @@ decbattletest_6_057:
 	BYTE	W09
 	BYTE	PEND
 // 058   ----------------------------------------
-decbattletest_6_058:
+DecisiveBattle_6_058:
 	BYTE	W03
 	BYTE		N04     An3   v040
 	BYTE	W12
@@ -2696,19 +2696,19 @@ decbattletest_6_058:
 	BYTE	PEND
 // 059   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_6_058
+	 POIN2	DecisiveBattle_6_058
 // 060   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_6_057
+	 POIN2	DecisiveBattle_6_057
 // 061   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_6_057
+	 POIN2	DecisiveBattle_6_057
 // 062   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_6_058
+	 POIN2	DecisiveBattle_6_058
 // 063   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_6_058
+	 POIN2	DecisiveBattle_6_058
 // 064   ----------------------------------------
 	BYTE		VOICE   101
 	BYTE		N42     Fn3   v096
@@ -2716,7 +2716,7 @@ decbattletest_6_058:
 	BYTE		        Gn3 
 	BYTE	W48
 // 065   ----------------------------------------
-decbattletest_6_065:
+DecisiveBattle_6_065:
 	BYTE		N42     Dn3   v096
 	BYTE	W48
 	BYTE		        En3 
@@ -2730,7 +2730,7 @@ decbattletest_6_065:
 	BYTE		EOT   
 	BYTE	W06
 // 068   ----------------------------------------
-decbattletest_6_068:
+DecisiveBattle_6_068:
 	BYTE		N42     Fn3   v096
 	BYTE	W48
 	BYTE		        Gn3 
@@ -2750,10 +2750,10 @@ decbattletest_6_068:
 	BYTE	W06
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_6_068
+	 POIN2	DecisiveBattle_6_068
 // 073   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_6_065
+	 POIN2	DecisiveBattle_6_065
 // 074   ----------------------------------------
 	BYTE		TIE     An2   v096
 	BYTE	W96
@@ -2772,8 +2772,8 @@ decbattletest_6_068:
 	BYTE		        As3 
 	BYTE	W48
 	BYTE	GoTo
-	 POIN2	decbattletest_6_B1
-decbattletest_6_B2:
+	 POIN2	DecisiveBattle_6_B1
+DecisiveBattle_6_B2:
 // 078   ----------------------------------------
 	BYTE	W96
 // 079   ----------------------------------------
@@ -2781,12 +2781,12 @@ decbattletest_6_B2:
 
 //**************** Track 7 (Midi-Chn.7) ****************//
 
-decbattletest_7:
-	BYTE	KEYSH   decbattletest_key+0
-decbattletest_7_B1:
+DecisiveBattle_7:
+	BYTE	KEYSH   DecisiveBattle_key+0
+DecisiveBattle_7_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   127
-	BYTE		VOL     56*decbattletest_mvl/mxv
+	BYTE		VOL     56*DecisiveBattle_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		N20     Cn1   v112
 	BYTE		N48     An2   v127
@@ -2804,7 +2804,7 @@ decbattletest_7_B1:
 	BYTE		N20     Dn1   v127
 	BYTE	W48
 // 001   ----------------------------------------
-decbattletest_7_001:
+DecisiveBattle_7_001:
 	BYTE	W36
 	BYTE		N11     Cn1   v112
 	BYTE	W12
@@ -2813,7 +2813,7 @@ decbattletest_7_001:
 	BYTE	W48
 	BYTE	PEND
 // 002   ----------------------------------------
-decbattletest_7_002:
+DecisiveBattle_7_002:
 	BYTE		N20     Cn1   v112
 	BYTE		N48     An2   v127
 	BYTE	W24
@@ -2832,43 +2832,43 @@ decbattletest_7_002:
 	BYTE	PEND
 // 003   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_001
+	 POIN2	DecisiveBattle_7_001
 // 004   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_002
+	 POIN2	DecisiveBattle_7_002
 // 005   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_001
+	 POIN2	DecisiveBattle_7_001
 // 006   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_002
+	 POIN2	DecisiveBattle_7_002
 // 007   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_001
+	 POIN2	DecisiveBattle_7_001
 // 008   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_002
+	 POIN2	DecisiveBattle_7_002
 // 009   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_001
+	 POIN2	DecisiveBattle_7_001
 // 010   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_002
+	 POIN2	DecisiveBattle_7_002
 // 011   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_001
+	 POIN2	DecisiveBattle_7_001
 // 012   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_002
+	 POIN2	DecisiveBattle_7_002
 // 013   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_001
+	 POIN2	DecisiveBattle_7_001
 // 014   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_002
+	 POIN2	DecisiveBattle_7_002
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_001
+	 POIN2	DecisiveBattle_7_001
 // 016   ----------------------------------------
 	BYTE		N11     Cn1   v127
 	BYTE		N48     An2 
@@ -2908,7 +2908,7 @@ decbattletest_7_002:
 	BYTE		N02   
 	BYTE	W03
 // 018   ----------------------------------------
-decbattletest_7_018:
+DecisiveBattle_7_018:
 	BYTE		N20     Cn1   v096
 	BYTE		N48     An2   v120
 	BYTE	W48
@@ -2932,7 +2932,7 @@ decbattletest_7_018:
 	BYTE	W24
 	BYTE	PEND
 // 019   ----------------------------------------
-decbattletest_7_019:
+DecisiveBattle_7_019:
 	BYTE	W36
 	BYTE		N11     Cn1   v096
 	BYTE	W12
@@ -2941,9 +2941,9 @@ decbattletest_7_019:
 	BYTE	PEND
 // 020   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_018
+	 POIN2	DecisiveBattle_7_018
 // 021   ----------------------------------------
-decbattletest_7_021:
+DecisiveBattle_7_021:
 	BYTE	W36
 	BYTE		N11     Cn1   v096
 	BYTE	W12
@@ -2983,12 +2983,12 @@ decbattletest_7_021:
 	BYTE	PEND
 // 022   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_018
+	 POIN2	DecisiveBattle_7_018
 // 023   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_019
+	 POIN2	DecisiveBattle_7_019
 // 024   ----------------------------------------
-decbattletest_7_024:
+DecisiveBattle_7_024:
 	BYTE		N20     Cn1   v096
 	BYTE	W48
 	BYTE		N02     Dn1   v084
@@ -3012,7 +3012,7 @@ decbattletest_7_024:
 	BYTE	PEND
 // 025   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_021
+	 POIN2	DecisiveBattle_7_021
 // 026   ----------------------------------------
 	BYTE	W48
 	BYTE		N02     Dn1   v084
@@ -3035,25 +3035,25 @@ decbattletest_7_024:
 	BYTE	W24
 // 027   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_019
+	 POIN2	DecisiveBattle_7_019
 // 028   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_024
+	 POIN2	DecisiveBattle_7_024
 // 029   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_021
+	 POIN2	DecisiveBattle_7_021
 // 030   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_018
+	 POIN2	DecisiveBattle_7_018
 // 031   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_019
+	 POIN2	DecisiveBattle_7_019
 // 032   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_018
+	 POIN2	DecisiveBattle_7_018
 // 033   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_021
+	 POIN2	DecisiveBattle_7_021
 // 034   ----------------------------------------
 	BYTE		N20     Cn1   v096
 	BYTE		N48     An2   v120
@@ -3119,7 +3119,7 @@ decbattletest_7_024:
 	BYTE		N11     Dn1   v100
 	BYTE	W24
 // 038   ----------------------------------------
-decbattletest_7_038:
+DecisiveBattle_7_038:
 	BYTE		N11     Cn1   v127
 	BYTE		N11     Dn1 
 	BYTE		N48     An2 
@@ -3141,7 +3141,7 @@ decbattletest_7_038:
 	BYTE	W12
 	BYTE	PEND
 // 039   ----------------------------------------
-decbattletest_7_039:
+DecisiveBattle_7_039:
 	BYTE		N11     Dn1   v100
 	BYTE	W12
 	BYTE		        Dn1   v127
@@ -3162,7 +3162,7 @@ decbattletest_7_039:
 	BYTE	W12
 	BYTE	PEND
 // 040   ----------------------------------------
-decbattletest_7_040:
+DecisiveBattle_7_040:
 	BYTE		N11     Cn1   v127
 	BYTE		N11     Dn1 
 	BYTE	W12
@@ -3184,18 +3184,18 @@ decbattletest_7_040:
 	BYTE	PEND
 // 041   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_039
+	 POIN2	DecisiveBattle_7_039
 // 042   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_040
+	 POIN2	DecisiveBattle_7_040
 // 043   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_039
+	 POIN2	DecisiveBattle_7_039
 // 044   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_040
+	 POIN2	DecisiveBattle_7_040
 // 045   ----------------------------------------
-decbattletest_7_045:
+DecisiveBattle_7_045:
 	BYTE		N11     Dn1   v100
 	BYTE	W12
 	BYTE		        Dn1   v127
@@ -3241,28 +3241,28 @@ decbattletest_7_045:
 	BYTE	PEND
 // 046   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_038
+	 POIN2	DecisiveBattle_7_038
 // 047   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_039
+	 POIN2	DecisiveBattle_7_039
 // 048   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_040
+	 POIN2	DecisiveBattle_7_040
 // 049   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_039
+	 POIN2	DecisiveBattle_7_039
 // 050   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_040
+	 POIN2	DecisiveBattle_7_040
 // 051   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_039
+	 POIN2	DecisiveBattle_7_039
 // 052   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_040
+	 POIN2	DecisiveBattle_7_040
 // 053   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_045
+	 POIN2	DecisiveBattle_7_045
 // 054   ----------------------------------------
 	BYTE		N20     Cn1   v112
 	BYTE		N48     An2   v127
@@ -3298,7 +3298,7 @@ decbattletest_7_045:
 	BYTE		PAN     c_v+0
 	BYTE	W01
 // 064   ----------------------------------------
-decbattletest_7_064:
+DecisiveBattle_7_064:
 	BYTE		N20     Cn1   v104
 	BYTE	W84
 	BYTE		N11   
@@ -3309,19 +3309,19 @@ decbattletest_7_064:
 	BYTE	W96
 // 066   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_064
+	 POIN2	DecisiveBattle_7_064
 // 067   ----------------------------------------
 	BYTE		N20     Cn1   v104
 	BYTE	W96
 // 068   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_064
+	 POIN2	DecisiveBattle_7_064
 // 069   ----------------------------------------
 	BYTE		N20     Cn1   v104
 	BYTE	W96
 // 070   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_064
+	 POIN2	DecisiveBattle_7_064
 // 071   ----------------------------------------
 	BYTE		N20     Cn1   v104
 	BYTE	W48
@@ -3329,7 +3329,7 @@ decbattletest_7_064:
 	BYTE	W48
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_7_064
+	 POIN2	DecisiveBattle_7_064
 // 073   ----------------------------------------
 	BYTE		N20     Cn1   v104
 	BYTE	W96
@@ -3352,8 +3352,8 @@ decbattletest_7_064:
 	BYTE		N20   
 	BYTE	W96
 	BYTE	GoTo
-	 POIN2	decbattletest_7_B1
-decbattletest_7_B2:
+	 POIN2	DecisiveBattle_7_B1
+DecisiveBattle_7_B2:
 // 078   ----------------------------------------
 	BYTE		N20     Cn1   v127
 	BYTE		N48     An2 
@@ -3375,12 +3375,12 @@ decbattletest_7_B2:
 
 //**************** Track 8 (Midi-Chn.8) ****************//
 
-decbattletest_8:
-	BYTE	KEYSH   decbattletest_key+0
-decbattletest_8_B1:
+DecisiveBattle_8:
+	BYTE	KEYSH   DecisiveBattle_key+0
+DecisiveBattle_8_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   2
-	BYTE		VOL     32*decbattletest_mvl/mxv
+	BYTE		VOL     32*DecisiveBattle_mvl/mxv
 	BYTE		PAN     c_v+32
 	BYTE		N11     Dn1   v127
 	BYTE	W24
@@ -3391,7 +3391,7 @@ decbattletest_8_B1:
 	BYTE		N11   
 	BYTE	W12
 // 001   ----------------------------------------
-decbattletest_8_001:
+DecisiveBattle_8_001:
 	BYTE	W12
 	BYTE		N11     Dn1   v127
 	BYTE	W24
@@ -3401,7 +3401,7 @@ decbattletest_8_001:
 	BYTE	W48
 	BYTE	PEND
 // 002   ----------------------------------------
-decbattletest_8_002:
+DecisiveBattle_8_002:
 	BYTE		N11     Dn1   v127
 	BYTE	W24
 	BYTE		N11   
@@ -3412,7 +3412,7 @@ decbattletest_8_002:
 	BYTE	W12
 	BYTE	PEND
 // 003   ----------------------------------------
-decbattletest_8_003:
+DecisiveBattle_8_003:
 	BYTE	W12
 	BYTE		N11     Dn1   v127
 	BYTE	W24
@@ -3423,47 +3423,47 @@ decbattletest_8_003:
 	BYTE	PEND
 // 004   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_002
+	 POIN2	DecisiveBattle_8_002
 // 005   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_001
+	 POIN2	DecisiveBattle_8_001
 // 006   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_002
+	 POIN2	DecisiveBattle_8_002
 // 007   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_003
+	 POIN2	DecisiveBattle_8_003
 // 008   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_002
+	 POIN2	DecisiveBattle_8_002
 // 009   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_001
+	 POIN2	DecisiveBattle_8_001
 // 010   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_002
+	 POIN2	DecisiveBattle_8_002
 // 011   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_003
+	 POIN2	DecisiveBattle_8_003
 // 012   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_002
+	 POIN2	DecisiveBattle_8_002
 // 013   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_001
+	 POIN2	DecisiveBattle_8_001
 // 014   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_002
+	 POIN2	DecisiveBattle_8_002
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_003
+	 POIN2	DecisiveBattle_8_003
 // 016   ----------------------------------------
 	BYTE		N11     Dn1   v127
 	BYTE	W96
 // 017   ----------------------------------------
 	BYTE	W96
 // 018   ----------------------------------------
-decbattletest_8_018:
+DecisiveBattle_8_018:
 	BYTE		N11     Dn1   v108
 	BYTE	W24
 	BYTE		N11   
@@ -3474,7 +3474,7 @@ decbattletest_8_018:
 	BYTE	W12
 	BYTE	PEND
 // 019   ----------------------------------------
-decbattletest_8_019:
+DecisiveBattle_8_019:
 	BYTE	W12
 	BYTE		N11     Dn1   v108
 	BYTE	W24
@@ -3487,43 +3487,43 @@ decbattletest_8_019:
 	BYTE	PEND
 // 020   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_018
+	 POIN2	DecisiveBattle_8_018
 // 021   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_019
+	 POIN2	DecisiveBattle_8_019
 // 022   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_018
+	 POIN2	DecisiveBattle_8_018
 // 023   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_019
+	 POIN2	DecisiveBattle_8_019
 // 024   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_018
+	 POIN2	DecisiveBattle_8_018
 // 025   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_019
+	 POIN2	DecisiveBattle_8_019
 // 026   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_018
+	 POIN2	DecisiveBattle_8_018
 // 027   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_019
+	 POIN2	DecisiveBattle_8_019
 // 028   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_018
+	 POIN2	DecisiveBattle_8_018
 // 029   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_019
+	 POIN2	DecisiveBattle_8_019
 // 030   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_018
+	 POIN2	DecisiveBattle_8_018
 // 031   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_019
+	 POIN2	DecisiveBattle_8_019
 // 032   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_018
+	 POIN2	DecisiveBattle_8_018
 // 033   ----------------------------------------
 	BYTE	W12
 	BYTE		N11     Dn1   v108
@@ -3561,7 +3561,7 @@ decbattletest_8_019:
 	BYTE		EOT   
 	BYTE	W06
 // 038   ----------------------------------------
-decbattletest_8_038:
+DecisiveBattle_8_038:
 	BYTE		N11     En1   v127
 	BYTE	W24
 	BYTE		N11   
@@ -3579,7 +3579,7 @@ decbattletest_8_038:
 	BYTE	W24
 // 040   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_038
+	 POIN2	DecisiveBattle_8_038
 // 041   ----------------------------------------
 	BYTE	W12
 	BYTE		N11     En1   v127
@@ -3591,7 +3591,7 @@ decbattletest_8_038:
 	BYTE		N11   
 	BYTE	W24
 // 042   ----------------------------------------
-decbattletest_8_042:
+DecisiveBattle_8_042:
 	BYTE		N11     Gn1   v127
 	BYTE	W24
 	BYTE		N11   
@@ -3609,7 +3609,7 @@ decbattletest_8_042:
 	BYTE	W24
 // 044   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_042
+	 POIN2	DecisiveBattle_8_042
 // 045   ----------------------------------------
 	BYTE	W12
 	BYTE		N11     Gn1   v127
@@ -3621,7 +3621,7 @@ decbattletest_8_042:
 	BYTE		N11   
 	BYTE	W24
 // 046   ----------------------------------------
-decbattletest_8_046:
+DecisiveBattle_8_046:
 	BYTE		N11     Fn1   v127
 	BYTE	W24
 	BYTE		N11   
@@ -3639,7 +3639,7 @@ decbattletest_8_046:
 	BYTE	W24
 // 048   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_046
+	 POIN2	DecisiveBattle_8_046
 // 049   ----------------------------------------
 	BYTE	W12
 	BYTE		N11     Fn1   v127
@@ -3651,7 +3651,7 @@ decbattletest_8_046:
 	BYTE		N11   
 	BYTE	W24
 // 050   ----------------------------------------
-decbattletest_8_050:
+DecisiveBattle_8_050:
 	BYTE		N11     Gs1   v127
 	BYTE	W24
 	BYTE		N11   
@@ -3669,7 +3669,7 @@ decbattletest_8_050:
 	BYTE	W24
 // 052   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_050
+	 POIN2	DecisiveBattle_8_050
 // 053   ----------------------------------------
 	BYTE	W12
 	BYTE		N11     Gs1   v127
@@ -3712,7 +3712,7 @@ decbattletest_8_050:
 // 063   ----------------------------------------
 	BYTE	W96
 // 064   ----------------------------------------
-decbattletest_8_064:
+DecisiveBattle_8_064:
 	BYTE		N11     An0   v084
 	BYTE	W84
 	BYTE		N11   
@@ -3722,7 +3722,7 @@ decbattletest_8_064:
 	BYTE		N11   
 	BYTE	W96
 // 066   ----------------------------------------
-decbattletest_8_066:
+DecisiveBattle_8_066:
 	BYTE		N11     As0   v084
 	BYTE	W84
 	BYTE		N11   
@@ -3733,19 +3733,19 @@ decbattletest_8_066:
 	BYTE	W96
 // 068   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_064
+	 POIN2	DecisiveBattle_8_064
 // 069   ----------------------------------------
 	BYTE		N11     An0   v084
 	BYTE	W96
 // 070   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_066
+	 POIN2	DecisiveBattle_8_066
 // 071   ----------------------------------------
 	BYTE		N11     As0   v084
 	BYTE	W96
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_064
+	 POIN2	DecisiveBattle_8_064
 // 073   ----------------------------------------
 	BYTE		N11     An0   v084
 	BYTE	W96
@@ -3768,32 +3768,32 @@ decbattletest_8_066:
 	BYTE		N11   
 	BYTE	W12
 	BYTE	GoTo
-	 POIN2	decbattletest_8_B1
-decbattletest_8_B2:
+	 POIN2	DecisiveBattle_8_B1
+DecisiveBattle_8_B2:
 // 078   ----------------------------------------
 	BYTE	PATT
-	 POIN2	decbattletest_8_002
+	 POIN2	DecisiveBattle_8_002
 // 079   ----------------------------------------
 	BYTE	FINE
 
 //******************************************************//
 	ALIGN 4
 
-decbattletest:
+DecisiveBattle:
 	BYTE	8	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	decbattletest_pri	// Priority
-	BYTE	decbattletest_rev	// Reverb.
+	BYTE	DecisiveBattle_pri	// Priority
+	BYTE	DecisiveBattle_rev	// Reverb.
 
-	POIN2	decbattletest_grp
+	POIN2	DecisiveBattle_grp
 
-	POIN2	decbattletest_1
-	POIN2	decbattletest_2
-	POIN2	decbattletest_3
-	POIN2	decbattletest_4
-	POIN2	decbattletest_5
-	POIN2	decbattletest_6
-	POIN2	decbattletest_7
-	POIN2	decbattletest_8
+	POIN2	DecisiveBattle_1
+	POIN2	DecisiveBattle_2
+	POIN2	DecisiveBattle_3
+	POIN2	DecisiveBattle_4
+	POIN2	DecisiveBattle_5
+	POIN2	DecisiveBattle_6
+	POIN2	DecisiveBattle_7
+	POIN2	DecisiveBattle_8
 
 	

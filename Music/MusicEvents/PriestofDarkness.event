@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song03DB_grp  voicegroup000
-	#define	song03DB_pri  10
-	#define	song03DB_rev  128
-	#define	song03DB_mvl  127
-	#define	song03DB_key  0
-	#define	song03DB_tbs  1
-	#define	song03DB_exg  0
-	#define	song03DB_cmp  1
+	#define	PriestofDarkness_grp  voicegroup000
+	#define	PriestofDarkness_pri  10
+	#define	PriestofDarkness_rev  128
+	#define	PriestofDarkness_mvl  127
+	#define	PriestofDarkness_key  0
+	#define	PriestofDarkness_tbs  1
+	#define	PriestofDarkness_exg  0
+	#define	PriestofDarkness_cmp  1
 
 	// .rodata
-	//	song03DB
+	//	PriestofDarkness
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song03DB_001:
+PriestofDarkness_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song03DB_key+0
+ BYTE   KEYSH   PriestofDarkness_key+0
 Label_01B07F06:
- BYTE   TEMPO   64*song03DB_tbs/2
+ BYTE   TEMPO   64*PriestofDarkness_tbs/2
  BYTE   VOICE   1
- BYTE   VOL   91*song03DB_mvl/mxv
+ BYTE   VOL   91*PriestofDarkness_mvl/mxv
  BYTE   PAN   c_v+3
  BYTE   N23  Ds2  v100
  BYTE   W24
@@ -143,12 +143,12 @@ Label_01B07F6D:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song03DB_002:
+PriestofDarkness_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song03DB_key+0
+ BYTE   KEYSH   PriestofDarkness_key+0
 Label_01B07FB4:
  BYTE   VOICE   1
- BYTE   VOL   39*song03DB_mvl/mxv
+ BYTE   VOL   39*PriestofDarkness_mvl/mxv
  BYTE   PAN   c_v+3
  BYTE   W06
  BYTE   N23  Ds2  v032
@@ -272,12 +272,12 @@ Label_01B08005:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song03DB_003:
+PriestofDarkness_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song03DB_key+0
+ BYTE   KEYSH   PriestofDarkness_key+0
 Label_01B08048:
  BYTE   VOICE   2
- BYTE   VOL   62*song03DB_mvl/mxv
+ BYTE   VOL   62*PriestofDarkness_mvl/mxv
  BYTE   PAN   c_v-13
  BYTE   N24  Cn2  v088
  BYTE   W12
@@ -550,16 +550,16 @@ Label_01B08048:
 //******************************************************//
 	ALIGN 4
 
-song03DB:
+PriestofDarkness:
 	BYTE	3	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song03DB_pri	// Priority
-	BYTE	song03DB_rev	// Reverb.
+	BYTE	PriestofDarkness_pri	// Priority
+	BYTE	PriestofDarkness_rev	// Reverb.
     
-	POIN2	song03DB_grp
+	POIN2	PriestofDarkness_grp
     
-	POIN2	song03DB_001
-	POIN2	song03DB_002
-	POIN2	song03DB_003
+	POIN2	PriestofDarkness_001
+	POIN2	PriestofDarkness_002
+	POIN2	PriestofDarkness_003
 
 	

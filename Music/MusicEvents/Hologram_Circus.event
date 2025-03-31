@@ -1,32 +1,32 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song03_grp  voicegroup000
-	#define	song03_pri  10
-	#define	song03_rev  0
-	#define	song03_mvl  127
-	#define	song03_key  0
-	#define	song03_tbs  1
-	#define	song03_exg  0
-	#define	song03_cmp  1
+	#define	Hologram_Circus_grp  voicegroup000
+	#define	Hologram_Circus_pri  10
+	#define	Hologram_Circus_rev  0
+	#define	Hologram_Circus_mvl  127
+	#define	Hologram_Circus_key  0
+	#define	Hologram_Circus_tbs  1
+	#define	Hologram_Circus_exg  0
+	#define	Hologram_Circus_cmp  1
 
 	// .rodata
-	//	song03
+	//	Hologram_Circus
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song03_001:
+Hologram_Circus_001:
 //  #01 //000   ----------------------------------------
 Label_547CB0:
- BYTE   VOL   120*song03_mvl/mxv
- BYTE   KEYSH   song03_key+0
+ BYTE   VOL   120*Hologram_Circus_mvl/mxv
+ BYTE   KEYSH   Hologram_Circus_key+0
  BYTE   VOICE   34
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N12  An1  v041
- BYTE   TEMPO   136*song03_tbs/2
+ BYTE   TEMPO   136*Hologram_Circus_tbs/2
  BYTE   W12
  BYTE   N12  An2  v041
  BYTE   W12
@@ -174,15 +174,15 @@ Label_547CD0:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song03_002:
+Hologram_Circus_002:
 //  #02 //000   ----------------------------------------
 Label_01000000:
- BYTE   VOL   85*song03_mvl/mxv
- BYTE   KEYSH   song03_key+0
+ BYTE   VOL   85*Hologram_Circus_mvl/mxv
+ BYTE   KEYSH   Hologram_Circus_key+0
  BYTE   VOICE   1
  BYTE   LFOS 44
  BYTE   MODT 0
- BYTE   TEMPO   136*song03_tbs/2
+ BYTE   TEMPO   136*Hologram_Circus_tbs/2
  BYTE   W12
  BYTE   N06  Cs3  v041
  BYTE   N06  En3
@@ -363,11 +363,11 @@ Label_01000027:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song03_003:
+Hologram_Circus_003:
 //  #03 //000   ----------------------------------------
 Label_0100011C:
- BYTE   VOL   55*song03_mvl/mxv
- BYTE   KEYSH   song03_key+0
+ BYTE   VOL   55*Hologram_Circus_mvl/mxv
+ BYTE   KEYSH   Hologram_Circus_key+0
  BYTE   VOICE   48
  BYTE   LFOS 44
  BYTE   MODT 0
@@ -375,7 +375,7 @@ Label_0100011C:
  BYTE   N24  An3
  BYTE   N24  Gs4
  BYTE   N24  En4
- BYTE   TEMPO   136*song03_tbs/2
+ BYTE   TEMPO   136*Hologram_Circus_tbs/2
  BYTE   W24
  BYTE   N06  En4  v041
  BYTE   N06  Gs4
@@ -559,16 +559,16 @@ Label_0100011C:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song03_004:
+Hologram_Circus_004:
 //  #04 //000   ----------------------------------------
 Label_547AD8:
- BYTE   VOL   65*song03_mvl/mxv
- BYTE   KEYSH   song03_key+0
+ BYTE   VOL   65*Hologram_Circus_mvl/mxv
+ BYTE   KEYSH   Hologram_Circus_key+0
  BYTE   VOICE   10
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N24  Gs4  v041
- BYTE   TEMPO   136*song03_tbs/2
+ BYTE   TEMPO   136*Hologram_Circus_tbs/2
  BYTE   W24
  BYTE   N06  Gs4  v041
  BYTE   W18
@@ -673,17 +673,17 @@ Label_547AD8:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song03_005:
+Hologram_Circus_005:
 //  #05 //000   ----------------------------------------
 Label_0100024C:
- BYTE   VOL   85*song03_mvl/mxv
- BYTE   KEYSH   song03_key+0
+ BYTE   VOL   85*Hologram_Circus_mvl/mxv
+ BYTE   KEYSH   Hologram_Circus_key+0
  BYTE   VOICE   121
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N06  Cn1  v041
  BYTE   N12  Ds2
- BYTE   TEMPO   136*song03_tbs/2
+ BYTE   TEMPO   136*Hologram_Circus_tbs/2
  BYTE   W12
  BYTE   N06  Dn1  v041
  BYTE   N12  Ds2
@@ -863,18 +863,18 @@ Label_01000284:
 //******************************************************//
 	ALIGN 4
 
-song03:
+Hologram_Circus:
 	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song03_pri	// Priority
-	BYTE	song03_rev	// Reverb.
+	BYTE	Hologram_Circus_pri	// Priority
+	BYTE	Hologram_Circus_rev	// Reverb.
     
-	POIN2	song03_grp
+	POIN2	Hologram_Circus_grp
     
-	POIN2	song03_001
-	POIN2	song03_002
-	POIN2	song03_003
-	POIN2	song03_004
-	POIN2	song03_005
+	POIN2	Hologram_Circus_001
+	POIN2	Hologram_Circus_002
+	POIN2	Hologram_Circus_003
+	POIN2	Hologram_Circus_004
+	POIN2	Hologram_Circus_005
 
 	

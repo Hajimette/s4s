@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	songC0_grp  voicegroup000
-	#define	songC0_pri  0
-	#define	songC0_rev  0
-	#define	songC0_mvl  127
-	#define	songC0_key  0
-	#define	songC0_tbs  1
-	#define	songC0_exg  0
-	#define	songC0_cmp  1
+	#define	FantasiaCutscene_grp  voicegroup000
+	#define	FantasiaCutscene_pri  0
+	#define	FantasiaCutscene_rev  0
+	#define	FantasiaCutscene_mvl  127
+	#define	FantasiaCutscene_key  0
+	#define	FantasiaCutscene_tbs  1
+	#define	FantasiaCutscene_exg  0
+	#define	FantasiaCutscene_cmp  1
 
 	// .rodata
-	//	songC0
+	//	FantasiaCutscene
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-songC0_001:
+FantasiaCutscene_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   songC0_key+0
- BYTE   TEMPO   188*songC0_tbs/2
+ BYTE   KEYSH   FantasiaCutscene_key+0
+ BYTE   TEMPO   188*FantasiaCutscene_tbs/2
  BYTE   VOICE   75
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   64*songC0_mvl/mxv
+ BYTE   VOL   64*FantasiaCutscene_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W24
 Label_0195C843:
@@ -396,13 +396,13 @@ Label_0195C877:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-songC0_002:
+FantasiaCutscene_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   songC0_key+0
+ BYTE   KEYSH   FantasiaCutscene_key+0
  BYTE   VOICE   73
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*songC0_mvl/mxv
+ BYTE   VOL   53*FantasiaCutscene_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N11  Cn4  v060
  BYTE   N11  Ds4
@@ -1155,10 +1155,10 @@ Label_0195CA2C:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-songC0_003:
+FantasiaCutscene_003:
 //  #03 //000   ----------------------------------------
- BYTE   VOL   80*songC0_mvl/mxv
- BYTE   KEYSH   songC0_key+0
+ BYTE   VOL   80*FantasiaCutscene_mvl/mxv
+ BYTE   KEYSH   FantasiaCutscene_key+0
  BYTE   VOICE   0
  BYTE   MODT 0
  BYTE   LFOS 44
@@ -2063,13 +2063,13 @@ Label_0195CFDF:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-songC0_004:
+FantasiaCutscene_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   songC0_key+0
+ BYTE   KEYSH   FantasiaCutscene_key+0
  BYTE   VOICE   122
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*songC0_mvl/mxv
+ BYTE   VOL   53*FantasiaCutscene_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N23  Cn1  v060
  BYTE   N11  Cs2
@@ -2926,17 +2926,17 @@ Label_0195D8DB:
 //******************************************************//
 	ALIGN 4
 
-songC0:
+FantasiaCutscene:
 	BYTE	4	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	songC0_pri	// Priority
-	BYTE	songC0_rev	// Reverb.
+	BYTE	FantasiaCutscene_pri	// Priority
+	BYTE	FantasiaCutscene_rev	// Reverb.
     
-	POIN2	songC0_grp
+	POIN2	FantasiaCutscene_grp
     
-	POIN2	songC0_001
-	POIN2	songC0_002
-	POIN2	songC0_003
-	POIN2	songC0_004
+	POIN2	FantasiaCutscene_001
+	POIN2	FantasiaCutscene_002
+	POIN2	FantasiaCutscene_003
+	POIN2	FantasiaCutscene_004
 
 	

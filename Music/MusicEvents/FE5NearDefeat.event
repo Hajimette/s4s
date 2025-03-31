@@ -1,28 +1,28 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song01B5_grp  voicegroup000
-	#define	song01B5_pri  0
-	#define	song01B5_rev  0
-	#define	song01B5_mvl  127
-	#define	song01B5_key  0
-	#define	song01B5_tbs  1
-	#define	song01B5_exg  0
-	#define	song01B5_cmp  1
+	#define	FE5NearDefeat_grp  voicegroup000
+	#define	FE5NearDefeat_pri  0
+	#define	FE5NearDefeat_rev  0
+	#define	FE5NearDefeat_mvl  127
+	#define	FE5NearDefeat_key  0
+	#define	FE5NearDefeat_tbs  1
+	#define	FE5NearDefeat_exg  0
+	#define	FE5NearDefeat_cmp  1
 
 	// .rodata
-	//	song01B5
+	//	FE5NearDefeat
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song01B5_001:
+FE5NearDefeat_001:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
- BYTE   TEMPO   126*song01B5_tbs/2
+ BYTE   KEYSH   FE5NearDefeat_key+0
+ BYTE   TEMPO   126*FE5NearDefeat_tbs/2
  BYTE   VOICE   48
- BYTE   VOL   62*song01B5_mvl/mxv
+ BYTE   VOL   62*FE5NearDefeat_mvl/mxv
  BYTE   N96  As2  v100
  BYTE   W96
 // 001   ----------------------------------------
@@ -299,11 +299,11 @@ Label_0_01297911:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song01B5_002:
+FE5NearDefeat_002:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
+ BYTE   KEYSH   FE5NearDefeat_key+0
  BYTE   VOICE   48
- BYTE   VOL   58*song01B5_mvl/mxv
+ BYTE   VOL   58*FE5NearDefeat_mvl/mxv
  BYTE   N96  Ds2  v100
  BYTE   W96
 // 001   ----------------------------------------
@@ -500,11 +500,11 @@ Label_1_01297A03:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song01B5_003:
+FE5NearDefeat_003:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
+ BYTE   KEYSH   FE5NearDefeat_key+0
  BYTE   VOICE   48
- BYTE   VOL   58*song01B5_mvl/mxv
+ BYTE   VOL   58*FE5NearDefeat_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -604,11 +604,11 @@ Label_2_01297A86:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song01B5_004:
+FE5NearDefeat_004:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
+ BYTE   KEYSH   FE5NearDefeat_key+0
  BYTE   VOICE   48
- BYTE   VOL   58*song01B5_mvl/mxv
+ BYTE   VOL   58*FE5NearDefeat_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -778,11 +778,11 @@ Label_3_01297B06:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song01B5_005:
+FE5NearDefeat_005:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
+ BYTE   KEYSH   FE5NearDefeat_key+0
  BYTE   VOICE   56
- BYTE   VOL   69*song01B5_mvl/mxv
+ BYTE   VOL   69*FE5NearDefeat_mvl/mxv
  BYTE   PAN   c_v+16
  BYTE   W96
 // 001   ----------------------------------------
@@ -931,11 +931,11 @@ Label_4_01297BBB:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song01B5_006:
+FE5NearDefeat_006:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
+ BYTE   KEYSH   FE5NearDefeat_key+0
  BYTE   VOICE   56
- BYTE   VOL   47*song01B5_mvl/mxv
+ BYTE   VOL   47*FE5NearDefeat_mvl/mxv
  BYTE   PAN   c_v+16
  BYTE   W96
 // 001   ----------------------------------------
@@ -1120,11 +1120,11 @@ Label_5_01297C5B:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song01B5_007:
+FE5NearDefeat_007:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
+ BYTE   KEYSH   FE5NearDefeat_key+0
  BYTE   VOICE   58
- BYTE   VOL   75*song01B5_mvl/mxv
+ BYTE   VOL   75*FE5NearDefeat_mvl/mxv
  BYTE   N12  Gn1  v076
  BYTE   W12
  BYTE   N12
@@ -1353,11 +1353,11 @@ Label_6_01297D77:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song01B5_008:
+FE5NearDefeat_008:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
+ BYTE   KEYSH   FE5NearDefeat_key+0
  BYTE   VOICE   60
- BYTE   VOL   74*song01B5_mvl/mxv
+ BYTE   VOL   74*FE5NearDefeat_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1448,11 +1448,11 @@ Label_7_01297DFB:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song01B5_009:
+FE5NearDefeat_009:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
+ BYTE   KEYSH   FE5NearDefeat_key+0
  BYTE   VOICE   47
- BYTE   VOL   44*song01B5_mvl/mxv
+ BYTE   VOL   44*FE5NearDefeat_mvl/mxv
  BYTE   PAN   c_v-16
  BYTE   W96
 // 001   ----------------------------------------
@@ -1610,11 +1610,11 @@ Label_8_01297E81:
 
 //**************** Track 10 (Midi-Chn.9) ****************//
 
-song01B5_010:
+FE5NearDefeat_010:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
+ BYTE   KEYSH   FE5NearDefeat_key+0
  BYTE   VOICE   124
- BYTE   VOL   49*song01B5_mvl/mxv
+ BYTE   VOL   49*FE5NearDefeat_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1903,11 +1903,11 @@ Label_9_01298029:
 
 //**************** Track 11 (Midi-Chn.10) ****************//
 
-song01B5_011:
+FE5NearDefeat_011:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01B5_key+0
+ BYTE   KEYSH   FE5NearDefeat_key+0
  BYTE   VOICE   47
- BYTE   VOL   51*song01B5_mvl/mxv
+ BYTE   VOL   51*FE5NearDefeat_mvl/mxv
  BYTE   PAN   c_v-16
  BYTE   W96
 // 001   ----------------------------------------
@@ -2066,24 +2066,24 @@ Label_10_01298119:
 //******************************************************//
 	ALIGN 4
 
-song01B5:
+FE5NearDefeat:
 	BYTE	11	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song01B5_pri	// Priority
-	BYTE	song01B5_rev	// Reverb.
+	BYTE	FE5NearDefeat_pri	// Priority
+	BYTE	FE5NearDefeat_rev	// Reverb.
     
-	POIN2	song01B5_grp
+	POIN2	FE5NearDefeat_grp
     
-	POIN2	song01B5_001
-	POIN2	song01B5_002
-	POIN2	song01B5_003
-	POIN2	song01B5_004
-	POIN2	song01B5_005
-	POIN2	song01B5_006
-	POIN2	song01B5_007
-	POIN2	song01B5_008
-	POIN2	song01B5_009
-	POIN2	song01B5_010
-	POIN2	song01B5_011
+	POIN2	FE5NearDefeat_001
+	POIN2	FE5NearDefeat_002
+	POIN2	FE5NearDefeat_003
+	POIN2	FE5NearDefeat_004
+	POIN2	FE5NearDefeat_005
+	POIN2	FE5NearDefeat_006
+	POIN2	FE5NearDefeat_007
+	POIN2	FE5NearDefeat_008
+	POIN2	FE5NearDefeat_009
+	POIN2	FE5NearDefeat_010
+	POIN2	FE5NearDefeat_011
 
 	

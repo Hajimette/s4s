@@ -1,31 +1,31 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song01_grp  voicegroup000
-	#define	song01_pri  0
-	#define	song01_rev  0
-	#define	song01_mvl  127
-	#define	song01_key  0
-	#define	song01_tbs  1
-	#define	song01_exg  0
-	#define	song01_cmp  1
+	#define	Fukkireta_grp  voicegroup000
+	#define	Fukkireta_pri  0
+	#define	Fukkireta_rev  0
+	#define	Fukkireta_mvl  127
+	#define	Fukkireta_key  0
+	#define	Fukkireta_tbs  1
+	#define	Fukkireta_exg  0
+	#define	Fukkireta_cmp  1
 
 	// .rodata
-	//	song01
+	//	Fukkireta
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song01_001:
+Fukkireta_001:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
- BYTE   TEMPO   152*song01_tbs/2
+ BYTE   KEYSH   Fukkireta_key+0
+ BYTE   TEMPO   152*Fukkireta_tbs/2
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   VOICE   0
  BYTE   PAN   c_v+0
- BYTE   VOL   63*song01_mvl/mxv
+ BYTE   VOL   63*Fukkireta_mvl/mxv
  BYTE   MOD 0
  BYTE   MEMACC  mem_set  0x00  0
  BYTE   BENDR  12
@@ -155,14 +155,14 @@ Label_0_B7D2F5:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song01_002:
+Fukkireta_002:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
+ BYTE   KEYSH   Fukkireta_key+0
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   VOICE   0
  BYTE   PAN   c_v+0
- BYTE   VOL   72*song01_mvl/mxv
+ BYTE   VOL   72*Fukkireta_mvl/mxv
  BYTE   MOD 0
  BYTE   MEMACC  mem_set  0x00  0
  BYTE   BENDR  12
@@ -411,14 +411,14 @@ Label_1_B7D204:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song01_003:
+Fukkireta_003:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
+ BYTE   KEYSH   Fukkireta_key+0
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   VOICE   51
  BYTE   PAN   c_v+0
- BYTE   VOL   72*song01_mvl/mxv
+ BYTE   VOL   72*Fukkireta_mvl/mxv
  BYTE   MOD 0
  BYTE   MEMACC  mem_set  0x00  0
  BYTE   BENDR  12
@@ -642,14 +642,14 @@ Label_2_B7CC6B:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song01_004:
+Fukkireta_004:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
+ BYTE   KEYSH   Fukkireta_key+0
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   VOICE   4
  BYTE   PAN   c_v+0
- BYTE   VOL   47*song01_mvl/mxv
+ BYTE   VOL   47*Fukkireta_mvl/mxv
  BYTE   MOD 0
  BYTE   MEMACC  mem_set  0x00  0
  BYTE   BENDR  12
@@ -787,14 +787,14 @@ Label_3_B7DC1B:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song01_005:
+Fukkireta_005:
 // 000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
+ BYTE   KEYSH   Fukkireta_key+0
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   VOICE   80
  BYTE   PAN   c_v+0
- BYTE   VOL   63*song01_mvl/mxv
+ BYTE   VOL   63*Fukkireta_mvl/mxv
  BYTE   MOD 0
  BYTE   MEMACC  mem_set  0x00  0
  BYTE   BENDR  12
@@ -1149,18 +1149,18 @@ Label_4_B7DD7F:
 //******************************************************//
 	ALIGN 4
 
-song01:
+Fukkireta:
 	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song01_pri	// Priority
-	BYTE	song01_rev	// Reverb.
+	BYTE	Fukkireta_pri	// Priority
+	BYTE	Fukkireta_rev	// Reverb.
     
-	POIN2	song01_grp
+	POIN2	Fukkireta_grp
     
-	POIN2	song01_001
-	POIN2	song01_002
-	POIN2	song01_003
-	POIN2	song01_004
-	POIN2	song01_005
+	POIN2	Fukkireta_001
+	POIN2	Fukkireta_002
+	POIN2	Fukkireta_003
+	POIN2	Fukkireta_004
+	POIN2	Fukkireta_005
 
 	

@@ -1,60 +1,60 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	V2A4_FINAL_grp  voicegroup000
-	#define	V2A4_FINAL_pri  0
-	#define	V2A4_FINAL_rev  0
-	#define	V2A4_FINAL_mvl  80
-	#define	V2A4_FINAL_key  0
-	#define	V2A4_FINAL_tbs  1
-	#define	V2A4_FINAL_exg  0
-	#define	V2A4_FINAL_cmp  1
+	#define	FE5ChargeB_grp  voicegroup000
+	#define	FE5ChargeB_pri  0
+	#define	FE5ChargeB_rev  0
+	#define	FE5ChargeB_mvl  80
+	#define	FE5ChargeB_key  0
+	#define	FE5ChargeB_tbs  1
+	#define	FE5ChargeB_exg  0
+	#define	FE5ChargeB_cmp  1
 
 	// .rodata
-	//	V2A4_FINAL
+	//	FE5ChargeB
 	ALIGN 4
 
 //**************** Track 1 (Midi-Chn.1) ****************//
 
-V2A4_FINAL_1:
-	BYTE	KEYSH   V2A4_FINAL_key+0
+FE5ChargeB_1:
+	BYTE	KEYSH   FE5ChargeB_key+0
 // 000   ----------------------------------------
-	BYTE	TEMPO   125*V2A4_FINAL_tbs/2
+	BYTE	TEMPO   125*FE5ChargeB_tbs/2
 	BYTE		VOICE   48
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE		BENDR   12
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE	W06
-V2A4_FINAL_1_B1:
+FE5ChargeB_1_B1:
 	BYTE		VOICE   48
 	BYTE		PAN     c_v+0
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	W05
-	BYTE		        54*V2A4_FINAL_mvl/mxv
+	BYTE		        54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+16
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE		N11     Cn2   v124
 	BYTE	W14
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+16
 	BYTE		N24   
 	BYTE	W24
 	BYTE	W03
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N24   
@@ -65,7 +65,7 @@ V2A4_FINAL_1_B1:
 	BYTE	W15
 	BYTE		N12   
 	BYTE	W13
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+16
 	BYTE	W01
@@ -75,28 +75,28 @@ V2A4_FINAL_1_B1:
 	BYTE		N24   
 	BYTE	W28
 // 002   ----------------------------------------
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+16
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N24   
@@ -109,12 +109,12 @@ V2A4_FINAL_1_B1:
 	BYTE	W28
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+16
 	BYTE		N12   
 	BYTE	W13
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE	W01
@@ -124,10 +124,10 @@ V2A4_FINAL_1_B1:
 	BYTE	W03
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N24   
@@ -139,12 +139,12 @@ V2A4_FINAL_1_B1:
 	BYTE	W68
 	BYTE	W02
 	BYTE		VOICE   57
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v-64
 	BYTE		N03     Cn3 
 	BYTE	W05
-	BYTE		VOL     10*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     10*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    125
 	BYTE		PAN     c_v-64
 	BYTE		N03     Fn3 
@@ -167,12 +167,12 @@ V2A4_FINAL_1_B1:
 	BYTE	W96
 // 008   ----------------------------------------
 	BYTE	W05
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v-64
 	BYTE		N03     Fn2 
 	BYTE	W05
-	BYTE		VOL     10*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     10*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    125
 	BYTE		PAN     c_v-64
 	BYTE		N03     As2 
@@ -190,7 +190,7 @@ V2A4_FINAL_1_B1:
 	BYTE	W02
 // 009   ----------------------------------------
 	BYTE	W44
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v-64
 	BYTE		N56     Cn3 
@@ -199,7 +199,7 @@ V2A4_FINAL_1_B1:
 	BYTE	W08
 	BYTE		N03     Gn2 
 	BYTE	W05
-	BYTE		VOL     10*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     10*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    125
 	BYTE		PAN     c_v-64
 	BYTE		N03     Cn3 
@@ -210,7 +210,7 @@ V2A4_FINAL_1_B1:
 	BYTE	W05
 	BYTE		        Gn3 
 	BYTE	W04
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v-64
 	BYTE	W01
@@ -228,7 +228,7 @@ V2A4_FINAL_1_B1:
 // 012   ----------------------------------------
 	BYTE	W60
 	BYTE	W03
-	BYTE		VOL     10*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     10*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    125
 	BYTE		PAN     c_v-64
 	BYTE		N05     As2 
@@ -270,15 +270,15 @@ V2A4_FINAL_1_B1:
 // 018   ----------------------------------------
 	BYTE	W56
 	BYTE	W02
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v-64
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v-64
 	BYTE		BEND    c_v-1
@@ -310,57 +310,57 @@ V2A4_FINAL_1_B1:
 // 030   ----------------------------------------
 	BYTE	W30
 	BYTE	GoTo
-	 POIN2	V2A4_FINAL_1_B1
-V2A4_FINAL_1_B2:
+	 POIN2	FE5ChargeB_1_B1
+FE5ChargeB_1_B2:
 	BYTE	W02
 	BYTE		VOICE   48
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-64
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+16
 	BYTE		BEND    c_v+0
 	BYTE		N11     Cn2   v124
 	BYTE	W13
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE	W01
 	BYTE		N24   
 	BYTE	W24
 	BYTE	W03
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+16
 	BYTE		N24   
 	BYTE	W23
 // 031   ----------------------------------------
 	BYTE	W05
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE	FINE
 
 //**************** Track 2 (Midi-Chn.2) ****************//
 
-V2A4_FINAL_2:
-	BYTE	KEYSH   V2A4_FINAL_key+0
+FE5ChargeB_2:
+	BYTE	KEYSH   FE5ChargeB_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   48
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE		BENDR   12
 	BYTE	W06
-V2A4_FINAL_2_B1:
+FE5ChargeB_2_B1:
 	BYTE		VOICE   48
 	BYTE		PAN     c_v+0
-	BYTE		VOL     127*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     127*FE5ChargeB_mvl/mxv
 	BYTE	W05
-	BYTE		        50*V2A4_FINAL_mvl/mxv
+	BYTE		        50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE		TIE     Gn3   v124
 	BYTE	W84
@@ -369,7 +369,7 @@ V2A4_FINAL_2_B1:
 	BYTE	W24
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE	W01
@@ -398,25 +398,25 @@ V2A4_FINAL_2_B1:
 	BYTE	W24
 // 004   ----------------------------------------
 	BYTE	W03
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N24   
 	BYTE	W28
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v-10
 	BYTE		TIE     Cn2 
@@ -426,10 +426,10 @@ V2A4_FINAL_2_B1:
 	BYTE	W02
 	BYTE		EOT   
 	BYTE	W03
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+0
 	BYTE		BEND    c_v-1
@@ -441,7 +441,7 @@ V2A4_FINAL_2_B1:
 	BYTE	W07
 	BYTE		EOT   
 	BYTE	W01
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
 	BYTE		BEND    c_v+0
@@ -458,7 +458,7 @@ V2A4_FINAL_2_B1:
 	BYTE	W01
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE	W01
@@ -469,7 +469,7 @@ V2A4_FINAL_2_B1:
 	BYTE	W01
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
 	BYTE		BEND    c_v-1
@@ -480,7 +480,7 @@ V2A4_FINAL_2_B1:
 	BYTE	W68
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+0
 	BYTE	W01
@@ -492,7 +492,7 @@ V2A4_FINAL_2_B1:
 	BYTE	W84
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
 	BYTE		TIE     Gn2 
@@ -503,28 +503,28 @@ V2A4_FINAL_2_B1:
 	BYTE	W03
 	BYTE		EOT   
 	BYTE	W03
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v-32
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v-10
 	BYTE		N24     As2 
 	BYTE	W28
 	BYTE		N05     Gn2 
 	BYTE	W06
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
 	BYTE		N19   
 	BYTE	W21
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v-32
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v-10
 	BYTE		N54     As2 
@@ -532,23 +532,23 @@ V2A4_FINAL_2_B1:
 	BYTE	W03
 // 015   ----------------------------------------
 	BYTE	W21
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v-21
 	BYTE		N19     An2 
 	BYTE	W21
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+63
-	BYTE		VOL     0*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     0*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    0
 	BYTE		PAN     c_v-64
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-64
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v-10
 	BYTE		N80   
@@ -557,28 +557,28 @@ V2A4_FINAL_2_B1:
 // 016   ----------------------------------------
 	BYTE	W36
 	BYTE	W01
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v-21
 	BYTE		N40     As2 
 	BYTE	W42
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+0
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v-37
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v-21
 	BYTE		N40   
@@ -586,7 +586,7 @@ V2A4_FINAL_2_B1:
 // 017   ----------------------------------------
 	BYTE	W36
 	BYTE	W02
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v-10
 	BYTE	W01
@@ -596,18 +596,18 @@ V2A4_FINAL_2_B1:
 	BYTE	W44
 // 018   ----------------------------------------
 	BYTE	W12
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
 	BYTE		N54   
 	BYTE	W56
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+0
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		TIE     Bn2 
@@ -619,10 +619,10 @@ V2A4_FINAL_2_B1:
 	BYTE		EOT   
 // 021   ----------------------------------------
 	BYTE	W03
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+63
-	BYTE		VOL     10*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     10*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    125
 	BYTE		PAN     c_v+63
 	BYTE		TIE     Cn3 
@@ -632,7 +632,7 @@ V2A4_FINAL_2_B1:
 	BYTE	W15
 	BYTE		EOT   
 	BYTE	W04
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+0
 	BYTE		TIE     Dn3 
@@ -643,10 +643,10 @@ V2A4_FINAL_2_B1:
 	BYTE	W01
 	BYTE		EOT   
 	BYTE	W03
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE	W01
@@ -662,18 +662,18 @@ V2A4_FINAL_2_B1:
 	BYTE	W36
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N19   
 	BYTE	W21
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N05   
@@ -713,18 +713,18 @@ V2A4_FINAL_2_B1:
 	BYTE	W02
 // 029   ----------------------------------------
 	BYTE	W02
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N12   
@@ -740,11 +740,11 @@ V2A4_FINAL_2_B1:
 	BYTE		N12   
 	BYTE	W12
 	BYTE	GoTo
-	 POIN2	V2A4_FINAL_2_B1
-V2A4_FINAL_2_B2:
+	 POIN2	FE5ChargeB_2_B1
+FE5ChargeB_2_B2:
 	BYTE	W02
 	BYTE		VOICE   48
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE	W64
@@ -754,25 +754,25 @@ V2A4_FINAL_2_B2:
 
 //**************** Track 3 (Midi-Chn.3) ****************//
 
-V2A4_FINAL_3:
-	BYTE	KEYSH   V2A4_FINAL_key+0
+FE5ChargeB_3:
+	BYTE	KEYSH   FE5ChargeB_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   57
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE		BENDR   12
 	BYTE	W06
-V2A4_FINAL_3_B1:
+FE5ChargeB_3_B1:
 	BYTE		PAN     c_v+0
-	BYTE		VOL     127*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     127*FE5ChargeB_mvl/mxv
 	BYTE	W05
-	BYTE		        24*V2A4_FINAL_mvl/mxv
+	BYTE		        24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v-64
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE		TIE     Gn2   v124
 	BYTE	W84
@@ -783,33 +783,33 @@ V2A4_FINAL_3_B1:
 	BYTE	W03
 	BYTE		N12     Fn2 
 	BYTE	W13
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE	W01
 	BYTE		N24   
 	BYTE	W24
 	BYTE	W03
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N24   
 	BYTE	W28
 // 002   ----------------------------------------
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		TIE     Gn2 
@@ -819,18 +819,18 @@ V2A4_FINAL_3_B1:
 	BYTE	W01
 	BYTE		EOT   
 	BYTE	W03
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N12     Fn2 
 	BYTE	W14
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N24   
@@ -841,13 +841,13 @@ V2A4_FINAL_3_B1:
 	BYTE	W28
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N12   
 	BYTE	W14
 	BYTE		VOICE   48
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		TIE     En2 
@@ -865,10 +865,10 @@ V2A4_FINAL_3_B1:
 	BYTE	W07
 	BYTE		EOT   
 	BYTE	W01
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+63
-	BYTE		VOL     0*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     0*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    0
 	BYTE		PAN     c_v-64
 	BYTE		TIE     As2 
@@ -877,10 +877,10 @@ V2A4_FINAL_3_B1:
 	BYTE	W22
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v-64
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		TIE     Cn3 
@@ -890,10 +890,10 @@ V2A4_FINAL_3_B1:
 	BYTE	W01
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+0
 	BYTE	W01
@@ -904,10 +904,10 @@ V2A4_FINAL_3_B1:
 	BYTE	W01
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		TIE     Fn2 
@@ -924,10 +924,10 @@ V2A4_FINAL_3_B1:
 	BYTE	W84
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+63
-	BYTE		VOL     0*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     0*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    0
 	BYTE		PAN     c_v-64
 	BYTE		TIE     Cn3 
@@ -938,28 +938,28 @@ V2A4_FINAL_3_B1:
 	BYTE	W03
 	BYTE		EOT   
 	BYTE	W03
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-64
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
 	BYTE		N24     Ds3 
 	BYTE	W28
 	BYTE		N05     As2 
 	BYTE	W06
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v-10
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
 	BYTE		N12   
@@ -969,10 +969,10 @@ V2A4_FINAL_3_B1:
 	BYTE	W03
 // 015   ----------------------------------------
 	BYTE	W21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		TIE     Dn3 
@@ -983,34 +983,34 @@ V2A4_FINAL_3_B1:
 	BYTE	W03
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v-10
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
 	BYTE		N40     Ds3 
 	BYTE	W42
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+0
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     10*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     10*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    125
 	BYTE		PAN     c_v+63
-	BYTE		VOL     0*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     0*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    0
 	BYTE		PAN     c_v-64
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v-64
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		N40   
@@ -1020,10 +1020,10 @@ V2A4_FINAL_3_B1:
 	BYTE	W03
 	BYTE		N12   
 	BYTE	W13
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v-10
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
 	BYTE		N54     Cn3 
@@ -1043,7 +1043,7 @@ V2A4_FINAL_3_B1:
 // 023   ----------------------------------------
 	BYTE	W32
 	BYTE	W02
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE	W01
@@ -1057,26 +1057,26 @@ V2A4_FINAL_3_B1:
 	BYTE	W06
 // 024   ----------------------------------------
 	BYTE	W36
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+0
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v-32
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N19   
 	BYTE	W21
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N05     Bn3 
@@ -1118,18 +1118,18 @@ V2A4_FINAL_3_B1:
 	BYTE	W02
 // 029   ----------------------------------------
 	BYTE	W02
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N12   
@@ -1145,8 +1145,8 @@ V2A4_FINAL_3_B1:
 	BYTE		N12   
 	BYTE	W12
 	BYTE	GoTo
-	 POIN2	V2A4_FINAL_3_B1
-V2A4_FINAL_3_B2:
+	 POIN2	FE5ChargeB_3_B1
+FE5ChargeB_3_B2:
 	BYTE	W66
 // 031   ----------------------------------------
 	BYTE	W05
@@ -1154,25 +1154,25 @@ V2A4_FINAL_3_B2:
 
 //**************** Track 4 (Midi-Chn.5) ****************//
 
-V2A4_FINAL_4:
-	BYTE	KEYSH   V2A4_FINAL_key+0
+FE5ChargeB_4:
+	BYTE	KEYSH   FE5ChargeB_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   48
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE		BENDR   12
 	BYTE	W06
-V2A4_FINAL_4_B1:
+FE5ChargeB_4_B1:
 	BYTE		PAN     c_v+0
-	BYTE		VOL     127*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     127*FE5ChargeB_mvl/mxv
 	BYTE	W05
-	BYTE		        31*V2A4_FINAL_mvl/mxv
+	BYTE		        31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-64
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE		TIE     Cn4   v124
 	BYTE	W84
@@ -1181,33 +1181,33 @@ V2A4_FINAL_4_B1:
 	BYTE	W24
 	BYTE		EOT   
 	BYTE	W03
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		BEND    c_v+0
 	BYTE		N12     As3 
 	BYTE	W13
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE	W01
 	BYTE		N24   
 	BYTE	W24
 	BYTE	W03
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N24   
 	BYTE	W28
 // 002   ----------------------------------------
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N24   
 	BYTE	W28
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+16
 	BYTE		BEND    c_v+0
@@ -1220,30 +1220,30 @@ V2A4_FINAL_4_B1:
 	BYTE		BEND    c_v+0
 	BYTE		N12     As3 
 	BYTE	W14
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+30
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N24   
 	BYTE	W24
 // 004   ----------------------------------------
 	BYTE	W03
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N12   
@@ -1253,7 +1253,7 @@ V2A4_FINAL_4_B1:
 	BYTE	W64
 	BYTE	W01
 	BYTE		VOICE   57
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		BEND    c_v+0
@@ -1261,29 +1261,29 @@ V2A4_FINAL_4_B1:
 	BYTE	W05
 	BYTE		        Fn3 
 	BYTE	W05
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		N03     Cn3 
 	BYTE	W04
 	BYTE		        Fn3 
 	BYTE	W05
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		N03     As3 
 	BYTE	W05
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N54     Ds4 
 	BYTE	W07
 // 006   ----------------------------------------
 	BYTE	W48
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		N54     Dn4 
@@ -1291,7 +1291,7 @@ V2A4_FINAL_4_B1:
 // 007   ----------------------------------------
 	BYTE	W96
 // 008   ----------------------------------------
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N03     Fn2 
@@ -1300,23 +1300,23 @@ V2A4_FINAL_4_B1:
 	BYTE	W05
 	BYTE		        Fn2 
 	BYTE	W04
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		N03     As2 
 	BYTE	W05
 	BYTE		        Dn3 
 	BYTE	W05
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		N40     Fn3 
 	BYTE	W40
 	BYTE	W01
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		N68     En3 
@@ -1325,10 +1325,10 @@ V2A4_FINAL_4_B1:
 // 009   ----------------------------------------
 	BYTE	W36
 	BYTE	W03
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE	W01
@@ -1336,7 +1336,7 @@ V2A4_FINAL_4_B1:
 	BYTE	W56
 // 010   ----------------------------------------
 	BYTE	W04
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N03     Gn2 
@@ -1345,18 +1345,18 @@ V2A4_FINAL_4_B1:
 	BYTE	W05
 	BYTE		        Gn2 
 	BYTE	W05
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		N03     Cn3 
 	BYTE	W04
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N03     Gn3 
@@ -1373,14 +1373,14 @@ V2A4_FINAL_4_B1:
 // 012   ----------------------------------------
 	BYTE	W56
 	BYTE	W02
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		N05     As2 
 	BYTE	W07
 	BYTE		        Fn3 
 	BYTE	W07
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N05     As3 
@@ -1417,20 +1417,20 @@ V2A4_FINAL_4_B1:
 	BYTE	W96
 // 018   ----------------------------------------
 	BYTE	W54
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N05   
 	BYTE	W07
 	BYTE		        Gn3 
 	BYTE	W07
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		TIE     Dn3 
@@ -1467,50 +1467,50 @@ V2A4_FINAL_4_B1:
 	BYTE	W07
 	BYTE		        Bn2 
 	BYTE	W07
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+16
 	BYTE		N05     Dn3 
 	BYTE	W01
 // 023   ----------------------------------------
 	BYTE	W06
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+30
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N05     Gn3 
 	BYTE	W07
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N05     Bn3 
 	BYTE	W07
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
 	BYTE		BEND    c_v+0
 	BYTE		N05     Dn4 
 	BYTE	W07
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+16
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N05     Gn4 
 	BYTE	W07
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE	W01
@@ -1527,10 +1527,10 @@ V2A4_FINAL_4_B1:
 	BYTE	W14
 	BYTE		N19   
 	BYTE	W21
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N05     Dn4 
@@ -1542,10 +1542,10 @@ V2A4_FINAL_4_B1:
 	BYTE	W03
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N05     En4 
@@ -1577,13 +1577,13 @@ V2A4_FINAL_4_B1:
 // 030   ----------------------------------------
 	BYTE	W30
 	BYTE	GoTo
-	 POIN2	V2A4_FINAL_4_B1
-V2A4_FINAL_4_B2:
+	 POIN2	FE5ChargeB_4_B1
+FE5ChargeB_4_B2:
 	BYTE	W02
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		BEND    c_v+0
@@ -1594,23 +1594,23 @@ V2A4_FINAL_4_B2:
 
 //**************** Track 5 (Midi-Chn.6) ****************//
 
-V2A4_FINAL_5:
-	BYTE	KEYSH   V2A4_FINAL_key+0
+FE5ChargeB_5:
+	BYTE	KEYSH   FE5ChargeB_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   60
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE		BENDR   12
 	BYTE	W06
-V2A4_FINAL_5_B1:
+FE5ChargeB_5_B1:
 	BYTE		VOICE   60
 	BYTE		PAN     c_v+0
-	BYTE		VOL     127*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     127*FE5ChargeB_mvl/mxv
 	BYTE	W05
-	BYTE		        59*V2A4_FINAL_mvl/mxv
+	BYTE		        59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE		N11     Cn1   v124
 	BYTE	W14
@@ -1683,20 +1683,20 @@ V2A4_FINAL_5_B1:
 	BYTE	W14
 	BYTE		        Cn2 
 	BYTE	W14
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24     Cn1 
 	BYTE	W23
 // 005   ----------------------------------------
 	BYTE	W05
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N24   
@@ -1705,20 +1705,20 @@ V2A4_FINAL_5_B1:
 	BYTE	W28
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24   
 	BYTE	W07
 // 006   ----------------------------------------
 	BYTE	W20
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE	W01
@@ -1731,18 +1731,18 @@ V2A4_FINAL_5_B1:
 	BYTE	W20
 // 007   ----------------------------------------
 	BYTE	W08
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N24   
@@ -1753,18 +1753,18 @@ V2A4_FINAL_5_B1:
 	BYTE	W04
 // 008   ----------------------------------------
 	BYTE	W24
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N24   
@@ -1776,20 +1776,20 @@ V2A4_FINAL_5_B1:
 	BYTE	W11
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE	W01
 	BYTE		N24   
 	BYTE	W24
 	BYTE	W03
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N24   
@@ -1801,18 +1801,18 @@ V2A4_FINAL_5_B1:
 	BYTE	W03
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N24   
@@ -1823,10 +1823,10 @@ V2A4_FINAL_5_B1:
 	BYTE	W28
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24   
@@ -1834,10 +1834,10 @@ V2A4_FINAL_5_B1:
 	BYTE	W01
 // 012   ----------------------------------------
 	BYTE	W02
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N24   
@@ -1846,20 +1846,20 @@ V2A4_FINAL_5_B1:
 	BYTE	W28
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24   
 	BYTE	W10
 // 013   ----------------------------------------
 	BYTE	W18
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N24   
@@ -1870,10 +1870,10 @@ V2A4_FINAL_5_B1:
 	BYTE	W22
 // 014   ----------------------------------------
 	BYTE	W06
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
 	BYTE		N24     Ds1 
@@ -1883,19 +1883,19 @@ V2A4_FINAL_5_B1:
 	BYTE	W07
 // 015   ----------------------------------------
 	BYTE	W21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		N24     Dn1 
 	BYTE	W68
 	BYTE	W02
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v-10
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
 	BYTE		N24   
@@ -1909,18 +1909,18 @@ V2A4_FINAL_5_B1:
 	BYTE	W03
 // 017   ----------------------------------------
 	BYTE	W10
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+0
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE	W01
@@ -1935,7 +1935,7 @@ V2A4_FINAL_5_B1:
 	BYTE		N54   
 	BYTE	W56
 	BYTE		VOICE   57
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N92     An3 
@@ -2035,18 +2035,18 @@ V2A4_FINAL_5_B1:
 	BYTE	W02
 // 029   ----------------------------------------
 	BYTE	W02
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N12   
@@ -2062,14 +2062,14 @@ V2A4_FINAL_5_B1:
 	BYTE		N12   
 	BYTE	W12
 	BYTE	GoTo
-	 POIN2	V2A4_FINAL_5_B1
-V2A4_FINAL_5_B2:
+	 POIN2	FE5ChargeB_5_B1
+FE5ChargeB_5_B2:
 	BYTE	W02
 	BYTE		VOICE   60
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v-7
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N11     Cn1   v124
@@ -2090,22 +2090,22 @@ V2A4_FINAL_5_B2:
 
 //**************** Track 6 (Midi-Chn.7) ****************//
 
-V2A4_FINAL_6:
-	BYTE	KEYSH   V2A4_FINAL_key+0
+FE5ChargeB_6:
+	BYTE	KEYSH   FE5ChargeB_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   57
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE		BENDR   12
 	BYTE	W06
-V2A4_FINAL_6_B1:
+FE5ChargeB_6_B1:
 	BYTE		VOICE   57
-	BYTE		VOL     127*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     127*FE5ChargeB_mvl/mxv
 	BYTE	W05
-	BYTE		        50*V2A4_FINAL_mvl/mxv
+	BYTE		        50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE		TIE     Cn3   v124
 	BYTE	W84
@@ -2114,25 +2114,25 @@ V2A4_FINAL_6_B1:
 	BYTE	W24
 	BYTE		EOT   
 	BYTE	W03
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N12     As2 
 	BYTE	W13
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE	W01
 	BYTE		N24   
 	BYTE	W24
 	BYTE	W03
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N24   
@@ -2140,12 +2140,12 @@ V2A4_FINAL_6_B1:
 // 002   ----------------------------------------
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		TIE     Cn3 
@@ -2156,22 +2156,22 @@ V2A4_FINAL_6_B1:
 	BYTE	W02
 	BYTE		N12     As2 
 	BYTE	W14
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N24   
 	BYTE	W24
 // 004   ----------------------------------------
 	BYTE	W03
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N24   
@@ -2179,10 +2179,10 @@ V2A4_FINAL_6_B1:
 	BYTE		N12   
 	BYTE	W14
 	BYTE		VOICE   48
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		TIE     Gn2 
@@ -2200,10 +2200,10 @@ V2A4_FINAL_6_B1:
 	BYTE	W07
 	BYTE		EOT   
 	BYTE	W01
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		TIE     Dn3 
@@ -2212,10 +2212,10 @@ V2A4_FINAL_6_B1:
 	BYTE	W22
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+32
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		TIE     En3 
@@ -2238,7 +2238,7 @@ V2A4_FINAL_6_B1:
 	BYTE	W68
 	BYTE		EOT   
 	BYTE	W03
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
 	BYTE		TIE     Dn3 
@@ -2249,7 +2249,7 @@ V2A4_FINAL_6_B1:
 	BYTE	W01
 	BYTE		EOT   
 	BYTE	W01
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		TIE     En3 
@@ -2260,10 +2260,10 @@ V2A4_FINAL_6_B1:
 	BYTE	W04
 	BYTE		EOT   
 	BYTE	W02
-	BYTE		VOL     39*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     39*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    32
 	BYTE		PAN     c_v+0
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N24     Gn3 
@@ -2279,10 +2279,10 @@ V2A4_FINAL_6_B1:
 	BYTE	W03
 // 015   ----------------------------------------
 	BYTE	W21
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
 	BYTE		N24     Gn3 
@@ -2293,28 +2293,28 @@ V2A4_FINAL_6_B1:
 // 016   ----------------------------------------
 	BYTE	W36
 	BYTE	W01
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N40     Gn3 
 	BYTE	W42
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+42
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v+27
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     24*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     24*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    33
 	BYTE		PAN     c_v+0
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     31*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     31*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    109
 	BYTE		PAN     c_v-18
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N40   
@@ -2324,23 +2324,23 @@ V2A4_FINAL_6_B1:
 	BYTE	W03
 	BYTE		N12   
 	BYTE	W13
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE		N54   
 	BYTE	W44
 // 018   ----------------------------------------
 	BYTE	W12
-	BYTE		VOL     44*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     44*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    84
 	BYTE		PAN     c_v+16
 	BYTE		N54     Fs3 
 	BYTE	W56
 	BYTE		VOICE   60
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v-16
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24     Gn1 
@@ -2352,18 +2352,18 @@ V2A4_FINAL_6_B1:
 	BYTE	W28
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N12     Dn1 
 	BYTE	W14
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24     Gn1 
@@ -2376,20 +2376,20 @@ V2A4_FINAL_6_B1:
 	BYTE	W28
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N12     Dn1 
 	BYTE	W11
 // 021   ----------------------------------------
 	BYTE	W03
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24     Gn1 
@@ -2402,18 +2402,18 @@ V2A4_FINAL_6_B1:
 	BYTE	W09
 // 022   ----------------------------------------
 	BYTE	W05
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N12     Dn1 
 	BYTE	W14
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24     Gn1 
@@ -2427,10 +2427,10 @@ V2A4_FINAL_6_B1:
 	BYTE	W06
 	BYTE		N12   
 	BYTE	W14
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N12     Dn1 
@@ -2438,10 +2438,10 @@ V2A4_FINAL_6_B1:
 	BYTE		N40     Gn1 
 	BYTE	W40
 	BYTE	W01
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N12   
@@ -2450,18 +2450,18 @@ V2A4_FINAL_6_B1:
 	BYTE	W06
 // 024   ----------------------------------------
 	BYTE	W36
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v+8
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
 	BYTE		N05   
@@ -2470,10 +2470,10 @@ V2A4_FINAL_6_B1:
 	BYTE	W21
 	BYTE		N05   
 	BYTE	W07
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v-7
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N80     Gn0 
@@ -2501,10 +2501,10 @@ V2A4_FINAL_6_B1:
 	BYTE		N68   
 	BYTE	W68
 	BYTE	W02
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+11
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+0
 	BYTE		N05   
@@ -2513,10 +2513,10 @@ V2A4_FINAL_6_B1:
 	BYTE	W07
 // 028   ----------------------------------------
 	BYTE	W01
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v-7
-	BYTE		VOL     59*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     59*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    39
 	BYTE		PAN     c_v+0
 	BYTE		N24     Cn1 
@@ -2532,10 +2532,10 @@ V2A4_FINAL_6_B1:
 	BYTE	W16
 	BYTE		N24   
 	BYTE	W28
-	BYTE		VOL     61*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     61*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    91
 	BYTE		PAN     c_v-5
-	BYTE		VOL     65*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     65*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    121
 	BYTE		PAN     c_v+0
 	BYTE		N24   
@@ -2548,14 +2548,14 @@ V2A4_FINAL_6_B1:
 	BYTE	W24
 	BYTE	W02
 	BYTE	GoTo
-	 POIN2	V2A4_FINAL_6_B1
-V2A4_FINAL_6_B2:
+	 POIN2	FE5ChargeB_6_B1
+FE5ChargeB_6_B2:
 	BYTE	W02
 	BYTE		VOICE   57
-	BYTE		VOL     54*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     54*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    31
 	BYTE		PAN     c_v+30
-	BYTE		VOL     50*V2A4_FINAL_mvl/mxv
+	BYTE		VOL     50*FE5ChargeB_mvl/mxv
 	BYTE	PRIO    17
 	BYTE		PAN     c_v+21
 	BYTE	W64
@@ -2565,15 +2565,15 @@ V2A4_FINAL_6_B2:
 
 //**************** Track 7 (Midi-Chn.10) ****************//
 
-V2A4_FINAL_7:
-	BYTE		VOL     127*V2A4_FINAL_mvl/mxv
-	BYTE	KEYSH   V2A4_FINAL_key+0
+FE5ChargeB_7:
+	BYTE		VOL     127*FE5ChargeB_mvl/mxv
+	BYTE	KEYSH   FE5ChargeB_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   127
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W06
-V2A4_FINAL_7_B1:
+FE5ChargeB_7_B1:
 	BYTE	W05
 	BYTE		TIE     Dn1   v044
 	BYTE		N80     Fn1   v032
@@ -3530,8 +3530,8 @@ V2A4_FINAL_7_B1:
 	BYTE		N14     Fn1   v032
 	BYTE	W12
 	BYTE	GoTo
-	 POIN2	V2A4_FINAL_7_B1
-V2A4_FINAL_7_B2:
+	 POIN2	FE5ChargeB_7_B1
+FE5ChargeB_7_B2:
 	BYTE	W02
 	BYTE		N80     Fn1   v032
 	BYTE	W64
@@ -3542,20 +3542,20 @@ V2A4_FINAL_7_B2:
 //******************************************************//
 	ALIGN 4
 
-V2A4_FINAL:
+FE5ChargeB:
 	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	V2A4_FINAL_pri	// Priority
-	BYTE	V2A4_FINAL_rev	// Reverb.
+	BYTE	FE5ChargeB_pri	// Priority
+	BYTE	FE5ChargeB_rev	// Reverb.
 
-	POIN2	V2A4_FINAL_grp
+	POIN2	FE5ChargeB_grp
 
-	POIN2	V2A4_FINAL_1
-	POIN2	V2A4_FINAL_2
-	POIN2	V2A4_FINAL_3
-	POIN2	V2A4_FINAL_4
-	POIN2	V2A4_FINAL_5
-	POIN2	V2A4_FINAL_6
-	POIN2	V2A4_FINAL_7
+	POIN2	FE5ChargeB_1
+	POIN2	FE5ChargeB_2
+	POIN2	FE5ChargeB_3
+	POIN2	FE5ChargeB_4
+	POIN2	FE5ChargeB_5
+	POIN2	FE5ChargeB_6
+	POIN2	FE5ChargeB_7
 
 	

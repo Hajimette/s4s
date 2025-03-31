@@ -1,33 +1,33 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song2E_grp  voicegroup000
-	#define	song2E_pri  10
-	#define	song2E_rev  0
-	#define	song2E_mvl  127
-	#define	song2E_key  0
-	#define	song2E_tbs  1
-	#define	song2E_exg  0
-	#define	song2E_cmp  1
+	#define	Konpeko_grp  voicegroup000
+	#define	Konpeko_pri  10
+	#define	Konpeko_rev  0
+	#define	Konpeko_mvl  127
+	#define	Konpeko_key  0
+	#define	Konpeko_tbs  1
+	#define	Konpeko_exg  0
+	#define	Konpeko_cmp  1
 
 	// .rodata
-	//	song2E
+	//	Konpeko
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song2E_001:
+Konpeko_001:
 //  #01 //000   ----------------------------------------
 Label_01847468:
- BYTE   VOL   100*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   100*Konpeko_mvl/mxv
+ BYTE   KEYSH   Konpeko_key+0
  BYTE   VOICE   24
  BYTE   PAN   c_v+15
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N12  Gs2  v041
- BYTE   TEMPO   120*song2E_tbs/2
+ BYTE   TEMPO   120*Konpeko_tbs/2
  BYTE   W12
  BYTE   N12  Bn2  v041
  BYTE   W12
@@ -684,17 +684,17 @@ Label_01847693:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song2E_002:
+Konpeko_002:
 //  #02 //000   ----------------------------------------
 Label_01847758:
- BYTE   VOL   70*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   70*Konpeko_mvl/mxv
+ BYTE   KEYSH   Konpeko_key+0
  BYTE   VOICE   1
  BYTE   PAN   c_v-14
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N12  Gs3  v041
- BYTE   TEMPO   120*song2E_tbs/2
+ BYTE   TEMPO   120*Konpeko_tbs/2
  BYTE   W12
  BYTE   N12  Bn3  v041
  BYTE   W12
@@ -1600,16 +1600,16 @@ Label_018477E4:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song2E_003:
+Konpeko_003:
 //  #03 //000   ----------------------------------------
 Label_5697DC:
- BYTE   VOL   85*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   85*Konpeko_mvl/mxv
+ BYTE   KEYSH   Konpeko_key+0
  BYTE   VOICE   34
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N96  Gs2  v041
- BYTE   TEMPO   120*song2E_tbs/2
+ BYTE   TEMPO   120*Konpeko_tbs/2
  BYTE   W96
 //  #03 //001   ----------------------------------------
  BYTE   N48  Gs2  v041
@@ -2072,17 +2072,17 @@ Label_569959:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song2E_004:
+Konpeko_004:
 //  #04 //000   ----------------------------------------
 Label_01847AE4:
- BYTE   VOL   50*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   50*Konpeko_mvl/mxv
+ BYTE   KEYSH   Konpeko_key+0
  BYTE   VOICE   48
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N96  Gs2  v041
  BYTE   N96  Ds3
- BYTE   TEMPO   120*song2E_tbs/2
+ BYTE   TEMPO   120*Konpeko_tbs/2
  BYTE   W96
 //  #04 //001   ----------------------------------------
  BYTE   N96  Gs2  v041
@@ -2441,16 +2441,16 @@ Label_01847C66:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song2E_005:
+Konpeko_005:
 //  #05 //000   ----------------------------------------
 Label_01847D00:
- BYTE   VOL   65*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   65*Konpeko_mvl/mxv
+ BYTE   KEYSH   Konpeko_key+0
  BYTE   VOICE   11
  BYTE   PAN   c_v+34
  BYTE   LFOS 44
  BYTE   MODT 0
- BYTE   TEMPO   120*song2E_tbs/2
+ BYTE   TEMPO   120*Konpeko_tbs/2
  BYTE   W48
  BYTE   N48  Gs3  v041
  BYTE   W96
@@ -2941,17 +2941,17 @@ Label_01847EC2:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song2E_006:
+Konpeko_006:
 //  #06 //000   ----------------------------------------
 Label_01847F2C:
- BYTE   VOL   55*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   55*Konpeko_mvl/mxv
+ BYTE   KEYSH   Konpeko_key+0
  BYTE   VOICE   73
  BYTE   PAN   c_v-32
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N24  Gs3  v041
- BYTE   TEMPO   120*song2E_tbs/2
+ BYTE   TEMPO   120*Konpeko_tbs/2
  BYTE   W24
  BYTE   N12  Bn3  v041
  BYTE   W12
@@ -3336,17 +3336,17 @@ Label_01848081:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song2E_007:
+Konpeko_007:
 //  #07 //000   ----------------------------------------
 Label_56A124:
- BYTE   VOL   50*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   50*Konpeko_mvl/mxv
+ BYTE   KEYSH   Konpeko_key+0
  BYTE   VOICE   68
  BYTE   PAN   c_v-29
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   N24  Gs3  v041
- BYTE   TEMPO   120*song2E_tbs/2
+ BYTE   TEMPO   120*Konpeko_tbs/2
  BYTE   W24
  BYTE   N12  Bn3  v041
  BYTE   W12
@@ -3655,16 +3655,16 @@ Label_56A215:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song2E_008:
+Konpeko_008:
 //  #08 //000   ----------------------------------------
 Label_0184811C:
- BYTE   VOL   85*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   85*Konpeko_mvl/mxv
+ BYTE   KEYSH   Konpeko_key+0
  BYTE   VOICE   61
  BYTE   PAN   c_v+20
  BYTE   LFOS 44
  BYTE   MODT 0
- BYTE   TEMPO   120*song2E_tbs/2
+ BYTE   TEMPO   120*Konpeko_tbs/2
  BYTE   W96
 //  #08 //001   ----------------------------------------
  BYTE   W96
@@ -4239,16 +4239,16 @@ Label_0184832C:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song2E_009:
+Konpeko_009:
 //  #09 //000   ----------------------------------------
 Label_018483B0:
- BYTE   VOL   55*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   55*Konpeko_mvl/mxv
+ BYTE   KEYSH   Konpeko_key+0
  BYTE   VOICE   80
  BYTE   PAN   c_v-19
  BYTE   LFOS 44
  BYTE   MODT 0
- BYTE   TEMPO   120*song2E_tbs/2
+ BYTE   TEMPO   120*Konpeko_tbs/2
  BYTE   W96
 //  #09 //001   ----------------------------------------
  BYTE   W96
@@ -4787,15 +4787,15 @@ Label_01848570:
 
 //**************** Track 10 (Midi-Chn.9) ****************//
 
-song2E_010:
+Konpeko_010:
 //  #10 //000   ----------------------------------------
 Label_01848618:
- BYTE   VOL   100*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   100*Konpeko_mvl/mxv
+ BYTE   KEYSH   Konpeko_key+0
  BYTE   VOICE   121
  BYTE   LFOS 44
  BYTE   MODT 0
- BYTE   TEMPO   120*song2E_tbs/2
+ BYTE   TEMPO   120*Konpeko_tbs/2
  BYTE   W96
 //  #10 //001   ----------------------------------------
  BYTE   W96
@@ -5274,23 +5274,23 @@ Label_01848879:
 //******************************************************//
 	ALIGN 4
 
-song2E:
+Konpeko:
 	BYTE	10	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song2E_pri	// Priority
-	BYTE	song2E_rev	// Reverb.
+	BYTE	Konpeko_pri	// Priority
+	BYTE	Konpeko_rev	// Reverb.
     
-	POIN2	song2E_grp
+	POIN2	Konpeko_grp
     
-	POIN2	song2E_001
-	POIN2	song2E_002
-	POIN2	song2E_003
-	POIN2	song2E_004
-	POIN2	song2E_005
-	POIN2	song2E_006
-	POIN2	song2E_007
-	POIN2	song2E_008
-	POIN2	song2E_009
-	POIN2	song2E_010
+	POIN2	Konpeko_001
+	POIN2	Konpeko_002
+	POIN2	Konpeko_003
+	POIN2	Konpeko_004
+	POIN2	Konpeko_005
+	POIN2	Konpeko_006
+	POIN2	Konpeko_007
+	POIN2	Konpeko_008
+	POIN2	Konpeko_009
+	POIN2	Konpeko_010
 
 	

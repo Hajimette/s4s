@@ -1,31 +1,31 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song2E_grp  voicegroup000
-	#define	song2E_pri  0
-	#define	song2E_rev  0
-	#define	song2E_mvl  127
-	#define	song2E_key  0
-	#define	song2E_tbs  1
-	#define	song2E_exg  0
-	#define	song2E_cmp  1
+	#define	rushiabgm_grp  voicegroup000
+	#define	rushiabgm_pri  0
+	#define	rushiabgm_rev  0
+	#define	rushiabgm_mvl  127
+	#define	rushiabgm_key  0
+	#define	rushiabgm_tbs  1
+	#define	rushiabgm_exg  0
+	#define	rushiabgm_cmp  1
 
 	// .rodata
-	//	song2E
+	//	rushiabgm
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song2E_001:
+rushiabgm_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song2E_key+0
+ BYTE   KEYSH   rushiabgm_key+0
 Label_56A126:
- BYTE   TEMPO   156*song2E_tbs/2
+ BYTE   TEMPO   156*rushiabgm_tbs/2
  BYTE   VOICE   1
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   73*song2E_mvl/mxv
+ BYTE   VOL   73*rushiabgm_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N05  Ds4  v060
  BYTE   W12
@@ -288,7 +288,7 @@ Label_56A221:
  BYTE   N32  Gn3
  BYTE   W48
 //  #01 //024   ----------------------------------------
- BYTE   TEMPO   156*song2E_tbs/2
+ BYTE   TEMPO   156*rushiabgm_tbs/2
  BYTE   N05  Ds4
  BYTE   W12
  BYTE   Dn4
@@ -385,10 +385,10 @@ Label_56A221:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song2E_002:
+rushiabgm_002:
 //  #02 //000   ----------------------------------------
- BYTE   VOL   100*song2E_mvl/mxv
- BYTE   KEYSH   song2E_key+0
+ BYTE   VOL   100*rushiabgm_mvl/mxv
+ BYTE   KEYSH   rushiabgm_key+0
 Label_5697E0:
  BYTE   VOICE   1
  BYTE   MODT 0
@@ -632,15 +632,15 @@ Label_569882:
 //******************************************************//
 	ALIGN 4
 
-song2E:
+rushiabgm:
 	BYTE	2	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song2E_pri	// Priority
-	BYTE	song2E_rev	// Reverb.
+	BYTE	rushiabgm_pri	// Priority
+	BYTE	rushiabgm_rev	// Reverb.
     
-	POIN2	song2E_grp
+	POIN2	rushiabgm_grp
     
-	POIN2	song2E_001
-	POIN2	song2E_002
+	POIN2	rushiabgm_001
+	POIN2	rushiabgm_002
 
 	

@@ -1,25 +1,25 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	kawaikutegomen_FINAL_grp  voicegroup000
-	#define	kawaikutegomen_FINAL_pri  0
-	#define	kawaikutegomen_FINAL_rev  0
-	#define	kawaikutegomen_FINAL_mvl  80
-	#define	kawaikutegomen_FINAL_key  0
-	#define	kawaikutegomen_FINAL_tbs  1
-	#define	kawaikutegomen_FINAL_exg  0
-	#define	kawaikutegomen_FINAL_cmp  1
+	#define	KawaiikuteGomen_grp  voicegroup000
+	#define	KawaiikuteGomen_pri  0
+	#define	KawaiikuteGomen_rev  0
+	#define	KawaiikuteGomen_mvl  80
+	#define	KawaiikuteGomen_key  0
+	#define	KawaiikuteGomen_tbs  1
+	#define	KawaiikuteGomen_exg  0
+	#define	KawaiikuteGomen_cmp  1
 
 	// .rodata
-	//	kawaikutegomen_FINAL
+	//	KawaiikuteGomen
 	ALIGN 4
 
 //**************** Track 1 (Midi-Chn.4) ****************//
 
-kawaikutegomen_FINAL_1:
-	BYTE	KEYSH   kawaikutegomen_FINAL_key+0
+KawaiikuteGomen_1:
+	BYTE	KEYSH   KawaiikuteGomen_key+0
 // 000   ----------------------------------------
-	BYTE	TEMPO   155*kawaikutegomen_FINAL_tbs/2
+	BYTE	TEMPO   155*KawaiikuteGomen_tbs/2
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W03
@@ -27,21 +27,21 @@ kawaikutegomen_FINAL_1:
 	BYTE	W24
 	BYTE	W01
 	BYTE		PAN     c_v+0
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		BENDR   64
 	BYTE	W01
 	BYTE		        64
 	BYTE		        64
 	BYTE	W01
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		MOD     0
 	BYTE	MEMACC  mem_set  0x00  0
-kawaikutegomen_FINAL_1_L0:
+KawaiikuteGomen_1_L0:
 	BYTE		BENDR   12
 	BYTE		BEND    c_v+0
 	BYTE	W66
 // 001   ----------------------------------------
-	BYTE	TEMPO   160*kawaikutegomen_FINAL_tbs/2
+	BYTE	TEMPO   160*KawaiikuteGomen_tbs/2
 	BYTE		N12     Gn0   v088
 	BYTE		N12     Gn1 
 	BYTE		N06     Dn5 
@@ -409,7 +409,7 @@ kawaikutegomen_FINAL_1_L0:
 	BYTE	W10
 	BYTE	W14
 // 017   ----------------------------------------
-kawaikutegomen_FINAL_1_017:
+KawaiikuteGomen_1_017:
 	BYTE		N24     Gn1   v088
 	BYTE		N12     Bn4 
 	BYTE	W12
@@ -436,7 +436,7 @@ kawaikutegomen_FINAL_1_017:
 	BYTE	W02
 	BYTE	PEND
 // 018   ----------------------------------------
-kawaikutegomen_FINAL_1_018:
+KawaiikuteGomen_1_018:
 	BYTE		N24     Dn2   v088
 	BYTE		N12     Dn5 
 	BYTE	W12
@@ -463,9 +463,9 @@ kawaikutegomen_FINAL_1_018:
 	BYTE	PEND
 // 019   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_017
+	 POIN2	KawaiikuteGomen_1_017
 // 020   ----------------------------------------
-kawaikutegomen_FINAL_1_020:
+KawaiikuteGomen_1_020:
 	BYTE		N48     Dn2   v088
 	BYTE		N12     Fs4 
 	BYTE		N12     Fs5 
@@ -605,7 +605,7 @@ kawaikutegomen_FINAL_1_020:
 	BYTE	W22
 	BYTE	W02
 // 027   ----------------------------------------
-kawaikutegomen_FINAL_1_027:
+KawaiikuteGomen_1_027:
 	BYTE		N24     As0   v088
 	BYTE		N24     As1 
 	BYTE		N24     Fn4 
@@ -703,7 +703,7 @@ kawaikutegomen_FINAL_1_027:
 	BYTE		        En4 
 	BYTE	W11
 // 029   ----------------------------------------
-kawaikutegomen_FINAL_1_029:
+KawaiikuteGomen_1_029:
 	BYTE		N12     Gn0   v088
 	BYTE		N12     Bn3 
 	BYTE		N12     Bn4 
@@ -733,7 +733,7 @@ kawaikutegomen_FINAL_1_029:
 	BYTE	W12
 	BYTE	PEND
 // 030   ----------------------------------------
-kawaikutegomen_FINAL_1_030:
+KawaiikuteGomen_1_030:
 	BYTE		N12     Fs0   v088
 	BYTE		N12     En4 
 	BYTE		N12     En5 
@@ -762,7 +762,7 @@ kawaikutegomen_FINAL_1_030:
 	BYTE	W12
 	BYTE	PEND
 // 031   ----------------------------------------
-kawaikutegomen_FINAL_1_031:
+KawaiikuteGomen_1_031:
 	BYTE		N12     Gn0   v088
 	BYTE		N12     Bn3 
 	BYTE		N12     Bn4 
@@ -793,7 +793,7 @@ kawaikutegomen_FINAL_1_031:
 	BYTE	W03
 	BYTE	PEND
 // 032   ----------------------------------------
-kawaikutegomen_FINAL_1_032:
+KawaiikuteGomen_1_032:
 	BYTE		N12     Dn1   v088
 	BYTE		N12     Fs5 
 	BYTE	W01
@@ -821,7 +821,7 @@ kawaikutegomen_FINAL_1_032:
 	BYTE	W12
 	BYTE	PEND
 // 033   ----------------------------------------
-kawaikutegomen_FINAL_1_033:
+KawaiikuteGomen_1_033:
 	BYTE		N12     Gn0   v088
 	BYTE		N12     Bn3 
 	BYTE		N12     Bn4 
@@ -850,7 +850,7 @@ kawaikutegomen_FINAL_1_033:
 	BYTE	W12
 	BYTE	PEND
 // 034   ----------------------------------------
-kawaikutegomen_FINAL_1_034:
+KawaiikuteGomen_1_034:
 	BYTE		N12     As0   v088
 	BYTE		N12     Fs4 
 	BYTE		N12     Fs5 
@@ -879,7 +879,7 @@ kawaikutegomen_FINAL_1_034:
 	BYTE	W12
 	BYTE	PEND
 // 035   ----------------------------------------
-kawaikutegomen_FINAL_1_035:
+KawaiikuteGomen_1_035:
 	BYTE		N12     Gn0   v088
 	BYTE		N12     Dn4 
 	BYTE		N12     Dn5 
@@ -942,7 +942,7 @@ kawaikutegomen_FINAL_1_035:
 	BYTE		N12     Cs5 
 	BYTE	W12
 // 037   ----------------------------------------
-kawaikutegomen_FINAL_1_037:
+KawaiikuteGomen_1_037:
 	BYTE		N12     Gn0   v088
 	BYTE		N12     Dn4 
 	BYTE		N12     An4 
@@ -974,7 +974,7 @@ kawaikutegomen_FINAL_1_037:
 	BYTE	W12
 	BYTE	PEND
 // 038   ----------------------------------------
-kawaikutegomen_FINAL_1_038:
+KawaiikuteGomen_1_038:
 	BYTE		N12     Fs0   v088
 	BYTE		N12     En4 
 	BYTE		N12     An4 
@@ -1007,7 +1007,7 @@ kawaikutegomen_FINAL_1_038:
 	BYTE	W12
 	BYTE	PEND
 // 039   ----------------------------------------
-kawaikutegomen_FINAL_1_039:
+KawaiikuteGomen_1_039:
 	BYTE		N12     Gn0   v088
 	BYTE		N12     Dn4 
 	BYTE		N12     An4 
@@ -1038,7 +1038,7 @@ kawaikutegomen_FINAL_1_039:
 	BYTE	W12
 	BYTE	PEND
 // 040   ----------------------------------------
-kawaikutegomen_FINAL_1_040:
+KawaiikuteGomen_1_040:
 	BYTE		N12     Dn1   v088
 	BYTE		N12     An4 
 	BYTE		N12     Dn5 
@@ -1071,9 +1071,9 @@ kawaikutegomen_FINAL_1_040:
 	BYTE	PEND
 // 041   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_037
+	 POIN2	KawaiikuteGomen_1_037
 // 042   ----------------------------------------
-kawaikutegomen_FINAL_1_042:
+KawaiikuteGomen_1_042:
 	BYTE		N12     As0   v088
 	BYTE		N12     En4 
 	BYTE		N12     As4 
@@ -1107,9 +1107,9 @@ kawaikutegomen_FINAL_1_042:
 	BYTE	PEND
 // 043   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_039
+	 POIN2	KawaiikuteGomen_1_039
 // 044   ----------------------------------------
-kawaikutegomen_FINAL_1_044:
+KawaiikuteGomen_1_044:
 	BYTE		N12     Dn1   v088
 	BYTE		N12     An4 
 	BYTE		N12     Dn5 
@@ -1170,7 +1170,7 @@ kawaikutegomen_FINAL_1_044:
 	BYTE	W10
 	BYTE	PEND
 // 045   ----------------------------------------
-kawaikutegomen_FINAL_1_045:
+KawaiikuteGomen_1_045:
 	BYTE		N12     Gn3   v088
 	BYTE		N12     Dn4 
 	BYTE		N06     Gn4   v024
@@ -1187,7 +1187,7 @@ kawaikutegomen_FINAL_1_045:
 	BYTE	W03
 	BYTE	PEND
 // 046   ----------------------------------------
-kawaikutegomen_FINAL_1_046:
+KawaiikuteGomen_1_046:
 	BYTE		N12     Dn4   v088
 	BYTE		N12     Fs4 
 	BYTE		N12     Dn5 
@@ -1202,7 +1202,7 @@ kawaikutegomen_FINAL_1_046:
 	BYTE	W48
 	BYTE	PEND
 // 047   ----------------------------------------
-kawaikutegomen_FINAL_1_047:
+KawaiikuteGomen_1_047:
 	BYTE		N12     Gn0   v088
 	BYTE		N06     Dn5 
 	BYTE		N06     Dn6 
@@ -1235,7 +1235,7 @@ kawaikutegomen_FINAL_1_047:
 	BYTE	W12
 	BYTE	PEND
 // 048   ----------------------------------------
-kawaikutegomen_FINAL_1_048:
+KawaiikuteGomen_1_048:
 	BYTE		N12     Fs0   v088
 	BYTE		N06     Fs4 
 	BYTE		N06     Fs5 
@@ -1266,7 +1266,7 @@ kawaikutegomen_FINAL_1_048:
 	BYTE	W12
 	BYTE	PEND
 // 049   ----------------------------------------
-kawaikutegomen_FINAL_1_049:
+KawaiikuteGomen_1_049:
 	BYTE		N12     Gn0   v088
 	BYTE		N06     Dn4 
 	BYTE		N06     Dn5 
@@ -1299,7 +1299,7 @@ kawaikutegomen_FINAL_1_049:
 	BYTE	W12
 	BYTE	PEND
 // 050   ----------------------------------------
-kawaikutegomen_FINAL_1_050:
+KawaiikuteGomen_1_050:
 	BYTE		N12     Dn0   v088
 	BYTE		N06     Fs4 
 	BYTE		N06     Fs5 
@@ -1326,9 +1326,9 @@ kawaikutegomen_FINAL_1_050:
 	BYTE	PEND
 // 051   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_047
+	 POIN2	KawaiikuteGomen_1_047
 // 052   ----------------------------------------
-kawaikutegomen_FINAL_1_052:
+KawaiikuteGomen_1_052:
 	BYTE		N12     As0   v088
 	BYTE		N06     Fs4 
 	BYTE		N06     Fs5 
@@ -1359,7 +1359,7 @@ kawaikutegomen_FINAL_1_052:
 	BYTE	W12
 	BYTE	PEND
 // 053   ----------------------------------------
-kawaikutegomen_FINAL_1_053:
+KawaiikuteGomen_1_053:
 	BYTE		N12     Gn0   v088
 	BYTE		N06     Dn4 
 	BYTE		N06     Dn5 
@@ -1662,16 +1662,16 @@ kawaikutegomen_FINAL_1_053:
 	BYTE	W02
 // 063   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_017
+	 POIN2	KawaiikuteGomen_1_017
 // 064   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_018
+	 POIN2	KawaiikuteGomen_1_018
 // 065   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_017
+	 POIN2	KawaiikuteGomen_1_017
 // 066   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_020
+	 POIN2	KawaiikuteGomen_1_020
 // 067   ----------------------------------------
 	BYTE		N36     Gn1   v088
 	BYTE		N36     Dn2 
@@ -1798,7 +1798,7 @@ kawaikutegomen_FINAL_1_053:
 	BYTE	W02
 // 073   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_027
+	 POIN2	KawaiikuteGomen_1_027
 // 074   ----------------------------------------
 	BYTE		N36     An0   v088
 	BYTE		N36     An1 
@@ -1815,25 +1815,25 @@ kawaikutegomen_FINAL_1_053:
 	BYTE	W60
 // 075   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_029
+	 POIN2	KawaiikuteGomen_1_029
 // 076   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_030
+	 POIN2	KawaiikuteGomen_1_030
 // 077   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_031
+	 POIN2	KawaiikuteGomen_1_031
 // 078   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_032
+	 POIN2	KawaiikuteGomen_1_032
 // 079   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_033
+	 POIN2	KawaiikuteGomen_1_033
 // 080   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_034
+	 POIN2	KawaiikuteGomen_1_034
 // 081   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_035
+	 POIN2	KawaiikuteGomen_1_035
 // 082   ----------------------------------------
 	BYTE		N12     Dn1   v088
 	BYTE		N12     Fs3 
@@ -1868,36 +1868,36 @@ kawaikutegomen_FINAL_1_053:
 	BYTE	W12
 // 083   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_037
+	 POIN2	KawaiikuteGomen_1_037
 // 084   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_038
+	 POIN2	KawaiikuteGomen_1_038
 // 085   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_039
+	 POIN2	KawaiikuteGomen_1_039
 // 086   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_040
+	 POIN2	KawaiikuteGomen_1_040
 // 087   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_037
+	 POIN2	KawaiikuteGomen_1_037
 // 088   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_042
+	 POIN2	KawaiikuteGomen_1_042
 // 089   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_039
+	 POIN2	KawaiikuteGomen_1_039
 // 090   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_044
+	 POIN2	KawaiikuteGomen_1_044
 // 091   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_045
+	 POIN2	KawaiikuteGomen_1_045
 // 092   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_046
+	 POIN2	KawaiikuteGomen_1_046
 // 093   ----------------------------------------
-kawaikutegomen_FINAL_1_093:
+KawaiikuteGomen_1_093:
 	BYTE		N60     Gn2   v088
 	BYTE		N36     Dn3 
 	BYTE		N24     An3 
@@ -1910,7 +1910,7 @@ kawaikutegomen_FINAL_1_093:
 	BYTE	W60
 	BYTE	PEND
 // 094   ----------------------------------------
-kawaikutegomen_FINAL_1_094:
+KawaiikuteGomen_1_094:
 	BYTE		N60     Fs2   v088
 	BYTE		N60     Dn3 
 	BYTE		N24     An3 
@@ -1949,10 +1949,10 @@ kawaikutegomen_FINAL_1_094:
 	BYTE	W24
 // 097   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_093
+	 POIN2	KawaiikuteGomen_1_093
 // 098   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_094
+	 POIN2	KawaiikuteGomen_1_094
 // 099   ----------------------------------------
 	BYTE		N60     An2   v088
 	BYTE		N60     En3 
@@ -2678,52 +2678,52 @@ kawaikutegomen_FINAL_1_094:
 	BYTE	W12
 // 127   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_030
+	 POIN2	KawaiikuteGomen_1_030
 // 128   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_031
+	 POIN2	KawaiikuteGomen_1_031
 // 129   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_032
+	 POIN2	KawaiikuteGomen_1_032
 // 130   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_037
+	 POIN2	KawaiikuteGomen_1_037
 // 131   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_042
+	 POIN2	KawaiikuteGomen_1_042
 // 132   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_039
+	 POIN2	KawaiikuteGomen_1_039
 // 133   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_044
+	 POIN2	KawaiikuteGomen_1_044
 // 134   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_045
+	 POIN2	KawaiikuteGomen_1_045
 // 135   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_046
+	 POIN2	KawaiikuteGomen_1_046
 // 136   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_047
+	 POIN2	KawaiikuteGomen_1_047
 // 137   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_048
+	 POIN2	KawaiikuteGomen_1_048
 // 138   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_049
+	 POIN2	KawaiikuteGomen_1_049
 // 139   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_050
+	 POIN2	KawaiikuteGomen_1_050
 // 140   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_047
+	 POIN2	KawaiikuteGomen_1_047
 // 141   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_052
+	 POIN2	KawaiikuteGomen_1_052
 // 142   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_1_053
+	 POIN2	KawaiikuteGomen_1_053
 // 143   ----------------------------------------
 	BYTE		N12     Dn1   v088
 	BYTE		N12     Dn2 
@@ -2746,29 +2746,29 @@ kawaikutegomen_FINAL_1_094:
 
 //**************** Track 2 (Midi-Chn.2) ****************//
 
-kawaikutegomen_FINAL_2:
-	BYTE	KEYSH   kawaikutegomen_FINAL_key+0
+KawaiikuteGomen_2:
+	BYTE	KEYSH   KawaiikuteGomen_key+0
 // 000   ----------------------------------------
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W28
 	BYTE		VOICE   34
 	BYTE		PAN     c_v+0
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		BENDR   64
 	BYTE	W01
 	BYTE		        64
 	BYTE		        64
 	BYTE	W01
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		MOD     0
 	BYTE	MEMACC  mem_set  0x00  0
-kawaikutegomen_FINAL_2_L0:
+KawaiikuteGomen_2_L0:
 	BYTE		BENDR   12
 	BYTE		BEND    c_v+0
 	BYTE	W66
 // 001   ----------------------------------------
-kawaikutegomen_FINAL_2_001:
+KawaiikuteGomen_2_001:
 	BYTE		N48     Gn0   v088
 	BYTE	W48
 	BYTE		        An0 
@@ -2781,15 +2781,15 @@ kawaikutegomen_FINAL_2_001:
 	BYTE	W48
 // 003   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_001
+	 POIN2	KawaiikuteGomen_2_001
 // 004   ----------------------------------------
 	BYTE		N96     Dn1   v088
 	BYTE	W96
 // 005   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_001
+	 POIN2	KawaiikuteGomen_2_001
 // 006   ----------------------------------------
-kawaikutegomen_FINAL_2_006:
+KawaiikuteGomen_2_006:
 	BYTE		N48     As0   v088
 	BYTE	W48
 	BYTE		        Bn0 
@@ -2890,22 +2890,22 @@ kawaikutegomen_FINAL_2_006:
 	BYTE	W48
 // 017   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_001
+	 POIN2	KawaiikuteGomen_2_001
 // 018   ----------------------------------------
 	BYTE		N84     Dn1   v088
 	BYTE	W96
 // 019   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_001
+	 POIN2	KawaiikuteGomen_2_001
 // 020   ----------------------------------------
 	BYTE		N84     Dn1   v088
 	BYTE	W96
 // 021   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_001
+	 POIN2	KawaiikuteGomen_2_001
 // 022   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_006
+	 POIN2	KawaiikuteGomen_2_006
 // 023   ----------------------------------------
 	BYTE		TIE     Gn0   v088
 	BYTE	W96
@@ -2927,7 +2927,7 @@ kawaikutegomen_FINAL_2_006:
 	BYTE		        An0 
 	BYTE	W72
 // 029   ----------------------------------------
-kawaikutegomen_FINAL_2_029:
+KawaiikuteGomen_2_029:
 	BYTE		N24     Gn0   v088
 	BYTE	W24
 	BYTE		N24   
@@ -2938,7 +2938,7 @@ kawaikutegomen_FINAL_2_029:
 	BYTE	W24
 	BYTE	PEND
 // 030   ----------------------------------------
-kawaikutegomen_FINAL_2_030:
+KawaiikuteGomen_2_030:
 	BYTE		N24     Fs0   v088
 	BYTE	W24
 	BYTE		N24   
@@ -2950,9 +2950,9 @@ kawaikutegomen_FINAL_2_030:
 	BYTE	PEND
 // 031   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 032   ----------------------------------------
-kawaikutegomen_FINAL_2_032:
+KawaiikuteGomen_2_032:
 	BYTE		N12     Dn1   v088
 	BYTE	W12
 	BYTE		        An0 
@@ -2966,9 +2966,9 @@ kawaikutegomen_FINAL_2_032:
 	BYTE	PEND
 // 033   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 034   ----------------------------------------
-kawaikutegomen_FINAL_2_034:
+KawaiikuteGomen_2_034:
 	BYTE		N12     As0   v088
 	BYTE	W12
 	BYTE		        Fs1 
@@ -2982,9 +2982,9 @@ kawaikutegomen_FINAL_2_034:
 	BYTE	PEND
 // 035   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 036   ----------------------------------------
-kawaikutegomen_FINAL_2_036:
+KawaiikuteGomen_2_036:
 	BYTE		N24     Dn1   v088
 	BYTE	W24
 	BYTE		N24   
@@ -2995,7 +2995,7 @@ kawaikutegomen_FINAL_2_036:
 	BYTE	W24
 	BYTE	PEND
 // 037   ----------------------------------------
-kawaikutegomen_FINAL_2_037:
+KawaiikuteGomen_2_037:
 	BYTE		N24     Gn0   v088
 	BYTE	W24
 	BYTE		N12     Dn1 
@@ -3010,7 +3010,7 @@ kawaikutegomen_FINAL_2_037:
 	BYTE	W12
 	BYTE	PEND
 // 038   ----------------------------------------
-kawaikutegomen_FINAL_2_038:
+KawaiikuteGomen_2_038:
 	BYTE		N24     Fs0   v088
 	BYTE	W24
 	BYTE		N12     Cs1 
@@ -3028,15 +3028,15 @@ kawaikutegomen_FINAL_2_038:
 	BYTE	PEND
 // 039   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 040   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_032
+	 POIN2	KawaiikuteGomen_2_032
 // 041   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 042   ----------------------------------------
-kawaikutegomen_FINAL_2_042:
+KawaiikuteGomen_2_042:
 	BYTE		N24     As0   v088
 	BYTE	W24
 	BYTE		N12   
@@ -3053,7 +3053,7 @@ kawaikutegomen_FINAL_2_042:
 	BYTE	W12
 	BYTE	PEND
 // 043   ----------------------------------------
-kawaikutegomen_FINAL_2_043:
+KawaiikuteGomen_2_043:
 	BYTE		N24     Gn0   v088
 	BYTE	W24
 	BYTE		        Dn1 
@@ -3064,7 +3064,7 @@ kawaikutegomen_FINAL_2_043:
 	BYTE	W24
 	BYTE	PEND
 // 044   ----------------------------------------
-kawaikutegomen_FINAL_2_044:
+KawaiikuteGomen_2_044:
 	BYTE		N24     Dn1   v088
 	BYTE	W24
 	BYTE		N24   
@@ -3076,19 +3076,19 @@ kawaikutegomen_FINAL_2_044:
 	BYTE	W96
 // 047   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 048   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_030
+	 POIN2	KawaiikuteGomen_2_030
 // 049   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 050   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_036
+	 POIN2	KawaiikuteGomen_2_036
 // 051   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 052   ----------------------------------------
 	BYTE		N24     As0   v088
 	BYTE	W24
@@ -3154,22 +3154,22 @@ kawaikutegomen_FINAL_2_044:
 	BYTE	W48
 // 063   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_001
+	 POIN2	KawaiikuteGomen_2_001
 // 064   ----------------------------------------
 	BYTE		N84     Dn1   v088
 	BYTE	W96
 // 065   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_001
+	 POIN2	KawaiikuteGomen_2_001
 // 066   ----------------------------------------
 	BYTE		N84     Dn1   v088
 	BYTE	W96
 // 067   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_001
+	 POIN2	KawaiikuteGomen_2_001
 // 068   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_006
+	 POIN2	KawaiikuteGomen_2_006
 // 069   ----------------------------------------
 	BYTE		TIE     Gn0   v088
 	BYTE	W96
@@ -3248,55 +3248,55 @@ kawaikutegomen_FINAL_2_044:
 	BYTE	W24
 // 076   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_030
+	 POIN2	KawaiikuteGomen_2_030
 // 077   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 078   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_032
+	 POIN2	KawaiikuteGomen_2_032
 // 079   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 080   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_034
+	 POIN2	KawaiikuteGomen_2_034
 // 081   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 082   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_036
+	 POIN2	KawaiikuteGomen_2_036
 // 083   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_037
+	 POIN2	KawaiikuteGomen_2_037
 // 084   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_038
+	 POIN2	KawaiikuteGomen_2_038
 // 085   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 086   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_032
+	 POIN2	KawaiikuteGomen_2_032
 // 087   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 088   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_042
+	 POIN2	KawaiikuteGomen_2_042
 // 089   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_043
+	 POIN2	KawaiikuteGomen_2_043
 // 090   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_044
+	 POIN2	KawaiikuteGomen_2_044
 // 091   ----------------------------------------
 	BYTE	W96
 // 092   ----------------------------------------
 	BYTE	W96
 // 093   ----------------------------------------
-kawaikutegomen_FINAL_2_093:
+KawaiikuteGomen_2_093:
 	BYTE		N12     Gn0   v088
 	BYTE	W36
 	BYTE		        Dn1 
@@ -3307,7 +3307,7 @@ kawaikutegomen_FINAL_2_093:
 	BYTE	W24
 	BYTE	PEND
 // 094   ----------------------------------------
-kawaikutegomen_FINAL_2_094:
+KawaiikuteGomen_2_094:
 	BYTE		N12     Fs0   v088
 	BYTE	W36
 	BYTE		        Dn1 
@@ -3339,10 +3339,10 @@ kawaikutegomen_FINAL_2_094:
 	BYTE	W12
 // 097   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_093
+	 POIN2	KawaiikuteGomen_2_093
 // 098   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_094
+	 POIN2	KawaiikuteGomen_2_094
 // 099   ----------------------------------------
 	BYTE		N12     An0   v088
 	BYTE	W36
@@ -3396,7 +3396,7 @@ kawaikutegomen_FINAL_2_094:
 	BYTE		N12   
 	BYTE	W12
 // 103   ----------------------------------------
-kawaikutegomen_FINAL_2_103:
+KawaiikuteGomen_2_103:
 	BYTE		N12     An0   v088
 	BYTE	W12
 	BYTE		N12   
@@ -3484,9 +3484,9 @@ kawaikutegomen_FINAL_2_103:
 	BYTE	W12
 // 108   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_103
+	 POIN2	KawaiikuteGomen_2_103
 // 109   ----------------------------------------
-kawaikutegomen_FINAL_2_109:
+KawaiikuteGomen_2_109:
 	BYTE		N24     Gn0   v088
 	BYTE	W24
 	BYTE		N24   
@@ -3513,7 +3513,7 @@ kawaikutegomen_FINAL_2_109:
 	BYTE	W12
 // 111   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_109
+	 POIN2	KawaiikuteGomen_2_109
 // 112   ----------------------------------------
 	BYTE		N24     Dn1   v088
 	BYTE	W24
@@ -3525,7 +3525,7 @@ kawaikutegomen_FINAL_2_109:
 	BYTE	W24
 // 113   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_109
+	 POIN2	KawaiikuteGomen_2_109
 // 114   ----------------------------------------
 	BYTE		N24     As0   v088
 	BYTE	W24
@@ -3574,34 +3574,34 @@ kawaikutegomen_FINAL_2_109:
 	BYTE	W96
 // 126   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 127   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_030
+	 POIN2	KawaiikuteGomen_2_030
 // 128   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 129   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_032
+	 POIN2	KawaiikuteGomen_2_032
 // 130   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_029
+	 POIN2	KawaiikuteGomen_2_029
 // 131   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_042
+	 POIN2	KawaiikuteGomen_2_042
 // 132   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_043
+	 POIN2	KawaiikuteGomen_2_043
 // 133   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_044
+	 POIN2	KawaiikuteGomen_2_044
 // 134   ----------------------------------------
 	BYTE	W96
 // 135   ----------------------------------------
 	BYTE	W96
 // 136   ----------------------------------------
-kawaikutegomen_FINAL_2_136:
+KawaiikuteGomen_2_136:
 	BYTE		N12     Gn0   v088
 	BYTE	W12
 	BYTE		N12   
@@ -3638,7 +3638,7 @@ kawaikutegomen_FINAL_2_136:
 	BYTE	W12
 // 138   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_136
+	 POIN2	KawaiikuteGomen_2_136
 // 139   ----------------------------------------
 	BYTE		N12     Dn1   v088
 	BYTE	W12
@@ -3658,7 +3658,7 @@ kawaikutegomen_FINAL_2_136:
 	BYTE	W12
 // 140   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_136
+	 POIN2	KawaiikuteGomen_2_136
 // 141   ----------------------------------------
 	BYTE		N12     As0   v088
 	BYTE	W12
@@ -3678,7 +3678,7 @@ kawaikutegomen_FINAL_2_136:
 	BYTE	W12
 // 142   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_2_136
+	 POIN2	KawaiikuteGomen_2_136
 // 143   ----------------------------------------
 	BYTE		N18     Dn1   v088
 	BYTE	W24
@@ -3690,29 +3690,29 @@ kawaikutegomen_FINAL_2_136:
 
 //**************** Track 3 (Midi-Chn.9) ****************//
 
-kawaikutegomen_FINAL_3:
-	BYTE	KEYSH   kawaikutegomen_FINAL_key+0
+KawaiikuteGomen_3:
+	BYTE	KEYSH   KawaiikuteGomen_key+0
 // 000   ----------------------------------------
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W28
 	BYTE		VOICE   9
 	BYTE		PAN     c_v+0
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		BENDR   64
 	BYTE	W01
 	BYTE		        64
 	BYTE		        64
 	BYTE	W01
-	BYTE		VOL     56*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     56*KawaiikuteGomen_mvl/mxv
 	BYTE		MOD     0
 	BYTE	MEMACC  mem_set  0x00  0
-kawaikutegomen_FINAL_3_L0:
+KawaiikuteGomen_3_L0:
 	BYTE		BENDR   12
 	BYTE		BEND    c_v+0
 	BYTE	W66
 // 001   ----------------------------------------
-kawaikutegomen_FINAL_3_001:
+KawaiikuteGomen_3_001:
 	BYTE		N24     Dn6   v088
 	BYTE	W36
 	BYTE		N12     Dn5 
@@ -3727,7 +3727,7 @@ kawaikutegomen_FINAL_3_001:
 	BYTE	W12
 	BYTE	PEND
 // 002   ----------------------------------------
-kawaikutegomen_FINAL_3_002:
+KawaiikuteGomen_3_002:
 	BYTE		N24     Fs5   v088
 	BYTE	W24
 	BYTE		        Cs6 
@@ -3740,7 +3740,7 @@ kawaikutegomen_FINAL_3_002:
 	BYTE	W12
 	BYTE	PEND
 // 003   ----------------------------------------
-kawaikutegomen_FINAL_3_003:
+KawaiikuteGomen_3_003:
 	BYTE		N24     Dn5   v088
 	BYTE	W36
 	BYTE		N12   
@@ -3755,7 +3755,7 @@ kawaikutegomen_FINAL_3_003:
 	BYTE	W12
 	BYTE	PEND
 // 004   ----------------------------------------
-kawaikutegomen_FINAL_3_004:
+KawaiikuteGomen_3_004:
 	BYTE		N24     Fs5   v088
 	BYTE	W24
 	BYTE		        Gn5 
@@ -3765,12 +3765,12 @@ kawaikutegomen_FINAL_3_004:
 	BYTE	PEND
 // 005   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_001
+	 POIN2	KawaiikuteGomen_3_001
 // 006   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_002
+	 POIN2	KawaiikuteGomen_3_002
 // 007   ----------------------------------------
-kawaikutegomen_FINAL_3_007:
+KawaiikuteGomen_3_007:
 	BYTE		N24     Dn5   v088
 	BYTE	W36
 	BYTE		N12   
@@ -3785,7 +3785,7 @@ kawaikutegomen_FINAL_3_007:
 	BYTE	W12
 	BYTE	PEND
 // 008   ----------------------------------------
-kawaikutegomen_FINAL_3_008:
+KawaiikuteGomen_3_008:
 	BYTE		N12     Dn5   v088
 	BYTE	W24
 	BYTE		        En5 
@@ -3794,7 +3794,7 @@ kawaikutegomen_FINAL_3_008:
 	BYTE	W48
 	BYTE	PEND
 // 009   ----------------------------------------
-kawaikutegomen_FINAL_3_009:
+KawaiikuteGomen_3_009:
 	BYTE		N12     Dn6   v088
 	BYTE	W24
 	BYTE		        An5 
@@ -3805,7 +3805,7 @@ kawaikutegomen_FINAL_3_009:
 	BYTE	W24
 	BYTE	PEND
 // 010   ----------------------------------------
-kawaikutegomen_FINAL_3_010:
+KawaiikuteGomen_3_010:
 	BYTE		N12     Fs6   v088
 	BYTE	W24
 	BYTE		        Dn6 
@@ -3816,7 +3816,7 @@ kawaikutegomen_FINAL_3_010:
 	BYTE	W24
 	BYTE	PEND
 // 011   ----------------------------------------
-kawaikutegomen_FINAL_3_011:
+KawaiikuteGomen_3_011:
 	BYTE		N12     Bn5   v088
 	BYTE	W24
 	BYTE		        Dn6 
@@ -3828,20 +3828,20 @@ kawaikutegomen_FINAL_3_011:
 	BYTE	PEND
 // 012   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_010
+	 POIN2	KawaiikuteGomen_3_010
 // 013   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_009
+	 POIN2	KawaiikuteGomen_3_009
 // 014   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_010
+	 POIN2	KawaiikuteGomen_3_010
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_011
+	 POIN2	KawaiikuteGomen_3_011
 // 016   ----------------------------------------
 	BYTE	W96
 // 017   ----------------------------------------
-kawaikutegomen_FINAL_3_017:
+KawaiikuteGomen_3_017:
 	BYTE		N06     Bn5   v088
 	BYTE	W12
 	BYTE		        Gn5 
@@ -3860,7 +3860,7 @@ kawaikutegomen_FINAL_3_017:
 	BYTE	W12
 	BYTE	PEND
 // 018   ----------------------------------------
-kawaikutegomen_FINAL_3_018:
+KawaiikuteGomen_3_018:
 	BYTE		N06     Dn6   v088
 	BYTE	W12
 	BYTE		        An5 
@@ -3882,9 +3882,9 @@ kawaikutegomen_FINAL_3_018:
 	BYTE	PEND
 // 019   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_017
+	 POIN2	KawaiikuteGomen_3_017
 // 020   ----------------------------------------
-kawaikutegomen_FINAL_3_020:
+KawaiikuteGomen_3_020:
 	BYTE		N06     Fs5   v088
 	BYTE	W12
 	BYTE		        Gn5 
@@ -3903,7 +3903,7 @@ kawaikutegomen_FINAL_3_020:
 	BYTE	W12
 	BYTE	PEND
 // 021   ----------------------------------------
-kawaikutegomen_FINAL_3_021:
+KawaiikuteGomen_3_021:
 	BYTE		N06     Bn5   v088
 	BYTE	W36
 	BYTE		        An5 
@@ -3912,7 +3912,7 @@ kawaikutegomen_FINAL_3_021:
 	BYTE	W48
 	BYTE	PEND
 // 022   ----------------------------------------
-kawaikutegomen_FINAL_3_022:
+KawaiikuteGomen_3_022:
 	BYTE		N06     Cs6   v088
 	BYTE	W36
 	BYTE		        Bn5 
@@ -3924,7 +3924,7 @@ kawaikutegomen_FINAL_3_022:
 	BYTE		N06   
 	BYTE	W96
 // 024   ----------------------------------------
-kawaikutegomen_FINAL_3_024:
+KawaiikuteGomen_3_024:
 	BYTE		N06     Bn5   v088
 	BYTE	W36
 	BYTE		        Dn6 
@@ -3933,7 +3933,7 @@ kawaikutegomen_FINAL_3_024:
 	BYTE	W24
 	BYTE	PEND
 // 025   ----------------------------------------
-kawaikutegomen_FINAL_3_025:
+KawaiikuteGomen_3_025:
 	BYTE		N06     Bn5   v088
 	BYTE	W36
 	BYTE		        An5 
@@ -3944,7 +3944,7 @@ kawaikutegomen_FINAL_3_025:
 	BYTE	W24
 	BYTE	PEND
 // 026   ----------------------------------------
-kawaikutegomen_FINAL_3_026:
+KawaiikuteGomen_3_026:
 	BYTE		N06     An6   v088
 	BYTE	W36
 	BYTE		        En6 
@@ -3953,7 +3953,7 @@ kawaikutegomen_FINAL_3_026:
 	BYTE	W48
 	BYTE	PEND
 // 027   ----------------------------------------
-kawaikutegomen_FINAL_3_027:
+KawaiikuteGomen_3_027:
 	BYTE		N06     Fn6   v088
 	BYTE	W24
 	BYTE		N06   
@@ -3976,7 +3976,7 @@ kawaikutegomen_FINAL_3_027:
 	BYTE		        Dn6 
 	BYTE	W24
 // 030   ----------------------------------------
-kawaikutegomen_FINAL_3_030:
+KawaiikuteGomen_3_030:
 	BYTE		N24     En6   v088
 	BYTE	W24
 	BYTE		        Cs6 
@@ -3987,7 +3987,7 @@ kawaikutegomen_FINAL_3_030:
 	BYTE	W24
 	BYTE	PEND
 // 031   ----------------------------------------
-kawaikutegomen_FINAL_3_031:
+KawaiikuteGomen_3_031:
 	BYTE		N24     Bn5   v088
 	BYTE	W24
 	BYTE		        Dn6 
@@ -4008,7 +4008,7 @@ kawaikutegomen_FINAL_3_031:
 	BYTE	W24
 // 033   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_031
+	 POIN2	KawaiikuteGomen_3_031
 // 034   ----------------------------------------
 	BYTE		N24     Fs6   v088
 	BYTE	W24
@@ -4045,7 +4045,7 @@ kawaikutegomen_FINAL_3_031:
 	BYTE		        Cs6 
 	BYTE	W12
 // 037   ----------------------------------------
-kawaikutegomen_FINAL_3_037:
+KawaiikuteGomen_3_037:
 	BYTE		N24     Dn6   v088
 	BYTE	W24
 	BYTE		        An5 
@@ -4057,9 +4057,9 @@ kawaikutegomen_FINAL_3_037:
 	BYTE	PEND
 // 038   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_030
+	 POIN2	KawaiikuteGomen_3_030
 // 039   ----------------------------------------
-kawaikutegomen_FINAL_3_039:
+KawaiikuteGomen_3_039:
 	BYTE		N24     Dn6   v088
 	BYTE	W24
 	BYTE		        An5 
@@ -4080,13 +4080,13 @@ kawaikutegomen_FINAL_3_039:
 	BYTE	W24
 // 041   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_037
+	 POIN2	KawaiikuteGomen_3_037
 // 042   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_030
+	 POIN2	KawaiikuteGomen_3_030
 // 043   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_039
+	 POIN2	KawaiikuteGomen_3_039
 // 044   ----------------------------------------
 	BYTE		N24     Fs6   v088
 	BYTE	W24
@@ -4099,31 +4099,31 @@ kawaikutegomen_FINAL_3_039:
 	BYTE	W48
 // 046   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_008
+	 POIN2	KawaiikuteGomen_3_008
 // 047   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_001
+	 POIN2	KawaiikuteGomen_3_001
 // 048   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_002
+	 POIN2	KawaiikuteGomen_3_002
 // 049   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_003
+	 POIN2	KawaiikuteGomen_3_003
 // 050   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_004
+	 POIN2	KawaiikuteGomen_3_004
 // 051   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_001
+	 POIN2	KawaiikuteGomen_3_001
 // 052   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_002
+	 POIN2	KawaiikuteGomen_3_002
 // 053   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_007
+	 POIN2	KawaiikuteGomen_3_007
 // 054   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_008
+	 POIN2	KawaiikuteGomen_3_008
 // 055   ----------------------------------------
 	BYTE	W96
 // 056   ----------------------------------------
@@ -4142,37 +4142,37 @@ kawaikutegomen_FINAL_3_039:
 	BYTE	W96
 // 063   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_017
+	 POIN2	KawaiikuteGomen_3_017
 // 064   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_018
+	 POIN2	KawaiikuteGomen_3_018
 // 065   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_017
+	 POIN2	KawaiikuteGomen_3_017
 // 066   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_020
+	 POIN2	KawaiikuteGomen_3_020
 // 067   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_021
+	 POIN2	KawaiikuteGomen_3_021
 // 068   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_022
+	 POIN2	KawaiikuteGomen_3_022
 // 069   ----------------------------------------
 	BYTE		N06     Bn5   v088
 	BYTE	W96
 // 070   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_024
+	 POIN2	KawaiikuteGomen_3_024
 // 071   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_025
+	 POIN2	KawaiikuteGomen_3_025
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_026
+	 POIN2	KawaiikuteGomen_3_026
 // 073   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_027
+	 POIN2	KawaiikuteGomen_3_027
 // 074   ----------------------------------------
 	BYTE		N06     An6   v088
 	BYTE	W36
@@ -4215,7 +4215,7 @@ kawaikutegomen_FINAL_3_039:
 // 092   ----------------------------------------
 	BYTE	W96
 // 093   ----------------------------------------
-kawaikutegomen_FINAL_3_093:
+KawaiikuteGomen_3_093:
 	BYTE		N24     An5   v088
 	BYTE	W36
 	BYTE		        An6 
@@ -4223,10 +4223,10 @@ kawaikutegomen_FINAL_3_093:
 	BYTE	PEND
 // 094   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_093
+	 POIN2	KawaiikuteGomen_3_093
 // 095   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_093
+	 POIN2	KawaiikuteGomen_3_093
 // 096   ----------------------------------------
 	BYTE		N12     An5   v088
 	BYTE	W12
@@ -4238,13 +4238,13 @@ kawaikutegomen_FINAL_3_093:
 	BYTE	W60
 // 097   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_093
+	 POIN2	KawaiikuteGomen_3_093
 // 098   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_093
+	 POIN2	KawaiikuteGomen_3_093
 // 099   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_093
+	 POIN2	KawaiikuteGomen_3_093
 // 100   ----------------------------------------
 	BYTE		N12     An5   v088
 	BYTE	W12
@@ -4408,25 +4408,25 @@ kawaikutegomen_FINAL_3_093:
 	BYTE	W96
 // 136   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_001
+	 POIN2	KawaiikuteGomen_3_001
 // 137   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_002
+	 POIN2	KawaiikuteGomen_3_002
 // 138   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_003
+	 POIN2	KawaiikuteGomen_3_003
 // 139   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_004
+	 POIN2	KawaiikuteGomen_3_004
 // 140   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_001
+	 POIN2	KawaiikuteGomen_3_001
 // 141   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_002
+	 POIN2	KawaiikuteGomen_3_002
 // 142   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_3_007
+	 POIN2	KawaiikuteGomen_3_007
 // 143   ----------------------------------------
 	BYTE		N12     Dn5   v088
 	BYTE	W24
@@ -4438,24 +4438,24 @@ kawaikutegomen_FINAL_3_093:
 
 //**************** Track 4 (Midi-Chn.1) ****************//
 
-kawaikutegomen_FINAL_4:
-	BYTE	KEYSH   kawaikutegomen_FINAL_key+0
+KawaiikuteGomen_4:
+	BYTE	KEYSH   KawaiikuteGomen_key+0
 // 000   ----------------------------------------
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W28
 	BYTE		VOICE   30
 	BYTE		PAN     c_v+50
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		BENDR   64
 	BYTE	W01
 	BYTE		        64
 	BYTE		        64
 	BYTE	W01
-	BYTE		VOL     24*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     24*KawaiikuteGomen_mvl/mxv
 	BYTE		MOD     0
 	BYTE	MEMACC  mem_set  0x00  0
-kawaikutegomen_FINAL_4_L0:
+KawaiikuteGomen_4_L0:
 	BYTE		BENDR   24
 	BYTE		BEND    c_v+0
 	BYTE	W66
@@ -4520,7 +4520,7 @@ kawaikutegomen_FINAL_4_L0:
 	BYTE		N12     Dn4 
 	BYTE	W24
 // 009   ----------------------------------------
-kawaikutegomen_FINAL_4_009:
+KawaiikuteGomen_4_009:
 	BYTE	W12
 	BYTE		N06     Dn3   v036
 	BYTE		N06     Fs3 
@@ -4540,7 +4540,7 @@ kawaikutegomen_FINAL_4_009:
 	BYTE	W12
 	BYTE	PEND
 // 010   ----------------------------------------
-kawaikutegomen_FINAL_4_010:
+KawaiikuteGomen_4_010:
 	BYTE	W12
 	BYTE		N06     Bn2   v036
 	BYTE		N06     Dn3 
@@ -4560,7 +4560,7 @@ kawaikutegomen_FINAL_4_010:
 	BYTE	W12
 	BYTE	PEND
 // 011   ----------------------------------------
-kawaikutegomen_FINAL_4_011:
+KawaiikuteGomen_4_011:
 	BYTE	W12
 	BYTE		N06     Bn2   v036
 	BYTE		N06     Dn3 
@@ -4601,13 +4601,13 @@ kawaikutegomen_FINAL_4_011:
 	BYTE	W12
 // 013   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_009
+	 POIN2	KawaiikuteGomen_4_009
 // 014   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_010
+	 POIN2	KawaiikuteGomen_4_010
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_011
+	 POIN2	KawaiikuteGomen_4_011
 // 016   ----------------------------------------
 	BYTE	W12
 	BYTE		N06     An2   v036
@@ -4623,7 +4623,7 @@ kawaikutegomen_FINAL_4_011:
 	BYTE		N24     Fs3 
 	BYTE	W48
 // 017   ----------------------------------------
-kawaikutegomen_FINAL_4_017:
+KawaiikuteGomen_4_017:
 	BYTE		N48     Gn1   v088
 	BYTE		N48     Gn2 
 	BYTE	W48
@@ -4635,13 +4635,13 @@ kawaikutegomen_FINAL_4_017:
 	BYTE	W24
 	BYTE	PEND
 // 018   ----------------------------------------
-kawaikutegomen_FINAL_4_018:
+KawaiikuteGomen_4_018:
 	BYTE		N48     Dn2   v088
 	BYTE		N48     Dn3 
 	BYTE	W96
 	BYTE	PEND
 // 019   ----------------------------------------
-kawaikutegomen_FINAL_4_019:
+KawaiikuteGomen_4_019:
 	BYTE		N48     Gn2   v088
 	BYTE		N48     Gn3 
 	BYTE	W48
@@ -4653,13 +4653,13 @@ kawaikutegomen_FINAL_4_019:
 	BYTE	W24
 	BYTE	PEND
 // 020   ----------------------------------------
-kawaikutegomen_FINAL_4_020:
+KawaiikuteGomen_4_020:
 	BYTE		N48     Fs2   v088
 	BYTE		N48     Fs3 
 	BYTE	W96
 	BYTE	PEND
 // 021   ----------------------------------------
-kawaikutegomen_FINAL_4_021:
+KawaiikuteGomen_4_021:
 	BYTE		N48     Bn2   v088
 	BYTE		N48     Bn3 
 	BYTE	W48
@@ -4671,7 +4671,7 @@ kawaikutegomen_FINAL_4_021:
 	BYTE	W24
 	BYTE	PEND
 // 022   ----------------------------------------
-kawaikutegomen_FINAL_4_022:
+KawaiikuteGomen_4_022:
 	BYTE		N24     As2   v088
 	BYTE		N24     As3 
 	BYTE	W24
@@ -4684,7 +4684,7 @@ kawaikutegomen_FINAL_4_022:
 	BYTE	W48
 	BYTE	PEND
 // 023   ----------------------------------------
-kawaikutegomen_FINAL_4_023:
+KawaiikuteGomen_4_023:
 	BYTE		N12     Dn3   v088
 	BYTE		N12     Dn4 
 	BYTE	W12
@@ -4702,7 +4702,7 @@ kawaikutegomen_FINAL_4_023:
 	BYTE	W12
 	BYTE	PEND
 // 024   ----------------------------------------
-kawaikutegomen_FINAL_4_024:
+KawaiikuteGomen_4_024:
 	BYTE	W12
 	BYTE		N12     En3   v088
 	BYTE		N12     En4 
@@ -4715,7 +4715,7 @@ kawaikutegomen_FINAL_4_024:
 	BYTE	W24
 	BYTE	PEND
 // 025   ----------------------------------------
-kawaikutegomen_FINAL_4_025:
+KawaiikuteGomen_4_025:
 	BYTE		N36     Cs3   v088
 	BYTE	W10
 	BYTE		        An3   v044
@@ -4732,7 +4732,7 @@ kawaikutegomen_FINAL_4_025:
 	BYTE	W14
 	BYTE	PEND
 // 026   ----------------------------------------
-kawaikutegomen_FINAL_4_026:
+KawaiikuteGomen_4_026:
 	BYTE	W12
 	BYTE		N36     An3   v088
 	BYTE	W10
@@ -4744,7 +4744,7 @@ kawaikutegomen_FINAL_4_026:
 	BYTE	W48
 	BYTE	PEND
 // 027   ----------------------------------------
-kawaikutegomen_FINAL_4_027:
+KawaiikuteGomen_4_027:
 	BYTE	W12
 	BYTE		N06     Dn3   v088
 	BYTE		N06     Fn3 
@@ -4807,7 +4807,7 @@ kawaikutegomen_FINAL_4_027:
 	BYTE		        Dn4 
 	BYTE	W06
 // 029   ----------------------------------------
-kawaikutegomen_FINAL_4_029:
+KawaiikuteGomen_4_029:
 	BYTE		N12     An3   v088
 	BYTE		N12     Fs4 
 	BYTE	W12
@@ -4824,7 +4824,7 @@ kawaikutegomen_FINAL_4_029:
 	BYTE	W12
 	BYTE	PEND
 // 030   ----------------------------------------
-kawaikutegomen_FINAL_4_030:
+KawaiikuteGomen_4_030:
 	BYTE	W12
 	BYTE		N12     En4   v088
 	BYTE	W24
@@ -4838,7 +4838,7 @@ kawaikutegomen_FINAL_4_030:
 	BYTE	W12
 	BYTE	PEND
 // 031   ----------------------------------------
-kawaikutegomen_FINAL_4_031:
+KawaiikuteGomen_4_031:
 	BYTE		N24     Gn3   v088
 	BYTE	W12
 	BYTE		N12     Bn3 
@@ -4855,7 +4855,7 @@ kawaikutegomen_FINAL_4_031:
 	BYTE	W06
 	BYTE	PEND
 // 032   ----------------------------------------
-kawaikutegomen_FINAL_4_032:
+KawaiikuteGomen_4_032:
 	BYTE		N12     Fs4   v088
 	BYTE	W12
 	BYTE		        Dn4 
@@ -4874,7 +4874,7 @@ kawaikutegomen_FINAL_4_032:
 	BYTE	W12
 	BYTE	PEND
 // 033   ----------------------------------------
-kawaikutegomen_FINAL_4_033:
+KawaiikuteGomen_4_033:
 	BYTE		N12     An3   v088
 	BYTE		N12     Fs4 
 	BYTE	W12
@@ -4892,7 +4892,7 @@ kawaikutegomen_FINAL_4_033:
 	BYTE	W12
 	BYTE	PEND
 // 034   ----------------------------------------
-kawaikutegomen_FINAL_4_034:
+KawaiikuteGomen_4_034:
 	BYTE	W12
 	BYTE		N12     As3   v088
 	BYTE		N12     En4 
@@ -4907,7 +4907,7 @@ kawaikutegomen_FINAL_4_034:
 	BYTE	W12
 	BYTE	PEND
 // 035   ----------------------------------------
-kawaikutegomen_FINAL_4_035:
+KawaiikuteGomen_4_035:
 	BYTE		N24     Gn3   v088
 	BYTE	W12
 	BYTE		        An3 
@@ -4931,7 +4931,7 @@ kawaikutegomen_FINAL_4_035:
 	BYTE		N96     Dn3 
 	BYTE	W96
 // 037   ----------------------------------------
-kawaikutegomen_FINAL_4_037:
+KawaiikuteGomen_4_037:
 	BYTE		N12     An3   v088
 	BYTE		N12     Fs4 
 	BYTE	W12
@@ -4948,7 +4948,7 @@ kawaikutegomen_FINAL_4_037:
 	BYTE	W12
 	BYTE	PEND
 // 038   ----------------------------------------
-kawaikutegomen_FINAL_4_038:
+KawaiikuteGomen_4_038:
 	BYTE	W12
 	BYTE		N12     Fs4   v088
 	BYTE	W24
@@ -4963,21 +4963,21 @@ kawaikutegomen_FINAL_4_038:
 	BYTE	PEND
 // 039   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_031
+	 POIN2	KawaiikuteGomen_4_031
 // 040   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_032
+	 POIN2	KawaiikuteGomen_4_032
 // 041   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_033
+	 POIN2	KawaiikuteGomen_4_033
 // 042   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_034
+	 POIN2	KawaiikuteGomen_4_034
 // 043   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_035
+	 POIN2	KawaiikuteGomen_4_035
 // 044   ----------------------------------------
-kawaikutegomen_FINAL_4_044:
+KawaiikuteGomen_4_044:
 	BYTE	W12
 	BYTE		N06     An2   v060
 	BYTE		N06     Dn3 
@@ -5003,7 +5003,7 @@ kawaikutegomen_FINAL_4_044:
 // 045   ----------------------------------------
 	BYTE	W96
 // 046   ----------------------------------------
-kawaikutegomen_FINAL_4_046:
+KawaiikuteGomen_4_046:
 	BYTE		N12     Dn4   v088
 	BYTE	W24
 	BYTE		        En4 
@@ -5012,7 +5012,7 @@ kawaikutegomen_FINAL_4_046:
 	BYTE	W48
 	BYTE	PEND
 // 047   ----------------------------------------
-kawaikutegomen_FINAL_4_047:
+KawaiikuteGomen_4_047:
 	BYTE		N12     An3   v088
 	BYTE		N12     Fs4 
 	BYTE	W12
@@ -5031,9 +5031,9 @@ kawaikutegomen_FINAL_4_047:
 	BYTE	PEND
 // 048   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_030
+	 POIN2	KawaiikuteGomen_4_030
 // 049   ----------------------------------------
-kawaikutegomen_FINAL_4_049:
+KawaiikuteGomen_4_049:
 	BYTE		N48     Dn3   v088
 	BYTE	W12
 	BYTE		N24     Gn3   v068
@@ -5053,9 +5053,9 @@ kawaikutegomen_FINAL_4_049:
 	BYTE	PEND
 // 050   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_032
+	 POIN2	KawaiikuteGomen_4_032
 // 051   ----------------------------------------
-kawaikutegomen_FINAL_4_051:
+KawaiikuteGomen_4_051:
 	BYTE		N12     An3   v088
 	BYTE		N12     Fs4 
 	BYTE	W12
@@ -5072,7 +5072,7 @@ kawaikutegomen_FINAL_4_051:
 	BYTE	W12
 	BYTE	PEND
 // 052   ----------------------------------------
-kawaikutegomen_FINAL_4_052:
+KawaiikuteGomen_4_052:
 	BYTE	W12
 	BYTE		N12     En4   v088
 	BYTE	W24
@@ -5086,7 +5086,7 @@ kawaikutegomen_FINAL_4_052:
 	BYTE	W12
 	BYTE	PEND
 // 053   ----------------------------------------
-kawaikutegomen_FINAL_4_053:
+KawaiikuteGomen_4_053:
 	BYTE		N48     Dn3   v088
 	BYTE	W12
 	BYTE		N24     Gn3   v068
@@ -5120,7 +5120,7 @@ kawaikutegomen_FINAL_4_053:
 	BYTE		N12     Dn3 
 	BYTE	W24
 // 055   ----------------------------------------
-kawaikutegomen_FINAL_4_055:
+KawaiikuteGomen_4_055:
 	BYTE	W12
 	BYTE		N06     Dn3   v088
 	BYTE		N06     Fs3 
@@ -5140,7 +5140,7 @@ kawaikutegomen_FINAL_4_055:
 	BYTE	W12
 	BYTE	PEND
 // 056   ----------------------------------------
-kawaikutegomen_FINAL_4_056:
+KawaiikuteGomen_4_056:
 	BYTE	W12
 	BYTE		N06     Bn2   v088
 	BYTE		N06     Dn3 
@@ -5160,7 +5160,7 @@ kawaikutegomen_FINAL_4_056:
 	BYTE	W12
 	BYTE	PEND
 // 057   ----------------------------------------
-kawaikutegomen_FINAL_4_057:
+KawaiikuteGomen_4_057:
 	BYTE	W12
 	BYTE		N06     Bn2   v088
 	BYTE		N06     Dn3 
@@ -5199,13 +5199,13 @@ kawaikutegomen_FINAL_4_057:
 	BYTE	W12
 // 059   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_055
+	 POIN2	KawaiikuteGomen_4_055
 // 060   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_056
+	 POIN2	KawaiikuteGomen_4_056
 // 061   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_057
+	 POIN2	KawaiikuteGomen_4_057
 // 062   ----------------------------------------
 	BYTE	W12
 	BYTE		N06     Bn2   v088
@@ -5222,89 +5222,89 @@ kawaikutegomen_FINAL_4_057:
 	BYTE	W48
 // 063   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_017
+	 POIN2	KawaiikuteGomen_4_017
 // 064   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_018
+	 POIN2	KawaiikuteGomen_4_018
 // 065   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_019
+	 POIN2	KawaiikuteGomen_4_019
 // 066   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_020
+	 POIN2	KawaiikuteGomen_4_020
 // 067   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_021
+	 POIN2	KawaiikuteGomen_4_021
 // 068   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_022
+	 POIN2	KawaiikuteGomen_4_022
 // 069   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_023
+	 POIN2	KawaiikuteGomen_4_023
 // 070   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_024
+	 POIN2	KawaiikuteGomen_4_024
 // 071   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_025
+	 POIN2	KawaiikuteGomen_4_025
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_026
+	 POIN2	KawaiikuteGomen_4_026
 // 073   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_027
+	 POIN2	KawaiikuteGomen_4_027
 // 074   ----------------------------------------
 	BYTE		N54     An2   v088
 	BYTE		N54     En3 
 	BYTE	W96
 // 075   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_029
+	 POIN2	KawaiikuteGomen_4_029
 // 076   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_030
+	 POIN2	KawaiikuteGomen_4_030
 // 077   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_031
+	 POIN2	KawaiikuteGomen_4_031
 // 078   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_032
+	 POIN2	KawaiikuteGomen_4_032
 // 079   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_033
+	 POIN2	KawaiikuteGomen_4_033
 // 080   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_034
+	 POIN2	KawaiikuteGomen_4_034
 // 081   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_035
+	 POIN2	KawaiikuteGomen_4_035
 // 082   ----------------------------------------
 	BYTE		N96     Dn3   v088
 	BYTE	W96
 // 083   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_037
+	 POIN2	KawaiikuteGomen_4_037
 // 084   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_038
+	 POIN2	KawaiikuteGomen_4_038
 // 085   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_031
+	 POIN2	KawaiikuteGomen_4_031
 // 086   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_032
+	 POIN2	KawaiikuteGomen_4_032
 // 087   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_033
+	 POIN2	KawaiikuteGomen_4_033
 // 088   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_034
+	 POIN2	KawaiikuteGomen_4_034
 // 089   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_035
+	 POIN2	KawaiikuteGomen_4_035
 // 090   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_044
+	 POIN2	KawaiikuteGomen_4_044
 // 091   ----------------------------------------
 	BYTE	W96
 // 092   ----------------------------------------
@@ -5343,7 +5343,7 @@ kawaikutegomen_FINAL_4_057:
 	BYTE	W96
 // 109   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_047
+	 POIN2	KawaiikuteGomen_4_047
 // 110   ----------------------------------------
 	BYTE	W12
 	BYTE		N12     Cs4   v088
@@ -5394,7 +5394,7 @@ kawaikutegomen_FINAL_4_057:
 	BYTE	W12
 // 113   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_033
+	 POIN2	KawaiikuteGomen_4_033
 // 114   ----------------------------------------
 	BYTE	W12
 	BYTE		N12     As3   v088
@@ -5463,54 +5463,54 @@ kawaikutegomen_FINAL_4_057:
 	BYTE	W96
 // 126   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_037
+	 POIN2	KawaiikuteGomen_4_037
 // 127   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_038
+	 POIN2	KawaiikuteGomen_4_038
 // 128   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_031
+	 POIN2	KawaiikuteGomen_4_031
 // 129   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_032
+	 POIN2	KawaiikuteGomen_4_032
 // 130   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_051
+	 POIN2	KawaiikuteGomen_4_051
 // 131   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_034
+	 POIN2	KawaiikuteGomen_4_034
 // 132   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_035
+	 POIN2	KawaiikuteGomen_4_035
 // 133   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_044
+	 POIN2	KawaiikuteGomen_4_044
 // 134   ----------------------------------------
 	BYTE	W96
 // 135   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_046
+	 POIN2	KawaiikuteGomen_4_046
 // 136   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_047
+	 POIN2	KawaiikuteGomen_4_047
 // 137   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_030
+	 POIN2	KawaiikuteGomen_4_030
 // 138   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_049
+	 POIN2	KawaiikuteGomen_4_049
 // 139   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_032
+	 POIN2	KawaiikuteGomen_4_032
 // 140   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_051
+	 POIN2	KawaiikuteGomen_4_051
 // 141   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_052
+	 POIN2	KawaiikuteGomen_4_052
 // 142   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_4_053
+	 POIN2	KawaiikuteGomen_4_053
 // 143   ----------------------------------------
 	BYTE		N06     Fs3   v088
 	BYTE		N06     Dn4 
@@ -5529,24 +5529,24 @@ kawaikutegomen_FINAL_4_057:
 
 //**************** Track 5 (Midi-Chn.5) ****************//
 
-kawaikutegomen_FINAL_5:
-	BYTE	KEYSH   kawaikutegomen_FINAL_key+0
+KawaiikuteGomen_5:
+	BYTE	KEYSH   KawaiikuteGomen_key+0
 // 000   ----------------------------------------
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W28
 	BYTE		VOICE   30
 	BYTE		PAN     c_v-50
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		BENDR   64
 	BYTE	W01
 	BYTE		        64
 	BYTE		        64
 	BYTE	W01
-	BYTE		VOL     21*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     21*KawaiikuteGomen_mvl/mxv
 	BYTE		MOD     0
 	BYTE	MEMACC  mem_set  0x00  0
-kawaikutegomen_FINAL_5_L0:
+KawaiikuteGomen_5_L0:
 	BYTE		BENDR   12
 	BYTE		BEND    c_v+0
 	BYTE	W66
@@ -5694,7 +5694,7 @@ kawaikutegomen_FINAL_5_L0:
 	BYTE		N06   
 	BYTE	W12
 // 011   ----------------------------------------
-kawaikutegomen_FINAL_5_011:
+KawaiikuteGomen_5_011:
 	BYTE		N06     Gn1   v088
 	BYTE	W12
 	BYTE		N06   
@@ -5765,7 +5765,7 @@ kawaikutegomen_FINAL_5_011:
 	BYTE	W12
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_011
+	 POIN2	KawaiikuteGomen_5_011
 // 016   ----------------------------------------
 	BYTE		N06     En1   v088
 	BYTE	W12
@@ -5782,7 +5782,7 @@ kawaikutegomen_FINAL_5_011:
 	BYTE		        Dn2 
 	BYTE	W24
 // 017   ----------------------------------------
-kawaikutegomen_FINAL_5_017:
+KawaiikuteGomen_5_017:
 	BYTE		N48     Gn1   v088
 	BYTE		N48     Dn2 
 	BYTE		N48     Gn2 
@@ -5794,7 +5794,7 @@ kawaikutegomen_FINAL_5_017:
 	BYTE	W48
 	BYTE	PEND
 // 018   ----------------------------------------
-kawaikutegomen_FINAL_5_018:
+KawaiikuteGomen_5_018:
 	BYTE		N96     Dn2   v088
 	BYTE		N96     An2 
 	BYTE		N96     Dn3 
@@ -5803,12 +5803,12 @@ kawaikutegomen_FINAL_5_018:
 	BYTE	PEND
 // 019   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_017
+	 POIN2	KawaiikuteGomen_5_017
 // 020   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_018
+	 POIN2	KawaiikuteGomen_5_018
 // 021   ----------------------------------------
-kawaikutegomen_FINAL_5_021:
+KawaiikuteGomen_5_021:
 	BYTE		N48     Gn1   v088
 	BYTE		N48     Dn2 
 	BYTE		N48     Gn2 
@@ -5833,7 +5833,7 @@ kawaikutegomen_FINAL_5_021:
 	BYTE		N48     Fs3 
 	BYTE	W48
 // 023   ----------------------------------------
-kawaikutegomen_FINAL_5_023:
+KawaiikuteGomen_5_023:
 	BYTE		TIE     Gn1   v088
 	BYTE		TIE     Dn2 
 	BYTE		TIE     Gn2 
@@ -5842,7 +5842,7 @@ kawaikutegomen_FINAL_5_023:
 	BYTE	W96
 	BYTE	PEND
 // 024   ----------------------------------------
-kawaikutegomen_FINAL_5_024:
+KawaiikuteGomen_5_024:
 	BYTE		N36     En3   v088
 	BYTE	W36
 	BYTE		N60     Dn3 
@@ -5853,7 +5853,7 @@ kawaikutegomen_FINAL_5_024:
 	BYTE		        Gn2 
 	BYTE		        Bn2 
 // 025   ----------------------------------------
-kawaikutegomen_FINAL_5_025:
+KawaiikuteGomen_5_025:
 	BYTE		N24     An1   v088
 	BYTE		N24     En2 
 	BYTE		TIE     An2 
@@ -5879,7 +5879,7 @@ kawaikutegomen_FINAL_5_025:
 	BYTE	W12
 	BYTE	PEND
 // 026   ----------------------------------------
-kawaikutegomen_FINAL_5_026:
+KawaiikuteGomen_5_026:
 	BYTE		N06     An1   v088
 	BYTE		N06     En2 
 	BYTE	W12
@@ -5908,7 +5908,7 @@ kawaikutegomen_FINAL_5_026:
 	BYTE		EOT     An2 
 	BYTE		        Cs3 
 // 027   ----------------------------------------
-kawaikutegomen_FINAL_5_027:
+KawaiikuteGomen_5_027:
 	BYTE		N96     As1   v088
 	BYTE		N96     Fn2 
 	BYTE		N96     As2 
@@ -5924,7 +5924,7 @@ kawaikutegomen_FINAL_5_027:
 	BYTE		        En2 
 	BYTE	W90
 // 029   ----------------------------------------
-kawaikutegomen_FINAL_5_029:
+KawaiikuteGomen_5_029:
 	BYTE	W12
 	BYTE		N12     Dn3   v088
 	BYTE		N12     Gn3 
@@ -5940,7 +5940,7 @@ kawaikutegomen_FINAL_5_029:
 	BYTE	W12
 	BYTE	PEND
 // 030   ----------------------------------------
-kawaikutegomen_FINAL_5_030:
+KawaiikuteGomen_5_030:
 	BYTE	W12
 	BYTE		N12     An3   v088
 	BYTE		N12     Cs4 
@@ -5957,9 +5957,9 @@ kawaikutegomen_FINAL_5_030:
 	BYTE	PEND
 // 031   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 032   ----------------------------------------
-kawaikutegomen_FINAL_5_032:
+KawaiikuteGomen_5_032:
 	BYTE	W12
 	BYTE		N12     An3   v088
 	BYTE		N12     Dn4 
@@ -5976,9 +5976,9 @@ kawaikutegomen_FINAL_5_032:
 	BYTE	PEND
 // 033   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 034   ----------------------------------------
-kawaikutegomen_FINAL_5_034:
+KawaiikuteGomen_5_034:
 	BYTE	W12
 	BYTE		N12     As3   v088
 	BYTE		N12     Cs4 
@@ -5995,9 +5995,9 @@ kawaikutegomen_FINAL_5_034:
 	BYTE	PEND
 // 035   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 036   ----------------------------------------
-kawaikutegomen_FINAL_5_036:
+KawaiikuteGomen_5_036:
 	BYTE	W12
 	BYTE		N12     Dn3   v088
 	BYTE		N12     An3 
@@ -6014,27 +6014,27 @@ kawaikutegomen_FINAL_5_036:
 	BYTE	PEND
 // 037   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 038   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_030
+	 POIN2	KawaiikuteGomen_5_030
 // 039   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 040   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_032
+	 POIN2	KawaiikuteGomen_5_032
 // 041   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 042   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_034
+	 POIN2	KawaiikuteGomen_5_034
 // 043   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 044   ----------------------------------------
-kawaikutegomen_FINAL_5_044:
+KawaiikuteGomen_5_044:
 	BYTE	W12
 	BYTE		N12     Dn3   v088
 	BYTE		N12     An3 
@@ -6054,7 +6054,7 @@ kawaikutegomen_FINAL_5_044:
 // 046   ----------------------------------------
 	BYTE	W96
 // 047   ----------------------------------------
-kawaikutegomen_FINAL_5_047:
+KawaiikuteGomen_5_047:
 	BYTE	W12
 	BYTE		N12     Bn2   v088
 	BYTE		N12     Dn3 
@@ -6074,7 +6074,7 @@ kawaikutegomen_FINAL_5_047:
 	BYTE	W12
 	BYTE	PEND
 // 048   ----------------------------------------
-kawaikutegomen_FINAL_5_048:
+KawaiikuteGomen_5_048:
 	BYTE	W12
 	BYTE		N12     As2   v088
 	BYTE		N12     Cs3 
@@ -6095,9 +6095,9 @@ kawaikutegomen_FINAL_5_048:
 	BYTE	PEND
 // 049   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_047
+	 POIN2	KawaiikuteGomen_5_047
 // 050   ----------------------------------------
-kawaikutegomen_FINAL_5_050:
+KawaiikuteGomen_5_050:
 	BYTE	W12
 	BYTE		N12     An2   v088
 	BYTE		N12     Dn3 
@@ -6118,16 +6118,16 @@ kawaikutegomen_FINAL_5_050:
 	BYTE	PEND
 // 051   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_047
+	 POIN2	KawaiikuteGomen_5_047
 // 052   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_048
+	 POIN2	KawaiikuteGomen_5_048
 // 053   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_047
+	 POIN2	KawaiikuteGomen_5_047
 // 054   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_050
+	 POIN2	KawaiikuteGomen_5_050
 // 055   ----------------------------------------
 	BYTE		N54     Dn3   v088
 	BYTE		N54     An3 
@@ -6149,7 +6149,7 @@ kawaikutegomen_FINAL_5_050:
 	BYTE	W96
 // 063   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_017
+	 POIN2	KawaiikuteGomen_5_017
 // 064   ----------------------------------------
 	BYTE		N96     Dn2   v088
 	BYTE		N96     An2 
@@ -6178,7 +6178,7 @@ kawaikutegomen_FINAL_5_050:
 	BYTE	W96
 // 067   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_021
+	 POIN2	KawaiikuteGomen_5_021
 // 068   ----------------------------------------
 	BYTE		N48     As1   v088
 	BYTE		N48     Fs2 
@@ -6192,25 +6192,25 @@ kawaikutegomen_FINAL_5_050:
 	BYTE	W48
 // 069   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_023
+	 POIN2	KawaiikuteGomen_5_023
 // 070   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_024
+	 POIN2	KawaiikuteGomen_5_024
 	BYTE		EOT     Gn1 
 	BYTE		        Dn2 
 	BYTE		        Gn2 
 	BYTE		        Bn2 
 // 071   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_025
+	 POIN2	KawaiikuteGomen_5_025
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_026
+	 POIN2	KawaiikuteGomen_5_026
 	BYTE		EOT     An2 
 	BYTE		        Cs3 
 // 073   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_027
+	 POIN2	KawaiikuteGomen_5_027
 // 074   ----------------------------------------
 	BYTE		N42     En2   v088
 	BYTE		N42     An2 
@@ -6224,56 +6224,56 @@ kawaikutegomen_FINAL_5_050:
 	BYTE	W54
 // 075   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 076   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_030
+	 POIN2	KawaiikuteGomen_5_030
 // 077   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 078   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_032
+	 POIN2	KawaiikuteGomen_5_032
 // 079   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 080   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_034
+	 POIN2	KawaiikuteGomen_5_034
 // 081   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 082   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_036
+	 POIN2	KawaiikuteGomen_5_036
 // 083   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 084   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_030
+	 POIN2	KawaiikuteGomen_5_030
 // 085   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 086   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_032
+	 POIN2	KawaiikuteGomen_5_032
 // 087   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 088   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_034
+	 POIN2	KawaiikuteGomen_5_034
 // 089   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 090   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_044
+	 POIN2	KawaiikuteGomen_5_044
 // 091   ----------------------------------------
 	BYTE	W96
 // 092   ----------------------------------------
-kawaikutegomen_FINAL_5_092:
+KawaiikuteGomen_5_092:
 	BYTE		N12     Dn3   v088
 	BYTE	W24
 	BYTE		        En3 
@@ -6369,7 +6369,7 @@ kawaikutegomen_FINAL_5_092:
 	BYTE	W12
 // 112   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_050
+	 POIN2	KawaiikuteGomen_5_050
 // 113   ----------------------------------------
 	BYTE	W12
 	BYTE		N12     Bn2   v088
@@ -6388,10 +6388,10 @@ kawaikutegomen_FINAL_5_092:
 	BYTE	W12
 // 114   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_048
+	 POIN2	KawaiikuteGomen_5_048
 // 115   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_047
+	 POIN2	KawaiikuteGomen_5_047
 // 116   ----------------------------------------
 	BYTE	W12
 	BYTE		N12     Dn3   v088
@@ -6431,38 +6431,38 @@ kawaikutegomen_FINAL_5_092:
 	BYTE	W96
 // 126   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 127   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_030
+	 POIN2	KawaiikuteGomen_5_030
 // 128   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 129   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_032
+	 POIN2	KawaiikuteGomen_5_032
 // 130   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 131   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_034
+	 POIN2	KawaiikuteGomen_5_034
 // 132   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 133   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_044
+	 POIN2	KawaiikuteGomen_5_044
 // 134   ----------------------------------------
 	BYTE	W96
 // 135   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_092
+	 POIN2	KawaiikuteGomen_5_092
 // 136   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 137   ----------------------------------------
-kawaikutegomen_FINAL_5_137:
+KawaiikuteGomen_5_137:
 	BYTE	W12
 	BYTE		N12     Cs3   v088
 	BYTE		N12     Fs3 
@@ -6479,7 +6479,7 @@ kawaikutegomen_FINAL_5_137:
 	BYTE	PEND
 // 138   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 139   ----------------------------------------
 	BYTE	W12
 	BYTE		N12     Dn3   v088
@@ -6496,13 +6496,13 @@ kawaikutegomen_FINAL_5_137:
 	BYTE	W12
 // 140   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 141   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_137
+	 POIN2	KawaiikuteGomen_5_137
 // 142   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_5_029
+	 POIN2	KawaiikuteGomen_5_029
 // 143   ----------------------------------------
 	BYTE		N18     Dn3   v088
 	BYTE	W24
@@ -6514,24 +6514,24 @@ kawaikutegomen_FINAL_5_137:
 
 //**************** Track 6 (Midi-Chn.6) ****************//
 
-kawaikutegomen_FINAL_6:
-	BYTE	KEYSH   kawaikutegomen_FINAL_key+0
+KawaiikuteGomen_6:
+	BYTE	KEYSH   KawaiikuteGomen_key+0
 // 000   ----------------------------------------
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W28
 	BYTE		VOICE   46
 	BYTE		PAN     c_v+0
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		BENDR   64
 	BYTE	W01
 	BYTE		        64
 	BYTE		        64
 	BYTE	W01
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		MOD     0
 	BYTE	MEMACC  mem_set  0x00  0
-kawaikutegomen_FINAL_6_L0:
+KawaiikuteGomen_6_L0:
 	BYTE		BENDR   12
 	BYTE		BEND    c_v+0
 	BYTE	W66
@@ -6564,13 +6564,13 @@ kawaikutegomen_FINAL_6_L0:
 // 014   ----------------------------------------
 	BYTE	W96
 // 015   ----------------------------------------
-kawaikutegomen_FINAL_6_015:
+KawaiikuteGomen_6_015:
 	BYTE	W84
 	BYTE	W10
 	BYTE	W02
 	BYTE	PEND
 // 016   ----------------------------------------
-kawaikutegomen_FINAL_6_016:
+KawaiikuteGomen_6_016:
 	BYTE	W01
 	BYTE		N01     Dn6   v032
 	BYTE	W02
@@ -6786,10 +6786,10 @@ kawaikutegomen_FINAL_6_016:
 	BYTE	W96
 // 061   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_6_015
+	 POIN2	KawaiikuteGomen_6_015
 // 062   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_6_016
+	 POIN2	KawaiikuteGomen_6_016
 // 063   ----------------------------------------
 	BYTE	W06
 	BYTE	W90
@@ -6919,24 +6919,24 @@ kawaikutegomen_FINAL_6_016:
 
 //**************** Track 7 (Midi-Chn.7) ****************//
 
-kawaikutegomen_FINAL_7:
-	BYTE	KEYSH   kawaikutegomen_FINAL_key+0
+KawaiikuteGomen_7:
+	BYTE	KEYSH   KawaiikuteGomen_key+0
 // 000   ----------------------------------------
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W28
 	BYTE		VOICE   13
 	BYTE		PAN     c_v+0
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		BENDR   64
 	BYTE	W01
 	BYTE		        64
 	BYTE		        64
 	BYTE	W01
-	BYTE		VOL     56*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     56*KawaiikuteGomen_mvl/mxv
 	BYTE		MOD     0
 	BYTE	MEMACC  mem_set  0x00  0
-kawaikutegomen_FINAL_7_L0:
+KawaiikuteGomen_7_L0:
 	BYTE		BENDR   12
 	BYTE		BEND    c_v+0
 	BYTE	W66
@@ -7297,24 +7297,24 @@ kawaikutegomen_FINAL_7_L0:
 
 //**************** Track 8 (Midi-Chn.8) ****************//
 
-kawaikutegomen_FINAL_8:
-	BYTE	KEYSH   kawaikutegomen_FINAL_key+0
+KawaiikuteGomen_8:
+	BYTE	KEYSH   KawaiikuteGomen_key+0
 // 000   ----------------------------------------
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W28
 	BYTE		VOICE   26
 	BYTE		PAN     c_v+40
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		BENDR   64
 	BYTE	W01
 	BYTE		        64
 	BYTE		        64
 	BYTE	W01
-	BYTE		VOL     24*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     24*KawaiikuteGomen_mvl/mxv
 	BYTE		MOD     0
 	BYTE	MEMACC  mem_set  0x00  0
-kawaikutegomen_FINAL_8_L0:
+KawaiikuteGomen_8_L0:
 	BYTE		BENDR   12
 	BYTE		BEND    c_v+0
 	BYTE	W66
@@ -7503,7 +7503,7 @@ kawaikutegomen_FINAL_8_L0:
 // 092   ----------------------------------------
 	BYTE	W96
 // 093   ----------------------------------------
-kawaikutegomen_FINAL_8_093:
+KawaiikuteGomen_8_093:
 	BYTE	W12
 	BYTE		N06     An2   v076
 	BYTE	W12
@@ -7520,10 +7520,10 @@ kawaikutegomen_FINAL_8_093:
 	BYTE	PEND
 // 094   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_8_093
+	 POIN2	KawaiikuteGomen_8_093
 // 095   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_8_093
+	 POIN2	KawaiikuteGomen_8_093
 // 096   ----------------------------------------
 	BYTE	W12
 	BYTE		N06     An2   v076
@@ -7573,7 +7573,7 @@ kawaikutegomen_FINAL_8_093:
 	BYTE	W12
 // 099   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_8_093
+	 POIN2	KawaiikuteGomen_8_093
 // 100   ----------------------------------------
 	BYTE	W12
 	BYTE		N06     An2   v076
@@ -7594,7 +7594,7 @@ kawaikutegomen_FINAL_8_093:
 	BYTE		        En3 
 	BYTE	W12
 // 101   ----------------------------------------
-kawaikutegomen_FINAL_8_101:
+KawaiikuteGomen_8_101:
 	BYTE		N24     Dn4   v088
 	BYTE	W01
 	BYTE	W23
@@ -7608,7 +7608,7 @@ kawaikutegomen_FINAL_8_101:
 	BYTE	W12
 	BYTE	PEND
 // 102   ----------------------------------------
-kawaikutegomen_FINAL_8_102:
+KawaiikuteGomen_8_102:
 	BYTE		N24     Dn4   v088
 	BYTE	W24
 	BYTE		N12     An4 
@@ -7622,22 +7622,22 @@ kawaikutegomen_FINAL_8_102:
 	BYTE	PEND
 // 103   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_8_102
+	 POIN2	KawaiikuteGomen_8_102
 // 104   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_8_102
+	 POIN2	KawaiikuteGomen_8_102
 // 105   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_8_101
+	 POIN2	KawaiikuteGomen_8_101
 // 106   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_8_102
+	 POIN2	KawaiikuteGomen_8_102
 // 107   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_8_102
+	 POIN2	KawaiikuteGomen_8_102
 // 108   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_8_102
+	 POIN2	KawaiikuteGomen_8_102
 // 109   ----------------------------------------
 	BYTE	W96
 // 110   ----------------------------------------
@@ -7793,24 +7793,24 @@ kawaikutegomen_FINAL_8_102:
 
 //**************** Track 9 (Midi-Chn.3) ****************//
 
-kawaikutegomen_FINAL_9:
-	BYTE	KEYSH   kawaikutegomen_FINAL_key+0
+KawaiikuteGomen_9:
+	BYTE	KEYSH   KawaiikuteGomen_key+0
 // 000   ----------------------------------------
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W28
 	BYTE		VOICE   80
 	BYTE		PAN     c_v+0
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		BENDR   64
 	BYTE	W01
 	BYTE		        64
 	BYTE		        64
 	BYTE	W01
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		MOD     0
 	BYTE	MEMACC  mem_set  0x00  0
-kawaikutegomen_FINAL_9_L0:
+KawaiikuteGomen_9_L0:
 	BYTE		BENDR   12
 	BYTE		BEND    c_v+0
 	BYTE	W66
@@ -7829,7 +7829,7 @@ kawaikutegomen_FINAL_9_L0:
 // 007   ----------------------------------------
 	BYTE	W96
 // 008   ----------------------------------------
-kawaikutegomen_FINAL_9_008:
+KawaiikuteGomen_9_008:
 	BYTE	W72
 	BYTE		N12     Dn3   v088
 	BYTE	W12
@@ -7837,7 +7837,7 @@ kawaikutegomen_FINAL_9_008:
 	BYTE	W12
 	BYTE	PEND
 // 009   ----------------------------------------
-kawaikutegomen_FINAL_9_009:
+KawaiikuteGomen_9_009:
 	BYTE		N12     Fs3   v088
 	BYTE	W12
 	BYTE		N12   
@@ -7854,7 +7854,7 @@ kawaikutegomen_FINAL_9_009:
 	BYTE	W12
 	BYTE	PEND
 // 010   ----------------------------------------
-kawaikutegomen_FINAL_9_010:
+KawaiikuteGomen_9_010:
 	BYTE		N12     Dn3   v088
 	BYTE	W12
 	BYTE		N12   
@@ -7871,7 +7871,7 @@ kawaikutegomen_FINAL_9_010:
 	BYTE	W12
 	BYTE	PEND
 // 011   ----------------------------------------
-kawaikutegomen_FINAL_9_011:
+KawaiikuteGomen_9_011:
 	BYTE		N12     Bn2   v088
 	BYTE	W12
 	BYTE		N12   
@@ -7888,7 +7888,7 @@ kawaikutegomen_FINAL_9_011:
 	BYTE	W12
 	BYTE	PEND
 // 012   ----------------------------------------
-kawaikutegomen_FINAL_9_012:
+KawaiikuteGomen_9_012:
 	BYTE		N12     Gn3   v088
 	BYTE	W12
 	BYTE		        Fs3 
@@ -7903,7 +7903,7 @@ kawaikutegomen_FINAL_9_012:
 	BYTE	W24
 	BYTE	PEND
 // 013   ----------------------------------------
-kawaikutegomen_FINAL_9_013:
+KawaiikuteGomen_9_013:
 	BYTE		N12     Fs3   v088
 	BYTE	W12
 	BYTE		N12   
@@ -7936,7 +7936,7 @@ kawaikutegomen_FINAL_9_013:
 	BYTE	W12
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_011
+	 POIN2	KawaiikuteGomen_9_011
 // 016   ----------------------------------------
 	BYTE		N12     Gn3   v088
 	BYTE	W12
@@ -7951,7 +7951,7 @@ kawaikutegomen_FINAL_9_013:
 	BYTE		N12     An2 
 	BYTE	W12
 // 017   ----------------------------------------
-kawaikutegomen_FINAL_9_017:
+KawaiikuteGomen_9_017:
 	BYTE		N12     Dn3   v088
 	BYTE	W12
 	BYTE		N12   
@@ -7970,14 +7970,14 @@ kawaikutegomen_FINAL_9_017:
 	BYTE	W12
 	BYTE	PEND
 // 018   ----------------------------------------
-kawaikutegomen_FINAL_9_018:
+KawaiikuteGomen_9_018:
 	BYTE		N24     An2   v088
 	BYTE	W84
 	BYTE		N12   
 	BYTE	W12
 	BYTE	PEND
 // 019   ----------------------------------------
-kawaikutegomen_FINAL_9_019:
+KawaiikuteGomen_9_019:
 	BYTE		N12     Bn2   v088
 	BYTE	W12
 	BYTE		N12   
@@ -7997,12 +7997,12 @@ kawaikutegomen_FINAL_9_019:
 	BYTE	PEND
 // 020   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_018
+	 POIN2	KawaiikuteGomen_9_018
 // 021   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_017
+	 POIN2	KawaiikuteGomen_9_017
 // 022   ----------------------------------------
-kawaikutegomen_FINAL_9_022:
+KawaiikuteGomen_9_022:
 	BYTE		N24     As2   v088
 	BYTE	W24
 	BYTE		        En3 
@@ -8015,7 +8015,7 @@ kawaikutegomen_FINAL_9_022:
 	BYTE	W12
 	BYTE	PEND
 // 023   ----------------------------------------
-kawaikutegomen_FINAL_9_023:
+KawaiikuteGomen_9_023:
 	BYTE		N48     Dn3   v088
 	BYTE	W72
 	BYTE		N12     Bn2 
@@ -8024,7 +8024,7 @@ kawaikutegomen_FINAL_9_023:
 	BYTE	W12
 	BYTE	PEND
 // 024   ----------------------------------------
-kawaikutegomen_FINAL_9_024:
+KawaiikuteGomen_9_024:
 	BYTE		N12     En3   v088
 	BYTE	W12
 	BYTE		        Dn3 
@@ -8039,7 +8039,7 @@ kawaikutegomen_FINAL_9_024:
 	BYTE	W12
 	BYTE	PEND
 // 025   ----------------------------------------
-kawaikutegomen_FINAL_9_025:
+KawaiikuteGomen_9_025:
 	BYTE		N12     Fs3   v088
 	BYTE	W12
 	BYTE		        En3 
@@ -8055,9 +8055,9 @@ kawaikutegomen_FINAL_9_025:
 	BYTE	PEND
 // 026   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_025
+	 POIN2	KawaiikuteGomen_9_025
 // 027   ----------------------------------------
-kawaikutegomen_FINAL_9_027:
+KawaiikuteGomen_9_027:
 	BYTE		N24     Fn3   v088
 	BYTE	W24
 	BYTE		N24   
@@ -8071,7 +8071,7 @@ kawaikutegomen_FINAL_9_027:
 	BYTE		N36     En3 
 	BYTE	W96
 // 029   ----------------------------------------
-kawaikutegomen_FINAL_9_029:
+KawaiikuteGomen_9_029:
 	BYTE		N18     Dn4   v088
 	BYTE	W36
 	BYTE		N12     Dn3 
@@ -8086,7 +8086,7 @@ kawaikutegomen_FINAL_9_029:
 	BYTE	W12
 	BYTE	PEND
 // 030   ----------------------------------------
-kawaikutegomen_FINAL_9_030:
+KawaiikuteGomen_9_030:
 	BYTE		N12     Fs3   v088
 	BYTE	W24
 	BYTE		N24     Cs4 
@@ -8099,7 +8099,7 @@ kawaikutegomen_FINAL_9_030:
 	BYTE	W12
 	BYTE	PEND
 // 031   ----------------------------------------
-kawaikutegomen_FINAL_9_031:
+KawaiikuteGomen_9_031:
 	BYTE		N24     Dn3   v088
 	BYTE	W36
 	BYTE		N12   
@@ -8114,7 +8114,7 @@ kawaikutegomen_FINAL_9_031:
 	BYTE	W12
 	BYTE	PEND
 // 032   ----------------------------------------
-kawaikutegomen_FINAL_9_032:
+KawaiikuteGomen_9_032:
 	BYTE		N24     Fs3   v088
 	BYTE	W24
 	BYTE		        Gn3 
@@ -8124,12 +8124,12 @@ kawaikutegomen_FINAL_9_032:
 	BYTE	PEND
 // 033   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 034   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_030
+	 POIN2	KawaiikuteGomen_9_030
 // 035   ----------------------------------------
-kawaikutegomen_FINAL_9_035:
+KawaiikuteGomen_9_035:
 	BYTE		N24     Dn3   v088
 	BYTE	W36
 	BYTE		N12   
@@ -8144,7 +8144,7 @@ kawaikutegomen_FINAL_9_035:
 	BYTE	W12
 	BYTE	PEND
 // 036   ----------------------------------------
-kawaikutegomen_FINAL_9_036:
+KawaiikuteGomen_9_036:
 	BYTE		N12     Dn3   v088
 	BYTE	W24
 	BYTE		N24     En3 
@@ -8154,9 +8154,9 @@ kawaikutegomen_FINAL_9_036:
 	BYTE	PEND
 // 037   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 038   ----------------------------------------
-kawaikutegomen_FINAL_9_038:
+KawaiikuteGomen_9_038:
 	BYTE		N24     Fs3   v088
 	BYTE	W24
 	BYTE		        Cs4 
@@ -8170,21 +8170,21 @@ kawaikutegomen_FINAL_9_038:
 	BYTE	PEND
 // 039   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_031
+	 POIN2	KawaiikuteGomen_9_031
 // 040   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_032
+	 POIN2	KawaiikuteGomen_9_032
 // 041   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 042   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_038
+	 POIN2	KawaiikuteGomen_9_038
 // 043   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_035
+	 POIN2	KawaiikuteGomen_9_035
 // 044   ----------------------------------------
-kawaikutegomen_FINAL_9_044:
+KawaiikuteGomen_9_044:
 	BYTE		N12     Dn3   v088
 	BYTE	W24
 	BYTE		N24     En3 
@@ -8198,9 +8198,9 @@ kawaikutegomen_FINAL_9_044:
 	BYTE	PEND
 // 045   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_035
+	 POIN2	KawaiikuteGomen_9_035
 // 046   ----------------------------------------
-kawaikutegomen_FINAL_9_046:
+KawaiikuteGomen_9_046:
 	BYTE		N12     Dn3   v088
 	BYTE	W24
 	BYTE		        En3 
@@ -8224,22 +8224,22 @@ kawaikutegomen_FINAL_9_046:
 	BYTE	W96
 // 054   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_008
+	 POIN2	KawaiikuteGomen_9_008
 // 055   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_009
+	 POIN2	KawaiikuteGomen_9_009
 // 056   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_010
+	 POIN2	KawaiikuteGomen_9_010
 // 057   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_011
+	 POIN2	KawaiikuteGomen_9_011
 // 058   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_012
+	 POIN2	KawaiikuteGomen_9_012
 // 059   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_013
+	 POIN2	KawaiikuteGomen_9_013
 // 060   ----------------------------------------
 	BYTE		N12     Bn3   v088
 	BYTE	W12
@@ -8257,7 +8257,7 @@ kawaikutegomen_FINAL_9_046:
 	BYTE	W12
 // 061   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_011
+	 POIN2	KawaiikuteGomen_9_011
 // 062   ----------------------------------------
 	BYTE		N12     Gn3   v088
 	BYTE	W12
@@ -8288,25 +8288,25 @@ kawaikutegomen_FINAL_9_046:
 	BYTE	W12
 // 064   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_018
+	 POIN2	KawaiikuteGomen_9_018
 // 065   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_019
+	 POIN2	KawaiikuteGomen_9_019
 // 066   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_018
+	 POIN2	KawaiikuteGomen_9_018
 // 067   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_017
+	 POIN2	KawaiikuteGomen_9_017
 // 068   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_022
+	 POIN2	KawaiikuteGomen_9_022
 // 069   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_023
+	 POIN2	KawaiikuteGomen_9_023
 // 070   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_024
+	 POIN2	KawaiikuteGomen_9_024
 // 071   ----------------------------------------
 	BYTE		N12     Fs3   v088
 	BYTE	W12
@@ -8320,64 +8320,64 @@ kawaikutegomen_FINAL_9_046:
 	BYTE	W24
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_025
+	 POIN2	KawaiikuteGomen_9_025
 // 073   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_027
+	 POIN2	KawaiikuteGomen_9_027
 // 074   ----------------------------------------
 	BYTE		N36     En3   v088
 	BYTE	W96
 // 075   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 076   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_030
+	 POIN2	KawaiikuteGomen_9_030
 // 077   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_031
+	 POIN2	KawaiikuteGomen_9_031
 // 078   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_032
+	 POIN2	KawaiikuteGomen_9_032
 // 079   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 080   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_030
+	 POIN2	KawaiikuteGomen_9_030
 // 081   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_035
+	 POIN2	KawaiikuteGomen_9_035
 // 082   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_036
+	 POIN2	KawaiikuteGomen_9_036
 // 083   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 084   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_038
+	 POIN2	KawaiikuteGomen_9_038
 // 085   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_031
+	 POIN2	KawaiikuteGomen_9_031
 // 086   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_032
+	 POIN2	KawaiikuteGomen_9_032
 // 087   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 088   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_038
+	 POIN2	KawaiikuteGomen_9_038
 // 089   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_035
+	 POIN2	KawaiikuteGomen_9_035
 // 090   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_044
+	 POIN2	KawaiikuteGomen_9_044
 // 091   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_035
+	 POIN2	KawaiikuteGomen_9_035
 // 092   ----------------------------------------
 	BYTE		N12     Dn3   v088
 	BYTE	W24
@@ -8388,7 +8388,7 @@ kawaikutegomen_FINAL_9_046:
 	BYTE		N12   
 	BYTE	W12
 // 093   ----------------------------------------
-kawaikutegomen_FINAL_9_093:
+KawaiikuteGomen_9_093:
 	BYTE		N12     Dn3   v088
 	BYTE	W12
 	BYTE		N12   
@@ -8403,7 +8403,7 @@ kawaikutegomen_FINAL_9_093:
 	BYTE	W12
 	BYTE	PEND
 // 094   ----------------------------------------
-kawaikutegomen_FINAL_9_094:
+KawaiikuteGomen_9_094:
 	BYTE		N12     Dn3   v088
 	BYTE	W12
 	BYTE		N12   
@@ -8420,7 +8420,7 @@ kawaikutegomen_FINAL_9_094:
 	BYTE	W12
 	BYTE	PEND
 // 095   ----------------------------------------
-kawaikutegomen_FINAL_9_095:
+KawaiikuteGomen_9_095:
 	BYTE		N12     En3   v088
 	BYTE	W24
 	BYTE		N24     Fs3 
@@ -8437,13 +8437,13 @@ kawaikutegomen_FINAL_9_095:
 	BYTE	W12
 // 097   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_093
+	 POIN2	KawaiikuteGomen_9_093
 // 098   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_094
+	 POIN2	KawaiikuteGomen_9_094
 // 099   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_095
+	 POIN2	KawaiikuteGomen_9_095
 // 100   ----------------------------------------
 	BYTE		N24     Dn3   v088
 	BYTE	W72
@@ -8452,7 +8452,7 @@ kawaikutegomen_FINAL_9_095:
 	BYTE		N12   
 	BYTE	W12
 // 101   ----------------------------------------
-kawaikutegomen_FINAL_9_101:
+KawaiikuteGomen_9_101:
 	BYTE		N12     An3   v088
 	BYTE	W12
 	BYTE		N12   
@@ -8515,7 +8515,7 @@ kawaikutegomen_FINAL_9_101:
 	BYTE	W12
 // 105   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_101
+	 POIN2	KawaiikuteGomen_9_101
 // 106   ----------------------------------------
 	BYTE		N12     An3   v088
 	BYTE	W12
@@ -8560,19 +8560,19 @@ kawaikutegomen_FINAL_9_101:
 	BYTE	W96
 // 117   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 118   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_030
+	 POIN2	KawaiikuteGomen_9_030
 // 119   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_031
+	 POIN2	KawaiikuteGomen_9_031
 // 120   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_032
+	 POIN2	KawaiikuteGomen_9_032
 // 121   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 122   ----------------------------------------
 	BYTE		N24     Fs3   v088
 	BYTE	W24
@@ -8590,16 +8590,16 @@ kawaikutegomen_FINAL_9_101:
 	BYTE	W12
 // 124   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_035
+	 POIN2	KawaiikuteGomen_9_035
 // 125   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_046
+	 POIN2	KawaiikuteGomen_9_046
 // 126   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 127   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_030
+	 POIN2	KawaiikuteGomen_9_030
 // 128   ----------------------------------------
 	BYTE		N24     Dn3   v088
 	BYTE	W36
@@ -8622,19 +8622,19 @@ kawaikutegomen_FINAL_9_101:
 	BYTE	W48
 // 130   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_029
+	 POIN2	KawaiikuteGomen_9_029
 // 131   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_038
+	 POIN2	KawaiikuteGomen_9_038
 // 132   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_035
+	 POIN2	KawaiikuteGomen_9_035
 // 133   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_044
+	 POIN2	KawaiikuteGomen_9_044
 // 134   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_9_035
+	 POIN2	KawaiikuteGomen_9_035
 // 135   ----------------------------------------
 	BYTE		N12     Dn3   v088
 	BYTE	W24
@@ -8646,24 +8646,24 @@ kawaikutegomen_FINAL_9_101:
 
 //**************** Track 10 (Midi-Chn.10) ****************//
 
-kawaikutegomen_FINAL_10:
-	BYTE	KEYSH   kawaikutegomen_FINAL_key+0
+KawaiikuteGomen_10:
+	BYTE	KEYSH   KawaiikuteGomen_key+0
 // 000   ----------------------------------------
 	BYTE		MODT    0
 	BYTE		LFOS    44
 	BYTE	W28
 	BYTE		VOICE   0
 	BYTE		PAN     c_v+0
-	BYTE		VOL     85*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     85*KawaiikuteGomen_mvl/mxv
 	BYTE		BENDR   64
 	BYTE	W01
 	BYTE		        64
 	BYTE		        64
 	BYTE	W01
-	BYTE		VOL     66*kawaikutegomen_FINAL_mvl/mxv
+	BYTE		VOL     66*KawaiikuteGomen_mvl/mxv
 	BYTE		MOD     0
 	BYTE	MEMACC  mem_set  0x00  0
-kawaikutegomen_FINAL_10_L0:
+KawaiikuteGomen_10_L0:
 	BYTE		BENDR   12
 	BYTE		BEND    c_v+0
 	BYTE	W66
@@ -8800,7 +8800,7 @@ kawaikutegomen_FINAL_10_L0:
 	BYTE		N01     An2 
 	BYTE	W24
 // 009   ----------------------------------------
-kawaikutegomen_FINAL_10_009:
+KawaiikuteGomen_10_009:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Cs2 
 	BYTE	W24
@@ -8820,7 +8820,7 @@ kawaikutegomen_FINAL_10_009:
 	BYTE	W12
 	BYTE	PEND
 // 010   ----------------------------------------
-kawaikutegomen_FINAL_10_010:
+KawaiikuteGomen_10_010:
 	BYTE		N01     Cn1   v088
 	BYTE	W12
 	BYTE		        Fs1 
@@ -8843,7 +8843,7 @@ kawaikutegomen_FINAL_10_010:
 	BYTE	W12
 	BYTE	PEND
 // 011   ----------------------------------------
-kawaikutegomen_FINAL_10_011:
+KawaiikuteGomen_10_011:
 	BYTE		N01     Cn1   v088
 	BYTE	W12
 	BYTE		        Fs1 
@@ -8865,13 +8865,13 @@ kawaikutegomen_FINAL_10_011:
 	BYTE	PEND
 // 012   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 013   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 014   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 015   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE	W12
@@ -8924,7 +8924,7 @@ kawaikutegomen_FINAL_10_011:
 	BYTE		N01   
 	BYTE	W06
 // 017   ----------------------------------------
-kawaikutegomen_FINAL_10_017:
+KawaiikuteGomen_10_017:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Dn1 
 	BYTE		N01     An2 
@@ -8942,7 +8942,7 @@ kawaikutegomen_FINAL_10_017:
 	BYTE	W24
 	BYTE	PEND
 // 018   ----------------------------------------
-kawaikutegomen_FINAL_10_018:
+KawaiikuteGomen_10_018:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Cs2   v056
 	BYTE	W24
@@ -8960,9 +8960,9 @@ kawaikutegomen_FINAL_10_018:
 	BYTE	PEND
 // 019   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_018
+	 POIN2	KawaiikuteGomen_10_018
 // 020   ----------------------------------------
-kawaikutegomen_FINAL_10_020:
+KawaiikuteGomen_10_020:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Cs2   v056
 	BYTE	W24
@@ -8986,7 +8986,7 @@ kawaikutegomen_FINAL_10_020:
 	BYTE	W06
 	BYTE	PEND
 // 021   ----------------------------------------
-kawaikutegomen_FINAL_10_021:
+KawaiikuteGomen_10_021:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Fs1 
 	BYTE	W12
@@ -9017,7 +9017,7 @@ kawaikutegomen_FINAL_10_021:
 	BYTE	W06
 	BYTE	PEND
 // 022   ----------------------------------------
-kawaikutegomen_FINAL_10_022:
+KawaiikuteGomen_10_022:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Fs1 
 	BYTE	W12
@@ -9049,7 +9049,7 @@ kawaikutegomen_FINAL_10_022:
 	BYTE	W06
 	BYTE	PEND
 // 023   ----------------------------------------
-kawaikutegomen_FINAL_10_023:
+KawaiikuteGomen_10_023:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Gn1 
 	BYTE		N01     Cs2 
@@ -9075,7 +9075,7 @@ kawaikutegomen_FINAL_10_023:
 	BYTE	W12
 	BYTE	PEND
 // 024   ----------------------------------------
-kawaikutegomen_FINAL_10_024:
+KawaiikuteGomen_10_024:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Gn1 
 	BYTE	W12
@@ -9100,7 +9100,7 @@ kawaikutegomen_FINAL_10_024:
 	BYTE	W12
 	BYTE	PEND
 // 025   ----------------------------------------
-kawaikutegomen_FINAL_10_025:
+KawaiikuteGomen_10_025:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     An2 
 	BYTE	W24
@@ -9127,7 +9127,7 @@ kawaikutegomen_FINAL_10_025:
 	BYTE	W12
 	BYTE	PEND
 // 026   ----------------------------------------
-kawaikutegomen_FINAL_10_026:
+KawaiikuteGomen_10_026:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Dn1 
 	BYTE		N01     Gn1 
@@ -9158,7 +9158,7 @@ kawaikutegomen_FINAL_10_026:
 	BYTE	W12
 	BYTE	PEND
 // 027   ----------------------------------------
-kawaikutegomen_FINAL_10_027:
+KawaiikuteGomen_10_027:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Dn1 
 	BYTE		N01     An2 
@@ -9214,24 +9214,24 @@ kawaikutegomen_FINAL_10_027:
 	BYTE	W12
 // 030   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 031   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 032   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 033   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 034   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 035   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 036   ----------------------------------------
-kawaikutegomen_FINAL_10_036:
+KawaiikuteGomen_10_036:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Dn1 
 	BYTE	W06
@@ -9260,15 +9260,15 @@ kawaikutegomen_FINAL_10_036:
 	BYTE	PEND
 // 037   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_009
+	 POIN2	KawaiikuteGomen_10_009
 // 038   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 039   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 040   ----------------------------------------
-kawaikutegomen_FINAL_10_040:
+KawaiikuteGomen_10_040:
 	BYTE		N01     Cn1   v088
 	BYTE	W12
 	BYTE		        Fs1 
@@ -9295,7 +9295,7 @@ kawaikutegomen_FINAL_10_040:
 	BYTE	W06
 	BYTE	PEND
 // 041   ----------------------------------------
-kawaikutegomen_FINAL_10_041:
+KawaiikuteGomen_10_041:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     An2 
 	BYTE	W24
@@ -9316,9 +9316,9 @@ kawaikutegomen_FINAL_10_041:
 	BYTE	PEND
 // 042   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 043   ----------------------------------------
-kawaikutegomen_FINAL_10_043:
+KawaiikuteGomen_10_043:
 	BYTE		N01     Cn1   v088
 	BYTE	W12
 	BYTE		        Fs1 
@@ -9341,7 +9341,7 @@ kawaikutegomen_FINAL_10_043:
 	BYTE	W06
 	BYTE	PEND
 // 044   ----------------------------------------
-kawaikutegomen_FINAL_10_044:
+KawaiikuteGomen_10_044:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Cs2 
 	BYTE	W12
@@ -9379,15 +9379,15 @@ kawaikutegomen_FINAL_10_044:
 	BYTE	W96
 // 047   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_009
+	 POIN2	KawaiikuteGomen_10_009
 // 048   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 049   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 050   ----------------------------------------
-kawaikutegomen_FINAL_10_050:
+KawaiikuteGomen_10_050:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Fs1 
 	BYTE	W06
@@ -9416,13 +9416,13 @@ kawaikutegomen_FINAL_10_050:
 	BYTE	PEND
 // 051   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_041
+	 POIN2	KawaiikuteGomen_10_041
 // 052   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 053   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_043
+	 POIN2	KawaiikuteGomen_10_043
 // 054   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Cs2 
@@ -9549,10 +9549,10 @@ kawaikutegomen_FINAL_10_050:
 	BYTE	W12
 // 060   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 061   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 062   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Fs1 
@@ -9580,37 +9580,37 @@ kawaikutegomen_FINAL_10_050:
 	BYTE	W06
 // 063   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_017
+	 POIN2	KawaiikuteGomen_10_017
 // 064   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_018
+	 POIN2	KawaiikuteGomen_10_018
 // 065   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_018
+	 POIN2	KawaiikuteGomen_10_018
 // 066   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_020
+	 POIN2	KawaiikuteGomen_10_020
 // 067   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_021
+	 POIN2	KawaiikuteGomen_10_021
 // 068   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_022
+	 POIN2	KawaiikuteGomen_10_022
 // 069   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_023
+	 POIN2	KawaiikuteGomen_10_023
 // 070   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_024
+	 POIN2	KawaiikuteGomen_10_024
 // 071   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_025
+	 POIN2	KawaiikuteGomen_10_025
 // 072   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_026
+	 POIN2	KawaiikuteGomen_10_026
 // 073   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_027
+	 POIN2	KawaiikuteGomen_10_027
 // 074   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Cn2 
@@ -9639,52 +9639,52 @@ kawaikutegomen_FINAL_10_050:
 	BYTE	W24
 // 075   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_009
+	 POIN2	KawaiikuteGomen_10_009
 // 076   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 077   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 078   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 079   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 080   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 081   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 082   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_036
+	 POIN2	KawaiikuteGomen_10_036
 // 083   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_009
+	 POIN2	KawaiikuteGomen_10_009
 // 084   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 085   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 086   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_040
+	 POIN2	KawaiikuteGomen_10_040
 // 087   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_041
+	 POIN2	KawaiikuteGomen_10_041
 // 088   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 089   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_043
+	 POIN2	KawaiikuteGomen_10_043
 // 090   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_044
+	 POIN2	KawaiikuteGomen_10_044
 // 091   ----------------------------------------
 	BYTE	W96
 // 092   ----------------------------------------
@@ -9707,7 +9707,7 @@ kawaikutegomen_FINAL_10_050:
 	BYTE		N01     Fs1 
 	BYTE	W24
 // 094   ----------------------------------------
-kawaikutegomen_FINAL_10_094:
+KawaiikuteGomen_10_094:
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Fs1 
 	BYTE	W24
@@ -9727,7 +9727,7 @@ kawaikutegomen_FINAL_10_094:
 	BYTE	PEND
 // 095   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_094
+	 POIN2	KawaiikuteGomen_10_094
 // 096   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Fs1 
@@ -9767,10 +9767,10 @@ kawaikutegomen_FINAL_10_094:
 	BYTE	W24
 // 098   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_094
+	 POIN2	KawaiikuteGomen_10_094
 // 099   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_094
+	 POIN2	KawaiikuteGomen_10_094
 // 100   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE	W12
@@ -9824,10 +9824,10 @@ kawaikutegomen_FINAL_10_094:
 	BYTE	W06
 // 102   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_021
+	 POIN2	KawaiikuteGomen_10_021
 // 103   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_021
+	 POIN2	KawaiikuteGomen_10_021
 // 104   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Fs1 
@@ -9886,7 +9886,7 @@ kawaikutegomen_FINAL_10_094:
 	BYTE	W06
 // 106   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_021
+	 POIN2	KawaiikuteGomen_10_021
 // 107   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Cs2 
@@ -9949,13 +9949,13 @@ kawaikutegomen_FINAL_10_094:
 	BYTE	W06
 // 109   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_041
+	 POIN2	KawaiikuteGomen_10_041
 // 110   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 111   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 112   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Fs1 
@@ -9984,13 +9984,13 @@ kawaikutegomen_FINAL_10_094:
 	BYTE	W06
 // 113   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_041
+	 POIN2	KawaiikuteGomen_10_041
 // 114   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 115   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_043
+	 POIN2	KawaiikuteGomen_10_043
 // 116   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE		N01     An2 
@@ -10043,53 +10043,53 @@ kawaikutegomen_FINAL_10_094:
 	BYTE	W96
 // 126   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_009
+	 POIN2	KawaiikuteGomen_10_009
 // 127   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 128   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 129   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_040
+	 POIN2	KawaiikuteGomen_10_040
 // 130   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_041
+	 POIN2	KawaiikuteGomen_10_041
 // 131   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 132   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_043
+	 POIN2	KawaiikuteGomen_10_043
 // 133   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_044
+	 POIN2	KawaiikuteGomen_10_044
 // 134   ----------------------------------------
 	BYTE	W96
 // 135   ----------------------------------------
 	BYTE	W96
 // 136   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_009
+	 POIN2	KawaiikuteGomen_10_009
 // 137   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 138   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_011
+	 POIN2	KawaiikuteGomen_10_011
 // 139   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_050
+	 POIN2	KawaiikuteGomen_10_050
 // 140   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_041
+	 POIN2	KawaiikuteGomen_10_041
 // 141   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_010
+	 POIN2	KawaiikuteGomen_10_010
 // 142   ----------------------------------------
 	BYTE	PATT
-	 POIN2	kawaikutegomen_FINAL_10_043
+	 POIN2	KawaiikuteGomen_10_043
 // 143   ----------------------------------------
 	BYTE		N01     Cn1   v088
 	BYTE		N01     Cs2 
@@ -10104,23 +10104,23 @@ kawaikutegomen_FINAL_10_094:
 //******************************************************//
 	ALIGN 4
 
-kawaikutegomen_FINAL:
+KawaiikuteGomen:
 	BYTE	10	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	kawaikutegomen_FINAL_pri	// Priority
-	BYTE	kawaikutegomen_FINAL_rev	// Reverb.
+	BYTE	KawaiikuteGomen_pri	// Priority
+	BYTE	KawaiikuteGomen_rev	// Reverb.
 
-	POIN2	kawaikutegomen_FINAL_grp
+	POIN2	KawaiikuteGomen_grp
 
-	POIN2	kawaikutegomen_FINAL_1
-	POIN2	kawaikutegomen_FINAL_2
-	POIN2	kawaikutegomen_FINAL_3
-	POIN2	kawaikutegomen_FINAL_4
-	POIN2	kawaikutegomen_FINAL_5
-	POIN2	kawaikutegomen_FINAL_6
-	POIN2	kawaikutegomen_FINAL_7
-	POIN2	kawaikutegomen_FINAL_8
-	POIN2	kawaikutegomen_FINAL_9
-	POIN2	kawaikutegomen_FINAL_10
+	POIN2	KawaiikuteGomen_1
+	POIN2	KawaiikuteGomen_2
+	POIN2	KawaiikuteGomen_3
+	POIN2	KawaiikuteGomen_4
+	POIN2	KawaiikuteGomen_5
+	POIN2	KawaiikuteGomen_6
+	POIN2	KawaiikuteGomen_7
+	POIN2	KawaiikuteGomen_8
+	POIN2	KawaiikuteGomen_9
+	POIN2	KawaiikuteGomen_10
 
 	

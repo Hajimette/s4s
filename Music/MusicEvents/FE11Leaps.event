@@ -1,27 +1,27 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	L_FE11_Leaps_and_Bounds_grp  voicegroup000
-	#define	L_FE11_Leaps_and_Bounds_pri  0
-	#define	L_FE11_Leaps_and_Bounds_rev  0
-	#define	L_FE11_Leaps_and_Bounds_mvl  127
-	#define	L_FE11_Leaps_and_Bounds_key  0
-	#define	L_FE11_Leaps_and_Bounds_tbs  1
-	#define	L_FE11_Leaps_and_Bounds_exg  0
-	#define	L_FE11_Leaps_and_Bounds_cmp  1
+	#define	FE11Leaps_grp  voicegroup000
+	#define	FE11Leaps_pri  0
+	#define	FE11Leaps_rev  0
+	#define	FE11Leaps_mvl  127
+	#define	FE11Leaps_key  0
+	#define	FE11Leaps_tbs  1
+	#define	FE11Leaps_exg  0
+	#define	FE11Leaps_cmp  1
 
 	// .rodata
-	//	L_FE11_Leaps_and_Bounds
+	//	FE11Leaps
 	ALIGN 4
 
 //**************** Track 1 (Midi-Chn.1) ****************//
 
-L_FE11_Leaps_and_Bounds_1:
-	BYTE	KEYSH   L_FE11_Leaps_and_Bounds_key+0
+FE11Leaps_1:
+	BYTE	KEYSH   FE11Leaps_key+0
 // 000   ----------------------------------------
-	BYTE	TEMPO   142*L_FE11_Leaps_and_Bounds_tbs/2
+	BYTE	TEMPO   142*FE11Leaps_tbs/2
 	BYTE		VOICE   57
-	BYTE		VOL     51*L_FE11_Leaps_and_Bounds_mvl/mxv
+	BYTE		VOL     51*FE11Leaps_mvl/mxv
 	BYTE	W96
 // 001   ----------------------------------------
 	BYTE	W96
@@ -118,14 +118,14 @@ L_FE11_Leaps_and_Bounds_1:
 	BYTE		        En3 
 	BYTE		        Cn4 
 	BYTE		        En4 
-	BYTE	TEMPO   126*L_FE11_Leaps_and_Bounds_tbs/2
+	BYTE	TEMPO   126*FE11Leaps_tbs/2
 	BYTE	W01
 	BYTE		N05     Cn3   v036
 	BYTE		N05     En3 
 	BYTE		N05     Cn4 
 	BYTE		N05     En4 
 	BYTE	W21
-L_FE11_Leaps_and_Bounds_1_B1:
+FE11Leaps_1_B1:
 	BYTE	W03
 // 006   ----------------------------------------
 	BYTE	W96
@@ -351,18 +351,18 @@ L_FE11_Leaps_and_Bounds_1_B1:
 	BYTE		N04     An3 
 	BYTE	W04
 	BYTE	GoTo
-	 POIN2	L_FE11_Leaps_and_Bounds_1_B1
-L_FE11_Leaps_and_Bounds_1_B2:
+	 POIN2	FE11Leaps_1_B1
+FE11Leaps_1_B2:
 	BYTE	FINE
 
 //**************** Track 2 (Midi-Chn.2) ****************//
 
-L_FE11_Leaps_and_Bounds_2:
-	BYTE	KEYSH   L_FE11_Leaps_and_Bounds_key+0
+FE11Leaps_2:
+	BYTE	KEYSH   FE11Leaps_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   40
 	BYTE		PAN     c_v+26
-	BYTE		VOL     51*L_FE11_Leaps_and_Bounds_mvl/mxv
+	BYTE		VOL     51*FE11Leaps_mvl/mxv
 	BYTE		N44     Fn2   v108
 	BYTE		N44     Cn3   v076
 	BYTE		N44     As3   v060
@@ -434,7 +434,7 @@ L_FE11_Leaps_and_Bounds_2:
 	BYTE	W01
 	BYTE		N05     En3   v028
 	BYTE	W21
-L_FE11_Leaps_and_Bounds_2_B1:
+FE11Leaps_2_B1:
 	BYTE	W03
 // 006   ----------------------------------------
 	BYTE		N44     Gn2   v080
@@ -494,18 +494,18 @@ L_FE11_Leaps_and_Bounds_2_B1:
 	BYTE	W92
 	BYTE	W02
 	BYTE	GoTo
-	 POIN2	L_FE11_Leaps_and_Bounds_2_B1
-L_FE11_Leaps_and_Bounds_2_B2:
+	 POIN2	FE11Leaps_2_B1
+FE11Leaps_2_B2:
 	BYTE	FINE
 
 //**************** Track 3 (Midi-Chn.3) ****************//
 
-L_FE11_Leaps_and_Bounds_3:
-	BYTE	KEYSH   L_FE11_Leaps_and_Bounds_key+0
+FE11Leaps_3:
+	BYTE	KEYSH   FE11Leaps_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   57
 	BYTE		PAN     c_v-26
-	BYTE		VOL     51*L_FE11_Leaps_and_Bounds_mvl/mxv
+	BYTE		VOL     51*FE11Leaps_mvl/mxv
 	BYTE	W96
 // 001   ----------------------------------------
 	BYTE	W96
@@ -518,7 +518,7 @@ L_FE11_Leaps_and_Bounds_3:
 // 005   ----------------------------------------
 	BYTE	W92
 	BYTE	W01
-L_FE11_Leaps_and_Bounds_3_B1:
+FE11Leaps_3_B1:
 	BYTE	W03
 // 006   ----------------------------------------
 	BYTE		N44     Gn2   v080
@@ -602,17 +602,17 @@ L_FE11_Leaps_and_Bounds_3_B1:
 	BYTE	W92
 	BYTE	W02
 	BYTE	GoTo
-	 POIN2	L_FE11_Leaps_and_Bounds_3_B1
-L_FE11_Leaps_and_Bounds_3_B2:
+	 POIN2	FE11Leaps_3_B1
+FE11Leaps_3_B2:
 	BYTE	FINE
 
 //**************** Track 4 (Midi-Chn.4) ****************//
 
-L_FE11_Leaps_and_Bounds_4:
-	BYTE	KEYSH   L_FE11_Leaps_and_Bounds_key+0
+FE11Leaps_4:
+	BYTE	KEYSH   FE11Leaps_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   10
-	BYTE		VOL     45*L_FE11_Leaps_and_Bounds_mvl/mxv
+	BYTE		VOL     45*FE11Leaps_mvl/mxv
 	BYTE	W96
 // 001   ----------------------------------------
 	BYTE	W96
@@ -625,7 +625,7 @@ L_FE11_Leaps_and_Bounds_4:
 // 005   ----------------------------------------
 	BYTE	W92
 	BYTE	W01
-L_FE11_Leaps_and_Bounds_4_B1:
+FE11Leaps_4_B1:
 	BYTE	W03
 // 006   ----------------------------------------
 	BYTE	W96
@@ -768,17 +768,17 @@ L_FE11_Leaps_and_Bounds_4_B1:
 	BYTE		        Gn4 
 	BYTE	W04
 	BYTE	GoTo
-	 POIN2	L_FE11_Leaps_and_Bounds_4_B1
-L_FE11_Leaps_and_Bounds_4_B2:
+	 POIN2	FE11Leaps_4_B1
+FE11Leaps_4_B2:
 	BYTE	FINE
 
 //**************** Track 5 (Midi-Chn.5) ****************//
 
-L_FE11_Leaps_and_Bounds_5:
-	BYTE	KEYSH   L_FE11_Leaps_and_Bounds_key+0
+FE11Leaps_5:
+	BYTE	KEYSH   FE11Leaps_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   39
-	BYTE		VOL     51*L_FE11_Leaps_and_Bounds_mvl/mxv
+	BYTE		VOL     51*FE11Leaps_mvl/mxv
 	BYTE		N40     Fn1   v112
 	BYTE	W48
 	BYTE		        Gn1   v116
@@ -820,7 +820,7 @@ L_FE11_Leaps_and_Bounds_5:
 	BYTE	W06
 	BYTE		N04   
 	BYTE	W03
-L_FE11_Leaps_and_Bounds_5_B1:
+FE11Leaps_5_B1:
 	BYTE	W03
 // 006   ----------------------------------------
 	BYTE		N10     Cn2   v104
@@ -901,18 +901,18 @@ L_FE11_Leaps_and_Bounds_5_B1:
 	BYTE		        Bn1 
 	BYTE	W10
 	BYTE	GoTo
-	 POIN2	L_FE11_Leaps_and_Bounds_5_B1
-L_FE11_Leaps_and_Bounds_5_B2:
+	 POIN2	FE11Leaps_5_B1
+FE11Leaps_5_B2:
 	BYTE	FINE
 
 //**************** Track 6 (Midi-Chn.6) ****************//
 
-L_FE11_Leaps_and_Bounds_6:
-	BYTE	KEYSH   L_FE11_Leaps_and_Bounds_key+0
+FE11Leaps_6:
+	BYTE	KEYSH   FE11Leaps_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   41
 	BYTE		PAN     c_v-28
-	BYTE		VOL     38*L_FE11_Leaps_and_Bounds_mvl/mxv
+	BYTE		VOL     38*FE11Leaps_mvl/mxv
 	BYTE		N02     Gn3   v112
 	BYTE	W03
 	BYTE		        Gn3   v048
@@ -1051,7 +1051,7 @@ L_FE11_Leaps_and_Bounds_6:
 // 005   ----------------------------------------
 	BYTE	W92
 	BYTE	W01
-L_FE11_Leaps_and_Bounds_6_B1:
+FE11Leaps_6_B1:
 	BYTE	W03
 // 006   ----------------------------------------
 	BYTE	W96
@@ -1071,18 +1071,18 @@ L_FE11_Leaps_and_Bounds_6_B1:
 	BYTE	W92
 	BYTE	W02
 	BYTE	GoTo
-	 POIN2	L_FE11_Leaps_and_Bounds_6_B1
-L_FE11_Leaps_and_Bounds_6_B2:
+	 POIN2	FE11Leaps_6_B1
+FE11Leaps_6_B2:
 	BYTE	FINE
 
 //**************** Track 7 (Midi-Chn.7) ****************//
 
-L_FE11_Leaps_and_Bounds_7:
-	BYTE	KEYSH   L_FE11_Leaps_and_Bounds_key+0
+FE11Leaps_7:
+	BYTE	KEYSH   FE11Leaps_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   51
 	BYTE		PAN     c_v-26
-	BYTE		VOL     50*L_FE11_Leaps_and_Bounds_mvl/mxv
+	BYTE		VOL     50*FE11Leaps_mvl/mxv
 	BYTE		N36     Fn2   v100
 	BYTE	W42
 	BYTE		N05     Fn2   v044
@@ -1143,7 +1143,7 @@ L_FE11_Leaps_and_Bounds_7:
 	BYTE	W01
 	BYTE		N05     Cn3   v044
 	BYTE	W21
-L_FE11_Leaps_and_Bounds_7_B1:
+FE11Leaps_7_B1:
 	BYTE	W03
 // 006   ----------------------------------------
 	BYTE		N80     Cn2   v088
@@ -1228,17 +1228,17 @@ L_FE11_Leaps_and_Bounds_7_B1:
 	BYTE		N04     Gn2 
 	BYTE	W10
 	BYTE	GoTo
-	 POIN2	L_FE11_Leaps_and_Bounds_7_B1
-L_FE11_Leaps_and_Bounds_7_B2:
+	 POIN2	FE11Leaps_7_B1
+FE11Leaps_7_B2:
 	BYTE	FINE
 
 //**************** Track 8 (Midi-Chn.8) ****************//
 
-L_FE11_Leaps_and_Bounds_8:
-	BYTE	KEYSH   L_FE11_Leaps_and_Bounds_key+0
+FE11Leaps_8:
+	BYTE	KEYSH   FE11Leaps_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   14
-	BYTE		VOL     45*L_FE11_Leaps_and_Bounds_mvl/mxv
+	BYTE		VOL     45*FE11Leaps_mvl/mxv
 	BYTE		N44     As2   v080
 	BYTE		N44     Fn3   v088
 	BYTE	W48
@@ -1293,7 +1293,7 @@ L_FE11_Leaps_and_Bounds_8:
 	BYTE	W01
 	BYTE		N06     En3   v048
 	BYTE	W15
-L_FE11_Leaps_and_Bounds_8_B1:
+FE11Leaps_8_B1:
 	BYTE	W03
 // 006   ----------------------------------------
 	BYTE		N92     Cn2   v092
@@ -1329,28 +1329,28 @@ L_FE11_Leaps_and_Bounds_8_B1:
 	BYTE	W92
 	BYTE	W02
 	BYTE	GoTo
-	 POIN2	L_FE11_Leaps_and_Bounds_8_B1
-L_FE11_Leaps_and_Bounds_8_B2:
+	 POIN2	FE11Leaps_8_B1
+FE11Leaps_8_B2:
 	BYTE	FINE
 
 //******************************************************//
 	ALIGN 4
 
-L_FE11_Leaps_and_Bounds:
+FE11Leaps:
 	BYTE	8	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	L_FE11_Leaps_and_Bounds_pri	// Priority
-	BYTE	L_FE11_Leaps_and_Bounds_rev	// Reverb.
+	BYTE	FE11Leaps_pri	// Priority
+	BYTE	FE11Leaps_rev	// Reverb.
 
-	POIN2	L_FE11_Leaps_and_Bounds_grp
+	POIN2	FE11Leaps_grp
 
-	POIN2	L_FE11_Leaps_and_Bounds_1
-	POIN2	L_FE11_Leaps_and_Bounds_2
-	POIN2	L_FE11_Leaps_and_Bounds_3
-	POIN2	L_FE11_Leaps_and_Bounds_4
-	POIN2	L_FE11_Leaps_and_Bounds_5
-	POIN2	L_FE11_Leaps_and_Bounds_6
-	POIN2	L_FE11_Leaps_and_Bounds_7
-	POIN2	L_FE11_Leaps_and_Bounds_8
+	POIN2	FE11Leaps_1
+	POIN2	FE11Leaps_2
+	POIN2	FE11Leaps_3
+	POIN2	FE11Leaps_4
+	POIN2	FE11Leaps_5
+	POIN2	FE11Leaps_6
+	POIN2	FE11Leaps_7
+	POIN2	FE11Leaps_8
 
 	

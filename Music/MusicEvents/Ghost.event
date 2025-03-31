@@ -1,42 +1,42 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song38_grp  voicegroup000
-	#define	song38_pri  0
-	#define	song38_rev  0
-	#define	song38_mvl  127
-	#define	song38_key  0
-	#define	song38_tbs  1
-	#define	song38_exg  0
-	#define	song38_cmp  1
+	#define	Ghost_grp  voicegroup000
+	#define	Ghost_pri  0
+	#define	Ghost_rev  0
+	#define	Ghost_mvl  127
+	#define	Ghost_key  0
+	#define	Ghost_tbs  1
+	#define	Ghost_exg  0
+	#define	Ghost_cmp  1
 
 	// .rodata
-	//	song38
+	//	Ghost
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song38_001:
+Ghost_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song38_key+0
- BYTE   TEMPO   180*song38_tbs/2
+ BYTE   KEYSH   Ghost_key+0
+ BYTE   TEMPO   180*Ghost_tbs/2
  BYTE   VOICE   90
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   18*song38_mvl/mxv
+ BYTE   VOL   18*Ghost_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   18*song38_mvl/mxv
+ BYTE   VOL   18*Ghost_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   37*song38_mvl/mxv
+ BYTE   VOL   37*Ghost_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   18*song38_mvl/mxv
+ BYTE   VOL   18*Ghost_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   18*song38_mvl/mxv
+ BYTE   VOL   18*Ghost_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   18*song38_mvl/mxv
+ BYTE   VOL   18*Ghost_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   TIE  BnM1  v036
  BYTE   TIE  Bn0
@@ -1903,13 +1903,13 @@ Label_010DE108:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song38_002:
+Ghost_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song38_key+0
+ BYTE   KEYSH   Ghost_key+0
  BYTE   VOICE   121
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   107*song38_mvl/mxv
+ BYTE   VOL   107*Ghost_mvl/mxv
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   PAN   c_v+0
@@ -4916,13 +4916,13 @@ Label_0183F031:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song38_003:
+Ghost_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song38_key+0
+ BYTE   KEYSH   Ghost_key+0
  BYTE   VOICE   44
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   54*song38_mvl/mxv
+ BYTE   VOL   54*Ghost_mvl/mxv
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   PAN   c_v+0
@@ -5515,13 +5515,13 @@ Label_010E04A5:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song38_004:
+Ghost_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song38_key+0
+ BYTE   KEYSH   Ghost_key+0
  BYTE   VOICE   98
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song38_mvl/mxv
+ BYTE   VOL   53*Ghost_mvl/mxv
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   PAN   c_v+0
@@ -9049,13 +9049,13 @@ Label_0184054D:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song38_005:
+Ghost_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song38_key+0
+ BYTE   KEYSH   Ghost_key+0
  BYTE   VOICE   48
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   54*song38_mvl/mxv
+ BYTE   VOL   54*Ghost_mvl/mxv
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   PAN   c_v+0
@@ -12347,13 +12347,13 @@ Label_01841831:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song38_006:
+Ghost_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song38_key+0
+ BYTE   KEYSH   Ghost_key+0
  BYTE   VOICE   101
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   56*song38_mvl/mxv
+ BYTE   VOL   56*Ghost_mvl/mxv
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   PAN   c_v+0
@@ -18679,13 +18679,13 @@ Label_01842961:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song38_007:
+Ghost_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song38_key+0
+ BYTE   KEYSH   Ghost_key+0
  BYTE   VOICE   89
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   54*song38_mvl/mxv
+ BYTE   VOL   54*Ghost_mvl/mxv
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   PAN   c_v+0
@@ -22016,13 +22016,13 @@ Label_01845867:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song38_008:
+Ghost_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   song38_key+0
+ BYTE   KEYSH   Ghost_key+0
  BYTE   VOICE   0
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song38_mvl/mxv
+ BYTE   VOL   53*Ghost_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #08 //001   ----------------------------------------
@@ -24450,21 +24450,21 @@ Label_010DFF86:
 //******************************************************//
 	ALIGN 4
 
-song38:
+Ghost:
 	BYTE	8	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song38_pri	// Priority
-	BYTE	song38_rev	// Reverb.
+	BYTE	Ghost_pri	// Priority
+	BYTE	Ghost_rev	// Reverb.
     
-	POIN2	song38_grp
+	POIN2	Ghost_grp
     
-	POIN2	song38_001
-	POIN2	song38_002
-	POIN2	song38_003
-	POIN2	song38_004
-	POIN2	song38_005
-	POIN2	song38_006
-	POIN2	song38_007
-	POIN2	song38_008
+	POIN2	Ghost_001
+	POIN2	Ghost_002
+	POIN2	Ghost_003
+	POIN2	Ghost_004
+	POIN2	Ghost_005
+	POIN2	Ghost_006
+	POIN2	Ghost_007
+	POIN2	Ghost_008
 
 	

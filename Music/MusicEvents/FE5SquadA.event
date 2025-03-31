@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song2E_grp  voicegroup000
-	#define	song2E_pri  0
-	#define	song2E_rev  0
-	#define	song2E_mvl  127
-	#define	song2E_key  0
-	#define	song2E_tbs  1
-	#define	song2E_exg  0
-	#define	song2E_cmp  1
+	#define	FE5SquadA_grp  voicegroup000
+	#define	FE5SquadA_pri  0
+	#define	FE5SquadA_rev  0
+	#define	FE5SquadA_mvl  127
+	#define	FE5SquadA_key  0
+	#define	FE5SquadA_tbs  1
+	#define	FE5SquadA_exg  0
+	#define	FE5SquadA_cmp  1
 
 	// .rodata
-	//	song2E
+	//	FE5SquadA
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song2E_001:
+FE5SquadA_001:
 // 000   ----------------------------------------
- BYTE   KEYSH   song2E_key+0
+ BYTE   KEYSH   FE5SquadA_key+0
 Label_0_011B946A:
- BYTE   TEMPO   92*song2E_tbs/2
+ BYTE   TEMPO   92*FE5SquadA_tbs/2
  BYTE   VOICE   56
- BYTE   VOL   68*song2E_mvl/mxv
+ BYTE   VOL   68*FE5SquadA_mvl/mxv
  BYTE   N48  Dn3  v100
  BYTE   W48
  BYTE   N18  Cn3
@@ -221,7 +221,7 @@ Label_0_011B952D:
  BYTE   N24
  BYTE   W24
 // 018   ----------------------------------------
- BYTE   VOL   68*song2E_mvl/mxv
+ BYTE   VOL   68*FE5SquadA_mvl/mxv
  BYTE   N48  Dn3
  BYTE   W48
  BYTE   N18  Cn3
@@ -284,12 +284,12 @@ Label_0_011B952D:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song2E_002:
+FE5SquadA_002:
 // 000   ----------------------------------------
- BYTE   KEYSH   song2E_key+0
+ BYTE   KEYSH   FE5SquadA_key+0
 Label_1_011B95AA:
  BYTE   VOICE   48
- BYTE   VOL   64*song2E_mvl/mxv
+ BYTE   VOL   64*FE5SquadA_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -354,7 +354,7 @@ Label_1_011B95D5:
  BYTE   N72  Dn4
  BYTE   W96
 // 015   ----------------------------------------
- BYTE   VOL   64*song2E_mvl/mxv
+ BYTE   VOL   64*FE5SquadA_mvl/mxv
  BYTE   W96
 // 016   ----------------------------------------
  BYTE   W96
@@ -413,12 +413,12 @@ Label_1_011B95D5:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song2E_003:
+FE5SquadA_003:
 // 000   ----------------------------------------
- BYTE   KEYSH   song2E_key+0
+ BYTE   KEYSH   FE5SquadA_key+0
 Label_2_011B9626:
  BYTE   VOICE   56
- BYTE   VOL   68*song2E_mvl/mxv
+ BYTE   VOL   68*FE5SquadA_mvl/mxv
  BYTE   N48  Gn2  v100
  BYTE   W48
  BYTE   N18  Fs2
@@ -606,7 +606,7 @@ Label_2_011B96D7:
  BYTE   N24
  BYTE   W24
 // 018   ----------------------------------------
- BYTE   VOL   68*song2E_mvl/mxv
+ BYTE   VOL   68*FE5SquadA_mvl/mxv
  BYTE   N48  Gn2
  BYTE   W48
  BYTE   N18  Fs2
@@ -668,12 +668,12 @@ Label_2_011B96D7:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song2E_004:
+FE5SquadA_004:
 // 000   ----------------------------------------
- BYTE   KEYSH   song2E_key+0
+ BYTE   KEYSH   FE5SquadA_key+0
 Label_3_011B974E:
  BYTE   VOICE   48
- BYTE   VOL   64*song2E_mvl/mxv
+ BYTE   VOL   64*FE5SquadA_mvl/mxv
  BYTE   N12  En3  v100
  BYTE   W48
  BYTE   N12
@@ -784,7 +784,7 @@ Label_3_011B97AE:
 // 017   ----------------------------------------
  BYTE   W96
 // 018   ----------------------------------------
- BYTE   VOL   64*song2E_mvl/mxv
+ BYTE   VOL   64*FE5SquadA_mvl/mxv
  BYTE   N12  En3  v100
  BYTE   W48
  BYTE   N12
@@ -840,12 +840,12 @@ Label_3_011B97AE:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song2E_005:
+FE5SquadA_005:
 // 000   ----------------------------------------
- BYTE   KEYSH   song2E_key+0
+ BYTE   KEYSH   FE5SquadA_key+0
 Label_4_011B9816:
  BYTE   VOICE   48
- BYTE   VOL   64*song2E_mvl/mxv
+ BYTE   VOL   64*FE5SquadA_mvl/mxv
  BYTE   N12  An2  v100
  BYTE   W48
  BYTE   N12
@@ -975,7 +975,7 @@ Label_4_011B988F:
  BYTE   N24
  BYTE   W24
 // 017   ----------------------------------------
- BYTE   VOL   64*song2E_mvl/mxv
+ BYTE   VOL   64*FE5SquadA_mvl/mxv
  BYTE   N12  An2  v100
  BYTE   W48
  BYTE   N12
@@ -1035,12 +1035,12 @@ Label_4_011B988F:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song2E_006:
+FE5SquadA_006:
 // 000   ----------------------------------------
- BYTE   KEYSH   song2E_key+0
+ BYTE   KEYSH   FE5SquadA_key+0
 Label_5_011B98FE:
  BYTE   VOICE   58
- BYTE   VOL   51*song2E_mvl/mxv
+ BYTE   VOL   51*FE5SquadA_mvl/mxv
  BYTE   N24  An0  v100
  BYTE   W24
  BYTE   N24
@@ -1156,7 +1156,7 @@ Label_5_011B996B:
  BYTE   En0
  BYTE   W12
 // 013   ----------------------------------------
- BYTE   VOL   51*song2E_mvl/mxv
+ BYTE   VOL   51*FE5SquadA_mvl/mxv
  BYTE   N24  An0
  BYTE   W24
  BYTE   N24
@@ -1220,12 +1220,12 @@ Label_5_011B996B:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song2E_007:
+FE5SquadA_007:
 // 000   ----------------------------------------
- BYTE   KEYSH   song2E_key+0
+ BYTE   KEYSH   FE5SquadA_key+0
 Label_6_011B99E6:
  BYTE   VOICE   56
- BYTE   VOL   68*song2E_mvl/mxv
+ BYTE   VOL   68*FE5SquadA_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1315,7 +1315,7 @@ Label_6_011B9A26:
  BYTE   N24
  BYTE   W24
 // 018   ----------------------------------------
- BYTE   VOL   68*song2E_mvl/mxv
+ BYTE   VOL   68*FE5SquadA_mvl/mxv
  BYTE   W96
 // 019   ----------------------------------------
  BYTE   W96
@@ -1367,12 +1367,12 @@ Label_6_011B9A26:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song2E_008:
+FE5SquadA_008:
 // 000   ----------------------------------------
- BYTE   KEYSH   song2E_key+0
+ BYTE   KEYSH   FE5SquadA_key+0
 Label_7_011B9A72:
  BYTE   VOICE   47
- BYTE   VOL   49*song2E_mvl/mxv
+ BYTE   VOL   49*FE5SquadA_mvl/mxv
  BYTE   N12  An2  v100
  BYTE   W12
  BYTE   N06  An2  v060
@@ -1577,7 +1577,7 @@ Label_7_011B9B6E:
  BYTE   PATT
   POIN2 Label_7_011B9B6E
 // 010   ----------------------------------------
- BYTE   VOL   49*song2E_mvl/mxv
+ BYTE   VOL   49*FE5SquadA_mvl/mxv
  BYTE   N12  An2  v100
  BYTE   W12
  BYTE   N06  An2  v060
@@ -1659,12 +1659,12 @@ Label_7_011B9B6E:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song2E_009:
+FE5SquadA_009:
 // 000   ----------------------------------------
- BYTE   KEYSH   song2E_key+0
+ BYTE   KEYSH   FE5SquadA_key+0
 Label_8_011B9C1E:
  BYTE   VOICE   47
- BYTE   VOL   57*song2E_mvl/mxv
+ BYTE   VOL   57*FE5SquadA_mvl/mxv
  BYTE   N12  An1  v100
  BYTE   W12
  BYTE   N06  An1  v060
@@ -1869,7 +1869,7 @@ Label_8_011B9D1A:
  BYTE   PATT
   POIN2 Label_8_011B9D1A
 // 010   ----------------------------------------
- BYTE   VOL   57*song2E_mvl/mxv
+ BYTE   VOL   57*FE5SquadA_mvl/mxv
  BYTE   N12  An1  v100
  BYTE   W12
  BYTE   N06  An1  v060
@@ -1952,22 +1952,22 @@ Label_8_011B9D1A:
 //******************************************************//
 	ALIGN 4
 
-song2E:
+FE5SquadA:
 	BYTE	9	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song2E_pri	// Priority
-	BYTE	song2E_rev	// Reverb.
+	BYTE	FE5SquadA_pri	// Priority
+	BYTE	FE5SquadA_rev	// Reverb.
     
-	POIN2	song2E_grp
+	POIN2	FE5SquadA_grp
     
-	POIN2	song2E_001
-	POIN2	song2E_002
-	POIN2	song2E_003
-	POIN2	song2E_004
-	POIN2	song2E_005
-	POIN2	song2E_006
-	POIN2	song2E_007
-	POIN2	song2E_008
-	POIN2	song2E_009
+	POIN2	FE5SquadA_001
+	POIN2	FE5SquadA_002
+	POIN2	FE5SquadA_003
+	POIN2	FE5SquadA_004
+	POIN2	FE5SquadA_005
+	POIN2	FE5SquadA_006
+	POIN2	FE5SquadA_007
+	POIN2	FE5SquadA_008
+	POIN2	FE5SquadA_009
 
 	

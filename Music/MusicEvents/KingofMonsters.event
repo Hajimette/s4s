@@ -1,35 +1,35 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song5D_grp  voicegroup000
-	#define	song5D_pri  0
-	#define	song5D_rev  0
-	#define	song5D_mvl  127
-	#define	song5D_key  0
-	#define	song5D_tbs  1
-	#define	song5D_exg  0
-	#define	song5D_cmp  1
+	#define	KingofMonsters_grp  voicegroup000
+	#define	KingofMonsters_pri  0
+	#define	KingofMonsters_rev  0
+	#define	KingofMonsters_mvl  127
+	#define	KingofMonsters_key  0
+	#define	KingofMonsters_tbs  1
+	#define	KingofMonsters_exg  0
+	#define	KingofMonsters_cmp  1
 
 	// .rodata
-	//	song5D
+	//	KingofMonsters
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song5D_001:
+KingofMonsters_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song5D_key+0
+ BYTE   KEYSH   KingofMonsters_key+0
 Label_0178F486:
- BYTE   TEMPO   120*song5D_tbs/2
+ BYTE   TEMPO   120*KingofMonsters_tbs/2
  BYTE   VOICE   104
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   BENDR  12
- BYTE   VOL   83*song5D_mvl/mxv
+ BYTE   VOL   83*KingofMonsters_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   BENDR  12
- BYTE   VOL   83*song5D_mvl/mxv
+ BYTE   VOL   83*KingofMonsters_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N23  Fn2  v028
  BYTE   N23  Fn3
@@ -568,18 +568,18 @@ Label_0178F622:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song5D_002:
+KingofMonsters_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song5D_key+0
+ BYTE   KEYSH   KingofMonsters_key+0
 Label_0178F75A:
  BYTE   VOICE   54
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   BENDR  12
- BYTE   VOL   83*song5D_mvl/mxv
+ BYTE   VOL   83*KingofMonsters_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   BENDR  12
- BYTE   VOL   83*song5D_mvl/mxv
+ BYTE   VOL   83*KingofMonsters_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #02 //001   ----------------------------------------
@@ -792,18 +792,18 @@ Label_0178F83C:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song5D_003:
+KingofMonsters_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song5D_key+0
+ BYTE   KEYSH   KingofMonsters_key+0
 Label_0178F85E:
  BYTE   VOICE   124
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   BENDR  12
- BYTE   VOL   83*song5D_mvl/mxv
+ BYTE   VOL   83*KingofMonsters_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   BENDR  12
- BYTE   VOL   83*song5D_mvl/mxv
+ BYTE   VOL   83*KingofMonsters_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N23  Fn1  v080
  BYTE   N23  Fn2
@@ -1291,15 +1291,15 @@ Label_0178FAA4:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song5D_004:
+KingofMonsters_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song5D_key+0
+ BYTE   KEYSH   KingofMonsters_key+0
 Label_0178FB12:
  BYTE   VOICE   52
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   BENDR  12
- BYTE   VOL   83*song5D_mvl/mxv
+ BYTE   VOL   83*KingofMonsters_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #04 //001   ----------------------------------------
@@ -1509,15 +1509,15 @@ Label_0178FB88:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song5D_005:
+KingofMonsters_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song5D_key+0
+ BYTE   KEYSH   KingofMonsters_key+0
 Label_0178FC06:
  BYTE   VOICE   59
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   BENDR  12
- BYTE   VOL   83*song5D_mvl/mxv
+ BYTE   VOL   83*KingofMonsters_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #05 //001   ----------------------------------------
@@ -1749,16 +1749,16 @@ Label_0178FCF4:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song5D_006:
+KingofMonsters_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song5D_key+0
+ BYTE   KEYSH   KingofMonsters_key+0
 Label_0178FD16:
  BYTE   VOICE   121
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   83*song5D_mvl/mxv
+ BYTE   VOL   83*KingofMonsters_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   83*song5D_mvl/mxv
+ BYTE   VOL   83*KingofMonsters_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N12  Bn0  v060
  BYTE   N18  Cn1  v127
@@ -3312,19 +3312,19 @@ Label_0179054A:
 //******************************************************//
 	ALIGN 4
 
-song5D:
+KingofMonsters:
 	BYTE	6	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song5D_pri	// Priority
-	BYTE	song5D_rev	// Reverb.
+	BYTE	KingofMonsters_pri	// Priority
+	BYTE	KingofMonsters_rev	// Reverb.
     
-	POIN2	song5D_grp
+	POIN2	KingofMonsters_grp
     
-	POIN2	song5D_001
-	POIN2	song5D_002
-	POIN2	song5D_003
-	POIN2	song5D_004
-	POIN2	song5D_005
-	POIN2	song5D_006
+	POIN2	KingofMonsters_001
+	POIN2	KingofMonsters_002
+	POIN2	KingofMonsters_003
+	POIN2	KingofMonsters_004
+	POIN2	KingofMonsters_005
+	POIN2	KingofMonsters_006
 
 	

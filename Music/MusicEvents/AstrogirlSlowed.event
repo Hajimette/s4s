@@ -1,35 +1,35 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song62_grp  voicegroup000
-	#define	song62_pri  0
-	#define	song62_rev  0
-	#define	song62_mvl  127
-	#define	song62_key  0
-	#define	song62_tbs  1
-	#define	song62_exg  0
-	#define	song62_cmp  1
+	#define	AstrogirlSlowed_grp  voicegroup000
+	#define	AstrogirlSlowed_pri  0
+	#define	AstrogirlSlowed_rev  0
+	#define	AstrogirlSlowed_mvl  127
+	#define	AstrogirlSlowed_key  0
+	#define	AstrogirlSlowed_tbs  1
+	#define	AstrogirlSlowed_exg  0
+	#define	AstrogirlSlowed_cmp  1
 
 	// .rodata
-	//	song62
+	//	AstrogirlSlowed
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song62_001:
+AstrogirlSlowed_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song62_key+0
+ BYTE   KEYSH   AstrogirlSlowed_key+0
 Label_0198008A:
- BYTE   TEMPO   148*song62_tbs/2
+ BYTE   TEMPO   148*AstrogirlSlowed_tbs/2
  BYTE   VOICE   48
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W48
  BYTE   N32  As4  v060
@@ -576,12 +576,12 @@ Label_01980192:
 //  #01 //104   ----------------------------------------
  BYTE   W96
 //  #01 //105   ----------------------------------------
- BYTE   TEMPO   138*song62_tbs/2
+ BYTE   TEMPO   138*AstrogirlSlowed_tbs/2
  BYTE   W48
- BYTE   TEMPO   134*song62_tbs/2
+ BYTE   TEMPO   134*AstrogirlSlowed_tbs/2
  BYTE   W48
 //  #01 //106   ----------------------------------------
- BYTE   TEMPO   132*song62_tbs/2
+ BYTE   TEMPO   132*AstrogirlSlowed_tbs/2
  BYTE   W96
 //  #01 //107   ----------------------------------------
  BYTE   W96
@@ -608,49 +608,49 @@ Label_01980192:
 //  #01 //118   ----------------------------------------
  BYTE   W96
 //  #01 //119   ----------------------------------------
- BYTE   TEMPO   130*song62_tbs/2
+ BYTE   TEMPO   130*AstrogirlSlowed_tbs/2
  BYTE   W48
- BYTE   TEMPO   124*song62_tbs/2
+ BYTE   TEMPO   124*AstrogirlSlowed_tbs/2
  BYTE   W48
 //  #01 //120   ----------------------------------------
- BYTE   TEMPO   120*song62_tbs/2
+ BYTE   TEMPO   120*AstrogirlSlowed_tbs/2
  BYTE   W48
- BYTE   TEMPO   108*song62_tbs/2
+ BYTE   TEMPO   108*AstrogirlSlowed_tbs/2
  BYTE   W48
 //  #01 //121   ----------------------------------------
- BYTE   TEMPO   100*song62_tbs/2
+ BYTE   TEMPO   100*AstrogirlSlowed_tbs/2
  BYTE   W36
- BYTE   TEMPO   88*song62_tbs/2
+ BYTE   TEMPO   88*AstrogirlSlowed_tbs/2
  BYTE   W12
- BYTE   TEMPO   78*song62_tbs/2
+ BYTE   TEMPO   78*AstrogirlSlowed_tbs/2
  BYTE   W24
- BYTE   TEMPO   70*song62_tbs/2
+ BYTE   TEMPO   70*AstrogirlSlowed_tbs/2
  BYTE   W24
 //  #01 //122   ----------------------------------------
- BYTE   TEMPO   100*song62_tbs/2
+ BYTE   TEMPO   100*AstrogirlSlowed_tbs/2
  BYTE   W96
 //  #01 //123   ----------------------------------------
- BYTE   TEMPO   60*song62_tbs/2
+ BYTE   TEMPO   60*AstrogirlSlowed_tbs/2
  BYTE   W96
 //  #01 //124   ----------------------------------------
- BYTE   TEMPO   288*song62_tbs/2
+ BYTE   TEMPO   288*AstrogirlSlowed_tbs/2
  BYTE   W96
 //  #01 //125   ----------------------------------------
- BYTE   TEMPO   60*song62_tbs/2
+ BYTE   TEMPO   60*AstrogirlSlowed_tbs/2
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song62_002:
+AstrogirlSlowed_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song62_key+0
+ BYTE   KEYSH   AstrogirlSlowed_key+0
 Label_01980302:
  BYTE   VOICE   45
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #02 //001   ----------------------------------------
@@ -967,16 +967,16 @@ Label_01980362:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song62_003:
+AstrogirlSlowed_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song62_key+0
+ BYTE   KEYSH   AstrogirlSlowed_key+0
 Label_019803EA:
  BYTE   VOICE   44
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   80*song62_mvl/mxv
+ BYTE   VOL   80*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #03 //001   ----------------------------------------
@@ -1542,16 +1542,16 @@ Label_019804BD:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song62_004:
+AstrogirlSlowed_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song62_key+0
+ BYTE   KEYSH   AstrogirlSlowed_key+0
 Label_01980646:
  BYTE   VOICE   121
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   41*song62_mvl/mxv
+ BYTE   VOL   41*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   41*song62_mvl/mxv
+ BYTE   VOL   41*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #04 //001   ----------------------------------------
@@ -1907,16 +1907,16 @@ Label_01980688:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song62_005:
+AstrogirlSlowed_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song62_key+0
+ BYTE   KEYSH   AstrogirlSlowed_key+0
 Label_01980766:
  BYTE   VOICE   75
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W48
  BYTE   N32  Fs3  v060
@@ -2673,16 +2673,16 @@ Label_01980922:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song62_006:
+AstrogirlSlowed_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song62_key+0
+ BYTE   KEYSH   AstrogirlSlowed_key+0
 Label_01980AD2:
  BYTE   VOICE   45
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #06 //001   ----------------------------------------
@@ -3209,16 +3209,16 @@ Label_01980BBC:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song62_007:
+AstrogirlSlowed_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song62_key+0
+ BYTE   KEYSH   AstrogirlSlowed_key+0
 Label_01980CCE:
  BYTE   VOICE   77
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   54*song62_mvl/mxv
+ BYTE   VOL   54*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #07 //001   ----------------------------------------
@@ -3688,16 +3688,16 @@ Label_01980DD1:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song62_008:
+AstrogirlSlowed_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   song62_key+0
+ BYTE   KEYSH   AstrogirlSlowed_key+0
 Label_01980E96:
  BYTE   VOICE   81
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #08 //001   ----------------------------------------
@@ -4202,16 +4202,16 @@ Label_0198100C:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song62_009:
+AstrogirlSlowed_009:
 //  #09 //000   ----------------------------------------
- BYTE   KEYSH   song62_key+0
+ BYTE   KEYSH   AstrogirlSlowed_key+0
 Label_0198109E:
  BYTE   VOICE   85
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song62_mvl/mxv
+ BYTE   VOL   53*AstrogirlSlowed_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #09 //001   ----------------------------------------
@@ -4584,22 +4584,22 @@ Label_0198115F:
 //******************************************************//
 	ALIGN 4
 
-song62:
+AstrogirlSlowed:
 	BYTE	9	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song62_pri	// Priority
-	BYTE	song62_rev	// Reverb.
+	BYTE	AstrogirlSlowed_pri	// Priority
+	BYTE	AstrogirlSlowed_rev	// Reverb.
     
-	POIN2	song62_grp
+	POIN2	AstrogirlSlowed_grp
     
-	POIN2	song62_001
-	POIN2	song62_002
-	POIN2	song62_003
-	POIN2	song62_004
-	POIN2	song62_005
-	POIN2	song62_006
-	POIN2	song62_007
-	POIN2	song62_008
-	POIN2	song62_009
+	POIN2	AstrogirlSlowed_001
+	POIN2	AstrogirlSlowed_002
+	POIN2	AstrogirlSlowed_003
+	POIN2	AstrogirlSlowed_004
+	POIN2	AstrogirlSlowed_005
+	POIN2	AstrogirlSlowed_006
+	POIN2	AstrogirlSlowed_007
+	POIN2	AstrogirlSlowed_008
+	POIN2	AstrogirlSlowed_009
 
 	

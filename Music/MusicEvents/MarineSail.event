@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song1D_grp  voicegroup000
-	#define	song1D_pri  0
-	#define	song1D_rev  0
-	#define	song1D_mvl  127
-	#define	song1D_key  0
-	#define	song1D_tbs  1
-	#define	song1D_exg  0
-	#define	song1D_cmp  1
+	#define	MarineSail_grp  voicegroup000
+	#define	MarineSail_pri  0
+	#define	MarineSail_rev  0
+	#define	MarineSail_mvl  127
+	#define	MarineSail_key  0
+	#define	MarineSail_tbs  1
+	#define	MarineSail_exg  0
+	#define	MarineSail_cmp  1
 
 	// .rodata
-	//	song1D
+	//	MarineSail
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song1D_001:
+MarineSail_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song1D_key+0
- BYTE   TEMPO   202*song1D_tbs/2
+ BYTE   KEYSH   MarineSail_key+0
+ BYTE   TEMPO   202*MarineSail_tbs/2
  BYTE   VOICE   48
  BYTE   PAN   c_v+14
- BYTE   VOL   127*song1D_mvl/mxv
+ BYTE   VOL   127*MarineSail_mvl/mxv
  BYTE   W96
 //  #01 //001   ----------------------------------------
  BYTE   W96
@@ -700,12 +700,12 @@ Label_0100D32E:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song1D_002:
+MarineSail_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song1D_key+0
+ BYTE   KEYSH   MarineSail_key+0
  BYTE   VOICE   100
  BYTE   PAN   c_v-16
- BYTE   VOL   127*song1D_mvl/mxv
+ BYTE   VOL   127*MarineSail_mvl/mxv
  BYTE   W96
 //  #02 //001   ----------------------------------------
  BYTE   W96
@@ -1015,12 +1015,12 @@ Label_0100839F:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song1D_003:
+MarineSail_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song1D_key+0
+ BYTE   KEYSH   MarineSail_key+0
  BYTE   VOICE   42
  BYTE   PAN   c_v-36
- BYTE   VOL   127*song1D_mvl/mxv
+ BYTE   VOL   127*MarineSail_mvl/mxv
  BYTE   W96
 //  #03 //001   ----------------------------------------
  BYTE   W96
@@ -1782,13 +1782,13 @@ Label_0100DC13:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song1D_004:
+MarineSail_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song1D_key+0
+ BYTE   KEYSH   MarineSail_key+0
  BYTE   VOICE   61
  BYTE   PAN   c_v+52
  BYTE   N22  Cn2  v026
- BYTE   VOL   127*song1D_mvl/mxv
+ BYTE   VOL   127*MarineSail_mvl/mxv
  BYTE   W36
  BYTE   N22
  BYTE   W24
@@ -2557,11 +2557,11 @@ Label_0100D864:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song1D_005:
+MarineSail_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song1D_key+0
+ BYTE   KEYSH   MarineSail_key+0
  BYTE   VOICE   29
- BYTE   VOL   127*song1D_mvl/mxv
+ BYTE   VOL   127*MarineSail_mvl/mxv
  BYTE   W96
 //  #05 //001   ----------------------------------------
  BYTE   W96
@@ -3333,12 +3333,12 @@ Label_0100D607:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song1D_006:
+MarineSail_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song1D_key+0
+ BYTE   KEYSH   MarineSail_key+0
  BYTE   VOICE   77
  BYTE   TIE  Gn1  v048
- BYTE   VOL   127*song1D_mvl/mxv
+ BYTE   VOL   127*MarineSail_mvl/mxv
  BYTE   W96
 //  #06 //001   ----------------------------------------
  BYTE   W96
@@ -4245,11 +4245,11 @@ Label_0100DF16:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song1D_007:
+MarineSail_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song1D_key+0
+ BYTE   KEYSH   MarineSail_key+0
  BYTE   VOICE   104
- BYTE   VOL   127*song1D_mvl/mxv
+ BYTE   VOL   127*MarineSail_mvl/mxv
  BYTE   W96
 //  #07 //001   ----------------------------------------
  BYTE   W96
@@ -4457,12 +4457,12 @@ Label_55EF56:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song1D_008:
+MarineSail_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   song1D_key+0
+ BYTE   KEYSH   MarineSail_key+0
  BYTE   VOICE   36
  BYTE   TIE  Gn1  v032
- BYTE   VOL   127*song1D_mvl/mxv
+ BYTE   VOL   127*MarineSail_mvl/mxv
  BYTE   W96
 //  #08 //001   ----------------------------------------
  BYTE   W96
@@ -5316,12 +5316,12 @@ Label_0100E356:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song1D_009:
+MarineSail_009:
 //  #09 //000   ----------------------------------------
- BYTE   KEYSH   song1D_key+0
+ BYTE   KEYSH   MarineSail_key+0
  BYTE   VOICE   124
  BYTE   N12  En1  v030
- BYTE   VOL   127*song1D_mvl/mxv
+ BYTE   VOL   127*MarineSail_mvl/mxv
  BYTE   W12
  BYTE   N12
  BYTE   W12
@@ -6405,22 +6405,22 @@ Label_0100EBFB:
 //******************************************************//
 	ALIGN 4
 
-song1D:
+MarineSail:
 	BYTE	9	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song1D_pri	// Priority
-	BYTE	song1D_rev	// Reverb.
+	BYTE	MarineSail_pri	// Priority
+	BYTE	MarineSail_rev	// Reverb.
     
-	POIN2	song1D_grp
+	POIN2	MarineSail_grp
     
-	POIN2	song1D_001
-	POIN2	song1D_002
-	POIN2	song1D_003
-	POIN2	song1D_004
-	POIN2	song1D_005
-	POIN2	song1D_006
-	POIN2	song1D_007
-	POIN2	song1D_008
-	POIN2	song1D_009
+	POIN2	MarineSail_001
+	POIN2	MarineSail_002
+	POIN2	MarineSail_003
+	POIN2	MarineSail_004
+	POIN2	MarineSail_005
+	POIN2	MarineSail_006
+	POIN2	MarineSail_007
+	POIN2	MarineSail_008
+	POIN2	MarineSail_009
 
 	

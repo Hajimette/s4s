@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song01_grp  voicegroup000
-	#define	song01_pri  0
-	#define	song01_rev  0
-	#define	song01_mvl  127
-	#define	song01_key  0
-	#define	song01_tbs  1
-	#define	song01_exg  0
-	#define	song01_cmp  1
+	#define	Identity_grp  voicegroup000
+	#define	Identity_pri  0
+	#define	Identity_rev  0
+	#define	Identity_mvl  127
+	#define	Identity_key  0
+	#define	Identity_tbs  1
+	#define	Identity_exg  0
+	#define	Identity_cmp  1
 
 	// .rodata
-	//	song01
+	//	Identity
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song01_001:
+Identity_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
- BYTE   TEMPO   168*song01_tbs/2
+ BYTE   KEYSH   Identity_key+0
+ BYTE   TEMPO   168*Identity_tbs/2
  BYTE   VOICE   52
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   51*song01_mvl/mxv
+ BYTE   VOL   51*Identity_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N22  Bn3  v064
  BYTE   W24
@@ -1095,22 +1095,22 @@ Label_01A4F63E:
 //  #01 //166   ----------------------------------------
  BYTE   W96
 //  #01 //167   ----------------------------------------
- BYTE   TEMPO   150*song01_tbs/2
+ BYTE   TEMPO   150*Identity_tbs/2
  BYTE   W72
- BYTE   TEMPO   120*song01_tbs/2
+ BYTE   TEMPO   120*Identity_tbs/2
  BYTE   W12
- BYTE   TEMPO   78*song01_tbs/2
+ BYTE   TEMPO   78*Identity_tbs/2
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song01_002:
+Identity_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
+ BYTE   KEYSH   Identity_key+0
  BYTE   VOICE   104
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   40*song01_mvl/mxv
+ BYTE   VOL   40*Identity_mvl/mxv
  BYTE   N22  Cs2  v080
  BYTE   N22  En2
  BYTE   N22  Gs2
@@ -2252,13 +2252,13 @@ Label_01A500DA:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song01_003:
+Identity_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
+ BYTE   KEYSH   Identity_key+0
  BYTE   VOICE   48
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   33*song01_mvl/mxv
+ BYTE   VOL   33*Identity_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N22  Bn4  v064
  BYTE   W24
@@ -3334,13 +3334,13 @@ Label_01A50648:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song01_004:
+Identity_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
+ BYTE   KEYSH   Identity_key+0
  BYTE   VOICE   81
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   33*song01_mvl/mxv
+ BYTE   VOL   33*Identity_mvl/mxv
  BYTE   N22  Cs1  v080
  BYTE   N22  En1
  BYTE   N22  Gs1
@@ -4482,13 +4482,13 @@ Label_01A4BC4A:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song01_005:
+Identity_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
+ BYTE   KEYSH   Identity_key+0
  BYTE   VOICE   124
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   80*song01_mvl/mxv
+ BYTE   VOL   80*Identity_mvl/mxv
  BYTE   W96
 //  #05 //001   ----------------------------------------
  BYTE   W96
@@ -5273,18 +5273,18 @@ Label_01A51015:
 //******************************************************//
 	ALIGN 4
 
-song01:
+Identity:
 	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song01_pri	// Priority
-	BYTE	song01_rev	// Reverb.
+	BYTE	Identity_pri	// Priority
+	BYTE	Identity_rev	// Reverb.
     
-	POIN2	song01_grp
+	POIN2	Identity_grp
     
-	POIN2	song01_001
-	POIN2	song01_002
-	POIN2	song01_003
-	POIN2	song01_004
-	POIN2	song01_005
+	POIN2	Identity_001
+	POIN2	Identity_002
+	POIN2	Identity_003
+	POIN2	Identity_004
+	POIN2	Identity_005
 
 	

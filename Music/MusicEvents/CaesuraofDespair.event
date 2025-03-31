@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song01_grp  voicegroup000
-	#define	song01_pri  0
-	#define	song01_rev  0
-	#define	song01_mvl  127
-	#define	song01_key  0
-	#define	song01_tbs  1
-	#define	song01_exg  0
-	#define	song01_cmp  1
+	#define	CaesuraofDespair_grp  voicegroup000
+	#define	CaesuraofDespair_pri  0
+	#define	CaesuraofDespair_rev  0
+	#define	CaesuraofDespair_mvl  127
+	#define	CaesuraofDespair_key  0
+	#define	CaesuraofDespair_tbs  1
+	#define	CaesuraofDespair_exg  0
+	#define	CaesuraofDespair_cmp  1
 
 	// .rodata
-	//	song01
+	//	CaesuraofDespair
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song01_001:
+CaesuraofDespair_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
- BYTE   TEMPO   172*song01_tbs/2
+ BYTE   KEYSH   CaesuraofDespair_key+0
+ BYTE   TEMPO   172*CaesuraofDespair_tbs/2
  BYTE   VOICE   52
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   53*song01_mvl/mxv
+ BYTE   VOL   53*CaesuraofDespair_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W48
  BYTE   N17  Gs4  v076
@@ -964,25 +964,25 @@ Label_01A4B0D0:
  BYTE   W96
 //  #01 //183   ----------------------------------------
  BYTE   W48
- BYTE   TEMPO   160*song01_tbs/2
+ BYTE   TEMPO   160*CaesuraofDespair_tbs/2
  BYTE   W48
 //  #01 //184   ----------------------------------------
- BYTE   TEMPO   108*song01_tbs/2
+ BYTE   TEMPO   108*CaesuraofDespair_tbs/2
  BYTE   W96
 //  #01 //185   ----------------------------------------
- BYTE   TEMPO   100*song01_tbs/2
+ BYTE   TEMPO   100*CaesuraofDespair_tbs/2
  BYTE   W24
- BYTE   TEMPO   78*song01_tbs/2
+ BYTE   TEMPO   78*CaesuraofDespair_tbs/2
  BYTE   W24
- BYTE   TEMPO   40*song01_tbs/2
+ BYTE   TEMPO   40*CaesuraofDespair_tbs/2
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song01_002:
+CaesuraofDespair_002:
 //  #02 //000   ----------------------------------------
- BYTE   VOL   80*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   80*CaesuraofDespair_mvl/mxv
+ BYTE   KEYSH   CaesuraofDespair_key+0
  BYTE   VOICE   0
  BYTE   MODT 0
  BYTE   LFOS 44
@@ -2005,14 +2005,14 @@ Label_01A4BE1C:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song01_003:
+CaesuraofDespair_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song01_key+0
+ BYTE   KEYSH   CaesuraofDespair_key+0
  BYTE   VOICE   46
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   PAN   c_v+0
- BYTE   VOL   53*song01_mvl/mxv
+ BYTE   VOL   53*CaesuraofDespair_mvl/mxv
  BYTE   W48
  BYTE   N17  Gs5  v076
  BYTE   W18
@@ -2959,10 +2959,10 @@ Label_01A4B9AA:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song01_004:
+CaesuraofDespair_004:
 //  #04 //000   ----------------------------------------
- BYTE   VOL   80*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   80*CaesuraofDespair_mvl/mxv
+ BYTE   KEYSH   CaesuraofDespair_key+0
  BYTE   VOICE   36
  BYTE   MODT 0
  BYTE   LFOS 44
@@ -3985,10 +3985,10 @@ Label_01A4B54C:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song01_005:
+CaesuraofDespair_005:
 //  #05 //000   ----------------------------------------
- BYTE   VOL   80*song01_mvl/mxv
- BYTE   KEYSH   song01_key+0
+ BYTE   VOL   80*CaesuraofDespair_mvl/mxv
+ BYTE   KEYSH   CaesuraofDespair_key+0
  BYTE   VOICE   124
  BYTE   MODT 0
  BYTE   LFOS 44
@@ -5073,18 +5073,18 @@ Label_01A4C3B8:
 //******************************************************//
 	ALIGN 4
 
-song01:
+CaesuraofDespair:
 	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song01_pri	// Priority
-	BYTE	song01_rev	// Reverb.
+	BYTE	CaesuraofDespair_pri	// Priority
+	BYTE	CaesuraofDespair_rev	// Reverb.
     
-	POIN2	song01_grp
+	POIN2	CaesuraofDespair_grp
     
-	POIN2	song01_001
-	POIN2	song01_002
-	POIN2	song01_003
-	POIN2	song01_004
-	POIN2	song01_005
+	POIN2	CaesuraofDespair_001
+	POIN2	CaesuraofDespair_002
+	POIN2	CaesuraofDespair_003
+	POIN2	CaesuraofDespair_004
+	POIN2	CaesuraofDespair_005
 
 	

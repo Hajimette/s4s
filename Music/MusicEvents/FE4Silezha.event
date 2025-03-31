@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song92_grp  voicegroup000
-	#define	song92_pri  10
-	#define	song92_rev  128
-	#define	song92_mvl  127
-	#define	song92_key  0
-	#define	song92_tbs  1
-	#define	song92_exg  0
-	#define	song92_cmp  1
+	#define	FE4Silezha_grp  voicegroup000
+	#define	FE4Silezha_pri  10
+	#define	FE4Silezha_rev  128
+	#define	FE4Silezha_mvl  127
+	#define	FE4Silezha_key  0
+	#define	FE4Silezha_tbs  1
+	#define	FE4Silezha_exg  0
+	#define	FE4Silezha_cmp  1
 
 	// .rodata
-	//	song92
+	//	FE4Silezha
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song92_001:
+FE4Silezha_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song92_key+0
+ BYTE   KEYSH   FE4Silezha_key+0
 Label_01727166:
- BYTE   TEMPO   88*song92_tbs/2
+ BYTE   TEMPO   88*FE4Silezha_tbs/2
  BYTE   VOICE   1
- BYTE   VOL   56*song92_mvl/mxv
+ BYTE   VOL   56*FE4Silezha_mvl/mxv
  BYTE   PAN   c_v+10
  BYTE   N22  Dn4  v092
  BYTE   W24
@@ -201,12 +201,12 @@ Label_017271C6:
  BYTE   W12
  BYTE   As2
  BYTE   W12
- BYTE   TEMPO   80*song92_tbs/2
+ BYTE   TEMPO   80*FE4Silezha_tbs/2
  BYTE   Cn3
  BYTE   W12
  BYTE   Dn3
  BYTE   W12
- BYTE   TEMPO   88*song92_tbs/2
+ BYTE   TEMPO   88*FE4Silezha_tbs/2
  BYTE   W72
 //  #01 //017   ----------------------------------------
  BYTE   W72
@@ -216,7 +216,7 @@ Label_017271C6:
  BYTE   W72
 //  #01 //019   ----------------------------------------
  BYTE   VOICE   2
- BYTE   VOL   60*song92_mvl/mxv
+ BYTE   VOL   60*FE4Silezha_mvl/mxv
  BYTE   PAN   c_v+12
  BYTE   W72
  BYTE   N07  As2  v080
@@ -297,7 +297,7 @@ Label_017271C6:
  BYTE   W05
  BYTE   As3
  BYTE   W03
- BYTE   TEMPO   84*song92_tbs/2
+ BYTE   TEMPO   84*FE4Silezha_tbs/2
  BYTE   W02
  BYTE   Ds3
  BYTE   W05
@@ -314,7 +314,7 @@ Label_017271C6:
  BYTE   N04  As2
  BYTE   W05
 //  #01 //022   ----------------------------------------
- BYTE   TEMPO   70*song92_tbs/2
+ BYTE   TEMPO   70*FE4Silezha_tbs/2
  BYTE   N07  As2  v080
  BYTE   W04
  BYTE   Bn2  v064
@@ -333,30 +333,30 @@ Label_017271C6:
  BYTE   W06
  BYTE   As4
  BYTE   W06
- BYTE   TEMPO   66*song92_tbs/2
+ BYTE   TEMPO   66*FE4Silezha_tbs/2
  BYTE   N11  Bn4
  BYTE   W08
  BYTE   Ds5
  BYTE   W04
- BYTE   TEMPO   48*song92_tbs/2
+ BYTE   TEMPO   48*FE4Silezha_tbs/2
  BYTE   W04
  BYTE   Fs5
  BYTE   W08
  BYTE   GoTo
   POIN2 Label_01727166
 //  #01 //023   ----------------------------------------
- BYTE   TEMPO   88*song92_tbs/2
+ BYTE   TEMPO   88*FE4Silezha_tbs/2
  BYTE   W03
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song92_002:
+FE4Silezha_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song92_key+0
+ BYTE   KEYSH   FE4Silezha_key+0
 Label_017272F5:
  BYTE   VOICE   3
- BYTE   VOL   44*song92_mvl/mxv
+ BYTE   VOL   44*FE4Silezha_mvl/mxv
  BYTE   PAN   c_v+25
  BYTE   N04  Gn5  v100
  BYTE   W06
@@ -573,7 +573,7 @@ Label_017272F5:
 //  #02 //011   ----------------------------------------
  BYTE   W72
  BYTE   VOICE   4
- BYTE   VOL   63*song92_mvl/mxv
+ BYTE   VOL   63*FE4Silezha_mvl/mxv
  BYTE   PAN   c_v+15
  BYTE   W72
 //  #02 //012   ----------------------------------------
@@ -638,9 +638,9 @@ Label_017272F5:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song92_003:
+FE4Silezha_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song92_key+0
+ BYTE   KEYSH   FE4Silezha_key+0
 Label_01727476:
  BYTE   W72
  BYTE   W72
@@ -653,7 +653,7 @@ Label_01727476:
 //  #03 //003   ----------------------------------------
  BYTE   W72
  BYTE   VOICE   1
- BYTE   VOL   29*song92_mvl/mxv
+ BYTE   VOL   29*FE4Silezha_mvl/mxv
  BYTE   PAN   c_v-35
  BYTE   W72
 //  #03 //004   ----------------------------------------
@@ -796,12 +796,12 @@ Label_01727492:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song92_004:
+FE4Silezha_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song92_key+0
+ BYTE   KEYSH   FE4Silezha_key+0
 Label_0172751D:
  BYTE   VOICE   5
- BYTE   VOL   60*song92_mvl/mxv
+ BYTE   VOL   60*FE4Silezha_mvl/mxv
  BYTE   PAN   c_v-10
  BYTE   N21  Fn2  v100
  BYTE   W24
@@ -949,12 +949,12 @@ Label_017275C6:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song92_005:
+FE4Silezha_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song92_key+0
+ BYTE   KEYSH   FE4Silezha_key+0
 Label_017275DC:
  BYTE   VOICE   6
- BYTE   VOL   60*song92_mvl/mxv
+ BYTE   VOL   60*FE4Silezha_mvl/mxv
  BYTE   PAN   c_v-5
  BYTE   N68  Gs3  v084
  BYTE   W72
@@ -996,7 +996,7 @@ Label_017275DC:
  BYTE   W72
 //  #05 //010   ----------------------------------------
  BYTE   VOICE   7
- BYTE   VOL   33*song92_mvl/mxv
+ BYTE   VOL   33*FE4Silezha_mvl/mxv
  BYTE   PAN   c_v-15
  BYTE   W72
  BYTE   N68  Fn3  v072
@@ -1037,18 +1037,18 @@ Label_017275DC:
 //******************************************************//
 	ALIGN 4
 
-song92:
+FE4Silezha:
 	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song92_pri	// Priority
-	BYTE	song92_rev	// Reverb.
+	BYTE	FE4Silezha_pri	// Priority
+	BYTE	FE4Silezha_rev	// Reverb.
     
-	POIN2	song92_grp
+	POIN2	FE4Silezha_grp
     
-	POIN2	song92_001
-	POIN2	song92_002
-	POIN2	song92_003
-	POIN2	song92_004
-	POIN2	song92_005
+	POIN2	FE4Silezha_001
+	POIN2	FE4Silezha_002
+	POIN2	FE4Silezha_003
+	POIN2	FE4Silezha_004
+	POIN2	FE4Silezha_005
 
 	

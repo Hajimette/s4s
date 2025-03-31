@@ -1,32 +1,32 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song39_grp  voicegroup000
-	#define	song39_pri  0
-	#define	song39_rev  0
-	#define	song39_mvl  127
-	#define	song39_key  0
-	#define	song39_tbs  1
-	#define	song39_exg  0
-	#define	song39_cmp  1
+	#define	Fantasia_grp  voicegroup000
+	#define	Fantasia_pri  0
+	#define	Fantasia_rev  0
+	#define	Fantasia_mvl  127
+	#define	Fantasia_key  0
+	#define	Fantasia_tbs  1
+	#define	Fantasia_exg  0
+	#define	Fantasia_cmp  1
 
 	// .rodata
-	//	song39
+	//	Fantasia
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song39_001:
+Fantasia_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song39_key+0
- BYTE   TEMPO   188*song39_tbs/2
+ BYTE   KEYSH   Fantasia_key+0
+ BYTE   TEMPO   188*Fantasia_tbs/2
  BYTE   VOICE   73
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   116*song39_mvl/mxv
+ BYTE   VOL   116*Fantasia_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N07  Fs3  v036
  BYTE   W08
@@ -903,15 +903,15 @@ Label_010E0D7D:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song39_002:
+Fantasia_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song39_key+0
+ BYTE   KEYSH   Fantasia_key+0
  BYTE   VOICE   1
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   100*song39_mvl/mxv
+ BYTE   VOL   100*Fantasia_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W24
  BYTE   TIE  As2  v036
@@ -2366,10 +2366,10 @@ Label_01891ED3:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song39_003:
+Fantasia_003:
 //  #03 //000   ----------------------------------------
- BYTE   VOL   127*song39_mvl/mxv
- BYTE   KEYSH   song39_key+0
+ BYTE   VOL   127*Fantasia_mvl/mxv
+ BYTE   KEYSH   Fantasia_key+0
  BYTE   VOICE   1
  BYTE   MODT 0
  BYTE   LFOS 44
@@ -4064,15 +4064,15 @@ Label_01892920:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song39_004:
+Fantasia_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song39_key+0
+ BYTE   KEYSH   Fantasia_key+0
  BYTE   VOICE   121
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   100*song39_mvl/mxv
+ BYTE   VOL   100*Fantasia_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W24
  BYTE   N23  Cn1  v036
@@ -5658,17 +5658,17 @@ Label_0189369C:
 //******************************************************//
 	ALIGN 4
 
-song39:
+Fantasia:
 	BYTE	4	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song39_pri	// Priority
-	BYTE	song39_rev	// Reverb.
+	BYTE	Fantasia_pri	// Priority
+	BYTE	Fantasia_rev	// Reverb.
     
-	POIN2	song39_grp
+	POIN2	Fantasia_grp
     
-	POIN2	song39_001
-	POIN2	song39_002
-	POIN2	song39_003
-	POIN2	song39_004
+	POIN2	Fantasia_001
+	POIN2	Fantasia_002
+	POIN2	Fantasia_003
+	POIN2	Fantasia_004
 
 	

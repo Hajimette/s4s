@@ -1,28 +1,28 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song1F_grp  voicegroup000
-	#define	song1F_pri  0
-	#define	song1F_rev  0
-	#define	song1F_mvl  127
-	#define	song1F_key  0
-	#define	song1F_tbs  1
-	#define	song1F_exg  0
-	#define	song1F_cmp  1
+	#define	Astrogirl_grp  voicegroup000
+	#define	Astrogirl_pri  0
+	#define	Astrogirl_rev  0
+	#define	Astrogirl_mvl  127
+	#define	Astrogirl_key  0
+	#define	Astrogirl_tbs  1
+	#define	Astrogirl_exg  0
+	#define	Astrogirl_cmp  1
 
 	// .rodata
-	//	song1F
+	//	Astrogirl
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song1F_001:
+Astrogirl_001:
 //  #01 //000   ----------------------------------------
- BYTE   VOL   80*song1F_mvl/mxv
- BYTE   KEYSH   song1F_key+0
+ BYTE   VOL   80*Astrogirl_mvl/mxv
+ BYTE   KEYSH   Astrogirl_key+0
 Label_0101CFC8:
- BYTE   TEMPO   182*song1F_tbs/2
+ BYTE   TEMPO   182*Astrogirl_tbs/2
  BYTE   VOICE   85
  BYTE   N36  Fn3  v048
  BYTE   W36
@@ -283,10 +283,10 @@ Label_0101CFE3:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song1F_002:
+Astrogirl_002:
 //  #02 //000   ----------------------------------------
- BYTE   VOL   80*song1F_mvl/mxv
- BYTE   KEYSH   song1F_key+0
+ BYTE   VOL   80*Astrogirl_mvl/mxv
+ BYTE   KEYSH   Astrogirl_key+0
 Label_0102244C:
  BYTE   VOICE   4
  BYTE   N24  Gs2  v024
@@ -1850,10 +1850,10 @@ Label_01022BD6:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song1F_003:
+Astrogirl_003:
 //  #03 //000   ----------------------------------------
- BYTE   VOL   80*song1F_mvl/mxv
- BYTE   KEYSH   song1F_key+0
+ BYTE   VOL   80*Astrogirl_mvl/mxv
+ BYTE   KEYSH   Astrogirl_key+0
 Label_010200E8:
  BYTE   VOICE   4
  BYTE   W96
@@ -2101,10 +2101,10 @@ Label_0102017D:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song1F_004:
+Astrogirl_004:
 //  #04 //000   ----------------------------------------
- BYTE   VOL   80*song1F_mvl/mxv
- BYTE   KEYSH   song1F_key+0
+ BYTE   VOL   80*Astrogirl_mvl/mxv
+ BYTE   KEYSH   Astrogirl_key+0
 Label_0101DAD8:
  BYTE   VOICE   100
  BYTE   W96
@@ -2436,10 +2436,10 @@ Label_0101DAD8:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song1F_005:
+Astrogirl_005:
 //  #05 //000   ----------------------------------------
- BYTE   VOL   80*song1F_mvl/mxv
- BYTE   KEYSH   song1F_key+0
+ BYTE   VOL   80*Astrogirl_mvl/mxv
+ BYTE   KEYSH   Astrogirl_key+0
 Label_01020974:
  BYTE   VOICE   80
  BYTE   W96
@@ -2844,10 +2844,10 @@ Label_01020A26:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song1F_006:
+Astrogirl_006:
 //  #06 //000   ----------------------------------------
- BYTE   VOL   80*song1F_mvl/mxv
- BYTE   KEYSH   song1F_key+0
+ BYTE   VOL   80*Astrogirl_mvl/mxv
+ BYTE   KEYSH   Astrogirl_key+0
 Label_01021200:
  BYTE   VOICE   39
  BYTE   N24  Cs2  v040
@@ -3964,10 +3964,10 @@ Label_01021682:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song1F_007:
+Astrogirl_007:
 //  #07 //000   ----------------------------------------
- BYTE   VOL   80*song1F_mvl/mxv
- BYTE   KEYSH   song1F_key+0
+ BYTE   VOL   80*Astrogirl_mvl/mxv
+ BYTE   KEYSH   Astrogirl_key+0
 Label_01021A8C:
  BYTE   VOICE   124
  BYTE   N12  Gs1  v048
@@ -4815,20 +4815,20 @@ Label_01021F9B:
 //******************************************************//
 	ALIGN 4
 
-song1F:
+Astrogirl:
 	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song1F_pri	// Priority
-	BYTE	song1F_rev	// Reverb.
+	BYTE	Astrogirl_pri	// Priority
+	BYTE	Astrogirl_rev	// Reverb.
     
-	POIN2	song1F_grp
+	POIN2	Astrogirl_grp
     
-	POIN2	song1F_001
-	POIN2	song1F_002
-	POIN2	song1F_003
-	POIN2	song1F_004
-	POIN2	song1F_005
-	POIN2	song1F_006
-	POIN2	song1F_007
+	POIN2	Astrogirl_001
+	POIN2	Astrogirl_002
+	POIN2	Astrogirl_003
+	POIN2	Astrogirl_004
+	POIN2	Astrogirl_005
+	POIN2	Astrogirl_006
+	POIN2	Astrogirl_007
 
 	

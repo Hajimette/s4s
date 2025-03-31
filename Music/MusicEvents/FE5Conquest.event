@@ -1,31 +1,31 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song17_grp  voicegroup000
-	#define	song17_pri  0
-	#define	song17_rev  0
-	#define	song17_mvl  127
-	#define	song17_key  0
-	#define	song17_tbs  1
-	#define	song17_exg  0
-	#define	song17_cmp  1
+	#define	FE5Conquest_grp  voicegroup000
+	#define	FE5Conquest_pri  0
+	#define	FE5Conquest_rev  0
+	#define	FE5Conquest_mvl  127
+	#define	FE5Conquest_key  0
+	#define	FE5Conquest_tbs  1
+	#define	FE5Conquest_exg  0
+	#define	FE5Conquest_cmp  1
 
 	// .rodata
-	//	song17
+	//	FE5Conquest
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song17_001:
+FE5Conquest_001:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
- BYTE   TEMPO   72*song17_tbs/2
+ BYTE   KEYSH   FE5Conquest_key+0
+ BYTE   TEMPO   72*FE5Conquest_tbs/2
  BYTE   VOICE   48
- BYTE   VOL   18*song17_mvl/mxv
+ BYTE   VOL   18*FE5Conquest_mvl/mxv
  BYTE   TIE  Dn5  v100
  BYTE   W03
- BYTE   VOL   18*song17_mvl/mxv
+ BYTE   VOL   18*FE5Conquest_mvl/mxv
  BYTE   W04
  BYTE   GnM1
  BYTE   W05
@@ -281,7 +281,7 @@ song17_001:
  BYTE   W24
 // 021   ----------------------------------------
 Label_0_016E735C:
- BYTE   TEMPO   86*song17_tbs/2
+ BYTE   TEMPO   86*FE5Conquest_tbs/2
  BYTE   W96
 // 022   ----------------------------------------
  BYTE   W96
@@ -394,11 +394,11 @@ Label_0_016E7388:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song17_002:
+FE5Conquest_002:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   48
- BYTE   VOL   62*song17_mvl/mxv
+ BYTE   VOL   62*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -655,11 +655,11 @@ Label_1_016E74B2:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song17_003:
+FE5Conquest_003:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   19
- BYTE   VOL   62*song17_mvl/mxv
+ BYTE   VOL   62*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -811,11 +811,11 @@ Label_2_55B1AB:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song17_004:
+FE5Conquest_004:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   56
- BYTE   VOL   64*song17_mvl/mxv
+ BYTE   VOL   64*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1066,11 +1066,11 @@ Label_3_55B05C:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song17_005:
+FE5Conquest_005:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   58
- BYTE   VOL   68*song17_mvl/mxv
+ BYTE   VOL   68*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1300,11 +1300,11 @@ Label_4_55B4D6:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song17_006:
+FE5Conquest_006:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   19
- BYTE   VOL   62*song17_mvl/mxv
+ BYTE   VOL   62*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1456,11 +1456,11 @@ Label_5_016E6C5E:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song17_007:
+FE5Conquest_007:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   19
- BYTE   VOL   62*song17_mvl/mxv
+ BYTE   VOL   62*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1608,11 +1608,11 @@ Label_6_55A6CF:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song17_008:
+FE5Conquest_008:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   48
- BYTE   VOL   62*song17_mvl/mxv
+ BYTE   VOL   62*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1771,11 +1771,11 @@ Label_7_016E6CD2:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song17_009:
+FE5Conquest_009:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   48
- BYTE   VOL   62*song17_mvl/mxv
+ BYTE   VOL   62*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -2029,11 +2029,11 @@ Label_8_016E71CD:
 
 //**************** Track 10 (Midi-Chn.9) ****************//
 
-song17_010:
+FE5Conquest_010:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   0
- BYTE   VOL   52*song17_mvl/mxv
+ BYTE   VOL   52*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -2325,11 +2325,11 @@ Label_9_016E6F01:
 
 //**************** Track 11 (Midi-Chn.10) ****************//
 
-song17_011:
+FE5Conquest_011:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   0
- BYTE   VOL   73*song17_mvl/mxv
+ BYTE   VOL   73*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -2476,11 +2476,11 @@ Label_10_55B305:
 
 //**************** Track 12 (Midi-Chn.11) ****************//
 
-song17_012:
+FE5Conquest_012:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   48
- BYTE   VOL   62*song17_mvl/mxv
+ BYTE   VOL   62*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -2759,11 +2759,11 @@ Label_11_55B6A1:
 
 //**************** Track 13 (Midi-Chn.12) ****************//
 
-song17_013:
+FE5Conquest_013:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   57
- BYTE   VOL   75*song17_mvl/mxv
+ BYTE   VOL   75*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -3013,11 +3013,11 @@ Label_12_016E7047:
 
 //**************** Track 14 (Midi-Chn.13) ****************//
 
-song17_014:
+FE5Conquest_014:
 // 000   ----------------------------------------
- BYTE   KEYSH   song17_key+0
+ BYTE   KEYSH   FE5Conquest_key+0
  BYTE   VOICE   56
- BYTE   VOL   64*song17_mvl/mxv
+ BYTE   VOL   64*FE5Conquest_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -3198,27 +3198,27 @@ Label_13_55B397:
 //******************************************************//
 	ALIGN 4
 
-song17:
+FE5Conquest:
 	BYTE	14	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song17_pri	// Priority
-	BYTE	song17_rev	// Reverb.
+	BYTE	FE5Conquest_pri	// Priority
+	BYTE	FE5Conquest_rev	// Reverb.
     
-	POIN2	song17_grp
+	POIN2	FE5Conquest_grp
     
-	POIN2	song17_001
-	POIN2	song17_002
-	POIN2	song17_003
-	POIN2	song17_004
-	POIN2	song17_005
-	POIN2	song17_006
-	POIN2	song17_007
-	POIN2	song17_008
-	POIN2	song17_009
-	POIN2	song17_010
-	POIN2	song17_011
-	POIN2	song17_012
-	POIN2	song17_013
-	POIN2	song17_014
+	POIN2	FE5Conquest_001
+	POIN2	FE5Conquest_002
+	POIN2	FE5Conquest_003
+	POIN2	FE5Conquest_004
+	POIN2	FE5Conquest_005
+	POIN2	FE5Conquest_006
+	POIN2	FE5Conquest_007
+	POIN2	FE5Conquest_008
+	POIN2	FE5Conquest_009
+	POIN2	FE5Conquest_010
+	POIN2	FE5Conquest_011
+	POIN2	FE5Conquest_012
+	POIN2	FE5Conquest_013
+	POIN2	FE5Conquest_014
 
 	

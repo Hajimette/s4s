@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song03E2_grp  voicegroup000
-	#define	song03E2_pri  0
-	#define	song03E2_rev  0
-	#define	song03E2_mvl  127
-	#define	song03E2_key  0
-	#define	song03E2_tbs  1
-	#define	song03E2_exg  0
-	#define	song03E2_cmp  1
+	#define	PlasmagicSeasons_grp  voicegroup000
+	#define	PlasmagicSeasons_pri  0
+	#define	PlasmagicSeasons_rev  0
+	#define	PlasmagicSeasons_mvl  127
+	#define	PlasmagicSeasons_key  0
+	#define	PlasmagicSeasons_tbs  1
+	#define	PlasmagicSeasons_exg  0
+	#define	PlasmagicSeasons_cmp  1
 
 	// .rodata
-	//	song03E2
+	//	PlasmagicSeasons
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song03E2_001:
+PlasmagicSeasons_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song03E2_key+0
- BYTE   TEMPO   100*song03E2_tbs/2
+ BYTE   KEYSH   PlasmagicSeasons_key+0
+ BYTE   TEMPO   100*PlasmagicSeasons_tbs/2
  BYTE   VOICE   1
  BYTE   MODT 0
  BYTE   LFOS 44
- BYTE   VOL   80*song03E2_mvl/mxv
+ BYTE   VOL   80*PlasmagicSeasons_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N22  An3  v044
  BYTE   N44  Bn3
@@ -54,7 +54,7 @@ song03E2_001:
  BYTE   N42  Fs4
  BYTE   W42
  BYTE   W01
- BYTE   TEMPO   60*song03E2_tbs/2
+ BYTE   TEMPO   60*PlasmagicSeasons_tbs/2
  BYTE   N23  Bn5
  BYTE   W01
  BYTE   N22  Fs5
@@ -63,7 +63,7 @@ song03E2_001:
  BYTE   W01
  BYTE   N19  Bn4
  BYTE   W20
- BYTE   TEMPO   120*song03E2_tbs/2
+ BYTE   TEMPO   120*PlasmagicSeasons_tbs/2
  BYTE   N01  An5
  BYTE   N01  Bn5
  BYTE   W01
@@ -93,7 +93,7 @@ song03E2_001:
  BYTE   N11  Bn3
  BYTE   W12
 //  #01 //002   ----------------------------------------
- BYTE   TEMPO   194*song03E2_tbs/2
+ BYTE   TEMPO   194*PlasmagicSeasons_tbs/2
  BYTE   N15  Cn4  v060
  BYTE   W15
  BYTE   N07  En4
@@ -1234,15 +1234,15 @@ Label_010E676E:
  BYTE   W96
 //  #01 //191   ----------------------------------------
  BYTE   W48
- BYTE   TEMPO   78*song03E2_tbs/2
+ BYTE   TEMPO   78*PlasmagicSeasons_tbs/2
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song03E2_002:
+PlasmagicSeasons_002:
 //  #02 //000   ----------------------------------------
- BYTE   VOL   80*song03E2_mvl/mxv
- BYTE   KEYSH   song03E2_key+0
+ BYTE   VOL   80*PlasmagicSeasons_mvl/mxv
+ BYTE   KEYSH   PlasmagicSeasons_key+0
  BYTE   VOICE   36
  BYTE   MODT 0
  BYTE   LFOS 44
@@ -2256,14 +2256,14 @@ Label_010E6C47:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song03E2_003:
+PlasmagicSeasons_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song03E2_key+0
+ BYTE   KEYSH   PlasmagicSeasons_key+0
  BYTE   VOICE   75
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   PAN   c_v+0
- BYTE   VOL   80*song03E2_mvl/mxv
+ BYTE   VOL   80*PlasmagicSeasons_mvl/mxv
  BYTE   N22  An3  v044
  BYTE   N44  Bn3
  BYTE   W02
@@ -3473,10 +3473,10 @@ Label_010E7176:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song03E2_004:
+PlasmagicSeasons_004:
 //  #04 //000   ----------------------------------------
- BYTE   VOL   80*song03E2_mvl/mxv
- BYTE   KEYSH   song03E2_key+0
+ BYTE   VOL   80*PlasmagicSeasons_mvl/mxv
+ BYTE   KEYSH   PlasmagicSeasons_key+0
  BYTE   VOICE   58
  BYTE   MODT 0
  BYTE   LFOS 44
@@ -4490,14 +4490,14 @@ Label_010E764B:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song03E2_005:
+PlasmagicSeasons_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song03E2_key+0
+ BYTE   KEYSH   PlasmagicSeasons_key+0
  BYTE   VOICE   54
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   PAN   c_v+0
- BYTE   VOL   80*song03E2_mvl/mxv
+ BYTE   VOL   80*PlasmagicSeasons_mvl/mxv
  BYTE   W96
 //  #05 //001   ----------------------------------------
  BYTE   W96
@@ -5544,18 +5544,18 @@ Label_010E7A94:
 //******************************************************//
 	ALIGN 4
 
-song03E2:
+PlasmagicSeasons:
 	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song03E2_pri	// Priority
-	BYTE	song03E2_rev	// Reverb.
+	BYTE	PlasmagicSeasons_pri	// Priority
+	BYTE	PlasmagicSeasons_rev	// Reverb.
     
-	POIN2	song03E2_grp
+	POIN2	PlasmagicSeasons_grp
     
-	POIN2	song03E2_001
-	POIN2	song03E2_002
-	POIN2	song03E2_003
-	POIN2	song03E2_004
-	POIN2	song03E2_005
+	POIN2	PlasmagicSeasons_001
+	POIN2	PlasmagicSeasons_002
+	POIN2	PlasmagicSeasons_003
+	POIN2	PlasmagicSeasons_004
+	POIN2	PlasmagicSeasons_005
 
 	
