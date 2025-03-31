@@ -1,10 +1,10 @@
-{#define SongTableOffset  0x224470
+#define SongTableOffset  0x224470
 #include "drumfix_fe8.event"
 ALIGN 4
 voicegroup000:
 #incbin "FE8_NI_Map_2.bin"
 
-PUSH {sets the title screen bgm to null
+PUSH //sets the title screen bgm to null
 ORG $C5C9C
 BYTE 0
 POP
@@ -42,8 +42,8 @@ SongTable(FE5AugustBID, FE5AugustB, MapMusicGroup)
 }
 
 {
-#include "MusicEvents/BaskingintheSun.event"
-SongTable(BaskingintheSunID, BaskingintheSun, MapMusicGroup)
+#include "MusicEvents/BaskingIntheSun.event"
+SongTable(BaskingIntheSunID, BaskingIntheSun, MapMusicGroup)
 }
 
 {
@@ -64,11 +64,6 @@ SongTable(BlueClapperID, BlueClapper, MapMusicGroup)
 {
 #include "MusicEvents/CaesuraofDespair.event"
 SongTable(CaesuraofDespairID, CaesuraofDespair, MapMusicGroup)
-}
-
-{
-#include "MusicEvents/FE5ChargeB.event"
-SongTable(FE5ChargeBID, FE5ChargeB, MapMusicGroup)
 }
 
 {
@@ -317,8 +312,8 @@ SongTable(KonpekoID, Konpeko, MapMusicGroup)
 }
 
 {
-#include "MusicEvents/MarineSetSail.event"
-SongTable(MarineSetSailID, MarineSetSail, MapMusicGroup)
+#include "MusicEvents/MarineSail.event"
+SongTable(MarineSailID, MarineSail, MapMusicGroup)
 }
 
 {

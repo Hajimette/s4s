@@ -1,36 +1,36 @@
-//Event file generated froFE4ValkyrieStaff Sappy .s forFE4ValkyrieStaffat.
-	#include "FE4ValkyrieStaffPlayDef.event"
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
 
 	#define	FE4ValkyrieStaff_grp  voicegroup000
 	#define	FE4ValkyrieStaff_pri  10
 	#define	FE4ValkyrieStaff_rev  0
-	#define	FE4ValkyrieStaff_FE4ValkyrieStaffvl  127
+	#define	FE4ValkyrieStaff_mvl  127
 	#define	FE4ValkyrieStaff_key  0
 	#define	FE4ValkyrieStaff_tbs  1
 	#define	FE4ValkyrieStaff_exg  0
-	#define	FE4ValkyrieStaff_cFE4ValkyrieStaffp  1
+	#define	FE4ValkyrieStaff_cmp  1
 
 	// .rodata
 	//	FE4ValkyrieStaff
 	ALIGN 4
 
 
-//**************** Track 1 (FE4ValkyrieStaffidi-Chn.0) ****************//
+//**************** Track 1 (Midi-Chn.0) ****************//
 
 FE4ValkyrieStaff_001:
 //  #01 //000   ----------------------------------------
-Label_00:
- BYTE   TEFE4ValkyrieStaffPO   90*FE4ValkyrieStaff_tbs/2
+Label_5726D4:
+ BYTE   TEMPO   90*FE4ValkyrieStaff_tbs/2
  BYTE   KEYSH   FE4ValkyrieStaff_key+0
  BYTE   LFOS 44
- BYTE   FE4ValkyrieStaffODT 0
- BYTE   VOL   19*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   MODT 0
+ BYTE   VOL   19*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   BEND   c_v+0
  BYTE   BENDR  12
- BYTE   FE4ValkyrieStaffOD 0
+ BYTE   MOD 0
  BYTE   VOICE   10
- BYTE   VOL   35*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   35*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N06  En6  v127
  BYTE   W06
@@ -64,8 +64,8 @@ Label_00:
  BYTE   W06
  BYTE   N06  Cn7
  BYTE   W06
- BYTE   N06  En6
 //  #01 //001   ----------------------------------------
+ BYTE   N06  En6
  BYTE   W06
  BYTE   Fn6
  BYTE   W06
@@ -97,15 +97,7 @@ Label_00:
  BYTE   W06
  BYTE   Cn7
  BYTE   W06
- BYTE   Dn6
 //  #01 //002   ----------------------------------------
- BYTE   W06
- BYTE   Ds6
- BYTE   W06
- BYTE   Gn6
- BYTE   W06
- BYTE   As6
- BYTE   W06
  BYTE   Dn6
  BYTE   W06
  BYTE   Ds6
@@ -130,15 +122,15 @@ Label_00:
  BYTE   W06
  BYTE   As6
  BYTE   W06
- BYTE   En6
+ BYTE   Dn6
+ BYTE   W06
+ BYTE   Ds6
+ BYTE   W06
+ BYTE   Gn6
+ BYTE   W06
+ BYTE   As6
+ BYTE   W06
 //  #01 //003   ----------------------------------------
- BYTE   W06
- BYTE   Fn6
- BYTE   W06
- BYTE   An6
- BYTE   W06
- BYTE   Cn7
- BYTE   W06
  BYTE   En6
  BYTE   W06
  BYTE   Fn6
@@ -163,8 +155,16 @@ Label_00:
  BYTE   W06
  BYTE   Cn7
  BYTE   W06
- BYTE   Dn6
+ BYTE   En6
+ BYTE   W06
+ BYTE   Fn6
+ BYTE   W06
+ BYTE   An6
+ BYTE   W06
+ BYTE   Cn7
+ BYTE   W06
 //  #01 //004   ----------------------------------------
+ BYTE   Dn6
  BYTE   W06
  BYTE   Ds6
  BYTE   W06
@@ -180,7 +180,7 @@ Label_00:
  BYTE   W06
  BYTE   As6
  BYTE   W06
- BYTE   TEFE4ValkyrieStaffPO   80*FE4ValkyrieStaff_tbs/2
+ BYTE   TEMPO   80*FE4ValkyrieStaff_tbs/2
  BYTE   N06  Dn6  v127
  BYTE   W06
  BYTE   Ds6
@@ -189,7 +189,7 @@ Label_00:
  BYTE   W06
  BYTE   As6
  BYTE   W06
- BYTE   TEFE4ValkyrieStaffPO   60*FE4ValkyrieStaff_tbs/2
+ BYTE   TEMPO   60*FE4ValkyrieStaff_tbs/2
  BYTE   N06  Gn6  v127
  BYTE   W06
  BYTE   Ds6
@@ -200,10 +200,45 @@ Label_00:
  BYTE   W06
 //  #01 //005   ----------------------------------------
  BYTE   VOICE   4
- BYTE   VOL   73*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   73*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v-44
- BYTE   TEFE4ValkyrieStaffPO   90*FE4ValkyrieStaff_tbs/2
+ BYTE   TEMPO   90*FE4ValkyrieStaff_tbs/2
  BYTE   W48
+ BYTE   N01  Gn6  v127
+ BYTE   W02
+ BYTE   Cn7
+ BYTE   W02
+ BYTE   N02  Fn7
+ BYTE   W04
+ BYTE   VOL   47*FE4ValkyrieStaff_mvl/mxv
+ BYTE   N01  Gn6  v127
+ BYTE   W02
+ BYTE   Cn7
+ BYTE   W02
+ BYTE   N02  Fn7
+ BYTE   W04
+ BYTE   VOL   29*FE4ValkyrieStaff_mvl/mxv
+ BYTE   N01  Gn6  v127
+ BYTE   W02
+ BYTE   Cn7
+ BYTE   W02
+ BYTE   N02  Fn7
+ BYTE   W04
+ BYTE   VOL   15*FE4ValkyrieStaff_mvl/mxv
+ BYTE   N01  Gn6  v127
+ BYTE   W02
+ BYTE   Cn7
+ BYTE   W02
+ BYTE   N02  Fn7
+ BYTE   W04
+ BYTE   VOL   7*FE4ValkyrieStaff_mvl/mxv
+ BYTE   N01  Gn6  v127
+ BYTE   W02
+ BYTE   Cn7
+ BYTE   W02
+ BYTE   N02  Fn7
+ BYTE   W04
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
  BYTE   N01  Gn6  v127
  BYTE   W02
  BYTE   Cn7
@@ -211,93 +246,56 @@ Label_00:
  BYTE   N02  Fn7
  BYTE   W04
 //  #01 //006   ----------------------------------------
- BYTE   VOL   47*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   N01  Gn6  v127
- BYTE   W02
- BYTE   Cn7
- BYTE   W02
- BYTE   N02  Fn7
- BYTE   W04
- BYTE   VOL   29*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   N01  Gn6  v127
- BYTE   W02
- BYTE   Cn7
- BYTE   W02
- BYTE   N02  Fn7
- BYTE   W04
- BYTE   VOL   15*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   N01  Gn6  v127
- BYTE   W02
- BYTE   Cn7
- BYTE   W02
- BYTE   N02  Fn7
- BYTE   W04
- BYTE   VOL   7*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   N01  Gn6  v127
- BYTE   W02
- BYTE   Cn7
- BYTE   W02
- BYTE   N02  Fn7
- BYTE   W04
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   N01  Gn6  v127
- BYTE   W02
- BYTE   Cn7
- BYTE   W02
- BYTE   N02  Fn7
- BYTE   W04
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   N01  Gn6  v127
  BYTE   W02
  BYTE   N01  Cn7  v127
  BYTE   W02
  BYTE   N02  Fn7
  BYTE   W04
-//  #01 //007   ----------------------------------------
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   N01  Gn6  v127
  BYTE   W02
  BYTE   Cn7
  BYTE   W02
  BYTE   N02  Fn7
  BYTE   W04
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   N01  Gn6  v127
  BYTE   W02
  BYTE   Cn7
  BYTE   W02
  BYTE   N02  Fn7
  BYTE   W04
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   N01  Gn6  v127
  BYTE   W02
  BYTE   Cn7
  BYTE   W02
  BYTE   N02  Fn7
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W04
  BYTE   W48
-//  #01 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_00
+  POIN2 Label_5726D4
  BYTE   FINE
 
-//**************** Track 2 (FE4ValkyrieStaffidi-Chn.1) ****************//
+//**************** Track 2 (Midi-Chn.1) ****************//
 
 FE4ValkyrieStaff_002:
 //  #02 //000   ----------------------------------------
-Label_00:
- BYTE   TEFE4ValkyrieStaffPO   90*FE4ValkyrieStaff_tbs/2
+Label_572990:
+ BYTE   TEMPO   90*FE4ValkyrieStaff_tbs/2
  BYTE   KEYSH   FE4ValkyrieStaff_key+0
  BYTE   LFOS 44
- BYTE   FE4ValkyrieStaffODT 0
- BYTE   VOL   19*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   MODT 0
+ BYTE   VOL   19*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   BEND   c_v+0
  BYTE   BENDR  12
- BYTE   FE4ValkyrieStaffOD 0
+ BYTE   MOD 0
  BYTE   VOICE   102
- BYTE   VOL   59*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   59*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W84
  BYTE   N06  En3  v127
@@ -309,69 +307,67 @@ Label_00:
  BYTE   N72  As3
  BYTE   W84
  BYTE   N06  En3
-//  #02 //002   ----------------------------------------
  BYTE   W06
+//  #02 //002   ----------------------------------------
  BYTE   N78  Fn3
  BYTE   W96
+//  #02 //003   ----------------------------------------
  BYTE   W06
  BYTE   N72  As3
-//  #02 //003   ----------------------------------------
  BYTE   W48
- BYTE   TEFE4ValkyrieStaffPO   80*FE4ValkyrieStaff_tbs/2
+ BYTE   TEMPO   80*FE4ValkyrieStaff_tbs/2
  BYTE   W24
- BYTE   TEFE4ValkyrieStaffPO   60*FE4ValkyrieStaff_tbs/2
+ BYTE   TEMPO   60*FE4ValkyrieStaff_tbs/2
  BYTE   W24
 //  #02 //004   ----------------------------------------
  BYTE   VOICE   100
- BYTE   VOL   46*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   46*FE4ValkyrieStaff_mvl/mxv
  BYTE   N16  Cn4  v127
- BYTE   TEFE4ValkyrieStaffPO   90*FE4ValkyrieStaff_tbs/2
+ BYTE   TEMPO   90*FE4ValkyrieStaff_tbs/2
  BYTE   W16
- BYTE   VOL   29*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   29*FE4ValkyrieStaff_mvl/mxv
  BYTE   N16  Cn4  v127
  BYTE   W16
- BYTE   VOL   16*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   16*FE4ValkyrieStaff_mvl/mxv
+ BYTE   N16  Cn4  v127
+ BYTE   W16
+ BYTE   VOL   7*FE4ValkyrieStaff_mvl/mxv
+ BYTE   N16  Cn4  v127
+ BYTE   W16
+ BYTE   VOL   3*FE4ValkyrieStaff_mvl/mxv
+ BYTE   N16  Cn4  v127
+ BYTE   W16
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   N16  Cn4  v127
  BYTE   W16
 //  #02 //005   ----------------------------------------
- BYTE   VOL   7*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   N16  Cn4  v127
- BYTE   W16
- BYTE   VOL   3*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   N16  Cn4  v127
- BYTE   W16
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   N16  Cn4  v127
- BYTE   W16
-//  #02 //006   ----------------------------------------
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W32
  BYTE   W48
-//  #02 //007   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_00
+  POIN2 Label_572990
  BYTE   FINE
 
-//**************** Track 3 (FE4ValkyrieStaffidi-Chn.2) ****************//
+//**************** Track 3 (Midi-Chn.2) ****************//
 
 FE4ValkyrieStaff_003:
 //  #03 //000   ----------------------------------------
-Label_00:
- BYTE   TEFE4ValkyrieStaffPO   90*FE4ValkyrieStaff_tbs/2
+Label_572B74:
+ BYTE   TEMPO   90*FE4ValkyrieStaff_tbs/2
  BYTE   KEYSH   FE4ValkyrieStaff_key+0
  BYTE   LFOS 44
- BYTE   FE4ValkyrieStaffODT 0
- BYTE   VOL   19*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   MODT 0
+ BYTE   VOL   19*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   BEND   c_v+0
  BYTE   BENDR  12
- BYTE   FE4ValkyrieStaffOD 0
+ BYTE   MOD 0
  BYTE   VOICE   102
- BYTE   VOL   59*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   59*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v-54
  BYTE   W96
- BYTE   N72  Cn4  v127
 //  #03 //001   ----------------------------------------
+ BYTE   N72  Cn4  v127
  BYTE   W84
  BYTE   N06  Dn3
  BYTE   W06
@@ -382,163 +378,162 @@ Label_00:
  BYTE   N72  Cn4
  BYTE   W84
  BYTE   N06  Dn3
-//  #03 //003   ----------------------------------------
  BYTE   W06
+//  #03 //003   ----------------------------------------
  BYTE   N78  Ds3
  BYTE   W54
- BYTE   TEFE4ValkyrieStaffPO   80*FE4ValkyrieStaff_tbs/2
+ BYTE   TEMPO   80*FE4ValkyrieStaff_tbs/2
  BYTE   W24
- BYTE   TEFE4ValkyrieStaffPO   60*FE4ValkyrieStaff_tbs/2
+ BYTE   TEMPO   60*FE4ValkyrieStaff_tbs/2
  BYTE   W24
- BYTE   TEFE4ValkyrieStaffPO   90*FE4ValkyrieStaff_tbs/2
 //  #03 //004   ----------------------------------------
+ BYTE   TEMPO   90*FE4ValkyrieStaff_tbs/2
  BYTE   W96
 //  #03 //005   ----------------------------------------
  BYTE   VOICE   100
- BYTE   VOL   46*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   46*FE4ValkyrieStaff_mvl/mxv
  BYTE   N16  As3  v127
  BYTE   W16
- BYTE   VOL   29*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   29*FE4ValkyrieStaff_mvl/mxv
  BYTE   N16  As3  v127
  BYTE   W16
- BYTE   VOL   16*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   16*FE4ValkyrieStaff_mvl/mxv
  BYTE   N16  As3  v127
  BYTE   W16
-//  #03 //006   ----------------------------------------
- BYTE   VOL   7*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   7*FE4ValkyrieStaff_mvl/mxv
  BYTE   N16  As3  v127
  BYTE   W16
- BYTE   VOL   3*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   3*FE4ValkyrieStaff_mvl/mxv
  BYTE   N16  As3  v127
  BYTE   W16
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   N16  As3  v127
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   GoTo
-  POIN2 Label_00
+  POIN2 Label_572B74
  BYTE   FINE
 
-//**************** Track 4 (FE4ValkyrieStaffidi-Chn.3) ****************//
+//**************** Track 4 (Midi-Chn.3) ****************//
 
 FE4ValkyrieStaff_004:
 //  #04 //000   ----------------------------------------
-Label_00:
- BYTE   TEFE4ValkyrieStaffPO   90*FE4ValkyrieStaff_tbs/2
+Label_57226C:
+ BYTE   TEMPO   90*FE4ValkyrieStaff_tbs/2
  BYTE   KEYSH   FE4ValkyrieStaff_key+0
  BYTE   LFOS 44
- BYTE   FE4ValkyrieStaffODT 0
- BYTE   VOL   19*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   MODT 0
+ BYTE   VOL   19*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   BEND   c_v+0
  BYTE   BENDR  12
- BYTE   FE4ValkyrieStaffOD 0
+ BYTE   MOD 0
  BYTE   VOICE   52
- BYTE   VOL   73*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   73*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   W96
  BYTE   W96
 //  #04 //001   ----------------------------------------
  BYTE   W96
- BYTE   W72
 //  #04 //002   ----------------------------------------
- BYTE   BEND   c_v+0
- BYTE   N96  Cs4  v127
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
+ BYTE   W96
 //  #04 //003   ----------------------------------------
+ BYTE   W72
+ BYTE   BEND   c_v+0
+ BYTE   N96  Cs4  v127
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
  BYTE   BEND   c_v+2
  BYTE   N96  Cs4  v127
  BYTE   BEND   c_v+2
@@ -588,7 +583,7 @@ Label_00:
  BYTE   BEND   c_v+3
  BYTE   BEND   c_v+3
  BYTE   BEND   c_v+3
- BYTE   TEFE4ValkyrieStaffPO   80*FE4ValkyrieStaff_tbs/2
+ BYTE   TEMPO   80*FE4ValkyrieStaff_tbs/2
  BYTE   BEND   c_v+3
  BYTE   BEND   c_v+4
  BYTE   BEND   c_v+4
@@ -637,393 +632,390 @@ Label_00:
  BYTE   BEND   c_v+5
  BYTE   BEND   c_v+5
  BYTE   BEND   c_v+5
- BYTE   TEFE4ValkyrieStaffPO   60*FE4ValkyrieStaff_tbs/2
-//  #04 //004   ----------------------------------------
- BYTE   VOL   73*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   TEMPO   60*FE4ValkyrieStaff_tbs/2
+ BYTE   VOL   73*FE4ValkyrieStaff_mvl/mxv
  BYTE   BEND   c_v+5
  BYTE   W02
- BYTE   VOL   72*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   72*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   69*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   69*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   68*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   68*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   65*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   65*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   64*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   64*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   64*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   64*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   61*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   61*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   60*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   60*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   59*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   59*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   56*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   56*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   56*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   56*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   55*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   55*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   54*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   54*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   52*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   52*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   50*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   TEFE4ValkyrieStaffPO   90*FE4ValkyrieStaff_tbs/2
+ BYTE   VOL   50*FE4ValkyrieStaff_mvl/mxv
+ BYTE   TEMPO   90*FE4ValkyrieStaff_tbs/2
  BYTE   W02
- BYTE   VOL   50*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   50*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   49*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   49*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   47*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   47*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   46*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   46*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   45*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+//  #04 //004   ----------------------------------------
+ BYTE   VOL   45*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   43*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   43*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   43*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   43*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   42*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   42*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   41*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   41*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   39*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   39*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   37*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   37*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   37*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   37*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   36*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   36*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   35*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   35*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   32*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   31*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   31*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   25*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   24*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   14*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   13*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   13*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   13*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   12*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   10*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   10*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   9*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   7*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   6*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   6*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   6*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   4*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   4*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   4*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   4*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   3*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
 //  #04 //005   ----------------------------------------
- BYTE   VOL   34*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   32*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   32*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   31*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   31*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   30*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   29*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   27*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   27*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   26*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   25*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   24*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   23*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   23*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   23*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   22*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   21*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   20*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   20*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   19*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   18*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   17*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   16*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   16*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   16*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   15*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   14*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   13*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   13*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   13*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
-//  #04 //006   ----------------------------------------
- BYTE   VOL   12*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   12*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   11*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   11*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   11*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   10*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   10*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   9*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   8*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   8*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   8*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   7*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   7*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   7*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   6*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   6*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   6*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   5*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   5*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   5*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   5*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   4*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   4*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   4*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   4*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   3*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   3*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   3*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   3*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
-//  #04 //007   ----------------------------------------
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
-//  #04 //008   ----------------------------------------
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   GoTo
-  POIN2 Label_00
+  POIN2 Label_57226C
  BYTE   FINE
 
-//**************** Track 5 (FE4ValkyrieStaffidi-Chn.4) ****************//
+//**************** Track 5 (Midi-Chn.4) ****************//
 
 FE4ValkyrieStaff_005:
 //  #05 //000   ----------------------------------------
-Label_00:
- BYTE   TEFE4ValkyrieStaffPO   90*FE4ValkyrieStaff_tbs/2
+Label_01738434:
+ BYTE   TEMPO   90*FE4ValkyrieStaff_tbs/2
  BYTE   KEYSH   FE4ValkyrieStaff_key+0
  BYTE   LFOS 44
- BYTE   FE4ValkyrieStaffODT 0
- BYTE   VOL   19*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   MODT 0
+ BYTE   VOL   19*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   BEND   c_v+0
  BYTE   BENDR  12
- BYTE   FE4ValkyrieStaffOD 0
+ BYTE   MOD 0
  BYTE   VOICE   52
- BYTE   VOL   73*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   73*FE4ValkyrieStaff_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   W96
  BYTE   W96
 //  #05 //001   ----------------------------------------
  BYTE   W96
- BYTE   W72
 //  #05 //002   ----------------------------------------
- BYTE   BEND   c_v+0
- BYTE   N96  Fs3  v127
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+0
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+1
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
- BYTE   BEND   c_v+2
+ BYTE   W96
 //  #05 //003   ----------------------------------------
+ BYTE   W72
+ BYTE   BEND   c_v+0
+ BYTE   N96  Fs3  v127
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+1
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
+ BYTE   BEND   c_v+2
  BYTE   BEND   c_v+2
  BYTE   N96  Fs3  v127
  BYTE   BEND   c_v+2
@@ -1073,7 +1065,7 @@ Label_00:
  BYTE   BEND   c_v+3
  BYTE   BEND   c_v+3
  BYTE   BEND   c_v+3
- BYTE   TEFE4ValkyrieStaffPO   80*FE4ValkyrieStaff_tbs/2
+ BYTE   TEMPO   80*FE4ValkyrieStaff_tbs/2
  BYTE   BEND   c_v+3
  BYTE   BEND   c_v+4
  BYTE   BEND   c_v+4
@@ -1122,278 +1114,275 @@ Label_00:
  BYTE   BEND   c_v+5
  BYTE   BEND   c_v+5
  BYTE   BEND   c_v+5
- BYTE   TEFE4ValkyrieStaffPO   60*FE4ValkyrieStaff_tbs/2
-//  #05 //004   ----------------------------------------
- BYTE   VOL   73*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   TEMPO   60*FE4ValkyrieStaff_tbs/2
+ BYTE   VOL   73*FE4ValkyrieStaff_mvl/mxv
  BYTE   BEND   c_v+5
  BYTE   W02
- BYTE   VOL   72*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   72*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   69*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   69*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   68*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   68*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   65*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   65*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   64*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   64*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   64*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   64*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   61*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   61*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   60*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   60*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   59*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   59*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   56*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   56*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   56*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   56*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   55*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   55*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   54*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   54*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   52*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   52*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   50*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   TEFE4ValkyrieStaffPO   90*FE4ValkyrieStaff_tbs/2
+ BYTE   VOL   50*FE4ValkyrieStaff_mvl/mxv
+ BYTE   TEMPO   90*FE4ValkyrieStaff_tbs/2
  BYTE   W02
- BYTE   VOL   50*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   50*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   49*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   49*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   47*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   47*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   46*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   46*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   45*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+//  #05 //004   ----------------------------------------
+ BYTE   VOL   45*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   43*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   43*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   43*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   43*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   42*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   42*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   41*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   41*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   39*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   39*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   37*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   37*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   37*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   37*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   36*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   36*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   35*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   35*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   32*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   31*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   31*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   25*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   24*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   14*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   13*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   13*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   13*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   12*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   10*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   10*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   9*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   7*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   6*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   6*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   6*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   4*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   4*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   4*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   4*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   3*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   2*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
 //  #05 //005   ----------------------------------------
- BYTE   VOL   34*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   32*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   32*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   31*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   31*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   30*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   1*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   29*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   27*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   27*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   26*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   25*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   24*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   23*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   23*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   23*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   22*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   21*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   20*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   20*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   19*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   18*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W02
- BYTE   VOL   17*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   16*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   16*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   16*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   W01
- BYTE   VOL   15*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   14*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   13*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   13*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   13*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
-//  #05 //006   ----------------------------------------
- BYTE   VOL   12*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   12*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   11*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   11*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   11*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   10*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   10*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   9*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   8*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   8*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   8*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   7*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   7*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   7*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   6*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   6*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   6*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   5*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   5*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   5*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   5*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   4*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   4*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   4*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   4*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   3*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   3*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   3*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   3*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
-//  #05 //007   ----------------------------------------
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   2*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   1*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
-//  #05 //008   ----------------------------------------
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W02
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   W01
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
- BYTE   VOL   0*FE4ValkyrieStaff_FE4ValkyrieStaffvl/FE4ValkyrieStaffxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
+ BYTE   VOL   0*FE4ValkyrieStaff_mvl/mxv
  BYTE   GoTo
-  POIN2 Label_00
+  POIN2 Label_01738434
  BYTE   FINE
 
 //******************************************************//
 	ALIGN 4
 
 FE4ValkyrieStaff:
-	BYTE	5	// NuFE4ValkyrieStaffTrks
-	BYTE	0	// NuFE4ValkyrieStaffBlks
+	BYTE	5	// NumTrks
+	BYTE	0	// NumBlks
 	BYTE	FE4ValkyrieStaff_pri	// Priority
 	BYTE	FE4ValkyrieStaff_rev	// Reverb.
     

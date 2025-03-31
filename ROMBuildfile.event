@@ -11,7 +11,7 @@
 //    #include "Text/InstallTextData.event"
 //    MESSAGE Used text space ends at currentOffset
     #include "Text/TextDefinitions.event"
-
+    #include "Definitions/DefinitionInstaller.event"
     //CSV tables
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
@@ -22,7 +22,7 @@
     #include "Music/MusicInstaller.event"
     #include "New Stuff/ChapterTransitions/ChapterTransitionInstaller.event"
     #include "Fatigue/Fatigue.event"
-    #include "New Stuff/Abort/Abort.event"    
+    #include "New Stuff/Abort/AbortStaff.event"    
     #include "New Stuff/AumStaff/Aum.event"
     
     #include "New Stuff/CustomItems/StealStaff/_StealStaff_Setup.event"

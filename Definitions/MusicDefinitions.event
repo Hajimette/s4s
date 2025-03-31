@@ -2,11 +2,11 @@
 
 
 //HoloAdjacent
-#define ShinySmileyStoryID 0x01
-#define ShinySmileyStoryTitleID 0x43
+#define ShinySmilyStoryID 0x01
+#define ShinySmilyStoryTitleID 0x43
 #define AstrogirlID 0x02
 #define AstrogirlSlowedID 0xC1
-#define BaskingintheSunID 0x03 
+#define BaskingIntheSunID 0x03 
 #define BlueClapperID 0x04
 #define CaesuraofDespairID 0x05
 #define _223AMID 0x06
@@ -22,7 +22,6 @@
 #define KiramekiRiderID 0x0F 
 #define KisekiKnotID 0x15
 #define KonpekoID 0x16
-#define FE5MapBID 0x17
 #define MarineSetSailID 0x18
 #define NonfictionID 0x1C
 #define PlasmagicSeasonsID 0x1D
@@ -37,7 +36,7 @@
 #define FE4AnotherAssaultID 0x21
 #define FE4FromFoetoFriendID 0x22
 #define FE4ThoughtsGoingAroundID 0x23
-#define FE4DanceintheSkiesID 0x24
+#define FE4DanceintheSkiesID 0xC4
 #define FE4ValkyrieStaffID 0x25
 #define FE4SilezhaID 0x26
 
