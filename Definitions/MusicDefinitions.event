@@ -22,7 +22,7 @@
 #define KiramekiRiderID 0x0F 
 #define KisekiKnotID 0x15
 #define KonpekoID 0x16
-#define MarineSetSailID 0x18
+#define MarineSailID 0x18
 #define NonfictionID 0x1C
 #define PlasmagicSeasonsID 0x1D
 #define rushiabgmID 0x1E

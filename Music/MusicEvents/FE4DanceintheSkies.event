@@ -1,35 +1,35 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	song0C_grp  voicegroup000
-	#define	song0C_pri  0
-	#define	song0C_rev  0
-	#define	song0C_mvl  127
-	#define	song0C_key  0
-	#define	song0C_tbs  1
-	#define	song0C_exg  0
-	#define	song0C_cmp  1
+	#define	FE4DanceintheSkies_grp  voicegroup000
+	#define	FE4DanceintheSkies_pri  0
+	#define	FE4DanceintheSkies_rev  0
+	#define	FE4DanceintheSkies_mvl  127
+	#define	FE4DanceintheSkies_key  0
+	#define	FE4DanceintheSkies_tbs  1
+	#define	FE4DanceintheSkies_exg  0
+	#define	FE4DanceintheSkies_cmp  1
 
 	// .rodata
-	//	song0C
+	//	FE4DanceintheSkies
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song0C_001:
+FE4DanceintheSkies_001:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0C_key+0
- BYTE   TEMPO   102*song0C_tbs/2
+ BYTE   KEYSH   FE4DanceintheSkies_key+0
+ BYTE   TEMPO   102*FE4DanceintheSkies_tbs/2
  BYTE   PAN   c_v+0
- BYTE   VOL   10*song0C_mvl/mxv
+ BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
  BYTE   MOD 0
  BYTE   CnM2
  BYTE   BEND   c_v+0
  BYTE   W02
  BYTE   VOICE   48
  BYTE   PAN   c_v+31
- BYTE   VOL   25*song0C_mvl/mxv
+ BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
  BYTE   N12  Ds2  v127
  BYTE   W12
  BYTE   As2
@@ -277,7 +277,7 @@ Label_0_55150A:
  BYTE   W02
  BYTE   VOICE   48
  BYTE   PAN   c_v+31
- BYTE   VOL   25*song0C_mvl/mxv
+ BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
  BYTE   N12  Ds2  v127
  BYTE   W12
  BYTE   As2
@@ -305,18 +305,18 @@ Label_0_55150A:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song0C_002:
+FE4DanceintheSkies_002:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0C_key+0
+ BYTE   KEYSH   FE4DanceintheSkies_key+0
  BYTE   PAN   c_v+0
- BYTE   VOL   10*song0C_mvl/mxv
+ BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
  BYTE   MOD 0
  BYTE   CnM2
  BYTE   BEND   c_v+0
  BYTE   W02
  BYTE   VOICE   48
  BYTE   PAN   c_v-54
- BYTE   VOL   10*song0C_mvl/mxv
+ BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
  BYTE   W06
  BYTE   N12  Ds2  v127
  BYTE   W12
@@ -558,7 +558,7 @@ Label_1_017A850F:
  BYTE   W08
  BYTE   VOICE   48
  BYTE   PAN   c_v-54
- BYTE   VOL   10*song0C_mvl/mxv
+ BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
  BYTE   W06
  BYTE   N12  Ds2  v127
  BYTE   W12
@@ -596,18 +596,18 @@ Label_1_017A850F:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song0C_003:
+FE4DanceintheSkies_003:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0C_key+0
+ BYTE   KEYSH   FE4DanceintheSkies_key+0
  BYTE   PAN   c_v+0
- BYTE   VOL   10*song0C_mvl/mxv
+ BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
  BYTE   MOD 0
  BYTE   CnM2
  BYTE   BEND   c_v+0
  BYTE   W02
  BYTE   VOICE   48
  BYTE   PAN   c_v+0
- BYTE   VOL   40*song0C_mvl/mxv
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
  BYTE   W92
  BYTE   W02
 // 001   ----------------------------------------
@@ -868,7 +868,7 @@ Label_2_017A89E2:
  BYTE   W02
  BYTE   VOICE   48
  BYTE   PAN   c_v+0
- BYTE   VOL   40*song0C_mvl/mxv
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
  BYTE   W92
  BYTE   W02
 // 025   ----------------------------------------
@@ -883,18 +883,18 @@ Label_2_017A89E2:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song0C_004:
+FE4DanceintheSkies_004:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0C_key+0
+ BYTE   KEYSH   FE4DanceintheSkies_key+0
  BYTE   PAN   c_v+0
- BYTE   VOL   10*song0C_mvl/mxv
+ BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
  BYTE   MOD 0
  BYTE   CnM2
  BYTE   BEND   c_v+0
  BYTE   W02
  BYTE   VOICE   32
  BYTE   PAN   c_v-49
- BYTE   VOL   35*song0C_mvl/mxv
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
  BYTE   N12  Ds1  v112
  BYTE   W48
  BYTE   N12
@@ -1047,7 +1047,7 @@ Label_3_017A8B0D:
  BYTE   W02
  BYTE   VOICE   32
  BYTE   PAN   c_v-49
- BYTE   VOL   35*song0C_mvl/mxv
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
  BYTE   N12  Ds1  v112
  BYTE   W48
  BYTE   N12
@@ -1064,18 +1064,18 @@ Label_3_017A8B0D:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song0C_005:
+FE4DanceintheSkies_005:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0C_key+0
+ BYTE   KEYSH   FE4DanceintheSkies_key+0
  BYTE   PAN   c_v+0
- BYTE   VOL   10*song0C_mvl/mxv
+ BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
  BYTE   MOD 0
  BYTE   CnM2
  BYTE   BEND   c_v+0
  BYTE   W02
  BYTE   VOICE   52
  BYTE   PAN   c_v-4
- BYTE   VOL   25*song0C_mvl/mxv
+ BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
  BYTE   N12  Ds3  v127
  BYTE   W48
  BYTE   N12
@@ -1133,7 +1133,7 @@ Label_4_017A99D5:
  BYTE   W02
  BYTE   VOICE   51
  BYTE   PAN   c_v-34
- BYTE   VOL   35*song0C_mvl/mxv
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
  BYTE   N96  Cn2  v127
  BYTE   W92
  BYTE   W02
@@ -1170,7 +1170,7 @@ Label_4_017A9A19:
  BYTE   W02
  BYTE   VOICE   52
  BYTE   PAN   c_v-4
- BYTE   VOL   25*song0C_mvl/mxv
+ BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
  BYTE   N12  Ds3  v127
  BYTE   W48
  BYTE   N12
@@ -1207,7 +1207,7 @@ Label_4_017A9A19:
  BYTE   W02
  BYTE   VOICE   60
  BYTE   PAN   c_v-44
- BYTE   VOL   35*song0C_mvl/mxv
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
  BYTE   N96  Gn2  v127
  BYTE   W92
  BYTE   W02
@@ -1252,18 +1252,18 @@ Label_4_017A9A89:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song0C_006:
+FE4DanceintheSkies_006:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0C_key+0
+ BYTE   KEYSH   FE4DanceintheSkies_key+0
  BYTE   PAN   c_v+0
- BYTE   VOL   10*song0C_mvl/mxv
+ BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
  BYTE   MOD 0
  BYTE   CnM2
  BYTE   BEND   c_v+0
  BYTE   W02
  BYTE   VOICE   51
  BYTE   PAN   c_v-24
- BYTE   VOL   35*song0C_mvl/mxv
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
  BYTE   W92
  BYTE   W02
 // 001   ----------------------------------------
@@ -1331,7 +1331,7 @@ Label_5_017A9AE3:
  BYTE   W02
  BYTE   VOICE   60
  BYTE   PAN   c_v-44
- BYTE   VOL   35*song0C_mvl/mxv
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
  BYTE   W24
  BYTE   N12  Fn3  v127
  BYTE   W36
@@ -1374,7 +1374,7 @@ Label_5_017A9B08:
   POIN2 Label_5_017A9AFE
 // 022   ----------------------------------------
  BYTE   W02
- BYTE   VOL   40*song0C_mvl/mxv
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
  BYTE   N48  Fn3  v127
  BYTE   W48
  BYTE   Cs3
@@ -1450,7 +1450,7 @@ Label_5_017A9B08:
  BYTE   EOT
  BYTE   VOICE   51
  BYTE   PAN   c_v-24
- BYTE   VOL   35*song0C_mvl/mxv
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
  BYTE   W92
  BYTE   W02
 // 034   ----------------------------------------
@@ -1463,18 +1463,18 @@ Label_5_017A9B08:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song0C_007:
+FE4DanceintheSkies_007:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0C_key+0
+ BYTE   KEYSH   FE4DanceintheSkies_key+0
  BYTE   PAN   c_v+0
- BYTE   VOL   10*song0C_mvl/mxv
+ BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
  BYTE   MOD 0
  BYTE   CnM2
  BYTE   BEND   c_v+0
  BYTE   W02
  BYTE   VOICE   60
  BYTE   PAN   c_v-9
- BYTE   VOL   35*song0C_mvl/mxv
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
  BYTE   W92
  BYTE   W02
 // 001   ----------------------------------------
@@ -1609,7 +1609,7 @@ Label_6_017A85DC:
  BYTE   W02
  BYTE   VOICE   60
  BYTE   PAN   c_v-9
- BYTE   VOL   35*song0C_mvl/mxv
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
  BYTE   W92
  BYTE   W02
 // 034   ----------------------------------------
@@ -1622,17 +1622,17 @@ Label_6_017A85DC:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song0C_008:
+FE4DanceintheSkies_008:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0C_key+0
+ BYTE   KEYSH   FE4DanceintheSkies_key+0
  BYTE   PAN   c_v+0
- BYTE   VOL   10*song0C_mvl/mxv
+ BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
  BYTE   MOD 0
  BYTE   CnM2
  BYTE   BEND   c_v+0
  BYTE   W02
  BYTE   VOICE   121
- BYTE   VOL   20*song0C_mvl/mxv
+ BYTE   VOL   20*FE4DanceintheSkies_mvl/mxv
  BYTE   W92
  BYTE   W02
 // 001   ----------------------------------------
@@ -1738,7 +1738,7 @@ Label_7_017A9BB6:
 // 024   ----------------------------------------
  BYTE   W02
  BYTE   VOICE   121
- BYTE   VOL   20*song0C_mvl/mxv
+ BYTE   VOL   20*FE4DanceintheSkies_mvl/mxv
  BYTE   W92
  BYTE   W02
 // 025   ----------------------------------------
@@ -1752,21 +1752,21 @@ Label_7_017A9BB6:
 //******************************************************//
 	ALIGN 4
 
-song0C:
+FE4DanceintheSkies:
 	BYTE	8	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song0C_pri	// Priority
-	BYTE	song0C_rev	// Reverb.
+	BYTE	FE4DanceintheSkies_pri	// Priority
+	BYTE	FE4DanceintheSkies_rev	// Reverb.
     
-	POIN2	song0C_grp
+	POIN2	FE4DanceintheSkies_grp
     
-	POIN2	song0C_001
-	POIN2	song0C_002
-	POIN2	song0C_003
-	POIN2	song0C_004
-	POIN2	song0C_005
-	POIN2	song0C_006
-	POIN2	song0C_007
-	POIN2	song0C_008
+	POIN2	FE4DanceintheSkies_001
+	POIN2	FE4DanceintheSkies_002
+	POIN2	FE4DanceintheSkies_003
+	POIN2	FE4DanceintheSkies_004
+	POIN2	FE4DanceintheSkies_005
+	POIN2	FE4DanceintheSkies_006
+	POIN2	FE4DanceintheSkies_007
+	POIN2	FE4DanceintheSkies_008
 
 	
