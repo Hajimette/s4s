@@ -85,7 +85,7 @@
 #define Smol_Ame 0x57
 #define Nousagi9 0x58
 #define Comer 0x5A
-#define Skeleton King 0x5B
+#define Skeleton_King 0x5B
 #define Galzuschama 0x5E
 #define Laufey 0x61
 #define Ursula 0x63
