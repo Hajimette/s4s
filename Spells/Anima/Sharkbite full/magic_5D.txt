@@ -1,0 +1,104 @@
+C000077
+C00006C
+C000000
+C000000
+C000000
+C000000
+C000000
+C000000
+C000000
+C000000
+C000000
+C000000
+C100829
+O magic_5D_o_000.png
+B magic_5D_b_001.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_002.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_003.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_004.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_005.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_004.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_005.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_004.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_006.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_006.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_006.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_006.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_007.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_008.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_009.png
+1
+
+C000040
+O magic_5D_o_000.png
+B magic_5D_b_010.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_011.png
+1
+
+C00001F
+C00001A
+O magic_5D_o_000.png
+B magic_5D_b_012.png
+1
+
+C00005B
+~~~
+C000114
+O magic_5D_o_000.png
+B magic_5D_b_013.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_014.png
+1
+
+O magic_5D_o_000.png
+B magic_5D_b_015.png
+1
+
+/// - End of animation
