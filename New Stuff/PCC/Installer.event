@@ -10,9 +10,9 @@ ALIGN 4
 DesperationIDLink:
 BYTE DesperationID
 
-ALIGN 4
-BladeDanceIDLink:
-BYTE BladeDanceID
+//ALIGN 4
+//BladeDanceIDLink:
+//BYTE BladeDanceID
 
 #define SetUnitPCC(unit, pcc) "PUSH; ORG PCCTable + unit; BYTE pcc; POP"
 

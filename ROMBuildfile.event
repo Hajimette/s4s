@@ -5,10 +5,10 @@
 //PROTECT $25224
     ORG FreeSpace
 //FEBuilderでやるので、ここではやらない
-//    #include "repointedTextTable.event"
+    #include "repointedTextTable.event"
 //
     //Text first for Text ID definitions
-//    #include "Text/InstallTextData.event"
+    #include "Text/InstallTextData.event"
 //    MESSAGE Used text space ends at currentOffset
     #include "Text/TextDefinitions.event"
     #include "Definitions/DefinitionInstaller.event"
@@ -21,6 +21,7 @@
     #include "EngineHacks/_MasterHackInstaller.event"
     #include "Music/MusicInstaller.event"
     #include "New Stuff/ChapterTransitions/ChapterTransitionInstaller.event"
+    #include "New Stuff/PCC/Installer.event"
     #include "Fatigue/Fatigue.event"
     #include "New Stuff/Abort/AbortStaff.event"    
     #include "New Stuff/AumStaff/Aum.event"

@@ -3,61 +3,61 @@
 
 
 // Item Definitions
-#define Iron Sword 0x01
-#define Slim Sword 0x02
-#define Steek Sword 0x03
-#define Silver Sword 0x04
-#define Training Blade 0x05
-#define Wing Clipper 0x06
-#define Superior Blade 0x07
-#define Master Sword 0x08
+#define IronSword 0x01
+#define SlimSword 0x02
+#define SteelSword 0x03
+#define SilverSword 0x04
+#define TrainingBlade 0x05
+#define WingClipper 0x06
+#define SuperiorBlade 0x07
+#define MasterSword 0x08
 #define Rapier 0x09
-#define Master Lance 0x0A
-#define Brave Sword 0x0B
+#define MasterLance 0x0A
+#define BraveSword 0x0B
 #define Thorn 0x0C
-#define Killing Edge 0x0D
+#define KillingEdge 0x0D
 #define Armorslayer 0x0E
 #define Dracoslayer 0x0F
-#define Light Brand 0x10
-#define Rune Sword 0x11
+#define LightBrand 0x10
+#define RuneSword 0x11
 #define Lancereaver 0x12
 #define Thoron 0x13
-#define Iron Lance 0x14
-#define Slim lance 0x15
-#define Steel Lance 0x16
-#define Silver Lance 0x17
-#define Superior Lance 0x18
-#define Brave Lance 0x19
-#define Killer Lance 0x1A
+#define IronLance 0x14
+#define Slimlance 0x15
+#define SteelLance 0x16
+#define SilverLance 0x17
+#define SuperiorLance 0x18
+#define BraveLance 0x19
+#define KillerLance 0x1A
 #define Horseslayer 0x1B
 #define Javelin 0x1C
 #define Spear 0x1D
 #define Axereaver 0x1E
-#define Iron Axe 0x1F
-#define Steel Axe 0x20
-#define Silver Axe 0x21
-#define Superior Axe 0x22
-#define Brave Axe 0x23
-#define Killer Axe 0x24
-#define Master Axe 0x25
-#define Hammer 0x26
-#define Devil Axe 0x27
-#define Hand Axe 0x28
+#define IronAxe 0x1F
+#define SteelAxe 0x20
+#define SilverAxe 0x21
+#define SuperiorAxe 0x22
+#define BraveAxe 0x23
+#define KillerAxe 0x24
+#define MasterAxe 0x25
+#define Hammer0x26
+#define DevilAxe 0x27
+#define HandAxe 0x28
 #define Tomahawk 0x29
 #define Swordreaver 0x2A
 #define Swordslayer 0x2B
 #define Hatchet 0x2C
-#define Iron Bow 0x2D
-#define Steel Bow 0x2E
-#define Silver Bow 0x2F
-#define Master Bow 0x30
-#define Killer Bow 0x31
-#define Brave Bow 0x32
-#define Superior Bow 0x33
+#define IronBow 0x2D
+#define SteelBow 0x2E
+#define SilverBow 0x2F
+#define MasterBow 0x30
+#define KillerBow 0x31
+#define BraveBow 0x32
+#define SuperiorBow 0x33
 #define Longbow 0x34
 #define Ballista 0x35
-#define Iron Ballista 0x36
-#define Killer Ballista 0x37
+#define IronBallista 0x36
+#define KillerBallista 0x37
 #define Fire 0x38
 #define Thunder 0x39
 #define Elfire 0x3A
@@ -76,7 +76,7 @@
 #define Nosferatu 0x47
 #define Eclipse 0x48
 #define Fenrir 0x49
-#define Nephilims Sorrow 0x4A
+#define NephilimsSorrow 0x4A
 #define Heal 0x4B
 #define Mend 0x4C
 #define Recover 0x4D
@@ -92,7 +92,7 @@
 #define Hammerne 0x57
 #define Unlock 0x58
 #define Barrier 0x59
-#define Red Heart 0x5A
+#define RedHeart 0x5A
 //#define
 //#define
 //#define
@@ -122,24 +122,24 @@
 #define Arcwind 0xC5
 #define Water 0xC6
 #define Explosion 0xC7
-#define Ancient One 0xC8
-#define Dark Spikes 0xC9
+#define AncientOne 0xC8
+#define DarkSpikes 0xC9
 #define Starlight 0xCA
-#define Rat Magic 0xCB
+#define RatMagic 0xCB
 #define Necromancy 0xCC
 #define Society 0xCD
-#define Elite Sword 0xCE
+#define EliteSword 0xCE
 #define Chakimaru 0xCF
-#define Clock Hands 0xD0
+#define ClockHands 0xD0
 #define Manaslayer 0xD1
-#define Sleep Sword 0xD2
+#define SleepSword 0xD2
 #define Asura 0xD3
 #define Rakshasa 0xD4
 #define Keris 0xD5
 #define Antithesis 0xD6
-#define Barrier Blade 0xD7
-#define B. Sage Seal 0xD8
-#define Magic Ring 0xD9
+#define BarrierBlade 0xD7
+#define BSageSeal 0xD8
+#define MagicRing 0xD9
 #define Seisoda 0xDA  //S Drink
 #define Ricky 0xDB
 #define Sus 0xDC
@@ -148,33 +148,33 @@
 #define Crossbow 0xDF
 #define Rifle 0xE0
 #define Doogstone 0xE1 
-#define Hand Cannon 0xE2
+#define HandCannon 0xE2
 #define Zetamin 0xE3
 #define Asacoco 0xE4
 #define Suicopath 0xE5
 #define MTG 0xE6
 #define Howtizer 0xE7
 #define Trident 0xE8
-#define Hawk Bow 0xE9
+#define HawkBow 0xE9
 #define Darksphere 0xEA
-#define Night Lance 0xEB
-#define Rancid Claw 0xEC
-#define Chicken Claw 0xED
+#define NightLance 0xEB
+#define RancidClaw 0xEC
+#define ChickenClaw 0xED
 #define Kanabo 0xEE
-#define Duelist Sword 0xEF
-#define Duelist Axe 0xF0
-#define Duelist Lance 0xF1
+#define DuelistSword 0xEF
+#define DuelistAxe 0xF0
+#define DuelistLance 0xF1
 #define LifeCleaver 0xF2
 #define Scythe 0xF3
-#define Steel Scythe 0xF4
-#define Master Bow 0xF5
+#define SteelScythe 0xF4
+#define MasterBow 0xF5
 #define Sharkbite 0xF6
-#define Poko-Wand 0xF7
+#define PokoWand 0xF7
 #define Rock 0xF8
 #define Tusks 0xF7
-#define Combat Stim 0xF8
+#define CombatStim 0xF8
 #define Entrap 0xF9
-#define KRH-69 0xFA
+#define KRH69 0xFA
 #define Aum 0xFB
 #define Thief 0xFC
 #define Again 0xFD

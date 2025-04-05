@@ -131,6 +131,9 @@ increases fatigue. [X]
 ## MessageFatigueRestored
 Fatigue Restored. [X]
 
+## ItemMenuGrayStealText
+Steal something NOW. [X]
+
 #include "unitmenu_text.txt"
 
 #include "skilldesc_text.txt"

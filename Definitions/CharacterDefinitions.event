@@ -105,7 +105,7 @@
 #define Gloom 0x7A
 #define Bloom 0x7B
 #define Gen_Moona 0x9D
-#define Kureji 0x9E
+#define Kureiji 0x9E
 #define Pavolia 0x9F
 #define Melfissa 0xA0
 #define Ayunda 0xA1
