@@ -4,6 +4,10 @@ Talk[X]
 ## SS_SkillsText
 Skills[X]
 
+## AbortSubtitleText
+KILLS the targeted [N]
+unit on contact. [X]
+
 ## SS_FatigueRText
 Combat or Staves will make[N]
 this unit tired.[X]

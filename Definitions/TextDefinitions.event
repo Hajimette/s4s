@@ -8,115 +8,115 @@
 #define Steek Sword 0x03
 #define Silver Sword 0x04
 #define Training Blade 0x05
-#define Wing Clipper
-#define Superior Blade
-#define Master Sword
-#define Rapier
-#define Master Lance
-#define Brave Sword
-#define Thorn
-#define Killing Edge
-#define Armorslayer
-#define Dracoslayer
-#define Light Brand
-#define Rune Sword
-#define Lancereaver
-#define Thoron
-#define Iron Lance
-#define Slim lance
-#define Steel Lance
-#define Silver Lance
-#define Superior Lance
-#define Brave Lance
-#define Killer Lance
-#define Horseslayer
-#define Javelin
-#define Spear
-#define Axereaver
-#define Iron Axe
-#define Steel Axe
-#define Silver Axe
-#define Superior Axe
-#define Brave Axe
-#define Killer Axe
-#define Master Axe
-#define Hammer 
-#define Devil Axe
-#define Hand Axe
-#define Tomahawk
-#define Swordreaver
-#define Swordslayer
-#define Hatchet
-#define Iron Bow
-#define Steel Bow
-#define Silver Bow
-#define Master Bow
-#define Killer Bow
-#define Brave Bow
-#define Superior Bow
-#define Longbow
-#define Ballista
-#define Iron Ballista
-#define Killer Ballista
-#define Fire
-#define Thunder
-#define Elfire
-#define Bolting
-#define Fimbulvetr
-#define Tsunami
-#define Pettancaliber
-#define Lightning
-#define Shine
-#define Divine
-#define Purge
-#define Aura
-#define DUMMY
-#define Flux
-#define Luna
-#define Nosferatu
-#define Eclipse
-#define Fenrir
-#define Nephilim's Sorrow
-#define Heal
-#define Mend
-#define Recover
-#define Physic
-#define Fortify
-#define Restore
-#define Silence
-#define Sleep
-#define Berserk
-#define Warp
-#define Rescue
-#define Torch
-#define Hammerne
-#define Unlock
-#define Barrier
-#define Red Heart
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
-#define
+#define Wing Clipper 0x06
+#define Superior Blade 0x07
+#define Master Sword 0x08
+#define Rapier 0x09
+#define Master Lance 0x0A
+#define Brave Sword 0x0B
+#define Thorn 0x0C
+#define Killing Edge 0x0D
+#define Armorslayer 0x0E
+#define Dracoslayer 0x0F
+#define Light Brand 0x10
+#define Rune Sword 0x11
+#define Lancereaver 0x12
+#define Thoron 0x13
+#define Iron Lance 0x14
+#define Slim lance 0x15
+#define Steel Lance 0x16
+#define Silver Lance 0x17
+#define Superior Lance 0x18
+#define Brave Lance 0x19
+#define Killer Lance 0x1A
+#define Horseslayer 0x1B
+#define Javelin 0x1C
+#define Spear 0x1D
+#define Axereaver 0x1E
+#define Iron Axe 0x1F
+#define Steel Axe 0x20
+#define Silver Axe 0x21
+#define Superior Axe 0x22
+#define Brave Axe 0x23
+#define Killer Axe 0x24
+#define Master Axe 0x25
+#define Hammer 0x26
+#define Devil Axe 0x27
+#define Hand Axe 0x28
+#define Tomahawk 0x29
+#define Swordreaver 0x2A
+#define Swordslayer 0x2B
+#define Hatchet 0x2C
+#define Iron Bow 0x2D
+#define Steel Bow 0x2E
+#define Silver Bow 0x2F
+#define Master Bow 0x30
+#define Killer Bow 0x31
+#define Brave Bow 0x32
+#define Superior Bow 0x33
+#define Longbow 0x34
+#define Ballista 0x35
+#define Iron Ballista 0x36
+#define Killer Ballista 0x37
+#define Fire 0x38
+#define Thunder 0x39
+#define Elfire 0x3A
+#define Bolting 0x3B
+#define Fimbulvetr 0x3C
+#define Tsunami 0x3D
+#define Pettancaliber 0x3E
+#define Lightning 0x3F
+#define Shine 0x40
+#define Divine 0x41
+#define Purge 0x42
+#define Aura 0x43
+//#define DUMMY
+#define Flux 0x45
+#define Luna 0x46
+#define Nosferatu 0x47
+#define Eclipse 0x48
+#define Fenrir 0x49
+#define Nephilims Sorrow 0x4A
+#define Heal 0x4B
+#define Mend 0x4C
+#define Recover 0x4D
+#define Physic 0x4E
+#define Fortify 0x4F
+#define Restore 0x50
+#define Silence 0x51
+#define Sleep 0x52
+#define Berserk 0x53
+#define Warp 0x54
+#define Rescue 0x55
+#define Torch 0x56
+#define Hammerne 0x57
+#define Unlock 0x58
+#define Barrier 0x59
+#define Red Heart 0x5A
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
 #define Wind 0xC3
 #define Shaver 0xC4
 #define Arcwind 0xC5

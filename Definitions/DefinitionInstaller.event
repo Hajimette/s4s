@@ -1,4 +1,5 @@
 #include "CharacterDefinitions.event"
 
-//#include "TextDefinitions.event"
+#include "TextDefinitions.event"
 #include "MusicDefinitions.event"
+//#include "TableExpansions.event"

@@ -1,0 +1,166 @@
+#######################################################
+#0107 lorm_sp1 Gunner Bow
+#
+#When importing to FEditorAdv delete # and after each line.
+#######################################################
+/// - Mode 1               #Melee Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+4 p- Pistol Gunner_000.png
+12 p- Pistol Gunner_001.png
+C43                               #Play weapon stance SFE (Clicking noise)
+4 p- Pistol Gunner_002.png
+C05                               #Call spell associated with equipped weapon
+16 p- Pistol Gunner_000.png
+5 p- Pistol Gunner_003.png
+3 p- Pistol Gunner_004.png
+3 p- Pistol Gunner_005.png
+3 p- Pistol Gunner_006.png
+3 p- Pistol Gunner_007.png
+3 p- Pistol Gunner_008.png
+3 p- Pistol Gunner_009.png
+C01                               #NOP
+C06                               #Begin opponent's turn after hit.next code 0D.
+1 p- Pistol Gunner_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+1 p- Pistol Gunner_000.png
+~~~
+/// - Mode 3               #Melee Critical Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Pistol Gunner_000.png
+C44                               #Play short "light emission" SFE
+4 p- Pistol Gunner_010.png
+4 p- Pistol Gunner_011.png
+3 p- Pistol Gunner_012.png
+3 p- Pistol Gunner_013.png
+5 p- Pistol Gunner_014.png
+3 p- Pistol Gunner_015.png
+3 p- Pistol Gunner_016.png
+3 p- Pistol Gunner_017.png
+3 p- Pistol Gunner_018.png
+C43                               #Play weapon stance SFE (Clicking noise)
+4 p- Pistol Gunner_001.png
+C05                               #Call spell associated with equipped weapon
+3 p- Pistol Gunner_002.png
+3 p- Pistol Gunner_000.png
+C01                               #NOP
+2 p- Pistol Gunner_003.png
+10 p- Pistol Gunner_004.png
+2 p- Pistol Gunner_005.png
+3 p- Pistol Gunner_006.png
+3 p- Pistol Gunner_007.png
+3 p- Pistol Gunner_008.png
+3 p- Pistol Gunner_009.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+1 p- Pistol Gunner_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 5               #Ranged Animation 
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+4 p- Pistol Gunner_000.png
+12 p- Pistol Gunner_001.png
+C43                               #Play weapon stance SFE (Clicking noise)
+4 p- Pistol Gunner_002.png
+C05                               #Call spell associated with equipped weapon
+4 p- Pistol Gunner_000.png
+C01                               #NOP
+C06                               #Begin opponent's turn after hit.next code 0D.
+5 p- Pistol Gunner_003.png
+3 p- Pistol Gunner_004.png
+3 p- Pistol Gunner_005.png
+3 p- Pistol Gunner_006.png
+3 p- Pistol Gunner_007.png
+3 p- Pistol Gunner_008.png
+3 p- Pistol Gunner_009.png
+C0D                               #End of dodge animation. preceeded by 0x06
+1 p- Pistol Gunner_000.png
+~~~
+/// - Mode 6               #Ranged Critical Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- Pistol Gunner_000.png
+C44                               #Play short "light emission" SFE
+4 p- Pistol Gunner_010.png
+4 p- Pistol Gunner_011.png
+3 p- Pistol Gunner_012.png
+3 p- Pistol Gunner_013.png
+5 p- Pistol Gunner_014.png
+3 p- Pistol Gunner_015.png
+3 p- Pistol Gunner_016.png
+3 p- Pistol Gunner_017.png
+3 p- Pistol Gunner_018.png
+C43                               #Play weapon stance SFE (Clicking noise)
+4 p- Pistol Gunner_001.png
+C05                               #Call spell associated with equipped weapon
+3 p- Pistol Gunner_002.png
+3 p- Pistol Gunner_000.png
+C01                               #NOP
+2 p- Pistol Gunner_003.png
+10 p- Pistol Gunner_004.png
+2 p- Pistol Gunner_005.png
+3 p- Pistol Gunner_006.png
+3 p- Pistol Gunner_007.png
+3 p- Pistol Gunner_008.png
+3 p- Pistol Gunner_009.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+1 p- Pistol Gunner_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 7               #Dodge Melee Attack
+C02                               #Start of dodge
+1 p- Pistol Gunner_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+4 p- Pistol Gunner_019.png
+1 p- Pistol Gunner_020.png
+C01                               #NOP
+4 p- Pistol Gunner_019.png
+1 p- Pistol Gunner_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 8               #Dodge Ranged Attack
+C02                               #Start of dodge
+1 p- Pistol Gunner_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+4 p- Pistol Gunner_019.png
+1 p- Pistol Gunner_020.png
+C01                               #NOP
+4 p- Pistol Gunner_019.png
+1 p- Pistol Gunner_000.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 9               #Equiped with Melee Weapon
+1 p- Pistol Gunner_000.png
+C01                               #NOP
+~~~
+/// - Mode 10               #Standing motions
+1 p- Pistol Gunner_000.png
+C01                               #NOP
+~~~
+/// - Mode 11               #Equiped with Ranged weapon
+1 p- Pistol Gunner_000.png
+C01                               #NOP
+~~~
+/// - Mode 12               #Attack Missed Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+4 p- Pistol Gunner_000.png
+12 p- Pistol Gunner_001.png
+C43                               #Play weapon stance SFE (Clicking noise)
+4 p- Pistol Gunner_002.png
+C05                               #Call spell associated with equipped weapon
+4 p- Pistol Gunner_000.png
+C01                               #NOP
+C06                               #Begin opponent's turn after hit.next code 0D.
+5 p- Pistol Gunner_003.png
+3 p- Pistol Gunner_004.png
+3 p- Pistol Gunner_005.png
+3 p- Pistol Gunner_006.png
+3 p- Pistol Gunner_007.png
+3 p- Pistol Gunner_008.png
+3 p- Pistol Gunner_009.png
+C0D                               #End of dodge animation. preceeded by 0x06
+1 p- Pistol Gunner_000.png
+~~~
+/// - End of animation

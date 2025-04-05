@@ -1,0 +1,26 @@
+//item table
+//0x809B10
+#define ItemTable NewItemTable
+
+PUSH
+
+ORG $A03C87
+ItemTable
+ORG $C09E73
+ItemTable
+ORG $C779DA
+ItemTable
+ORG $C77DEB
+ItemTable
+ORG $C7CC10
+ItemTable
+ORG $C8052A
+ItemTable
+ORG C8093B
+ItemTable
+ORG $C85778
+ItemTable
+ORG $D8C020
+ItemTable
+
+POP

@@ -120,6 +120,16 @@ a skill when used.[X]
 KILLS the targeted [N]
 unit on contact. [X]
 
+## SS_FatigueRText
+If fatigue goes over [N]
+HP, halves stats. [X]
+
+## SS_FatigueText
+Fighting or using Staves [N]
+increases fatigue. [X]
+
+## MessageFatigueRestored
+Fatigue Restored. [X]
 
 #include "unitmenu_text.txt"
 

@@ -24,9 +24,19 @@ ALIGN 4
 MessageFatigueRestored_String:
 String("Fatigue restored"); BYTE 0
 
+ALIGN 4
+
+{
 setText(SS_FatigueRText, SS_FatigueRText_String)
+}
+
+{
 setText(SS_FatigueText, SS_FatigueText_String)
+}
+
+{
 setText(MessageFatigueRestored, MessageFatigueRestored_String)
+}
 
 //Contains check if unit can be fatigued, routines for incrementing fatigue after action, routine for clearing fatigue on undeployed units
 #include "Fatigue.lyn.event"

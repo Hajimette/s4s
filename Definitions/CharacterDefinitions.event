@@ -56,7 +56,7 @@
 #define Kronii 0x38
 #define Kurokami 0x39
 #define PHaato 0xF9
-#define Pchama 0xF9
+#define Pchama 0xF8
 
 
 // Gaiden Versions

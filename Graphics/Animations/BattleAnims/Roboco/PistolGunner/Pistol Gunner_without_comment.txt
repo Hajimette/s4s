@@ -1,0 +1,161 @@
+/// - Mode 1
+C03
+C07
+4 p- Pistol Gunner_000.png
+12 p- Pistol Gunner_001.png
+C43
+4 p- Pistol Gunner_002.png
+C05
+16 p- Pistol Gunner_000.png
+5 p- Pistol Gunner_003.png
+3 p- Pistol Gunner_004.png
+3 p- Pistol Gunner_005.png
+3 p- Pistol Gunner_006.png
+3 p- Pistol Gunner_007.png
+3 p- Pistol Gunner_008.png
+3 p- Pistol Gunner_009.png
+C01
+C06
+1 p- Pistol Gunner_000.png
+C0D
+1 p- Pistol Gunner_000.png
+~~~
+/// - Mode 3
+C03
+C07
+1 p- Pistol Gunner_000.png
+C44
+4 p- Pistol Gunner_010.png
+4 p- Pistol Gunner_011.png
+3 p- Pistol Gunner_012.png
+3 p- Pistol Gunner_013.png
+5 p- Pistol Gunner_014.png
+3 p- Pistol Gunner_015.png
+3 p- Pistol Gunner_016.png
+3 p- Pistol Gunner_017.png
+3 p- Pistol Gunner_018.png
+C43
+4 p- Pistol Gunner_001.png
+C05
+3 p- Pistol Gunner_002.png
+3 p- Pistol Gunner_000.png
+C01
+2 p- Pistol Gunner_003.png
+10 p- Pistol Gunner_004.png
+2 p- Pistol Gunner_005.png
+3 p- Pistol Gunner_006.png
+3 p- Pistol Gunner_007.png
+3 p- Pistol Gunner_008.png
+3 p- Pistol Gunner_009.png
+C06
+1 p- Pistol Gunner_000.png
+C0D
+~~~
+/// - Mode 5
+C03
+C07
+4 p- Pistol Gunner_000.png
+12 p- Pistol Gunner_001.png
+C43
+4 p- Pistol Gunner_002.png
+C05
+4 p- Pistol Gunner_000.png
+C01
+C06
+5 p- Pistol Gunner_003.png
+3 p- Pistol Gunner_004.png
+3 p- Pistol Gunner_005.png
+3 p- Pistol Gunner_006.png
+3 p- Pistol Gunner_007.png
+3 p- Pistol Gunner_008.png
+3 p- Pistol Gunner_009.png
+C0D
+1 p- Pistol Gunner_000.png
+~~~
+/// - Mode 6
+C03
+C07
+1 p- Pistol Gunner_000.png
+C44
+4 p- Pistol Gunner_010.png
+4 p- Pistol Gunner_011.png
+3 p- Pistol Gunner_012.png
+3 p- Pistol Gunner_013.png
+5 p- Pistol Gunner_014.png
+3 p- Pistol Gunner_015.png
+3 p- Pistol Gunner_016.png
+3 p- Pistol Gunner_017.png
+3 p- Pistol Gunner_018.png
+C43
+4 p- Pistol Gunner_001.png
+C05
+3 p- Pistol Gunner_002.png
+3 p- Pistol Gunner_000.png
+C01
+2 p- Pistol Gunner_003.png
+10 p- Pistol Gunner_004.png
+2 p- Pistol Gunner_005.png
+3 p- Pistol Gunner_006.png
+3 p- Pistol Gunner_007.png
+3 p- Pistol Gunner_008.png
+3 p- Pistol Gunner_009.png
+C06
+1 p- Pistol Gunner_000.png
+C0D
+~~~
+/// - Mode 7
+C02
+1 p- Pistol Gunner_000.png
+C0E
+4 p- Pistol Gunner_019.png
+1 p- Pistol Gunner_020.png
+C01
+4 p- Pistol Gunner_019.png
+1 p- Pistol Gunner_000.png
+C0D
+~~~
+/// - Mode 8
+C02
+1 p- Pistol Gunner_000.png
+C0E
+4 p- Pistol Gunner_019.png
+1 p- Pistol Gunner_020.png
+C01
+4 p- Pistol Gunner_019.png
+1 p- Pistol Gunner_000.png
+C0D
+~~~
+/// - Mode 9
+1 p- Pistol Gunner_000.png
+C01
+~~~
+/// - Mode 10
+1 p- Pistol Gunner_000.png
+C01
+~~~
+/// - Mode 11
+1 p- Pistol Gunner_000.png
+C01
+~~~
+/// - Mode 12
+C03
+C07
+4 p- Pistol Gunner_000.png
+12 p- Pistol Gunner_001.png
+C43
+4 p- Pistol Gunner_002.png
+C05
+4 p- Pistol Gunner_000.png
+C01
+C06
+5 p- Pistol Gunner_003.png
+3 p- Pistol Gunner_004.png
+3 p- Pistol Gunner_005.png
+3 p- Pistol Gunner_006.png
+3 p- Pistol Gunner_007.png
+3 p- Pistol Gunner_008.png
+3 p- Pistol Gunner_009.png
+C0D
+1 p- Pistol Gunner_000.png
+~~~
+/// - End of animation

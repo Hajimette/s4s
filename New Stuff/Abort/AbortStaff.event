@@ -1,6 +1,6 @@
 // copy into other parts of buildfile
 /*
-#define Abort YOURABORTID
+#define Abort 0xFE
 
 ## AbortSubtitleText
 Select target to abort.[X]
