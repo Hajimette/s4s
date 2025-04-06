@@ -2,18 +2,40 @@
 
 
 PUSH
-ORG 
-POIN HoloEmblemLogo
-ORG 
-POIN HoloEmblemLogo_pal
+ORG 0xC5808
+POIN NewFireEmblemLogoGraphic
+POP
+
+PUSH
+ORG 0xC5830
+POIN TitleName
+POP
+
+PUSH
+ORG 0xC57E4
+POIN ForegroundImage
+POP
+
+
+PUSH
+ORG 0xC57F4
+POIN ForegroundPal
 POP
 
 
 ALIGN 4
-HoloEmblemLogo:
+NewFireEmblemLogoGraphic:
 #incbin "HoloEmblemLogo.dmp"
 
 ALIGN 4
-HoloEmblemLogoPal:
-#incbin "HoloEmblemLogo_pal.dmp"
+TitleName:
+#incbin "Scroll.dmp"
+
+ALIGN 4
+ForegroundImage:
+#incbin "LogoForeground.dmp"
+
+ALIGN 4
+ForegroundPal:
+#incbin "LogoForeground_pal.dmp"
 
