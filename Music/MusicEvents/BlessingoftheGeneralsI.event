@@ -20,9 +20,9 @@
 BlessingoftheGeneralsI_001:
 //  #01 //000   ----------------------------------------
  BYTE   KEYSH   BlessingoftheGeneralsI_key+0
-Label_0110AE1E:
+Label_010CA2D6:
  BYTE   TEMPO   136*BlessingoftheGeneralsI_tbs/2
- BYTE   VOICE   1
+ BYTE   VOICE   34
  BYTE   VOL   47*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N28  Dn1  v120
@@ -32,7 +32,7 @@ Label_0110AE1E:
  BYTE   N23
  BYTE   W24
 //  #01 //001   ----------------------------------------
-Label_0110AE2E:
+Label_010CA2E6:
  BYTE   N28  Dn1  v120
  BYTE   W36
  BYTE   N28
@@ -49,9 +49,9 @@ Label_0110AE2E:
  BYTE   W24
 //  #01 //003   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_0110AE2E
+  POIN2 Label_010CA2E6
 //  #01 //004   ----------------------------------------
-Label_0110AE42:
+Label_010CA2FA:
  BYTE   N28  Ds1  v120
  BYTE   W36
  BYTE   N28
@@ -61,7 +61,7 @@ Label_0110AE42:
  BYTE   PEND 
 //  #01 //005   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_0110AE42
+  POIN2 Label_010CA2FA
 //  #01 //006   ----------------------------------------
  BYTE   N30  Dn1  v120
  BYTE   W36
@@ -78,7 +78,7 @@ Label_0110AE42:
  BYTE   W24
 //  #01 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0110AE1E
+  POIN2 Label_010CA2D6
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
@@ -86,8 +86,8 @@ Label_0110AE42:
 BlessingoftheGeneralsI_002:
 //  #02 //000   ----------------------------------------
  BYTE   KEYSH   BlessingoftheGeneralsI_key+0
-Label_0110AE67:
- BYTE   VOICE   2
+Label_010CB2EE:
+ BYTE   VOICE   91
  BYTE   VOL   47*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v+13
  BYTE   TIE  Cn3  v112
@@ -139,7 +139,7 @@ Label_0110AE67:
  BYTE   W48
 //  #02 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0110AE67
+  POIN2 Label_010CB2EE
  BYTE   FINE
 
 //**************** Track 3 (Midi-Chn.2) ****************//
@@ -147,8 +147,8 @@ Label_0110AE67:
 BlessingoftheGeneralsI_003:
 //  #03 //000   ----------------------------------------
  BYTE   KEYSH   BlessingoftheGeneralsI_key+0
-Label_0110AEAA:
- BYTE   VOICE   3
+Label_010C90CE:
+ BYTE   VOICE   51
  BYTE   VOL   41*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v-6
  BYTE   N04  An2  v120
@@ -200,7 +200,7 @@ Label_0110AEAA:
  BYTE   N04  En3
  BYTE   W06
 //  #03 //001   ----------------------------------------
-Label_0110AF01:
+Label_010C9125:
  BYTE   N04  An2  v120
  BYTE   N04  En3
  BYTE   W06
@@ -252,7 +252,7 @@ Label_0110AF01:
  BYTE   PEND 
 //  #03 //002   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_0110AF01
+  POIN2 Label_010C9125
 //  #03 //003   ----------------------------------------
  BYTE   N04  An2  v120
  BYTE   N04  En3
@@ -303,7 +303,7 @@ Label_0110AF01:
  BYTE   N04  Fn3
  BYTE   W06
 //  #03 //004   ----------------------------------------
-Label_0110AFA9:
+Label_010C91CD:
  BYTE   N04  Cn3  v120
  BYTE   N04  Fs3
  BYTE   W06
@@ -355,7 +355,7 @@ Label_0110AFA9:
  BYTE   PEND 
 //  #03 //005   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_0110AFA9
+  POIN2 Label_010C91CD
 //  #03 //006   ----------------------------------------
  BYTE   N04  An2  v120
  BYTE   N04  Fn3
@@ -456,7 +456,7 @@ Label_0110AFA9:
  BYTE   W06
 //  #03 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0110AEAA
+  POIN2 Label_010C90CE
  BYTE   FINE
 
 //**************** Track 4 (Midi-Chn.3) ****************//
@@ -464,8 +464,8 @@ Label_0110AFA9:
 BlessingoftheGeneralsI_004:
 //  #04 //000   ----------------------------------------
  BYTE   KEYSH   BlessingoftheGeneralsI_key+0
-Label_0110B0AB:
- BYTE   VOICE   4
+Label_010CA322:
+ BYTE   VOICE   47
  BYTE   VOL   52*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N17  An2  v120
@@ -545,7 +545,7 @@ Label_0110B0AB:
  BYTE   W06
 //  #04 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0110B0AB
+  POIN2 Label_010CA322
  BYTE   FINE
 
 //**************** Track 5 (Midi-Chn.4) ****************//
@@ -553,8 +553,8 @@ Label_0110B0AB:
 BlessingoftheGeneralsI_005:
 //  #05 //000   ----------------------------------------
  BYTE   KEYSH   BlessingoftheGeneralsI_key+0
-Label_0110B104:
- BYTE   VOICE   5
+Label_010CA55E:
+ BYTE   VOICE   46
  BYTE   VOL   35*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v+4
  BYTE   N05  En3  v104
@@ -590,7 +590,7 @@ Label_0110B104:
  BYTE   Cn5  v084
  BYTE   W06
 //  #05 //001   ----------------------------------------
-Label_0110B13A:
+Label_010CA594:
  BYTE   N05  En3  v104
  BYTE   W06
  BYTE   Fn3  v092
@@ -626,12 +626,12 @@ Label_0110B13A:
  BYTE   PEND 
 //  #05 //002   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_0110B13A
+  POIN2 Label_010CA594
 //  #05 //003   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_0110B13A
+  POIN2 Label_010CA594
 //  #05 //004   ----------------------------------------
-Label_0110B175:
+Label_010CA5CF:
  BYTE   N05  Dn3  v104
  BYTE   W06
  BYTE   Ds3  v076
@@ -667,16 +667,16 @@ Label_0110B175:
  BYTE   PEND 
 //  #05 //005   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_0110B175
+  POIN2 Label_010CA5CF
 //  #05 //006   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_0110B175
+  POIN2 Label_010CA5CF
 //  #05 //007   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_0110B175
+  POIN2 Label_010CA5CF
 //  #05 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0110B104
+  POIN2 Label_010CA55E
  BYTE   FINE
 
 //**************** Track 6 (Midi-Chn.5) ****************//
@@ -684,8 +684,8 @@ Label_0110B175:
 BlessingoftheGeneralsI_006:
 //  #06 //000   ----------------------------------------
  BYTE   KEYSH   BlessingoftheGeneralsI_key+0
-Label_0110B1BE:
- BYTE   VOICE   2
+Label_010CA61A:
+ BYTE   VOICE   92
  BYTE   MOD 3
  BYTE   VOL   41*BlessingoftheGeneralsI_mvl/mxv
  BYTE   PAN   c_v-23
@@ -749,7 +749,7 @@ Label_0110B1BE:
  BYTE   W01
 //  #06 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0110B1BE
+  POIN2 Label_010CA61A
 //  #06 //009   ----------------------------------------
  BYTE   W04
  BYTE   FINE

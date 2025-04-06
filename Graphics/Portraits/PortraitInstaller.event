@@ -39,7 +39,8 @@
 #define Zeta 0x12
 #define ZetaMorph 0xD9
 #define ZetaSus 0xF5
-
+#define RBC 0x16
+#define RBCNoGlasses 0xE0
 
 ALIGN 16
 Bloom:
@@ -349,11 +350,27 @@ Laufey:
 setMugEntry(Laufey, LaufeyData, 4, 6, 4, 4)
 
 ALIGN 16
+RBC:
+#incbin "RBC_mug.dmp"
+#incbin "RBC_frames.dmp"
+#incbin "RBC_palette.dmp"
+#incbin "RBC_minimug.dmp"
+setMugEntry(RBC, RBCData, 4, 5, 4, 3)
+
+ALIGN 16
+RBCNoGlasses:
+#incbin "RBCNoGlasses_mug.dmp"
+#incbin "RBCNoGlasses_frames.dmp"
+#incbin "RBCNoGlasses_palette.dmp"
+#incbin "RBCNoGlasses_minimug.dmp"
+setMugEntry(RBCNoGlasses, RBCNoGlassesData, 4, 5, 4, 3)
+
+ALIGN 16
 :
 #incbin "_mug.dmp"
 #incbin "_frames.dmp"
 #incbin "_palette.dmp"
 #incbin "_minimug.dmp"
-setMugEntry(, Data, 4, 6, 4, 4)
+setMugEntry(, Data, 4, 5, 4, 3)
 
 

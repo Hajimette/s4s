@@ -25,12 +25,12 @@
     #include "Fatigue/Fatigue.event"
     #include "New Stuff/Abort/AbortStaff.event"    
     #include "New Stuff/AumStaff/Aum.event"
-    
     #include "New Stuff/CustomItems/StealStaff/_StealStaff_Setup.event"
     #include "New Stuff/CustomItems/RewarpStaff/_RewarpStaff_Setup.event"
     #include "New Stuff/CustomItems/UnlockStaffv2/_BurglarStaff_Setup.event"
     #include "New Stuff/CustomItems/RefreshStaves/_AgainStaff_Setup.event"
     #include "New Stuff/MoveStars/Installer.event"
+    #include "TitleScreen/TitleMaster.event"
 
     MESSAGE Used hax space ends at currentOffset
 

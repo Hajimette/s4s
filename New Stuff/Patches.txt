@@ -1,0 +1,123 @@
+
+01command_hack-Hextator
+1 RN mode (0xB1)- Pikmin
+16_tracks_12_sounds- Agro/Brendor
+48command_hack-Hextator
+Actions After Support-circleseverywhere
+Actions After Talk-circleseverywhere
+Add Event Condition: Item Check(All units and transporters)-7743, Kaito
+Add Event: AutoLvlUnit-Vesly
+Add Event: Character Retreat-Aera
+Add Event: Display and recover the effect when using the item- 7743
+Add Event: Display and recover the effect when using the item-7743
+Add Event: Get the number of units matching a specific condition-7743
+Add Event: GetGameOption,SetGameOption-7743
+Add Event: GetSupportLevel, SetSupportLevel, ClearSupportLevel-7743
+Add Event: Give the unit experience points-7743, aera, vesly
+Add Event: Is tile change triggered -7743
+Add Event: Lose Item(All units and transporters)-7743, Kaito
+Add Event: Lose Item(unit)-7743
+Add Event: Send unit's all items to transporter-7743
+Add Event: SilentGiveItem-7743
+Add Event: Simple Escape event that can be easily created-7743, aera
+Add Event: Split Menu-Stan, Circleseverywhere
+Add Event:Show emotion bubble on map(Install) -7743, Kenpuku
+AddEvent: ChangeChapterObjective-Zeta
+AddEvent: ChangeChapterSong Dynamic-7743
+AddEvent: Get the number of Count number of units in a specific range-7743, Shuusuke
+AddEvent: Get Unit Status-7743
+AddEvent: Set All Unit Status in specific coord-7743
+AddEvent: Set Unit Status-7743
+AddEvent:Get Level-7743
+Allow to summon multiple classes-7743
+Allows detailed setting of weapons held by summoned units-7743
+AnimNumbers Damage pop-up in battle anime-Huichelaar
+Anti-Huffman-Hextator
+AOE Effect-Vesly
+Attack and capture enemies with reduced speed like FE5-Tequila
+AutoGenLeftOAM Reduce capacity by dynamically creating LeftToRightOAM-7743
+Bars_with_warnings-Circles
+Battle Transforming-Tequila, UNKNOWN, Aera, circleseverywhere
+Change image in upper right of the preparations-7743
+Change Max HP limit to use set in class editor-7743
+Change the color of runes in battle animations-7743
+Change to have multiple units that can be seize-7743
+Change Support Conversations to 5 People instead of 5 times- Aera
+COND Check whether all members have withdrawn 
+Continue Battle BGM Between Map and Combat-7743
+Convert Chapter Titles to Text_ver2.1 Support Lat1-Circleseverywhere,7743
+CritCap. Fixed critcal from appearing in excess of 100%-Contro
+CSA_Creator_For_FE8U_ver2-Circleseverywhere
+DancerAI-Stan
+Define Multiple dancers(Battle animation effect)-7743
+Disable Minimap- 7743
+Disable MiniMap-7743
+Display Escape menu-7743
+Draw attack effect on map animation when battle animation off-Vesly, Animations by Viktor Hahn
+Drum Fix-circleseverywhere
+DSFE Style Avoid (Fix1)-GratedShtick
+Enable Locked Weapon Prf constraints on staffs and items as well.-7743, Original by Tequila,  jjl2357
+Enable to set BGM at support talk with SongID-7743
+Even in fog, it ensures visibility at specific coordinates. ver3-7743
+Event: Tile Change Trigger-7743
+Exceed The Portrait Hackbox By 4 Tiles-tiki
+Execute event script instead of support conversation-7743
+ExModularSave with Supply 200-Stan
+EXP Coefficient Fix- Vennobennu
+Expanded the setting of the ring effect used by dancers-7743
+FE7J style Red Fog QuintessenceEffect-Eebit
+FE8 Text Engine Rework- Tequila, Zahlman, Stan, Black Mage and Eliwan, The Awful Emblem team
+FE8-Battle Stats with Anims Off-Tequila
+FillAIDangerMap Efficiency Fix- 7743, original by HyperGammaSpaces
+Fix CG Fade Glitch-7743
+Fix dodge to front glitch-Snakey1
+Fix the weapon level of the Summoned Phantom's weapon level of the possessed weapon-7743
+fix_lz77decompress-Tequila
+Forced Units to change their starting position- AuraWolf
+HPBars_simple-Circles and Zane
+HPBars_with_warningsCache-7743
+IconRework AffinityIcons (SkillSystem)
+Improved Sound Mixer-ipatix
+LeaderAIFix-Stan
+Magic Sword Rework-SME
+Map Danger Zone (Select: Toggle)-Circleseverywhere
+Max Hp in class editor-7743
+Melee/Ranged Different - Spell Loader-Kao
+MMB (CatBall Style V2)- ZaneAvernathy, Catball
+Multiple Seize-7743
+Multiple vulnerary-7443
+MultiTileMarker Display multiple exit markers on the map-7743
+NarrowFont-Scraiza
+Prevent exchange of valuables ListVersion-Vesly, original by circles
+Remove Easy Mode-Nintenlord
+Remove Enemy Control Glitch-7743
+Ring Rework- 7743
+RNGRandomizer-TR143
+Rogue Robbery-Tequila
+Sell Price expansion-7743
+Set multiple Staff BGMs-7743
+Set Preparation BGM By Chapter-7743
+Set Victory BGM By Chapter-7743
+Set whether transporter can be used for each map-7743
+Setting battle BGM of a many dancer in battle animetion-7743
+Silent Give Item-7743
+Simple setting of Sacred Weapons 2-7743
+SkillSystem_CustomBuild-Circleseverywhere,Monkeybard & Black Mage for most of the skill icons; Blaze for Stances skill icons Tequila, Rossendale, StanH, Leonarth, Teraspark, sd9k, Kao, blademaster, Snakey1 for skills
+SOUND_NIMAP2(Native Instrument Map)-Alusq
+Special Event for each Item-Vesly
+Stairs 20191031-Snakey1
+Steal with full inventory 20221006-Vesly
+Steal with full inventory-Vesly
+Switch Portrait images by class, flag.-Scraiza
+Switch the death Quote for each unit who is killer-7743
+Switch Unit's description by class, chapter, flag-7743
+Text Rework- Tequila, Zahlman, Stan, Black Mage and Eliwan (Awful Emblem Team)
+TorchWeapons-7743,boy
+Unique Battle Music Per Unit-7743
+UnitActionRework-Stan
+Use background image displayed immediately before as the background when display clear turn list of ending-7743
+Use HandAxs motion as generic motion for throwing axes-7743
+Using 256, 224 color BG(256ColCG)- Huichelaar
+Victory bgm by chapter-7743
+Weapon S Rank Limit- Tequila
+

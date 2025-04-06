@@ -1,0 +1,19 @@
+#include "256Title/titlebackgroundinstaller.event"
+
+
+PUSH
+ORG 
+POIN HoloEmblemLogo
+ORG 
+POIN HoloEmblemLogo_pal
+POP
+
+
+ALIGN 4
+HoloEmblemLogo:
+#incbin "HoloEmblemLogo.dmp"
+
+ALIGN 4
+HoloEmblemLogoPal:
+#incbin "HoloEmblemLogo_pal.dmp"
+
