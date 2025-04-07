@@ -1,33 +1,106 @@
 #define SoundRoomEntry(songid,length,name) "WORD songid length 0 name"
 #define SoundRoomTerminator "WORD 0xFFFFFFFF 0 0 0"
 
-PUSH
-ORG 0x1BC14   
-POIN NewSoundRoom
-ORG 0x1BCC4
-POIN NewSoundRoom
-ORG 0xAECA8
-POIN NewSoundRoom
-ORG 0xAECD0
-POIN NewSoundRoom
-ORG 0xAED2C
-POIN NewSoundRoom
-ORG 0xAEEBC
-POIN NewSoundRoom
-ORG 0xAF438
-POIN NewSoundRoom
-ORG 0xAF830
-POIN NewSoundRoom
-ORG 0xAFE30
-POIN NewSoundRoom
-ORG 0xB0080
-POIN NewSoundRoom
-ORG 0xB042C
-POIN NewSoundRoom
-POP
 
 ALIGN 4
 NewSoundRoom:
-SoundRoomEntry(0x43, 0, PrisonersElegyName)
-SoundRoomEntry(0x02, 0, PrisonersElegyName)
+SoundRoomEntry(ShinySmilyStoryID, 0, SSSText)
+SoundRoomEntry(ShinySmilyStoryTitleID, 0, SSSTitle)
+SoundRoomEntry(AstrogirlID, 0, AstrogirlTxt)
+SoundRoomEntry(AstrogirlSlowedID, 0, AstroSlowedTxt)
+SoundRoomEntry(BaskingIntheSunID, 0, BaskingintheSunTxt)
+SoundRoomEntry(BlueClapperID, 0, BlueClapperTxt)
+SoundRoomEntry(CaesuraofDespairID, 0, CaesuraTxt)
+SoundRoomEntry(_223AMID, 0, _223AMTxt)
+SoundRoomEntry(ChoirWaltzID, 0, ChoirTxt)
+SoundRoomEntry(DaydreamID, 0, DaydreamTxt)
+SoundRoomEntry(FantasiaID, 0, FantasiaTxt)
+//SoundRoomEntry(FantasiaCutsceneID, 0, FantasiaCutscene)
+SoundRoomEntry(FukkiretaID, 0, FukkiretaTxt)
+SoundRoomEntry(GhostID, 0, GhostTxt)
+SoundRoomEntry(Hologram_CircusID, 0, HologramTxt)
+SoundRoomEntry(IdentityID, 0, IdentityTxt)
+SoundRoomEntry(InochiID, 0, InochiTxt)
+SoundRoomEntry(KiramekiRiderID, 0, KiramekiTxt)
+SoundRoomEntry(KisekiKnotID, 0, KisekiTxt)
+SoundRoomEntry(KonpekoID, 0, KonpekoTxt)
+SoundRoomEntry(MarineSailID, 0, MarineSailTxt)
+SoundRoomEntry(NonfictionID, 0, NonfictionTxt)
+SoundRoomEntry(PlasmagicSeasonsID, 0, PlasmagicTxt)
+SoundRoomEntry(rushiabgmID, 0, RushiaTxt)
+SoundRoomEntry(WatamesLullabyID, 0, WatameTxt)
+SoundRoomEntry(KawaiikuteGomenID, 0, KawaiiTxt)
+SoundRoomEntry(AmeliaMomentID, 0, AmeliaTxt)
+SoundRoomEntry(InfinityID, 0, InfinityTxt)
+SoundRoomEntry(FE4AnotherAssaultID, 0, AnotherTxt)
+SoundRoomEntry(FE4FromFoetoFriendID, 0, FoetoTxt)
+SoundRoomEntry(FE4ThoughtsGoingAroundID, 0, ThoughtsgoingTxt)
+SoundRoomEntry(FE4DanceintheSkiesID, 0, DanceintheTxt)
+SoundRoomEntry(FE4ValkyrieStaffID, 0, ValkyriaTxt)
+SoundRoomEntry(FE4SilezhaID, 0, SilezhaTxt)
+SoundRoomEntry(FE5AugustBID, 0, AugustBTxt)
+SoundRoomEntry(FE5AdvanceID, 0, AdvanceTxt)
+SoundRoomEntry(FE5AdversityID, 0, AdversityTxt)
+SoundRoomEntry(FE5BossBattleID, 0, BossBattleTxt)
+SoundRoomEntry(FE5CuringID, 0, CuringTxt)
+SoundRoomEntry(FE5DefendID, 0, DefendTxt)
+SoundRoomEntry(FE5DestinyThraciaID, 0, DestinyTxt)
+SoundRoomEntry(FE5PrepsID, 0, PrepsTxt)
+SoundRoomEntry(FE5PressingThreatID, 0, PressingThreatTxt)
+SoundRoomEntry(FE5SorrowID, 0, SorrowTxt)
+SoundRoomEntry(FE5SquadAID, 0, SquadATxt)
+SoundRoomEntry(FE5SquadBID, 0, SquadBTxt)
+SoundRoomEntry(FE5ThreatBID, 0, ThreatBTxt)
+SoundRoomEntry(FE5VictoryID, 0, VictoryTxt)
+SoundRoomEntry(FE5VictoryMinorID, 0, VictoryMTxt)
+SoundRoomEntry(FE5AttackID, 0, AttackTxt)
+SoundRoomEntry(FE5ConquestID, 0, ConquestTxt)
+SoundRoomEntry(FE5CrisisID, 0, CrisisTxt)
+SoundRoomEntry(FE5NearDefeatID, 0, NearDefeatTxt)
+SoundRoomEntry(FE5NearVictoryID, 0, NearVictoryTxt)
+SoundRoomEntry(FE5LoptousAID, 0, LoptousATxt)
+SoundRoomEntry(FE5MapBID, 0, MapBTxt)
+SoundRoomEntry(FE5SearchingforVictoryID, 0, Search4VictoryTxt)
+SoundRoomEntry(FE5ChargeBID, 0, ChargeBTxt)
+SoundRoomEntry(FE6ShamanID, 0, ShamanTxt)
+SoundRoomEntry(PriestofDarknessID, 0, PriestessTxt)
+SoundRoomEntry(FE11LeapsID, 0, PromotionTxt)
+SoundRoomEntry(FE11IntoTheDarknessID, 0, DarknessTxt)
+SoundRoomEntry(EscapeID, 0, EscapeTxt)
+SoundRoomEntry(KingofMonstersID, 0, GodzillaTxt)
+SoundRoomEntry(NekotoSanpoID, 0, ShopTxt)
+SoundRoomEntry(KawanabeID, 0, KawanabeTxt)
+SoundRoomEntry(amongusdripID, 0, AmongusTxt)
+SoundRoomEntry(DecisiveBattleID, 0, DecisiveTxt)
+SoundRoomEntry(TiesofFriendshipID, 0, TiesTxt)
+SoundRoomEntry(TwistedShadowsAID, 0, TwistedTxt)
 SoundRoomTerminator
+
+
+
+PUSH
+ORG $1BC14
+POIN NewSoundRoom
+ORG $1BCC4
+POIN NewSoundRoom
+ORG $AECA8
+POIN NewSoundRoom
+ORG $AECD0
+POIN NewSoundRoom
+ORG $AED2C
+POIN NewSoundRoom
+ORG $AEEBC
+POIN NewSoundRoom
+ORG $AF438
+POIN NewSoundRoom
+ORG $AF830
+POIN NewSoundRoom
+ORG $AFE30
+POIN NewSoundRoom
+ORG $B0080
+POIN NewSoundRoom
+ORG $B042C
+POIN NewSoundRoom
+POP
+
+

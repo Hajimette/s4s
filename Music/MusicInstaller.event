@@ -370,3 +370,5 @@ SongTable(KawanabeID, Kawanabe, MapMusicGroup)
 #include "MusicEvents/WatamesLullaby.event"
 SongTable(WatamesLullabyID, WatamesLullaby, MapMusicGroup)
 }
+
+#include "SoundroomEditor.event"

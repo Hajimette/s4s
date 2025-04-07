@@ -31,6 +31,7 @@
     #include "New Stuff/CustomItems/RefreshStaves/_AgainStaff_Setup.event"
     #include "New Stuff/MoveStars/Installer.event"
     #include "TitleScreen/TitleMaster.event"
+    #include "StatusScreen/ChangeStatusBG.event"
 
     MESSAGE Used hax space ends at currentOffset
 

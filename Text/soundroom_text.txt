@@ -1,0 +1,210 @@
+## SSSText
+Shiny Smily Story [X]
+
+## SSSTitle
+SSS FE Ver. -MemeTzar[X]
+
+## AstrogirlTxt
+Astrogirl [X]
+
+## AstroSlowedTxt
+Astrogirl Slowed [X]
+
+## BaskingintheSunTxt
+Basking in the Sun [X]
+
+## BlueClapperTxt
+Blue Clapper [X]
+
+## CaesuraTxt
+Caesura of Despair [X]
+
+## _223AMTxt
+2:23 AM [X]
+
+## ChoirTxt
+Choir Waltz [X]
+
+## DaydreamTxt
+Daydream [X]
+
+## FantasiaTxt
+Interact Fantasia [X]
+
+//## FantasiaCutscene
+// InterFantasia Cutscene
+
+## FukkiretaTxt
+Fukkireta [X]
+
+## GhostTxt
+Ghost [X]
+
+## HologramTxt
+Hologram Circus [X]
+
+## IdentityTxt
+Identity [X]
+
+## InochiTxt
+Inochi [X]
+
+## KiramekiTxt
+Kirameki Rider [X]
+
+## KisekiTxt
+Kiseki Knot [X]
+
+## KonpekoTxt
+Konpeko [X]
+
+## MarineSailTxt
+Marine Set Sail! [X]
+
+## NonfictionTxt
+Nonfiction [X]
+
+## PlasmagicTxt
+Plasmagic Seasons [X]
+
+## RushiaTxt
+Rushia BGM [X]
+
+## WatameTxt
+Watame's Lullaby [X]
+
+## KawaiiTxt
+Kawaiikute Gomen [X]
+
+## AmeliaTxt
+Dance of the Toys [X]
+
+## InfinityTxt
+Infinity [X]
+
+## AnotherTxt
+Another Assault [X]
+
+## FoetoTxt
+From Foe to Friend [X]
+
+## ThoughtsgoingTxt
+Thoughts Going Around [X]
+
+## DanceintheTxt
+Dance in the Skies [X]
+
+## ValkyriaTxt
+Valkyrie Staff [X]
+
+## SilezhaTxt
+Palace of Silezha [X]
+
+## AugustBTxt
+August B- FE5 [X]
+
+## AdvanceTxt
+Advance- FE5 [X]
+
+## AdversityTxt
+Adversity- FE5 [X]
+
+## BossBattleTxt
+Boss Battle- FE5 [X]
+
+## CuringTxt
+Curing- FE5 [X]
+
+## DefendTxt
+Defend - FE5 [X]
+
+## DestinyTxt
+Destiny - FE5 [X]
+
+## PrepsTxt
+Preparations - FE5 [X]
+
+## PressingThreatTxt
+Pressing Threat- FE5 [X]
+
+## SorrowTxt
+Sorrow - FE5 [X]
+
+## SquadATxt
+Squad A- FE5 [X]
+
+## SquadBTxt
+Squad B- FE5 [X]
+
+## ThreatBTxt
+Threat B- FE5 [X]
+
+## VictoryTxt
+Victory- FE5 [X]
+
+## VictoryMTxt
+Victory Minor- FE5 [X]
+
+## AttackTxt
+Attack- FE5 [X]
+
+## ConquestTxt
+Conquest- FE5 [X]
+
+## CrisisTxt
+Crisis- FE5 [X]
+
+## NearDefeatTxt
+Near Defeat- FE5 [X]
+
+## NearVictoryTxt
+Near Victory- FE5 [X]
+
+## LoptousATxt
+Loptous A- FE5 [X]
+
+## MapBTxt
+Map B- FE5 [X]
+
+## Search4VictoryTxt
+Searching for Victory- FE5 [X]
+
+## ChargeBTxt
+Charge B- FE5 [X]
+
+## ShamanTxt
+Shaman in the Dark [X]
+
+## PriestessTxt
+Priestess of Darkness [X]
+
+## PromotionTxt
+Leaps and Bounds- FE11 [X]
+
+## DarknessTxt
+Into the Darkness- FE11 [X]
+
+## EscapeTxt
+Escape- Runa [X]
+
+## GodzillaTxt
+King of Monsters [X]
+
+## ShopTxt
+Neko To Sanpo- Nekopara [X]
+
+## KawanabeTxt
+Kawanabe [X]
+
+## AmongusTxt
+Among Us Drip [X]
+
+## DecisiveTxt
+Decisive Battle [X]
+
+## TiesTxt
+Ties of FriendShip[X]
+
+## TwistedTxt
+Twisted Shadows A [X]
+

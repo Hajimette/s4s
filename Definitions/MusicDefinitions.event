@@ -21,7 +21,7 @@
 #define InochiID 0x0E
 #define KiramekiRiderID 0x0F 
 #define KisekiKnotID 0x15
-#define KonpekoID 0x16
+#define KonpekoID 0xC6
 #define MarineSailID 0x18
 #define NonfictionID 0x1C
 #define PlasmagicSeasonsID 0x1D
@@ -50,7 +50,7 @@
 #define FE5DestinyThraciaID 0x12
 #define FE5PrepsID 0x2B
 #define FE5PressingThreatID 0x2C
-#define FE5SorrowID 0x2D
+#define FE5SorrowID 0xC5
 #define FE5SquadAID 0x13
 #define FE5SquadBID 0x14
 #define FE5ThreatBID 0x2D

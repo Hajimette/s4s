@@ -29,7 +29,7 @@ FE5ChargeB_001:
  BYTE   Ds1
  BYTE   PAN   c_v+0
  BYTE   W06
-Label_01DFB0F3:
+Label_01000023:
  BYTE   VOICE   48
  BYTE   PAN   c_v+0
  BYTE   VOL   37*FE5ChargeB_mvl/mxv
@@ -311,7 +311,7 @@ Label_01DFB0F3:
 //  #01 //030   ----------------------------------------
  BYTE   W30
  BYTE   GoTo
-  POIN2 Label_01DFB0F3
+  POIN2 Label_01000023
 //  #01 //031   ----------------------------------------
  BYTE   W02
  BYTE   VOICE   48
@@ -352,7 +352,7 @@ FE5ChargeB_002:
  BYTE   LFOS 44
  BYTE   BENDR  12
  BYTE   W06
-Label_01DFB29B:
+Label_010001DB:
  BYTE   VOICE   48
  BYTE   PAN   c_v+0
  BYTE   VOL   80*FE5ChargeB_mvl/mxv
@@ -740,7 +740,7 @@ Label_01DFB29B:
  BYTE   N12
  BYTE   W12
  BYTE   GoTo
-  POIN2 Label_01DFB29B
+  POIN2 Label_010001DB
 //  #02 //031   ----------------------------------------
  BYTE   W02
  BYTE   VOICE   48
@@ -761,7 +761,7 @@ FE5ChargeB_003:
  BYTE   LFOS 44
  BYTE   BENDR  12
  BYTE   W06
-Label_01DFB4D3:
+Label_01000423:
  BYTE   PAN   c_v+0
  BYTE   VOL   80*FE5ChargeB_mvl/mxv
  BYTE   W05
@@ -1144,7 +1144,7 @@ Label_01DFB4D3:
  BYTE   N12
  BYTE   W12
  BYTE   GoTo
-  POIN2 Label_01DFB4D3
+  POIN2 Label_01000423
 //  #03 //031   ----------------------------------------
  BYTE   W66
  BYTE   W05
@@ -1160,7 +1160,7 @@ FE5ChargeB_004:
  BYTE   LFOS 44
  BYTE   BENDR  12
  BYTE   W06
-Label_01DFB703:
+Label_01000663:
  BYTE   PAN   c_v+0
  BYTE   VOL   80*FE5ChargeB_mvl/mxv
  BYTE   W05
@@ -1575,7 +1575,7 @@ Label_01DFB703:
 //  #04 //030   ----------------------------------------
  BYTE   W30
  BYTE   GoTo
-  POIN2 Label_01DFB703
+  POIN2 Label_01000663
 //  #04 //031   ----------------------------------------
  BYTE   W02
  BYTE   VOL   31*FE5ChargeB_mvl/mxv
@@ -1599,7 +1599,7 @@ FE5ChargeB_005:
  BYTE   LFOS 44
  BYTE   BENDR  12
  BYTE   W06
-Label_01DFB97B:
+Label_010008EB:
  BYTE   VOICE   60
  BYTE   PAN   c_v+0
  BYTE   VOL   80*FE5ChargeB_mvl/mxv
@@ -2059,7 +2059,7 @@ Label_01DFB97B:
  BYTE   N12
  BYTE   W12
  BYTE   GoTo
-  POIN2 Label_01DFB97B
+  POIN2 Label_010008EB
 //  #05 //031   ----------------------------------------
  BYTE   W02
  BYTE   VOICE   60
@@ -2094,7 +2094,7 @@ FE5ChargeB_006:
  BYTE   LFOS 44
  BYTE   BENDR  12
  BYTE   W06
-Label_01DFBC03:
+Label_01000B83:
  BYTE   VOICE   57
  BYTE   VOL   80*FE5ChargeB_mvl/mxv
  BYTE   W05
@@ -2544,7 +2544,7 @@ Label_01DFBC03:
  BYTE   W24
  BYTE   W02
  BYTE   GoTo
-  POIN2 Label_01DFBC03
+  POIN2 Label_01000B83
 //  #06 //031   ----------------------------------------
  BYTE   W02
  BYTE   VOICE   57
@@ -2568,7 +2568,7 @@ FE5ChargeB_007:
  BYTE   MODT 0
  BYTE   LFOS 44
  BYTE   W06
-Label_01DFBEA7:
+Label_01000E37:
  BYTE   W05
  BYTE   TIE  Dn1  v044
  BYTE   N80  Fn1  v032
@@ -3531,7 +3531,7 @@ Label_01DFBEA7:
  BYTE   N14  Fn1  v032
  BYTE   W12
  BYTE   GoTo
-  POIN2 Label_01DFBEA7
+  POIN2 Label_01000E37
 //  #07 //031   ----------------------------------------
  BYTE   W02
  BYTE   N80  Fn1  v032
