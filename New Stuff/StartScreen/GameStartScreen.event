@@ -11,8 +11,8 @@ PUSH
 	SHORT $D106
 	
 	// Null H&S screen timer
-	ORG $CC3B6
-	SHORT $0
+	//ORG $CC3B6
+	//SHORT $0
 	
 	// as judge byte
 	ORG $EF2F18

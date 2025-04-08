@@ -1,0 +1,21 @@
+//no prologue def needed
+
+#define Chapter1 0x1
+
+#define Chapter2 0x2
+
+#define Chapter3 0x3
+
+#define Chapter4 0x4
+
+#define Chapter5 0x5
+
+#define Chapter6 0x6
+
+    #define Interlude1 0x2B
+
+#define Chapter7 0x7
+
+#define Chapter8 0x8
+
+define Chapter9 0x9

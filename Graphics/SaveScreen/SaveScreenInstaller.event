@@ -1,0 +1,136 @@
+PUSH 
+ORG $3840C
+POIN NewSaveScreen
+POP
+
+PUSH
+ORG $A8EB4
+POIN NewSav2
+POP
+
+PUSH 
+ORG $AA414
+POIN NewSav3
+POP
+
+PUSH
+ORG $B8140
+POIN NewSav4
+POP 
+
+
+
+PUSH
+ORG $A8EB0  //WHERE did this come from 
+POIN NewSavTSAbruh
+POP
+
+
+PUSH 
+ORG $38414
+POIN NewSavTSA
+POP
+
+PUSH
+ORG $A8EBC
+POIN TSA2
+POP
+
+PUSH
+ORG $AA41C
+POIN TSA3
+POP
+
+PUSH
+ORG $B8148
+POIN TSA4
+POP
+
+
+
+PUSH
+ORG $38410
+POIN NewSavPal
+POP
+
+PUSH
+ORG $A8EB0
+POIN NewPal2
+POP
+
+PUSH
+ORG $AA410
+POIN NewPal3
+POP
+
+PUSH 
+ORG $AC178
+POIN NewPal4
+POP
+
+PUSH 
+ORG $B8144
+POIN NewPal5
+POP
+
+
+
+ALIGN 4
+NewSaveScreen:
+#incbin "SaveScreen.png.dmp"
+
+ALIGN 4
+NewSav2:
+#incbin "SaveScreen.png.dmp" 
+
+ALIGN 4
+NewSav3:
+#incbin "SaveScreen.png.dmp"
+
+ALIGN 4
+NewSav4:
+#incbin "SaveScreen.png.dmp" 
+
+
+
+ALIGN 4
+NewSavTSAbruh:
+#incbin "SaveScreen.png.tsa.dmp" 
+
+ALIGN 4
+NewSavTSA:
+#incbin "SaveScreen.png.tsa.dmp"
+
+ALIGN 4
+TSA3:
+#incbin "SaveScreen.png.tsa.dmp"
+
+ALIGN 4
+TSA4:
+#incbin "SaveScreen.png.tsa.dmp"
+
+ALIGN 4
+TSA2:
+#incbin "SaveScreen.png.tsa.dmp"
+
+
+
+ALIGN 4
+NewSavPal:
+#incbin "SaveScreen.png.pal.dmp"
+
+ALIGN 4
+NewPal2:
+#incbin "SaveScreen.png.pal.dmp"
+
+ALIGN 4
+NewPal3:
+#incbin "SaveScreen.png.pal.dmp"
+
+ALIGN 4
+NewPal4:
+#incbin "SaveScreen.png.pal.dmp"
+
+ALIGN 4
+NewPal5:
+#incbin "SaveScreen.png.pal.dmp"

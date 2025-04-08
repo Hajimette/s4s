@@ -32,6 +32,8 @@
     #include "New Stuff/MoveStars/Installer.event"
     #include "TitleScreen/TitleMaster.event"
     #include "StatusScreen/ChangeStatusBG.event"
+    #include "Graphics/MasterGraphicsInstaller.event"
+    #include "New Stuff/StartScreen/GameStartScreen.event"
 
     MESSAGE Used hax space ends at currentOffset
 

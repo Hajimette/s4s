@@ -4,10 +4,16 @@
 #include "Extensions/Hack Installation.txt"
 
 
-//PUSH
-//ORG $88594		//FE8U
-//jumpToHack(ChangeStatusBGEachChapter)
-//POP
+//Disable glowy
+PUSH
+ORG $88590
+WORD 0 
+POP
+
+PUSH
+ORG $88594		//FE8U
+jumpToHack(ChangeStatusBGEachChapter)
+POP
 
 ALIGN 4
 ChangeStatusBGEachChapter:

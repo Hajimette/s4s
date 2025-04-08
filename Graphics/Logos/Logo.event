@@ -1,0 +1,77 @@
+
+PUSH
+ORG $CBEE0
+POIN LogoImage
+POP
+
+PUSH
+ORG $CBEE8
+POIN LogoTSA
+POP
+
+PUSH
+ORG $CC19C
+POIN LogoPal
+POP
+
+PUSH 
+ORG $CC1DC
+POIN LogoPal2
+POP
+
+PUSH 
+ORG $CBED0
+POIN PlushImage
+POP
+
+PUSH
+ORG $CBED4
+POIN PlushTSA
+POP
+
+PUSH
+ORG $CC0F8
+POIN PlushPal
+POP
+
+PUSH
+ORG $CC138
+POIN PlushPal2
+POP
+
+
+
+ALIGN 4
+LogoImage:
+#incbin "Plush.png.dmp" 
+
+ALIGN 4
+LogoTSA:
+#incbin"Plush.png.tsa.dmp"
+
+
+ALIGN 4
+LogoPal:
+#incbin "Plush.png.pal.dmp"
+
+ALIGN 4
+LogoPal2:
+#incbin "Plush.png.pal.dmp"
+
+
+ALIGN 4
+PlushImage:
+#incbin "Logo.png.dmp"
+
+ALIGN 4
+PlushTSA:
+#incbin "Logo.png.tsa.dmp"
+
+ALIGN 4
+PlushPal:
+#incbin "Logo.png.pal.dmp"
+
+
+ALIGN 4
+PlushPal2:
+#incbin "Logo.png.pal.dmp"

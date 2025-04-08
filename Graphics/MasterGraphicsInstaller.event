@@ -1,9 +1,14 @@
 
-#include "Animations/MasterBattleAniInstaller.event"
+//#include "Animations/MasterBattleAniInstaller.event"
 
-#include "ClassCards/MasterCardInstaller.event"
+//#include "ClassCards/MasterCardInstaller.event"
 
-#include "CGs/CGMasterInstaller.event"
+//#include "CGs/CGMasterInstaller.event"
 
-#include "Portraits/PortraitInstaller.event"
+//#include "Portraits/PortraitInstaller.event"
 
+#include "RemoveBGFog/RemoveEffects.event"
+
+#include "SaveScreen/SaveScreenInstaller.event"
+
+#include "Logos/Logo.event"
