@@ -1,7 +1,9 @@
 #include "CharacterDefinitions.event"
 
-//#include "TextDefinitions.event"
+//#include "ItemDefinitions.event"
 #include "MusicDefinitions.event"
 //#include "TableExpansions.event"
 
-#define Abort 0xFE
+#include "ClassDefinitions.event"
+
+#define Abort 0xFE //Temp until I get Item Definitions to work

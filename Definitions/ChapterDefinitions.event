@@ -18,4 +18,6 @@
 
 #define Chapter8 0x8
 
-define Chapter9 0x9
+#define Chapter9 0x9
+
+#define Chapter10 0xA
