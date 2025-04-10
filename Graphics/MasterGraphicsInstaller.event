@@ -1,5 +1,5 @@
 
-//#include "Animations/MasterBattleAniInstaller.event"
+#include "Animations/MasterBattleAniInstaller.event"
 
 //#include "ClassCards/MasterCardInstaller.event"
 
