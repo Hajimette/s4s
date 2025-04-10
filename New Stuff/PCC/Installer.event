@@ -7,12 +7,16 @@ PCCTable:
 #include "PCCTable.event"
 
 ALIGN 4
+gSkillTester:
+POIN SkillTester
+
+ALIGN 4
 DesperationIDLink:
 BYTE DesperationID
 
-//ALIGN 4
-//BladeDanceIDLink:
-//BYTE BladeDanceID
+ALIGN 4
+BladeDanceIDLink:
+BYTE 0x0
 
 #define SetUnitPCC(unit, pcc) "PUSH; ORG PCCTable + unit; BYTE pcc; POP"
 

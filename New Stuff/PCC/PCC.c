@@ -16,7 +16,7 @@ int BoundDamage(int damage){
 	return damage;
 }
 
-bool ShouldApplyPCC(BattleUnit* attacker, BattleUnit* defender, NewBattleHit* battleHit, BattleStats* battleStats){
+bool ShouldApplyPCC(BattleUnit* attacker, BattleUnit* defender, NewBattleHit* battleHit, struct BattleStats* battleStats){
 
 	if (!(battleStats->config &= BATTLE_CONFIG_REAL)){
 		return false;
@@ -43,7 +43,7 @@ bool ShouldApplyPCC(BattleUnit* attacker, BattleUnit* defender, NewBattleHit* ba
 	return false;
 }
 
-void New_Proc_Start(BattleUnit* attacker, BattleUnit* defender, NewBattleHit* battleHit, BattleStats* battleStats){
+void New_Proc_Start(BattleUnit* attacker, BattleUnit* defender, NewBattleHit* battleHit, struct BattleStats* battleStats){
 		
 	if (attacker == &gBattleActor){
 		battleHit->attributes |= BATTLE_HIT_ATTR_ISATTACKER;
