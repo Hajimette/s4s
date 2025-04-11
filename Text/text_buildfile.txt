@@ -141,3 +141,5 @@ Steal something NOW. [X]
 #include "unitinfo_text.txt"
 
 #include "soundroom_text.txt"
+
+#include "ClassNames.txt"

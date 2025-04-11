@@ -63,62 +63,77 @@ POP
 #include "BattleAnims/Amelia/Sword Installer.event"
 #include "BattleAnims/Amelia/AmeliaUnarmedInstaller.event"
 }
+
 {
 #include "BattleAnims/Advance Wars/Tank/Bow Installer.event"
 }
+
 {
 #include "BattleAnims/Advance Wars/Infantry/Bow Installer.event"
 }
+
 {
 #include "BattleAnims/Advance Wars/Howtizer/Bow Installer.event"
 }
+
 {
 #include "BattleAnims/Aki/Lance Installer.event"
 #include "BattleAnims/Aki/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Amongus/Monster Installer.event"
 #include "BattleAnims/Amongus/MonsterRanged Installer.event"
 #include "BattleAnims/Amongus/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Aqua/Sword Installer.event"
 #include "BattleAnims/Aqua/Staff Installer.event"
 }
+
 {
 #include "BattleAnims/Ayame/Ayame Installer.event"
 #include "BattleAnims/Ayame/ayameunarm Installer.event"
 }
+
 {
 #include "BattleAnims/AZKi/Refresh Installer.event"
 }
+
 {
 #include "BattleAnims/Baellista/Baellista Installer.event"
 #include "BattleAnims/Baellista/Bow Installer.event"
 #include "BattleAnims/Baellista/Monster Installer.event"
 }
+
 {
 #include "BattleAnims/Ballista/Bow Installer.event"
 }
+
 {
 #include "BattleAnims/Barbarian/Axe Installer.event"
 #include "BattleAnims/Barbarian/Handaxe Installer.event"
 #include "BattleAnims/Barbarian/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Berserker/Axe Installer.event"
 #include "BattleAnims/Berserker/Handaxe Installer.event"
 #include "BattleAnims/Berserker/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Botan/Bow Installer.event"
 #include "BattleAnims/Botan/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Battle Maiden/Axe Installer.event"
 #include "BattleAnims/Battle Maiden/Handaxe Installer.event"
 #include "BattleAnims/Battle Maiden/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Calliope/Axe Installer.event"
 #include "BattleAnims/Calliope/Handaxe Installer.event"
@@ -126,67 +141,83 @@ POP
 #include "BattleAnims/Calliope/Unarmed Installer.event"
 #include "BattleAnims/Calliope/Yggdrasil Installer.event"
 }
+
 {
 #include "BattleAnims/Catapult/Bow Installer.event"
 }
+
 {
 #include "BattleAnims/Chama/Sword Installer.event"
 }
+
 {
 #include "BattleAnims/Chicken/Monster Installer.event"
 }
+
 {
 #include "BattleAnims/Chloe/Sword Installer.event"
 #include "BattleAnims/Chloe/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Choco/Choco Installer.event"
 #include "BattleAnims/Choco/Lance Installer.event"
 }
+
 {
 #include "BattleAnims/Deathgoyle/Lance Installer.event"
 #include "BattleAnims/Deathgoyle/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Drowned/Magic Installer.event"
 #include "BattleAnims/Drowned/Staff Installer.event"
 }
+
 {
 #include "BattleAnims/Elephant/Monster Installer.event"
 }
+
 {
 #include "BattleAnims/F!BattleSageT3/Magic Installer.event"
 #include "BattleAnims/F!BattleSageT3/Staff Installer.event"
 #include "BattleAnims/F!BattleSageT3/Sword Installer.event"
 }
+
 {
 #include "BattleAnims/F!Berserker/Axe Installer.event"
 #include "BattleAnims/F!Berserker/Handaxe Installer.event"
 #include "BattleAnims/F!Berserker/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!Bishop/Magic Installer.event"
 #include "BattleAnims/F!Bishop/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!Cav/Lance Installer.event"
 #include "BattleAnims/F!Cav/Sword Installer.event"
 #include "BattleAnims/F!Cav/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!Druid/Magic Installer.event"
 #include "BattleAnims/F!Druid/Staff Installer.event"
 }
+
 {
 #include "BattleAnims/F!FalcoKnight/Lance Installer.event"
 #include "BattleAnims/F!FalcoKnight/Sword Installer.event"
 #include "BattleAnims/F!FalcoKnight/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!FellbeatKnight_T3/Lance Installer.event"
 #include "BattleAnims/F!FellbeatKnight_T3/Monster Installer.event"
 #include "BattleAnims/F!FellbeatKnight_T3/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!GreatKnight/Axe Installer.event"
 #include "BattleAnims/F!GreatKnight/Handaxe Installer.event"
@@ -194,22 +225,27 @@ POP
 #include "BattleAnims/F!GreatKnight/Sword Installer.event"
 #include "BattleAnims/F!GreatKnight/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!Halberdier/Lance Installer.event"
 #include "BattleAnims/F!Halberdier/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!Mage/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/F!MageKnight/Magic Installer.event"
 #include "BattleAnims/F!MageKnight/Staff Installer.event"
 #include "BattleAnims/F!MageKnight/Sword Installer.event"
 }
+
 {
 #include "BattleAnims/F!Marksmen T3/Bow Installer.event"
 #include "BattleAnims/F!Marksmen T3/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!MasterKnight_T3/Axe Installer.event"
 #include "BattleAnims/F!MasterKnight_T3/Handaxe Installer.event"
@@ -218,15 +254,18 @@ POP
 #include "BattleAnims/F!MasterKnight_T3/Staff Installer.event"
 #include "BattleAnims/F!MasterKnight_T3/Sword Installer.event"
 }
+
 {
 #include "BattleAnims/F!Merc/Sword Installer.event"
 #include "BattleAnims/F!Merc/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!Paladin/Lance Installer.event"
 #include "BattleAnims/F!Paladin/Sword Installer.event"
 #include "BattleAnims/F!Paladin/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!PegasusKnight/Lance Installer.event"
 #include "BattleAnims/F!PegasusKnight/Unarmed Installer.event"
@@ -235,59 +274,72 @@ POP
 #include "BattleAnims/F!PegTrainee/Lance Installer.event"
 #include "BattleAnims/F!PegTrainee/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!Pirate/Axe Installer.event"
 #include "BattleAnims/F!Pirate/Handaxe Installer.event"
 #include "BattleAnims/F!Pirate/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!Recruit/Lance Installer.event"
 #include "BattleAnims/F!Recruit/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!SeraphKnight_T3/Lance Installer.event"
 #include "BattleAnims/F!SeraphKnight_T3/Magic Installer.event"
 #include "BattleAnims/F!SeraphKnight_T3/Sword Installer.event"
 #include "BattleAnims/F!SeraphKnight_T3/Staff Installer.event"
 }
+
 {
 #include "BattleAnims/F!Shaman/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/F!Sniper/Bow Installer.event"
 #include "BattleAnims/F!Sniper/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!Swordmaster/Sword Installer.event"
 #include "BattleAnims/F!Swordmaster/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!Warrior/Axe Installer.event"
 #include "BattleAnims/F!Warrior/Handaxe Installer.event"
 #include "BattleAnims/F!Warrior/Bow Installer.event"
 #include "BattleAnims/F!Warrior/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!WyvernKnight/Lance Installer.event"
 #include "BattleAnims/F!WyvernKnight/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/F!WyvernLord/Lance Installer.event"
 #include "BattleAnims/F!WyvernLord/Sword Installer.event"
 #include "BattleAnims/F!WyvernLord/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Fauna/Bow Installer.event"
 #include "BattleAnims/Fauna/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/FBK/Sword Installer.event"
 #include "BattleAnims/FBK/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Flare/Bow Installer.event"
 #include "BattleAnims/Flare/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/General/Axe Installer.event"
 #include "BattleAnims/General/Handaxe Installer.event"
@@ -296,88 +348,108 @@ POP
 #include "BattleAnims/General/Lance Installer.event"
 #include "BattleAnims/General/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Gore/Monster Installer.event"
 }
+
 {
 #include "BattleAnims/Gwyggli/Monster Installer.event"
 }
+
 {
 #include "BattleAnims/Harrier/Lance Installer.event"
 #include "BattleAnims/Harrier/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/Hero/Axe Installer.event"
 #include "BattleAnims/Hero/Handaxe Installer.event"
 #include "BattleAnims/Hero/Sword Installer.event"
 #include "BattleAnims/Hero/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Iroha/IrohaSword Installer.event"
 #include "BattleAnims/Iroha/IrohaUnarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Kaela/Axe Installer.event"
 #include "BattleAnims/Kaela/Handaxe Installer.event"
 #include "BattleAnims/Kaela/Sword Installer.event"
 #include "BattleAnims/Kaela/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Kanata/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/Kiara/Axe Installer.event"
 #include "BattleAnims/Kiara/Handaxe Installer.event"
 #include "BattleAnims/Kiara/Sword Installer.event"
 #include "BattleAnims/Kiara/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Korone/Monster Installer.event"
 #include "BattleAnims/Korone/Revert Installer.event"
 #include "BattleAnims/Korone/Transform Installer.event"
 #include "BattleAnims/Korone/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/KoronePromotion/Monster Installer.event"
 #include "BattleAnims/KoronePromotion/Sword Installer.event"
 #include "BattleAnims/KoronePromotion/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Kronii_ClockHands/Sword Installer.event"
 #include "BattleAnims/Kronii_ClockHands/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Kronii_NoClock/Sword Installer.event"
 }
+
 {
 #include "BattleAnims/Lamy/Staff Installer.event"
 #include "BattleAnims/Lamy/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Laplace/Magic Installer.event"
 #include "BattleAnims/Laplace/Staff Installer.event"
 }
+
 {
 #include "BattleAnims/Laplus/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/Legion/Bow Installer.event"
 #include "BattleAnims/Legion/Lance Installer.event"
 #include "BattleAnims/Legion/Sword Installer.event"
 #include "BattleAnims/Legion/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/LGunner/Bow Installer.event"
 }
+
 {
 #include "BattleAnims/M!Cav/Lance Installer.event"
 #include "BattleAnims/M!Cav/Sword Installer.event"
 #include "BattleAnims/M!Cav/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/M!Druid/Magic Installer.event"
 #include "BattleAnims/M!Druid/Staff Installer.event"
 }
+
 {
 #include "BattleAnims/M!GreatKnight/Axe Installer.event"
 #include "BattleAnims/M!GreatKnight/Lance Installer.event"
@@ -385,33 +457,40 @@ POP
 #include "BattleAnims/M!GreatKnight/Unarmed Installer.event"
 #include "BattleAnims/M!GreatKnight/Handaxe Installer.event"
 }
+
 {
 #include "BattleAnims/M!Mage/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/M!MageKnight/Magic Installer.event"
 #include "BattleAnims/M!MageKnight/Staff Installer.event"
 #include "BattleAnims/M!MageKnight/Sword Installer.event"
 }
+
 {
 #include "BattleAnims/M!Paladin/Lance Installer.event"
 #include "BattleAnims/M!Paladin/Sword Installer.event"
 #include "BattleAnims/M!Paladin/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/M!Pirate/Axe Installer.event"
 #include "BattleAnims/M!Pirate/Handaxe Installer.event"
 #include "BattleAnims/M!Pirate/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/M!WyvernLord/Lance Installer.event"
 #include "BattleAnims/M!WyvernLord/Sword Installer.event"
 #include "BattleAnims/M!WyvernLord/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/M!WyvernRider/Lance Installer.event"
 #include "BattleAnims/M!WyvernRider/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/MahouShoujo/Lance Installer.event"
 #include "BattleAnims/MahouShoujo/Bow Installer.event"
@@ -419,6 +498,7 @@ POP
 #include "BattleAnims/MahouShoujo/Staff Installer.event"
 #include "BattleAnims/MahouShoujo/Sword Installer.event"
 }
+
 {
 #include "BattleAnims/Marshall_ArmorT3/Axe Installer.event"
 #include "BattleAnims/Marshall_ArmorT3/Handaxe Installer.event"
@@ -426,31 +506,38 @@ POP
 #include "BattleAnims/Marshall_ArmorT3/Lance Installer.event"
 #include "BattleAnims/Marshall_ArmorT3/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Miko/Staff Installer.event"
 #include "BattleAnims/Miko/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Mio/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/Necromancer_T3/Magic Installer.event"
 #include "BattleAnims/Necromancer_T3/Staff Installer.event"
 }
+
 {
 #include "BattleAnims/Nene/Lance Installer.event"
 #include "BattleAnims/Nene/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Nephilim/Lance Installer.event"
 #include "BattleAnims/Nephilim/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/Noel/Axe Installer.event"
 #include "BattleAnims/Noel/Lance Installer.event"
 #include "BattleAnims/Noel/Handaxe Installer.event"
 #include "BattleAnims/Noel/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/NoelGaiden/Axe Installer.event"
 #include "BattleAnims/NoelGaiden/Hand Axe Installer.event"
@@ -458,100 +545,129 @@ POP
 #include "BattleAnims/NoelGaiden/Lance Installer.event"
 #include "BattleAnims/NoelGaiden/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/rat/Monster Installer.event"
 }
+
 {
 #include "BattleAnims/Roboco/Bow Installer.event"
 #include "BattleAnims/Roboco/Pistol Gunner Installer.event"
 #include "BattleAnims/Roboco/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Rushia/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/Seal/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/SentinelT3/Sword Installer.event"
 #include "BattleAnims/SentinelT3/Lance Installer.event"
 #include "BattleAnims/SentinelT3/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Shion/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/Skeleking/Bow Installer.event"
 #include "BattleAnims/Skeleking/Lance Installer.event"
 #include "BattleAnims/Skeleking/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Sniper/Bow Installer.event"
 #include "BattleAnims/Sniper/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Soldier/Lance Installer.event"
 }
+
 {
 #include "BattleAnims/Sora/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/Squire/Sword Installer.event"
 #include "BattleAnims/Squire/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Succubus/Lance Installer.event"
 #include "BattleAnims/Succubus/Monster Installer.event"
 }
+
 {
 #include "BattleAnims/Suisei/Axe Installer.event"
 #include "BattleAnims/Suisei/Handaxe Installer.event"
 #include "BattleAnims/Suisei/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Swordmaster/Sword Installer.event"
 #include "BattleAnims/Swordmaster/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Symphone/Magic Installer.event"
 #include "BattleAnims/Symphone/Staff Installer.event"
 }
+
 {
 #include "BattleAnims/Trickster_T3/Bow Installer.event"
 #include "BattleAnims/Trickster_T3/Magic Installer.event"
 #include "BattleAnims/Trickster_T3/Sword Installer.event"
 }
+
 {
 #include "BattleAnims/Troubadour/Magic Installer.event"
 #include "BattleAnims/Troubadour/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Valkyrie/Magic Installer.event"
 #include "BattleAnims/Valkyrie/Staff Installer.event"
 }
+
 {
 #include "BattleAnims/Villagers/F/Sword Installer.event"
 #include "BattleAnims/Villagers/F/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Villagers/M/Sword Installer.event"
 #include "BattleAnims/Villagers/M/Unarmed Installer.event"
 }
+
 {
 #include "BattleAnims/Watame/Magic Installer.event"
 }
+
 {
 #include "BattleAnims/Witch T2/Magic Installer.event"
 #include "BattleAnims/Witch T2/Staff Installer.event"
 }
+
 {
 #include "BattleAnims/Yagoo/Yagoo Installer.event"
 }
+
 {
 #include "BattleAnims/ZetaOkayu/Sword Installer.event"
 #include "BattleAnims/ZetaOkayu/Unarmed Installer.event"
 }
-
+{
+#include "BattleAnims/Anya/attack Installer.event"
+#include "BattleAnims/Anya/Finished Installer.event"
+#include "BattleAnims/Anya/Revert Installer.event"
+#include "BattleAnims/Anya/Transform Installer.event"
+}
 
 ALIGN 4
 InvestigatorAnims:
