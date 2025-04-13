@@ -371,4 +371,9 @@ SongTable(KawanabeID, Kawanabe, MapMusicGroup)
 SongTable(WatamesLullabyID, WatamesLullaby, MapMusicGroup)
 }
 
+{
+#include "MusicEvents/ShinigamiSketchyAkechi.event"
+SongTable(ShinigamiID, Shinigami, MapMusicGroup)
+}
+
 #include "SoundroomEditor.event"

@@ -74,6 +74,7 @@ SoundRoomEntry(amongusdripID, 0, AmongusTxt)
 SoundRoomEntry(DecisiveBattleID, 0, DecisiveTxt)
 SoundRoomEntry(TiesofFriendshipID, 0, TiesTxt)
 SoundRoomEntry(TwistedShadowsAID, 0, TwistedTxt)
+SoundRoomEntry(ShinigamiID, 0, ShinTxt)
 SoundRoomTerminator
 
 

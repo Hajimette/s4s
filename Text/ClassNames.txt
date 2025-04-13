@@ -2,28 +2,28 @@
 Investigator [X]
 
 ## AmeT1Desc
-The Investigator, trying to
+The Investigator, trying to[N]
 find a way back home. [X]
 
 ## DetectiveName
-Detective [x]
+Detective [X]
 
 ## DetectiveDesc
-Amelia, still searching 
-for seiso. [X]
+Amelia, still searching for[N]
+seiso. [X]
 
 ## MaidenName
 Battle Maiden [X]
 
 ## MaidenDesc
-Hardened Axe Fighters with
+Hardened Axe Fighters with[N]
 powerful blows and strength. [X]
 
 ## BSName
 Battle Sage [X]
 
 ## BSDesc
-Sages who took up the sword.
+Sages who took up the sword.[N]
 Staves, Magic and Swords. [X]
 
 ## CrateName
@@ -33,10 +33,10 @@ Crates[X]
 A Crate with Supplies.[X]
 
 ## ImperfectName
-Im[_p][_e][_r][_f][_e][_c][_t][_SP][_O][_n][_e] [X]
+Imperfect One [X]
 
 ## ImperfectDesc
-A tossed out morph that was
+A tossed out morph that was[N]
 made for combat.[X]
 
 ## ArmorKnightName
@@ -64,14 +64,14 @@ Aqua's Silly Cat [X]
 Mage[X]
 
 ## MageDesc
-Magic wielders with solid skills but low
+Magic wielders with solid skills but low[N]
 physical strength. Equip: Anima. [X]
 
 ## LMageName
 Light Mage[X]
 
 ## LMageDesc
-Mages who gave up anima
+Mages who gave up anima[N]
 in search for seiso. [X]
 
 ## CrewmateName
@@ -84,15 +84,15 @@ Sussy Baka [X]
 The Weapon [X]
 
 ## WeaponDesc
-Anya, finally awoken 
-from her slumber. [X] 
+Anya, finally awoken [N]
+from her slumber.[X]
 
 ## TravCircusDesc
-A mobile circus that provides
+A mobile circus that provides[N]
 supplies to the army. [X]
 
 ## TravCircusName
-T[_r][_a][_v][_e]li[_n][_g][_SP][_C]i[_r][_c][_u][_s][X]
+Traveling Circus [X]
 
 ## SmolName
 Smol Ame [X]
@@ -101,7 +101,7 @@ Smol Ame [X]
 An Amelia from another world.[X]
 
 ## CrossDesc
-An archer with extreme 
+An archer with extreme[N]
 accuracy and speed.[X]
 
 ## CrossName
@@ -111,60 +111,60 @@ Crossbowman[X]
 Warrior[X]
 
 ## WarDesc
-Stalwart warriors whose power is
+Stalwart warriors whose power is[N]
 their pride. Equip: Axes, bows.[X]
 
 ## BerserName
 Berserker[X]
 
 ## BerserDesc
-Fighters at home both in mountains
+Fighters at home both in mountains[N]
 and at sea. Equip: Axes.[X]
 
 ## SuccName
 Succubus [X]
 
 ## SuccubusDesc
-Strong underworld dwellers
+Strong underworld dwellers[N]
 who use scythes and lances.[X]
 
 ## ChocoDesc
-She's not a succubus, she's
+She's not a succubus, she's[N]
 just really hot. [X]
 
 ## ScholarName
 Scholar [X]
 
 ## ScholarDesc
-Dark mages who decided to
+Dark mages who decided to[N]
 also study Anima. [X]
 
 ## WitchName
 Witch [X]
 
 ## WitchDesc
-Educated Witches who finally
+Educated Witches who finally[N]
 learned how to fly. [X]
 
 ## GunnerName
 Gunner [X]
 
 ## GunnerDesc
-Can use bows and all
+Can use bows and all[N]
 small arms equipment. [X]
 
 ## LGunName
 L. Gunner[X]
 
 ## LGunDesc
-Stronger Gunners with
+Stronger Gunners with[N]
 greater attack and defense.[X]
 
 ## RogueCatName
 Rogue [X]
 
 ## CatRogueDesc
-Cats who need no tools or keys to
+Cats who need no tools or keys to[N]
 open locks. Equip: Swords. Skill: Pick.[X]
 
 ## ChickenName
@@ -177,91 +177,91 @@ Catch KFP hands.[X]
 Harrier[X]
 
 ## HarrierDesc
-Falco Knights with a strong
+Falco Knights with a strong[N]
 aptitude for magic. [X]
 
 ## BlacksmithName
 Blacksmith [X]
 
 ## BlacksmithDesc
-A hero who mastered the
+A hero who mastered the[N]
 use of staves.[X]
 
 ## SamuraiName
 Samurai[X]
 
 ## SamuraiDesc
-Superior Swordmasters with 
+Superior Swordmasters with [N]
 unparalleled skill and speed.[X]
 
 ## KoroneName
 The Doog [X]
 
 ## KoroneDesc
-A freelancer who can
+A freelancer who can[N]
 transform into a dog. [X]
 
 ## SlayerName
 The Slayer[X]
 
 ## SlayerDesc
-Korone, now stronger after
+Korone, now stronger after[N]
 consuming a finger.[X]
 
 ## FellbeastName
 Fellbeast[X]
 
 ## FellbeastDesc
-Veteran Wyvern Knights who can
+Veteran Wyvern Knights who can[N]
 have their mounts strike.[X]
 
 ## OniName
 Oni[X]
 
 ## OniDesc
-A demon that has mastered
+A demon that has mastered[N]
 duel wielding blades.[X]
 
 ## PirateName
 Pirate [X]
 
 ## PirateDesc
-Tough brawlers who call the
+Tough brawlers who call the[N]
 sea their home. Equip: Axes.[X]
 
 ## ShamanName
 Shaman [X]
 
 ## ShamanDesc
-Wielders of magic who are stronger,
+Wielders of magic who are stronger,[N]
 but slower, than mages. Equip: Dark.[X]
 
 ## AngelName
 Angel[X]
 
 ## AngelDesc
-An angelic being from the
+An angelic being from the[N]
 heavens. Uses light magic. [X]
 
 ## SuperNoelName
 Commander[X]
 
 ## SuperNoelDesc
-Commander of Knights.
+Commander of Knights.[N]
 Lances, Axes, and Swords.[X]
 
 ## BaellistaName
 Baellista [X]
 
 ## BaellistaDesc
-Giant poisonous spiders that
+Giant poisonous spiders that[N]
 were made by Aqua.[X]
 
 ## TankName
 Tank [X]
 
 ## TankDes
-A Standard Tank.
+A Standard Tank.[N]
 Armored.[X]
 
 ## InfantryName
@@ -280,95 +280,95 @@ An artillery platform.[X]
 Warden [X]
 
 ## WardenDesc
-The manifestation of time. 
+The manifestation of time. [N]
 Unparalled speed and power. [X]
 
 ## GuardianName
 Guardian[X]
 
 ## GuardianDesc
-A great sage who protects
+A great sage who protects[N]
 the Shrine of Seiso. [X]
 
 ## GuardianDesc2
-A great swordmaster who protects
+A great swordmaster who protects[N]
 the Shrine of Seiso. [X]
 
 ## DrownedName
 Drowned[X]
 
 ## DrownedDesc
-A corpse with magical 
+A corpse with magical [N]
 properties. [X]
 
 ## SymphoneName
 Symphone[X]
 
 ## SymphoneDesc
-Mutated drowned who have
+Mutated drowned who have[N]
 harnessed greater magic. [X]
 
 ## TowaName
 Druid [X]
 
 ## TowaDesc
-She's supposed to know dark magic,
-but she's too pure to hurt someone. [X}
+She's supposed to know dark magic,[N]
+but she's too pure to hurt someone.[X]
 
 ## LaplaceName
 Laplace[X]
 
 ## LaplaceDesc
-Freed from her shackled
+Freed from her shackled[N]
 power. [X]
 
 ## ScientistName
 Scientist[X]
 
 ## ScientistDesc
-Koyori Hakui, a clumsy 
+Koyori Hakui, a clumsy[N] 
 scientist who knows all magic.[X]
 
 ## NephilimName
 Nephilim[X]
 
 ## NephilimDesc
-Demon and Angel, they
+Demon and Angel, they[N]
 pierce the skies with magic.[X]
 
 ## PegTraineeName
 Peg. Trainee[X]
 
 ## PegTraineeDesc
-Pegasus riders still learning
+Pegasus riders still learning[N]
 the basics. [X]
 
 ## MagicGirlName
 Magic Girl[X]
 
 ## MagicGirlDesc
-Despite the name, doesn't
+Despite the name, doesn't[N]
 actually know magic yet. [X]
 
 ## MahouGirlName
 Mahou Girl[X]
 
 ## MahouGirlDesc
-Magical girls who mastered all
+Magical girls who mastered all[N]
 kinds of magic (and axes). [X]
 
 ## MaidName
 Maid [X]
 
 ## MaidDesc
-A common maid who has 
+A common maid who has [N]
 taken up arms.[X]
 
 ## GoreName
 Gore[X]
 
 ## GoreDesc
-Strong, entombed caved
+Strong, entombed caved[N]
 dwellers.[X]
 
 ## LegionName
@@ -387,7 +387,7 @@ King of the legions.[X]
 Seal[X]
 
 ## SealDesc
-A seal that prohibits the
+A seal that prohibits the[N]
 use of magic.[X]
 
 ## CEOName
@@ -400,14 +400,14 @@ Idol or Entertainment Company?[X]
 War Elephant[X]
 
 ## ElephantDesc
-Part of Fauna's personal
+Part of Fauna's personal[N]
 army of War Elephants.[X]
 
 ## RatName
 Rat[X]
 
 ## RatDesc
-A rat who is part of Bae's
+A rat who is part of Bae's[N]
 Rat pack.[X]
 
 ## CatapultName
@@ -420,61 +420,62 @@ Pack it up...[X]
 Novistador[X]
 
 ## NovistadorDesc
-Invisible entities who only appear
+Invisible entities who only appear[N]
 to attack.[X]
 
 ## DancerName
 Dancer[X]
 
 ## DancerDesc
-A Dancer that can refresh
+A Dancer that can refresh[N]
 allies. Limited Abilities.[X]
 
 ## TricksterName
 Trickster[X]
 
 ## TricksterDesc
-Thieves who can pick
+Thieves who can pick[N]
 any lock and use magic.[X]
 
 ## MarshallName
 Marshall [X]
 
 ## MarshallDesc
-Great Field Marshalls with
+Great Field Marshalls with[N]
 unpenetrable defenses.[X]
 
 ## SentinelName
-Sentinel
+Sentinel [X]
 
 ## SentinelDesc
-An offensive soldier who
+An offensive soldier who[N]
 excels in piercing defenses.[X]
 
 ## NecromancerName
 Necromancer[X]
 
 ## NecromancerDesc
-Dark Mages who specialize in 
+Dark Mages who specialize in [N]
 raising the dead. Staves and Dark.[X]
 
 ## SeraphName
 Seraph Knight [X]
 
 ## SeraphDesc
-Superior Falco Knights
+Superior Falco Knights[N]
 with incredible speed. [X]
 
 ## MasterKnightName
 Master Knight [X]
 
 ## MasterKnightDesc
-Armored Paladins who have
+Armored Paladins who have[N]
 mastered most weapons. [X]
 
 ## MarksmenName
 Marksmen[X]
 
 ## MarksmenDesc
-Superior snipers with
+Superior snipers with[N]
 overwhelming accuracy.[X]
+

@@ -208,3 +208,5 @@ Ties of FriendShip[X]
 ## TwistedTxt
 Twisted Shadows A [X]
 
+## ShinTxt
+Shinigami [X]

@@ -30,6 +30,7 @@
 #define KawaiikuteGomenID 0x20
 #define AmeliaMomentID 0x318
 #define InfinityID 0x46
+#define ShinigamiID 0x08
 
 
 //FE4 
