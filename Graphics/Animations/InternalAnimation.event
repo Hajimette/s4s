@@ -31,7 +31,7 @@
 #define ClassTable NewClassTable
 
 
-PUSH
+
 
 //#define AnimTableEntry(index) "ORG ClassAnimTable - 0x20 + (index * 0x400)"
 
@@ -42,6 +42,7 @@ ClassAnimTable:
 	#incbin "ClassAnimTable.dmp" // Vanilla ClassAnimTable.
 	POP
 
+PUSH
 ORG $59BD8
 POIN ClassAnimTable
 ORG $5A600
