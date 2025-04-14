@@ -326,6 +326,14 @@ RBCNoGlasses:
 setMugEntry(RBCNoGlasses, RBCNoGlassesData, 4, 5, 4, 3)
 
 ALIGN 4
+AZKi:
+#incbin "AZKi_mug.dmp"
+#incbin "AZKi_frames.dmp"
+#incbin "AZKi_palette.dmp"
+#incbin "AZKi_minimug.dmp"
+setMugEntry(AZKi, AZKiData, 3, 6, 3, 4)
+
+ALIGN 4
 :
 #incbin "_mug.dmp"
 #incbin "_frames.dmp"
@@ -391,3 +399,4 @@ setMugEntry(, Data, 4, 5, 4, 3)
 #define ZetaSus 0xF5
 #define RBC 0x16
 #define RBCNoGlasses 0xE0
+#define AZKi 0x1E

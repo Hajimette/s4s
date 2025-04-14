@@ -28,14 +28,37 @@
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 #define EndAnim "WORD 0x0 0x0"
 
-ALIGN 16
-ClassAnimTable:
-FILL 0x20 * 0x340 // number of battle anims
-
-
 #define ClassTable NewClassTable
 
+
 PUSH
+
+//#define AnimTableEntry(index) "ORG ClassAnimTable - 0x20 + (index * 0x400)"
+
+ClassAnimTable:
+	FILL 0x20 * 0x400 // Allocate 0x400 entries for the ClassAnimTable.
+	PUSH
+	ORG ClassAnimTable
+	#incbin "ClassAnimTable.dmp" // Vanilla ClassAnimTable.
+	POP
+
+ORG $59BD8
+POIN ClassAnimTable
+ORG $5A600
+POIN ClassAnimTable
+ORG $5A694
+POIN ClassAnimTable
+ORG $5A82C
+POIN ClassAnimTable
+ORG $6F6A8
+POIN ClassAnimTable
+ORG $70940
+POIN ClassAnimTable
+ORG $70A60
+POIN ClassAnimTable
+
+
+
 
 ORG $17AB8
 POIN NewClassTable
@@ -57,6 +80,8 @@ POIN NewClassTable
 //POIN MovingMapAnimTable
 
 POP
+
+
 
 {
 #include "BattleAnims/Amelia/Glock Installer.event"
@@ -676,14 +701,133 @@ BowAnim(0x03)
 UnarmedAnim(0x02)
 WORD 0x0    
 
+ALIGN 4
+TankAnims:
+BowAnim(0xF1)
+WORD 0x0
 
+ALIGN 4
+InfantryAnims:
+BowAnim(0xF2)
+WORD 0x0
 
+ALIGN 4
+HowitzerAnims:
+BowAnim(0xF0)
+WORD 0x0
 
+ALIGN 4
+WyvernRiderAnims:
+LanceAnim(0x5A)
+UnarmedAnim(0x5B)
+WORD 0x0
 
+ALIGN 4
+Amongus:
+MonsterAnim(0xF3)
+BowAnim(0xF4)
+UnarmedAnim(0xF5)
+WORD 0x0
 
+ALIGN 4
+AquaAnim:
+SwordAnim(0xF6)
+UnarmedAnim(0xF7)
+WORD 0x0
 
+ALIGN 4
+AyameAnim:
+SwordAnim(0xF8)
+UnarmedAnim(0xF9)
+WORD 0x0
 
+ALIGN 4
+AZKiAnim:
+AnimaAnim(0x91)
+LightAnim(0x91)
+DarkAnim(0x91)
+WORD 0x0
 
+ALIGN 4
+Baellista:
+MonsterAnim(0xFA)
+BowAnim(0xFB)
+SpecialAnim(0xFC,0x35)
+SpecialAnim(0xFC,0x36)
+SpecialAnim(0xFC,0x37)
+WORD 0x0
 
+ALIGN 4
+BallistaAnim:
+BowAnim(0xFD)
+WORD 0x0
 
+ALIGN 4
+Barbarian:
+AxeAnim(0x20)
+HandAxeAnim(0x21)
+UnarmedAnim(0x22)
+WORD 0x0
 
+ALIGN 4
+BerserkerAnim:
+AxeAnim(0x23)
+HandAxeAnim(0x24)
+UnarmedAnim(0x25)
+WORD 0x0
+
+ALIGN 4
+BotanAnim:
+BowAnim(0xFE)
+UnarmedAnim(0xFF)
+WORD 0x0
+
+ALIGN 4
+Maiden:
+AxeAnim(0xD4)
+HandAxeAnim(0xD5)
+UnarmedAnim(0xD6)
+WORD 0x0
+
+ALIGN 4
+CalliopeAnim:
+UnarmedAnim(0x101)
+//SpecialAnim(0x102, Brandioche)
+//SpecialAnim(0x100, Ricky)
+AxeAnim(0x9D)
+HandAxeAnim(0x9E)
+WORD 0x0
+
+ALIGN 4
+Catapult:
+BowAnim(0x103)
+WORD 0x0
+
+ALIGN 4
+Chama:
+SwordAnim(0x104)
+WORD 0x0
+
+ALIGN 4
+Chicken:
+MonsterAnim(0x105)
+WORD 0x0
+
+ALIGN 4
+ChloeAnim:
+SwordAnim(0x8D)
+UnarmedAnim(0x8E)
+WORD 0x0
+
+ALIGN 4
+ChocoAnim:
+//SpecialAnim(0x106, Scythe)
+LanceAnim(0x107)
+UnarmedAnim(0x106)
+WORD 0x0
+
+ALIGN 4
+DeathgoyleAnim:
+LanceAnim(0xBF)
+UnarmedAnim(0xC0)
+WORD 0x0
