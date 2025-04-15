@@ -832,3 +832,657 @@ DeathgoyleAnim:
 LanceAnim(0xBF)
 UnarmedAnim(0xC0)
 WORD 0x0
+
+ALIGN 4
+DrownedAnim:
+AnimaAnim(0x108)
+LightAnim(0x108)
+DarkAnim(0x108)
+UnarmedAnim(0x108)
+StaffAnim(0x109)
+WORD 0x0
+
+ALIGN 4
+ElephantAnim:
+MonsterAnim(0x10A)
+WORD 0x0
+
+ALIGN 4
+BattleSageAnim:
+SwordAnim(0x04)
+AnimaAnim(0x06)
+DarkAnim(0x06)
+LightAnim(0x06)
+UnarmedAnim(0x06)
+StaffAnim(0x05)
+WORD 0x0
+
+ALIGN 4
+FemBerserkerAnim:
+AxeAnim(0x10B)
+HandAxeAnim(0x10C)
+UnarmedAnim(0x10D)
+WORD 0x0
+
+ALIGN 4
+FBishopAnim:
+LightAnim(0x83)
+StaffAnim(0x84)
+UnarmedAnim(0x83)
+WORD 0x0
+
+ALIGN 4
+FCavAnim:
+LanceAnim(0x37)
+SwordAnim(0x38)
+UnarmedAnim(0x39)
+WORD 0x0
+
+ALIGN 4
+FDruidAnim:
+DarkAnim(0x79)
+AnimaAnim(0x79)
+StaffAnim(0x7A)
+UnarmedAnim(0x79)
+WORD 0x0
+
+ALIGN 4
+FalcoKnightAnim:
+SwordAnim(0x68)
+LanceAnim(0x69)
+UnarmedAnim(0x6A)
+WORD 0x0
+
+ALIGN 4
+FellBeastAnim:
+LanceAnim(0xD7)
+MonsterAnim(0xD8)
+UnarmedAnim(0xD9)
+WORD 0x0
+
+ALIGN 4
+FGreatKnightAnim:
+SwordAnim(0x53)
+LanceAnim(0x54)
+AxeAnim(0x55)
+HandAxeAnim(0x56)
+UnarmedAnim(0x57)
+WORD 0x0
+
+ALIGN 4
+FHalberdier:
+LanceAnim(0x10E)
+UnarmedAnim(0x10F)
+WORD 0x0
+
+ALIGN 4
+FMageAnim:
+AnimaAnim(0x6C)
+UnarmedAnim(0x6C)
+WORD 0x0
+
+ALIGN 4
+FMageKnightAnim:
+AnimaAnim(0x73)
+StaffAnim(0x74)
+SwordAnim(0x10F)
+UnarmedAnim(0x73)
+WORD 0x0
+
+ALIGN 4
+MarksmenAnim:
+BowAnim(0xDA)
+UnarmedAnim(0xDB)
+WORD 0x0
+
+ALIGN 4
+MasterKnightAnim:
+SwordAnim(0xDC)
+AxeAnim(0xDD)
+HandAxeAnim(0xDF)
+LanceAnim(0xDE)
+AnimaAnim(0xE0)
+StaffAnim(0xE1)
+UnarmedAnim(0xE0)
+WORD 0x0
+
+ALIGN 4
+FMercAnim:
+SwordAnim(0x13)
+UnarmedAnim(0x14)
+WORD 0x0
+
+ALIGN 4
+FPaladinAnim:
+SwordAnim(0x3D)
+LanceAnim(0x3E)
+UnarmedAnim(0x3F)
+WORD 0x0
+
+ALIGN 4
+PegasusKnightAnim:
+LanceAnim(0x66)
+UnarmedAnim(0x67)
+WORD 0x0
+
+ALIGN 4
+PegTraineeAnim:
+LanceAnim(0x112)
+UnarmedAnim(0x113)
+WORD 0x0
+
+ALIGN 4
+FPirateAnim:
+AxeAnim(0x114)
+HandAxeAnim(0x115)
+UnarmedAnim(0x116)
+WORD 0x0
+
+ALIGN 4
+RecruitAnim:
+LanceAnim(0x96)
+UnarmedAnim(0x97)
+WORD 0x0
+
+ALIGN 4
+SeraphKnightAnim:
+SwordAnim(0xE2)
+LanceAnim(0xE3)
+AnimaAnim(0xE4)
+StaffAnim(0xE5)
+UnarmedAnim(0xE4)
+WORD 0x0
+
+ALIGN 4
+FShamanAnim:
+DarkAnim(0x76)
+UnarmedAnim(0x76)
+WORD 0x0
+
+ALIGN 4
+FSniperAnim:
+BowAnim(0x2C)
+UnarmedAnim(0x2D)
+WORD 0x0
+
+ALIGN 4
+FSwordmasterAnim:
+SwordAnim(0x13)
+UnarmedAnim(0x14)
+WORD 0x0
+
+ALIGN 4
+FemWarriorAnim:
+AxeAnim(0x117)
+HandAxeAnim(0x119)
+BowAnim(0x118)
+UnarmedAnim(0x11A)
+WORD 0x0
+
+ALIGN 4
+FWyvernKnightAnim:
+LanceAnim(0x11B)
+UnarmedAnim(0x11C)
+WORD 0x0
+
+ALIGN 4
+FWyvernLordAnim:
+LanceAnim(0x60)
+UnarmedAnim(0x61)
+SwordAnim(0x5F)
+WORD 0x0
+
+ALIGN 4
+FaunaAnim:
+BowAnim(0x28)
+UnarmedAnim(0x29)
+WORD 0x0
+
+ALIGN 4
+FbkAnim:
+SwordAnim(0x11D)
+UnarmedAnim(0x11E)
+WORD 0x0
+
+ALIGN 4
+FlareAnim:
+BowAnim(0x11F)
+UnarmedAnim(0x120)
+WORD 0x0
+
+ALIGN 4
+GeneralAnim:
+SwordAnim(0x44)
+LanceAnim(0x45)
+AxeAnim(0x46)
+HandAxeAnim(0x47)
+UnarmedAnim(0x48)
+BowAnim(0x49)
+WORD 0x0
+
+ALIGN 4
+GoreAnim:
+MonsterAnim(0x121)
+WORD 0x0
+
+ALIGN 4
+GwyggliAnim:
+MonsterAnim(0xB2)
+WORD 0x0
+
+ALIGN 4
+HarrierAnim:
+LanceAnim(0x122)
+AnimaAnim(0x123)
+DarkAnim(0x123)
+LightAnim(0x123)
+UnarmedAnim(0x123)
+WORD 0x0
+
+ALIGN 4
+HeroAnim:
+SwordAnim(0x0D)
+AxeAnim(0x0E)
+HandAxeAnim(0x0F)
+UnarmedAnim(0x10)
+WORD 0x0
+
+ALIGN 4
+GozaruAnim:
+SwordAnim(0xEB)
+UnarmedAnim(0xEC)
+WORD 0x0
+
+ALIGN 4
+KaelaAnim:
+SwordAnim(0x126)
+AxeAnim(0x127)
+HandAxeAnim(0x128)
+UnarmedAnim(0x129)
+WORD 0x0
+
+ALIGN 4
+AngelAnim:
+LightAnim(0x12A)
+WORD 0x0
+
+ALIGN 4
+FHeroAnim:
+SwordAnim(0x12B)
+AxeAnim(0x12C)
+HandAxeAnim(0x12D)
+UnarmedAnim(0x12E)
+WORD 0x0
+
+ALIGN 4
+KoroneAnim:
+MonsterAnim(0x131)
+//KoroneAttack(12F)
+//KoroneRevert(0x130)
+UnarmedAnim(0x132)
+WORD 0x0
+
+ALIGN 4
+KoronePromotionAnim:
+MonsterAnim(0x133)
+SwordAnim(0x134)
+UnarmedAnim(0x135)
+WORD 0x0
+
+ALIGN 4
+KroniiAnim:
+//SpecialAnim(0x138, ClockHands)
+SwordAnim(0x136)
+UnarmedAnim(0x137)
+WORD 0x0
+
+ALIGN 4
+LamyAnim:
+StaffAnim(0x7F)
+UnarmedAnim(0x7E)
+WORD 0x0
+
+ALIGN 4
+LaplaceAnim:
+AnimaAnim(0x139)
+DarkAnim(0x139)
+LightAnim(0x139)
+StaffAnim(0x13A)
+UnarmedAnim(0x139)
+WORD 0x0
+
+ALIGN 4
+LaplusAnim:
+DarkAnim(0x95)
+UnarmedAnim(0x95)
+WORD 0x0
+
+ALIGN 4
+LegionAnim:
+SwordAnim(0x13B)
+LanceAnim(0x13C)
+BowAnim(0x13D)
+UnarmedAnim(0x13E)
+WORD 0x0
+
+ALIGN 4
+LightGunnerAnim:
+BowAnim(0x13F)
+WORD 0x0
+
+ALIGN 4
+CavAnim:
+SwordAnim(0x34)
+LanceAnim(0x35)
+UnarmedAnim(0x36)
+WORD 0x0
+
+ALIGN 4
+DruidAnim:
+DarkAnim(0x77)
+StaffAnim(0x78)
+UnarmedAnim(0x77)
+WORD 0x0
+
+ALIGN 4
+GreatKnightAnim:
+SwordAnim(0x4E)
+LanceAnim(0x4F)
+AxeAnim(0x50)
+HandAxeAnim(0x51)
+UnarmedAnim(0x52)
+WORD 0x0
+
+ALIGN 4
+MageAnim:
+AnimaAnim(0x6B)
+UnarmedAnim(0x6B)
+WORD 0x0
+
+ALIGN 4
+MageKnightAnim:
+AnimaAnim(0x71)
+StaffAnim(0x72)
+SwordAnim(0x140)
+WORD 0x0
+
+ALIGN 4
+PaladinAnim:
+SwordAnim(0x3A)
+LanceAnim(0x3B)
+UnarmedAnim(0x3C)
+WORD 0x0
+
+ALIGN 4
+MPirateAnim:
+AxeAnim(0x9A)
+HandAxeAnim(0x9B)
+UnarmedAnim(0x9C)
+WORD 0x0
+
+ALIGN 4
+WyvernLordAnim:
+SwordAnim(0x5C)
+LanceAnim(0x5D)
+UnarmedAnim(0x5E)
+WORD 0x0
+
+ALIGN 4
+MWyvernRiderAnim:
+LanceAnim(0x58)
+UnarmedAnim(0x59)
+WORD 0x0
+
+ALIGN 4
+MahouGirlAnim:
+SwordAnim(0x145)
+LanceAnim(0x142)
+BowAnim(0x141)
+StaffAnim(0x144)
+AnimaAnim(0x143)
+DarkAnim(0x143)
+LightAnim(0x143)
+UnarmedAnim(0x143)
+WORD 0x0
+
+ALIGN 4
+MarshallAnim:
+SwordAnim(0xCF)
+LanceAnim(0xD0)
+AxeAnim(0xD1)
+HandAxeAnim(0xD2)
+UnarmedAnim(0xD3)
+WORD 0x0
+
+ALIGN 4
+MikoAnim:
+StaffAnim(0x146)
+UnarmedAnim(0x147)
+WORD 0x0
+
+ALIGN 4
+MioAnim:
+AnimaAnim(0x148)
+DarkAnim(0x148)
+LightAnim(0x148)
+UnarmedAnim(0x148)
+StaffAnim(0x148)
+WORD 0x0
+
+ALIGN 4
+NecromancerAnim:
+DarkAnim(0xCA)
+StaffAnim(0xCB)
+UnarmedAnim(0xCA)
+WORD 0x0
+
+ALIGN 4
+DetectiveAnims:
+SwordAnim(0x01)
+BowAnim(0x03)
+UnarmedAnim(0x02)
+WORD 0x0   
+
+ALIGN 4
+MagicGirlAnim:
+LanceAnim(0x149)
+UnarmedAnim(0x14A)
+WORD 0x0
+
+ALIGN 4
+NephAnim:
+LanceAnim(0x14B)
+LightAnim(0x14C)
+DarkAnim(0x14C)
+UnarmedAnim(0x14C)
+WORD 0x0
+
+ALIGN 4
+SuperNoelAnim:
+LanceAnim(0x151)
+AxeAnim(0x152)
+HandAxeAnim(0x154)
+SwordAnim(0x155)
+UnarmedAnim(0x153)
+WORD 0x0
+
+ALIGN 4
+NoelAnim:
+LanceAnim(0x40)
+AxeAnim(0x41)
+HandAxeAnim(0x42)
+UnarmedAnim(0x43)
+WORD 0x0
+
+ALIGN 4
+RatAnim:
+MonsterAnim(0x156)
+WORD 0x0
+
+ALIGN 4
+RBCAnim:
+//SpecialAnim(0x4A, Rifle)
+//SpecialAnim(0x4B, Pistol)
+UnarmedAnim(0x4C)
+WORD 0x0
+
+ALIGN 4
+RushiaAnim:
+DarkAnim(0x4D)
+UnarmedAnim(0x4D)
+WORD 0x0
+
+ALIGN 4
+SealAnim:
+UnarmedAnim(0x157)
+WORD 0x0
+
+ALIGN 4
+SentinelAnim:
+SwordAnim(0xE6)
+LanceAnim(0xE7)
+UnarmedAnim(0xE8)
+WORD 0x0
+
+ALIGN 4
+ShionAnim:
+DarkAnim(0x158)
+AnimaAnim(0x158)
+UnarmedAnim(0x158)
+WORD 0x0
+
+ALIGN 4
+SkeletonKingAnim:
+LanceAnim(0x159)
+BowAnim(0x15A)
+UnarmedAnim(0x15B)
+WORD 0x0
+
+ALIGN 4
+SniperAnim:
+BowAnim(0x2A)
+UnarmedAnim(0x2B)
+WORD 0x0
+
+ALIGN 4
+
+SoldierAnim:
+LanceAnim(0x98)
+WORD 0x0
+
+ALIGN 4
+SoraAnim:
+LightAnim(0x15C)
+UnarmedAnim(0x15C)
+WORD 0x0
+
+ALIGN 4
+SquireAnim:
+SwordAnim(0x15D)
+UnarmedAnim(0x15E)
+WORD 0x0
+
+ALIGN 4
+SuccubusAnim:
+MonsterAnim(0x15F) //Maybe set to special later idk lol
+LanceAnim(0x160)
+WORD 0x0
+
+ALIGN 4
+SuiseiAnim:
+AxeAnim(0x19)
+HandAxeAnim(0x1A)
+UnarmedAnim(0x1B)
+WORD 0x0
+
+ALIGN 4
+SwordmasterAnim:
+SwordAnim(0x15)
+UnarmedAnim(0x16)
+WORD 0x0
+
+ALIGN 4
+SymphoneAnim:
+AnimaAnim(0x07)
+DarkAnim(0x07)
+LightAnim(0x07)
+StaffAnim(0x08)
+WORD 0x0
+
+ALIGN 4
+TricksterAnim:
+SwordAnim(0xCC)
+BowAnim(0xCD)
+AnimaAnim(0xCE)
+UnarmedAnim(0xCE)
+WORD 0x0
+
+ALIGN 4
+TroubadourAnim:
+StaffAnim(0x86)
+UnarmedAnim(0x85)
+WORD 0x0
+
+ALIGN 4
+ValkyrieAnim:
+LightAnim(0x87)
+StaffAnim(0x88)
+UnarmedAnim(0x87)
+WORD 0x0
+
+ALIGN 4
+MVillagerAnim:
+SwordAnim(0x163)
+UnarmedAnim(0x164)
+WORD 0x0
+
+ALIGN 4
+FVillagerAnim:
+SwordAnim(0x161)
+UnarmedAnim(0x162)
+WORD 0x0
+
+ALIGN 4
+WatameAnim:
+AnimaAnim(0x165)
+DarkAnim(0x165)
+LightAnim(0x165)
+UnarmedAnim(0x165)
+WORD 0x0
+
+ALIGN 4
+WitchT2Anim:
+DarkAnim(0x166)
+AnimaAnim(0x166)
+UnarmedAnim(0x166)
+StaffAnim(0x167)
+WORD 0x0
+
+ALIGN 4
+YagooAnim:
+AnimaAnim(0xC8)
+DarkAnim(0xC8)
+LightAnim(0xC8)
+UnarmedAnim(0xC8)
+WORD 0x0
+
+ALIGN 4
+CatAnim:
+SwordAnim(0x09)
+UnarmedAnim(0x0A)
+WORD 0x0
+
+ALIGN 4
+AnyaAnim:
+SwordAnim(0x168) //Transform
+UnarmedAnim(0x169) //Attack
+//TransformFinished(0x16B)
+//RevertAnim(0x16A)
+WORD 0x0
+
+ALIGN 4
+WyvernKnightAnim:
+LanceAnim(0x62)
+UnarmedAnim(0x63)
+WORD 0x0
+

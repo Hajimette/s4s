@@ -64,9 +64,9 @@
 0x3E Paladin (F) w/ Spear
 0x3F Paladin (F) Disarmed
 0x40 Armour Knight
-0x41 Armour Knight Disarmed
-0x42 Armour Knight (F)
-0x43 Armour Knight (F) Disarmed
+0x41 Armour Knight Axe
+0x42 HandAxe    
+0x43 Unarmed                   
 0x44 General w/ Sword
 0x45 General w/ Spear
 0x46 General w/ Axe
@@ -360,5 +360,8 @@
 0x165 Watame bard
 0x166 WitchT2
 0x167 WitchStaff
-0x168
-0x169
+0x168 AnyaTransform
+0x169 Attack
+0x16A Revert
+0x16B Finished
+0x16C

@@ -334,15 +334,21 @@ AZKi:
 setMugEntry(AZKi, AZKiData, 3, 6, 3, 4)
 
 ALIGN 4
+Polka:
+#incbin "Polka_mug.dmp"
+#incbin "Polka_frames.dmp"
+#incbin "Polka_palette.dmp"
+#incbin "Polka_minimug.dmp"
+setMugEntry(Polka, PolkaData, 3, 6, 3, 4)
+
+
+ALIGN 4
 :
 #incbin "_mug.dmp"
 #incbin "_frames.dmp"
 #incbin "_palette.dmp"
 #incbin "_minimug.dmp"
 setMugEntry(, Data, 4, 5, 4, 3)
-
-
-
 
 
 
@@ -400,3 +406,4 @@ setMugEntry(, Data, 4, 5, 4, 3)
 #define RBC 0x16
 #define RBCNoGlasses 0xE0
 #define AZKi 0x1E
+#define Polka 0x0A

@@ -479,3 +479,23 @@ Marksmen[X]
 Superior snipers with[N]
 overwhelming accuracy.[X]
 
+## HalbName
+Halberdier [X]
+
+## HalbDesc
+Soldiers who have taken[N]
+a defensive stance.[X]
+
+## FlareName
+Archer[X]
+
+## FlareDesc
+Flare Shiranui, can utilize precise[N]
+attacks to engage enemies.[X]
+
+## CatalystName
+Catalyst[X]
+
+## CatalystDesc
+Raw, unsealed power,[N]
+shackled from within.[X]
