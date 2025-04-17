@@ -406,7 +406,7 @@ KroniiAngryData:
 #incbin "Dmps/KroniiAngry_frames.dmp"
 #incbin "Dmps/KroniiAngry_palette.dmp"
 #incbin "Dmps/KroniiAngry_minimug.dmp"
-setMugEntry(KroniiAngry, KroniiAngryData, 2, 5, 2, 3)
+//setMugEntryExtend(KroniiAngry, KroniiAngryData, 2, 5, 2, 3, 10, 4, 10, 3)
 
 
 //ALIGN 4
