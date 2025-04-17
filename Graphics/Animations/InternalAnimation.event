@@ -33,7 +33,7 @@
 
 
 
-//#define AnimTableEntry(index) "ORG ClassAnimTable - 0x20 + (index * 0x400)"
+//#define AnimTableEntry(index) "ORG ClassAnimTable - 0x20 + (index * 0x400)" 
 
 ClassAnimTable:
 	FILL 0x20 * 0x400 // Allocate 0x400 entries for the ClassAnimTable.

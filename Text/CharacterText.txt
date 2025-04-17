@@ -1,0 +1,424 @@
+## AmeName
+Amelia [X]
+
+## AmeDesc
+Amelia Watson, searching for [N]
+a way home.[X]
+
+## ReineName
+Reine[X]
+
+## ReineDesc
+Lady of the Peafowl.[N]
+Lost her magic ability to[N]
+an accident.[X]
+
+## FaunaName
+Fauna[X]
+
+## FaunaDesc
+Concept of Nature.[N]
+Very fond of Mumei.[X]
+
+## MumeiName
+Mumei[X]
+
+## MumeiDesc
+Concept of Civilization.[N]
+Has a liking to berries.[X]
+
+## MikoName
+Miko[X]
+
+## MikoDesc
+The Elite Shrine Maiden of[N]
+Shike. Dislikes fire and lava.[X]
+
+## SuiseiName
+Suisei[X]
+
+## SuiseiDesc
+A Diamond in the Rough.[N]
+She's really cute today too.[X]
+
+## BaeName
+Baelz[X]
+
+## BaeDesc
+The Concept of Chaos.[N]
+Struggles with herself.[X]
+
+## PolkaName
+Polka[X]
+
+## PolkaDesc
+The Ringleader of the Hologram[N]
+Circus. Lives in a society.[X]
+
+## NoelName
+Noel[X]
+
+## NoelDesc
+Captain of the Silver Knights.[N]
+Very close to Flare.[X]
+
+## FlareName
+Flare[X]
+
+## FlareDesc
+Second in command of the[N]
+Silver Knights. Very fond[N]
+of Noel.[X]
+
+## WatameName
+Watame[X]
+
+## WatameDesc
+A traveling bard who[N]
+has done nothing wrong.[X]
+
+## NeneName
+Nene[X]
+
+## NeneDesc
+A traveling pegasus rider.[N]
+She hunts for husbands.[X]
+
+## LunaName
+Luna [X]
+
+## LunaDesc
+The Princess of Sweets. [N]
+Naaaaaaaaaaaaaaaaaaaaaa[X]
+
+## SubaruName
+Subaru[X]
+
+## SubaruDesc
+A tomboyish girl who has[N]
+a likeness to a duck.[X]
+
+## IofiName
+Iofi[X]
+
+## IofiDesc
+An Alien from outer space.[N]
+A cultured artist.[X]
+
+## RobocoName
+Roboco [X]
+
+## RobocoDesc
+A high=tech android from[N]
+another world. It is unknown[N]
+how she got here.[X]
+
+## RisuName
+Risu[X]
+
+## RisuDesc
+A mercenary who has a[N]
+strong liking to nuts.[X]
+
+## MatsuriName
+Matsuri[X]
+
+## MatsuriDesc
+A knight who left the Candy[N]
+Kingdom to fight for the[N]
+Resistance.[X]
+
+## AkiName
+Aki[X]
+
+## AkiDesc
+An interdimensional half-elf[N]
+from another world. Wyverns[N]
+love her.[X]
+
+## BotanName
+Botan[X]
+
+## BotanDesc
+A notorious mercenary who is[N]
+known to never miss. Prefers[N]
+performance over aesthetics.[X]
+
+## SoraName
+Sora[X]
+
+## SoraDesc
+The idol of light.[N]
+Try her new drink, "Seisoda"![X]
+
+## AzkiName
+AZKi[X]
+
+## AzkiDesc
+A dancer who lives with Sora[N]
+at the village. Wants to delve[N]
+into learning magic.[X]
+
+## PekoraName
+Pekora[X]
+
+## PekoraDesc
+The Princess of Pekoland.[N]
+Likes to cause mischief.[X]
+
+## MoonaName
+Moona[X]
+
+## MoonaDesc
+A General from Pekoland.[N]
+Also the CEO of Usada[N]
+Constructions.[X]
+
+## LamyName
+Lamy[X]
+
+## LamyDesc
+A girl whose family has ties[N]
+with Pekoland. Try her water.[X]
+
+## ChloeName
+Chloe[X]
+
+## ChloeDesc
+An intern for HoloX.[N]
+Has a strong disdain[N]
+for water.[X]
+
+## RushiaName
+Rushia[X]
+
+## RushiaDesc
+The "Boin Boin" Necromancer.[N]
+She can talk to the dead.[X]
+
+## KiaraName
+Kiara[X]
+
+## KiaraDesc
+A resistance fighter who kept[N]
+cover as a restaurant owner.[X]
+
+## AquaName
+Aqua[X]
+
+## AquaDesc
+The clumsy resistance leader[N]
+who oddly looks like an onion.[X]
+
+## CocoName
+Friend C[X]
+
+## CocoDesc
+The legendary grass dragon.[N]
+Has a bit of a pirate's mouth.[X]
+
+## ShionName
+Shion[X]
+
+## ShionDesc
+A resistance fighter who use to[N]
+attend the Underworld Academy.[N]
+Oddly looks like a garlic.[X]
+
+## MarineName
+Marine[X]
+
+## MarineDesc
+A "passionate" pirate who wants[N]
+to own her own ship someday.[N]
+Captain of the Houshou Pirates.[X]
+
+## GuraName
+Gura[X]
+
+## GuraDesc
+The scatterbrained, last Atlantean.[N]
+Like to eat food in the bath.[X]
+
+## InaName
+Ina[X]
+
+## InaDesc
+The artist who is now bound[N]
+to the Ancient One.[X]
+
+## CalliopeName
+Calliope[X]
+
+## CalliopeDesc
+The Reaper.[N]
+Guh![X]
+
+## OllieName
+Ollie[X]
+
+## OllieDesc
+A zombie who was revived by[N]
+Necromancy. Doesn't remember[N]
+her past life.[X]
+
+## FubukiName
+Shirakami[X]
+
+## FubukiDesc
+The white fox who protects[N]
+the Shrine of Seiso.[X]
+
+## KoroneName
+Korone[X]
+
+## KoroneDesc
+A brutal freelance who[N]
+has a taste for fingers.[N]
+Do not take Okayu from her.[X]
+
+## OkayuName
+Okayu[X]
+
+## OkayuDesc
+A calm freelancer who likes[N]
+eating. Impossible to make upset.[X]
+
+## MioName
+Mio[X]
+
+## MioDesc
+The black wolf who protects[N]
+the Shrine of Seiso.[X]
+
+## IrysName
+Irys[X]
+
+## IrysDesc
+The Concept of Hope.[N]
+Half-Demon, Half-Angel[N]
+Nephilim from the heavens.[X]
+
+## KanataName
+Kanata[X]
+
+## KanataDesc
+An angel from the heavens.[N]
+Has a really strong hand grip.[X]
+
+## TowaName
+Towa[X]
+
+## TowaDesc
+A student from the Underworld[N]
+Academy. Though a devil, not an[N]
+ounce of malice is in her.[X]
+
+## MelName
+Mel[X]
+
+## MelDesc
+A vampire from the underworld[N]
+academy. Likes a certain succubus.[X]
+
+## ChocoName
+Choco[X]
+
+## ChocoDesc
+A former medical doctor from[N]
+the underworld. Like to teach[N]
+on the side.[X]
+
+## LuiName
+Lui[X]
+
+## LuiDesc
+The De-facto leader of HoloX.[N]
+Just a little pon.[X]
+
+## LaplusName
+Laplus[X]
+
+## LaplusDesc
+The Founder of HoloX.[N]
+Her true ambitions are[N]
+unknown.[X]
+
+## AnyaName
+Anya[X]
+
+## AnyaDesc
+The sealed weapon from the[N]
+Shrine of Seiso. Knows many[N]
+languages.[X]
+
+## KoboName
+Kobo[X]
+
+## KoboDesc
+A water shaman found near the[N]
+waters of the fallen city Atlantis.[X]
+
+## ZetaName
+Zeta[X]
+
+## ZetaDesc
+An agent from HoloX.[N]
+Despite her protests, she[N]
+is VERY sus.[X]
+
+## KaelaName
+Kaela[X]
+
+## KaelaDesc
+A master blacksmith whos part[N]
+of the legacy of protecting the[N]
+weapon. Hardworking and persistent.[X]
+
+
+## IrohaName
+Iroha[X]
+
+## IrohaDesc
+HoloX's Insurance Policy.[N]
+Travels the world to destroy[N]
+the 500 demon swords.[X]
+
+## KoyoriName
+Koyori[X]
+
+## KoyoriDesc
+HoloX's R&D.[N]
+Cultured, and loves mayo.[X]
+
+## SanaName
+Sana[X]
+
+## SanaDesc
+The Concept of Space.[N]
+Her limiter is just a fish naruto.[X]
+
+## AyameName
+Ayame[X]
+
+## AyameDesc
+An Oni who gets lost easily.[N]
+Somehow very lucky.[X]
+
+## KroniiName
+Kronii[X]
+
+## KroniiDesc
+The Concept of Time.[N]
+Just a little sadistic.[X]
+
+## KurokamiName
+Kurokami[X]
+
+## KurokamiDesc
+A split personality from[N]
+Shirakami's soul.[X]
+
+
+
+

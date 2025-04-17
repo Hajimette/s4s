@@ -499,3 +499,11 @@ Catalyst[X]
 ## CatalystDesc
 Raw, unsealed power,[N]
 shackled from within.[X]
+
+## CalliName
+The Reaper [X]
+
+## CalliDesc
+Sends souls to the afterlife.[N]
+Strong vs. Monsters.[X]
+

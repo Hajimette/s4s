@@ -1,9 +1,13 @@
+ALIGN 4
+PortraitTable:
+#incbin "Dmps/VanillaPortraitTable.dmp"
+
 // setMugEntry(UnitMugID, UnitMugData, MouthX, MouthY, EyeX, EyeY)
 #define setMugEntryExtend(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, extend1X, extend1Y, extend2X, extend2Y)"PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x424; POIN mugLocation+0x404; POIN mugLocation+0x1004; BYTE extend1X extend1Y extend2X extend2Y; BYTE mouthX mouthY eyeX eyeY; BYTE 1 0 1 0; POP"
 
 
 ALIGN 4
-Bloom:
+BloomMug:
 #incbin "Dmps/Bloom_mug.dmp"
 #incbin "Dmps/Bloom_frames.dmp"
 #incbin "Dmps/Bloom_palette.dmp"
@@ -20,7 +24,7 @@ Chloe:
 setMugEntry(Chloe, ChloeData, 3, 6, 3, 4)
 
 ALIGN 4
-Choco:
+ChocoMug:
 #incbin "Dmps/Choco_mug.dmp"
 #incbin "Dmps/Choco_frames.dmp"
 #incbin "Dmps/Choco_palette.dmp"
@@ -343,17 +347,29 @@ setMugEntry(Polka, PolkaData, 3, 6, 3, 4)
 
 
 ALIGN 4
+Kronii:
+#incbin "Kronii_mug.dmp"
+#incbin "Kronii_frames.dmp"
+#incbin "Kronii_palette.dmp"
+#incbin "Kronii_minimug.dmp"
+setMugEntry(Kronii, KroniiData, 2, 5, 2, 3)
+
+ALIGN 4
+KroniiAngry:
+#incbin "KroniiAngry_mug.dmp"
+#incbin "KroniiAngry_frames.dmp"
+#incbin "KroniiAngry_palette.dmp"
+#incbin "KroniiAngry_minimug.dmp"
+setMugEntry(KroniiAngry, KroniiAngryData, 2, 5, 2, 3)
+
+
+ALIGN 4
 :
 #incbin "_mug.dmp"
 #incbin "_frames.dmp"
 #incbin "_palette.dmp"
 #incbin "_minimug.dmp"
-setMugEntry(, Data, 4, 5, 4, 3)
-
-
-
-
-
+setMugEntry(, Data, 2, 5, 2, 3)
 
 
 
@@ -407,3 +423,5 @@ setMugEntry(, Data, 4, 5, 4, 3)
 #define RBCNoGlasses 0xE0
 #define AZKi 0x1E
 #define Polka 0x0A
+#define Kronii 0xB5
+#define KroniiAngry 0xB2
