@@ -42,6 +42,8 @@
 #define Polka 0x0A
 #define Kronii 0xB5
 #define KroniiAngry 0xB2
+#define KroniiBeat 0xDC
+
 
 //ALIGN 4
 //PortraitTable:
@@ -406,8 +408,16 @@ KroniiAngryData:
 #incbin "Dmps/KroniiAngry_frames.dmp"
 #incbin "Dmps/KroniiAngry_palette.dmp"
 #incbin "Dmps/KroniiAngry_minimug.dmp"
-//setMugEntryExtend(KroniiAngry, KroniiAngryData, 2, 5, 2, 3, 10, 4, 10, 3)
+setMugEntry(KroniiAngry, KroniiAngryData, 2, 5, 2, 3)
 
+
+ALIGN 4
+KroniiBeatData:
+#incbin "Dmps/KroniiBeat_mug.dmp"
+#incbin "Dmps/KroniiBeat_frames.dmp"
+#incbin "Dmps/KroniiBeat_palette.dmp"
+#incbin "Dmps/KroniiBeat_minimug.dmp"
+setMugEntry(KroniiBeat, KroniiBeatData, 2, 5, 2, 3)
 
 //ALIGN 4
 //:
@@ -416,9 +426,6 @@ KroniiAngryData:
 //#incbin "_palette.dmp"
 //#incbin "_minimug.dmp"
 //setMugEntry(, Data, 2, 5, 2, 3)
-
-
-
 
 
 

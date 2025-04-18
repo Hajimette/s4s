@@ -27,7 +27,7 @@
 // If uncommented, a full str/split will be implemented without replacing any stats
 // TODO: Define an item ID for Spirit Dust (Mag statbooster) in "Strmag/Str Mag Split/Installer.event". Energy Ring is used by default!
 // Item icon for Spirit Dust is included! Define your icon ID in "Strmag/_Master Asm Installer.event". Default is Green Note.
-// #define USE_STRMAG_SPLIT
+ #define USE_STRMAG_SPLIT
 
 // If uncommented, the statscreen will have a moving background similar to FE6 and FE7.
 // Customization of graphical assets is possible in Necessary/ModularStatScreen/Background/Graphics/Graphics.event.
@@ -82,7 +82,7 @@
 #define SEMITRANSPARENCY_CHANGES
 
 //If uncommented, will enable use of Supply during the prologue.
-#define PROLOGUE_SUPPLY
+//#define PROLOGUE_SUPPLY
 
 //If uncommented, will enable PC and Generic Music.
 //#define CHARACTER_CHAPTER_SPECIFIC_BATTTLETHEMES
@@ -134,7 +134,7 @@
 
 // If uncommented, Leadership Stars will be implemented.
 // Go to LeadershipStars/LeadershipStars.event to edit settings.
-// #define LEADERSHIP_STARS
+ #define LEADERSHIP_STARS
 
 // If uncommented, Biorhythm will be implemented.
 // Go to "Biorhythm/Biorhythm.event" to edit settings.
@@ -152,14 +152,14 @@
 
 //If uncommented, AdvWeaponLocks will be implemented.
 //This is a rewrite of venno's array-based weapon locks.
-// #define ADV_WEAPON_LOCKS
+ #define ADV_WEAPON_LOCKS
 //If uncommented, AdvWeaponLocks will use only the lowest bit of the weapon ability word's 4th byte rather than the entire thing.
 //Requires additional configuration in WeaponLockArray/AdvWeaponLocks.event.
-// #define CONSOLIDATED_ADV_WEAPON_LOCKS
+ #define CONSOLIDATED_ADV_WEAPON_LOCKS
 
 //If uncommented, Status-Inflicting Weapons will be implemented.
 //Setting weapon effect 0xD will apply the effect ID at item data +0x22.
-// #define STATUS_WEAPONS
+ #define STATUS_WEAPONS
 
 //If uncommented, Narrow Font will be implemented.
 //This allows for setting narrower text in addition to standard text.
@@ -400,7 +400,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define STACKABLE_GROWTH_BOOSTS True
 
 //Amount for Metis Tome to boost growths by
-#define METIS_TOME_BOOST 5
+#define METIS_TOME_BOOST 20
 
 //If true, growths will be calculated as (char growth + class growth).
 #define USE_CHAR_AND_CLASS_GROWTHS False
