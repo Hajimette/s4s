@@ -13,5 +13,5 @@
 
 #include "Logos/Logo.event"
 
-
+#include "Map Sprites/Installer.event"
 
