@@ -43,7 +43,9 @@
 #define Kronii 0xB5
 #define KroniiAngry 0xB2
 #define KroniiBeat 0xDC
-
+#define Kronii1 0xE1
+#define Kronii2 0xE2
+#define Kronii3 0xE3
 
 //ALIGN 4
 //PortraitTable:
@@ -418,6 +420,30 @@ KroniiBeatData:
 #incbin "Dmps/KroniiBeat_palette.dmp"
 #incbin "Dmps/KroniiBeat_minimug.dmp"
 setMugEntry(KroniiBeat, KroniiBeatData, 2, 5, 2, 3)
+
+ALIGN 4
+Kronii1Data:
+#incbin "Dmps/Kronii1_mug.dmp"
+#incbin "Dmps/Kronii1_frames.dmp"
+#incbin "Dmps/Kronii1_palette.dmp"
+#incbin "Dmps/Kronii1_minimug.dmp"
+setMugEntry(Kronii1, Kronii1Data, 2, 5, 2, 3)
+
+ALIGN 4
+Kronii2Data:
+#incbin "Dmps/Kronii2_mug.dmp"
+#incbin "Dmps/Kronii2_frames.dmp"
+#incbin "Dmps/Kronii2_palette.dmp"
+#incbin "Dmps/Kronii2_minimug.dmp"
+setMugEntry(Kronii2, Kronii2Data, 2, 5, 2, 3)
+
+ALIGN 4
+Kronii3Data:
+#incbin "Dmps/Kronii3_mug.dmp"
+#incbin "Dmps/Kronii3_frames.dmp"
+#incbin "Dmps/Kronii3_palette.dmp"
+#incbin "Dmps/Kronii3_minimug.dmp"
+setMugEntry(Kronii3, Kronii3Data, 2, 5, 2, 3)
 
 //ALIGN 4
 //:

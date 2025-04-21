@@ -17,6 +17,17 @@
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
 
+//Bruh
+ALIGN 4
+  ActionTextIDLink:
+  WORD ActionText
+  
+ALIGN 4
+  PCCTextIDLink:
+  WORD PCCText
+
+
+
     //Engine Hacks
     #include "New Stuff/CustomItems/_Staff6C_BasicCases.event"
     #include "EngineHacks/_MasterHackInstaller.event"
@@ -36,6 +47,8 @@
     #include "Graphics/MasterGraphicsInstaller.event"
     #include "New Stuff/StartScreen/GameStartScreen.event"
     #include "New Stuff/MugExceed/EA.txt"
+    //#include "New Stuff/Equip/Installer.event"
+
 
     MESSAGE Used hax space ends at currentOffset
 

@@ -134,11 +134,12 @@ Fatigue Restored. [X]
 ## ItemMenuGrayStealText
 Steal something NOW. [X]
 
-## ActionTextIDLink
+## ActionText
 Mov[X]
 
-## PCCTextIDLink
+## PCCText
 PCC [X]
+
 
 #include "unitmenu_text.txt"
 

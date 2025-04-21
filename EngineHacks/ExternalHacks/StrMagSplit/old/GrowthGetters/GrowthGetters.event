@@ -52,6 +52,16 @@
 	POIN Extra_Growth_Boosts|1
 	WORD USE_CHAR_AND_CLASS_GROWTHS
 
+        Get_Con_Growth:
+	#incbin "Get_Con_Growth.dmp"
+	POIN Extra_Growth_Boosts|1
+	WORD USE_CHAR_AND_CLASS_GROWTHS
+
+	Get_Mov_Growth:
+	#incbin "Get_Con_Growth.dmp"
+	POIN Extra_Growth_Boosts|1
+	WORD USE_CHAR_AND_CLASS_GROWTHS
+
 	ALIGN 4
 	Extra_Growth_Boosts:
 	#incbin "Extra_Growth_Boosts.dmp"

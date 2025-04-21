@@ -5,7 +5,7 @@
 
 
 
-#include "src/Equip.lyn.event"
+//#include "src/Equip.lyn.event"
 
 // add prEquipmentBonus to each stat getter
 //#define rEquipmentBonus(stat) "rAdd; rWithConstant(stat); rCallExternal(GetEquipmentStatBonus^1)"
@@ -59,17 +59,17 @@ Add to Popups.event
 PopRBattlePopup(PopR_InitEquipmentBroke, 0x592420, 96)
 */
 
-PUSH
-ORG 0x2C1EC
-jumpToHack(New_SaveUnitFromBattle)
-PROTECT 0x2C1EC
-POP
+//PUSH
+//ORG 0x2C1EC
+//jumpToHack(New_SaveUnitFromBattle)
+//PROTECT 0x2C1EC
+//POP
 
-PUSH
-ORG 0x2A584
-jumpToHack(New_InitBattleUnitFromUnit)
-PROTECT 0x2A584
-POP
+//PUSH
+//ORG 0x2A584
+//jumpToHack(New_InitBattleUnitFromUnit)
+//PROTECT 0x2A584
+//POP
 
 ALIGN 4
 gSkillTester:
@@ -95,13 +95,13 @@ Remove this equipment.[X]
 ALIGN 4
 ItemUnitMenu:
 
-IUM_Use
-IUM_Equip
-MenuCommand($697, EquipEquipmentDescription, GreenText, EquipEquipmentUsability, EquipEquipment)
-MenuCommand(UnequipName, UnequipEquipmentDescription, GreenText, UnequipEquipmentUsability, UnequipEquipment)
-IUM_Trade
-IUM_Discard
-UM_Separator
+//IUM_Use
+//IUM_Equip
+//MenuCommand($697, EquipEquipmentDescription, GreenText, EquipEquipmentUsability, EquipEquipment)
+//MenuCommand(UnequipName, UnequipEquipmentDescription, GreenText, UnequipEquipmentUsability, UnequipEquipment)
+//IUM_Trade
+//IUM_Discard
+//UM_Separator
 
 PUSH
 ORG $59D120
@@ -115,15 +115,15 @@ POP
 //////////////////
 
 /*
-ALIGN 4
-#include "ExtraGrowths.lyn.event"
+//ALIGN 4
+//#include "ExtraGrowths.lyn.event"
 */
 
-PUSH
-ORG 0x2BA28
-jumpToHack(New_WriteGrowthsToBattleStruct)
-PROTECT 0x2BA28
-POP
+//PUSH
+//ORG 0x2BA28
+//jumpToHack(New_WriteGrowthsToBattleStruct)
+//PROTECT 0x2BA28
+//POP
 
 ALIGN 4
 gExtra_Growth_Boosts:

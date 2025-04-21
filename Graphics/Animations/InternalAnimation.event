@@ -694,6 +694,11 @@ POP
 #include "BattleAnims/Anya/Revert Installer.event"
 #include "BattleAnims/Anya/Transform Installer.event"
 }
+{
+#include "BattleAnims/F!Rogue/Sword Installer.event"
+#include "BattleAnims/F!Rogue/Unarmed Installer.event"
+}
+
 
 ALIGN 4
 InvestigatorAnims:
@@ -1485,4 +1490,11 @@ WyvernKnightAnim:
 LanceAnim(0x62)
 UnarmedAnim(0x63)
 WORD 0x0
+
+ALIGN 4
+FRogueAnim:
+SwordAnim(0x8F)
+UnarmedAnim(0x90)
+WORD 0x0
+
 

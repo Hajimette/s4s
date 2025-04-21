@@ -106,8 +106,8 @@ draw_con_bar_with_getter_at 24, 5
 
 
 draw_textID_at 21, 7, textID=0x4f8 @aid
-draw_number_at 23, 7, 0x80189B8, 2 @aid getter
-draw_aid_icon_at 24, 7
+draw_number_at 25, 7, 0x80189B8, 2 @aid getter
+draw_aid_icon_at 27, 7
 
 draw_status_text_at 21, 9
 
@@ -118,45 +118,45 @@ sub		r3, #1 @get rid of unnecessary thumb bit
 mov		lr, r3
 .short 0xF800
 push	{r0}
-draw_number_at 24, 13
+draw_number_at 25, 13
 pop 	{r0}
 cmp		r0,#0xFF
 beq		DontDrawIcon
-draw_icon_at 25, 13, 0xCA @change this to the ID you put the icon in
+draw_icon_at 26, 13, 0xCA @change this to the ID you put the icon in
 DontDrawIcon:
 
-//ldr r0,=ActionTextIDLink
-//ldrh r0, [r0]
-//draw_textID_at 22, 15
-//mov		r0, r8
-//ldr r3, =GetUnitMoveStars
-//sub		r3, #1 @get rid of unnecessary thumb bit
-//mov		lr, r3
-//.short 0xF800
-//push	{r0}
-//cmp r0, #0x0
-//bne		DontSetToFF
+ldr r0,=ActionTextIDLink
+ldrh r0, [r0]
+draw_textID_at 24, 15
+mov		r0, r8
+ldr r3, =GetUnitMoveStars
+sub		r3, #1 @get rid of unnecessary thumb bit
+mov		lr, r3
+.short 0xF800
+push	{r0}
+cmp r0, #0x0
+bne		DontSetToFF
 
-//	mov r0, #0xFF
+	mov r0, #0xFF
 
-//DontSetToFF:
-//draw_number_at 23, 26
-//pop 	{r0}
-//cmp		r0,#0x0
-//beq		DontDrawIcon2
-//draw_icon_at 26, 11, 0xCA @change this to the ID you put the icon in
-//DontDrawIcon2:
+DontSetToFF:
+draw_number_at 28, 15
+pop 	{r0}
+cmp		r0,#0x0
+beq		DontDrawIcon2
+draw_icon_at 28, 26, 0xCA @change this to the ID you put the icon in
+DontDrawIcon2:
 
 
-//ldr r0, =PCCTextIDLink
-//ldrh r0, [r0]
-//draw_textID_at 19, 15, colour=Yellow @ PCC
-//mov		r0, r8
-//ldr r3, =GetUnitPCC
-//sub		r3, #1 @get rid of unnecessary thumb bit
-//mov		lr, r3
-//.short 0xF800
-//draw_number_at 20, 15
+ldr r0, =PCCTextIDLink
+ldrh r0, [r0]
+draw_textID_at 21, 15, colour=Yellow @ PCC
+mov		r0, r8
+ldr r3, =GetUnitPCC
+sub		r3, #1 @get rid of unnecessary thumb bit
+mov		lr, r3
+.short 0xF800
+draw_number_at 23, 15
 
 
 
