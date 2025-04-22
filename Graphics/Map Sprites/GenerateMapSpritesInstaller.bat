@@ -130,9 +130,9 @@ For %%a in (*.png) Do (
 
 
 @echo ^/^* >> GeneratedInstaller.txt
-@echo //First free SMS is 107>> GeneratedInstaller.txt
+@echo //hello>> GeneratedInstaller.txt
 setlocal enableextensions enabledelayedexpansion
-set /a count = 107
+set /a count = 0
 @for /f "tokens=*" %%m in (png.txt) do (
 echo #define %%~nm !count! >> GeneratedInstaller.txt
 set /a count += 1
@@ -149,7 +149,7 @@ endlocal
 
 @echo //First free MMS is 127 and will show up if you've expanded classes.>> sms/GeneratedInstaller.txt
 setlocal enableextensions enabledelayedexpansion
-set /a count = 127
+set /a count = 0
 @for /f "tokens=*" %%m in (mms/png.txt) do (
 echo #define %%~nm !count! >> sms/GeneratedInstaller.txt
 set /a count += 1

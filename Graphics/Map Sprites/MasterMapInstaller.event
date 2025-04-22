@@ -1,0 +1,46 @@
+#include "Installer.event"
+
+#define StandingMapSprite(aId, size, gfxPointer) "PUSH; ORG StandingMapSpriteTable + (aId * 8); SHORT 0 size; POIN gfxPointer; POP"
+#define MovingMapSprite(aId, apPointer, gfxPointer) "PUSH; ORG MovingMapSpriteTable + ((aId - 1) * 8); POIN gfxPointer apPointer; POP"
+
+#define MapSprite16x16 0
+#define MapSprite16x32 1
+#define MapSprite32x32 2
+
+
+
+
+#define StandingMapSpriteTable 0x8AF880
+#define MovingMapSpriteTable 0x9A2E00 
+
+#define StandingMapSprite(aId, size, gfxPointer) "PUSH; ORG StandingMapSpriteTable + (aId * 8); SHORT 0 size; POIN gfxPointer; POP"
+#define MovingMapSprite(aId, apPointer, gfxPointer) "PUSH; ORG NewMovingMapSpriteTable + ((aId - 1) * 8); POIN gfxPointer apPointer; POP"
+
+#define MapSprite16x16 0
+#define MapSprite16x32 1
+#define MapSprite32x32 2
+
+PUSH
+ORG 0x9A8F74 //location of manakete attack map sprite palette; new palette by knabepicer
+BYTE 0x13 0x4F 0xA5 0x14 0x8D 0x53 0xF2 0x63 0xC1 0x21 0xE6 0x3A 0xE6 0x3A 0xAA 0x49 0x0E 0x4E 0x93 0x62 0x37 0x6B 0x99 0x7B 0xFE 0x7F 0x30 0x3A 0xFF 0x7F 0x1F 0x7C
+POP
+
+
+
+
+StandingMapSprite(0x1,0,AmeliaStand)
+StandingMapSprite(0x2,1,BMaidenStand)
+StandingMapSprite(0x3,0,BattleSageStand)
+
+
+
+
+
+
+
+
+
+MovingMapSprite(0x1,NormalAP,AmeliaWalk)
+MovingMapSprite(0x2,NormalAP,AmeliaWalk)
+MovingMapSprite(0x3,NormalAP,BMaidenWalk)
+MovingMapSprite(0x4,F_SageAP,BattleSageWalk)

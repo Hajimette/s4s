@@ -1,37 +1,29 @@
 
 
 #include "Internals.event"
-#include "GeneratedInstaller.event"
 
 
-//First free SMS is 107
-#define AmeliaStand 01
-//#define Cavalier_M_Sword_SALVAGEDstand 107 
-//#define Soldier_F_Echoes_Lance_FireEmblemier_flasubanstand 108 
- 
- 
-//First free MMS is 127 and will show up if you've expanded classes.
-#define AmeWalk 01
+ALIGN 4
 
+AmeliaStand:
+#incbin "dmp/AmeliaStand.dmp"
 
-//#define Cavalier_M_Sword_SALVAGEDwalk 127 
-//#define Soldier_F_Echoes_Lance_FireEmblemier_flasubanwalk 128 
- 
+ALIGN 4
+AmeliaWalk:
+#incbin "dmp/AmeWalk.dmp"
 
+ALIGN 4
+BMaidenStand:
+#incbin "dmp/CamillaSteamingTofuStand.dmp"
 
-//Copy from here 
-PUSH 
- 
-SetSMS(AmeliaStand, 1, AmeliaStand_Data) 
+ALIGN 4
+BMaidenWalk:
+#incbin "dmp/CamillaSteamingTofuWalk.dmp"
 
- 
- 
-SetMMS(AmeWalk, AmeWalk_Data, NormalAP) 
+ALIGN 4
+BattleSageStand:
+#incbin "dmp/BattleSageSwordtopazlightstand.dmp"
 
- 
-POP 
-//Copy until here 
-
-
-
-
+ALIGN 4
+BattleSageWalk:
+#incbin "dmp/BattleSagetopazlightwalk.dmp"
