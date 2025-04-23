@@ -31,8 +31,8 @@ POP
 StandingMapSprite(0x1,0,AmeliaStand)
 StandingMapSprite(0x2,1,BMaidenStand)
 StandingMapSprite(0x3,0,BattleSageStand)
-
-
+StandingMapSprite(0x4,1,CavalierMStand)
+StandingMapSprite(0x5,1,CavalierFStand)
 
 
 
@@ -44,3 +44,5 @@ MovingMapSprite(0x1,NormalAP,AmeliaWalk)
 MovingMapSprite(0x2,NormalAP,AmeliaWalk)
 MovingMapSprite(0x3,NormalAP,BMaidenWalk)
 MovingMapSprite(0x4,F_SageAP,BattleSageWalk)
+MovingMapSprite(0x5,NormalAP,CavalierMWalk)
+MovingMapSprite(0x6,NormalAP,CavalierFWalk)

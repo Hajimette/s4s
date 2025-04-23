@@ -27,3 +27,19 @@ BattleSageStand:
 ALIGN 4
 BattleSageWalk:
 #incbin "dmp/BattleSagetopazlightwalk.dmp"
+
+ALIGN 4
+CavalierMStand:
+#incbin "dmp/CavalierMStand.dmp"
+
+ALIGN 4
+CavalierMWalk:
+#incbin "dmp/CavalierMWalk.dmp"
+
+ALIGN 4
+CavalierFStand:
+#incbin "dmp/CavalierFStand.dmp"
+
+ALIGN 4
+CavalierFWalk:
+#incbin "dmp/CavalierFWalk.dmp"
