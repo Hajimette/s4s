@@ -4,6 +4,7 @@
 
 //Vanilla FE8 AP definitions
 #define NormalAP        $81C3D7C
+#define SageMaleAP      $81D1D48
 #define GeneralAP       $81C8A80
 #define RangerAP        $81CA124
 #define ArcherAP        $81D0A7C
@@ -21,6 +22,7 @@
 #define BardAP          $81E8840
 #define CyclopsAP       $81F49B8
 #define DemonKingAP     $81FD028
+#define BallistaAP      $81EEC84
 
 
 

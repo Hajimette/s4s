@@ -152,7 +152,7 @@
 0x96 Trainee Soldier
 0x97 Trainee Soldier Disarmed
 0x98 Soldier
-0x99                         //FREE SPACE
+0x99 Rat Magic
 0x9A Pirate
 0x9B Pirate w/ Hand Axe
 0x9C Pirate Disarmed

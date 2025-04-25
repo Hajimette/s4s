@@ -698,6 +698,9 @@ POP
 #include "BattleAnims/F!Rogue/Sword Installer.event"
 #include "BattleAnims/F!Rogue/Unarmed Installer.event"
 }
+{
+#include "BattleAnims/Bae/Magic Installer.event"
+}
 
 
 ALIGN 4
@@ -1497,4 +1500,16 @@ SwordAnim(0x8F)
 UnarmedAnim(0x90)
 WORD 0x0
 
+ALIGN 4
+ThiefAnim:
+SwordAnim(0x89)
+UnarmedAnim(0x8A)
+WORD 0x0
 
+ALIGN 4
+BaeAnim:
+AnimaAnim(0x99)
+DarkAnim(0x99)
+LightAnim(0x99)
+UnarmedAnim(0x99)
+WORD 0x0

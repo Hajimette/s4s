@@ -308,10 +308,10 @@ Symphone[X]
 Mutated drowned who have[N]
 harnessed greater magic. [X]
 
-## TowaName
+## TowaDruidName
 Druid [X]
 
-## TowaDesc
+## TowaDruidDesc
 She's supposed to know dark magic,[N]
 but she's too pure to hurt someone.[X]
 
@@ -507,3 +507,30 @@ The Reaper [X]
 Sends souls to the afterlife.[N]
 Strong vs. Monsters.[X]
 
+## ShrineName
+Shrine Maiden[X]
+
+## ShrineDesc
+A cleric in charge [N]
+of Shike Village.[X]
+
+## ClericName
+Cleric[X]
+
+## ClericDesc
+Holy women who use sacred staves to[N]
+heal their allies. Equip: Staves.[X]
+
+## SquireName
+Squire[X]
+
+## SquireDesc
+Unknighted troops who train under[N] 
+regular knights. Equip: Swords[X]
+
+## BallName
+Ballista [X]
+
+## BallDesc
+Large siege weapon with[N]
+superior range and damage.[X]
