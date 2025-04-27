@@ -1,0 +1,24 @@
+ALIGN 4
+SuperFieldsObject:
+#incbin "SuperFieldsGrassPalette.dmp"
+
+ALIGN 4
+SuperFieldsPal:
+#incbin "SuperFieldsGrassPalette_pal.dmp"
+
+ALIGN 4
+SuperFieldsCandyPal:
+#incbin "SuperFieldsCandyPalette_pal.dmp"
+
+ALIGN 4
+SuperFieldsNightPal:
+#incbin "SuperFieldsPaletteNight_pal.dmp"
+
+ALIGN 4
+SuperFieldsConfig:
+#incbin "SuperFields_comp.dmp"
+
+
+
+
+
