@@ -966,7 +966,7 @@ BallistaWalk:
 
 ALIGN 4
 VillagerMStand:
-#incbin "dmp/VillagerMWalk.dmp"
+#incbin "dmp/VillagerMStand.dmp"
 
 ALIGN 4
 VillagerMWalk:
