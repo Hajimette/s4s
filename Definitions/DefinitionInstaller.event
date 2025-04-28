@@ -1,6 +1,8 @@
 
 #include "CharacterDefinitions.event"
 
+#include "ChapterDefinitions.event"
+
 //#include "ItemDefinitions.event"
 #include "MusicDefinitions.event"
 //#include "TableExpansions.event"

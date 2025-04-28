@@ -21,3 +21,26 @@
 #define Chapter9 0x9
 
 #define Chapter10 0xA
+
+
+//Events ID
+#define Chapter1Events 0x01
+
+
+
+//Objects
+
+#define SuperFieldsID 0x01
+//#define
+//#define
+//#define
+
+
+//Palettes
+#define SuperFieldsGrassPalID 0x1
+#define SuperFieldsCandyPalID 0x2
+#define SuperFieldsNightPalID 0x3
+
+//Config
+#define SuperFieldsConfigID 0x01
+

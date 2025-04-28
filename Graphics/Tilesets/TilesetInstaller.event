@@ -1,8 +1,11 @@
 #include "PlistTable.event"
 
+#include "Palettes/PaletteInstaller.event"
+
 #include "SuperFields/SuperFields.event"
-SetTilesetObject(0x1, SuperFieldsObject)
-SetTilesetPalette(0x1, SuperFieldsPal)
-SetTilesetPalette(0x2, SuperFieldsCandyPal)
-SetTilesetPalette(0x3, SuperFieldsNightPal)
-SetTilesetConfig(0x1, SuperFieldsConfig)
+
+SetTilesetObject(SuperFieldsID, SuperFieldsObject)
+SetTilesetPalette(SuperFieldsGrassPalID, SuperFieldsPal)
+SetTilesetPalette(SuperFieldsCandyPalID, SuperFieldsCandyPal)
+SetTilesetPalette(SuperFieldsNightPalID, SuperFieldsNightPal)
+SetTilesetConfig(SuperFieldsConfigID, SuperFieldsConfig)
