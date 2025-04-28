@@ -5,10 +5,10 @@
 
 
 #include "SuperFields/SuperFields.event"
-SetTilesetObject(SuperFieldsID, SuperFieldsConfig)
+SetTilesetObject(SuperFieldsID, SuperFieldsObject)
 SetTilesetPalette(SuperFieldsGrassPalID, SuperFieldsPal)
 SetTilesetPalette(SuperFieldsCandyPalID, SuperFieldsCandyPal)
 SetTilesetPalette(SuperFieldsNightPalID, SuperFieldsNightPal)
-SetTilesetConfig(SuperFieldsConfigID, SuperFieldsObject)
+SetTilesetConfig(SuperFieldsConfigID, SuperFieldsConfig)
 
 
