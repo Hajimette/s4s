@@ -12,3 +12,20 @@ SetTilesetPalette(SuperFieldsNightPalID, SuperFieldsNightPal)
 SetTilesetConfig(SuperFieldsConfigID, SuperFieldsConfig)
 
 
+#include "FE5Castle/FE5Castle.event"
+SetTilesetObject(FE5CastleID, FE5CastleObject)
+SetTilesetPalette(FE5CastlePalID,FE5CastlePal)
+SetTilesetConfig(FE5CastleConfigID,FE5CastleConfig)
+
+#include "UpdatedStronghold/Stronghold.event"
+SetTilesetObject(StrongholdID, StrongholdObject)
+SetTilesetPalette(StrongholdGrassPalID, StrongholdGrassPal)
+SetTilesetPalette(StrongholdLavaPalID, StrongholdLavaPal)
+SetTilesetPalette(StrongholdSnowPalID, StrongholdSnowPal)
+SetTilesetConfig(StrongholdConfigID, StrongholdConfig)
+
+
+
+
+
+

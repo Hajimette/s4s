@@ -1,0 +1,19 @@
+ALIGN 4
+StrongholdObject:
+#incbin "StrongholdObject.dmp"
+
+ALIGN 4
+StrongholdGrassPal:
+#incbin "StrongHoldPaletteGrass_pal.dmp"
+
+ALIGN 4
+StrongholdLavaPal:
+#incbin "StrongHoldPaletteLava_pal.dmp"
+
+ALIGN 4
+StrongholdSnowPal:
+#incbin "StrongHoldSnowPalette_pal.dmp"
+
+ALIGN 4
+StrongholdConfig:
+#incbin "StrongHold_comp.dmp"

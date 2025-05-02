@@ -31,8 +31,8 @@
 //Objects
 
 #define SuperFieldsID 0x01
-//#define
-//#define
+#define FE5CastleID 0x02
+#define StrongholdID 0x03
 //#define
 
 
@@ -40,7 +40,13 @@
 #define SuperFieldsGrassPalID 0x1
 #define SuperFieldsCandyPalID 0x2
 #define SuperFieldsNightPalID 0x3
+#define FE5CastlePalID 0x4
+#define StrongholdGrassPalID 0x5
+#define StrongholdLavaPalID 0x6
+#define StrongholdSnowPalID 0x7
+
 
 //Config
 #define SuperFieldsConfigID 0x01
-
+#define FE5CastleConfigID 0x02
+#define StrongholdConfigID 0x03

@@ -1,0 +1,11 @@
+ALIGN 4
+FE5CastleObject:
+#incbin "FE5CastleObject.dmp"
+
+ALIGN 4
+FE5CastlePal:
+#incbin "FE5CastleObject_pal.dmp"
+
+ALIGN 4
+FE5CastleConfig:
+#incbin "FE5Castle_comp.dmp"
