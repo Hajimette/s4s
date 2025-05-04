@@ -24,7 +24,7 @@
 
 
 //Events ID
-#define Chapter1Events 0x01
+#define Chapter1Events 0x4
 
 
 

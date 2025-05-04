@@ -1,0 +1,1247 @@
+## IronSwdName
+Iron Sword[X]
+
+## BlankDesc
+ [X]
+
+## SlimSwdName
+Slim Sword[X]
+
+## SlimSwdDesc
+Easy to wield. Spd +4[X]
+
+## SteelSwdName
+Steel Sword[X]
+
+## SilverSwdName
+Silver Sword[X]
+
+## TrainSwdName
+Training Blade[X]
+
+## TrainSwdDesc
+Weak, but nimble.[X]
+
+## WingClipName
+Wing Clipper[X]
+
+## WingClipDesc
+Meant to shred wings.[X]
+
+## SupBldName
+Superior Blade[X]
+
+## SupBldDesc
+Lowers enemy confidence. -7 Skl[X]
+
+## MstSwdName
+Master Sword [X]
+
+## MstSwdDesc
+Brave effect.[X]
+
+## RapierName
+Rapier [X]
+
+## RapierDesc
+Eff. vs Armor and Horses.[X]
+
+## MstLncName
+Master Lance[X]
+
+## BraveSwordName
+Brave Sword[X]
+
+## BraveSwordDesc
+Weak power, but easier to use.[X]
+
+## ThornName
+Thorn [X]
+
+## ThornDesc
+Every rose needs it's thorn.[X]
+
+## KillSwdName
+Killing Edge[X]
+
+## KillSwdDesc
+Improved critical rate.[X]
+
+## ArmorSwdName
+Armorslayer[X]
+
+## ArmorSwdDesc
+Eff. vs Armor.[X]
+
+## DragonSwdName
+Dragon Killer [X]
+
+## DragonSwdDesc
+Eff. vs Dragons.[X]
+
+## LightBrandName
+Light Brand [X]
+
+## LightBrandDesc
+Light. Uses Magic Damage.[X]
+
+## RuneSwdName
+Runesword[X]
+
+## RuneSwdDesc
+Nosferatu eff. Magic Damage.[X]
+
+## LancereaverName
+Lancereaver [X]
+
+## LncReDesc
+Strong vs. Lances.[X]
+
+## IronLncName
+Iron Lance [X]
+
+## SlimLncName
+Slim Lance[X]
+
+## SteelLncName
+Steel Lance[X]
+
+## SilverLncName
+Silver Lance[X]
+
+## SupLncName
+Superior Lance[X]
+
+## SupLncDesc
+Targets opponents def. -7 Def[X]
+
+## BraveLanceName
+Brave Lance[X]
+
+## KillLncName
+Killer Lance[X]
+
+## HorseslayerName
+Horseslayer[X]
+
+## HorseslayerDesc
+Eff. vs Horses.[X]
+
+## JavelinName
+Javelin[X]
+
+## JavelinDesc
+Weak, ranged lance.[X]
+
+## SpearName
+Spear[X]
+
+## SpearDesc
+A strong, ranged lance.[X]
+
+## AxereaverName
+Axereaver[X]
+
+## Axereaverdesc
+Strong vs. Axes.[X]
+
+## IronAxeName
+Iron Axe[X]
+
+## SteelAxeName
+Steel Axe[X]
+
+## SilverAxeName
+Silver Axe[X]
+
+## SupAxeName
+Superior Axe[X]
+
+## SupAxeDesc
+Targets opponents spd. -7 Spd[X]
+
+## BraveAxeName
+Brave Axe[X]
+
+## KillerAxeName
+Killer Axe[X]
+
+## MstAxeName
+Master Axe[X]
+
+## HammerName
+Hammer[X]
+
+## HammerDesc
+Eff. vs Armor.[X]
+
+## DevilAxeName
+Devil Axe[X]
+
+## DevilAxeDesc
+May reverse on wielder.[X]
+
+## AcrobaxeName
+Acrobaxe[X]
+
+## AcrobaxeDesc
+All tiles cost 1 move.[X]
+
+## HandAxeName
+HandAxe[X]
+
+## HandAxeDesc
+A ranged axe.[X]
+
+## TomahawkName
+Tomahawk[X]
+
+## SwordreaverName
+Swordreaver[X]
+
+## SwordreaverDesc
+Strong vs. Swords.[X]
+
+## HatchetName
+Hatchet[X]
+
+## HatchetDesc
+Weak, but nimble. Ranged.[X]
+
+## IronBowName
+Iron Bow[X]
+
+## SteelBowName
+Steel Bow[X]
+
+## SilverBowName
+Silver Bow[X]
+
+## MasterBowName
+Master Bow [X]
+
+## KillerBowName
+Killer Bow[X]
+
+## BraveBowName
+Brave Bow[X]
+
+## SupBowName
+Superior Bow [X]
+
+## SupBowDesc
+Target's opponents atk. -7 Atk[X]
+
+## LongbowName
+Longbow[X]
+
+## LongbowDesc
+Greater attack range.[X]
+
+## BallistaName
+Ballista[X]
+
+## BallistaDesc
+Long-range siege weapon.[X]
+
+## IronBalName
+Iron Ballista[X]
+
+## IronBalDesc
+Greater siege range.[X]
+
+## KillBalName
+Killer Ballista[X]
+
+## KillBalDesc
+High crit chance.[X]
+
+## FireName
+Fire[X]
+
+## ThunderName
+Thunder[X]
+
+## ElfireName
+Elfire[X]
+
+## BoltingName
+Bolting[X]
+
+## BoltingDesc
+Long-Range Siege Magic.[X]
+
+## FimbulvetrName
+Fimbulvetr[X]
+
+## TsunamiName
+Tsunami[X]
+
+## TsunamiDesc
+For the best Rain Shamans.[X]
+
+## PettanName
+Pettancaliber[X]
+
+## PettanDesc
++15 Crit vs Big Personality.[X]
+
+## LightningName
+Lightning[X]
+
+## ShineName
+Shine[X]
+
+## DivineName
+Divine[X]
+
+## PurgeName
+Purge[X]
+
+## AuraName
+Aura[X]
+
+## FluxName
+Flux[X]
+
+## LunaName
+Luna
+
+## LunaDesc
+Negates defense.[X]
+
+## NosName
+Nosferatu[X]
+
+## NosDesc
+Absorbs enemy HP.[X]
+
+## EclipseName
+Eclipse[X]
+
+## EclipseDesc
+Reduces HP by half.[X]
+
+## FenrirName
+Fenrir[X]
+
+## NephName
+Council's Sorrow[X]
+
+## NephDesc
+An ancient dark tome.[X]
+
+## HealName
+Heal[X]
+
+## HealDesc
+Restores HP to allies in[N]
+adjacent spaces.[X]
+
+## HealUse
+Restores some HP.[X]
+
+## MendName
+Mend[X]
+
+## MendDesc
+Restores all HP to allies[N]
+in adjacent spaces.[X]
+
+## MendUse
+Restores more HP.[X]
+
+## RecoName
+Recover[X]
+
+## RecoUse
+Restores all HP.[X]
+
+## RecoDesc
+Restores all HP to allies[N]
+in adjacent spaces.[X]
+
+## PhysicName
+Physic[X]
+
+## PhysicDesc
+Restores HP to allies[N]
+at a distance.[X]
+
+## PhysicUse
+Restores HP to
+distant allies.[X]
+
+## FortiName
+Fortify[X]
+
+## FortiDesc
+Restores all HP to allies[N]
+nearby.[X]
+
+## FortiUse
+Restores HP to all[N]
+allies in one area.[X]
+
+## RestName
+Restore[X]
+
+## RestDesc
+Returns allies to normal[N]
+condition. (Cures sleep, etc.)[X]
+
+## RestUse
+Restores allies to[N]
+normal status.[X]
+
+## SilenceName
+Silence[X]
+
+## SilenceDesc
+Halts all enemy magic[N]
+for several turns.[X]
+
+## SilenceUse
+Blocks enemy magic.[X]
+
+## SleepName
+Sleep[X]
+
+## SleepDesc
+Puts enemies to sleep for[N]
+several turns.[X]
+
+## SleepUse
+Puts enemies to sleep.[X]
+
+## BerserkName
+Berserk[X]
+
+## BerserkDesc
+Sends enemies into a[N]
+berserker rage.[X]
+
+## BerserkUse
+Drives enemies to[N]
+attack wildly in a[N]
+frenzy of rage.[X]
+
+## WarpName
+Warp[X]
+
+## WarpDesc
+Moves allies in adjacent[N]
+spaces instantly elsewhere.[X]
+
+## WarpUse
+Warps allies to[N]
+other spaces.[X]
+
+## RescueName
+Rescue[X]
+
+## RescueDesc
+Moves allies from distant[N]
+spaces to adjacent ones.[X]
+
+## RescueUse
+Warps allies to a[N]
+space adjacent to[N]
+the staff wielder.[X]
+
+## TorchName
+Torch [X]
+
+## TorchDesc
+Lights an area. The light[N]
+grows weaker each turn.[X]
+
+## TorchUse
+Lights up an area.[X]
+
+## HammName
+Hammerne[X]
+
+## HammDesc
+Restores an adjacent ally's[N]
+weapons to new condition.[X]
+
+## HammUse
+Restores items to[N]
+new condition.[X]
+
+## UnlockName
+Unlock[X]
+
+## UnlockDesc
+Unlocks doors, even from[N]
+a distance.[X]
+
+## UnlockUse
+Opens doors.[X]
+
+## BarrierName
+Barrier[X]
+
+## BarrierDesc
+Increases magic resistance[N]
+of adjacent allies briefly.[X]
+
+## BarrierUse
+Raises resistance.[X]
+
+## HeartName
+Red Heart[X]
+
+## HeartDesc
+Big and red.[X]
+
+## RobeName
+Seiso Robe[X]
+
+## RobeDesc
+Let seiso cover you.[N]
++7 HP.[X]
+
+## EngageName
+Engage Ring[X]
+
+## EngageDesc
+ENGAGE in more combat.[N]
++3 Str.[X]
+
+## ArchiveName
+Archive[X]
+
+## ArchiveDesc
+A novella from a certain[N]
+library. +4 Skl.[X]
+
+## CoffeeName
+Coffee[X]
+
+## CoffeeDesc
+All you need is speed.[N]
++3 Spd.[X]
+
+## TokensName
+Tokens[X]
+
+## TokensDesc
+A reward from Pekoland's[N]
+Casino. +4 Lck.[X]
+
+## PShieldName
+PettanShield[X]
+
+## PShieldDesc
+Lets the user become[N]
+a wall. +3 Def[X]
+
+## TalisDesc
+Pairs well with Alcoholism.[N]
++4 Res.[X]
+
+## BootsDesc
+New boots to run from[N]
+Pekoland. +2 Mov[X]
+
+## BodyRingDesc
+Increases Assets. +3 Con[X]
+
+## FingerName
+Finger[X]
+
+## FingerDesc
+To satiate Korone's[N]
+bloodlust.[X]
+
+## FingerUse
+Kid named[N]
+finger:[X]
+
+## SklSealName
+Skill Seal[X]
+
+## SklSealDesc
+Grants +10 Skl and[N]
+prevents criticals.[X]
+
+## SklSealUse
+Skill Issue[X]
+
+## SpeedwingName
+Speedwing[X]
+
+## SpeedwingDesc
+Grants +10 Spd and[N]
+prevents criticals.[X]
+
+## SpeedwingUse
+Gotta go fast[X]
+
+## AlcoholName
+Alcohol[X]
+
+## AlcoholDesc
+Grants +10 Res and[N]
+prevents criticals.[X]
+
+## AlcoholUse
+Don't let Lamy[N]
+touch this.[X]
+
+## RabbitName
+Rabbit's Foot.[X]
+
+## RabbitDesc
+Grants +10 Spd and[N]
+prevents criticals.[X]
+
+## YabName
+Yab Shield[X]
+
+## YabDesc
+Protects Fliers from[N]
+yabs.[X]
+
+## YabUse
+Protects airborned[N]
+units from bows.[X]
+
+## SplicerName
+Splicer[X]
+
+## SplicerDesc
+Meant to split souls. Negates Def.[X]
+
+## HopliteName
+Hoplite Guard
+
+## HopliteDesc
+Damage taken is halved[N]
+after being struck.[X]
+
+## EverSoulName
+Everlasting Soul.[X]
+
+## EverSoulDesc
+Raises ATK for 3 turns.[X]
+
+## CloudName
+Cloudy Sheep[X]
+
+## CloudDesc
+Raises DEF for 3 turns.[X]
+
+## EternityName
+Eternity Bright[X]
+
+## EternityDesc
+Raises CRIT for 3 turns.[X]
+
+## MidnightName
+Midnight Song[X]
+
+## MidnightDesc
+Raises AVO for 3 turns.[X]
+
+## AdventName
+Adventitious[X]
+
+## AdventDesc
+Light the fire.[X]
+
+## DyaName
+Dyamare[X]
+
+## DyaDesc
+Silences on contact.[X]
+
+## YukiName
+Yuki-yo-Zuki[X]
+
+## YukiDesc
+When held, grants +20 Res.[X]
+
+## SharkName
+Sharkbite[X]
+
+## SharkDesc
+Enemy suffers -7 Spd/Def/Res on hit.[X]
+
+## MinuteName
+Minute Hand[X]
+
+## MinuteDesc
++10 Atk/Spd, Grants Time Jump.[X]
+
+## SeisoName
+Seiso's Light[X]
+
+## SeisoDesc
+Sacred Light Tome Grants Renewal.[X]
+
+## HoloEmblemName
+HoloEmblem[X]
+
+## HoloEmblemDesc
+Promotes most units at[N]
+Lvl. 10 and above.[X]
+
+## HoloEmblemUse
+ENGAGE with the[N]
+Holoemblem![X]
+
+## MetisName
+Potion[X]
+
+## MetisDesc
+Gives a 10% addition[N]
+to growths[X]
+
+## MasterName
+Master Proof[X]
+
+## MasterDesc
+For tier 2 classes[N]
+Lvl. 10 and above.[X]
+
+## MasterUse
+Break your limits![X]
+
+## CandyName
+Candy Staff[X]
+
+## CandyDesc
+The staff of Candy Royalty.[X]
+
+## CandyUse
+Strong Magic that[N]
+heals/cures all.[X]
+
+## ShieldName
+Shield Seal[X]
+
+## ShieldDesc
+Grants +10 Defense and[N]
+prevents criticals.[X]
+
+## ForkName
+Fork[X]
+
+## ForkDesc
+A name given by Gura. +10 Skl/Lck[X]
+
+## YabaiName
+Yabai[X]
+
+## YabaiDesc
+Negates Def, Brave.[X]
+
+## PekoName
+Peko's Gambit[X]
+
+## PekoDesc
+Pekoland's Regalia. (Gamble)[X]
+
+## VioName
+Violance[X]
+
+## VioDesc
+Refreshes adjacent units on kill.[X]
+
+## BrandName
+Brandioche[X]
+
+## BrandDesc
+Doubled critical rate.[X]
+
+## MaidName
+Maidsweeper[X]
+
+## MaidDesc
+Eff. vs Maids.[X]
+
+## DireName
+Dire Thunder[X]
+
+## DireDesc
+Brave, +40 hit on initiation.[X]
+
+## SpaceName
+Space Seal[X]
+
+## SpaceDesc
+Grants +10 Con and[N]
+Prevents Criticals.[X]
+
+## StopwatchName
+Stopwatch[X]
+
+## StopwatchDesc
+The broken stopwatch.[N]
+Amelia only.[X]
+
+## StopwatchUse
+The Search for[N]
+Seiso continues![X]
+
+## RedebutName
+Redebut[X]
+
+## RedebutDesc
+Lowers level by 5.[N]
+Must be at least Lvl. 9[X]
+
+## WindName
+Wind[X]
+
+## WindDesc
+Eff. vs Fliers.[X]
+
+## ShaverName
+Shaver[X]
+
+## ShaverDesc
+Strong, close-range magic.[X]
+
+## ArcwindName
+Arcwind[X]
+
+## WaterName
+Water[X]
+
+## WaterDesc
+WATER you doing? Ha...[X]
+
+## ExplosionName
+Explosion[X]
+
+## ExplosionDesc
+Physical damage.[X]
+
+## AncientOneName
+Ancient One[X]
+
+## AncientOneDesc
+An ancient being. +7 Def/Res (Nihil)
+
+## DarkSpikesName
+Dark Spikes[X]
+
+## DarkSpikesDesc
+-6 Def/Res on hit.[X]
+
+## StarlightName
+Starlight[X]
+
+## StarlightDesc
+-7 Spd/Lck on hit.(Union)[X]
+
+## RatMagicName
+Rat Magic[X]
+
+## RatMagicDesc
+Power of the Ratpack![X]
+
+## NecromancyName
+Necromancy[X]
+
+## NecromancryDesc
+Rushia's limited abilities.[X]
+
+## SocietyName
+Society[X]
+
+## SocietyDesc
+Negates Def, ranged.[X]
+
+## EliteSwordName
+Elite Sword[X]
+
+## EliteSwordDesc
+Allows the user to be Elite.[X]
+
+## ChakiName
+Chakimaru[X]
+
+## ChakiDesc
+Iroha's Blade. +5 Skl and +10 Spd.[X]
+
+## ClockHandsName
+Clock Hands[X]
+
+## ClockHandsDesc
+Kronii Only. +15 Spd, Time Jump.[X]
+
+## ManaslayerName
+Manaslayer[X]
+
+## ManaslayerDesc
+Eff. vs Magic Users. +7 Res.[X]
+
+## SleepSwordName
+Sleep Sword[X]
+
+## SleepSwordDesc
+Inflicts Sleep on contact.[X]
+
+## AsuraName
+Asura[X]
+
+## AsuraDesc
+Eff. vs Monsters. A demonic blade.[X]
+
+## RakshasaName
+Rakshasa[X]
+
+## RakshasaDesc
+Magic Dmg, Nosferatu, Torch.[X]
+
+## KerisName
+Keris[X]
+
+## KerisDesc
+Anya's Main Form. (Union)
+
+## KerisUse
+Gives +10 crit and crit[N]
+avoid to adjacent allies.[X]
+
+## AntithesisName
+Antithesis[X]
+
+## AntithesisDesc
+Magic Dmg and Brave. (Darting Blow)[X]
+
+## AntithesisUse
+Grants +5 Attack Speed[N]
+when initiating combat.[X]
+
+## BarrierBladeName
+Barrier Blade [X]
+
+## BarrierBladeDesc
++10 Defense.[X]
+
+## SageSealName
+B. Sage Seal[X]
+
+## SageSealDesc
+Grants +10 Str/Mag and[N]
+prevents criticals.[X]
+
+## MagicRingName
+Magic Ring[X]
+
+## MagicRingDesc
+Feel the magic inside.[N]
++3 Mag.[X]
+
+## MagicRingUse
+Raises magic.[X]
+
+## SeisodaName
+Seisoda[X]
+
+## SeisodaDesc
+Clears fatigue and heals[N]
+30 HP.[X]
+
+## RickyName
+Ricky[X]
+
+## RickyDesc
+Grants lifetaker.[X]
+
+## RickyUse
+Restore up to 50% HP[N]
+after defeating an enemy.[X]
+
+## SusName
+Sus[X]
+
+## SusDesc
+Dead meme means eff. v everyone.[X]
+
+## GlockName
+Glock[X]
+
+## GlockDesc
+Doesn't negate Def unfortunately.[X]
+
+## MaceDesc
+Noel's Mace. Eff. vs Armor.[X]
+
+## MaceName
+Mace[X]
+
+## ScytheName
+Scythe[X]
+
+## ScytheDesc
+A standard scythe.[X]
+
+## CrossbowName
+Crossbow[X]
+
+## CrossbowDesc
+Extremely accurate. Resourceful.[X]
+
+## CrossbowUse
+Doubles eff. multiplier.[X]
+
+## RifleName
+Rifle[X]
+
+## RifleDesc
+Big boom stick. Negates Def.[X]
+
+## DoogStoneName
+DoogStone[X]
+
+## DoogStoneDesc
+Allows Korone to transform.[X]
+
+## HandCannonName
+Hand Cannon[X]
+
+## HandCannonDesc
+A mobile ballista.[X]
+
+## ZetaminName
+Zetamin[X]
+
+## ZetaminDesc
+Trademarked by Zeta.[N]
+Heals 40 HP.[X]
+
+## FlameName
+Flame Lance[X]
+
+## FlameDesc
+Can strike at range. Magic Dmg.[X]
+
+## AsacocoName
+Asacoco[X]
+
+## AsacocoDesc
+Don't use this.[X]
+
+## AsacocoUse
+Raises addiction.[X]
+
+## SuicopathName
+Suicopath[X]
+
+## SuicopathDesc
+Suisei's Beloved Axe. High Crit Chance.[X]
+
+## MTGName
+MTG[X]
+
+## MTGDesc
+Main Tank Gun.[X]
+
+## HowitzerName
+Howitzer[X]
+
+## HowitzerDesc
+Artillery System.[X]
+
+## TridentDesc
+Grants +5 Def, a (short shield).
+
+## TridentName
+Trident[X]
+
+## HawkName
+Hawk Bow[X]
+
+## HawkDesc
+Grants Hawkeye. Tuah.[X]
+
+## HawkUse
+Will always hit enemy.[X]
+
+## DarksphereName
+Darksphere[X]
+
+## DarksphereDesc
+Grants +3 Mov and Prevents
+Criticals.[X]
+
+## KRHName
+KRH-69[X]
+
+## KRHDesc
+Kaela's Repairing Hammer-69[X]
+
+## NightName
+Night Lance[X]
+
+## NightDesc
++5 Def/Res to adjacent allies.[X]
+
+## KanaboName
+Kanabo[X]
+
+## KanaboDesc
+Ayame's Clun. Reaver.[X]
+
+## LifecleaverName
+Lifecleaver[X]
+
+## LifecleaverDesc
+Meant to collect souls.[X]
+
+## RancidName
+Rancid Claw[X]
+
+## RancidDesc
+Brave Effect.[X]
+
+## ChickenName
+Chicken Claw[X]
+
+## ChickenDesc
+Chicken moment, Negates Def.[X]
+
+## DuelistLncName
+Duelist Lance[X]
+
+## DuelistLncDesc
+Reaver, grants Axebreaker.[X]
+
+## DuelistSwdName
+Duelist Sword[X]
+
+## DuelistAxeName
+Duelist Axe[X]
+
+## DuelistSwdDesc
+Reaver, grants Lancebreaker.[X]
+
+## DuelistAxeDesc
+Rearver, grants Swordbreaker.[X]
+
+## SteelScytheName
+Steel Scythe[X]
+
+## SteelScytheDesc
+Forged from steel.[X]
+
+## CombatStimName
+Combat Stim[X]
+
+## CombatStimDesc
+Ame Only. Grants buffs for 5 turns.[X]
+
+## EntrapName
+Entrap[X]
+
+## EntrapDesc
+Brings enemy to caster.[X]
+
+## EntrapUse
+Drag someone[N]
+within striking[N]
+distance![X]
+
+## ThiefName
+Thief Staff[X]
+
+## ThiefDesc
+Steals an item from an enemy.[X]
+
+## ThiefUse
+Of course this[N]
+was made in[N]
+Pekoland.[X]
+
+## AgainName
+Again Staff[X]
+
+## AgainDesc
+Allows another unit to move again.[X]
+
+## AgainUse
+Say that[N]
+again.[X]
+
+## AumName
+Aum Staff[X]
+
+## AumDesc
+Revives the last fallen unit.[X]
+
+## GradivusName
+Gradivus[X]
+
+## GradivusDesc
+A powerful lance.[X]
+
+## ParthiaName
+Parthia[X]
+
+## ParthiaDesc
+A powerful bow.[X]
+
+## TusksName
+Tusks[X]
+
+## TusksDesc
+Tusks from a war elephant.[X]
+
+## RockName
+Rock[X]
+
+## RockDesc
+Heh, eat rock...[X]
+
+## PokoName
+Poko-Wand[X]
+
+## PokoDesc
+A wand from Iroha's memories.[X]
+
+## PunchName
+Punch[X]
+
+## PunchDesc
+Physical Damage. Kanata Only.[X]
+
+## DragonName
+Dragonstone-[X]
+
+## DragonDesc
+A weaker, but infinite use.[X]
+
+## SelectionName
+Selection[X]
+
+## SelectionDesc
+Naturally negates def.[X]
+
+## MercuriusName
+Mercurius[X]
+
+## MercuriusDesc
+A powerful sword.[X]
+
+## AbortName
+Abort Staff[X]
+
+## AbortDesc
+Immedietely kills on contact.[X]
+
+## ThoronName
+Thoron[X]
+
+## ThoronDesc
+High crit rate.[X]
+
+
+
+

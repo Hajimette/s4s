@@ -3,10 +3,9 @@
 
 #include "ChapterDefinitions.event"
 
-//#include "ItemDefinitions.event"
+#include "ItemDefinitions.event"
 #include "MusicDefinitions.event"
 //#include "TableExpansions.event"
 
 //#include "ClassDefinitions.event"
 
-#define Abort 0xFE //Temp until I get Item Definitions to work
