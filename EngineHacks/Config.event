@@ -122,7 +122,7 @@
 
 // If uncommented, StairsASM will be implemented.
 // This patch adds an entry to the Unit Menu, so installing here is necessary.
-// #define STAIRS_ASM
+ #define STAIRS_ASM
 
 // If uncommented, Raid will be implemented.
 // This patch adds an entry to the Unit Menu, so installing here is necessary.
@@ -130,7 +130,7 @@
 
 // If uncommented, Escape-Arrive will be implemented.
 // /this adds entries to the Unit Menu and normally conflicts with Lunge and Stairs. Install here to avoid the conflicts.
-// #define ESCAPE_ARRIVE
+#define ESCAPE_ARRIVE
 
 // If uncommented, Leadership Stars will be implemented.
 // Go to LeadershipStars/LeadershipStars.event to edit settings.
@@ -163,7 +163,7 @@
 
 //If uncommented, Narrow Font will be implemented.
 //This allows for setting narrower text in addition to standard text.
-// #define NARROW_FONT
+//#define NARROW_FONT
 #ifdef NARROW_FONT
 MESSAGE NARROW_FONT is being phased out for UTF-8 encoded Narrow Font. 
 MESSAGE If you have added custom characters, you will need to add them in Root\EngineHacks\ExternalHacks\Fonts. 
@@ -217,7 +217,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // #define DONT_STACK_BOOSTS
 
 // If uncommented all boss kills will play critical hit animations.
-// #define FLASHY_MODE
+#define FLASHY_MODE
 
 // If uncommented, the unit load buffer will be repointed.
 // The location it is repointed to is also defined here. The default location is

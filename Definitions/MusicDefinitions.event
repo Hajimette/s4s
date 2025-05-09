@@ -40,6 +40,7 @@
 #define FE4DanceintheSkiesID 0xC4
 #define FE4ValkyrieStaffID 0x25
 #define FE4SilezhaID 0x26
+#define EnemyMessage2ID 0x62
 
 //FE5
 #define FE5AugustBID 0x27
@@ -74,6 +75,7 @@
 //FE7
 #define BlessingoftheGeneralsIID 0x40 
 #define BlessingoftheGeneralsIIID 0x41
+#define TogetherWeRideID 0x17
 
 //FE11
 #define FE11LeapsID 0x42

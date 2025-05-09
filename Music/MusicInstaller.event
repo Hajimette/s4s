@@ -376,4 +376,15 @@ SongTable(WatamesLullabyID, WatamesLullaby, MapMusicGroup)
 SongTable(ShinigamiID, Shinigami, MapMusicGroup)
 }
 
+{
+#include "MusicEvents/TogetherWeRide_Hatsuru.event"
+SongTable(TogetherWeRideID, TogetherWeRide, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/EnemyMessage2.event"
+SongTable(EnemyMessage2ID, EnemyMessage2, MapMusicGroup)
+}
+
+
 #include "SoundroomEditor.event"

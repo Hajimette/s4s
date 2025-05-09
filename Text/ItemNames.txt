@@ -142,7 +142,7 @@ A strong, ranged lance.[X]
 ## AxereaverName
 Axereaver[X]
 
-## Axereaverdesc
+## AxereaverDesc
 Strong vs. Axes.[X]
 
 ## IronAxeName
@@ -163,7 +163,7 @@ Targets opponents spd. -7 Spd[X]
 ## BraveAxeName
 Brave Axe[X]
 
-## KillerAxeName
+## KillAxeName
 Killer Axe[X]
 
 ## MstAxeName
@@ -304,10 +304,10 @@ Aura[X]
 ## FluxName
 Flux[X]
 
-## LunaName
-Luna
+## LunaItemName
+Luna[X]
 
-## LunaDesc
+## LunaItemDesc
 Negates defense.[X]
 
 ## NosName
@@ -368,7 +368,7 @@ Physic[X]
 Restores HP to allies[N]
 at a distance.[X]
 
-## PhysicUse
+## PhysUse
 Restores HP to
 distant allies.[X]
 
@@ -598,6 +598,10 @@ Rabbit's Foot.[X]
 Grants +10 Spd and[N]
 prevents criticals.[X]
 
+## RabbitUse
+Thankfully not
+Pekora's.[X]
+
 ## YabName
 Yab Shield[X]
 
@@ -616,7 +620,7 @@ Splicer[X]
 Meant to split souls. Negates Def.[X]
 
 ## HopliteName
-Hoplite Guard
+Hoplite Guard[X]
 
 ## HopliteDesc
 Damage taken is halved[N]
@@ -628,10 +632,10 @@ Everlasting Soul.[X]
 ## EverSoulDesc
 Raises ATK for 3 turns.[X]
 
-## CloudName
+## CloudyName
 Cloudy Sheep[X]
 
-## CloudDesc
+## CloudyDesc
 Raises DEF for 3 turns.[X]
 
 ## EternityName
@@ -825,12 +829,12 @@ Physical damage.[X]
 Ancient One[X]
 
 ## AncientOneDesc
-An ancient being. +7 Def/Res (Nihil)
+An ancient being. +7 Def/Res (Nihil)[X]
 
 ## DarkSpikesName
 Dark Spikes[X]
 
-## DarkSpikesDesc
+## DarkSpikeDesc
 -6 Def/Res on hit.[X]
 
 ## StarlightName
@@ -848,7 +852,7 @@ Power of the Ratpack![X]
 ## NecromancyName
 Necromancy[X]
 
-## NecromancryDesc
+## NecromancyDesc
 Rushia's limited abilities.[X]
 
 ## SocietyName
@@ -903,7 +907,7 @@ Magic Dmg, Nosferatu, Torch.[X]
 Keris[X]
 
 ## KerisDesc
-Anya's Main Form. (Union)
+Anya's Main Form. (Union)[X]
 
 ## KerisUse
 Gives +10 crit and crit[N]
@@ -1051,7 +1055,7 @@ Howitzer[X]
 Artillery System.[X]
 
 ## TridentDesc
-Grants +5 Def, a (short shield).
+Grants +5 Def, a (short shield).[X]
 
 ## TridentName
 Trident[X]
@@ -1099,7 +1103,7 @@ Meant to collect souls.[X]
 ## RancidName
 Rancid Claw[X]
 
-## RancidDesc
+## RacidDesc
 Brave Effect.[X]
 
 ## ChickenName
@@ -1185,7 +1189,7 @@ A powerful lance.[X]
 ## ParthiaName
 Parthia[X]
 
-## ParthiaDesc
+## ParthisDesc
 A powerful bow.[X]
 
 ## TusksName
@@ -1224,10 +1228,10 @@ Selection[X]
 ## SelectionDesc
 Naturally negates def.[X]
 
-## MercuriusName
+## MerceriusName
 Mercurius[X]
 
-## MercuriusDesc
+## MerceriusDesc
 A powerful sword.[X]
 
 ## AbortName
@@ -1242,6 +1246,13 @@ Thoron[X]
 ## ThoronDesc
 High crit rate.[X]
 
+## PlayName
+Play[X]
 
+## RewarpName
+Rewarp[X]
+
+## RewarpDesc
+Warp to another location.[X]
 
 

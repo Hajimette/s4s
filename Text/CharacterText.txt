@@ -41,10 +41,10 @@ Suisei[X]
 A Diamond in the Rough.[N]
 She's really cute today too.[X]
 
-## BaeName
+## BaelzName
 Baelz[X]
 
-## BaeDesc
+## BaelzDesc
 The Concept of Chaos.[N]
 Struggles with herself.[X]
 
@@ -84,10 +84,10 @@ Nene[X]
 A traveling pegasus rider.[N]
 She hunts for husbands.[X]
 
-## LunaName
+## LunaCharName
 Luna [X]
 
-## LunaDesc
+## LunaCharDesc
 The Princess of Sweets. [N]
 Naaaaaaaaaaaaaaaaaaaaaa[X]
 

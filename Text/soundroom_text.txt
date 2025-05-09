@@ -210,3 +210,15 @@ Twisted Shadows A [X]
 
 ## ShinTxt
 Shinigami [X]
+
+## TWRTxt
+Together We Ride[X]
+
+## BOTG1
+Blessing of the Generals I[X]
+
+## BOTG2
+Blessing of the Generals II[X]
+
+## Enemy2
+Enemy Message 2[X]

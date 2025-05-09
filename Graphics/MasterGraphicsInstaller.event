@@ -16,3 +16,5 @@
 #include "Map Sprites/MasterMapInstaller.event"
 
 #include "Tilesets/TilesetInstaller.event"
+
+#include "ItemIcons/Installer.event"

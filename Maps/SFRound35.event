@@ -26,7 +26,7 @@ ALIGN 4
 MapData:
   #incbin "SFRound35_data.dmp"
 
-SetChapterData(0, 1, 0, 1, 1, 4, MapData, 0, 0, 6)
+SetChapterData(0, 1, 0, 1, 1, 4, MapData, 1, 0, 6)
 
 ALIGN 4
 VillageClose:
