@@ -134,7 +134,7 @@ draw_aid_icon_at 26, 3
 draw_trv_text_at 21, 5
 
 
-draw_textID_at 21, 7, textID=0x042
+//draw_textID_at 21, 7, textID=0x042
 mov		r0, r8
 ldr		r3, =GetLeadershipStarCount
 sub		r3, #1 @get rid of unnecessary thumb bit
@@ -145,7 +145,7 @@ draw_number_at 25, 7
 pop 	{r0}
 cmp		r0,#0xFF
 beq		DontDrawIcon
-draw_icon_at 26, 7, 0xCA @change this to the ID you put the icon in
+draw_icon_at 21, 7, 0x9D @change this to the ID you put the icon in
 DontDrawIcon:
 
 

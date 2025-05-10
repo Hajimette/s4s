@@ -41,11 +41,11 @@
 #define KillerAxe 0x23
 #define MasterAxe 0x24
 #define Hammer 0x25
-#define DevilAxe 0x26
+#define DevilAxe 0x26 //
 #define HandAxe 0x27
 #define Tomahawk 0x28
 #define Swordreaver 0x29
-#define Swordslayer 0x2A
+#define Acrobaxe 0x2A
 #define Hatchet 0x2B //
 #define IronBow 0x2C
 #define SteelBow 0x2D
@@ -107,10 +107,10 @@
 #define Speedwing 0x65
 #define Alcohol 0x66 //
 #define RabbitsFoot 0x67
-#define YabShield 0x75
+#define YabShield 0x70
 #define TealGem 0x76
-#define Abort 0x77
-#define Splicer 0x78
+#define Abort 0x76
+#define Splicer 0x77
 #define HopliteGuard 0x7B //
 #define EverSoul 0x7C
 #define CloudySheep 0x7D
@@ -134,25 +134,39 @@
 #define Violance 0x91
 #define Brandioche 0x92 //
 #define Maidsweeper 0x93
-#define DireThunder 0x94
-#define SpaceSeal 0x95
-#define Stopwatch 0x96
+#define DireThunder 0x95
+#define SpaceSeal 0x96
+#define Stopwatch 0x97
 #define Redebut 0xB7
 #define WindSword 0xA1
-//#define
-//#define
-//#define
-//#define
-//#define
-//#define
-//#define
-//#define
-//#define
-//#define
-//#define
-//#define
-//#define
-//#define
+#define TorchItem 0x6f
+#define PureWater 0x6D
+#define VulnItem 0x6b
+#define DoorKey 0x69
+#define ChestKey 0x68
+#define SilverCard 0x72
+#define MemberCard 0x71
+#define Elixir 0x6C
+#define WhiteGem 0x73
+#define Stone 0xb5
+#define Antitoxin 0x6e
+#define BlackGem 0xba
+#define BlueGem 0x74
+#define CrimsonEye 0xb4
+#define WretchedAir 0x8f
+#define RottenClaw 0xad
+#define Dragonstone 0xaa
+#define RedGem 0x75
+#define EvilEye 0xb3
+#define HellFang 0xb2
+#define SharpClaw 0x8A
+#define FieryFang 0xb1
+#define PoisonClaw 0xaf
+#define Ravager 0xa9
+#define Mine 0x79
+#define Lockpick 0x6a
+#define DemonLight 0xa8
+#define LethalTalon 0xb0
 #define Rewarp 0xbb
 #define SkillScroll 0xbc
 #define Wind 0xbd
@@ -210,7 +224,7 @@
 #define Entrap 0xF2
 #define Thief 0xF3 //
 #define Again 0xF4
-#define Aum 0xF5 ..
+#define Aum 0xF5 //
 #define Gradivus 0xF6 //
 #define Parthia 0xF7 //
 #define Tusks 0xF8
@@ -221,3 +235,12 @@
 #define Selection 0xFD
 #define Asura 0xFE
 #define Mercurius 0xFf //
+#define Lead 0x9d
+#define Star 0x9E
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define
+//#define

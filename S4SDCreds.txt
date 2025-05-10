@@ -136,7 +136,11 @@ White Ring (Magic Ring)
 Fire Lance
 Cursed Orb (Darksphere)
 Steel Scythe
-
+Black Ring (Midnight Song)
+Red Ring (Everlasting Soul)
+Green Ring (Eternity Bright)
+Blue Ring(Cloudy Sheep)
+Gilded Claw (Sus)
 
 Card Cafe:
 Item 1 (Alcohol)
@@ -164,13 +168,11 @@ Katana 10 (Asura)
 Katana 3 (Rakshasa)
 Axe 23 (Suicopath)
 
+EldritchA, Indogutsu:
+Bow 11 (Crossbow)
 
 EldritchA:
 Heaven Seal (Shield Seal)
-
-Gabriel Knight:
-Light Crossbow (Crossbow)
-
 
 Lisandra Brave:
 FE5 Armorslayer
@@ -273,9 +275,10 @@ Tile 066 (Minute Hands)
 Lance 30 (Fork)
 Tile 10 (Peko's Gambit)
 Sword 53 (Barrier Blade)
+Dark 8 (Council's Sorrow)
 
 Leif:
-Dark 7
+Dark 7    // Bruh
 Fire 5 (Explosion)
 
 Maxim:
@@ -308,7 +311,7 @@ SN Ivan:
 Balberith (Necromancy)
 
 Peerless:
-Wishblade
+Wishblade // Bruh
 
 Hatsuru:
 Thorn
@@ -321,12 +324,39 @@ Howitzer
 Kanabo
 Combat Stim
 DragonstoneMinus
+PokoWand
+Redebut
+Leadership
+
 
 2WB:
 Silver Blade2 (Superior Blade)
 Boots
 Body Ring
 Zanbatou (Keris)
+Lockpick 
+Elixir
+AntiToxin
+White Gem
+Red Gem
+Blue Gem
+Mine
+Wretched Breath
+Dragonstone
+RottenClaw
+Fetid Claw
+Poison Claw
+Sharp Claw
+Talon
+Fiery Fang
+HellFang
+Crimson Eye
+Evil Eye
+Stone
+Black Gem
+Demon Light
+Ravager
+
 
 The Big Dededester:
 Demon Regal Blade (Red Heart)
@@ -341,11 +371,11 @@ Mace, No Loop Guard
 Zane:
 Axe 25 (Superior Axe)
 Sword 29 (Antithesis)
-Lance 5 (Trident)
+Lance 6 (Trident)
 
 
 Wingsweep:
-Drill
+Drill  //Bruh
 Lifetaker Brace (Engage Ring)
 
 XVI:
@@ -354,9 +384,7 @@ SwordReaver
 Zarg:
 Dark 8 (Yabai)
 Bow 9 (Selection)
-
-Zelix:
-Icon 180 (Tokens)
+Staff 9 (Abort)
 
 Snakey1:
 Icon 001 (Sharkbite)
@@ -368,12 +396,12 @@ Zelix:
 Icon 075 (Duelist Axe)
 Reaverlance (Duelist Lance)
 Icon 031 (Duelist Sword)
-
+Icon 180 (Tokens)
 
 Unknown Artist:
 Light Magic (3) (Seiso's Light)
 Bow 1 (MaidSweeper)
-
+Staff 2 (Entrap)
 
 
 Music:

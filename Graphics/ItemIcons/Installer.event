@@ -184,7 +184,7 @@ ItemIconEntry(ShieldSeal)
 
 ALIGN 4
 ItemIconEntry(Crossbow)
-#incbin "dmp/CrossbowIcon.dmp"
+#incbin "dmp/CrossbowIcon2.dmp"
 
 ALIGN 4
 ItemIconEntry(Lifecleaver)
@@ -455,52 +455,472 @@ ItemIconEntry(Fire)
 #incbin "dmp/FireIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(Fenrir)
+#incbin "dmp/FenrirIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(Elfire)
+#incbin "dmp/ElfireIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(DireThunder)
+#incbin "dmp/DireThunderIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(DevilAxe)
+#incbin "dmp/DevilAxeIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(NightLance)
+#incbin "dmp/NightLanceIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(BraveSword)
+#incbin "dmp/BraveSwordIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(BraveLance)
+#incbin "dmp/BraveLanceIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(BraveBow)
+#incbin "dmp/BraveBowIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(Bolting)
+#incbin "dmp/BoltingIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(Berserk)
+#incbin "dmp/BerserkIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(Ballista)
+#incbin "dmp/BallistaIcon.dmp"
 
 ALIGN 4
-ItemIconEntry
-#incbin "dmp/
+ItemIconEntry(Aura)
+#incbin "dmp/AuraIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Armorslayer)
+#incbin "dmp/ArmorslayerIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Arcwind)
+#incbin "dmp/ArcwindIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Handcannon)
+#incbin "dmp/HandcannonIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(TorchItem)
+#incbin "dmp/TorchItemIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(PureWater)
+#incbin "dmp/PureWaterIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(VulnItem)
+#incbin "dmp/VulnItemIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(DoorKey)
+#incbin "dmp/DoorKeyIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(ChestKey)
+#incbin "dmp/ChestKeyIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Shine)
+#incbin "dmp/ShineIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(BarrierBlade)
+#incbin "dmp/BarrierBladeIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Fork)
+#incbin "dmp/ForkIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(MinuteHand)
+#incbin "dmp/MinuteHandIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(ClockHands)
+#incbin "dmp/ClockHandsIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(PekosGambit)
+#incbin "dmp/PekosGambitIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Explosion)
+#incbin "dmp/ExplosionIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Zetamin)
+#incbin "dmp/ZetaminIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Stopwatch)
+#incbin "dmp/StopwatchIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Axereaver)
+#incbin "dmp/AxereaverIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Spear)
+#incbin "dmp/SpearIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Archive)
+#incbin "dmp/ArchiveIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Pettanshield)
+#incbin "dmp/PettanshieldIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(SkillSeal)
+#incbin "dmp/SkillSealIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(SpaceSeal)
+#incbin "dmp/SpaceSealicon.dmp"
+
+ALIGN 4
+ItemIconEntry(SageSeal)
+#incbin "dmp/SageSealIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(RatMagic)
+#incbin "dmp/RatMagicIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Society)
+#incbin "dmp/SocietyIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(KRH69)
+#incbin "dmp/KRH69Icon.dmp"
+
+ALIGN 4
+ItemIconEntry(Punch)
+#incbin "dmp/PunchIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Potion)
+#incbin "dmp/PotionIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(SilverCard)
+#incbin "dmp/SilverCardIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(MemberCard)
+#incbin "dmp/MemberCardIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Talisman)
+#incbin "dmp/TalismanIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Necromancy)
+#incbin "dmp/NecromancyIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Thorn)
+#incbin "dmp/ThornIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(HoloEmblem)
+#incbin "dmp/HoloemblemIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(AncientOne)
+#incbin "dmp/AncientOneIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Rifle)
+#incbin "dmp/RifleIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Doogstone)
+#incbin "dmp/doogstoneicon.dmp"
+
+ALIGN 4
+ItemIconEntry(MTG)
+#incbin "dmp/MTGIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Howitzer)
+#incbin "dmp/HowitzerIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Kanabo)
+#incbin "dmp/KanaboIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(CombatStim)
+#incbin "dmp/CombatStimIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(DragonstoneMinus)
+#incbin "dmp/DragonstoneMinusIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(SuperiorBlade)
+#incbin "dmp/SuperiorBladeIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Boots)
+#incbin "dmp/BootsIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(BodyRing)
+#incbin "dmp/BodyRingIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Keris)
+#incbin "dmp/KerisIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(RedHeart)
+#incbin "dmp/RedHeartIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Tsunami)
+#incbin "dmp/TsunamiIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Acrobaxe)
+#incbin "dmp/AcrobaxeIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Mace)
+#incbin "dmp/MaceIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(SuperiorAxe)
+#incbin "dmp/SuperiorAxeIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Antithesis)
+#incbin "dmp/AntithesisIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Trident)
+#incbin "dmp/TridentIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(EngageRing)
+#incbin "dmp/EngageRingIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Swordreaver)
+#incbin "dmp/SwordreaverIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Yabai)
+#incbin "dmp/YabaiIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Selection)
+#incbin "dmp/SelectionIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Sharkbite)
+#incbin "dmp/SharkbiteIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Glock)
+#incbin "dmp/GlockIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(DuelistAxe)
+#incbin "dmp/DuelistAxeIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(DuelistLance)
+#incbin "dmp/DuelistLanceIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Tokens)
+#incbin "dmp/TokensIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(DuelistSword)
+#incbin "dmp/DuelistSwordIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(SeisoLight)
+#incbin "dmp/SeisoLightIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Maidsweeper)
+#incbin "dmp/MaidsweeperIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Seisoda)
+#incbin "dmp/SeisodaIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Tusks)
+#incbin "dmp/TusksIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Rock)
+#incbin "dmp/RockIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Finger)
+#incbin "dmp/FingerIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Flux)
+#incbin "dmp/FluxIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Redebut)
+#incbin "dmp/RedebutIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(PokoWand)
+#incbin "dmp/PokoWand.dmp"
+
+ALIGN 4
+ItemIconEntry(NephilimsSorrow)
+#incbin "dmp/NephilimsSorrowIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Sus)
+#incbin "dmp/SusIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(EverSoul)
+#incbin "dmp/RedRingIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(CloudySheep)
+#incbin "dmp/BlueRingIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(MidnightSong)
+#incbin "dmp/BlackRingIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(EternityBright)
+#incbin "dmp/GreenRingIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Entrap)
+#incbin "dmp/EntrapIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Elixir)
+#incbin "dmp/ElixirIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(WhiteGem)
+#incbin "dmp/WhiteGemIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Stone)
+#incbin "dmp/StoneIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Antitoxin)
+#incbin "dmp/AntitoxinIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(BlackGem)
+#incbin "dmp/BlackGemIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(BlueGem)
+#incbin "dmp/BlueGemIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(CrimsonEye)
+#incbin "dmp/CrimEyeIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(WretchedAir)
+#incbin "dmp/WretchedIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(RottenClaw)
+#incbin "dmp/RottenClawIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Dragonstone)
+#incbin "dmp/DragonstoneIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(RedGem)
+#incbin "dmp/RedGemIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(HellFang)
+#incbin "dmp/HellFangIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(SharpClaw)
+#incbin "dmp/SharpClawIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(FetidClaw)
+#incbin "dmp/FetidClawIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(FieryFang)
+#incbin "dmp/FieryFangIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(PoisonClaw)
+#incbin "dmp/PoisonClawIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Ravager)
+#incbin "dmp/RavagerIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Mine)
+#incbin "dmp/MineIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Lockpick)
+#incbin "dmp/LockpickIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(DemonLight)
+#incbin "dmp/DemonLightIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(LethalTalon)
+#incbin "dmp/LethalTalonIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Abort)
+#incbin "dmp/AbortIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(EvilEye)
+#incbin "dmp/EvilEyeIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Lead)
+#incbin "dmp/Leadership.dmp"
+
+ALIGN 4
+ItemIconEntry(Star)
+#incbin "dmp/Star.dmp"
 
 POP
 
