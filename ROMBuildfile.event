@@ -54,8 +54,7 @@ ALIGN 4
 
 	#ifdef USE_TEST_MAP
     //Events
-    #include "Events/Release_map.event"
-    #include "Events/WorldMapEvents.event"
+    #include "Events/MasterEventInstaller.event"
 
     //Maps
     #include "Maps/MasterMapInstaller.event"
