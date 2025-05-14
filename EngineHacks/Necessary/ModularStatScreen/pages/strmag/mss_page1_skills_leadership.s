@@ -64,33 +64,33 @@ b		ShowStats2
 ShowGrowths:
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#4]		@str growth getter
-draw_growth_at 13, 3
+draw_growth_at 15, 3
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#8]		@mag growth getter
-draw_growth_at 13, 5
+draw_growth_at 15, 5
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#12]		@skl growth getter
-draw_growth_at 13, 7
+draw_growth_at 15, 7
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#16]		@spd growth getter
-draw_growth_at 13, 9
+draw_growth_at 15, 9
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#20]		@luk growth getter
-draw_growth_at 13, 11
+draw_growth_at 15, 11
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#24]		@def growth getter
-draw_growth_at 13, 13
+draw_growth_at 15, 13
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#28]		@res growth getter
-draw_growth_at 13, 15
-ldr             r0,[sp,#0xC]
-ldr             r0,[r0,#36]             @mov growth getter 
-draw_growth_at 21, 3
-ldr             r0,[sp,#0xC]
-ldr             r0,[r0,#32]             @con growth getter
-draw_growth_at 21, 5
-ldr		r0,[sp,#0xC]
-ldr		r0,[r0]			@hp growth getter (not displaying because there's no room atm)
+draw_growth_at 15, 15
+//ldr             r0,[sp,#0xC]
+//ldr             r0,[r0,#36]             @mov growth getter 
+//draw_growth_at 22, 3
+//ldr             r0,[sp,#0xC]
+//ldr             r0,[r0,#32]             @con growth getter
+//draw_growth_at 22, 5
+//ldr		r0,[sp,#0xC]
+//ldr		r0,[r0]			@hp growth getter (not displaying because there's no room atm)
 draw_growth_at 21, 7
 draw_textID_at 21, 5, textID=0x4E9, growth_func=1 @hp name 
 b		NextColumn
@@ -111,23 +111,23 @@ draw_aid_icon_at 27, 7
 
 draw_status_text_at 21, 9
 
-draw_textID_at 21, 13, textID=0x044
+//draw_textID_at 21, 13, textID=0x044
 mov		r0, r8
 ldr		r3, =GetLeadershipStarCount
 sub		r3, #1 @get rid of unnecessary thumb bit
 mov		lr, r3
 .short 0xF800
 push	{r0}
-draw_number_at 25, 13
+draw_number_at 24, 15
 pop 	{r0}
 cmp		r0,#0xFF
 beq		DontDrawIcon
-draw_icon_at 26, 13, 0xCA @change this to the ID you put the icon in
+draw_icon_at 21, 15, 0x9D @change this to the ID you put the icon in
 DontDrawIcon:
 
-ldr r0,=ActionTextIDLink
-ldrh r0, [r0]
-draw_textID_at 24, 15
+//ldr r0,=ActionTextIDLink
+//ldrh r0, [r0]
+//draw_textID_at 24, 15
 mov		r0, r8
 ldr r3, =GetUnitMoveStars
 sub		r3, #1 @get rid of unnecessary thumb bit
@@ -137,26 +137,27 @@ push	{r0}
 cmp r0, #0x0
 bne		DontSetToFF
 
+
 	mov r0, #0xFF
 
 DontSetToFF:
-draw_number_at 28, 15
+draw_number_at 27, 15
 pop 	{r0}
 cmp		r0,#0x0
 beq		DontDrawIcon2
-draw_icon_at 28, 26, 0xCA @change this to the ID you put the icon in
+draw_icon_at 25, 15, 0x9E @change this to the ID you put the icon in
 DontDrawIcon2:
 
 
 ldr r0, =PCCTextIDLink
 ldrh r0, [r0]
-draw_textID_at 21, 15, colour=Yellow @ PCC
+draw_textID_at 21, 13, colour=Yellow @ PCC
 mov		r0, r8
 ldr r3, =GetUnitPCC
 sub		r3, #1 @get rid of unnecessary thumb bit
 mov		lr, r3
 .short 0xF800
-draw_number_at 23, 15
+draw_number_at 23, 13
 
 
 
@@ -229,8 +230,8 @@ draw_skill_icon_at 27, 17
 
 SkillEnd:
 
-@ draw_textID_at 13, 15, textID=0x4f6 @move
-@ draw_move_bar_at 16, 15
+@ draw_textID_at 21, 3, textID=0x4f6 @move
+@ draw_move_bar_at 24, 3
 
 @blh DrawBWLNumbers
 

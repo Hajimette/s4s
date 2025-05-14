@@ -1,0 +1,11 @@
+ALIGN 4
+VillageRemakeObject:
+#incbin "VillageRemakeObject.dmp"
+
+ALIGN 4
+VillageRemakePal:
+#incbin "VillageRemakePal.dmp"
+
+ALIGN 4
+FE5CastleConfig:
+#incbin "VillageRemakeConfig.dmp"

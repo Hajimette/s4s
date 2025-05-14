@@ -1,2 +1,4 @@
 #include "CalliopeCastleCutscene.event"
+#include "Chapter1.event"
+#include "Chapter2.event"
 #include "PrologueMap.event"

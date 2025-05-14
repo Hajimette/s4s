@@ -33,6 +33,7 @@ LeadershipTable:
 BYTE Eirika 2
 BYTE Ephraim 2
 BYTE Seth 1
+BYTE Kronii 10
 // BOSSES
 BYTE Murray 1
 BYTE ONeill 1

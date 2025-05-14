@@ -7,10 +7,10 @@
   <properties>
    <property name="Anims1" value="0"/>
    <property name="Anims2" value="0"/>
-   <property name="ChapterID" value="4e"/>
+   <property name="ChapterID" value="0x4e"/>
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0"/>
-   <property name="MapID" value="d6"/>
+   <property name="MapID" value="0xd6"/>
    <property name="ObjectType" value="3"/>
    <property name="PaletteID" value="6"/>
    <property name="TileConfig" value="3"/>

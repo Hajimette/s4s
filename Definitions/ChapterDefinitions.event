@@ -33,7 +33,7 @@
 #define SuperFieldsID 0x01
 #define FE5CastleID 0x02
 #define StrongholdID 0x03
-//#define
+#define VillageRemakeID 0x04
 
 
 //Palettes
@@ -44,9 +44,11 @@
 #define StrongholdGrassPalID 0x5
 #define StrongholdLavaPalID 0x6
 #define StrongholdSnowPalID 0x7
+#define VillageRemakePalID 0x8
 
 
 //Config
 #define SuperFieldsConfigID 0x01
 #define FE5CastleConfigID 0x02
 #define StrongholdConfigID 0x03
+#define VillageRemakeConfigID 0x04

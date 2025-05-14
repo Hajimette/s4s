@@ -6,7 +6,7 @@ SKIPWN
 ENDA
 POP
 
-EventPointerTable(EventPointer, PointerList)
+EventPointerTable(EventPointer, 0x4)
 
 PointerList:
 	POIN TurnBasedEvents
@@ -31,6 +31,8 @@ CharacterBasedEvents:
 
 MiscBasedEvents:
 	CauseGameOverIfLordDies
+        DefeatBoss
+
 	END_MAIN
 
 LocationBasedEvents:
@@ -55,7 +57,9 @@ Tutorial:
 
 Units1:
 
-	UNIT
+	UNIT Amelia Investigator Amelia 1 (1,Ally,False) [8,3] 0x0 0x0 0x0 0x1 [Rapier,CombatStim] NoAI
+
+        UNIT
 
 EnemyUnits:
 
@@ -70,9 +74,12 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
-	LOAD1 0x1 EnemyUnits
+	LOAD1 0x1 PlayerUnits
 	ENUN
-	GotoPrepScreen
+
+	LOAD1 0
+        ENUN
+
 	ENDA
 
 EndingScene:

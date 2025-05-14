@@ -24,8 +24,39 @@
 
 ALIGN 4
 MapData:
-  #incbin "CalliopeCastleCutscene_data.dmp"
+  #incbin "Chapter2_data.dmp"
 
-SetChapterData(0x4e, 3, 0, 6, 3, 0xd6, MapData, 0, 0, 0)
+SetChapterData(0x02, 0x04, 0, 0x08, 0x04, 0xb, MapData, 0, 0, 0xc)
+
+ALIGN 4
+Map_Change_0:
+  SHORT $714 $718
+
+ALIGN 4
+Map_Change_1:
+  SHORT $100
+
+ALIGN 4
+Map_Change_2:
+  SHORT $100
+
+ALIGN 4
+Map_Change_3:
+  SHORT $7C
+
+ALIGN 4
+Map_Change_4:
+  SHORT $7C
+
+ALIGN 4
+MapChangesData:
+  TileMap(0, 18, 10, 2, 1, Map_Change_0)
+  TileMap(1, 20, 12, 1, 1, Map_Change_1)
+  TileMap(2, 19, 13, 1, 1, Map_Change_2)
+  TileMap(3, 19, 5, 1, 1, Map_Change_3)
+  TileMap(4, 1, 8, 1, 1, Map_Change_4)
+  TileMapEnd
+
+EventPointerTable(0xc, MapChangesData)
 
 }
