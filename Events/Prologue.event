@@ -57,7 +57,7 @@ Tutorial:
 
 Units1:
 
-	UNIT Amelia Investigator Amelia 1 (1,Ally,False) [8,3] 0x0 0x0 0x0 0x1 [Rapier,CombatStim] NoAI
+	UNIT Amelia Investigator Amelia 1 (1, Ally, False) [8,3] 0x0 0x0 0x0 0x1 [Rapier,CombatStim] NoAI
 
         UNIT
 
