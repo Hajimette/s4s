@@ -64,35 +64,37 @@ b		ShowStats2
 ShowGrowths:
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#4]		@str growth getter
-draw_growth_at 15, 3
+draw_growth_at 17, 3
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#8]		@mag growth getter
-draw_growth_at 15, 5
+draw_growth_at 17, 5
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#12]		@skl growth getter
-draw_growth_at 15, 7
+draw_growth_at 17, 7
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#16]		@spd growth getter
-draw_growth_at 15, 9
+draw_growth_at 17, 9
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#20]		@luk growth getter
-draw_growth_at 15, 11
+draw_growth_at 17, 11
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#24]		@def growth getter
-draw_growth_at 15, 13
+draw_growth_at 17, 13
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#28]		@res growth getter
-draw_growth_at 15, 15
-//ldr             r0,[sp,#0xC]
-//ldr             r0,[r0,#36]             @mov growth getter 
-//draw_growth_at 22, 3
-//ldr             r0,[sp,#0xC]
-//ldr             r0,[r0,#32]             @con growth getter
-//draw_growth_at 22, 5
-//ldr		r0,[sp,#0xC]
-//ldr		r0,[r0]			@hp growth getter (not displaying because there's no room atm)
-draw_growth_at 21, 7
-draw_textID_at 21, 5, textID=0x4E9, growth_func=1 @hp name 
+draw_growth_at 17, 15
+/*
+ldr             r0,[sp,#0xC]
+ldr             r0,[r0,#36]             @mov growth getter 
+draw_growth_at 25, 7
+ldr             r0,[sp,#0xC]
+ldr             r0,[r0,#32]             @con growth getter
+draw_growth_at 25, 5
+*/
+ldr		r0,[sp,#0xC]
+ldr		r0,[r0]			@hp growth getter (not displaying because there's no room atm)
+draw_growth_at 25, 3
+draw_textID_at 21, 3, textID=0x4E9, growth_func=1 @hp name 
 b		NextColumn
 .ltorg
 
@@ -167,7 +169,7 @@ draw_talk_text_at 21, 11
 
 ldr r0,=SkillsTextIDLink
 ldrh r0, [r0]
-draw_textID_at 14, 17, colour=White @skills
+draw_textID_at 13, 17, colour=White @skills
 
 Nexty:
 
@@ -201,32 +203,32 @@ mov r6, r0
 ldrb r0, [r6] 
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 17, 17
+draw_skill_icon_at 16, 17
 
 ldrb r0, [r6,#1]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 19, 17
+draw_skill_icon_at 18, 17
 
 ldrb r0, [r6, #2]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 21, 17
+draw_skill_icon_at 20, 17
 
 ldrb r0, [r6, #3]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 23, 17
+draw_skill_icon_at 22, 17
 
 ldrb r0, [r6, #4]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 25, 17
+draw_skill_icon_at 24, 17
 
 ldrb r0, [r6, #5]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 27, 17
+draw_skill_icon_at 26, 17
 
 SkillEnd:
 

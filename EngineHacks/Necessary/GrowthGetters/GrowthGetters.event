@@ -87,7 +87,20 @@
     #incbin "asm/Get_Luk_Growth.dmp"
     POIN Extra_Growth_Boosts|1
 	WORD USE_CHAR_AND_CLASS_GROWTHS
-  
+ 
+  ALIGN 4 
+  Get_Con_Growth:
+	#incbin "asm/Get_Con_Growth.dmp"
+	POIN Extra_Growth_Boosts|1
+	POIN CharacterConGrowthTable
+
+  ALIGN 4	
+  Get_Mov_Growth:
+	#incbin "asm/Get_Mov_Growth.dmp"
+	POIN Extra_Growth_Boosts|1
+	POIN CharacterMovGrowthTable
+
+
   ALIGN 4
   Extra_Growth_Boosts:
     #incbin "asm/Extra_Growth_Boosts.dmp"
