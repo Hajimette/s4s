@@ -9,3 +9,4 @@
 
 //#include "ClassDefinitions.event"
 
+#include "StatusUiDefs.event"

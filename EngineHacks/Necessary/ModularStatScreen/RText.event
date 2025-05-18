@@ -217,41 +217,41 @@
 
 
   ST_Str:
-    RMenu(PersonalDataRText,ST_Mag,ST_Name,ST_Con,0x66,0x18,0x546)
+    RMenu(PersonalDataRText,ST_Mag,ST_Name,ST_Con,MSSLeftColumnX,0x18,0x546)
 
   ST_Mag:
-    RMenu(ST_Str,ST_Skl,ST_Name,ST_Aid,0x66,0x28,0x547)
+    RMenu(ST_Str,ST_Skl,ST_Name,ST_Aid,MSSLeftColumnX,0x28,0x547)
 
   ST_Skl:
-    RMenu(ST_Mag,ST_Spd,ST_Name,ST_Cond,0x66,0x38,0x548)
+    RMenu(ST_Mag,ST_Spd,ST_Name,ST_Cond,MSSLeftColumnX,0x38,0x548)
 
   ST_Spd:
-    RMenu(ST_Skl,ST_Luck,ST_Name,ST_Affin,0x66,0x48,0x549)
+    RMenu(ST_Skl,ST_Luck,ST_Name,ST_Affin,MSSLeftColumnX,0x48,0x549)
 
   ST_Luck:
-    RMenu(ST_Spd,ST_Def,ST_Name,ST_Talk,0x66,0x58,0x54a)
+    RMenu(ST_Spd,ST_Def,ST_Name,ST_Talk,MSSLeftColumnX,0x58,0x54a)
 
   ST_Def:
-    RMenu(ST_Luck,ST_Res,ST_Class,ST_Skills,0x66,0x68,0x54b)
+    RMenu(ST_Luck,ST_Res,ST_Class,ST_Skills,MSSLeftColumnX,0x68,0x54b)
 
   ST_Res:
-    RMenu(ST_Def,ST_Mov,ST_Exp,ST_Skill1,0x66,0x78,0x54c)
+    RMenu(ST_Def,ST_Mov,ST_Exp,ST_Skill1,TileCoord(13),0x78,0x54c)
 
   ST_Mov:
-    RMenu(ST_Res,ST_Con,ST_Exp,ST_Skill1,0x66,0x88,0x54d,MovHPDescGetter)
+    RMenu(0,ST_Con,ST_Str,0,MSSRightColumnX,TileCoord(3),0x54d,MovHPDescGetter)
 
   ST_Con:
-    RMenu(PersonalDataRText,ST_Aid,ST_Str,0,0xA6,0x18,0x54e)
+    RMenu(ST_Mov,ST_Aid,ST_Mag,0,MSSRightColumnX,TileCoord(5),0x54e)
 
   ST_Aid:
-    RMenu(ST_Con,ST_Cond,ST_Mag,0,0xa6,0x28,0x54F)
+    RMenu(ST_Con,ST_Cond,ST_Skl,0,MSSRightColumnX,TileCoord(7),0x54F)
 
   ST_Cond:
-    RMenu(ST_Aid,ST_Affin,ST_Skl,0,0xa6,0x38,0x552,StatusDescGetter)
+    RMenu(ST_Aid,ST_Talk,ST_Spd,0,MSSRightColumnX,TileCoord(9),0x552,StatusDescGetter)
 
   ST_Affin:
     #ifdef LEADERSHIP_STARS
-      RMenu(ST_Cond,ST_Talk,ST_Spd,0,0xa6,0x48,LeadRText)
+      RMenu(ST_PCC,0,ST_Res,ST_MovStar,MSSRightColumnX,TileCoord(15),LeadRText)
     #else
       RMenu(ST_Cond,ST_Talk,ST_Spd,ST_AffinDesc,0xa6,0x48,0x551)
     #endif
@@ -260,28 +260,34 @@
     RMenu(ST_Cond,ST_Talk,ST_Spd,0,0xbe,0x48,AffinityDescLooper,AffinityDescGetter)
 
   ST_Talk:
-    RMenu(ST_Affin,ST_Skills,ST_Luck,0,0xA6,0x58,SS_TalkRText)
+    RMenu(ST_Cond,ST_PCC,ST_Luck,0,MSSRightColumnX,TileCoord(11),SS_TalkRText)
+
+  ST_PCC:
+    RMenu(ST_Talk,ST_Affin,ST_Def,0,TileCoord(21),TileCoord(13),SS_PCCText)
+
+  ST_MovStar:
+    RMenu(0,0,ST_Affin,0,TileCoord(25),TileCoord(15),SS_MovStarText)
 
   ST_Skills:
-    RMenu(ST_Talk,ST_Skill1,ST_Def,0,0xA6,0x68,SS_SkillsRText)
+    RMenu(ST_Res,0,0,ST_Skill1,TileCoord(13),TileCoord(17),SS_SkillsRText)
 
   ST_Skill1:
-    RMenu(ST_Skills,ST_Skill4,ST_Res,ST_Skill2,0xa6,0x78,0,RTextLoop,SkillDescGetter)
+    RMenu(0,0,ST_Skills,ST_Skill2,TileCoord(16),TileCoord(17),0,RTextLoop,SkillDescGetter)
 
   ST_Skill2:
-    RMenu(ST_Skills,ST_Skill5,ST_Skill1,ST_Skill3,0xbe,0x78,1,RTextLoop,SkillDescGetter+4)
+    RMenu(0,0,ST_Skill1,ST_Skill3,TileCoord(18),TileCoord(17),1,RTextLoop,SkillDescGetter+4)
 
   ST_Skill3:
-    RMenu(ST_Skills,ST_Skill6,ST_Skill2,0,0xd6,0x78,2,RTextLoop,SkillDescGetter+8)
+    RMenu(0,0,ST_Skill2,ST_Skill4,TileCoord(20),TileCoord(17),2,RTextLoop,SkillDescGetter+8)
 
   ST_Skill4:
-    RMenu(ST_Skill1,0,ST_Mov,ST_Skill5,0xa6,0x88,3,RTextLoop,SkillDescGetter+12)
+    RMenu(0,0,ST_Skill3,ST_Skill5,TileCoord(22),TileCoord(17),3,RTextLoop,SkillDescGetter+12)
 
   ST_Skill5:
-    RMenu(ST_Skill2,0,ST_Skill4,ST_Skill6,0xbe,0x88,4,RTextLoop,SkillDescGetter+16)
+    RMenu(0,0,ST_Skill4,ST_Skill6,TileCoord(24),TileCoord(17),4,RTextLoop,SkillDescGetter+16)
 
   ST_Skill6:
-    RMenu(ST_Skill3,0,ST_Skill5,0,0xd6,0x88,5,RTextLoop,SkillDescGetter+20)
+    RMenu(0,0,ST_Skill5,0,TileCoord(26),TileCoord(17),5,RTextLoop,SkillDescGetter+20)
 
  
   

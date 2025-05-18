@@ -1,0 +1,5 @@
+ #define TileCoord(coord)    "(coord*8)"
+  #define MSSRightColumnX     TileCoord(21)-2
+  #define MSSMiddleColumnX    TileCoord(19)-2
+  #define MSSFarRightColumnX  TileCoord(24)-2
+  #define MSSLeftColumnX      TileCoord(13)-2

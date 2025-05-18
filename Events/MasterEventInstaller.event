@@ -2,4 +2,4 @@
 #include "Release_map.event"
 #include "WorldMapEvents.event"
 #include "Macros.event"
-//#include "Prologue.event"
+#include "Prologue.event"

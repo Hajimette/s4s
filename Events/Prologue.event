@@ -6,7 +6,7 @@ SKIPWN
 ENDA
 POP
 
-EventPointerTable(EventPointer, 0x4)
+EventPointerTable(EventPointer, Prologue)
 
 PointerList:
 	POIN TurnBasedEvents

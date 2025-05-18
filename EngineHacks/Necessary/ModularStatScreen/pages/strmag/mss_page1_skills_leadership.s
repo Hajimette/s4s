@@ -83,18 +83,20 @@ draw_growth_at 17, 13
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#28]		@res growth getter
 draw_growth_at 17, 15
-/*
-ldr             r0,[sp,#0xC]
-ldr             r0,[r0,#36]             @mov growth getter 
-draw_growth_at 25, 7
+
 ldr             r0,[sp,#0xC]
 ldr             r0,[r0,#32]             @con growth getter
 draw_growth_at 25, 5
-*/
+ldr             r0,[sp,#0xC]
+ldr             r0,[r0,#36]             @mov growth getter 
+draw_growth_at 25, 3
+
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0]			@hp growth getter (not displaying because there's no room atm)
-draw_growth_at 25, 3
-draw_textID_at 21, 3, textID=0x4E9, growth_func=1 @hp name 
+draw_growth_at 25, 7
+draw_textID_at 21, 7, textID=0x4E9, growth_func=1 @hp name 
+draw_textID_at 21, 3, 0x4f6 @move
+draw_textID_at 21, 5, textID=0x4f7 @con
 b		NextColumn
 .ltorg
 
@@ -103,13 +105,7 @@ b		ShowStats3
 
 NextColumn:
 
-draw_textID_at 21, 5, textID=0x4f7 @con
-draw_con_bar_with_getter_at 24, 5
 
-
-draw_textID_at 21, 7, textID=0x4f8 @aid
-draw_number_at 25, 7, 0x80189B8, 2 @aid getter
-draw_aid_icon_at 27, 7
 
 draw_status_text_at 21, 9
 
@@ -184,8 +180,16 @@ draw_spd_bar_at 16, 9
 draw_luck_bar_at 16, 11
 draw_def_bar_at 16, 13
 draw_res_bar_at 16, 15
-draw_textID_at 21, 3, 0x4f6 @move
+
 draw_move_bar_with_getter_at 24, 3
+
+draw_con_bar_with_getter_at 24, 5
+draw_textID_at 21, 3, 0x4f6 @move
+draw_textID_at 21, 5, textID=0x4f7 @con
+
+draw_textID_at 21, 7, textID=0x4f8 @aid
+draw_number_at 25, 7, 0x80189B8, 2 @aid getter
+draw_aid_icon_at 27, 7
 
 b		NextColumn
 .ltorg

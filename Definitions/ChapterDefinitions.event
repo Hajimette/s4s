@@ -24,7 +24,8 @@
 
 
 //Events ID
-#define Chapter1Events 0x4
+#define Prologue 0x4 
+#define Chapter1 0xA
 
 
 
