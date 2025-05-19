@@ -404,6 +404,22 @@ Bow 1 (MaidSweeper)
 Staff 2 (Entrap)
 
 
+
+
+
+Map Palettes:
+
+Atlas:
+Night Fields
+Day Fields
+Candy Fields
+
+Maps:
+
+Atlas:
+Prologue Grass Cutscene Map
+
+
 Music:
 
 Among us Drip-MichaelPosin'

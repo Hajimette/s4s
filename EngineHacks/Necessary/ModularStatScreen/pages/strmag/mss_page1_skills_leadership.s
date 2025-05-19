@@ -100,6 +100,7 @@ draw_textID_at 21, 5, textID=0x4f7 @con
 b		NextColumn
 .ltorg
 
+
 ShowStats2:
 b		ShowStats3
 
@@ -157,6 +158,15 @@ mov		lr, r3
 .short 0xF800
 draw_number_at 23, 13
 
+
+//ldr r0,=FatigueTxt
+//ldrh r0, [r0]
+//draw_textID_at 24, 13 @Fatigue label text
+
+//ldr r0,=MSSFatigueGetter
+//mov r14,r0
+//.short 0xF800 @returns # in r0
+//draw_number_at 26, 13
 
 
 ldr r0,=TalkTextIDLink

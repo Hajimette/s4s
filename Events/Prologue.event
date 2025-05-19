@@ -6,7 +6,14 @@ SKIPWN
 ENDA
 POP
 
-EventPointerTable(EventPointer, Prologue)
+
+//ALIGN 4
+//NewChName:
+//String("Prologue: Stranded")
+//BYTE 0
+
+
+SetChapterEvents(PrologueEvent, PointerList)
 
 PointerList:
 	POIN TurnBasedEvents
@@ -15,7 +22,7 @@ PointerList:
 	POIN MiscBasedEvents
 	POIN Dunno1 Dunno2 Dunno3 Tutorial
 	POIN Traps1 Traps2
-	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN PlayerUnits PlayerUnits  //This unit group determines the number and position of deployment slots when there is a prep screen
 	POIN $0 $0 $0
 	POIN $0 $0 $0
 	POIN BeginningScene EndingScene
@@ -31,7 +38,8 @@ CharacterBasedEvents:
 
 MiscBasedEvents:
 	CauseGameOverIfLordDies
-        DefeatBoss
+        DefeatBoss(EndingScene)
+
 
 	END_MAIN
 
@@ -55,15 +63,18 @@ Tutorial:
 
 	END_MAIN
 
-Units1:
+PlayerUnits:
 
-	UNIT Amelia Investigator Amelia 1 (1, Ally, False) [8,3] 0x0 0x0 0x0 0x1 [Rapier,CombatStim] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,5] 0x0 0x0 0x0 0x1 [Rapier,Vulnerary] NoAI
+
 
         UNIT
 
 EnemyUnits:
 
-	UNIT
+	UNIT 0x52 0x52 0x53 Level(1,Enemy,True) [7,17] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+
+        UNIT
 
 Traps1:
 	ENDTRAP
@@ -77,12 +88,12 @@ BeginningScene:
 	LOAD1 0x1 PlayerUnits
 	ENUN
 
-	LOAD1 0
+	LOAD2 0 EnemyUnits
         ENUN
 
 	ENDA
 
 EndingScene:
-	MNC2 next_chapter
+	MNC2 1
 	NoFade
 	ENDA

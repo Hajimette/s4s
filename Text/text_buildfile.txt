@@ -124,6 +124,9 @@ unit on contact. [X]
 If fatigue goes over [N]
 HP, halves stats. [X]
 
+## FatigueTxt
+Ftg[X]
+
 ## SS_FatigueText
 Fighting or using Staves [N]
 increases fatigue. [X]
@@ -154,3 +157,9 @@ PCC [X]
 #include "CharacterText.txt"
 
 #include "ItemNames.txt"
+
+#include "CharacterText.txt"
+
+#include "ChapterText.txt"
+
+//#include "ChapterText/Prologue.txt"

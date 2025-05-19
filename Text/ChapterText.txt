@@ -1,0 +1,44 @@
+## PrologueTitle
+Prologue: Stranded[X]
+
+## Chp1Title
+Chapter 1: Changed World[X]
+
+## Chp2Title
+Chapter 2: Shike Village[X]
+
+## Chp3Title
+Chapter 3: Hope to the East[X]
+
+## Chp3xTitle
+Chapter 3x: Society is a Circus[X]
+
+## Chp4Title
+Chapter 4: Invasion[X]
+
+## Chp5Title
+Chapter 5: The Princess of Sweets[X]
+
+## Interlude1Title
+Interlude: Brief Respite[X]
+
+## Chp6Title
+Chapter 6: Glass and Fire[X]
+
+## Chp7Title
+Chapter 7: Sand Remembers Blood[X]
+
+## Chp8Title
+Chapter 8: Disadvantaged[X]
+
+## Chp9Title
+Chapter 9: The Resistance[X]
+
+## Chp10Title
+Chapter 10: Liberation[X]
+
+## Chp10xTitle
+Chapter 10x: The Oni[X]
+
+## Interlude2Title
+Interlude: Regrouping[X]

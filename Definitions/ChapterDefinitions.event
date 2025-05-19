@@ -1,4 +1,5 @@
 //no prologue def needed
+#define Prologue 0x0
 
 #define Chapter1 0x1
 
@@ -23,10 +24,72 @@
 #define Chapter10 0xA
 
 
-//Events ID
-#define Prologue 0x4 
-#define Chapter1 0xA
+//Map Changes
+#define Chapter1MapChanges 0x06
+#define Chapter2MapChanges 0x09
+#define Chapter3MapChanges 0x0C
+#define Chapter4MapChanges 0x13
+#define Chapter5MapChanges 0x16
+#define Chapter6MapChanges 0x1D
+#define Chapter7MapChanges 0x20
+#define Chapter8MapChanges 0x23
+#define Chapter9MapChanges 0x26
+#define Chapter10MapChanges 0x29
+#define Chapter11MapChanges 0x2C
+#define Chapter12MapChanges 0x32
+#define Chapter13MapChanges 0x36
+#define Chapter14MapChanges 0x3A
+#define Chapter15MapChanges 0x40
+#define Chapter16MapChanges 0x46
+#define Chapter17MapChanges 0x4A
+#define Chapter18MapChanges 0x4E
+#define Chapter19MapChanges 0x55
+#define Chapter20MapChanges 0x59
+#define Chapter21MapChanges 0x5D
+#define Chapter22MapChanges 0x63
+#define Chapter23MapChanges 0x66
+#define Chapter24MapChanges 0x6A
+#define Chapter25MapChanges 0x70
+#define Chapter26MapChanges 0x74
 
+
+//Map ID
+#define Chapter1Map 0x04
+#define Chapter2Map 0x08
+#define Chapter3Map 0x0B
+#define Chapter4Map 0x11
+#define Chapter5Map 0x15
+#define Chapter6Map 0x1B
+#define Chapter7Map 0x1F
+#define Chapter8Map 0x22
+#define Chapter9Map 0x25
+#define Chapter10Map 0x28
+#define Chapter11Map 0x2B
+#define Chapter12Map 0x31
+#define Chapter13Map 0x35
+#define Chapter14Map 0x39
+#define Chapter15Map 0x3F
+#define Chapter16Map 0x45
+#define Chapter17Map 0x49
+#define Chapter18Map 0x4D
+#define Chapter19Map 0x53
+#define Chapter20Map 0x58
+#define Chapter21Map 0x5C
+#define Chapter22Map 0x62
+#define Chapter23Map 0x65
+#define Chapter24Map 0x69
+#define Chapter25Map 0x6F
+#define Chapter26Map 0x73
+
+
+
+//Events ID
+#define PrologueEvent 0x4 
+#define Chapter1 0xA
+#define Chapter3Map 0x0B
+#define Chapter4Map 0x11
+#define Chapter5Map 0x15
+#define CalliopeIntroMap 0x58
 
 
 //Objects
@@ -53,3 +116,18 @@
 #define FE5CastleConfigID 0x02
 #define StrongholdConfigID 0x03
 #define VillageRemakeConfigID 0x04
+
+
+// TileAnimations
+//#define  0x8B
+//#define  0x95
+//#define  0x9C
+//#define  0x05
+//#define  0xcd
+//#define  0xD6
+//#define  0xDb
+//#define  0xE0
+
+
+
+

@@ -9,7 +9,7 @@
 //                                                //
 ////////////////////////////////////////////////////
 
-SetChapterEvents(Chapter1Events, PointerList)
+SetChapterEvents(PrologueEvent, PointerList)
 
 #ifdef DRAGON_VEINS
 VeinEffect(0, FreezeAllEnemies)

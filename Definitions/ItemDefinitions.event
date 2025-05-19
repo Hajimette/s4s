@@ -3,110 +3,117 @@
 
 
 // Item Definitions
-#define IronSword 0x00
-#define SlimSword 0x01
-#define SteelSword 0x02
-#define SilverSword 0x03
-#define TrainingBlade 0x04
-#define WingClipper 0x05
-#define SuperiorBlade 0x06
-#define MasterSword 0x07
-#define Rapier 0x08
-#define MasterLance 0x09
-#define BraveSword 0x0A
-#define Thorn 0x0B
-#define KillingEdge 0x0C
-#define Armorslayer 0x0D
-#define Dracoslayer 0x0E
-#define LightBrand 0xF //
-#define RuneSword 0x10 //
-#define Lancereaver 0x11
-#define Zanbato 0x12 //
-#define IronLance 0x13
-#define Slimlance 0x14
-#define SteelLance 0x15
-#define SilverLance 0x16
-#define SuperiorLance 0x17
-#define BraveLance 0x18
-#define KillerLance 0x19
-#define Horseslayer 0x1A
-#define Javelin 0x1B //
-#define Spear 0x1C
-#define Axereaver 0x1D
-#define IronAxe 0x1E
-#define SteelAxe 0x1F
-#define SilverAxe 0x20
-#define SuperiorAxe 0x21
-#define BraveAxe 0x22 //
-#define KillerAxe 0x23
-#define MasterAxe 0x24
-#define Hammer 0x25
-#define DevilAxe 0x26 //
-#define HandAxe 0x27
-#define Tomahawk 0x28
-#define Swordreaver 0x29
-#define Acrobaxe 0x2A
-#define Hatchet 0x2B //
-#define IronBow 0x2C
-#define SteelBow 0x2D
-#define SilverBow 0x2E
-#define MasterBow 0x2F
-#define KillerBow 0x30
-#define BraveBow 0x31
-#define SuperiorBow 0x32
-#define Longbow 0x33
-#define Ballista 0x34
-#define IronBallista 0x35
-#define KillerBallista 0x36
-#define Fire 0x37
-#define Thunder 0x38 //
-#define Elfire 0x39
-#define Bolting 0x3A
-#define Fimbulvetr 0x3B
-#define Tsunami 0x3C
-#define Pettancaliber 0x3D
-#define Lightning 0x3E
-#define Shine 0x3F
-#define Divine 0x40
-#define Purge 0x41
-#define Aura 0x42
-//#define DUMMY 0X43
-#define Flux 0x44
-#define Luna 0x45
-#define Nosferatu 0x46 //
-#define Eclipse 0x47 //
-#define Fenrir 0x48
-#define NephilimsSorrow 0x49
-#define Heal 0x4A
-#define Mend 0x4B //
-#define Recover 0x4C //
-#define Physic 0x4D
-#define Fortify 0x4E //
-#define Restore 0x4F //
-#define Silence 0x50
-#define Sleep 0x51
-#define Berserk 0x52
-#define Warp 0x53
-#define Rescue 0x54
-#define Torch 0x55 //
-#define Hammerne 0x56
-#define Unlock 0x57 //
-#define Barrier 0x58 //
-#define RedHeart 0x59
-#define SeisoRobe 0x5A
-#define EngageRing 0x5B
-#define Archive 0x5C
-#define Coffee 0x5D
-#define Tokens 0x5E
-#define Pettanshield 0x5F
-#define Talisman 0x60
-#define Boots 0x61
-#define BodyRing 0x62
-#define Finger 0x63
-#define SkillSeal 0x64
-#define Speedwing 0x65
-#define Alcohol 0x66 //
-#define RabbitsFoot 0x67
+#define IronSword 0x01
+#define SlimSword 0x02
+#define SteelSword 0x03
+#define SilverSword 0x04
+#define TrainingBlade 0x05
+#define WingClipper 0x06
+#define SuperiorBlade 0x07
+#define MasterSword 0x08
+#define Rapier 0x09
+#define MasterLance 0x0a
+#define BraveSword 0x0b
+#define Thorn 0x0c
+#define KillingEdge 0x0d
+#define Armorslayer 0x0e
+#define Dracoslayer 0x0f
+#define LightBrand 0x10 //
+#define RuneSword 0x11 //
+#define Lancereaver 0x12
+#define Zanbato 0x13 //
+#define IronLance 0x14
+#define Slimlance 0x15
+#define SteelLance 0x16
+#define SilverLance 0x17
+#define SuperiorLance 0x18
+#define BraveLance 0x19
+#define KillerLance 0x1a
+#define Horseslayer 0x1b
+#define Javelin 0x1c //
+#define Spear 0x1d
+#define Axereaver 0x1e
+#define IronAxe 0x1f
+#define SteelAxe 0x20
+#define SilverAxe 0x21
+#define SuperiorAxe 0x22
+#define BraveAxe 0x23 //
+#define KillerAxe 0x24
+#define MasterAxe 0x25
+#define Hammer 0x26
+#define DevilAxe 0x27 //
+#define HandAxe 0x28
+#define Tomahawk 0x29
+#define Swordreaver 0x2a
+#define Acrobaxe 0x2b
+#define Hatchet 0x2c //
+#define IronBow 0x2d
+#define SteelBow 0x2e
+#define SilverBow 0x2f
+#define MasterBow 0x30
+#define KillerBow 0x31
+#define BraveBow 0x32
+#define SuperiorBow 0x33
+#define Longbow 0x34
+#define Ballista 0x35
+#define IronBallista 0x36
+#define KillerBallista 0x37
+#define Fire 0x38
+#define Thunder 0x39 //
+#define Elfire 0x3a
+#define Bolting 0x3b
+#define Fimbulvetr 0x3c
+#define Tsunami 0x3d
+#define Pettancaliber 0x3e
+#define Lightning 0x3f
+#define Shine 0x40
+#define Divine 0x41
+#define Purge 0x42
+#define Aura 0x43
+//#define DUMMY 0X44
+#define Flux 0x45
+#define Luna 0x46
+#define Nosferatu 0x47 //
+#define Eclipse 0x48 //
+#define Fenrir 0x49
+#define NephilimsSorrow 0x4A
+#define Heal 0x4B
+#define Mend 0x4C //
+#define Recover 0x4D //
+#define Physic 0x4E
+#define Fortify 0x4F //
+#define Restore 0x50 //
+#define Silence 0x51
+#define Sleep 0x52
+#define Berserk 0x53
+#define Warp 0x54
+#define Rescue 0x55
+#define Torch 0x56 //
+#define Hammerne 0x57
+#define Unlock 0x58 //
+#define Barrier 0x59 //
+#define RedHeart 0x5a
+#define SeisoRobe 0x5b
+#define EngageRing 0x5c
+#define Archive 0x5d
+#define Coffee 0x5e
+#define Tokens 0x5f
+#define Pettanshield 0x60
+#define Talisman 0x61
+#define Boots 0x62
+#define BodyRing 0x63
+#define Finger 0x64
+#define SkillSeal 0x65
+#define Speedwing 0x66
+#define Alcohol 0x67 //
+#define RabbitsFoot 0x9A
+#define ChestKey 0x69
+#define DoorKeySingle 0x6a
+#define Lockpick 0x6b
+#define Vulnerary 0x6c
+#define Elixir 0x6d
+#define PureWater 0x6e
+#define Antitoxin 0x6f
 #define YabShield 0x70
 #define TealGem 0x76
 #define Abort 0x76

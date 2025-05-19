@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
- <tileset firstgid="1" name="SuperFields" tilewidth="16" tileheight="16" tilecount="0" columns="0">
-  <image source="SuperFields" trans="ffffff"/>
+ <tileset firstgid="1" name="SuperFields" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="SuperFields" trans="ffffff" width="512" height="512"/>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="20" height="17">
   <properties>
@@ -11,9 +11,9 @@
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0x9"/>
    <property name="MapID" value="0x8"/>
-   <property name="ObjectType" value="1"/>
-   <property name="PaletteID" value="3"/>
-   <property name="TileConfig" value="3"/>
+   <property name="ObjectType" value="0x1"/>
+   <property name="PaletteID" value="0x3"/>
+   <property name="TileConfig" value="0x1"/>
   </properties>
   <data>
    <tile gid="724"/>
