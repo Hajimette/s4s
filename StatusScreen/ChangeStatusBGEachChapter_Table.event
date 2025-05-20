@@ -4,23 +4,32 @@
 
 ALIGN 4
 StatusScreen:
-#incbin "Blue.dmp"
+#incbin "NewBlue.dmp"
+
+
 
 ALIGN 4
 StatusPalBlue:
-#incbin "Blue_pal.dmp"
+#incbin "NewBlue_pal.dmp"
+
+
 
 ALIGN 4
 StatusPalGreen:
-#incbin "Green_pal.dmp"
+#incbin "NewGreen_pal.dmp"
+
+
 
 ALIGN 4
 StatusPalRed:
-#incbin "Red_pal.dmp"
+#incbin "NewRed_pal.dmp"
+
+
 
 ALIGN 4
 StatusScreenTSA:
-#incext compress "Blue.tsa"
+#incext compress "NewBlue.tsa"
+
 
 ChangeStatusBGEachChapter_Table:
 csvmacro000(0xFF,0x00,0x00,StatusScreen,StatusScreenTSA,StatusPalBlue)  // default1

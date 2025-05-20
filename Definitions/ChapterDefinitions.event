@@ -86,10 +86,15 @@
 //Events ID
 #define PrologueEvent 0x4 
 #define Chapter1Event 0xa
-#define Chapter3Map 0x0B
-#define Chapter4Map 0x11
-#define Chapter5Map 0x15
-#define CalliopeIntroMap 0x58
+#define Chapter2Event 0x0A
+#define Chapter3Event 0x0D
+#define Chapter4Event 0x14
+#define Chapter5Event 0x17
+#define Chapter6Event 0x1E
+#define Chapter7Event 0x21
+#define Chapter8Event 0x24
+#define Chapter9Event 0x27
+#define Chapter10Event 0x2A
 
 
 //Objects
