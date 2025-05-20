@@ -12,7 +12,7 @@ SuperFieldsCandyPal:
 
 ALIGN 4
 SuperFieldsNightPal:
-#incbin "SuperFieldsPaletteNight_pal.dmp"
+#incbin "SuperFieldsNightPalNew_pal.dmp"
 
 ALIGN 4
 SuperFieldsConfig:

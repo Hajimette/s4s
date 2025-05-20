@@ -1,0 +1,80 @@
+SetChapterEvents(Chapter1Event, PointerList)
+
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN PlayerUnits PlayerUnits  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+	END_MAIN
+
+LocationBasedEvents:
+
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+PlayerUnits:
+        UNIT Amelia 0x1 Amelia Level(1,Ally,False) [8,14] 0x0 0x0 0x0 0x1 [0,0] NoAI
+
+	UNIT
+
+EnemyUnits:
+
+        UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [1,8] 0x0 0x0 0x0 0x1 [RottenClaw] NoAI
+ 
+	UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+        LOAD1 0x1 PlayerUnits
+        ENUN
+
+
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	
+	ENDA
+
+EndingScene:
+	MNC2 2
+	NoFade
+	ENDA

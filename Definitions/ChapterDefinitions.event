@@ -85,7 +85,7 @@
 
 //Events ID
 #define PrologueEvent 0x4 
-#define Chapter1 0xA
+#define Chapter1Event 0xa
 #define Chapter3Map 0x0B
 #define Chapter4Map 0x11
 #define Chapter5Map 0x15

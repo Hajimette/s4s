@@ -1,4 +1,5 @@
 #include "PlistTable.event"
+#include "MapAnimInstaller.event"
 
 //#include "Palettes/PaletteInstaller.event"
 
