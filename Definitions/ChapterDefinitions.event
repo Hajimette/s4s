@@ -86,15 +86,14 @@
 //Events ID
 #define PrologueEvent 0x4 
 #define Chapter1Event 0xa
-#define Chapter2Event 0x0A
-#define Chapter3Event 0x0D
-#define Chapter4Event 0x14
-#define Chapter5Event 0x17
-#define Chapter6Event 0x1E
-#define Chapter7Event 0x21
-#define Chapter8Event 0x24
-#define Chapter9Event 0x27
-#define Chapter10Event 0x2A
+#define Chapter2Event 0x0D
+#define Chapter3Event 0x14
+#define Chapter4Event 0x17
+#define Chapter5Event 0x1E
+#define Chapter6Event 0x21
+#define Chapter7Event 0x24
+#define Chapter8Event 0x27
+#define Chapter9Event 0x2A
 
 
 //Objects
@@ -102,7 +101,7 @@
 #define SuperFieldsID 0x01
 #define FE5CastleID 0x02
 #define StrongholdID 0x03
-#define VillageRemakeID 0x04
+#define VillageRemakeID 0x4
 
 
 //Palettes
@@ -120,7 +119,7 @@
 #define SuperFieldsConfigID 0x01
 #define FE5CastleConfigID 0x02
 #define StrongholdConfigID 0x03
-#define VillageRemakeConfigID 0x04
+#define VillageRemakeConfigID 0x4
 
 
 // TileAnimations

@@ -46,13 +46,23 @@ Tutorial:
 	END_MAIN
 
 PlayerUnits:
-        UNIT Amelia 0x1 Amelia Level(1,Ally,False) [8,14] 0x0 0x0 0x0 0x1 [0,0] NoAI
+        UNIT Amelia 0x1 Amelia Level(1,Ally,False) [12,11] 0x0 0x0 0x0 0x1 [0,0] NoAI
+
+        UNIT Reine 0x4 Amelia Level(1,Ally,False) [11,12] 0x0 0x0 0x0 0x1 [0,0] NoAI
+	
+	UNIT Mumei 0xD Amelia Level(1,Ally,False) [13,12] 0x0 0x0 0x0 0x0 [0,0] NoAI
+
+	UNIT Fauna 0x1A Amelia Level(1,Ally,False) [12,13] 0x0 0x0 0x0 0x0 [0,0] NoAI         
+
+	UNIT Miko 0x4A Amelia Level(3,Ally,False) [0,1] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
+
+	UNIT Suisei 0x3F Amelia Level(4,Ally,False) [2,3] 0x0 0x0 0x0 0x0 [IronAxe,Vulnerary] NoAI
 
 	UNIT
 
 EnemyUnits:
 
-        UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [1,8] 0x0 0x0 0x0 0x1 [RottenClaw] NoAI
+        UNIT 0xDA 0x52 0x53 Level(1,Enemy,True) [18,1] 0x0 0x0 0x0 0x1 [RottenClaw] NoAI
  
 	UNIT
 
@@ -65,7 +75,7 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
-        LOAD1 0x1 PlayerUnits
+        LOAD1 0 PlayerUnits
         ENUN
 
 
@@ -75,6 +85,6 @@ BeginningScene:
 	ENDA
 
 EndingScene:
-	MNC2 2
+	MNC2 3
 	NoFade
 	ENDA

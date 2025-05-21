@@ -4,27 +4,19 @@
 
 ALIGN 4
 StatusScreen:
-#incbin "NewBlue.dmp"
-
-
+#incext Png2Dmp --lz77 "NewBlue.png"
 
 ALIGN 4
 StatusPalBlue:
-#incbin "NewBlue_pal.dmp"
-
-
+#incext Png2Dmp --palette-only "NewBlue.png"
 
 ALIGN 4
 StatusPalGreen:
-#incbin "NewGreen_pal.dmp"
-
-
+#incext Png2Dmp --palette-only "NewGreen.png"
 
 ALIGN 4
 StatusPalRed:
-#incbin "NewRed_pal.dmp"
-
-
+#incext Png2Dmp --palette-only "NewRed.png"
 
 ALIGN 4
 StatusScreenTSA:

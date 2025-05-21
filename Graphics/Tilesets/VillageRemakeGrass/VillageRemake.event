@@ -1,11 +1,11 @@
 ALIGN 4
 VillageRemakeObject:
-#incbin "VillageRemakeObject.dmp"
+#incbin "THETILESET4.dmp"
 
 ALIGN 4
 VillageRemakePal:
-#incbin "VillageRemakePal.dmp"
+#incbin "THETILESET4_pal.dmp"
 
 ALIGN 4
-FE5CastleConfig:
-#incbin "VillageRemakeConfig.dmp"
+VillageRemakeConfig:
+#incbin "THETILESET4.comp.dmp"
