@@ -102,3 +102,6 @@
 #define SoftSwooshSoundEffectID 0x4D
 #define SwordUnsheathingEffectID 0xCE
 #define DivineWeaponEffectID 0xF0
+
+//Sounds of Nature
+#define BirdChirp 0x4c

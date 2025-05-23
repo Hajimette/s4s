@@ -81,10 +81,11 @@
 #define TextCont(id,music) "TEXTSTART; TEXTSHOW id; TEXTEND; MUSC music; TEXTCONT; TEXTEND; REMA"
 #define FinalBattleFlash(character,alivetext,label) "CHECK_ALIVE character; BEQ label 0x0 0xC; CHECK_DEPLOYED character; BEQ label 0x0 0xC; CAM1 character; STAL 20; FlashCursor(character,60); Text(alivetext); LABEL label"
 
-#define FadeToBlack "FADI 16"
-#define FadeBackFromBlack "FADU 16"
+#define FadeBlack "FADI 60"
+#define FadeBackBlack "FADU 60"
 #define SoundEffect(music) "SOUN music"
 #define SFX(music) "SOUN music"
+
 
 // RW here. i stole these from pikmin1211 on feucord from a really old post, so they may be bad
 #define LearnSkill(Unit,Skill) "SVAL 0x1 Skill; SVAL 0x2 Unit; ASMC (ASMC_HasSkill|1); BNE 0xED6B 0xC 0x0; ASMC (ASMC_LearnNewSkill|1); LABEL 0xED6B"

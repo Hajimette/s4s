@@ -1,4 +1,4 @@
-EventPointerTable(EventPointer, PointerList)
+SetChapterEvents(EventPointer, PointerList)
 
 PointerList:
 	POIN TurnBasedEvents

@@ -31,5 +31,5 @@ SetTilesetConfig(StrongholdConfigID, StrongholdConfig)
 #include "VillageRemakeGrass/VillageRemake.event"
 SetTilesetObject(VillageRemakeID, VillageRemakeObject)
 SetTilesetPalette(VillageRemakePalID, VillageRemakePal)
-SetTilesetConfig(VillageRemakeConfigID, StrongholdConfig)
+SetTilesetConfig(VillageRemakeConfigID, VillageRemakeConfig)
 

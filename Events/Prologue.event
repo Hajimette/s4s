@@ -65,7 +65,7 @@ Tutorial:
 
 PlayerUnits:
 
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,5] 0x0 0x0 0x0 0x1 [Rapier,Vulnerary] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,5] 0x0 0x0 0x0 0x1 [Vulnerary,0x0] NoAI
 
 
         UNIT
@@ -76,6 +76,22 @@ EnemyUnits:
 
         UNIT
 
+GrassCutsceneUnit:
+
+	UNIT 0xAA 0x70 0xAB Level(1,NPC,False) [14,9] 0x0 0x0 0x0 0x0 [0,0] NoAI
+
+	UNIT 0xAB 0x70 0xAB Level(1,NPC,False) [11,10] 0x0 0x0 0x0 0x0 [0,0] NoAI
+
+	UNIT 0xAB 0x6f 0xAB Level(1,NPC,False) [13,12] 0x0 0x0 0x0 0x0 [0,0] NoAI
+
+	UNIT 0xAB 0x6e 0xAB Level(1,NPC,False) [13,13] 0x0 0x0 0x0 0x0 [0,0] NoAI
+
+	UNIT
+
+AmeGrass:
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [13,7] 0x0 0x0 0x0 0x1 [Vulnerary,0x0] NoAI
+
+	UNIT
 Traps1:
 	ENDTRAP
 	ALIGN 4
@@ -85,6 +101,25 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+
+	LOMA 0x4E 
+	LOAD1 0x1 GrassCutsceneUnit
+	ENUN
+	FadeBackBlack
+
+	LOAD1 0x1 AmeGrass
+	ENUN
+	
+	
+	FadeBlack
+	LOMA 0x4E 
+	FadeBackBlack
+	
+	
+	FadeBlack
+	LOMA 0x1
+	FadeBackBlack
+
 	LOAD1 0x1 PlayerUnits
 	ENUN
 

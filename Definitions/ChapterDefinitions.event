@@ -94,7 +94,8 @@
 #define Chapter7Event 0x24
 #define Chapter8Event 0x27
 #define Chapter9Event 0x2A
-
+#define CalliCutsceneEvent 0x7F
+#define GrassCutscene 0x80
 
 //Objects
 
