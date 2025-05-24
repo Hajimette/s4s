@@ -78,20 +78,51 @@ EnemyUnits:
 
 GrassCutsceneUnit:
 
-	UNIT 0xAA 0x70 0xAB Level(1,NPC,False) [14,9] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	UNIT 0xAA 0x70 0xAB Level(1,NPC,False) [14,8] 0x0 0x0 0x0 0x0 [0,0] NoAI
 
 	UNIT 0xAB 0x70 0xAB Level(1,NPC,False) [11,10] 0x0 0x0 0x0 0x0 [0,0] NoAI
 
 	UNIT 0xAB 0x6f 0xAB Level(1,NPC,False) [13,12] 0x0 0x0 0x0 0x0 [0,0] NoAI
 
-	UNIT 0xAB 0x6e 0xAB Level(1,NPC,False) [13,13] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	UNIT 0xAB 0x6e 0xAB Level(1,NPC,False) [14,12] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	
+	UNIT 0xAB 0x6f 0xAB Level(1,NPC,False) [6,12] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	
+	UNIT 0xAB 0x6e 0xAB Level(1,NPC,False) [8,10] 0x0 0x0 0x0 0x0 [0,0] NoAI
 
 	UNIT
 
 AmeGrass:
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [13,7] 0x0 0x0 0x0 0x1 [Vulnerary,0x0] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [13,7] 0x0 0x0 1 REDA13R8 [Vulnerary,0x0] NoAI
 
 	UNIT
+	
+AmeliaCutscene:
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [14,9] 0x0 0x0 0x0 0x0 [Vulnerary,0x0] NoAI
+	
+	UNIT
+	
+BrigandsCutscene:
+	UNIT 0xF2 0x41 0xF3 Level(1,Enemy,False) [1,1] 0x0 0x0 1 REDA9R9 [IronAxe,0x0] NoAI
+	
+	UNIT 0xF1 0x41 0xF3 Level(1,Enemy,False) [1,1] 0x0 0x0 1 REDA8R7 [IronAxe,0x0] NoAI
+	
+	UNIT 0xF1 0x41 0xF3 Level(1,Enemy,False) [1,1] 0x0 0x0 1 REDA6R8 [IronAxe,0x0] NoAI
+	
+	UNIT 0xF1 0x41 0xF3 Level(1,Enemy,False) [1,1] 0x0 0x0 1 REDA6R6 [IronAxe,0x0] NoAI
+	
+	UNIT 0xF1 0x41 0xF3 Level(1,Enemy,False) [1,1] 0x0 0x0 1 REDA3R7 [IronAxe,0x0] NoAI
+	
+	UNIT 0xF1 0x41 0xF3 Level(1,Enemy,False) [1,1] 0x0 0x0 1 REDA7R6 [IronAxe,0x0] NoAI
+	
+	UNIT
+	
+AmeliaCalli:
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [4,5] 0x0 0x0 0x0 0x0 [Vulnerary,0x0] NoAI
+	
+	UNIT
+	
+	
 Traps1:
 	ENDTRAP
 	ALIGN 4
@@ -102,22 +133,70 @@ Traps2:
 
 BeginningScene:
 
-	LOMA 0x4E 
+	LOMA 0x4D 
+	CAMERA [13,11]
+	MUSS 0x4C
 	LOAD1 0x1 GrassCutsceneUnit
-	ENUN
 	FadeBackBlack
+	STAL 240
 
 	LOAD1 0x1 AmeGrass
-	ENUN
+	STAL 20
+	PlayEmotionEffect(Amelia,DotDotDotEffect)
+	STAL 45
+	TalkConvo(AmeliaOldLady)
+	LOAD1 0x1 BrigandsCutscene
+	PlayEmotionEffect(0xAA,ExclamationEffect)
+	STAL 45
+	SCOORD sB [13, 8]
+	MOVE 0x1E (-2) [12,9] //Ame moves to the tree
+	SCOORD sB [8, 10]
+	MOVE 0x1E (-2) [10,13]
+	SCOORD sB [11, 10]
+	MOVE 0x1E (-2) [10,12]
+	SCOORD sB [14, 8]  //Old lady moves next to Amelia
+	MOVE 0x1E (-2) [13,10]
+	MusicChange(0x3E7)
+	STAL 60
+	Highlight(Amelia)
+	TalkConvo(BrigandAme)
+	SCOORD sB [9,9]
+	MOVE 0x1E (-2) [10,9]
+	TalkConvo(BrigandANGRY)
+	SCOORD sB [10,9]
+	MOVE 0x1E (-2) [11,9]
+	WARPOUT [12,9]
+	REMOVEUNIT Amelia
+	ENDWARP
 	
+	WARPIN [14,9]
+	LOAD1 1 AmeliaCutscene
+	ENDWARP
 	
-	FadeBlack
-	LOMA 0x4E 
+	TalkConvo(AmeCounter)
+	
+	WARPOUT [14,9]
+	REMOVEUNIT Amelia
+	ENDWARP
+	
+	FADI 60
+	CLEARALL
+	MuteMusic
+	LOMA 0x4E
+	CAMERA [4,5]
 	FadeBackBlack
+	WARPIN [4,5]
+	LOAD1 1 AmeliaCalli
+	STAL 120
+	MusicChange(0x318)
+	TalkConvo(AmeEnter)
+	
+	
+	
 	
 	
 	FadeBlack
-	LOMA 0x1
+	LOMA 0x0
 	FadeBackBlack
 
 	LOAD1 0x1 PlayerUnits

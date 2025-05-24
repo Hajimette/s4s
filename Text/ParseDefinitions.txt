@@ -28,6 +28,7 @@
 [FarRight] = [OpenFarRight]
 [FarFarRight] = [OpenFarFarRight]
 
+
 [<-......] = [FarFarLeft]
 [<-] = [FarFarLeft]
 [v.....] = [FarLeft]
@@ -60,7 +61,10 @@
 [LoadSelena] = [LoadFace][0x3f][0x1]
 [LoadGerik] = [LoadFace][0x1b][0x1]
 [LoadSaleh] = [LoadFace][0x20][0x1]
-
+[LoadAme] = [LoadFace][0x2][0x1]
+[LoadOldLady] = [LoadFace][0x5f][0x1]
+[LoadReine] = [LoadFace][0x4][0x1]
+[LoadBrig] = [LoadFace][0x4D][0x1]
 
 
 [period] = [0xDE][0x82]

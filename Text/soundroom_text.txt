@@ -222,3 +222,6 @@ Blessing of the Generals II[X]
 
 ## Enemy2
 Enemy Message 2[X]
+
+## FE5BarbariansTxt
+FE5 Barbarians[X]

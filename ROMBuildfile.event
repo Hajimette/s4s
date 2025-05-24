@@ -48,6 +48,7 @@ ALIGN 4
     #include "New Stuff/StartScreen/GameStartScreen.event"
     #include "New Stuff/MugExceed/EA.txt"
     #include "New Stuff/Equip/Installer.event"
+    #include "New Stuff/MapEmotions/MapEmotion.event"
     
 
     MESSAGE Used hax space ends at currentOffset

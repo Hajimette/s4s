@@ -280,8 +280,8 @@ POIN SpellAssociationTable
 //ORG $B042C
 //POIN SoundRoom
 
-ORG $5524
-POIN PortraitTable
+//ORG $5524               BRUH 
+//POIN PortraitTable
 
 //ORG $28BC
 //OIN MusicTable

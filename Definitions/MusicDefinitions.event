@@ -46,6 +46,7 @@
 #define FE5AugustBID 0x27
 #define FE5AdvanceID 0x28
 #define FE5AdversityID 0x29
+#define FE5BarbariansID 0x3E7
 #define FE5BossBattleID 0x1B
 #define FE5CuringID 0x2A
 #define FE5DefendID 0x1A

@@ -419,6 +419,11 @@ Kurokami[X]
 A split personality from[N]
 Shirakami's soul.[X]
 
+## BrigandName
+Brigand[X]
 
+## BrigandDesc
+Mountain people who follow[N]
+no rule of law.[X]
 
 

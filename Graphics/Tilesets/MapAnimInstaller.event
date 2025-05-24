@@ -1,0 +1,259 @@
+#define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+
+EventPointerTable(FE4StyleFieldsID, FE4StyleFields)
+EventPointerTable(StrongholdAnimsID, StrongholdAnims)
+//EventPointerTable(
+
+ALIGN 4
+SuperFieldsAnims0:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_000.dmp"
+
+ALIGN 4
+SuperFieldsAnims1:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_001.dmp"
+
+ALIGN 4
+SuperFieldsAnims2:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_002.dmp"
+
+ALIGN 4
+SuperFieldsAnims3:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_003.dmp"
+
+ALIGN 4
+SuperFieldsAnims4:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_004.dmp"
+
+ALIGN 4
+SuperFieldsAnims5:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_005.dmp"
+
+ALIGN 4
+SuperFieldsAnims6:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_006.dmp"
+
+ALIGN 4
+SuperFieldsAnims7:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_007.dmp"
+
+ALIGN 4
+SuperFieldsAnims8:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_008.dmp"
+
+ALIGN 4
+SuperFieldsAnims9:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_009.dmp"
+
+ALIGN 4
+SuperFieldsAnims10:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_010.dmp"
+
+ALIGN 4
+SuperFieldsAnims11:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_011.dmp"
+
+ALIGN 4
+SuperFieldsAnims12:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_012.dmp"
+
+ALIGN 4
+SuperFieldsAnims13:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_013.dmp"
+
+ALIGN 4
+SuperFieldsAnims14:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_014.dmp"
+
+ALIGN 4
+SuperFieldsAnims15:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_015.dmp"
+
+ALIGN 4
+SuperFieldsAnims16:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_016.dmp"
+
+ALIGN 4
+SuperFieldsAnims17:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_017.dmp"
+
+ALIGN 4
+SuperFieldsAnims18:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_018.dmp"
+
+ALIGN 4
+SuperFieldsAnims19:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_019.dmp"
+
+ALIGN 4
+SuperFieldsAnims20:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_020.dmp"
+
+ALIGN 4
+SuperFieldsAnims21:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_021.dmp"
+
+ALIGN 4
+SuperFieldsAnims22:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_022.dmp"
+
+ALIGN 4
+SuperFieldsAnims23:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_023.dmp"
+
+ALIGN 4
+SuperFieldsAnims24:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_024.dmp"
+
+ALIGN 4
+SuperFieldsAnims25:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_025.dmp"
+
+ALIGN 4
+SuperFieldsAnims26:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_026.dmp"
+
+ALIGN 4
+SuperFieldsAnims27:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_027.dmp"
+
+ALIGN 4
+SuperFieldsAnims28:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_028.dmp"
+
+ALIGN 4
+SuperFieldsAnims29:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_029.dmp"
+
+ALIGN 4
+SuperFieldsAnims30:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_030.dmp"
+
+ALIGN 4
+SuperFieldsAnims31:
+#incbin "SuperFields/FE4StyleWater/Water.mapanime1_031.dmp"
+
+
+ALIGN 4
+StrongholdAnim0:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_000.dmp."
+
+ALIGN 4
+StrongholdAnim1:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_001.dmp"
+
+ALIGN 4
+StrongholdAnim2:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_002.dmp"
+
+ALIGN 4
+StrongholdAnim3:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_003.dmp"
+
+ALIGN 4
+StrongholdAnim4:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_004.dmp"
+
+ALIGN 4
+StrongholdAnim5:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_005.dmp"
+
+ALIGN 4
+StrongholdAnim6:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_006.dmp"
+
+ALIGN 4
+StrongholdAnim7:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_007.dmp"
+
+ALIGN 4
+StrongholdAnim8:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_008.dmp"
+
+ALIGN 4
+StrongholdAnim9:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_009.dmp"
+
+ALIGN 4
+StrongholdAnim10:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_010.dmp"
+
+ALIGN 4
+StrongholdAnim11:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_011.dmp"
+
+ALIGN 4
+StrongholdAnim12:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_012.dmp"
+
+ALIGN 4
+StrongholdAnim13:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_013.dmp"
+
+ALIGN 4
+StrongholdAnim14:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_014.dmp"
+
+ALIGN 4
+StrongholdAnim15:
+#incbin "UpdatedStronghold/StrongHoldanims/StrongholdAnim.mapanime1_015.dmp"
+
+
+
+ALIGN 4
+FE4StyleFields:
+tilesetAnimation(16,0x1000,SuperFieldsAnims0)
+tilesetAnimation(16,0x1000,SuperFieldsAnims1)
+tilesetAnimation(16,0x1000,SuperFieldsAnims2)
+tilesetAnimation(16,0x1000,SuperFieldsAnims3)
+tilesetAnimation(16,0x1000,SuperFieldsAnims4)
+tilesetAnimation(16,0x1000,SuperFieldsAnims5)
+tilesetAnimation(16,0x1000,SuperFieldsAnims6)
+tilesetAnimation(16,0x1000,SuperFieldsAnims7)
+tilesetAnimation(16,0x1000,SuperFieldsAnims8)
+tilesetAnimation(16,0x1000,SuperFieldsAnims9)
+tilesetAnimation(16,0x1000,SuperFieldsAnims10)
+tilesetAnimation(16,0x1000,SuperFieldsAnims11)
+tilesetAnimation(16,0x1000,SuperFieldsAnims12)
+tilesetAnimation(16,0x1000,SuperFieldsAnims13)
+tilesetAnimation(16,0x1000,SuperFieldsAnims14)
+tilesetAnimation(16,0x1000,SuperFieldsAnims15)
+tilesetAnimation(16,0x1000,SuperFieldsAnims16)
+tilesetAnimation(16,0x1000,SuperFieldsAnims17)
+tilesetAnimation(16,0x1000,SuperFieldsAnims18)
+tilesetAnimation(16,0x1000,SuperFieldsAnims19)
+tilesetAnimation(16,0x1000,SuperFieldsAnims20)
+tilesetAnimation(16,0x1000,SuperFieldsAnims21)
+tilesetAnimation(16,0x1000,SuperFieldsAnims22)
+tilesetAnimation(16,0x1000,SuperFieldsAnims23)
+tilesetAnimation(16,0x1000,SuperFieldsAnims24)
+tilesetAnimation(16,0x1000,SuperFieldsAnims25)
+tilesetAnimation(16,0x1000,SuperFieldsAnims26)
+tilesetAnimation(16,0x1000,SuperFieldsAnims27)
+tilesetAnimation(16,0x1000,SuperFieldsAnims28)
+tilesetAnimation(16,0x1000,SuperFieldsAnims29)
+tilesetAnimation(16,0x1000,SuperFieldsAnims30)
+tilesetAnimation(16,0x1000,SuperFieldsAnims31)
+WORD 0 0
+
+
+ALIGN 4
+StrongholdAnims:
+tilesetAnimation(14,0x1000,StrongholdAnim0)
+tilesetAnimation(14,0x1000,StrongholdAnim1)
+tilesetAnimation(14,0x1000,StrongholdAnim2)
+tilesetAnimation(14,0x1000,StrongholdAnim3)
+tilesetAnimation(14,0x1000,StrongholdAnim4)
+tilesetAnimation(14,0x1000,StrongholdAnim5)
+tilesetAnimation(14,0x1000,StrongholdAnim6)
+tilesetAnimation(14,0x1000,StrongholdAnim7)
+tilesetAnimation(14,0x1000,StrongholdAnim8)
+tilesetAnimation(14,0x1000,StrongholdAnim9)
+tilesetAnimation(14,0x1000,StrongholdAnim10)
+tilesetAnimation(14,0x1000,StrongholdAnim11)
+tilesetAnimation(14,0x1000,StrongholdAnim12)
+tilesetAnimation(14,0x1000,StrongholdAnim13)
+tilesetAnimation(14,0x1000,StrongholdAnim14)
+tilesetAnimation(14,0x1000,StrongholdAnim15)
+WORD 0 0
+
+

@@ -1,3 +1,4 @@
+#define Ame 0x2
 #define AmeliaAlt1 0xD2
 #define AmeLonk 0xCE
 #define MKmelia 0xD5
@@ -46,6 +47,8 @@
 #define Kronii1 0xE1
 #define Kronii2 0xE2
 #define Kronii3 0xE3
+#define OldLady 0x5F
+#define Brigand 0x4d
 
 //ALIGN 4
 //PortraitTable:

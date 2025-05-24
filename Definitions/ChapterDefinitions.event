@@ -124,8 +124,8 @@
 
 
 // TileAnimations
-//#define  0x8B
-//#define  0x95
+#define  FE4StyleFieldsID 0x01
+#define  StrongholdAnimsID 0x30
 //#define  0x9C
 //#define  0x05
 //#define  0xcd

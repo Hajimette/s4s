@@ -26,6 +26,6 @@ ALIGN 4
 MapData:
   #incbin "CalliopeCastleCutscene_data.dmp"
 
-SetChapterData(0x4e, 3, 0, 6, 3, 0xd6, MapData, 0, 0, 0)
+SetChapterData(0x4e, 3, 0, 6, 3, 0xd6, MapData, 0x30, 0, 0)
 
 }

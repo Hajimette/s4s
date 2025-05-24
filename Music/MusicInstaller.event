@@ -386,5 +386,9 @@ SongTable(TogetherWeRideID, TogetherWeRide, MapMusicGroup)
 SongTable(EnemyMessage2ID, EnemyMessage2, MapMusicGroup)
 }
 
+{
+#include "MusicEvents/FE5Barbarians.event"
+SongTable(FE5BarbariansID, FE5Barbarians, MapMusicGroup)
+}
 
 #include "SoundroomEditor.event"
