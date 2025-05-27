@@ -90,7 +90,7 @@ POP
   #include "ExternalHacks/LeadershipStars/LeadershipStars.event"
   
   //Biorhythm
-  #include "ExternalHacks/Biorhythm/Biorhythm.event"
+  //#include "ExternalHacks/Biorhythm/Biorhythm.event"
 
   //Modular Stat Screen
   #include "Necessary/ModularStatScreen/ModularStatScreen.event"
@@ -132,7 +132,7 @@ POP
   #include "Necessary/Debuffs/Debuffs.event"
 
   //Stat Screens palette by allegiance
-  #include "ExternalHacks/StatScreenAllegiance/StatScreenAllegiance.event"
+  //#include "ExternalHacks/StatScreenAllegiance/StatScreenAllegiance.event"
 
   //StealGfxFix
   #include "QualityOfLife/StealGfxFix.event"
@@ -141,7 +141,7 @@ POP
   #include "QualityOfLife/SemitransparencyChanges.event"
 
   //Supply available in prologue
-  #include "QualityOfLife/PrologueSupply.event"
+  //#include "QualityOfLife/PrologueSupply.event"
   
   //Item Range Fix
   #include "Necessary/ItemRangeFix/ItemRangeFix.event"

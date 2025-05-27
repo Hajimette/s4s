@@ -74,3 +74,76 @@ did last time at least...[AN]
 I guess I should plan out[N]
 where to get more loot...[A][X]
 
+## AmeQuestion
+[MidRight][LoadAme]
+[MidRight]
+…I did teleport myself back[N]
+home, right?[A] I don't recall[N]
+the house being so...dark and edgy.[A][N]
+Man, this stupid watch  really[N]
+has been acting up lately...[A][N]
+So...this HAS to be a castle[N]
+of Calliope`s...[A][X]
+
+## CalliopeTalk
+[MidRight][LoadAme]
+[MidLeft][LoadCalliope]
+[MidRight]
+Talking test lmao[A][X]
+
+
+
+
+
+
+## RealNum
+1 RN[X]
+
+## RealNumDesc
+Only rolls 1 number, making[N]
+hitrates more unpredictable.[X]
+
+## CasName
+Baby Mode[X]
+
+## CasDesc
+Units who fall in battle[N]
+return next map.[X]
+
+## FixedGrowthsName
+Fixed Growths[X]
+
+## FixedGrowthsDesc
+Instead of random, level[N]
+growths are now averaged.[X]
+
+## ResetName
+Reset[X]
+
+## ResetDesc
+Reset all options selected.[X]
+
+## Begin
+Begin[X]
+
+## BeginDesc
+The Search for Seiso Begins![X]
+
+## FlagsReset
+Flags Reset.[A][X]
+
+## SureName
+Are you sure you want to[N]
+proceed with these changes?[A][X]
+
+## Misclick
+Misclick. Take me back.[A][X]
+
+## ImReady
+I`m ready, lets go![A][X]
+
+## MisclickDesc
+We all make mistakes.[X]
+
+## ImReadyDesc
+Hope you enjoy![X]

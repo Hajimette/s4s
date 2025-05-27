@@ -50,6 +50,9 @@
 #define OldLady 0x5F
 #define Brigand 0x4d
 
+//Pending but aligned
+#define CalliopePortrait 0xAD
+
 //ALIGN 4
 //PortraitTable:
 //#incbin "Dmps/VanillaPortraitTable.dmp"

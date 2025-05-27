@@ -122,6 +122,28 @@ AmeliaCalli:
 	
 	UNIT
 	
+SansCutin:
+	UNIT 0xAA 0x56 0xAB Level(1,NPC,False) [2,10] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	
+	UNIT 0xBD 0x65 0xAB Level(1,NPC,False) [10,11] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	
+	UNIT 0xBB 0x63 0xAB Level(1,NPC,False) [6,10] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	
+	UNIT 0xAD 0x56 0xAB Level(1,NPC,False) [10,2] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	
+	UNIT 0xAC 0x56 0xAB Level(1,NPC,False) [7,1] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	
+	UNIT
+	
+SansMove:
+	UNIT 0xB8 0x54 0xAB Level(1,NPC,False) [16,6] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	
+	UNIT
+	
+CalliopeIntervenes:
+	UNIT 0x23 0x4F 0xAA Level(1,NPC,False) [20,4] 0x0 0x0 0x0 0x0 [Ricky,0x0] NoAI
+	
+	UNIT
 	
 Traps1:
 	ENDTRAP
@@ -138,7 +160,61 @@ BeginningScene:
 	MUSS 0x4C
 	LOAD1 0x1 GrassCutsceneUnit
 	FadeBackBlack
-	STAL 240
+	
+	LABEL 10
+	
+	CallMenu(PrologueMenu)
+	
+	BEQ 2 sC s7 //Jumps to label 2, 1RN 
+	
+	SVAL s7 1
+	BEQ 3 sC s7  //Casual
+	
+	
+	SVAL s7 2
+	BEQ 4 sC s7 //Fixed
+	
+	 
+	SVAL s7 3
+	BEQ 5 sC s7 //Reset
+	
+	SVAL s7 4
+	BEQ 6 sC s7 //Beging
+	
+	
+	LABEL 2
+	ENUT 0xB1 //1RN
+	GOTO 10
+	
+	Label 3
+	ENUT 0xB0 //Filthy Casual
+	GOTO 10
+	
+	LABEL 4
+	ENUT 0xEF //Fixed
+	GOTO 10
+	
+	LABEL 5
+	SystemText(FlagsReset)
+	ENUF 0xB0
+	ENUF 0xB1
+	ENUF 0xEF
+	GOTO 10
+	
+	LABEL 6
+	
+	SystemText(SureName)
+	
+	BEQ 7 sC s0 //MisClick
+	
+	SVAL s7 1
+	BEQ 8 sC s0
+	
+	LABEL 7
+	GOTO 10
+	LABEL 8
+	
+	STAL 180
 
 	LOAD1 0x1 AmeGrass
 	STAL 20
@@ -184,15 +260,31 @@ BeginningScene:
 	MuteMusic
 	LOMA 0x4E
 	CAMERA [4,5]
+	LOAD1 1 SansCutin
 	FadeBackBlack
 	WARPIN [4,5]
 	LOAD1 1 AmeliaCalli
 	STAL 120
 	MusicChange(0x318)
 	TalkConvo(AmeEnter)
-	
-	
-	
+	SCOORD sB [4, 5]
+	MOVE 0x1E (-2) [8,5]
+	STAL 30
+	LOAD1 1 SansMove
+	SCOORD sB [16, 6]
+	MOVE 0x1E (-2) [0,17]
+	STAL 60
+	DISA 0xB8
+	PlayEmotionEffect(Amelia,QuestionEffect)
+	STAL 45
+	TalkConvo(AmeQuestion)
+	CAMERA [7,12]
+	SCOORD sB [8, 5]
+	MOVE 0x1E (-2) [10,13]
+	LOAD1 1 CalliopeIntervenes
+	MOVE 15 0x23 [10,12]
+	STAL 360
+	TalkConvo(CalliopeTalk)
 	
 	
 	FadeBlack
