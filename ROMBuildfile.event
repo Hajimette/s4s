@@ -52,8 +52,14 @@ ALIGN 4
     #include "New Stuff/DragzEventMenu/LordSplitMenuPlus.event"
     #include "New Stuff/FixedGrowths/FixedGrowthsModeInstaller.event"
     #include "New Stuff/_1RN/Installer.event"
+    #include "New Stuff/TextRework/_FE8-Text_Engine_Rework_EA.event"
 
 
+
+
+#define Text_ResetTileAllocation 0x8003D21
+
+//ASMC Text_ResetTileAllocation
 
     MESSAGE Used hax space ends at currentOffset
 

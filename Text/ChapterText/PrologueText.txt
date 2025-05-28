@@ -77,26 +77,45 @@ where to get more loot...[A][X]
 ## AmeQuestion
 [MidRight][LoadAme]
 [MidRight]
-…I did teleport myself back[N]
+...I did teleport myself back[N]
 home, right?[A] I don't recall[N]
 the house being so...dark and edgy.[A][N]
-Man, this stupid watch  really[N]
+Man, this stupid watch really[N]
 has been acting up lately...[A][N]
-So...this HAS to be a castle[N]
-of Calliope`s...[A][X]
+...Well, my house doesn't have[N]
+skeletons walking around...[A][N]
+Which means this HAS to be[N] 
+a castle of Calliope`s...[A][X]
 
 ## CalliopeTalk
 [MidRight][LoadAme]
 [MidLeft][LoadCalliope]
+[MidLeft]
+Ah, I knew something was off[N]
+when I sensed it...[A]
 [MidRight]
-Talking test lmao[A][X]
+Ah...haha, hi Calli...[A]
+[MidLeft]
+It's Mori. Besides, who are[N]
+you suppose to be?[A]
+[MidRight]
+[Beat]Uh, I'm Amelia, Amelia[N]
+Watson.[A]
+[MidLeft]
+That name seems a bit familiar...[N]
+Hm...[A]
+[MidRight]
+[ToggleMouthMove][ToggleInvert]Another Calli, huh? It'd probably be[N]
+best to not stay here too long...[A][NL]
+I don`t want to get in a fight with[N]
+her again like last time...[A][ToggleMouthMove][ToggleInvert]
 
 
 
 
 
 
-## RealNum
+## RealNumName
 1 RN[X]
 
 ## RealNumDesc
@@ -137,13 +156,17 @@ Are you sure you want to[N]
 proceed with these changes?[A][X]
 
 ## Misclick
-Misclick. Take me back.[A][X]
+Misclick. Take me back.[X]
 
 ## ImReady
-I`m ready, lets go![A][X]
+I`m ready, lets go![X]
 
 ## MisclickDesc
 We all make mistakes.[X]
 
 ## ImReadyDesc
 Hope you enjoy![X]
+
+## AreYouSure
+Are you sure you want to[N]
+play on these settings?[A][X]

@@ -145,6 +145,11 @@ CalliopeIntervenes:
 	
 	UNIT
 	
+SansWarpsIn:
+	UNIT 0xB7 0x54 0xAA Level(1,Enemy,False) [11,12] 0x0 0x0 0x0 0x0 [IronSword,0x0] NoAI
+	
+	UNIT
+	
 Traps1:
 	ENDTRAP
 	ALIGN 4
@@ -160,9 +165,12 @@ BeginningScene:
 	MUSS 0x4C
 	LOAD1 0x1 GrassCutsceneUnit
 	FadeBackBlack
+	ENUT 7
+	ENUT 8
+	ENUT 9
 	
 	LABEL 10
-	
+	ASMC 0x8003D21 //Text_ResetTileAllocation
 	CallMenu(PrologueMenu)
 	
 	BEQ 2 sC s7 //Jumps to label 2, 1RN 
@@ -184,35 +192,38 @@ BeginningScene:
 	
 	LABEL 2
 	ENUT 0xB1 //1RN
+	ENUF 7
 	GOTO 10
 	
 	Label 3
 	ENUT 0xB0 //Filthy Casual
+	ENUF 8
 	GOTO 10
 	
 	LABEL 4
 	ENUT 0xEF //Fixed
+	ENUF 9
 	GOTO 10
 	
 	LABEL 5
-	SystemText(FlagsReset)
+	TextBox(FlagsReset)
+	TEXTEND
+	REMA
 	ENUF 0xB0
 	ENUF 0xB1
 	ENUF 0xEF
+	ENUT 7
+	ENUT 8
+	ENUT 9
 	GOTO 10
 	
 	LABEL 6
-	
-	SystemText(SureName)
-	
-	BEQ 7 sC s0 //MisClick
-	
+	TextBox(AreYouSure)
+	CallMenu(ImSureMenu)
 	SVAL s7 1
-	BEQ 8 sC s0
-	
-	LABEL 7
-	GOTO 10
-	LABEL 8
+	BNE 10 sC s7 // Go back to LABEL 10 if yes isn't selected
+
+     //this is where the contents after LABEL 8 would go, no longer needing LABEL 8.	
 	
 	STAL 180
 
@@ -283,8 +294,11 @@ BeginningScene:
 	MOVE 0x1E (-2) [10,13]
 	LOAD1 1 CalliopeIntervenes
 	MOVE 15 0x23 [10,12]
-	STAL 360
+	ENUN
 	TalkConvo(CalliopeTalk)
+	WARPIN [11,12]
+	LOAD1 1 SansWarpsIn
+	ENDWARP
 	
 	
 	FadeBlack

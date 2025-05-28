@@ -16,9 +16,9 @@ MenuDefinition(6, 6, 18, 0, 1, PrologueMenuOptions)
 
 ALIGN 4
 PrologueMenuOptions:
-MenuOption(RealNum, RealNumDesc, 0)
-MenuOption(CasName, CasDesc, 0)
-MenuOption(FixedGrowthsName, FixedGrowthsDesc, 0)
+MenuOption(RealNumName, RealNumDesc, 7)
+MenuOption(CasName, CasDesc, 8)
+MenuOption(FixedGrowthsName, FixedGrowthsDesc, 9)
 MenuOption(ResetName, ResetDesc, 0)
 MenuOption(Begin, BeginDesc, 0)
 MenuTerminator
