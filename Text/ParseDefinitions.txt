@@ -19,6 +19,10 @@
 [OpenQuote] = [0xC2][0x93]
 [CloseQuote] = [0xC2][0x94]
 
+[CloseEyes] = [CloseEyes]
+[HalfCloseEyes] = [HalfCloseEyes]
+[OpenEyes] = [OpenEyes]
+
 [FarFarLeft] = [OpenFarFarLeft]
 [FarLeft] = [OpenFarLeft]
 [MidLeft] = [OpenMidLeft]
@@ -65,7 +69,7 @@
 [LoadOldLady] = [LoadFace][0x5f][0x1]
 [LoadReine] = [LoadFace][0x4][0x1]
 [LoadBrig] = [LoadFace][0x4D][0x1]
-[LoadCalliope] = [LoadFace][0xAD][0x1]
+[LoadCalliope] = [LoadFace][0x46][0x1]
 
 
 [period] = [0xDE][0x82]
@@ -108,6 +112,8 @@
 
 [space] = [0xDE][0xB0]
 [sp] = [0xDE][0xB0]
+
+[LoadOverworldFaces] = [LoadOverworldFaces]
 
 
 [Font] = [0x80][0x26]

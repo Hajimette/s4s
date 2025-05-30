@@ -65,14 +65,20 @@ Tutorial:
 
 PlayerUnits:
 
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,5] 0x0 0x0 0x0 0x1 [Vulnerary,0x0] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,3] 0x0 0x0 1 REDA7R6 [CombatSti,0x0] NoAI
 
 
         UNIT
 
 EnemyUnits:
 
-	UNIT 0x52 0x52 0x53 Level(1,Enemy,True) [7,17] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA4R9 [RottenClaw,Vulnerary] ChargeAI
+	
+	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,13] 0x0 0x0 1 REDA8R11 [RottenClaw,Vulnerary] Wait1Turn
+	
+	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [5,13] 0x0 0x0 1 REDA4R9 [RottenClaw,Vulnerary] Wait1Turn
+	
+	UNIT 0x49 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA6R17 [RottenClaw,Vulnerary] RangeAI
 
         UNIT
 
@@ -146,7 +152,7 @@ CalliopeIntervenes:
 	UNIT
 	
 SansWarpsIn:
-	UNIT 0xB7 0x54 0xAA Level(1,Enemy,False) [11,12] 0x0 0x0 0x0 0x0 [IronSword,0x0] NoAI
+	UNIT 0xB7 0x54 0xAA Level(1,NPC,False) [11,13] 0x0 0x0 0x0 0x0 [IronSword,0x0] NoAI
 	
 	UNIT
 	
@@ -291,25 +297,121 @@ BeginningScene:
 	TalkConvo(AmeQuestion)
 	CAMERA [7,12]
 	SCOORD sB [8, 5]
-	MOVE 0x1E (-2) [10,13]
+	MOVE 0x1E (-2) [10,14]
 	LOAD1 1 CalliopeIntervenes
-	MOVE 15 0x23 [10,12]
+	MOVE 15 0x23 [10,13]
 	ENUN
 	TalkConvo(CalliopeTalk)
-	WARPIN [11,12]
+	WARPIN [11,13]
 	LOAD1 1 SansWarpsIn
 	ENDWARP
+	TEXTSTART
+	TextShow MoriExplains
+	TEXTEND
+	MOVE 15 0xB7 [12,11]
+	ENUN
+	MOVE 15 0xB7 [12,14]
+	ENUN
+	MOVE 15 0xB7 [13,13]
+	ENUN
+	TEXTCONT
+	TEXTEND
+	REMA
+	BREAKING_SACRED_STONE Amelia
+	PlayEmotionEffect(Amelia,ExclamationEffect)
+	PlayEmotionEffect(0x23,QuestionEffect)
+	STAL 45
+	MuteMusic
+	TalkConvo(AmePanik)
+	SOUN 0x13B
+	SVAL s1 0xC
+    SVAL s2 0xB7
+    SVAL s3 1000000
+    ASMC SetUnitStats
+	TalkConvo(WhatThe)
+	CUSE 0xb7
+	//SetUnitStatus Stops shaking
+	MOVE 15 0xB7 [11,13]
+	ENUN
+	StartBattle
+	MissedAttack(2,0)
+	NormalDamage(0,80)
+	EndAttack
+	FIGHT_MAP 0xB7 0x23 IronSword True
+	MusicChange(FE5CrisisID)
+	SOUN 0x13B
+	SVAL s1 0xC
+    SVAL s2 0xBD
+    SVAL s3 1000000 //Dragon
 	
+	
+	SVAL s1 0xC
+    SVAL s2 0xBB
+    SVAL s3 1000000 //Gargoyle
+	
+	TalkConvo(HUH)
+	GiveItem(Rapier,Amelia)
+	
+    SVAL s1 0xC
+    SVAL s2 0xAA
+    SVAL s3 1000000 //Wight West
+	
+	CUSE 0xbd
+	CUSE 0xbb
+	CUSE 0xAC
+	CUSE 0xAD
+	
+	MOVE 15 Amelia [14,14]
+	
+	MOVE 20 0x23 [13,14]
+	MOVE 15 0xBD [12,14]
+	MOVE 15 0xBB [10,12]
+	CUSE 0xAA
+	ENUN
+	StartBattle
+	NormalDamage(0x23, 80)
+	EndAttack
+	FIGHT_MAP 0x23 0xBD Ricky False
+	MOVE 15 0xAA [9,5]
+	MOVE 15 0xAC [10,4]
+	MOVE 15 0xAD [8,4]
+	TalkConvo(gtfo)
+	MOVE 20 Amelia [20,6]
+	
+	MOVE 15 0xBB [11,13]
+	MOVE 20 0x23 [12,13]
+	ENUN
+	StartBattle
+	NormalDamage(0x23,80)
+	EndAttack
+	FIGHT_MAP 0x23 0xBB Ricky False
+	
+	CAMERA [9,9]
+	MOVE 20 0x23 [9,9]
+	
+	TalkConvo(bruh)
 	
 	FadeBlack
+	CLEARALL
 	LOMA 0x0
+	CAMERA [7,3]
 	FadeBackBlack
-
+	
+	SOUN 0xB1
+	TILECHANGE 0
 	LOAD1 0x1 PlayerUnits
 	ENUN
-
+	SOUN 0xB1
+	TILEREVERT 0
+	TalkConvo(AmeliasBruhMoment)
+	
+	CAMERA [6,14]
 	LOAD2 0 EnemyUnits
-        ENUN
+    ENUN
+	CAMERA [7,3]
+	PlayEmotionEffect(Amelia,SweatEffect)
+	TalkConvo(TimetoLeave)
+
 
 	ENDA
 
