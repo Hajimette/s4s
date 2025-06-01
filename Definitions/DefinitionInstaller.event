@@ -5,8 +5,11 @@
 
 #include "ItemDefinitions.event"
 #include "MusicDefinitions.event"
+
 //#include "TableExpansions.event"
 
 //#include "ClassDefinitions.event"
 
 #include "StatusUiDefs.event"
+
+#include "BackgroundDefs.event"

@@ -304,4 +304,15 @@ play on these settings?[A][X]
 I wish this could have[N]
 been something different.[A][N]
 I don't really want to[N]
-stab dead bodies...[A]
+stab dead bodies...[A][X]
+
+## AmeDone
+[MidRight][LoadAme]
+Test.[A][X]
+
+## TimetoGo
+[MidRight][LoadAme]
+Test.[A][X]
+
+
+

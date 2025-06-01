@@ -65,7 +65,7 @@ Tutorial:
 
 PlayerUnits:
 
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,3] 0x0 0x0 1 REDA7R6 [0x0,0x0] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,3] 0x0 0x0 1 REDA7R6 [CombatStim,0x0] NoAI
 
 
         UNIT
@@ -99,12 +99,12 @@ GrassCutsceneUnit:
 	UNIT
 
 AmeGrass:
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [13,7] 0x0 0x0 1 REDA13R8 [0xF1,Vulnerary] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [13,7] 0x0 0x0 1 REDA13R8 [CombatStim,0x0] NoAI
 
 	UNIT
 	
 AmeliaCutscene:
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [14,9] 0x0 0x0 0x0 0x0 [Vulnerary,0x0] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [14,9] 0x0 0x0 0x0 0x0 [CombatStim,0x0] NoAI
 	
 	UNIT
 	
@@ -124,7 +124,7 @@ BrigandsCutscene:
 	UNIT
 	
 AmeliaCalli:
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [4,5] 0x0 0x0 0x0 0x0 [Vulnerary,0x0] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [4,5] 0x0 0x0 0x0 0x0 [CombatStim,0x0] NoAI
 	
 	UNIT
 	
@@ -451,6 +451,16 @@ BeginningScene:
 	ENDA
 
 EndingScene:
+	FadeBlack
+	MusicChange(0x2E)
+	SetBackground(Lava)
+	FadeBackBlack
+	TalkConvo(AmeDone)
+	FadeBlack
+	SetBackground(Field1)
+	FadeBackBlack
+	TalkConvo(TimetoGo)
+	FadeBlack
 	MNC2 1
 	NoFade
 	ENDA

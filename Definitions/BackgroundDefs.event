@@ -1,0 +1,10 @@
+#define House1 0x0
+#define House2 0x1
+#define Village1 0x2
+#define OutVillage 0x3
+#define VillageSunset 0x4
+#define Village2 0x5
+#define Port 0x7
+#define Field1 0x18
+#define Forest1 0x22
+#define Lava 0x32

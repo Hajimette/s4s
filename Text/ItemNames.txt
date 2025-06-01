@@ -1255,4 +1255,5 @@ Rewarp[X]
 ## RewarpDesc
 Warp to another location.[X]
 
-
+## InjectName
+Inject[X]
