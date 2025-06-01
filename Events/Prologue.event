@@ -65,7 +65,7 @@ Tutorial:
 
 PlayerUnits:
 
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,3] 0x0 0x0 1 REDA7R6 [CombatSti,0x0] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,3] 0x0 0x0 1 REDA7R6 [0x0,0x0] NoAI
 
 
         UNIT
@@ -74,9 +74,9 @@ EnemyUnits:
 
 	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA4R9 [RottenClaw,Vulnerary] ChargeAI
 	
-	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,13] 0x0 0x0 1 REDA8R11 [RottenClaw,Vulnerary] Wait1Turn
+	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA8R11 [RottenClaw,Vulnerary] Wait1Turn
 	
-	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [5,13] 0x0 0x0 1 REDA4R9 [RottenClaw,Vulnerary] Wait1Turn
+	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA6R14 [RottenClaw,Vulnerary] Wait1Turn
 	
 	UNIT 0x49 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA6R17 [RottenClaw,Vulnerary] RangeAI
 
@@ -99,7 +99,7 @@ GrassCutsceneUnit:
 	UNIT
 
 AmeGrass:
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [13,7] 0x0 0x0 1 REDA13R8 [Vulnerary,0x0] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [13,7] 0x0 0x0 1 REDA13R8 [0xF1,Vulnerary] NoAI
 
 	UNIT
 	
@@ -325,36 +325,65 @@ BeginningScene:
 	TalkConvo(AmePanik)
 	SOUN 0x13B
 	SVAL s1 0xC
-    SVAL s2 0xB7
-    SVAL s3 1000000
-    ASMC SetUnitStats
+	SVAL s2 0xB7
+	ASMC GetUnitStats
+	SVAL s3 0x1000000
+	SORR s3 sC s3
+	ASMC SetUnitStats
 	TalkConvo(WhatThe)
 	CUSE 0xb7
-	//SetUnitStatus Stops shaking
+	SVAL s1 0xC
+	SVAL s2 0xB7
+	ASMC GetUnitStats
+	SVAL s3 0x0
+	SORR s3 sC s3
+	ASMC SetUnitStats
 	MOVE 15 0xB7 [11,13]
 	ENUN
 	StartBattle
-	MissedAttack(2,0)
-	NormalDamage(0,80)
+	MissedAttack(1,0)
+	CriticalHit(0,80)
 	EndAttack
-	FIGHT_MAP 0xB7 0x23 IronSword True
+	FIGHT_MAP 0x23 0xB7 IronSword False
 	MusicChange(FE5CrisisID)
 	SOUN 0x13B
-	SVAL s1 0xC
-    SVAL s2 0xBD
-    SVAL s3 1000000 //Dragon
+	SVAL s1 0xC //Dragon
+	SVAL s2 0xBD
+	ASMC GetUnitStats
+	SVAL s3 0x1000000
+	SORR s3 sC s3
+	ASMC SetUnitStats
 	
-	
 	SVAL s1 0xC
-    SVAL s2 0xBB
-    SVAL s3 1000000 //Gargoyle
+	SVAL s2 0xBB
+	ASMC GetUnitStats
+	SVAL s3 0x1000000
+	SORR s3 sC s3
+	ASMC SetUnitStats
 	
 	TalkConvo(HUH)
 	GiveItem(Rapier,Amelia)
 	
     SVAL s1 0xC
-    SVAL s2 0xAA
-    SVAL s3 1000000 //Wight West
+	SVAL s2 0xAA
+	ASMC GetUnitStats
+	SVAL s3 0x1000000
+	SORR s3 sC s3
+	ASMC SetUnitStats
+	
+	SVAL s1 0xC
+	SVAL s2 0xBD
+	ASMC GetUnitStats
+	SVAL s3 0x0
+	SORR s3 sC s3
+	ASMC SetUnitStats
+	
+	SVAL s1 0xC
+	SVAL s2 0xBB
+	ASMC GetUnitStats
+	SVAL s3 0x0
+	SORR s3 sC s3
+	ASMC SetUnitStats
 	
 	CUSE 0xbd
 	CUSE 0xbb
@@ -367,6 +396,12 @@ BeginningScene:
 	MOVE 15 0xBD [12,14]
 	MOVE 15 0xBB [10,12]
 	CUSE 0xAA
+	SVAL s1 0xC
+	SVAL s2 0xB7
+	ASMC GetUnitStats
+	SVAL s3 0x0
+	SORR s3 sC s3
+	ASMC SetUnitStats
 	ENUN
 	StartBattle
 	NormalDamage(0x23, 80)
@@ -376,7 +411,7 @@ BeginningScene:
 	MOVE 15 0xAC [10,4]
 	MOVE 15 0xAD [8,4]
 	TalkConvo(gtfo)
-	MOVE 20 Amelia [20,6]
+	MOVE 20 Amelia [20,17]
 	
 	MOVE 15 0xBB [11,13]
 	MOVE 20 0x23 [12,13]
@@ -386,15 +421,15 @@ BeginningScene:
 	EndAttack
 	FIGHT_MAP 0x23 0xBB Ricky False
 	
-	CAMERA [9,9]
-	MOVE 20 0x23 [9,9]
 	
+	MOVE 20 0x23 [9,9]
+	CAM1 [9,9]
 	TalkConvo(bruh)
 	
 	FadeBlack
 	CLEARALL
 	LOMA 0x0
-	CAMERA [7,3]
+	CAM1 [7,3]
 	FadeBackBlack
 	
 	SOUN 0xB1

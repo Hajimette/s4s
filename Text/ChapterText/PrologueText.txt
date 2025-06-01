@@ -298,3 +298,10 @@ Hope you enjoy![X]
 ## AreYouSure
 Are you sure you want to[N]
 play on these settings?[A][X]
+
+## AmeliaMonsterQuote
+[MidRight][LoadAme]
+I wish this could have[N]
+been something different.[A][N]
+I don't really want to[N]
+stab dead bodies...[A]

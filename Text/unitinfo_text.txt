@@ -1,18 +1,29 @@
-## EirikaLike1ID
-piña coladas[X]
+## AmeliaLike
+Your Mother[X]
 
-## EirikaLike2ID * 
-getting caught in the rain[X]
+## AmeliaLike2
+Dogs[X]
 
-## EirikaDislike1ID
+## Skills
 health food[X]
 
 ## EirikaDislike2ID
 yoga[X]
 
 ## EirikaAgeID
-1337[X]
+^{Redacted}[X]
 
 ## EirikaHeightID
-420cm[X]
+150cm[X]
 
+## ReineLike
+^{Extremely Spicy Food}[X]
+
+## ReineLike2
+Sweets[X]
+
+## AgeSecret
+Secret[X]
+
+## ReineHeight
+172cm[X]
