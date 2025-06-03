@@ -1,0 +1,12 @@
+//DeathQuote(Character,Chapter,EventID,TextID)
+#define DeathQuote(Character,Chapter,EventID,TextID,Pointer) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID ; POIN Pointer"
+#define DeathQuote(Character,Chapter,EventID,TextID) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID 0 0"
+
+
+
+#define DeathQuote(Amelia,0xFF,0x65,AmeDeath) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID 0 0"
+
+
+
+
+BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 // Terminator

@@ -53,7 +53,7 @@ ALIGN 4
     #include "New Stuff/FixedGrowths/FixedGrowthsModeInstaller.event"
     #include "New Stuff/_1RN/Installer.event"
     #include "New Stuff/TextRework/_FE8-Text_Engine_Rework_EA.event"
-    #include "New Stuff/SetUnitStatusDitto/SetUnitStats.lyn.event"
+    #include "New Stuff/SetUnitStatusVesly/SetStatusInstaller.event"
     #include "New Stuff/ItemSpecialEffect/Installer.event"
 
 

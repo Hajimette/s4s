@@ -324,20 +324,11 @@ BeginningScene:
 	MuteMusic
 	TalkConvo(AmePanik)
 	SOUN 0x13B
-	SVAL s1 0xC
-	SVAL s2 0xB7
-	ASMC GetUnitStats
-	SVAL s3 0x1000000
-	SORR s3 sC s3
-	ASMC SetUnitStats
-	TalkConvo(WhatThe)
-	CUSE 0xb7
-	SVAL s1 0xC
-	SVAL s2 0xB7
-	ASMC GetUnitStats
-	SVAL s3 0x0
-	SORR s3 sC s3
-	ASMC SetUnitStats
+	GetUnitStatus(0xB7,State)
+SetUnitStatus(0xB7,State,1000000)
+TalkConvo(WhatThe)
+CUSE 0xb7
+SetUnitStatus(0xB7,State,0)
 	MOVE 15 0xB7 [11,13]
 	ENUN
 	StartBattle
@@ -347,43 +338,18 @@ BeginningScene:
 	FIGHT_MAP 0x23 0xB7 IronSword False
 	MusicChange(FE5CrisisID)
 	SOUN 0x13B
-	SVAL s1 0xC //Dragon
-	SVAL s2 0xBD
-	ASMC GetUnitStats
-	SVAL s3 0x1000000
-	SORR s3 sC s3
-	ASMC SetUnitStats
+	SetUnitStatus(0xBD,State,1000000)
 	
-	SVAL s1 0xC
-	SVAL s2 0xBB
-	ASMC GetUnitStats
-	SVAL s3 0x1000000
-	SORR s3 sC s3
-	ASMC SetUnitStats
+	SetUnitStatus(0xBB,State,1000000)
 	
 	TalkConvo(HUH)
 	GiveItem(Rapier,Amelia)
 	
-    SVAL s1 0xC
-	SVAL s2 0xAA
-	ASMC GetUnitStats
-	SVAL s3 0x1000000
-	SORR s3 sC s3
-	ASMC SetUnitStats
+    SetUnitStatus(0xAA,State,1000000)
 	
-	SVAL s1 0xC
-	SVAL s2 0xBD
-	ASMC GetUnitStats
-	SVAL s3 0x0
-	SORR s3 sC s3
-	ASMC SetUnitStats
+	SetUnitStatus(0xBD,State,0)
 	
-	SVAL s1 0xC
-	SVAL s2 0xBB
-	ASMC GetUnitStats
-	SVAL s3 0x0
-	SORR s3 sC s3
-	ASMC SetUnitStats
+	SetUnitStatus(0xBB,State,0)
 	
 	CUSE 0xbd
 	CUSE 0xbb
@@ -396,12 +362,7 @@ BeginningScene:
 	MOVE 15 0xBD [12,14]
 	MOVE 15 0xBB [10,12]
 	CUSE 0xAA
-	SVAL s1 0xC
-	SVAL s2 0xB7
-	ASMC GetUnitStats
-	SVAL s3 0x0
-	SORR s3 sC s3
-	ASMC SetUnitStats
+	SetUnitStatus(0xB7,State,0)
 	ENUN
 	StartBattle
 	NormalDamage(0x23, 80)

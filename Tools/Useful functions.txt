@@ -1,0 +1,215 @@
+Mostly for FE8, although some FE7 might be sprinkled throughout. If it's not explicitly stated, assume fe8.
+
+1A4CC: (FE7: 19CE0)
+Params: r0=movement cost entry pointer
+Returns: N/A
+Copies movement cost entry (0x40 bytes long) from the rom to 3004BB0, for use in calculating which squares can be moved to.
+
+19430: (Get_Char_Data) (FE7: 18D0C) (FE6: 1860C)
+Params: r0=allegiance byte
+Returns: RAM character data pointer
+Given the allegiance byte (0xB in unit data), returns the beginning of said data. Used for looping through units.
+
+18D4C: (FE7: 187D4)
+Params: r0=ram char data ptr
+Returns: movement cost table entry
+Usually called before calling 1A4CC, this function checks if character is riding a ballista and what the weather is.
+
+A240: (Copy_Text_To_RAM or GetStringFromIndex) (FE7: 12C60) (FE8J: 9FA8) (FE6: 13AD0)
+Params: r0=text id
+Returns: Pointer to beginning of text in ram (202A6AC)
+Calls some functions in IRAM to copy text from the rom to 202A6AC; also stores the text id at 202B6AC.
+
+: (FE6: 6484)
+Params: r0=place to copy, r1=distance, r2=palette index, r3=pointer to string
+Returns: n/a
+Seems to be an alternate text display method that doesn't use the text table. Used for menus and such.
+
+19150: (Current_HP_Getter) (FE7: 18A70)
+Params: r0=ram char data ptr
+Returns: Character's current hp
+Gets current hp, adds equipped weapon bonus, checks to make sure current hp <= max hp.
+
+19190: (Max_HP_Getter)
+Params: r0=ram char data ptr
+Returns: Character's max hp
+
+191B0: (Str_Getter) (FE7: 18AD0)
+Params: r0=ram char data ptr
+Returns: Character's strength
+
+191D0: (Skl_Getter) (FE7: 18AF0)
+Params: r0=ram char data ptr
+Returns: Character's skill
+
+19210: (Spd_Getter) (FE7: 18B30)
+Params: r0=ram char data ptr
+Returns: Character's speed
+
+19250: (Def_Getter) (FE7: 18B70)
+Params: r0=ram char data ptr
+Returns: Character's defense
+
+19270: (Res_Getter) (FE7: 18B90) (FE6: 184A8)
+Params: r0=ram char data ptr
+Returns: Character's resistance
+
+19298: (Luk_Getter) (FE7: 18BB8)
+Params: r0=ram char data ptr
+Returns: Character's luck
+
+189B8: (Aid_Getter)
+Params: r0=ram char data ptr
+Returns: Character's aid
+
+16B28: (Get_Equipped_Weapon) (FE7: 16764) (FE6: 16988)
+Params: r0=ram char data ptr
+Returns: equipped weapon id/uses halfword
+
+1834C: (Write_Rescue_Data)
+Params: r0=rescuer char data ptr, r1=rescuee char data ptr
+Sets the appropriate bits in the turn words, writes allegiance bytes to 0x1B, and sets coordinates
+
+24DA4: (Compare_Allegiance_Func1) (FE6: 20A18)
+Params: r0, r1 are allegiance bytes (0xB of RAM char data ptr)
+Returns: True if both units are of the same allegiance
+
+24D8C: (Compare_Allegiance_Func2) (FE6: 20A04)
+Params: r0, r1 are allegiance bytes (0xB of RAM char data ptr)
+Returns: True if both units are either both enemies or are both blue/green
+
+3C818: (AI_Compare_Allegiance_Func)
+Params: r0=allegiance byte of target
+Returns: True if not on the same team
+Checks current unit's allegiance and calles 24D8C
+
+192B8: (Get_Portrait) (FE6: 184F0) (FE7: 18BD8)
+Params: r0=char data ptr
+Returns: index of character's portrait 
+Either short 0x6 of char data or (if character doesn't have a character portrait) short 0x8 of class data
+
+19444: (Get_Class_Data) (FE7: 18D20)
+Params: r0=class number
+Returns: Pointer to entry in class data table
+
+17548: (Get_Weapon_Type) (FE7: 1725C)
+Params: r0=item id
+Returns: Item's weapon type
+
+83D80: (Set_Event_ID) (FE7: 798E4) (FE8J: 860BC) (FE6: 6BA48)
+Params: r0=event id to set
+
+83D94: (Unset_Event_ID)
+Params: r0=event id to unset
+
+83DA8: (Check_Event_ID) (FE7: 798F8) (FE8J: 860D0) (FE6: 6BA5C)
+Params: r0=event id to check
+Returns: True if event id is set
+
+D07C: (Call_Event_Engine) (FE6: D978 (might be D9B8))
+Params: r0=pointer to events, r1=0 (something to do with fading?) (this is fe8 only, I think)
+Can be used to run events whenever
+
+346B0: (Get_Chapter_Events) (FE8J: 345B8) (FE7: 315BC) (FE6: 2BBA0)
+Params: r0=chapter number
+Returns: Pointer to that chapter's events
+
+D01FC: (Play_Sound) (FE6: 9C860) (FE7:BE594)
+Params: r0=music id
+
+D1994: (Thumb_Modulo_Func)
+Params: r0=dividend (number you're dividing), r1=divisor (number you're dividing by)
+Returns: r0 mod r1
+Modulo = remainder of r0 divided by r1. There's a BIOS function to do this, but this is (according to Zahlman) faster for small numbers
+
+D18FC: (Thumb_Division_Func)
+Params: r0=dividend, r1=divisor
+Returns: r0/r1
+Again, there's a BIOS function for this, but this routine has been optimized for small numbers
+
+19464: (Get_Rom_Character_Data) (FE6: 1863C)
+Params: r0=character number
+Returns: beginning of character data, or 0 if passed 0
+
+1829C: (Find_Character) (FE7: 17D34) (FE6: 17ABC)
+Params: r0=character number (rom character, that is)
+Returns: Ram char data ptr
+Useful for supports, I guess.
+
+16FB8: (Heal_Amount_Getter)
+Params: r0=ram char data ptr, r1=item id/uses
+Returns: Amount to heal
+
+177F4: (Clear_Character_Data)
+Params: r0=ram char data ptr
+Returns: N/A
+Clears a person's ram character struct except for the allegiance byte
+
+178D8: (Set_Character_Status)
+Params: r0=ram char data ptr, r1=status id
+Returns: N/A
+Orr's the status nibble with 0x50 (duration) and stores to char data+0x30 if nonzero; stores 0 otherwise
+
+DB8: (Write_Palette) (FE7: 1084) (FE6: 105C)
+Params: r0=pointer to palette, r1=offset in bank (bank id*0x20), r2=length to copy
+Returns: N/A
+
+37A04: (Add_Ballista_Data)
+Params: r0=x, r1=y, r2=ballista item index
+Returns: N/A
+
+179D8: (Get_Open_Inventory_Space)
+Params: r0=char data ptr
+Returns: Slot of next open inventory space (0-4, 5 = full)
+
+31570: (Count_Items_In_Convoy)
+Params: N/A
+Returns: Number of items in convoy
+
+24E20: (Add_Gold_To_Cashpile)
+Params: r0=amount of gold
+Returns: N/A
+
+12F50: (LZ77_Decompression_Wrapper) (FE7: 13168) (FE6: 13CA4)
+Params: r0=offset of graphics, r1=pointer to tile space to decompress to
+Returs: N/A
+
+177B0: (Get_Item_Data) (FE7: 174AC) (FE6: 17358)
+Params: r0=item id/uses short
+Returns: Pointer to item data
+WARNING: DOES NOT 'AND' WITH 0xFF
+This function is (at least, in fe8) literally never used
+
+17A34: (Create_Unit)
+Params: r0=pointer to list of UNIT data
+Returns: number of units made
+Creates a unit with the given characteristics
+
+16BC0: (Shuffle_Used_Item)
+Params: r0=char data ptr, r1=inventory slot
+
+197E4: (Fill_Map) (FE7: 190AC) (FE6: 18960)
+Params: r0=map's row pointer table, r1=byte to fill with
+Returns: N/A
+Used for clearing maps (unit, range, movement, fog, etc). Also stores r0 to 30049A0
+
+24D50: (Count_Faction_With_Criteria)
+Params: r0=faction bit (0 for player, 80 for enemy, 40 for npc), r1 = word to AND with the unit's turn status word (+0xC)
+Returns: number of units in a faction that do NOT have any of those bits set
+
+1702C: (Unit_Has_Item)
+Params: r0=char data ptr, r1=item id to search for
+Returns: inventory slot, or -1 if unit doesn't have said item
+
+: (Return_Item_Value) (FE6: 17238)
+Params: r0=item id
+Returns: Total value of item
+
+179F8: (Does_Unit_Have_Item) (FE7: 16D0C)
+Params: r0=char data ptr, r1=item id to search for
+Returns: True if character has item
+
+4E884: (Clear_Bg0_And_Bg1)
+Params: N/A
+Returns: N/A
+Clears background layers 0 and 1 (usually where text and textbackground will be written to, respectively), and sets them to be updated on next vblank

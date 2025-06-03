@@ -427,3 +427,7 @@ Mountain people who follow[N]
 no rule of law.[X]
 
 
+## AmeDeath
+[MidRight][LoadAme]
+I can't...go home[N]
+now...[A][CloseEyes][X]
