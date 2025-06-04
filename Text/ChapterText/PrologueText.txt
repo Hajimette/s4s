@@ -307,11 +307,12 @@ I don't really want to[N]
 stab dead bodies...[A][X]
 
 ## AmeDone
-[MidRight][LoadAme]
+[MidLeft][LoadAme]
 Test.[A][X]
 
 ## TimetoGo
-[MidRight][LoadAme]
+[MidLeft][LoadAme]
+[MoveMidLeft]
 Test.[A][X]
 
 

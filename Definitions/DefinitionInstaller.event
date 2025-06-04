@@ -13,3 +13,5 @@
 #include "StatusUiDefs.event"
 
 #include "BackgroundDefs.event"
+
+#include "FlagDefinitions.event"

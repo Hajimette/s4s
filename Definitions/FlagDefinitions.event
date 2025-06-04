@@ -1,0 +1,79 @@
+#define BossQuote 0x1
+
+#define DefeatBossFlag 0x2
+
+#define SeizeFlag 0x3
+
+#define SecondBGMFlag 0x4
+
+#define RouteFlag 0x6
+
+#define Flag7 0x7
+
+#define Flag8 0x8
+
+#define Flag9 0x9
+
+#define FlagA 0xA
+
+#define FlagB 0xB
+
+#define FlagC 0xC
+
+#define FlagD 0xD
+
+#define FlagE 0xE
+
+#define FlagF 0xF
+
+#define Flag10 0x10
+
+#define Flag11 0x11
+
+#define Flag12 0x12
+
+#define Flag13 0x13
+
+#define Flag14 0x14
+
+#define Flag15 0x15
+
+#define Flag16 0x16
+
+#define Flag17 0x17
+
+#define Flag18 0x18
+
+#define Flag19 0x19
+
+#define Flag1A 0x1a
+
+#define Flag1B 0x1b
+
+#define Flag1C 0x1c
+
+#define Flag1D 0x1d
+
+#define Flag1E 0x1e
+
+#define Flag1F 0x1f
+
+#define Flag20 0x20
+
+#define Flag21 0x21
+
+#define Flag22 0x22
+
+#define Flag23 0x23
+
+#define Flag24 0x24
+
+#define Flag25 0x25
+
+#define Flag26 0x26
+
+#define Flag27 0x27
+
+#define Flag28 0x28
+
+
