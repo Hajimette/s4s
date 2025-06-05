@@ -1,0 +1,56 @@
+JUMP:0x965E2:$B=0x96656	
+
+JUMP:0x965E4:$r0=c0p.bin
+
+
+#ifdef jumpToHack_r0
+	#define #define jumpToHack_r0(offset) "SHORT 0x4800 0x4700 ; POIN (offset|1)"
+#endif
+
+PUSH
+	ORG
+	JumpToHack_r0(ChangePrepBGM)
+POP
+
+
+
+JUMP:0x341C4:$BL=0x965E4
+
+JUMP:0x965DC:$BL=0x965E4
+
+JUMP:0xAEB54:$BL=0x965E4
+
+JUMP:0xA1960:$BL=0x965E4
+
+
+
+JUMP:0xB1CF0:$r0=c1p.bin
+
+
+
+JUMP:0xB1D0A:$B=0xB24A2
+
+JUMP:0xB1D0C:$r0=c2p.bin
+
+
+
+JUMP:0x9CCD6:$BL=0xB1D0C
+
+JUMP:0xCC6B6:$BL=0xB1D0C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

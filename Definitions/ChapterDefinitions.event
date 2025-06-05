@@ -1,4 +1,7 @@
 //no prologue def needed
+
+#define Any 0xFF
+
 #define Prologue 0x0
 
 #define Chapter1 0x1

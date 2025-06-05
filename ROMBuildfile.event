@@ -55,6 +55,10 @@ ALIGN 4
     #include "New Stuff/TextRework/_FE8-Text_Engine_Rework_EA.event"
     #include "New Stuff/SetUnitStatusVesly/SetStatusInstaller.event"
     #include "New Stuff/ItemSpecialEffect/Installer.event"
+    #include "New Stuff/ChangeBattleBgm/Installer.event"
+
+
+
 
 
 

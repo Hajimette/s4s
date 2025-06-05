@@ -86,13 +86,13 @@ ALIGN 4
 BattleQuoteTable:
 #include "ExternalTables/Battle_Quote_Table.event"
 
-//ALIGN 4
-//DeathQuoteTable:
-//#include "ExternalTables/Death_Quote_Table.event"
+ALIGN 4
+DeathQuoteTable:
+#include "ExternalTables/Death_Quote_Table.event"
 
 PUSH
-//ORG $8472C
-//POIN DeathQuoteTable
+ORG $8472C
+POIN DeathQuoteTable
 
 
 ORG $846AC

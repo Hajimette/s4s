@@ -76,4 +76,4 @@
 
 #define Flag28 0x28
 
-
+#define GameOver 0x65

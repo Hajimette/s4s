@@ -325,7 +325,7 @@ BeginningScene:
 	TalkConvo(AmePanik)
 	SOUN 0x13B
 	GetUnitStatus(0xB7,State)
-SetUnitStatus(0xB7,State,1000000)
+SetUnitStatus(0xB7,State,0x01000000)
 TalkConvo(WhatThe)
 CUSE 0xb7
 SetUnitStatus(0xB7,State,0)
@@ -336,16 +336,17 @@ SetUnitStatus(0xB7,State,0)
 	CriticalHit(0,80)
 	EndAttack
 	FIGHT_MAP 0x23 0xB7 IronSword False
+	DISA_IF 0xB7
 	MusicChange(FE5CrisisID)
 	SOUN 0x13B
-	SetUnitStatus(0xBD,State,1000000)
+	SetUnitStatus(0xBD,State,0x01000000)
 	
-	SetUnitStatus(0xBB,State,1000000)
+	SetUnitStatus(0xBB,State,0x01000000)
 	
 	TalkConvo(HUH)
 	GiveItem(Rapier,Amelia)
 	
-    SetUnitStatus(0xAA,State,1000000)
+    SetUnitStatus(0xAA,State,0x01000000)
 	
 	SetUnitStatus(0xBD,State,0)
 	
@@ -361,16 +362,17 @@ SetUnitStatus(0xB7,State,0)
 	MOVE 20 0x23 [13,14]
 	MOVE 15 0xBD [12,14]
 	MOVE 15 0xBB [10,12]
-	CUSE 0xAA
 	SetUnitStatus(0xB7,State,0)
 	ENUN
 	StartBattle
 	NormalDamage(0x23, 80)
 	EndAttack
 	FIGHT_MAP 0x23 0xBD Ricky False
+	CUSE 0xAA
 	MOVE 15 0xAA [9,5]
 	MOVE 15 0xAC [10,4]
 	MOVE 15 0xAD [8,4]
+	SetUnitStatus(0xAA,State,0)
 	TalkConvo(gtfo)
 	MOVE 20 Amelia [20,17]
 	

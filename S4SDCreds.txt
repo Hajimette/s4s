@@ -56,6 +56,8 @@ Contro:
 FE4 Refresh
 FOW Terrain Blocker
 Snow and Blizzard
+Change Battle BGM by Chapter
+ContinueBattleBGM
 
 
 Legend of Loog:
@@ -79,7 +81,8 @@ Change Status BG- 7743
 Animations:
 
 Hatsuru:
-Amelia
+
+Amelia (Spliced Version)
 Rushia
 Iroha, Base by Redbean
 Ayame, Base by Seliost1, Reskin by UltraFenix
@@ -95,7 +98,8 @@ Among us Crewmate
 Flasuban:
 F!WyvernRider
 
-
+MKCocoon:
+Amelia 
 
 
 

@@ -243,6 +243,11 @@ I`m going to need to fight...[A][2NL]
 Screw it, I`m leaving no[N]
 matter what![A][X]
 
+## AmeEntombed
+[MidRight][LoadAme]
+God...these things
+suck.[A][X]
+
 ## RealNumName
 1 RN[X]
 
