@@ -4,10 +4,10 @@
 
 
 
-#define DeathQuote(Amelia,Any,GameOver,AmeDeath) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID 0 0"
+DeathQuote(Amelia,Any,GameOver,AmeDeath)
 
 //Prologue
-#define DeathQuote(Entombed_boss,Prologue,DefeatBossFlag,AmeEntombed)
+DeathQuote(Entombed_boss,Prologue,DefeatBossFlag,AmeEntombed)
 
 
 

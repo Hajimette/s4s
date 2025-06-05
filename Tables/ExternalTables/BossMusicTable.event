@@ -4,7 +4,7 @@
 
 
 
-#define BossBGMEntry(Entombed_boss, FE5BossBattleID)
+BossBGMEntry(Entombed_boss, FE5BossBattleID)
 
 ALIGN 4
 BossBGMTable:
