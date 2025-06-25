@@ -98,7 +98,7 @@ POIN DeathQuoteTable
 //ORG $846AC
 //POIN BattleQuoteTable
 
-//POP
+POP
 
 
 //#include "ExternalTables/BossMusicTable.event"

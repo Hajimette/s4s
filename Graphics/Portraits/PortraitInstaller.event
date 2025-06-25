@@ -29,7 +29,7 @@
 #define Okayu 0x42
 #define Ollie 0x45
 #define OllieEvil 0xF0
-#define Reine 0x4
+#define ReineP 0x4
 #define ReineEvil 0xF7
 #define Sana 0x53
 #define Towa 0x56
