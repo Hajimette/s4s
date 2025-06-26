@@ -21,7 +21,7 @@
 
 //Anathema: -10 Avoid/Dodge to all enemies within 3 tiles.
 //Author Unknown (Initial Commit)
-#define AnathemaID 149
+#define AnathemaID 255
 
 //Blood Tide: Atk and Hit +5 to adjacent allies.
 //By Sme
@@ -89,7 +89,7 @@
 
 //Night Tide: Def and Res +5 to adjacent allies.
 //By Sme
-#define NightTideID 255
+#define NightTideID 151
 
 //Solidarity: Critical and Critical Avoid +10 to adjacent allies.
 //By SD9k
@@ -105,11 +105,16 @@
 
 //Tantivy: +10 Hit/Avoid if there are no allies within 3 tiles.
 //Author Unknown (Initial Commit)
-#define TantivyID 209
+#define TantivyID 255
 
 //Up With Arch: Adjacent ally units gain might equal to half this unit's might. (Only if name starts with "Arch")
 //Author Unknown (Initial Commit)
 #define UpWithArchID 255
+
+
+//Investigation: Adjacent allies gain Amelia's (Str+Mt/2)
+//By Contro
+#define InvestigationID 209
 
 //Voice of Peace: Enemies within 2 tiles deal -2 damage.
 //Author Unknown (Initial Commit)
@@ -117,7 +122,7 @@
 
 //White Pool: Atk and AS +5 to adjacent allies.
 //By Sme
-#define WhitePoolID 255
+#define WhitePoolID 99
 
 //Skyguard: +4 defense against flying enemies if within 3 spaces of an ally flier.
 //By Sme
@@ -179,7 +184,7 @@
 
 //Eternal Vanity: Your buffed stats do not deplete each turn. 
 // By Vesly 
-#define EternalVanityID 255
+#define EternalVanityID 109
 
 // _ Taker: After attacking and defeating an enemy, gain +4 _. (Max +10) 
 // By Vesly 
@@ -273,7 +278,7 @@
 
 //Skybreaker: Deal effective damage to flying units.
 //By Sme
-#define SkybreakerID 47
+#define SkybreakerID 255
 
 //Resourceful: Double effectiveness multiplier.
 //By Sme
@@ -496,7 +501,7 @@
 
 //Swift Swim: If the weather is raining then double this unit's attack speed.
 //By Jester
-#define SwiftSwimID 255
+#define SwiftSwimID 110
 
 //Merciless: Guranteed critical hit against poisoned foes.
 //By Jester
@@ -636,7 +641,7 @@
 
 //Insight: Hit +20.
 //By Sme
-#define InsightID 255
+#define InsightID 149
 
 //Knight Aspirant: When above 75% health, +2 damage, +15% avoid.
 //By Datagne
@@ -779,7 +784,7 @@
 
 //Heavy Blade: +4 Damage/-2 Attack Speed when unit’s Con. is bigger than the enemy.
 //By Mikey Seregon
-#define HeavyBladeID 255
+#define HeavyBladeID 98
 
 //Dancing Blade: +4 Attack Speed/-2 Damage when unit’s Con. is lower than the enemy.
 //By Mikey Seregon
@@ -817,7 +822,7 @@
 
 //Dragonskin: Halve damage taken
 //By Jopettajah
-#define DragonSkinID 255
+#define DragonSkinID 4
 #define DragonskinID DragonSkinID //Alias
 
 //Stunning Smile: If foe is male, inflicts Avo-20 on that foe during combat.
@@ -1263,7 +1268,7 @@
 
 //Goddess Dance: When used, all adjacent allied units can move again.
 //By Jester
-#define GoddessDanceID 255
+#define GoddessDanceID 47
 
 //Detonate: Destroy equipped weapon to deal remaining uses as damage
 //By Jester
@@ -1282,7 +1287,7 @@
 
 //Discipline: Weapon experience gains are doubled.
 //Author Unknown (Initial Commit)
-#define DisciplineID 97
+#define DisciplineID 255
 
 //Vantage: If HP < 50%, strike first when attacked.
 //Author Unknown (Initial Commit)
@@ -1290,7 +1295,7 @@
 
 //Catch 'Em All: Grants the user every skill.
 //By Leonarth
-#define CatchEmAllID 151
+#define CatchEmAllID 255
 
 //Vantage+: User always attacks first, even if attacked. Negates crits.
 //By SD9k
@@ -1311,7 +1316,7 @@
 
 //Expertise: Reduce bonus damage from critical hits by 50%.
 //Author Unknown (Initial Commit)
-#define ExpertiseID 99
+#define ExpertiseID 255
 
 //Celerity: Movement +2.
 //Author Unknown (Initial Commit)
@@ -1339,12 +1344,12 @@
 
 //Triangle Adept: Doubles weapon triangle effects for this unit.
 //By Tequila
-#define TriAdeptID 109
+#define TriAdeptID 255
 #define TriangleAdeptID TriAdeptID //Alias
 
 //Triangle Adept+: Doubles weapon triangle effects.
 //By Sme
-#define TriAdeptPlusID 110
+#define TriAdeptPlusID 255
 #define TriangleAdeptPlusID TriAdeptPlusID //Alias
 
 //Inspiring Tune: Refreshing a unit grants them +2 Pow/Def until the next turn.
@@ -1366,7 +1371,7 @@
 
 //Discipline+: Weapon experience gains are doubled. Unit may S-Rank multiple weapon types.
 //By Zeta
-#define DisciplinePlusID 98
+#define DisciplinePlusID 255
 
 //Watchful: This unit cannot be captured or stolen from.
 //By Sme
@@ -1417,7 +1422,7 @@
 
 //Pathfinder: Allies within 3 spaces can Canto.
 // By Devisio
-#define PathfinderID 255
+#define PathfinderID 97
 
 //Arms Master: Unit can S rank more than one weapon.
 // By Snerdels
@@ -1431,7 +1436,7 @@
 
 //Display-Only Skills
 
-#define CunningID 4
+#define CunningID 255
 #define NiceThighsID 115
 #define PersonalityID 116
 

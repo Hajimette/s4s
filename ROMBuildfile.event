@@ -59,7 +59,11 @@ ALIGN 4
 
 
 
+//CustomSkillStuff
+gInvestigationID:
+BYTE InvestigationID
 
+#include "Investigation.lyn.event"
 
 
 

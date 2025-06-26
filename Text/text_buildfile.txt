@@ -145,7 +145,7 @@ PCC [X]
 
 #include "ChapterText/PrologueText.txt"
 
-#include "Chapter1Text.txt"
+#include "ChapterText/Chapter1Text.txt"
 
 #include "unitmenu_text.txt"
 

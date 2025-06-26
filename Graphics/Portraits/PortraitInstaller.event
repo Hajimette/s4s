@@ -1,4 +1,4 @@
-#define Ame 0x2
+#define Ame 0x02
 #define AmeliaAlt1 0xD2
 #define AmeLonk 0xCE
 #define MKmelia 0xD5
@@ -29,7 +29,7 @@
 #define Okayu 0x42
 #define Ollie 0x45
 #define OllieEvil 0xF0
-#define ReineP 0x4
+#define Reine 0x04
 #define ReineEvil 0xF7
 #define Sana 0x53
 #define Towa 0x56

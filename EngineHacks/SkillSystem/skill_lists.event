@@ -10,12 +10,11 @@ BYTE 00 00
 ALIGN 4
 
 EphraimGreatLordSkillList:
-BYTE 1 SupplyID
+BYTE 00 00
 BYTE 00 00
 ALIGN 4
 
 EirikaGreatLordSkillList:
-BYTE 1 SupplyID
 BYTE 00 00
 ALIGN 4
 

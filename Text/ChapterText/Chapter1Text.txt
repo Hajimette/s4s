@@ -9,7 +9,7 @@ damn stop watch works![A][N][CloseEyes]
 Why did this have to happen[N]
 now of all times?[A][2NL]
 Ugh... no food, no water...[N]
-and I'm stuck in the sticks...[A][N]
+and I'm stuck in the sticks...[A][N][OpenEyes]
 This sucks.[A][X]
 
 ## AmeWth
@@ -21,4 +21,76 @@ What the hell?[A][X]
 [MidLeft][LoadFauna]
 [MidRight][LoadMumei]
 [MidLeft]
-Test.[A][X]
+Alright Mumei, I think that's the[N]
+last time we're collecting firewoord.[A][N]
+I can hear each tree's cry whenever[N]
+we stripped their bark off.[A][N]
+Lets find something to eat instead.[A][N]
+Have you remembered what I taught[N]
+you?[A]
+[MidRight]
+[MoveMidRight]
+Aw, are we not going to hunt those[N]
+animals back there?[A]
+[MidLeft]
+Unlike the humans, I wouldn't want[N]
+to hurt other creatures.[A] We have[N]
+to be kind to them, I made them after[N]
+all.[A]
+[MidRight]
+Well, we have to be kind to our[N]
+stomachs too you know.[A]
+[MidLeft]
+Not if it's the MURDER of[N]
+ANIMALS![A]
+[MidRight]
+[Beat]Do we even need to eat???[A]
+[MidLeft]
+I...[Beat]don't know actually.[A][X]
+
+## FaunmeiCreature
+[Left][LoadMumei]
+[FarLeft][LoadFauna]
+[Left]
+Uhh, Fauna? Do we have to be[N]
+kind to that thing too?[A]
+[FarLeft]
+Nothing is natural about that,[N]
+Mumei. I think Its dead![A][X]
+
+## FaunmeisBruhMoment
+[Left][LoadMumei]
+[FarLeft][LoadFauna]
+[Left][MoveLeft]
+UWAAAAAAAAA! I'm getting out[N]
+of here!![A]
+[FarLeft][MoveFarFarRight]
+[FarFarRight][ClearFace]
+[MoveFarLeft]
+MUMEI! COME BACK![A][X]
+
+
+## MumeiGetsSmoked
+[MidLeft][LoadMumei]
+U...uwaaah![A]
+[FarLeft][BoxType][0x2]
+MUMEI. GET OVER HERE!![A][X]
+
+## FaunmeiFight
+[FarLeft][LoadFauna]
+[MidRight][LoadMumei]
+[FarLeft]
+We can't run from this, Mumei![A][N]
+We're going to need to fight[N]
+these things![A]
+[MidRight]
+B...but![A]
+[MidLeft]
+No buts! Come on Mumei! Stay[N]
+near me and we'll be fine![A][X]
+
+
+
+
+
+

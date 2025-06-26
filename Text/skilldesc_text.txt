@@ -1840,3 +1840,7 @@ than one weapon type.[X]
 ## SD_FactionSlayer
 "Faction" Slayer: Deal 2x calculated[N]
 damage to specific opponents.[X]
+
+## SD_Investigation
+Investigation: Adjacent units receive[N]
+Amelia's (Str+Mt/2) during combat.[X]

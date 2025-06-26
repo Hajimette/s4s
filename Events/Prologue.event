@@ -420,8 +420,10 @@ EndingScene:
 	FadeBackBlack
 	TalkConvo(AmeDone)
 	FadeBlack
+	SOUN 0xB4
 	SetBackground(Field1)
 	FadeBackBlack
+	SOUN 0xB5
 	TalkConvo(TimetoGo)
 	FadeBlack
 	MNC2 1
