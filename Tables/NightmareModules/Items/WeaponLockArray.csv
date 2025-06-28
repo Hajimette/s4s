@@ -1,9 +1,9 @@
 INLINE WeaponLockArrayPointerTable,Array Pointer
 Nothing,0x0
-0x1,AmeliaLock|IsPointer
-0x2,ReineLock|IsPointer
-0x3,MumeiLock|IsPointer
-0x4,FaunaLock|IsPointer
+0x1,AmeliaArray|IsPointer
+0x2,ReineArray|IsPointer
+0x3,MumeiArray|IsPointer
+0x4,FaunaArray|IsPointer
 0x5,0x0
 0x6,0x0
 0x7,0x0
