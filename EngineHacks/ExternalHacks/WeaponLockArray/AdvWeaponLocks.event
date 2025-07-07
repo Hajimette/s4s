@@ -34,25 +34,25 @@ FILL 256
 #define HardClassLock 3
 #define EndLockArray 0
 
-//#define AmeliaLock 0x01000000
+
 AmeliaArray:
 BYTE HardCharLock
 BYTE Amelia
 BYTE EndLockArray
 
-//#define ReineLock 0x02000000
+
 ReineArray:
 BYTE HardCharLock
 BYTE Reine
 BYTE EndLockArray
 
-//#define Lock 0x03000000
+
 MumeiArray:
 BYTE HardCharLock
 BYTE Mumei
 BYTE EndLockArray
 
-//#define FaunaLock 0x04000000
+
 FaunaArray:
 BYTE HardCharLock
 BYTE Fauna

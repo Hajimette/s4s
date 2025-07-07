@@ -57,7 +57,7 @@
 
 [LoadAme] = [LoadFace][0x02][0x1]
 
-[LoadReine] = [LoadFace][0x04][0x1]
+[LoadReineP] = [LoadFace][0x04][0x1]
 [LoadMumei] = [LoadFace][0x5][0x1]
 [LoadFauna] = [LoadFace][0x6][0x1]
 [LoadBrig] = [LoadFace][0x4D][0x1]

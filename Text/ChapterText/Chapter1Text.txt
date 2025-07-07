@@ -14,7 +14,11 @@ This sucks.[A][X]
 
 ## AmeWth
 [MidLeft][LoadAme]
-What the hell?[A][X]
+What the hell? That must be this[N]
+worlds Reine...[A][N]
+Seems like the dead is here too....[A][2NL]
+Well, I'll have her kill all of them[N]
+for me.[A][X]
 
 
 ## FaunmeiAnimals
@@ -64,7 +68,7 @@ Mumei. I think Its dead![A][X]
 [Left][MoveLeft]
 UWAAAAAAAAA! I'm getting out[N]
 of here!![A]
-[FarLeft][MoveFarFarRight]
+[Left][MoveFarFarRight]
 [FarFarRight][ClearFace]
 [MoveFarLeft]
 MUMEI! COME BACK![A][X]
@@ -90,7 +94,20 @@ No buts! Come on Mumei! Stay[N]
 near me and we'll be fine![A][X]
 
 
+## ReineIntro
+[MidRight][LoadReineP]
+[MidRight]
+It's getting late...maybe I should try[N]
+to stay at the village for the night...[A][N]
+I'm sure I can get to Shike tommorow.[A][X]
 
+## ReineWTF
+[MidRight][LoadReineP]
+[MoveMidRight][MidRight]
+What the hell are these things?![A][X]
 
-
-
+## ReineBruh
+[MidRight][LoadReineP]
+[MoveMidRight][MidRight]
+Crap, the village! I have[N]
+to save the village![A][X]

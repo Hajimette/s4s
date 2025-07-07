@@ -13,7 +13,7 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-
+	TurnEventPlayer(0, FaunmeiSpawn, 3)
 	END_MAIN
 
 ALIGN 32
@@ -56,8 +56,8 @@ EnemyUnits:
  
 	UNIT
 
-ReineUnit:
-	UNIT Reine 0x4 Amelia Level(1,NPC,False) [4,8] 0x0 0x0 0x0 0x0 [Fire,SlimSword,Vulnerary] NoAI
+ReineUnit1:
+	UNIT 0x2 0x4 Amelia Level(1,NPC,False) [4,16] 0x0 0x0 0x0 0x0 [Fire,SlimSword,Vulnerary] NoAI
 	
 	UNIT
 
@@ -84,6 +84,16 @@ MoreCome:
 	
 	UNIT
 	
+ReineGetsJumped:
+	UNIT 0xAB 0x52 0xAA Level(1,Enemy,True) [2,7] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0xAA 0x52 0xAA Level(1,Enemy,True) [5,6] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	
+	UNIT
+	
+Chapter1Units:
+	UNIT
+	UNIT
+	UNIT
 	
 Traps1:
 	ENDTRAP
@@ -98,13 +108,55 @@ BeginningScene:
 	FadeBackBlack
 	TalkConvo(AmeliaBum)
 	FadeBlack
-	EraseBackground
+	CLEAN
+	CAM1 [4,9]
+	MusicChange(0x28)
 	FadeBackBlack
+	LOAD1 0x1 ReineUnit1 
+	MOVE 15 0x2 [5,10]
+	TalkConvo(ReineIntro)
+	LOAD1 0x1 ReineGetsJumped
+	MusicChange(0x31)
+	MOVE 15 0x2 [4,8]
+	STAL 60
+	PlayEmotionEffect(0x2,ExclamationEffect)
+	STAL 45
+	TalkConvo(ReineWTF)
+	MOVE 15 0xAB [4,9]
+	ENUN
+	StartBattle
+	NormalDamage(0xAB, 5)
+	EndAttack
+	FIGHT_MAP 0xAB 0x02 RottenClaw False
+	STAL 45
+	StartBattle
+	NormalDamage(0x02, 80)
+	EndAttack
+	FIGHT_MAP 0x02 0xAB Fire False
+	CUSE 0xAB
+	LOAD1 1 Chapter1Units
+	TalkConvo(ReineBruh)
+	CAM1 [5,14]
+    LOAD1 0x1 PlayerUnits
+	STAL 60
+	PlayEmotionEffect(Amelia,DotDotDotEffect)
+	STAL 45
+	TalkConvo(AmeWth)
+	CAM1 [5,14]
+    ENUN
+	LOAD1 0x1 EnemyUnits
+	ENUN
 	
+	ENDA
+	
+	
+	
+	FaunmeiSpawn:
 	MusicChange(0x03)
 	STAL 45
 	CAM1 [15,8]
 	LOAD1 0x1 Faunmei
+	ENUN
 	TalkConvo(FaunmeiAnimals)
 	LOAD1 0x1 Creature
 	TalkConvo(FaunmeiCreature)
@@ -119,30 +171,19 @@ BeginningScene:
 	MOVE 15 Fauna [15,8]
 	PlayEmotionEffect(Mumei,ExclamationEffect)
 	STAL 45
+	MusicChange(0x31)
 	TalkConvo(MumeiGetsSmoked)
 	MOVE 15 Fauna [16,6]
 	ENUN
 	TalkConvo(FaunmeiFight)
 	CUSA Mumei
 	CUSA Fauna
-	LOAD1 0x1 ReineUnit 
-
-
-	
-	CAM1 [5,14]
-    LOAD1 0x1 PlayerUnits
-	PlayEmotionEffect(Amelia,DotDotDotEffect)
-	STAL 45
-	TalkConvo(AmeWth)
-	MusicChange(0x31)
-	CAM1 [5,14]
-        ENUN
-
-
-	LOAD1 0x1 EnemyUnits
-	ENUN
 	
 	ENDA
+	
+	
+	
+	
 
 EndingScene:
 	MNC2 2

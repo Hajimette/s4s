@@ -1,0 +1,33 @@
+//Unit State Freeze Fix
+PUSH
+ORG 0x102D4
+SHORT 0x2000
+POP
+
+
+//Camera Freeze
+PUSH
+ORG 0xF25C
+SHORT 0x2000
+POP
+
+//Unit State Freeze
+PUSH
+ORG 0x1027C
+SHORT 0xE0022000
+POP
+
+//FreezeEvent 38
+PUSH
+ORG 0x1063C
+SHORT 0x2000
+POP
+
+//Freeze Event 3B
+PUSH
+ORG 0x10804
+SHORT 0x2000
+POP
+
+//Remove Enemy control
+#incbin "377A0.bin"
