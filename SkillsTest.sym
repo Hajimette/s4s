@@ -3344,7 +3344,8 @@
 098A8D74 BattleMusicChanger2
 098A8D80 BruhMoment
 098A8D98 BattleBGM_Table
-098A8DD2 gInvestigationID
+098A8DA0 BattleQuoteTable
+098A8DD0 gInvestigationID
 098A8DD4 Investigation
 098A8E34 REDA0R0
 098A8E3C REDA0R1
