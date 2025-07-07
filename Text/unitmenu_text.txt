@@ -269,3 +269,13 @@ deal remaining uses as damage.[X]
 Increase movement of all[N]
 allied units in a 3 tile[N] 
 radius by 3.[X]
+
+
+## EquipEquipmentDescription
+Ready this equipment.[X]
+
+## UnequipName
+Unequip[X]
+
+## UnequipEquipmentDescription
+Remove this equipment.[X]

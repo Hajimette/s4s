@@ -95,18 +95,19 @@ Remove this equipment.[X]
 ALIGN 4
 ItemUnitMenu:
 
-//IUM_Use
-//IUM_Equip
+IUM_Use
+IUM_Equip
 //MenuCommand($697, EquipEquipmentDescription, GreenText, EquipEquipmentUsability, EquipEquipment)
 //MenuCommand(UnequipName, UnequipEquipmentDescription, GreenText, UnequipEquipmentUsability, UnequipEquipment)
-//IUM_Trade
-//IUM_Discard
-//UM_Separator
+IUM_Trade
+IUM_Discard
+UM_Separator
+BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
 
-PUSH
-ORG $59D120
-POIN ItemUnitMenu
-POP
+//PUSH
+//ORG $59D120
+//POIN ItemUnitMenu
+//POP
 
 //#include "Equipment.event"
 
@@ -115,15 +116,17 @@ POP
 //////////////////
 
 /*
-//ALIGN 4
-//#include "ExtraGrowths.lyn.event"
-*/
 
-//PUSH
-//ORG 0x2BA28
-//jumpToHack(New_WriteGrowthsToBattleStruct)
-//PROTECT 0x2BA28
-//POP
+ALIGN 4
+#include "ExtraGrowths.lyn.event"
+
+
+PUSH
+ORG 0x2BA28
+jumpToHack(New_WriteGrowthsToBattleStruct)
+PROTECT 0x2BA28
+POP
+*/
 
 ALIGN 4
 gExtra_Growth_Boosts:

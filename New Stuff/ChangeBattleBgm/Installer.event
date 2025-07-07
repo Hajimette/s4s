@@ -4,9 +4,12 @@ BYTE 0x00 0x00
 jumpToHack(BattleMusicChanger2)
 POP
 
-ALIGN 4
+PUSH
 BattleMusicChanger2:
+ORG 0x72700
 #incbin "72700.bin"
+POP
+
 
 POIN BattleBGM_Table
 
