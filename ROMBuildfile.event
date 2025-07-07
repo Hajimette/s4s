@@ -60,6 +60,13 @@ ALIGN 4
 
 
 
+
+//#include "ExternalTables/BossMusicTable.event"
+
+#include "Tables/ExternalTables/Battle_Quote_Table.event"
+
+//#include "ExternalTables/Death_Quote_Table.event"
+
 //CustomSkillStuff
 gInvestigationID:
 BYTE InvestigationID
