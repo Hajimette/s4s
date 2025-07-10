@@ -18,3 +18,5 @@
 #include "Tilesets/TilesetInstaller.event"
 
 #include "ItemIcons/Installer.event"
+
+#include "UserInterface.event"

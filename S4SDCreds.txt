@@ -48,8 +48,8 @@ Zeta
 
 Patches/ASM:
 Free Movement- Mokha
-Abort Staff- Dragz
 Chapter Transitions- Huichelaar
+Change Unit Status Rewrite- Vesly
 
 
 Contro:
@@ -58,7 +58,12 @@ FOW Terrain Blocker
 Snow and Blizzard
 Change Battle BGM by Chapter
 ContinueBattleBGM
+MMB White Color Numbers
 
+Dragz:
+Abort Staff
+MMB Window Palette
+Event Menu Update
 
 Legend of Loog:
 Move Stars
