@@ -241,7 +241,7 @@ matter what![A][X]
 
 ## AmeEntombed
 [MidRight][LoadAme]
-God...these things
+God...these things[N]
 suck.[A][X]
 
 ## RealNumName

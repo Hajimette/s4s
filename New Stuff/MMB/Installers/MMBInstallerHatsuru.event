@@ -39,7 +39,6 @@ After each set of module options are definitions that you can use to adjust the 
 ALIGN 4
 
 	MMBTilemap:
-
 	#incbin "tsa/MMB.dmp"
 
 /*

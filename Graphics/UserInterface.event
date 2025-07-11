@@ -4,21 +4,29 @@ MenuTiles:
 
 
 PUSH
+ORG 0x5B6470
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POP
+
+PUSH
 ORG 0x5B6BB4//Palettes
 #incbin "BluePal.dmp"
-#incbin "BluePal.dmp"
-#incbin "BluePal.dmp"
-#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+#incbin "GrayPal.dmp"
 //Darkened palettes
 #incbin "BluePal.dmp"
-#incbin "BluePal.dmp"
-#incbin "BluePal.dmp"
-#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+#incbin "GrayPal.dmp"
 
 ORG 0xA1738C//MMB Palettes
 #incbin "BluePal.dmp"
-#incbin "BluePal.dmp"
-#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
 POP
 
 //Change background palettes
