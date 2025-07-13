@@ -77,6 +77,9 @@ StaffAI
 ThiefStaff
 UnlockStaff
 
+Sme:
+Fatigue
+ASMC Check Suite
 
 Change Status BG- 7743
 

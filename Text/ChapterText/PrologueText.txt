@@ -329,4 +329,26 @@ So I don't have all the pieces[N]
 to this damn thing then...[A][2NL]
 Wonderful.[A][X]
 
+## ZeroGrowthsName
+0% Growths[X]
+
+## ZeroGrowthsDesc
+All unit growths are set to 0.[N]
+I hope you know what you're doing.[X]
+
+## HundredGrowthsName
+100% Growths[X]
+
+## HundredGrowthsDesc
+Gives every unit 100% growths.[N]
+Seiso flows deep in your veins.[X]
+
+## ZeroConvo
+0% Growths [ToggleRed]engaged.[ToggleRed][N]
+100% Growths disabled.[A][X]
+
+## HundredConvo
+100% Growths [ToggleRed]engaged.[ToggleRed][N]
+0% Growths disabled.[A][X]
+
 

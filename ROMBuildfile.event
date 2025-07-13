@@ -59,12 +59,15 @@ ALIGN 4
     #include "New Stuff/InlinePatches.event"
     #include "New Stuff/MMB/Installers/MMBInstallerHatsuru.event"
     #include "New Stuff/MMB/Installers/MMBWindowPalettes/MMBWindowPalette.event"
+    #include "New Stuff/asmcheck/ASMCCheckInstaller.event"
+    #include "New Stuff/100and0/GrowthModesCheck.event"
 
 //#include "ExternalTables/BossMusicTable.event"
 
 #include "Tables/ExternalTables/Battle_Quote_Table.event"
 
 //#include "ExternalTables/Death_Quote_Table.event"
+
 
 //CustomSkillStuff
 gInvestigationID:

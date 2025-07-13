@@ -174,6 +174,8 @@ BeginningScene:
 	ENUT 7
 	ENUT 8
 	ENUT 9
+	ENUT 0xA
+	ENUT 0xB
 	
 	LABEL 10
 	ASMC 0x8003D21 //Text_ResetTileAllocation
@@ -184,16 +186,21 @@ BeginningScene:
 	SVAL s7 1
 	BEQ 3 sC s7  //Casual
 	
-	
 	SVAL s7 2
 	BEQ 4 sC s7 //Fixed
 	
-	 
 	SVAL s7 3
-	BEQ 5 sC s7 //Reset
+	BEQ 5 sC s7 // 0% Growths
 	
-	SVAL s7 4
-	BEQ 6 sC s7 //Beging
+	SVAL s7 4 // 100% Growths
+	BEQ 6 sC s7
+
+	
+	SVAL s7 5
+	BEQ 7 sC s7 //Reset
+	
+	SVAL s7 6
+	BEQ 8 sC s7 //Beging
 	
 	
 	LABEL 2
@@ -207,11 +214,25 @@ BeginningScene:
 	GOTO 10
 	
 	LABEL 4
-	ENUT 0xEF //Fixed
+	ENUT 0xef //Fixed
 	ENUF 9
 	GOTO 10
 	
 	LABEL 5
+	ENUT 0xb7 //0% Growths
+	ENUF 0xA
+	ENUF 0xB
+	TextBox(ZeroConvo)
+	GOTO 10
+	
+	LABEL 6
+	ENUT 0xb8 //100% Growths
+	ENUF 0xB
+	ENUF 0xA
+	TextBox(HundredConvo)
+	GOTO 10
+	
+	LABEL 7
 	TextBox(FlagsReset)
 	TEXTEND
 	REMA
@@ -221,9 +242,11 @@ BeginningScene:
 	ENUT 7
 	ENUT 8
 	ENUT 9
+	ENUT 0xA
+	ENUT 0xB
 	GOTO 10
 	
-	LABEL 6
+	LABEL 8
 	TextBox(AreYouSure)
 	CallMenu(ImSureMenu)
 	SVAL s7 1

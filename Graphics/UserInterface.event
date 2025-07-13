@@ -51,3 +51,30 @@ WORD 0x8B175CC
 ORG 0x86BF8
 WORD 0x8B175CC
 POP
+
+
+PUSH
+ORG $73d88
+POIN LevelUpScreen
+ORG $73d90
+POIN LevelUpScreenTSA
+ORG $73DA0
+POIN LevelUpScreenPal
+ORG $7eb84
+POIN LevelUpScreen
+ORG $7eb8c
+POIN LevelUpScreenTSA
+ORG 0x7EB94
+POIN LevelUpScreenPal
+POP
+
+ALIGN 4
+LevelUpScreen:
+#incext Png2Dmp "LevelUp.png" --lz77
+#incbin "LevelUp.png.dmp"
+ALIGN 4
+LevelUpScreenTSA:
+#incbin "LevelUp.png.tsa.dmp"
+ALIGN 4
+LevelUpScreenPal:
+#incbin "LevelUp.png.pal.dmp"
