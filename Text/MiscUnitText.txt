@@ -1,0 +1,4 @@
+## AmeliaStim1
+[MidLeft][LoadAme]
+[MidLeft]
+Stimulant time![A][X]

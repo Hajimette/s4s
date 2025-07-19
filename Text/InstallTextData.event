@@ -5693,6 +5693,10 @@ __TEXTPROCESS12B0:
 #incbin ".TextEntries/text_buildfileInterlude2Title.fetxt.dmp"
 setText($12B0, __TEXTPROCESS12B0)
 
+__TEXTPROCESS12B1:
+#incbin ".TextEntries/text_buildfileAmeliaStim1.fetxt.dmp"
+setText($12B1, __TEXTPROCESS12B1)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

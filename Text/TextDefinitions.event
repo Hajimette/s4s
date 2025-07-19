@@ -1423,5 +1423,6 @@
 #define Chp10Title $12AE
 #define Chp10xTitle $12AF
 #define Interlude2Title $12B0
+#define AmeliaStim1 $12B1
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

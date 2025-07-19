@@ -165,4 +165,6 @@ PCC [X]
 
 #include "ChapterNames.txt"
 
+#include "MiscUnitText.txt"
+
 //#include "BattleQuotes/BQInstaller.event"

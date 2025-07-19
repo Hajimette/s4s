@@ -134,7 +134,7 @@ BeginningScene:
 	PlayEmotionEffect(0x2,ExclamationEffect)
 	STAL 45
 	TalkConvo(ReineWTF)
-	MOVE 15 0xAB [4,9]
+	MOVE 15 0xAB [4,7]
 	ENUN
 	StartBattle
 	NormalDamage(0xAB, 5)
@@ -158,6 +158,11 @@ BeginningScene:
     ENUN
 	LOAD1 0x1 EnemyUnits
 	ENUN
+	SetUnitStatus(0x2,SwordExp,1)
+	SetUnitStatus(0x2,LightExp,0)
+	SetUnitStatus(0x2,StaffExp,0)
+	
+	
 	
 	ENDA
 	

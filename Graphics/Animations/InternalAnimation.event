@@ -646,6 +646,11 @@ POP
 }
 
 {
+#include "BattleAnims/Thief/Sword Installer.event"
+#include "BattleAnims/Thief/Unarmed Installer.event"
+}
+
+{
 #include "BattleAnims/Trickster_T3/Bow Installer.event"
 #include "BattleAnims/Trickster_T3/Magic Installer.event"
 #include "BattleAnims/Trickster_T3/Sword Installer.event"

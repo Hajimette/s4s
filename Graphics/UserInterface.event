@@ -70,7 +70,7 @@ POP
 
 ALIGN 4
 LevelUpScreen:
-#incext Png2Dmp "LevelUp.png" --lz77
+//#incext Png2Dmp "LevelUp.png" --lz77
 #incbin "LevelUp.png.dmp"
 ALIGN 4
 LevelUpScreenTSA:
@@ -78,3 +78,7 @@ LevelUpScreenTSA:
 ALIGN 4
 LevelUpScreenPal:
 #incbin "LevelUp.png.pal.dmp"
+
+
+ORG 0x5A09A8
+#incbin "Forecast.dmp"

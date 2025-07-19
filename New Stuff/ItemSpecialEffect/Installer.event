@@ -30,7 +30,9 @@ ItemSpecialEffectTable:
 // 12 bytes per entry 
 // ItemID, unit, class, hp%, ReqFlag, TextID, POIN EventAddress 
 
-BYTE 0xF1   Amelia        0    0; SHORT 0     InjectName     ; POIN ExampleEvent // 0xBB is gold gem 
+BYTE 0xF1   Amelia        0    0; SHORT 0 InjectName ; POIN AmeliaStim // 0xBB is gold gem 
+
+//BYTE 0xBB   0        0    0; SHORT 0     0     ; POIN ExampleEvent // 0xBB is gold gem 
 
 
 //BYTE OrionBolt Eirika EirikaLord 80 ; SHORT 0 0x508; POIN ExampleEvent // only usable at 80% or less hp 
@@ -39,8 +41,9 @@ WORD 0 0 0 // Terminator
 
 
 ALIGN 4
-ExampleEvent:
-#incbin "sample_event.dmp"
+AmeliaStim:
+TalkConvo(AmeliaStim1)
+ENDA
 
 
 ALIGN 4
