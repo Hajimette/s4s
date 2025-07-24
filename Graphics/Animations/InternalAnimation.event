@@ -1321,10 +1321,10 @@ WORD 0x0
 
 ALIGN 4
 NoelAnim:
-LanceAnim(0x40)
-AxeAnim(0x41)
-HandAxeAnim(0x42)
-UnarmedAnim(0x43)
+LanceAnim(0x14D)
+AxeAnim(0x14E)
+HandAxeAnim(0x14F)
+UnarmedAnim(0x150)
 WORD 0x0
 
 ALIGN 4
@@ -1518,3 +1518,4 @@ DarkAnim(0x99)
 LightAnim(0x99)
 UnarmedAnim(0x99)
 WORD 0x0
+

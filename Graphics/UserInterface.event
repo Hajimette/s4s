@@ -79,6 +79,22 @@ ALIGN 4
 LevelUpScreenPal:
 #incbin "LevelUp.png.pal.dmp"
 
-
+PUSH
 ORG 0x5A09A8
 #incbin "Forecast.dmp"
+
+
+ORG $9AD648//Anims Off
+#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+#incbin "GrayPal.dmp"
+
+
+
+ORG $9AD648//Anims Off
+#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+#incbin "GrayPal.dmp"
+POP

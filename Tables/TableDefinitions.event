@@ -191,3 +191,11 @@
 #include "Repointers.event"
 
 #include "ExternalTables.event"
+
+ALIGN 4
+SlimSwordBoost:
+defStatBoosts(0, 0, 0, 0, 4, 0, 0, 0)
+
+//ALIGN 4
+//WeaponStatBoosts:
+//defStatBoosts(hp, str, mag, skl, spd, luk, def, res)

@@ -1,7 +1,7 @@
-#define Ame 0x02
+#define AmeP 0x02
 #define AmeliaAlt1 0xD2
 #define AmeLonk 0xCE
-#define MKmelia 0xD5
+//#define MKmelia 0xD5
 #define Bloom 0xC6
 #define Chloe 0x23
 #define Choco 0xB6
@@ -49,6 +49,13 @@
 #define Kronii3 0xE3
 #define OldLady 0x5F
 #define Brigand 0x4d
+#define NoelP 0xC
+#define MumeiP 0x5
+#define FaunaP 0x6
+#define MikoP 0x7
+#define SuiseiP 0x8
+#define FlareP 0xE
+#define SubaruP 0x13
 
 //Pending but aligned
 #define CalliopePortrait 0xAD
@@ -353,13 +360,6 @@ AmeLonkData:
 #incbin "Dmps/AmeLonk_minimug.dmp"
 setMugEntry(AmeLonk, AmeLonkData, 3, 6, 3, 4)
 
-ALIGN 4
-MKmeliaData:
-#incbin "Dmps/MKmelia_mug.dmp"
-#incbin "Dmps/MKmelia_frames.dmp"
-#incbin "Dmps/MKmelia_palette.dmp"
-#incbin "Dmps/MKmelia_minimug.dmp"
-setMugEntry(MKmelia, MKmeliaData, 3, 6, 3, 4)
 
 ALIGN 4
 LaufeyData:
@@ -451,18 +451,86 @@ Kronii3Data:
 #incbin "Dmps/Kronii3_minimug.dmp"
 setMugEntry(Kronii3, Kronii3Data, 2, 5, 2, 3)
 
+
+// PLACEHOLDERS
+//
+//
+//
+//
+//
+//
+//
+
+ALIGN 4
+NoelData:
+#incbin "Dmps/danchou_mug.dmp"
+#incbin "Dmps/danchou_frames.dmp"
+#incbin "Dmps/danchou_palette.dmp"
+#incbin "Dmps/danchou_minimug.dmp"
+setMugEntry(NoelP, NoelData, 3, 5, 3, 3)
+
+ALIGN 4
+FaunaData:
+#incbin "Dmps/Fauna_mug.dmp"
+#incbin "Dmps/Fauna_frames.dmp"
+#incbin "Dmps/Fauna_palette.dmp"
+#incbin "Dmps/Fauna_minimug.dmp"
+setMugEntry(FaunaP, FaunaData, 2, 6, 2, 4)
+
+ALIGN 4
+FlareData:
+#incbin "Dmps/Flare_mug.dmp"
+#incbin "Dmps/Flare_frames.dmp"
+#incbin "Dmps/Flare_palette.dmp"
+#incbin "Dmps/Flare_minimug.dmp"
+setMugEntry(FlareP, FlareData, 2, 6, 3, 4)
+
+ALIGN 4
+MikoData:
+#incbin "Dmps/Miko_mug.dmp"
+#incbin "Dmps/Miko_frames.dmp"
+#incbin "Dmps/Miko_palette.dmp"
+#incbin "Dmps/Miko_minimug.dmp"
+setMugEntry(MikoP, MikoData, 3, 6, 3, 4)
+
+ALIGN 4
+MumeiData:
+#incbin "Dmps/Mumei_mug.dmp"
+#incbin "Dmps/Mumei_frames.dmp"
+#incbin "Dmps/Mumei_palette.dmp"
+#incbin "Dmps/Mumei_minimug.dmp"
+setMugEntry(MumeiP, MumeiData, 2, 6, 3, 4)
+
+ALIGN 4
+SubaruData:
+#incbin "Dmps/Subaru_mug.dmp"
+#incbin "Dmps/Subaru_frames.dmp"
+#incbin "Dmps/Subaru_palette.dmp"
+#incbin "Dmps/Subaru_minimug.dmp"
+setMugEntry(SubaruP, SubaruData, 2, 6, 3, 4)
+
+ALIGN 4
+SuzyData:
+#incbin "Dmps/Suzy_mug.dmp"
+#incbin "Dmps/Suzy_frames.dmp"
+#incbin "Dmps/Suzy_palette.dmp"
+#incbin "Dmps/Suzy_minimug.dmp"
+setMugEntry(SuiseiP, SuzyData, 2, 6, 3, 4)
+
+
+ALIGN 4
+MKmeliaData:
+#incbin "Dmps/MKmelia_mug.dmp"
+#incbin "Dmps/MKmelia_frames.dmp"
+#incbin "Dmps/MKmelia_palette.dmp"
+#incbin "Dmps/MKmelia_minimug.dmp"
+setMugEntry(AmeP, MKmeliaData, 3, 6, 3, 4)
+
 //ALIGN 4
 //:
-//#incbin "_mug.dmp"
-//#incbin "_frames.dmp"
-//#incbin "_palette.dmp"
-//#incbin "_minimug.dmp"
-//setMugEntry(, Data, 2, 5, 2, 3)
-
-
-
-
-
-
-
+//#incbin "Dmps/_mug.dmp"
+//#incbin "Dmps/_frames.dmp"
+//#incbin "Dmps/_palette.dmp"
+//#incbin "Dmps/_minimug.dmp"
+//setMugEntry(, , 3, 5, 3, 3)
 

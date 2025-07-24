@@ -2,5 +2,6 @@
 #include "Chapter1.event"
 #include "Chapter2.event"
 #include "Chapter3.event"
+#include "NewChp2.event"
 #include "PrologueGrass.event"
 #include "PrologueMap.event"
