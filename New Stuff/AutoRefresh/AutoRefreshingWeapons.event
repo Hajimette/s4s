@@ -1,0 +1,101 @@
+// i hate febuilder
+#define TRUE 1
+#define FALSE 0
+
+// ASMC 
+#define EnactAutoRepair "ASMC RefreshItemsASMC|1"
+#define EnactAutoRepair(uses) "SVAL s1 uses; ASMC RefreshItemsASMC|1"
+
+// convoy size, change if expanding convoy
+#define MaxConvoy 100
+
+// if true, weapons at 0 durability will have reduced stats and still be equippable.
+#define EQUIP_BROKEN_WEAPONS FALSE
+
+// if false, magic weapons will be exempt from the above rule
+#define EQUIP_BROKEN_MAGIC TRUE
+
+// broken weapon table macro
+#define BrokenWeaponEntry(name, desc, mt, hit, wt, crit, rng) "SHORT name desc mt hit wt crit rng"
+
+// filler numbers, change to your specifications
+ALIGN 4
+BrokenWeaponTable:
+BrokenWeaponEntry(IronSwdName, BlankDesc, 5, 90, 5, 0, 0x11) // swords
+BrokenWeaponEntry(SlimSwdName, SlimSwdDesc, 3, 100, 2, 5, 0x11)
+BrokenWeaponEntry(SteelSwdName, BlankDesc, 8, 75, 10, 0, 0x11)
+BrokenWeaponEntry(SilverSwdName, BlankDesc, 13,	80, 8, 0, 0x11)
+BrokenWeaponEntry(TrainSwdName, TrainSwdDesc, 9, 70, 12, 0, 0x11)
+BrokenWeaponEntry(WingClipName, WingClipDesc, 11, 65, 14, 0, 0x11)
+BrokenWeaponEntry(SupBldName, SupBldDesc, 14, 60, 13, 0, 0x11)
+BrokenWeaponEntry(MstSwdName, MstSwdDesc, 3, 70, 6, 0, 0x11)
+BrokenWeaponEntryRapierName, RapierDesc, 7, 95,	5, 10, 0x11)
+BrokenWeaponEntry(MstLncName, MstSwdDesc, 8, 80, 3, 20,	0x11)
+BrokenWeaponEntry(BraveSwordName, BraveSwordDesc, 9, 75, 12, 0,	0x11)
+ BrokenWeaponEntry(ThornName, ThornDesc, 8, 75,	5, 35, 0x11)
+BrokenWeaponEntry(KillSwdName, KillSwdDesc, 9, 75, 7, 30, 0x11)
+BrokenWeaponEntry(ArmorSwdName, ArmorSwdDesc, 8, 80, 11, 0, 0x11)
+BrokenWeaponEntry(DragonSwdName, DragonSwdDesc, 8, 75, 5, 0, 0x11)
+BrokenWeaponEntry(LightBrandName, LightBrandDesc, 9, 70, 9, 0, 0x12)
+BrokenWeaponEntry(RuneSwdName, RuneSwdDesc, 12,	65, 11,	0, 0x12)
+BrokenWeaponEntry(LancereaverName, LncReDesc, 9, 75, 9, 5, 0x11)
+
+
+
+
+
+
+
+
+
+BrokenWeaponEntry(0x112, 0x113, 0, 50, 20, 0, 0x11) // lances
+
+
+
+BrokenWeaponEntry(0x114, 0x115, 0, 50, 20, 0, 0x11) // axes
+
+
+
+BrokenWeaponEntry(0x116, 0x117, 0, 50, 20, 0, 0x22) // bows
+
+
+
+BrokenWeaponEntry(0x118, 0x119, 0, 50, 20, 0, 0x11) // staves
+
+
+
+BrokenWeaponEntry(0x11A, 0x11B, 0, 50, 20, 0, 0x12) // anima
+
+
+
+BrokenWeaponEntry(0x11C, 0x11D, 0, 50, 20, 0, 0x12) // light
+
+
+
+BrokenWeaponEntry(0x11E, 0x11F, 0, 50, 20, 0, 0x12) // dark
+
+ALIGN 4
+AutoRefreshList:
+BYTE 0xF4 // Again Staff
+BYTE 0xF3 // Thief Staff
+BYTE 0xF2 // Entrap
+BYTE 0xF1 // Stim
+BYTE 0xBB //Rewarp
+
+BYTE 0 // terminator
+
+// don't touch anything below here
+ALIGN 4
+ConvoySize_Link:
+WORD MaxConvoy
+
+ALIGN 4
+EQUIP_BROKEN_WEAPONS_Link:
+WORD EQUIP_BROKEN_WEAPONS
+
+ALIGN 4
+EQUIP_BROKEN_MAGIC_Link:
+WORD EQUIP_BROKEN_MAGIC
+
+#include "AutoRefreshingWeapons.lyn.event"
+

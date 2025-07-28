@@ -431,3 +431,13 @@ no rule of law.[X]
 [MidRight][LoadAme]
 I can't...go home[N]
 now...[A][CloseEyes][X]
+
+## DeadbeatName
+Deadbeat[X]
+
+## NousagiName
+Nousagi[X]
+
+## NousagiTxt
+A soldier from the invading[N]
+armies of Pekoland.[A]

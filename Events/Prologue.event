@@ -72,13 +72,13 @@ PlayerUnits:
 
 EnemyUnits:
 
-	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA4R9 [RottenClaw,Vulnerary] ChargeAI
+	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] DropItem 0x0 1 REDA4R9 [RottenClaw,Vulnerary] ChargeAI
 	
-	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA8R11 [RottenClaw,Vulnerary] Wait1Turn
+	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA8R11 [RottenClaw,0x0] Wait1Turn
 	
-	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA6R14 [RottenClaw,Vulnerary] Wait1Turn
+	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA6R14 [RottenClaw,0x0] Wait1Turn
 	
-	UNIT 0x49 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA6R17 [RottenClaw,Vulnerary] RangeAI
+	UNIT 0x49 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA6R17 [RottenClaw,0x0] RangeAI
 
         UNIT
 

@@ -64,6 +64,8 @@ Dragz:
 Abort Staff
 MMB Window Palette
 Event Menu Update
+AutoRefresh
+Entrap
 
 Legend of Loog:
 Move Stars

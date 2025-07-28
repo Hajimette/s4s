@@ -227,8 +227,8 @@ SongTable(FE5MapBID, FE5MapB, MapMusicGroup)
 }
 
 {
-#include "MusicEvents/FE5SearchingforVictory.event"
-SongTable(FE5SearchingforVictoryID, FE5SearchingforVictory, MapMusicGroup)
+#include "MusicEvents/SearchingforSeiso.event"
+SongTable(SearchingforSeisoID, SearchingforSeiso, MapMusicGroup)
 }
 
 {
@@ -389,6 +389,11 @@ SongTable(EnemyMessage2ID, EnemyMessage2, MapMusicGroup)
 {
 #include "MusicEvents/FE5Barbarians.event"
 SongTable(FE5BarbariansID, FE5Barbarians, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/SecretGardens.event"
+SongTable(SecretGardenID, SecretGardens, MapMusicGroup)
 }
 
 #include "SoundroomEditor.event"

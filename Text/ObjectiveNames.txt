@@ -2,7 +2,8 @@
 Escape[X]
 
 ## DefeatPrologue
-Escape the Underworld[X]
+Escape the[N]
+Underworld[X]
 
 ## EscapeChp1
 Escape the Forest[X]

@@ -61,6 +61,7 @@ ALIGN 4
     #include "New Stuff/MMB/Installers/MMBWindowPalettes/MMBWindowPalette.event"
     #include "New Stuff/asmcheck/ASMCCheckInstaller.event"
     #include "New Stuff/100and0/GrowthModesCheck.event"
+    #include "New Stuff/Entrap/Entrap.event"
 
 //#include "ExternalTables/BossMusicTable.event"
 

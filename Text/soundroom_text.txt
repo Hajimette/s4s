@@ -167,7 +167,7 @@ Loptous A- FE5 [X]
 Map B- FE5 [X]
 
 ## Search4VictoryTxt
-Searching for Victory- FE5 [X]
+Searching for Seiso[X]
 
 ## ChargeBTxt
 Charge B- FE5 [X]
@@ -225,3 +225,6 @@ Enemy Message 2[X]
 
 ## FE5BarbariansTxt
 FE5 Barbarians[X]
+
+## SecretGardenTxt
+Secret Gardens[X]

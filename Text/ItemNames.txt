@@ -1148,11 +1148,6 @@ Entrap[X]
 ## EntrapDesc
 Brings enemy to caster.[X]
 
-## EntrapUse
-Drag someone[N]
-within striking[N]
-distance![X]
-
 ## ThiefName
 Thief Staff[X]
 
@@ -1257,3 +1252,6 @@ Warp to another location.[X]
 
 ## InjectName
 Inject[X]
+
+## EntrapSubtitleText
+Select unit to entrap.[X]

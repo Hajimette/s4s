@@ -34,7 +34,7 @@ POIN StealStaff_IgnoreItems
 WORD 0 //end of list
 
 //comment out the line below to prevent the steal staff from taking weapons
-// #define StealStaff_TakeWeapons
+#define StealStaff_TakeWeapons
 
 //creates the staff's map animation
 ALIGN 4

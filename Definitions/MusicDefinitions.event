@@ -31,7 +31,8 @@
 #define AmeliaMomentID 0x318
 #define InfinityID 0x46
 #define ShinigamiID 0x08
-
+#define SearchingforSeisoID 0x35
+#define SecretGardenID 0x54
 
 //FE4 
 #define FE4AnotherAssaultID 0x21
@@ -66,7 +67,6 @@
 #define FE5NearVictoryID 0x10
 #define FE5LoptousAID 0x33
 #define FE5MapBID 0x34
-#define FE5SearchingforVictoryID 0x35
 #define FE5ChargeBID 0x36
 
 //FE6

@@ -42,3 +42,6 @@ Chapter 10x: The Oni[X]
 
 ## Interlude2Title
 Interlude: Regrouping[X]
+
+## EscapeObjective
+Escape[X]
