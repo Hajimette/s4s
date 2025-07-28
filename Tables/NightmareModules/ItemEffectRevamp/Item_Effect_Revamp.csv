@@ -64,7 +64,7 @@ Multi-Skill Scroll,MultiScrollUsability|IsPointer,MultiScrollPrepUsability|IsPoi
 0x3e,Abort,AbortUsability|IsPointer,0x802a100,0x802ff76,0x0
 0x3f,StealStaff_Usability|IsPointer,StealStaff_UseCondition|IsPointer,StealStaff_Targeting|IsPointer,StealStaff_ItemEffect|IsPointer,0x0
 0x40,BurglarStaff_Usability|IsPointer,0x802a100,BurglarStaff_Targeting|IsPointer,BurglarStaff_Effect|IsPointer,BurglarStaff_Unlock|IsPointer
-0x41,EntrapUsabilityWrapper|IsPointer,0x802a100,EntrapTargetingWrapper|IsPointer,0x802ff76,ExecEntrapWrapper|IsPointer
+0x41,EntrapUsabilityWrapper|IsPointer,0x802a100,EntrapTargetingWrapper|IsPointer,ExecEntrapWrapper|IsPointer,0x0
 0x42,0x8028c04,0x802a100,0x802905c,0x802ff76,0x0
 0x43,0x8028c04,0x802a100,0x802905c,0x802ff76,0x0
 0x44,0x8028c04,0x802a100,0x802905c,0x802ff76,0x0

@@ -58,4 +58,14 @@ BYTE HardCharLock
 BYTE Fauna
 BYTE EndLockArray
 
+MikoArray:
+BYTE HardCharLock
+BYTE Miko
+BYTE EndLockArray
+
+NoelArray:
+BYTE HardCharLock
+BYTE Noel
+BYTE EndLockArray
+
 #endif // ADV_WEAPON_LOCKS

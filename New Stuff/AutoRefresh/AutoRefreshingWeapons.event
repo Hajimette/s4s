@@ -33,7 +33,7 @@ BrokenWeaponEntryRapierName, RapierDesc, 7, 95,	5, 10, 0x11)
 BrokenWeaponEntry(MstLncName, MstSwdDesc, 8, 80, 3, 20,	0x11)
 BrokenWeaponEntry(BraveSwordName, BraveSwordDesc, 9, 75, 12, 0,	0x11)
  BrokenWeaponEntry(ThornName, ThornDesc, 8, 75,	5, 35, 0x11)
-BrokenWeaponEntry(KillSwdName, KillSwdDesc, 9, 75, 7, 30, 0x11)
+BrokenWeaponEntry(KillSwdName, KillSwdDesc, 9, 80, 7, 30, 0x11)
 BrokenWeaponEntry(ArmorSwdName, ArmorSwdDesc, 8, 80, 11, 0, 0x11)
 BrokenWeaponEntry(DragonSwdName, DragonSwdDesc, 8, 75, 5, 0, 0x11)
 BrokenWeaponEntry(LightBrandName, LightBrandDesc, 9, 70, 9, 0, 0x12)
@@ -44,11 +44,18 @@ BrokenWeaponEntry(LancereaverName, LncReDesc, 9, 75, 9, 5, 0x11)
 
 
 
+BrokenWeaponEntry(IronLncName, BlankDesc, 7, 80, 8, 0, 0x11) // lances
+BrokenWeaponEntry(SlimLncName, SlimSwdDesc, 3, 90, 4, 5, 0x11)
+BrokenWeaponEntry(SteelLncName, BlankDesc, 10, 75, 13, 0, 0x11)
+BrokenWeaponEntry(SilverLnc, BlankDesc, 14, 80, 10, 0, 0x11)
+BrokenWeaponEntry(SupLncName, SupLncDesc, 16, 70, 14, 0, 0x11)
+BrokenWeaponEntry(BraveLanceName, BraveSwordDesc, 10, 75, 14, 0, 0x11)
+BrokenWeaponEntry(KillLnce, KillSwdDesc, 10, 75, 9, 30, 0x11)
+BrokenWeaponEntry(HorseslayerName, HorseslayerDesc, 7, 75, 13, 0, 0x11)
+BrokenWeaponEntry(JavelinName, JavelinDesc, 6, 70, 11, 0, 0x12)
+BrokenWeaponEntry(SpearName, SpearDesc, 12, 75, 10, 5, 0x12)
+BrokenWeaponEntry(AxereaverName, AxereaverDesc, 10, 75, 11, 5,)
 
-
-
-
-BrokenWeaponEntry(0x112, 0x113, 0, 50, 20, 0, 0x11) // lances
 
 
 

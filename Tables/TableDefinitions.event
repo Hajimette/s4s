@@ -217,6 +217,9 @@ ALIGN 4
 ThornBoost:
 StatBonus(0, 7, 7, 0, 0, 0, 0, 0, 3, 0)
 
+ALIGN 4
+SlimLanceBoost:
+StatBonus(0, 0, 0, 0, 4, 0, 0, 0, 0, 0)
 
 //ALIGN 4
 //WeaponStatBoosts:

@@ -11,7 +11,8 @@
 #define ReineLock 0x02000000
 #define MumeiLock 0x03000000
 #define FaunaLock 0x04000000
-
+#define MikoLock 0x05000000
+#define NoelLock 0x06000000
 
 
 

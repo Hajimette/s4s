@@ -62,6 +62,7 @@ ALIGN 4
     #include "New Stuff/asmcheck/ASMCCheckInstaller.event"
     #include "New Stuff/100and0/GrowthModesCheck.event"
     #include "New Stuff/Entrap/Entrap.event"
+#include "New Stuff/StaffItemLock/StaffItemLock.txt"
 
 //#include "ExternalTables/BossMusicTable.event"
 

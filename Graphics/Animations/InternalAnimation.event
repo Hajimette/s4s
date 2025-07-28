@@ -16,7 +16,7 @@
 #define SwordAnim(Animation) "BYTE 0x00 0x01 ; SHORT Animation"
 #define LanceAnim(Animation) "BYTE 0x01 0x01 ; SHORT Animation"
 #define AxeAnim(Animation) "BYTE 0x02 0x01 ; SHORT Animation"
-#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE 0x2C 0x00 ; SHORT Animation"
 #define BowAnim(Animation) "BYTE 0x03 0x01 ; SHORT Animation"
 #define StaffAnim(Animation) "BYTE 0x04 0x01 ; SHORT Animation"
 #define AnimaAnim(Animation) "BYTE 0x05 0x01 ; SHORT Animation"
@@ -1070,6 +1070,7 @@ LanceAnim(0x45)
 AxeAnim(0x46)
 HandAxeAnim(0x47)
 UnarmedAnim(0x48)
+//SpecialAnim(0x47,0x2C)
 BowAnim(0x49)
 WORD 0x0
 
@@ -1405,6 +1406,7 @@ ALIGN 4
 SuiseiAnim:
 AxeAnim(0x19)
 HandAxeAnim(0x1A)
+//SpecialAnim(0x1A,0x2C)
 UnarmedAnim(0x1B)
 WORD 0x0
 
