@@ -36,10 +36,10 @@ Wyvern Lord,0,0,40,0
 Wyvern Lord (F),0,0,40,0
 Wyvern Knight,1,5,40,1
 Wyvern Knight (F),1,5,40,1
-Mage,1,55,40,0
-Mage (F),1,55,40,0
-Sage,5,45,40,1
-Sage (F),4,45,40,1
+Mage,4,55,20,0
+Mage (F),4,55,20,0
+Sage,8,45,40,1
+Sage (F),8,45,40,1
 Mage Knight,4,40,40,2
 Mage Knight (F),3,40,40,2
 Bishop,4,35,40,2
