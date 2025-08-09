@@ -5670,35 +5670,35 @@ __TEXTPROCESS12AA:
 setText($12AA, __TEXTPROCESS12AA)
 
 __TEXTPROCESS12AB:
-#incbin ".TextEntries/text_buildfileChp3xTitle.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp4Title.fetxt.dmp"
 setText($12AB, __TEXTPROCESS12AB)
 
 __TEXTPROCESS12AC:
-#incbin ".TextEntries/text_buildfileChp4Title.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp5Title.fetxt.dmp"
 setText($12AC, __TEXTPROCESS12AC)
 
 __TEXTPROCESS12AD:
-#incbin ".TextEntries/text_buildfileChp5Title.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp6Title.fetxt.dmp"
 setText($12AD, __TEXTPROCESS12AD)
 
 __TEXTPROCESS12AE:
-#incbin ".TextEntries/text_buildfileInterlude1Title.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp7Title.fetxt.dmp"
 setText($12AE, __TEXTPROCESS12AE)
 
 __TEXTPROCESS12AF:
-#incbin ".TextEntries/text_buildfileChp6Title.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp8Title.fetxt.dmp"
 setText($12AF, __TEXTPROCESS12AF)
 
 __TEXTPROCESS12B0:
-#incbin ".TextEntries/text_buildfileChp7Title.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileInterlude1Title.fetxt.dmp"
 setText($12B0, __TEXTPROCESS12B0)
 
 __TEXTPROCESS12B1:
-#incbin ".TextEntries/text_buildfileChp8Title.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp9Title.fetxt.dmp"
 setText($12B1, __TEXTPROCESS12B1)
 
 __TEXTPROCESS12B2:
-#incbin ".TextEntries/text_buildfileChp9Title.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp9xTitle.fetxt.dmp"
 setText($12B2, __TEXTPROCESS12B2)
 
 __TEXTPROCESS12B3:
@@ -5706,7 +5706,7 @@ __TEXTPROCESS12B3:
 setText($12B3, __TEXTPROCESS12B3)
 
 __TEXTPROCESS12B4:
-#incbin ".TextEntries/text_buildfileChp10xTitle.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp11Title.fetxt.dmp"
 setText($12B4, __TEXTPROCESS12B4)
 
 __TEXTPROCESS12B5:
@@ -5714,24 +5714,48 @@ __TEXTPROCESS12B5:
 setText($12B5, __TEXTPROCESS12B5)
 
 __TEXTPROCESS12B6:
-#incbin ".TextEntries/text_buildfileEscapeObjective.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp12Title.fetxt.dmp"
 setText($12B6, __TEXTPROCESS12B6)
 
 __TEXTPROCESS12B7:
-#incbin ".TextEntries/text_buildfileAmeliaStim1.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp13Title.fetxt.dmp"
 setText($12B7, __TEXTPROCESS12B7)
 
 __TEXTPROCESS12B8:
-#incbin ".TextEntries/text_buildfileEscapeObj.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp14Title.fetxt.dmp"
 setText($12B8, __TEXTPROCESS12B8)
 
 __TEXTPROCESS12B9:
-#incbin ".TextEntries/text_buildfileDefeatPrologue.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp15Title.fetxt.dmp"
 setText($12B9, __TEXTPROCESS12B9)
 
 __TEXTPROCESS12BA:
-#incbin ".TextEntries/text_buildfileEscapeChp1.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileChp16Title.fetxt.dmp"
 setText($12BA, __TEXTPROCESS12BA)
+
+__TEXTPROCESS12BB:
+#incbin ".TextEntries/text_buildfileChp17Title.fetxt.dmp"
+setText($12BB, __TEXTPROCESS12BB)
+
+__TEXTPROCESS12BC:
+#incbin ".TextEntries/text_buildfileEscapeObjective.fetxt.dmp"
+setText($12BC, __TEXTPROCESS12BC)
+
+__TEXTPROCESS12BD:
+#incbin ".TextEntries/text_buildfileAmeliaStim1.fetxt.dmp"
+setText($12BD, __TEXTPROCESS12BD)
+
+__TEXTPROCESS12BE:
+#incbin ".TextEntries/text_buildfileEscapeObj.fetxt.dmp"
+setText($12BE, __TEXTPROCESS12BE)
+
+__TEXTPROCESS12BF:
+#incbin ".TextEntries/text_buildfileDefeatPrologue.fetxt.dmp"
+setText($12BF, __TEXTPROCESS12BF)
+
+__TEXTPROCESS12C0:
+#incbin ".TextEntries/text_buildfileEscapeChp1.fetxt.dmp"
+setText($12C0, __TEXTPROCESS12C0)
 
 }
 

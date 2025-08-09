@@ -2,6 +2,7 @@
 
 EventPointerTable(FE4StyleFieldsID, FE4StyleFields)
 EventPointerTable(StrongholdAnimsID, StrongholdAnims)
+EventPointerTable(DungeonAnimsID, DungeonAnims)
 //EventPointerTable(
 
 ALIGN 4
@@ -200,6 +201,35 @@ StrongholdAnim15:
 
 
 ALIGN 4
+DungeonAnim0:
+#incbin "FE5Dungeon/DungeonAnimations/DungeonFE5.mapanime1_000.dmp"
+
+ALIGN 4
+DungeonAnim1:
+#incbin "FE5Dungeon/DungeonAnimations/DungeonFE5.mapanime1_001.dmp"
+
+ALIGN 4
+DungeonAnim2:
+#incbin "FE5Dungeon/DungeonAnimations/DungeonFE5.mapanime1_002.dmp"
+
+ALIGN 4
+DungeonAnim3:
+#incbin "FE5Dungeon/DungeonAnimations/DungeonFE5.mapanime1_003.dmp"
+
+ALIGN 4
+DungeonAnim4:
+#incbin "FE5Dungeon/DungeonAnimations/DungeonFE5.mapanime1_004.dmp"
+
+ALIGN 4
+DungeonAnim5:
+#incbin "FE5Dungeon/DungeonAnimations/DungeonFE5.mapanime1_005.dmp"
+
+ALIGN 4
+DungeonAnim6:
+#incbin "FE5Dungeon/DungeonAnimations/DungeonFE5.mapanime1_006.dmp"
+
+
+ALIGN 4
 FE4StyleFields:
 tilesetAnimation(16,0x1000,SuperFieldsAnims0)
 tilesetAnimation(16,0x1000,SuperFieldsAnims1)
@@ -257,3 +287,13 @@ tilesetAnimation(14,0x1000,StrongholdAnim15)
 WORD 0 0
 
 
+ALIGN 4
+DungeonAnims:
+tilesetAnimation(12,0x1000,DungeonAnim0)
+tilesetAnimation(12,0x1000,DungeonAnim1)
+tilesetAnimation(12,0x1000,DungeonAnim2)
+tilesetAnimation(12,0x1000,DungeonAnim3)
+tilesetAnimation(12,0x1000,DungeonAnim4)
+tilesetAnimation(12,0x1000,DungeonAnim5)
+tilesetAnimation(12,0x1000,DungeonAnim6)
+WORD 0 0

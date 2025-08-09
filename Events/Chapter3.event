@@ -1,0 +1,100 @@
+SetChapterEvents(Chapter3Event, PointerList)
+
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN PlayerUnits PlayerUnits  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+	END_MAIN
+
+LocationBasedEvents:
+
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+PlayerUnits:
+
+UNIT Amelia 0x1 Amelia Level(1,Ally,False) [0,4] 0x0 0x0 0x0 0x0 [0,0] NoAI
+
+        UNIT 0x2 0x4 Amelia Level(1,Ally,False) [2,9] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	
+	UNIT Mumei 0xD Amelia Level(1,Ally,False) [1,10] 0x0 0x0 0x0 0x0 [0,0] NoAI
+
+	UNIT Fauna 0x1A Amelia Level(1,Ally,False) [0,6] 0x0 0x0 0x0 0x0 [0,0] NoAI  
+
+UNIT Miko 0x4A Amelia Level(3,Ally,False) [0,7] 0x0 0x0 0x0  0x0 [Heal,0xF4, Vulnerary] NoAI
+
+	UNIT Suisei 0x3F Amelia Level(4,Ally,False) [0,9] 0x0 0x0 0x0  0x0 [IronAxe,Vulnerary] NoAI
+	
+	UNIT 0x8 0x87 Amelia Level(4,Ally,False) [1,7] 0x0 0x0 0x0  0x0 [IronAxe,0x2C,Vulnerary] NoAI
+	
+	UNIT 0x9 0x9 Amelia Level(5,Ally,False) [1,5] 0x0 0x0 0x0  0x0 [Mace,IronLance,Vulnerary] NoAI
+	
+	UNIT 0xA 0xC2 Amelia Level(4,Ally,False) [0,8] 0x0 0x0 0x0  0x0 [IronBow,Vulnerary] NoAI
+
+	UNIT
+
+Rat:
+	UNIT 0x7 0x83 Amelia Level(1,Ally,False) [20,15] 0x0 0x0 0x0 0x0 [0xC5,Fire,Vulnerary] NoAI
+
+EnemyUnits:
+
+UNIT 0x80 0x3f 0x53 Level(3,Enemy,True) [20,1] 0x0 0x0 0x0 0x0 [Hammer] NoMoveAI
+
+	UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+LOAD1 0 PlayerUnits
+
+LOAD1 0 Rat
+
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	GotoPrepScreen
+	ENDA
+
+EndingScene:
+	MNC2 4
+	NoFade
+	ENDA

@@ -20,3 +20,5 @@
 #include "ItemIcons/Installer.event"
 
 #include "UserInterface.event"
+
+#include "ArmyPalettes/ArmyPalette.event"

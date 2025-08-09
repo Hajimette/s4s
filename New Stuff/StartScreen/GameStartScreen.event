@@ -51,7 +51,7 @@ GameIntroGfx_Tiles:
 
 ALIGN 4
 GameIntro_BG0_TSA:
-	#incbin "data/GameIntro_BG0.tsa.lz"
+	#incbin "data/GameIntro_BG1.tsa.lz"
 
 ALIGN 4
 GameIntro_BG1_TSA:

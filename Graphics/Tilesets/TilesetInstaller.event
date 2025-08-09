@@ -33,3 +33,18 @@ SetTilesetObject(VillageRemakeID, VillageRemakeObject)
 SetTilesetPalette(VillageRemakePalID, VillageRemakePal)
 SetTilesetConfig(VillageRemakeConfigID, VillageRemakeConfig)
 
+#include "FE5Dungeon/FE5Dungeon.event"
+SetTilesetObject(DungeonID, DungeonObject)
+SetTilesetPalette(DungeonPalID, DungeonPal)
+SetTilesetConfig(DungeonConfigID, DungeonConfig)
+
+
+
+
+
+
+
+
+
+
+

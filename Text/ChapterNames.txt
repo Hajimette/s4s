@@ -10,38 +10,57 @@ Chapter 2: Shike Village[X]
 ## Chp3Title
 Chapter 3: Hope to the East[X]
 
-## Chp3xTitle
-Chapter 3x: Society is a Circus[X]
-
 ## Chp4Title
-Chapter 4: Invasion[X]
+Chapter 4: Outmaneuvered[X]
 
 ## Chp5Title
-Chapter 5: The Princess of Sweets[X]
-
-## Interlude1Title
-Interlude: Brief Respite[X]
+Chapter 5: Splintered[X]
 
 ## Chp6Title
-Chapter 6: Glass and Fire[X]
+Chapter 6: Investigation[X]
 
 ## Chp7Title
-Chapter 7: Sand Remembers Blood[X]
+Chapter 7: The Path Forward[X]
 
 ## Chp8Title
-Chapter 8: Disadvantaged[X]
+Chapter 8: Fire and Brimstone[X]
+
+## Interlude1Title
+Interlude: Regrouping[X]
 
 ## Chp9Title
-Chapter 9: The Resistance[X]
+Chapter 9: Sand Remembers Blood[X]
+
+## Chp9xTitle
+Chapter 9x: The Oni[X]
 
 ## Chp10Title
-Chapter 10: Liberation[X]
+Chapter 10: Invasion[X]
 
-## Chp10xTitle
-Chapter 10x: The Oni[X]
+## Chp11Title
+Chapter 11: Princess of Sweets[X]
 
 ## Interlude2Title
-Interlude: Regrouping[X]
+Interlude: Brief Respite[X]
+
+## Chp12Title
+Chapter 12: Liberty Calls[X]
+
+## Chp13Title
+Chapter 13: Forest Fires[X]
+
+## Chp14Title
+Chapter 14: Aggression[X]
+
+## Chp15Title
+Chapter 15: The Battle Begins[X]
+
+## Chp16Title
+Chapter 16: Tides Turn[X]
+
+## Chp17Title
+Chapter 17: Liberation[X]
+
 
 ## EscapeObjective
 Escape[X]

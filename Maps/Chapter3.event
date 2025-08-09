@@ -26,15 +26,15 @@ ALIGN 4
 MapData:
   #incbin "Chapter3_data.dmp"
 
-SetChapterData(0x03, 0x01, 0, 0x01, 0x01, 0x11, MapData, 0, 0, 0x13)
+SetChapterData(3, 0x1, 0, 0x2, 0x1, 0x3, MapData, 0x1, 0x0, 0x13)
 
 ALIGN 4
 Map_Change_0:
-  SHORT $80
+  SHORT $C9C $CA0 $CA4 $D1C $D20 $D24 $D9C $80 $DA4
 
 ALIGN 4
 Map_Change_1:
-  SHORT $80
+  SHORT $E1C $E20 $E24 $E9C $EA0 $EA4 $F1C $F20 $F24
 
 ALIGN 4
 Map_Change_2:
@@ -42,18 +42,18 @@ Map_Change_2:
 
 ALIGN 4
 Map_Change_3:
-  SHORT $E1C $E20 $E24 $E9C $EA0 $EA4 $F1C $F20 $F24
+  SHORT $80
 
 ALIGN 4
 Map_Change_4:
-  SHORT $C $94 $90 $114
+  SHORT $110 $94 $94 $194
 
 ALIGN 4
 MapChangesData:
-  TileMap(0, 17, 2, 1, 1, Map_Change_0)
-  TileMap(1, 20, 14, 1, 1, Map_Change_1)
+  TileMap(0, 19, 12, 3, 3, Map_Change_0)
+  TileMap(1, 19, 12, 3, 3, Map_Change_1)
   TileMap(2, 16, 0, 3, 3, Map_Change_2)
-  TileMap(3, 19, 12, 3, 3, Map_Change_3)
+  TileMap(3, 17, 2, 1, 1, Map_Change_3)
   TileMap(4, 12, 15, 4, 1, Map_Change_4)
   TileMapEnd
 

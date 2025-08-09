@@ -1,0 +1,18 @@
+PUSH
+ORG 0x59EE20
+ArmyBluePal:
+BYTE $90 $42 $2B $3D $F2 $76 $BB $7B $8E $31 $56 $2E $FF $6B $C6 $40 $05 $69 $E3 $6D $41 $6F $5D $0C $FF $23 $30 $3A $FF $7F $0A $21
+POP
+
+
+PUSH
+ORG 0x59EE40
+ArmyRedPal:
+BYTE $90 $42 $2D $31 $B8 $5E $9C $73 $8E $31 $56 $2E $FF $6B $AC $10 $93 $14 $58 $08 $5A $25 $47 $1B $FF $23 $30 $3A $FF $7F $09 $21
+POP
+
+PUSH
+ORG 0x59EE60
+ArmyGreenPal:
+BYTE $90 $42 $47 $1D $33 $43 $FB $5F $6B $29 $34 $22 $FF $63 $44 $09 $01 $02 $C3 $0A $4A $1F $E0 $65 $FC $17 $30 $3A $FF $7F $07 $1D 
+POP

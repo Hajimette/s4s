@@ -17,6 +17,7 @@
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
 
+
 //Bruh
 ALIGN 4
   ActionTextIDLink:

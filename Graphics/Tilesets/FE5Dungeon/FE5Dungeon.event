@@ -1,0 +1,11 @@
+ALIGN 4
+DungeonObject:
+#incbin "Dungeon.dmp"
+
+ALIGN 4
+DungeonPal:
+#incbin "Dungeon_pal.dmp"
+
+ALIGN 4
+DungeonConfig:
+#incbin "DungeonConfig_comp.dmp"
