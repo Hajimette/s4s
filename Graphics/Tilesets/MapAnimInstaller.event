@@ -1,8 +1,8 @@
 #define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
 
-EventPointerTable(FE4StyleFieldsID, FE4StyleFields)
-EventPointerTable(StrongholdAnimsID, StrongholdAnims)
-EventPointerTable(DungeonAnimsID, DungeonAnims)
+SetTileAnim(FE4StyleFieldsID, FE4StyleFields)
+SetTileAnim(StrongholdAnimsID, StrongholdAnims)
+SetTileAnim(DungeonAnimsID, DungeonAnims)
 //EventPointerTable(
 
 ALIGN 4

@@ -42,132 +42,136 @@ __TEXTPROCESS03E:
 setText($3E, __TEXTPROCESS03E)
 
 __TEXTPROCESS03F:
-#incbin ".TextEntries/text_buildfileSS_TalkRText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileFatigueTxt.fetxt.dmp"
 setText($3F, __TEXTPROCESS03F)
 
 __TEXTPROCESS040:
-#incbin ".TextEntries/text_buildfileSS_SkillsRText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_TalkRText.fetxt.dmp"
 setText($40, __TEXTPROCESS040)
 
 __TEXTPROCESS041:
-#incbin ".TextEntries/text_buildfileSS_SkillsDefaultRText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_SkillsRText.fetxt.dmp"
 setText($41, __TEXTPROCESS041)
 
 __TEXTPROCESS042:
-#incbin ".TextEntries/text_buildfilePersonalDataDesc1.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_SkillsDefaultRText.fetxt.dmp"
 setText($42, __TEXTPROCESS042)
 
 __TEXTPROCESS043:
-#incbin ".TextEntries/text_buildfilePersonalDataDesc2.fetxt.dmp"
+#incbin ".TextEntries/text_buildfilePersonalDataDesc1.fetxt.dmp"
 setText($43, __TEXTPROCESS043)
 
 __TEXTPROCESS044:
-#incbin ".TextEntries/text_buildfileLeadText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfilePersonalDataDesc2.fetxt.dmp"
 setText($44, __TEXTPROCESS044)
 
 __TEXTPROCESS045:
-#incbin ".TextEntries/text_buildfileLeadRText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileLeadText.fetxt.dmp"
 setText($45, __TEXTPROCESS045)
 
 __TEXTPROCESS046:
-#incbin ".TextEntries/text_buildfileAllyStarCountRText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileLeadRText.fetxt.dmp"
 setText($46, __TEXTPROCESS046)
 
 __TEXTPROCESS047:
-#incbin ".TextEntries/text_buildfileEnemyStarCountRText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileAllyStarCountRText.fetxt.dmp"
 setText($47, __TEXTPROCESS047)
 
 __TEXTPROCESS048:
-#incbin ".TextEntries/text_buildfileDonateURL.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileEnemyStarCountRText.fetxt.dmp"
 setText($48, __TEXTPROCESS048)
 
 __TEXTPROCESS049:
-#incbin ".TextEntries/text_buildfileSS_BiorhythmText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileDonateURL.fetxt.dmp"
 setText($49, __TEXTPROCESS049)
 
 __TEXTPROCESS04A:
-#incbin ".TextEntries/text_buildfileSS_BiorhythmRText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_BiorhythmText.fetxt.dmp"
 setText($4A, __TEXTPROCESS04A)
 
 __TEXTPROCESS04B:
-#incbin ".TextEntries/text_buildfileSS_BiorhythmNeutral.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_BiorhythmRText.fetxt.dmp"
 setText($4B, __TEXTPROCESS04B)
 
 __TEXTPROCESS04C:
-#incbin ".TextEntries/text_buildfileSS_BiorhythmGood.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_BiorhythmNeutral.fetxt.dmp"
 setText($4C, __TEXTPROCESS04C)
 
 __TEXTPROCESS04D:
-#incbin ".TextEntries/text_buildfileSS_BiorhythmGreat.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_BiorhythmGood.fetxt.dmp"
 setText($4D, __TEXTPROCESS04D)
 
 __TEXTPROCESS04E:
-#incbin ".TextEntries/text_buildfileSS_BiorhythmBest.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_BiorhythmGreat.fetxt.dmp"
 setText($4E, __TEXTPROCESS04E)
 
 __TEXTPROCESS04F:
-#incbin ".TextEntries/text_buildfileSS_BiorhythmPoor.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_BiorhythmBest.fetxt.dmp"
 setText($4F, __TEXTPROCESS04F)
 
 __TEXTPROCESS050:
-#incbin ".TextEntries/text_buildfileSS_BiorhythmBad.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_BiorhythmPoor.fetxt.dmp"
 setText($50, __TEXTPROCESS050)
 
 __TEXTPROCESS051:
-#incbin ".TextEntries/text_buildfileSS_BiorhythmWorst.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_BiorhythmBad.fetxt.dmp"
 setText($51, __TEXTPROCESS051)
 
 __TEXTPROCESS052:
-#incbin ".TextEntries/text_buildfileLikesDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_BiorhythmWorst.fetxt.dmp"
 setText($52, __TEXTPROCESS052)
 
 __TEXTPROCESS053:
-#incbin ".TextEntries/text_buildfileDislikesDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileLikesDesc.fetxt.dmp"
 setText($53, __TEXTPROCESS053)
 
 __TEXTPROCESS054:
-#incbin ".TextEntries/text_buildfileAgeDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileDislikesDesc.fetxt.dmp"
 setText($54, __TEXTPROCESS054)
 
 __TEXTPROCESS055:
-#incbin ".TextEntries/text_buildfileHeightDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileAgeDesc.fetxt.dmp"
 setText($55, __TEXTPROCESS055)
 
 __TEXTPROCESS056:
-#incbin ".TextEntries/text_buildfileFireAffinityDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileHeightDesc.fetxt.dmp"
 setText($56, __TEXTPROCESS056)
 
 __TEXTPROCESS057:
-#incbin ".TextEntries/text_buildfileThunderAffinityDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileFireAffinityDesc.fetxt.dmp"
 setText($57, __TEXTPROCESS057)
 
 __TEXTPROCESS058:
-#incbin ".TextEntries/text_buildfileWindAffinityDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileThunderAffinityDesc.fetxt.dmp"
 setText($58, __TEXTPROCESS058)
 
 __TEXTPROCESS059:
-#incbin ".TextEntries/text_buildfileIceAffinityDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileWindAffinityDesc.fetxt.dmp"
 setText($59, __TEXTPROCESS059)
 
 __TEXTPROCESS05A:
-#incbin ".TextEntries/text_buildfileDarkAffinityDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileIceAffinityDesc.fetxt.dmp"
 setText($5A, __TEXTPROCESS05A)
 
 __TEXTPROCESS05B:
-#incbin ".TextEntries/text_buildfileLightAffinityDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileDarkAffinityDesc.fetxt.dmp"
 setText($5B, __TEXTPROCESS05B)
 
 __TEXTPROCESS05C:
-#incbin ".TextEntries/text_buildfileAnimaAffinityDesc.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileLightAffinityDesc.fetxt.dmp"
 setText($5C, __TEXTPROCESS05C)
 
 __TEXTPROCESS05D:
-#incbin ".TextEntries/text_buildfileSS_PCCText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileAnimaAffinityDesc.fetxt.dmp"
 setText($5D, __TEXTPROCESS05D)
 
 __TEXTPROCESS05E:
-#incbin ".TextEntries/text_buildfileSS_MovStarText.fetxt.dmp"
+#incbin ".TextEntries/text_buildfileSS_PCCText.fetxt.dmp"
 setText($5E, __TEXTPROCESS05E)
+
+__TEXTPROCESS05F:
+#incbin ".TextEntries/text_buildfileSS_MovStarText.fetxt.dmp"
+setText($5F, __TEXTPROCESS05F)
 
 __TEXTPROCESSD4C:
 #incbin ".TextEntries/text_buildfileLikesText.fetxt.dmp"
