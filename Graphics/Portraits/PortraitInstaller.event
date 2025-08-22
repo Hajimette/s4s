@@ -56,6 +56,7 @@
 #define SuiseiP 0x8
 #define FlareP 0xE
 #define SubaruP 0x13
+#define IrohaP 0x3
 
 //Pending but aligned
 #define CalliopePortrait 0xAD
@@ -526,6 +527,14 @@ MKmeliaData:
 #incbin "Dmps/MKmelia_minimug.dmp"
 setMugEntry(AmeP, MKmeliaData, 3, 6, 3, 4)
 
+ALIGN 4
+IrohaData:
+#incbin "Dmps/Iroha_mug.dmp"
+#incbin "Dmps/Iroha_frames.dmp"
+#incbin "Dmps/Iroha_palette.dmp"
+#incbin "Dmps/Iroha_minimug.dmp"
+setMugEntry(IrohaP, IrohaData, 4, 7, 4, 5)
+
 //ALIGN 4
 //:
 //#incbin "Dmps/_mug.dmp"
@@ -533,4 +542,3 @@ setMugEntry(AmeP, MKmeliaData, 3, 6, 3, 4)
 //#incbin "Dmps/_palette.dmp"
 //#incbin "Dmps/_minimug.dmp"
 //setMugEntry(, , 3, 5, 3, 3)
-

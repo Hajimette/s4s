@@ -22,3 +22,13 @@
 #include "UserInterface.event"
 
 #include "ArmyPalettes/ArmyPalette.event"
+
+#include "Ui/BattleScreen.event"
+
+
+
+
+
+
+
+

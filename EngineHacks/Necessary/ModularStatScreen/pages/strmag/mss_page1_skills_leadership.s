@@ -159,7 +159,7 @@ mov		lr, r3
 draw_number_at 23, 13
 
 
-ldr r0,=FatigueTxt
+ldr r0,=FatigueTxt_Link
 ldrh r0, [r0]
 draw_textID_at 25, 13 @Fatigue label text
 

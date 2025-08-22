@@ -59,6 +59,10 @@ ORG 0x957F8 //call of a function nonexistent in vanilla for deny deployment & re
 //jumpToHack(DenyDeploymentIfFatigued)
 POP
 
+FatigueTxt_Link:
+SHORT FatigueTxt
+
+
 ALIGN 4
 FatigueExemptCharList:
 BYTE Eirika
@@ -76,6 +80,8 @@ BYTE 0x3B
 ALIGN 4
 FatigueRestoredTextID:
 SHORT MessageFatigueRestored
+
+
 
 #define ClearFatigue(charID) "SVAL 1 charID; SVAL 2 0; ASMC SetFatigueASMC"
 #define SetFatigue(charID,ftgValue) "SVAL 1 charID; SVAL 2 ftgValue; ASMC SetFatigueASMC"

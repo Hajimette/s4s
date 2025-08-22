@@ -1255,3 +1255,9 @@ Inject[X]
 
 ## EntrapSubtitleText
 Select unit to entrap.[X]
+
+## PistolName
+Pistol[X]
+
+## PistolDesc
+Brave. Auto Refresh.[X]

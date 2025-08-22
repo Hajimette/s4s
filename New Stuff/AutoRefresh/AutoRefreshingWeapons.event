@@ -10,7 +10,7 @@
 #define MaxConvoy 100
 
 // if true, weapons at 0 durability will have reduced stats and still be equippable.
-#define EQUIP_BROKEN_WEAPONS FALSE
+#define EQUIP_BROKEN_WEAPONS TRUE
 
 // if false, magic weapons will be exempt from the above rule
 #define EQUIP_BROKEN_MAGIC TRUE
@@ -19,6 +19,8 @@
 #define BrokenWeaponEntry(name, desc, mt, hit, wt, crit, rng) "SHORT name desc mt hit wt crit rng"
 
 // filler numbers, change to your specifications
+// Need Punch, Dragonstone still
+
 ALIGN 4
 BrokenWeaponTable:
 BrokenWeaponEntry(IronSwdName, BlankDesc, 5, 90, 5, 0, 0x11) // swords
@@ -29,57 +31,160 @@ BrokenWeaponEntry(TrainSwdName, TrainSwdDesc, 9, 70, 12, 0, 0x11)
 BrokenWeaponEntry(WingClipName, WingClipDesc, 11, 65, 14, 0, 0x11)
 BrokenWeaponEntry(SupBldName, SupBldDesc, 14, 60, 13, 0, 0x11)
 BrokenWeaponEntry(MstSwdName, MstSwdDesc, 3, 70, 6, 0, 0x11)
-BrokenWeaponEntryRapierName, RapierDesc, 7, 95,	5, 10, 0x11)
+BrokenWeaponEntry(RapierName, RapierDesc, 7, 95, 5, 10, 0x11)
 BrokenWeaponEntry(MstLncName, MstSwdDesc, 8, 80, 3, 20,	0x11)
 BrokenWeaponEntry(BraveSwordName, BraveSwordDesc, 9, 75, 12, 0,	0x11)
- BrokenWeaponEntry(ThornName, ThornDesc, 8, 75,	5, 35, 0x11)
+BrokenWeaponEntry(ThornName, ThornDesc, 8, 75,	5, 35, 0x11)
 BrokenWeaponEntry(KillSwdName, KillSwdDesc, 9, 80, 7, 30, 0x11)
 BrokenWeaponEntry(ArmorSwdName, ArmorSwdDesc, 8, 80, 11, 0, 0x11)
 BrokenWeaponEntry(DragonSwdName, DragonSwdDesc, 8, 75, 5, 0, 0x11)
 BrokenWeaponEntry(LightBrandName, LightBrandDesc, 9, 70, 9, 0, 0x12)
 BrokenWeaponEntry(RuneSwdName, RuneSwdDesc, 12,	65, 11,	0, 0x12)
 BrokenWeaponEntry(LancereaverName, LncReDesc, 9, 75, 9, 5, 0x11)
-
-
-
+BrokenWeaponEntry(HeartName, HeartDesc, 9, 75, 9, 5, 0x11)
+BrokenWeaponEntry(SplicerName, SplicerDesc, 9, 75, 9, 5, 0x11)
+BrokenWeaponEntry(MinuteName, MinuteDesc, 9, 75, 9, 5, 0x11)
+BrokenWeaponEntry(PekoName, PekoDesc, 9, 75, 9, 5, 0x11)
+BrokenWeaponEntry(SocietyName, SocietyDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(EliteSwordName, EliteSwordDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(ChakiName, ChakiDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(ManaslayerName, ManaslayerDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(SleepSwordName, SleepSwordDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(RakshasaName, RakshasaDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(DuelistSwdName, DuelistSwdDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(AsuraName, AsuraDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(MerceriusName, MerceriusDesc, 0, 50, 20, 0, 0x22)
 
 
 BrokenWeaponEntry(IronLncName, BlankDesc, 7, 80, 8, 0, 0x11) // lances
 BrokenWeaponEntry(SlimLncName, SlimSwdDesc, 3, 90, 4, 5, 0x11)
 BrokenWeaponEntry(SteelLncName, BlankDesc, 10, 75, 13, 0, 0x11)
-BrokenWeaponEntry(SilverLnc, BlankDesc, 14, 80, 10, 0, 0x11)
+BrokenWeaponEntry(SilverLncName, BlankDesc, 14, 80, 10, 0, 0x11)
 BrokenWeaponEntry(SupLncName, SupLncDesc, 16, 70, 14, 0, 0x11)
 BrokenWeaponEntry(BraveLanceName, BraveSwordDesc, 10, 75, 14, 0, 0x11)
-BrokenWeaponEntry(KillLnce, KillSwdDesc, 10, 75, 9, 30, 0x11)
+BrokenWeaponEntry(KillLncName, KillSwdDesc, 10, 75, 9, 30, 0x11)
 BrokenWeaponEntry(HorseslayerName, HorseslayerDesc, 7, 75, 13, 0, 0x11)
 BrokenWeaponEntry(JavelinName, JavelinDesc, 6, 70, 11, 0, 0x12)
 BrokenWeaponEntry(SpearName, SpearDesc, 12, 75, 10, 5, 0x12)
-BrokenWeaponEntry(AxereaverName, AxereaverDesc, 10, 75, 11, 5,)
+BrokenWeaponEntry(AxereaverName, AxereaverDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(ForkName, ForkDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(VioName, VioDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(FlameName, FlameDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(TridentName, TridentDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(NightName, NightDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(DuelistLncName, DuelistLncDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(GradivusName, GradivusDesc, 0, 50, 20, 0, 0x11)
+
+
+BrokenWeaponEntry(IronAxeName, BlankDesc, 0, 50, 20, 0, 0x11) // axes
+BrokenWeaponEntry(SteelAxeName, SlimSwdDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(SilverAxeName, BlankDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(SupAxeName, SupAxeDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(BraveAxeName, BraveSwordDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(KillAxeName, KillSwdDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(MstAxeName, MstSwdDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(HammerName, HammerDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(DevilAxeName, DevilAxeDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(HandAxeName, HandAxeDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(TomahawkName, HandAxeDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(SwordreaverName, SwordreaverDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(AcrobaxeName, AcrobaxeDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(HatchetName, HatchetDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(BrandName, BrandDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(MaceName, MaceDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(SuicopathName, SuicopathDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(KanaboName, KanaboDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(DuelistAxeName, DuelistAxeDesc, 0, 50, 20, 0, 0x11)
+
+BrokenWeaponEntry(IronBowName, BlankDesc, 0, 50, 20, 0, 0x22) // bows
+BrokenWeaponEntry(SteelBowName, BlankDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(SilverBowName, BlankDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(MasterBowName, MstSwdName, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(KillerBowName, KillSwdName, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(BraveBowName, BraveSwordName, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(SupBowName, SupBowDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(LongbowName, LongbowDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(MaidName, MaidDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(CrossbowName, CrossbowDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(SocietyName, SocietyDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(RifleName, RifleDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(PistolName, PistolDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(HandCannonName, HandCannonDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(HawkName, HawkDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(ParthiaName, ParthisDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(SelectionName, SelectionDesc, 0, 50, 20, 0, 0x22)
+
+
+BrokenWeaponEntry(HealName, HealDesc, 0, 50, 20, 0, 0x11) // staves
+BrokenWeaponEntry(MendName, MendDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(RecoName, RecoDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(PhysicName, PhysicDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(FortiName, FortiDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(RestName, RestDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(SilenceName, RestDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(SleepName, SilenceDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(BerserkName, BerserkDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(WarpName, WarpDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(RescueName, RescueDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(TorchName, TorchDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(HammName, HammDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(UnlockName, UnlockDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(BarrierName, BarrierDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(AbortName, AbortDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(CandyName, CandyDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(RewarpName, RewarpDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(KRHName, KRHDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(EntrapName, EntrapDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(ThiefName, ThiefDesc, 0, 50, 20, 0, 0x11)
+//BrokenWeaponEntry(AgainName, AgainDesc, 0, 50, 20, 0, 0x11)
+BrokenWeaponEntry(AumName, AumDesc, 0, 50, 20, 0, 0x11)
 
 
 
 
-BrokenWeaponEntry(0x114, 0x115, 0, 50, 20, 0, 0x11) // axes
+BrokenWeaponEntry(FireName, BlankDesc, 0, 50, 20, 0, 0x12) // anima
+BrokenWeaponEntry(ThunderName, BlankDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(ElfireName, BlankDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(BoltingName, BoltingDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(FimbulvetrName, BlankDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(TsunamiName, TsunamiDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(PettanName, PettanDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(AdventName, AdventDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(DyaName, DyaDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(SharkName, SharkDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(ThoronName, ThoronDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(YabaiName, YabaiDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(DireName, DireDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(WindName, WindDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(ShaverName, ShaverDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(ArcwindName, WindDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(WaterName, WaterDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(ExplosionName, ExplosionDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(StarlightName, StarlightDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(RatMagicName, RatMagicDesc, 0, 50, 20, 0, 0x22)
+
+
+BrokenWeaponEntry(LightningName, BlankDesc, 0, 50, 20, 0, 0x12) // light
+BrokenWeaponEntry(ShineName, BlankDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(DivineName, BlankDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(PurgeName, BoltingDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(AuraName, BlankDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(SeisoName, SeisoDesc, 0, 50, 20, 0, 0x22)
 
 
 
-BrokenWeaponEntry(0x116, 0x117, 0, 50, 20, 0, 0x22) // bows
+
+BrokenWeaponEntry(FluxName, BlankDesc, 0, 50, 20, 0, 0x12) // dark
+BrokenWeaponEntry(LunaItemName, LunaItemName, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(NosName, NosDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(EclipseName, EclipseDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(FenrirName, BlankDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(NephName, NephDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(AncientOneName, AncientOneDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(DarkSpikesName, DarkSpikeDesc, 0, 50, 20, 0, 0x22)
+BrokenWeaponEntry(NecromancyName, NecromancyDesc, 0, 50, 20, 0, 0x22)
 
 
-
-BrokenWeaponEntry(0x118, 0x119, 0, 50, 20, 0, 0x11) // staves
-
-
-
-BrokenWeaponEntry(0x11A, 0x11B, 0, 50, 20, 0, 0x12) // anima
-
-
-
-BrokenWeaponEntry(0x11C, 0x11D, 0, 50, 20, 0, 0x12) // light
-
-
-
-BrokenWeaponEntry(0x11E, 0x11F, 0, 50, 20, 0, 0x12) // dark
 
 ALIGN 4
 AutoRefreshList:
@@ -88,6 +193,7 @@ BYTE 0xF3 // Thief Staff
 BYTE 0xF2 // Entrap
 BYTE 0xF1 // Stim
 BYTE 0xBB //Rewarp
+BYTE 0xA0 //Pistol
 
 BYTE 0 // terminator
 

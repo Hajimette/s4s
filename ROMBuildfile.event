@@ -64,6 +64,8 @@ ALIGN 4
     #include "New Stuff/100and0/GrowthModesCheck.event"
     #include "New Stuff/Entrap/Entrap.event"
 #include "New Stuff/StaffItemLock/StaffItemLock.txt"
+#include "New Stuff/fe5Stave/HealingStaffAccuracy.lyn.event"
+#include "New Stuff/AutoRefresh/AutoRefreshingWeapons.event"
 
 //#include "ExternalTables/BossMusicTable.event"
 

@@ -66,11 +66,13 @@ MMB Window Palette
 Event Menu Update
 AutoRefresh
 Entrap
+FE5 Style Staves
 
 Legend of Loog:
 Move Stars
 PCC
 Equip
+Escape
 
 Teraspark:
 AumStaff
@@ -96,6 +98,7 @@ Amelia (Spliced Version)
 Rushia
 Iroha, Base by Redbean
 Ayame, Base by Seliost1, Reskin by UltraFenix
+Fubuki- NamelessX
 
 Amyd:
 Howitzer

@@ -13,7 +13,7 @@ Combat or Staves will make[N]
 this unit tired.[X]
 
 ## FatigueTxt
-Ftg[X]
+ Ftg[X]
 
 ## SS_TalkRText
 Character with whom this unit[N]
