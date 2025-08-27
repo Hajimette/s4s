@@ -143,6 +143,8 @@ Mov[X]
 ## PCCText
 PCC [X]
 
+#include "DeathText.txt"
+
 #include "ChapterText/PrologueText.txt"
 
 #include "ChapterText/Chapter1Text.txt"
@@ -168,5 +170,7 @@ PCC [X]
 #include "MiscUnitText.txt"
 
 #include "ObjectiveNames.txt"
+
+
 
 //#include "BattleQuotes/BQInstaller.event"

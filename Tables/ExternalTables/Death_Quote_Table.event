@@ -4,7 +4,76 @@
 
 
 
+//Character Chapter Deaths
+//DeathQuote(0x2,0x1,GameOver,ReineChp1Death) //Reine
+
+
+
+//General Characters
 DeathQuote(Amelia,Any,GameOver,AmeDeath)
+
+DeathQuote(0x2,Any,0,ReineDeath)
+DeathQuote(0x3,Any,0,MumeiDeath) //moom
+DeathQuote(0x4,Any,0,FaunaDeath)
+DeathQuote(0x5,Any,0,MikoDeath)
+DeathQuote(0x6,Any,0,SuiseiDeath)
+DeathQuote(0x7,Any,0,BaeDeath)
+DeathQuote(0x8,Any,0,PolkaDeath)
+DeathQuote(0x9,Any,0,NoelDeath)
+DeathQuote(0xA,Any,0,FlareDeath)
+DeathQuote(0xB,Any,0,WatameDeath)
+DeathQuote(0xC,Any,0,NeneDeath)
+DeathQuote(0xD,Any,0,LunaDeath)
+DeathQuote(0xE,Any,0,SubaruDeath)
+DeathQuote(0xF,Any,0,IofiDeath)
+DeathQuote(0x10,Any,0,RobocoDeath)
+DeathQuote(0x11,Any,0,RisuDeath)
+DeathQuote(0x12,Any,0,MatsuriDeath)
+DeathQuote(0x13,Any,0,AkiDeath)
+DeathQuote(0x14,Any,0,BotanDeath)
+DeathQuote(0x15,Any,0,SoraDeath)
+DeathQuote(0x16,Any,0,AzkiDeath)
+DeathQuote(0x17,Any,0,PekoraDeath)
+DeathQuote(0x18,Any,0,MoonaDeath)
+DeathQuote(0x19,Any,0,LamyDeath)
+DeathQuote(0x1A,Any,0,ChloeDeath)
+DeathQuote(0x1B,Any,0,RushiaDeath)
+//DeathQuote(0x1C,Any,0,KiaraDeath) //Set event
+DeathQuote(0x1D,Any,0,AquaDeath)
+DeathQuote(0x1E,Any,0,CocoDeath)
+DeathQuote(0x1F,Any,0,ShionDeath)
+DeathQuote(0x20,Any,0,MarineDeath)
+DeathQuote(0x21,Any,0,GuraDeath)
+DeathQuote(0x22,Any,0,InaDeath)
+DeathQuote(0x23,Any,0,CalliopeDeath)
+DeathQuote(0x24,Any,0,OllieDeath)
+DeathQuote(0x25,Any,0,ShirakamiDeath) //event
+DeathQuote(0x26,Any,0,KoroneDeath)
+DeathQuote(0x27,Any,0,OkayuDeath)
+DeathQuote(0x28,Any,0,MioDeath)
+DeathQuote(0x29,Any,0,IrysDeath)
+DeathQuote(0x2A,Any,0,KanataDeath)
+DeathQuote(0x2B,Any,0,TowaDeath)
+DeathQuote(0x2C,Any,0,MelDeath)
+DeathQuote(0x2D,Any,0,ChocoDeath)
+DeathQuote(0x2E,Any,0,LuiDeath)
+DeathQuote(0x2F,Any,0,LaplusDeath)
+DeathQuote(0x30,Any,0,AnyaDeath)
+DeathQuote(0x31,Any,0,KoboDeath)
+DeathQuote(0x32,Any,0,ZetaDeath)
+//DeathQuote(0x32,Any,0,ZetaDeath2) //Possible 2nd death quote needed.
+DeathQuote(0x33,Any,0,KaelaDeath)
+DeathQuote(0x34,Any,0,IrohaDeath)
+DeathQuote(0x35,Any,0,KoyoriDeath)
+DeathQuote(0x36,Any,0,SanaDeath)
+DeathQuote(0x37,Any,0,AyameDeath)
+DeathQuote(0x38,Any,0,KroniiPlayerDeath)
+DeathQuote(0x39,Any,0,KurokamiDeath) //event
+
+
+
+
+//Chapter Events
 
 //Prologue
 DeathQuote(Entombed_boss,Prologue,DefeatBossFlag,AmeEntombed)

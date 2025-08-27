@@ -50,7 +50,7 @@ Patches/ASM:
 Free Movement- Mokha
 Chapter Transitions- Huichelaar
 Change Unit Status Rewrite- Vesly
-
+Escape (FE5 Version)- Sme, Loog and Pikmin1211
 
 Contro:
 FE4 Refresh
@@ -72,7 +72,6 @@ Legend of Loog:
 Move Stars
 PCC
 Equip
-Escape
 
 Teraspark:
 AumStaff

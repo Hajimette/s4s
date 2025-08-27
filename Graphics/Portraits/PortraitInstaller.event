@@ -60,6 +60,14 @@
 
 //Pending but aligned
 #define CalliopePortrait 0xAD
+//#define RushiaPortrait 0xB
+//#define LaplusPortrait 0xD
+//#define AnyaPortrait 0x17
+//#define KoboPortrait 0x1D
+//#define KoyoriPortrait 0x27
+//#define AyamePortrait 0x2D
+
+
 
 //ALIGN 4
 //PortraitTable:
@@ -377,6 +385,7 @@ RBCData:
 #incbin "Dmps/RBC_palette.dmp"
 #incbin "Dmps/RBC_minimug.dmp"
 setMugEntry(RBC, RBCData, 4, 5, 4, 3)
+setMugEntryExtend(RBC, RBCData, 4, 5, 4, 3, 0, 5, 0, 3)
 
 ALIGN 4
 RBCNoGlassesData:

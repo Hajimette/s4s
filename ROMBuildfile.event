@@ -10,9 +10,13 @@
     //Text first for Text ID definitions
     #include "New Stuff/NarrowFont/Narrowfontinstaller.event" //Narrow Font moment
     #include "Text/InstallTextData.event"
+
+
 //    MESSAGE Used text space ends at currentOffset
     #include "Text/TextDefinitions.event"
     #include "Definitions/DefinitionInstaller.event"
+
+
     //CSV tables
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
@@ -29,49 +33,24 @@ ALIGN 4
 
 
 
-    //Engine Hacks
-    #include "New Stuff/CustomItems/_Staff6C_BasicCases.event"
+//Engine Hacks
+    
     #include "EngineHacks/_MasterHackInstaller.event"
     #include "Music/MusicInstaller.event"
-    #include "New Stuff/ChapterTransitions/ChapterTransitionInstaller.event"
-    #include "New Stuff/PCC/Installer.event"
-    #include "Fatigue/Fatigue.event"
-    #include "New Stuff/Abort/AbortStaff.event"    
-    #include "New Stuff/AumStaff/Aum.event"
-    #include "New Stuff/CustomItems/StealStaff/_StealStaff_Setup.event"
-    #include "New Stuff/CustomItems/RewarpStaff/_RewarpStaff_Setup.event"
-    #include "New Stuff/CustomItems/UnlockStaffv2/_BurglarStaff_Setup.event"
-    #include "New Stuff/CustomItems/RefreshStaves/_AgainStaff_Setup.event"
-    #include "New Stuff/MoveStars/Installer.event"    
     #include "TitleScreen/TitleMaster.event"
     #include "StatusScreen/ChangeStatusBG.event"
     #include "Graphics/MasterGraphicsInstaller.event"
-    #include "New Stuff/StartScreen/GameStartScreen.event"
-    #include "New Stuff/MugExceed/EA.txt"
-    #include "New Stuff/Equip/Installer.event"
-    #include "New Stuff/MapEmotions/MapEmotion.event"
-    #include "New Stuff/DragzEventMenu/LordSplitMenuPlus.event"
-    #include "New Stuff/FixedGrowths/FixedGrowthsModeInstaller.event"
-    #include "New Stuff/_1RN/Installer.event"
-    #include "New Stuff/TextRework/_FE8-Text_Engine_Rework_EA.event"
-    #include "New Stuff/SetUnitStatusVesly/SetStatusInstaller.event"
-    #include "New Stuff/ItemSpecialEffect/Installer.event"
-//    #include "New Stuff/ChangeBattleBgm/Installer.event"
-    #include "New Stuff/InlinePatches.event"
-    #include "New Stuff/MMB/Installers/MMBInstallerHatsuru.event"
-    #include "New Stuff/MMB/Installers/MMBWindowPalettes/MMBWindowPalette.event"
-    #include "New Stuff/asmcheck/ASMCCheckInstaller.event"
-    #include "New Stuff/100and0/GrowthModesCheck.event"
-    #include "New Stuff/Entrap/Entrap.event"
-#include "New Stuff/StaffItemLock/StaffItemLock.txt"
-#include "New Stuff/fe5Stave/HealingStaffAccuracy.lyn.event"
-#include "New Stuff/AutoRefresh/AutoRefreshingWeapons.event"
-
-//#include "ExternalTables/BossMusicTable.event"
 
 #include "Tables/ExternalTables/Battle_Quote_Table.event"
 
+
 //#include "ExternalTables/Death_Quote_Table.event"
+//#include "New Stuff/ChangeBattleBgm/Installer.event"
+//#include "ExternalTables/BossMusicTable.event"
+
+#include "New Stuff/Patches.event"
+
+
 
 
 //CustomSkillStuff
@@ -94,6 +73,8 @@ BYTE InvestigationID
 
     //Maps
     #include "Maps/MasterMapInstaller.event"
+
+
 MESSAGE currentOffset
 //15 his
     #endif // USE_TEST_MAP

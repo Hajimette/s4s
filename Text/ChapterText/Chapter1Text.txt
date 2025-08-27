@@ -22,7 +22,7 @@ for me.[A][X]
 
 
 ## FaunmeiAnimals
-[MidLeft][LoadFauna]
+[MidLeft][LoadFaunaP]
 [MidRight][LoadMumei]
 [MidLeft]
 Alright Mumei, I think that's the[N]
@@ -54,7 +54,7 @@ I...[Beat]don't know actually.[A][X]
 
 ## FaunmeiCreature
 [Left][LoadMumei]
-[FarLeft][LoadFauna]
+[FarLeft][LoadFaunaP]
 [Left]
 Uhh, Fauna? Do we have to be[N]
 kind to that thing too?[A]
@@ -64,7 +64,7 @@ Mumei. I think Its dead![A][X]
 
 ## FaunmeisBruhMoment
 [Left][LoadMumei]
-[FarLeft][LoadFauna]
+[FarLeft][LoadFaunaP]
 [Left][MoveLeft]
 UWAAAAAAAAA! I'm getting out[N]
 of here!![A]
@@ -81,7 +81,7 @@ U...uwaaah![A]
 MUMEI. GET OVER HERE!![A][X]
 
 ## FaunmeiFight
-[FarLeft][LoadFauna]
+[FarLeft][LoadFaunaP]
 [MidRight][LoadMumei]
 [FarLeft]
 We can't run from this, Mumei![A][N]

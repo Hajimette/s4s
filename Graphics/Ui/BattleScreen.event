@@ -58,7 +58,7 @@ MainTSA5:
 
 ALIGN 4
 MainTSASingle:
-#incbin "BattleScreen/Single/Single.dmp"
+#incbin "BattleScreen/Single.dmp"
 
 ALIGN 4
 MainPalette:
@@ -69,7 +69,7 @@ MainPalette:
 
 PUSH
 
-	ORG 0x51F68
+    ORG 0x51F68
     POIN MainTiles
     ORG 0x51FC8
     POIN LeftName

@@ -1,0 +1,42 @@
+#include "CustomItems/_Staff6C_BasicCases.event"
+#include "ChapterTransitions/ChapterTransitionInstaller.event"
+#include "PCC/Installer.event"
+#include "Abort/AbortStaff.event"    
+    #include "AumStaff/Aum.event"
+    #include "CustomItems/StealStaff/_StealStaff_Setup.event"
+    #include "CustomItems/RewarpStaff/_RewarpStaff_Setup.event"
+    #include "CustomItems/UnlockStaffv2/_BurglarStaff_Setup.event"
+    #include "CustomItems/RefreshStaves/_AgainStaff_Setup.event"
+    #include "MoveStars/Installer.event"    
+    #include "InlinePatches.event"
+    #include "MMB/Installers/MMBInstallerHatsuru.event"
+    #include "MMB/Installers/MMBWindowPalettes/MMBWindowPalette.event"
+    #include "asmcheck/ASMCCheckInstaller.event"
+    #include "100and0/GrowthModesCheck.event"
+    #include "Entrap/Entrap.event"
+#include "StaffItemLock/StaffItemLock.txt"
+#include "fe5Stave/HealingStaffAccuracy.lyn.event"
+#include "AutoRefresh/AutoRefreshingWeapons.event"
+    #include "StartScreen/GameStartScreen.event"
+    #include "MugExceed/EA.event"
+    #include "Equip/Installer.event"
+    #include "MapEmotions/MapEmotion.event"
+    #include "DragzEventMenu/LordSplitMenuPlus.event"
+    #include "FixedGrowths/FixedGrowthsModeInstaller.event"
+    #include "_1RN/Installer.event"
+    #include "TextRework/_FE8-Text_Engine_Rework_EA.event"
+    #include "SetUnitStatusVesly/SetStatusInstaller.event"
+    #include "ItemSpecialEffect/Installer.event"
+    #include "Fatigue/Fatigue.event" 
+
+
+
+
+
+
+
+
+
+
+
+

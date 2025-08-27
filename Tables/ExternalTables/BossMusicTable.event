@@ -4,10 +4,17 @@
 
 
 
-BossBGMEntry(Entombed_boss, FE5BossBattleID)
+
 
 ALIGN 4
 BossBGMTable:
+//Prologue
+BossBGMEntry(Entombed_boss, FE5BossBattleID)
+//Chp1
+
+
+
+
 BossBGMTerminator
 
 PUSH

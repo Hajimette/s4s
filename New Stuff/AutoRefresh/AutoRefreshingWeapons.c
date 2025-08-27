@@ -20,7 +20,7 @@ bool DoesItemRefreshDurability(int item) {
 
 int GetItemDurabilityColor(int item) {
 	if(DoesItemRefreshDurability(item)) {
-		return TEXT_COLOR_SYSTEM_GOLD;
+		return TEXT_COLOR_SYSTEM_BLUE;
 	}
 	return TEXT_COLOR_SYSTEM_BLUE;
 }

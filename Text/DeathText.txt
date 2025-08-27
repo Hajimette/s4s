@@ -1,0 +1,284 @@
+## AmeDeath
+[MidRight][LoadAme]
+I can't...go home[N]
+now...[A][CloseEyes][X]
+
+
+## ReineDeath
+[MidRight][LoadReineP]
+Urgh[ToggleMouthMove]...[ToggleMouthMove][A]Sorry Amelia, I can't fight[N]
+anymore...[A][2NL][N]
+I got to pull back.[A][X]
+
+
+## MumeiDeath
+[MidRight][LoadMumei]
+Fauna...please watch over[N]
+humanity for me...[A] I'm sorry
+I wasn't strong enough...[A][CloseEyes][X]
+
+
+## FaunaDeath
+[MidRight][LoadFaunaP]
+Mumei...take care of things...[N]
+I'm so sorry...[....]I....[A][CloseEyes][X]
+
+
+## MikoDeath
+[MidRight][LoadMikoP]
+Gah, no more![A] Sorry Ame,[N]
+I got to pull back![A][X]
+
+## SuiseiDeath
+[MidRight][LoadSuiP]
+Miko...watch over my sister[N]
+for me...[A][CloseEyes][X]
+
+## BaeDeath
+[MidRight][LoadBaeP]
+To think I'd die from chaos...[....][A][N][ToggleSmile][2NL]
+Heh.[A][CloseEyes][X]
+
+## PolkaDeath
+[MidRight][LoadPolkaP]
+I can't...do this anymore! Sorry[N]
+guys, I got to pull back![A][X]
+
+## NoelDeath
+[MidRight][LoadNoelP]
+I failed...[....]Flare... keep everyone[N]
+safe for me...[A][OpenMidRight][CloseEyes][X]
+
+## FlareDeath
+[MidRight][LoadFlareP]
+Noel, stay strong...[....]...[....][N]
+I'm sorry...[A][OpenMidRight][CloseEyes][X]
+
+
+## WatameDeath
+[MidRight][LoadWatameP]
+I...[....]have done nothing wrong![A][OpenMidRight][CloseEyes][X]
+
+## NeneDeath
+[MidRight][LoadNeneP]
+...MataNene...[....][A][OpenMidRight][CloseEyes][X]
+
+## LunaDeath
+[MidRight][LoadLunaP][OpenMidRight]Naaaaa, it hurts too much![A][N]
+I'm going back![A][X]
+
+## SubaruDeath
+[MidRight][LoadSubaruP]
+Luna...don't ever stop[N]
+smiling...[A] I'm...[....] sorry...[A][OpenMidRight][CloseEyes][X]
+
+## IofiDeath
+[MidRight][LoadIofiP]
+Not all aliens are...[....]sus...[A][OpenMidRight][CloseEyes][X]
+
+## RobocoDeath
+[MidRight][LoadRobocoP]
+Systems...failing...[A][N]
+Go on....[....][....]without me.[A][OpenMidRight][CloseEyes][X]
+
+## RisuDeath
+[MidRight][LoadRisuP]
+No more...nuts for me...[A][OpenMidRight][CloseEyes][X]
+
+## MatsuriDeath
+[MidRight][LoadMatsuriP]
+Hardworking girls are cute...[A][2NL][N]
+Right?[A][OpenMidRight][CloseEyes][X]
+
+## AkiDeath
+[MidRight][LoadAkiP]
+Luna, I'm sorry I can't[N]
+be there...[....]anymore...[....][A][OpenMidRight][CloseEyes][X]
+
+## BotanDeath
+[MidRight][LoadBotanP]
+I can't fight with these[N]
+wounds...[A][2NL][N]
+I need to pull back...[....][A][X]
+
+## SoraDeath
+[MidRight][LoadSoraP]
+Everyone...don't give up.[A]
+Keep fighting on...[A][OpenMidRight][CloseEyes][X]
+
+## AzkiDeath
+[MidRight][LoadAzkiP]
+Sora...[....][A][OpenMidRight][CloseEyes][X]
+
+## PekoraDeath
+[MidRight][LoadPekoraP]
+IYAAAAAAAAAAAAA[N]
+AAAAAAAAAAAAAA[A][2NL][N]
+I'll never forgive you for this[N]
+peko![A] I just need to get[N]
+away from this for now peko...[A][OpenMidRight][CloseEyes][X]
+
+## MoonaDeath
+[MidRight][LoadMoonaP]
+Pekora...remember me.[A][OpenMidRight][CloseEyes][X]
+
+## LamyDeath
+[MidRight][LoadLamyP]
+Botan...I'm so sorry...[A][N]
+Please[ToggleMouthMove].[....].[....].[....][ToggleMouthMove]be safe...[A][OpenMidRight][CloseEyes][X]
+
+## ChloeDeath
+[MidRight][LoadChloeP]
+Lui[ToggleMouthMove].[....].[....].[....][ToggleMouthMove]remember me when[N]
+this is all over...[A][OpenMidRight][CloseEyes][X]
+
+## RushiaDeath
+[MidRight][LoadRushiaP]
+Is this...what death feels like?[A][N]
+No...not yet...[A] There's so much[N]
+I still need to do...[A][X]
+
+// ## KiaraDeath [MidRight][LoadKiaraP]   // Event moment
+
+## AquaDeath
+[MidRight][LoadAquaP]
+Is this[ToggleMouthMove]... [ToggleMouthMove]the end?![A][N]
+I can't now... not like this[....].[....].[....].[....][OpenMidRight][CloseEyes][X]
+
+## CocoDeath
+[MidRight][LoadCocoP]
+YOU DAMNED DASTARD![A][N]
+Tch[....][ToggleMouthMove]...[....][ToggleMouthMove]Kanata...[A][CloseEyes][OpenMidRight][ClearFace][X]
+
+## ShionDeath
+[MidRight][LoadShionP]
+So much for...being[N]
+the best...[A][OpenMidRight][CloseEyes][X]
+
+## MarineDeath
+[MidRight][LoadMarineP]
+I can't sail the waters with[N]
+these wounds...[A][N]
+I guess I'll never find...the[N]
+one piece...[A] Heh.[A][N][2NL]
+I better pull back.[A][X]
+
+## GuraDeath
+[MidRight][LoadGuraP]
+I'm so sorry everyone...because[N]
+of me...[....]the Atlanteans...[A][OpenMidRight][CloseEyes][X]
+
+## InaDeath
+[MidRight][LoadInaP]
+W...wah....[A][OpenMidRight][CloseEyes][X]
+
+## CalliopeDeath
+[MidRight][LoadCalliopeP]
+Amelia...everyone...I'm so sorry.[A][N]
+Finish this...without me...[A][OpenMidRight][CloseEyes][X]
+
+## OllieDeath
+[MidRight][LoadOllieP]
+Am... I going to die again?![A][N]
+How is this even possible?[A][CloseEyes][X]
+
+## ShirakamiDeath
+[MidRight][LoadShirakamiP]
+Mio...[....][MidRight][LoadKurokamiP]keep the...[....][MidRight][LoadShirakamiP]shrine safe...[A][OpenMidRight][CloseEyes][X]
+
+## KoroneDeath
+[MidRight][LoadKoroneP]
+I'm...die...Okayu...[A][N]
+thank you forever...[A][OpenMidRight][CloseEyes][X]
+
+## OkayuDeath
+[MidRight][LoadOkayuP]
+Ah, what a shame~[A][OpenMidRight][CloseEyes][X]
+
+## MioDeath
+[MidRight][LoadMioP]
+Fubuki, stay safe...[A][OpenMidRight][CloseEyes][X]
+
+## IrysDeath
+[MidRight][LoadIrysP]
+Don't ever stop hoping...[....][A][OpenMidRight][CloseEyes][X]
+
+## KanataDeath
+[MidRight][LoadKanataP]
+Am I a...fallen angel?[A][OpenMidRight][CloseEyes][X]
+
+## TowaDeath
+[MidRight][LoadTowaP]
+This was really devilish[N]
+of you...[A][2NL][N]
+How could you?[A][CloseEyes][X]
+
+
+## MelDeath
+[MidRight][LoadMelP]
+Choco, I'm so sorry about[N]
+everything...[A] I hope we[N]
+can see each other in[N]
+the next life...[A][CloseEyes][X]
+
+## ChocoDeath
+[MidRight][LoadChocoP]
+Luna...Mel...I hope your days are[N]
+peaceful...[A][OpenMidRight][CloseEyes][X]
+
+## LuiDeath
+[MidRight][LoadLuiP]
+Sorry boss, looks like you'll have[N]
+to do this without me...[A][OpenMidRight][CloseEyes][X]
+
+## LaplusDeath
+[MidRight][LoadLaplusP]
+I can't die now, not yet at[N]
+least... I need to pull back.[A][X]
+
+## AnyaDeath
+[MidRight][LoadAnyaP]
+Back to...eternal slumber...[A][OpenMidRight][CloseEyes][X]
+
+## KoboDeath
+[MidRight][LoadKoboP]
+Am I...dying?[A][OpenMidRight][CloseEyes][X]
+
+## ZetaDeath
+[MidRight][LoadZetaP]
+I told you...I wasn't sus...[A][OpenMidRight][CloseEyes][X]
+
+## KaelaDeath
+[MidRight][LoadKaelaP]
+All that work...for what?[A][OpenMidRight][CloseEyes][X]
+
+## IrohaDeath
+[MidRight][LoadIrohaP]
+What a strong foe...[A][N]
+Why did I...have to lose[N]
+here of all places...[A][OpenMidRight][CloseEyes][X]
+
+## KoyoriDeath
+[MidRight][LoadKoyoriP]
+Tch, I had so much...more[N]
+I wanted to learn...[A][OpenMidRight][CloseEyes][X]
+
+## SanaDeath
+[MidRight][LoadSanaP]
+This is how the world ends...[A][OpenMidRight][CloseEyes][X]
+
+## AyameDeath
+[MidRight][LoadAyameP]
+Is my soul... now going[N]
+to be lost?[A][OpenMidRight][CloseEyes][X]
+
+## KroniiPlayerDeath
+[MidRight][LoadKroniiBeat]
+D...damn it all...[A][X]
+
+## KurokamiDeath
+[MidRight][LoadKurokamiP]
+Damn it![A][MidRight][LoadShirakamiP][....][MidRight][LoadKurokamiP][OpenMidRight][N]
+Why do we...[....][MidRight][LoadShirakamiP][OpenMidRight]have to go[....][MidRight][LoadKurokamiP][OpenMidRight] now?![A][OpenMidRight][CloseEyes][X]
+
+// Bosses
