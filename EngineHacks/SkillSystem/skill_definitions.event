@@ -376,7 +376,7 @@
 
 //Identity Problems: This unit can't decide on a name or face.
 //By Leonarth
-#define IdentityProblemsID 129
+#define IdentityProblemsID 255
 
 
 //Post-Battle Skills
@@ -465,7 +465,7 @@
 
 //Super Luck: Use luck as crit rate
 //By Jester
-#define SuperLuckID 255
+#define SuperLuckID 129
 
 //Technician: Increase weapon damage by 50% if using an E-ranked weapon.
 //By Jester
