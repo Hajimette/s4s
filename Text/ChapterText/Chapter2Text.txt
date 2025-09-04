@@ -1,0 +1,15 @@
+## MikoSelectTutorial
+[MidLeft][LoadMikoP]
+[MidLeft]
+Alright Miko! It's time to put this[N]
+staff into use...[A][N]
+Its just like I practiced...[N]
+again and again...[A][X]
+
+## MikoTutorial
+Miko's [Red]Again Staff[Red] is a special type[N]
+of item different than others.[A][N]
+Her staff is able to [Red]RENEW[Red] after[N]
+each chapter.[A] When you see these[N]
+special items, go crazy![A][X]
+

@@ -30,6 +30,7 @@ LocationBasedEvents:
 	END_MAIN
 
 Dunno1:
+	AFEV 0x7 MikoTutorialEvent 0
 
 	END_MAIN
 
@@ -96,6 +97,9 @@ EnemyUnits:
  UNIT 0x80 0x3f 0x53 Level(3,Enemy,True) [23,11] 0x0 0x0 0x0 0x0 [SteelAxe] UnmovingAI
  UNIT 0x80 0xC 0x53 Level(3,Enemy,True) [22,14] DropItem 0x0 0x0 0x0 [0x5B] NoMoveAI
  UNIT 0x80 0x10 0x53 Level(3,Enemy,True) [23,11] 0x0 0x0 0x0 0x0 [IronSword] UnmovingAI
+ UNIT 0x80 0x10 0x53 Level(3,Enemy,True) [16,2] 0x0 0x0 0x0 0x0 [0xD] NoMoveAI
+ UNIT 0x80 0x19 0x53 Level(5,Enemy,True) [14,3] 0x0 0x0 0x0 0x0 [Longbow] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [12,1] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
  
  
  UNIT 0x4A 0xB 0x53 Level(1,Enemy,True) [8,2] 0x0 0x0 0x0 0x0 [SteelSword, Javelin, IronAxe] UnmovingAI
@@ -124,9 +128,28 @@ BeginningScene:
 		LOAD1 0 Shiraken
 		ENUN
 
-	
-	
 	ENDA
+
+// Miko Selection Tutorial
+ALIGN 4
+MikoTutorialEvent:
+	CHECK_ACTIVE
+	SVAL s1 Miko
+	BEQ 1 s1 sC
+	ENUF 7 // unset completion flag if unit selected isn't Miko
+	GOTO 2
+	LABEL 1
+	TalkConvo(MikoSelectTutorial)
+	TextBox(MikoTutorial)
+	LABEL 2
+	NoFade
+ENDA
+
+
+
+
+
+
 
 EndingScene:
 	MNC2 3

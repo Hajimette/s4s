@@ -2,6 +2,7 @@
 #include "REDAS.event"
 //#include "Release_map.event"
 #include "WorldMapEvents.event"
+#include "EscapePoints.event"
 
 
 //{

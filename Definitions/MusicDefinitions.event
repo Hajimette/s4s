@@ -68,6 +68,7 @@
 #define FE5LoptousAID 0x33
 #define FE5MapBID 0x34
 #define FE5ChargeBID 0x36
+#define FE5HealingID 0xE8
 
 //FE6
 #define FE6ShamanID 0x37

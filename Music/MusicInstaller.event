@@ -227,6 +227,11 @@ SongTable(FE5MapBID, FE5MapB, MapMusicGroup)
 }
 
 {
+#include "MusicEvents/FE5Healing.event"
+SongTable(FE5HealingID, FE5Healing, MapMusicGroup)
+}
+
+{
 #include "MusicEvents/SearchingforSeiso.event"
 SongTable(SearchingforSeisoID, SearchingforSeiso, MapMusicGroup)
 }

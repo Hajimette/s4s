@@ -28,7 +28,7 @@
     #include "SetUnitStatusVesly/SetStatusInstaller.event"
     #include "ItemSpecialEffect/Installer.event"
     #include "Fatigue/Fatigue.event" 
-
+#include "Escape/Installer.event"
 
 
 

@@ -143,11 +143,20 @@ Mov[X]
 ## PCCText
 PCC [X]
 
+## EscapeWarningText
+Do you want to Escape?[N]
+[Red]All other units will be left behind.[Red][.4][N]
+[No][X]
+
 #include "DeathText.txt"
 
 #include "ChapterText/PrologueText.txt"
 
 #include "ChapterText/Chapter1Text.txt"
+
+#include "ChapterText/Chapter2Text.txt"
+
+#include "ChapterText/Chapter3Text.txt"
 
 #include "unitmenu_text.txt"
 
@@ -171,6 +180,6 @@ PCC [X]
 
 #include "ObjectiveNames.txt"
 
-
+#include "EscapeQuotes.txt"
 
 //#include "BattleQuotes/BQInstaller.event"

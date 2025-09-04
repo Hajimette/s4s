@@ -36,6 +36,7 @@ ALIGN 4
 //Engine Hacks
     
     #include "EngineHacks/_MasterHackInstaller.event"
+#include "New Stuff/Patches.event"
     #include "Music/MusicInstaller.event"
     #include "TitleScreen/TitleMaster.event"
     #include "StatusScreen/ChangeStatusBG.event"
@@ -48,7 +49,7 @@ ALIGN 4
 //#include "New Stuff/ChangeBattleBgm/Installer.event"
 //#include "ExternalTables/BossMusicTable.event"
 
-#include "New Stuff/Patches.event"
+
 
 
 

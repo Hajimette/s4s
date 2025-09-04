@@ -1,0 +1,16 @@
+## AmeliaChapter1EscapeText
+[MidRight][LoadAme]
+I'm not dealing with this anymore.[N]
+Time to go.[A][X]
+
+## ReineChapter1EscapeQuoteText
+[MidRight][LoadReineP]
+Damn these things...I hope[N]
+Shike is alright...[A][X]
+
+
+
+## AmeliaFinalEscapeQuoteList
+[MidRight][LoadAme]
+Everyone! This way forward![A][X]
+

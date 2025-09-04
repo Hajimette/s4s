@@ -126,3 +126,11 @@ There's too many of these damn[N]
 corpses around![A]
 [MidRight]
 Uh...sure.[A][X]
+
+
+
+## Chp1HouseText
+[MidRight][CurrentPortrait]
+[MidLeft][LoadMan]
+[MidLeft]
+Placeholder Text moment.[A][X]

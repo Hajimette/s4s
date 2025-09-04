@@ -15,7 +15,7 @@ PointerList:
 TurnBasedEvents:
 	TurnEventPlayer(0, FaunmeiSpawn, 3)
 	TurnEventPlayer(0, MoreBodies, 5)
-	TurnEventPlayer(0, TimeToGo, 9)
+	TurnEventPlayer(0, TimeToGo, 7)
 	END_MAIN
 
 ALIGN 32
@@ -29,7 +29,10 @@ MiscBasedEvents:
 	END_MAIN
 
 LocationBasedEvents:
-
+	House(0,Chp1House,11,12)
+	Village(0x10,Chp1VillageEvent,2,3)
+	Escape(7,0)
+	Escape(8,0)
 	END_MAIN
 
 Dunno1:
@@ -234,6 +237,20 @@ BeginningScene:
 	LOAD2 1 Cooked
 	ENUT 4
 	ENDA
+
+
+
+
+Chp1House:
+SetBackground(House1)
+TalkConvo(Chp1HouseText)
+ENDA
+
+Chp1VillageEvent:
+SetBackground(House1)
+TalkConvo(Chp1HouseText)
+ENDA
+
 
 EndingScene:
 	MNC2 2

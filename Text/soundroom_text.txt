@@ -101,19 +101,19 @@ Valkyrie Staff [X]
 Palace of Silezha [X]
 
 ## AugustBTxt
-August B- FE5 [X]
+August B - FE5 [X]
 
 ## AdvanceTxt
-Advance- FE5 [X]
+Advance - FE5 [X]
 
 ## AdversityTxt
-Adversity- FE5 [X]
+Adversity - FE5 [X]
 
 ## BossBattleTxt
-Boss Battle- FE5 [X]
+Boss Battle - FE5 [X]
 
 ## CuringTxt
-Curing- FE5 [X]
+Curing - FE5 [X]
 
 ## DefendTxt
 Defend - FE5 [X]
@@ -131,46 +131,46 @@ Pressing Threat- FE5 [X]
 Sorrow - FE5 [X]
 
 ## SquadATxt
-Squad A- FE5 [X]
+Squad A - FE5 [X]
 
 ## SquadBTxt
-Squad B- FE5 [X]
+Squad B - FE5 [X]
 
 ## ThreatBTxt
-Threat B- FE5 [X]
+Threat B - FE5 [X]
 
 ## VictoryTxt
-Victory- FE5 [X]
+Victory - FE5 [X]
 
 ## VictoryMTxt
-Victory Minor- FE5 [X]
+Victory Minor - FE5 [X]
 
 ## AttackTxt
-Attack- FE5 [X]
+Attack - FE5 [X]
 
 ## ConquestTxt
-Conquest- FE5 [X]
+Conquest - FE5 [X]
 
 ## CrisisTxt
-Crisis- FE5 [X]
+Crisis - FE5 [X]
 
 ## NearDefeatTxt
-Near Defeat- FE5 [X]
+Near Defeat - FE5 [X]
 
 ## NearVictoryTxt
-Near Victory- FE5 [X]
+Near Victory - FE5 [X]
 
 ## LoptousATxt
-Loptous A- FE5 [X]
+Loptous A - FE5 [X]
 
 ## MapBTxt
-Map B- FE5 [X]
+Map B - FE5 [X]
 
 ## Search4VictoryTxt
 Searching for Seiso[X]
 
 ## ChargeBTxt
-Charge B- FE5 [X]
+Charge B - FE5 [X]
 
 ## ShamanTxt
 Shaman in the Dark [X]
@@ -224,7 +224,10 @@ Blessing of the Generals II[X]
 Enemy Message 2[X]
 
 ## FE5BarbariansTxt
-FE5 Barbarians[X]
+Barbarians - FE5[X]
 
 ## SecretGardenTxt
 Secret Gardens[X]
+
+## FE5HealingTxt
+Healing - FE5[X]
