@@ -1,3 +1,5 @@
+/*
+
 EscapeEvent:
 CHECK_ACTIVE 
 SADD 0xC2
@@ -30,4 +32,5 @@ LABEL 777
 NoFade
 ENDA
 
+*/
 

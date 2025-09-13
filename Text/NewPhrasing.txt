@@ -1,0 +1,20 @@
+# 0x558
+Attack power is increased![NL]
+Get in the fight![X]
+
+# 0x559
+Defense & resistance increased![NL]
+Tank some hits![X]
+
+# 0x55A
+Critical hit chance increased![NL]
+Inflict some damage![X]
+
+# 0x55B
+Dodge is increased![NL]
+Avoid those hits![X]
+
+# 0x57A
+Select which units to[NL]
+deploy. The number is[NL]
+limited.[X]

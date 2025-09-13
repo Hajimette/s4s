@@ -26,11 +26,23 @@ MiscBasedEvents:
 	END_MAIN
 
 LocationBasedEvents:
+Door(19,17)
+Chest(IronBow,23,17)
+Chest(0x2C,24,18)
+Village(0x8,Chp2UpperVillage,12,1)
+Village(0x9,Chp2CentralVillage,6,8)
+Village(0x0,Chp2CentralEastVillage,16,11)
+Village(0xA,Chp2EastVillage,23,11)
+House(0,Chp2Inn,2,12)
+House(0xB,Chp2Temple,12,6)
+Armory(Chp2Armory,5,2)
+Vendor(Chp2Vendor,1,2)
 
 	END_MAIN
 
 Dunno1:
 	AFEV 0x7 MikoTutorialEvent 0
+	AFEV 0xC PolkaTutorialEvent 0
 
 	END_MAIN
 
@@ -77,7 +89,7 @@ EnemyUnits:
         UNIT 0x80 0x3f 0x53 Level(3,Enemy,True) [20,12] 0x0 0x0 0x0 0x0 [Hammer] NoMoveAI
  UNIT 0x80 0x26 0x53 Level(3,Enemy,True) [17,9] 0x0 0x0 0x0 0x0 [Fire] NoMoveAI
  UNIT 0x80 0xf 0x53 Level(6,Enemy,True) [21,7] 0x0 0x0 0x0 0x0 [IronSword] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [11,16] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [11,17] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
  UNIT 0x80 0x13 0x53 Level(2,Enemy,True) [17,15] 0x0 0x0 0x0 0x0 [SlimSword] NoMoveAI
  UNIT 0x80 0x4e 0x53 Level(6,Enemy,True) [2,12] DropItem 0x0 0x0 0x0 [Javelin, 0x6A] UnmovingAI
  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [6,8] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
@@ -95,8 +107,8 @@ EnemyUnits:
  UNIT 0x80 0x19 0x53 Level(1,Enemy,True) [2,0] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
  
  UNIT 0x80 0x3f 0x53 Level(3,Enemy,True) [23,11] 0x0 0x0 0x0 0x0 [SteelAxe] UnmovingAI
- UNIT 0x80 0xC 0x53 Level(3,Enemy,True) [22,14] DropItem 0x0 0x0 0x0 [0x5B] NoMoveAI
- UNIT 0x80 0x10 0x53 Level(3,Enemy,True) [23,11] 0x0 0x0 0x0 0x0 [IronSword] UnmovingAI
+ UNIT 0x80 0x1B 0x53 Level(3,Enemy,True) [13,16] DropItem 0x0 0x0 0x0 [SilverBow,0x5B] NoMoveAI
+ UNIT 0x80 0x10 0x53 Level(3,Enemy,True) [9,8] 0x0 0x0 0x0 0x0 [IronSword] UnmovingAI
  UNIT 0x80 0x10 0x53 Level(3,Enemy,True) [16,2] 0x0 0x0 0x0 0x0 [0xD] NoMoveAI
  UNIT 0x80 0x19 0x53 Level(5,Enemy,True) [14,3] 0x0 0x0 0x0 0x0 [Longbow] NoMoveAI
  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [12,1] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
@@ -120,7 +132,7 @@ BeginningScene:
 	ENUN
 	CAM1 [4,17]
 		FadeBackBlack
-		LOAD1 0 PlayerUnits
+		LOAD3 2 PlayerUnits
         ENUN
 		STAL 45
 		CAM1 [21,3]
@@ -145,13 +157,150 @@ MikoTutorialEvent:
 	NoFade
 ENDA
 
+ALIGN 4
+PolkaTutorialEvent:
+CHECK_ACTIVE
+	SVAL s1 0x8
+	BEQ 1 s1 sC
+	ENUF 0xB // unset completion flag if unit selected isn't Miko
+	GOTO 2
+	LABEL 1
+	TextBox(PolkaTutorial)
+	LABEL 2
+	NoFade
+ENDA
 
+
+
+
+
+
+
+Chp2UpperVillage:
+FadeBlack
+SetBackground(House2)
+FadeBackBlack
+TalkConvo(Chp1HouseText)
+FadeBlack
+CLEAN
+FadeBackBlack
+GiveItem(0x6C,0xFFFF)
+NoFade
+ENDA
+
+
+
+Chp2CentralVillage:
+FadeBlack
+CHECK_ACTIVEID 0x2
+BEQ 1 s1 sC
+SetBackground(House2)
+FadeBackBlack
+TalkConvo(Chp1HouseText)
+FadeBlack
+CLEAN
+FadeBackBlack
+GiveItem(0x6C,0xFFFF)
+GOTO 2
+LABEL 1
+SetBackground(House2)
+FadeBackBlack
+TalkConvo(Chp1HouseText)
+FadeBlack
+CLEAN
+FadeBackBlack
+GiveItem(0xC1,0xFFFF)
+LABEL 2
+NoFade
+ENDA
+
+Chp2CentralEastVillage:
+FadeBlack
+SetBackground(House2)
+FadeBackBlack
+TalkConvo(Chp1HouseText)
+FadeBlack
+CLEAN
+FadeBackBlack
+ENDA
+
+Chp2EastVillage:
+FadeBlack
+SetBackground(House2)
+FadeBackBlack
+TalkConvo(Chp1HouseText)
+FadeBlack
+CLEAN
+FadeBackBlack
+GiveItem(0x6C,0xFFFF)
+ENDA
+
+
+Chp2Inn:
+FadeBlack
+SetBackground(House2)
+FadeBackBlack
+TalkConvo(Chp1HouseText)
+FadeBlack
+CLEAN
+FadeBackBlack
+ENDA
+
+Chp2Temple:
+FadeBlack
+SetBackground(House2)
+FadeBackBlack
+TalkConvo(Chp1HouseText)
+FadeBlack
+CLEAN
+FadeBackBlack
+ENDA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALIGN 4
+Chp2Armory:
+SHORT 0x1
+SHORT 0x2
+SHORT 0x14
+SHORT 0x15
+SHORT IronAxe
+SHORT SteelAxe
+SHORT IronBow
+SHORT 0x34
+SHORT 0
+SHORT 0
+
+ALIGN 4
+Chp2Vendor:
+SHORT 0x38
+SHORT 0x39
+SHORT 0x4B
+SHORT 0x4C
+SHORT 0x6C
+SHORT 0x70
+SHORT 0
+SHORT 0
 
 
 
 
 
 EndingScene:
+EnactAutoRepair
 	MNC2 3
 	NoFade
 	ENDA

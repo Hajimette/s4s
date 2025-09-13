@@ -14,7 +14,7 @@ I got to pull back.[A][X]
 ## MumeiDeath
 [MidRight][LoadMumei]
 Fauna...please watch over[N]
-humanity for me...[A] I'm sorry
+humanity for me...[A] I'm sorry[N]
 I wasn't strong enough...[A][CloseEyes][X]
 
 

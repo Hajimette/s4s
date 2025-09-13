@@ -26,9 +26,13 @@
     #include "_1RN/Installer.event"
     #include "TextRework/_FE8-Text_Engine_Rework_EA.event"
     #include "SetUnitStatusVesly/SetStatusInstaller.event"
+#include "UseItemEffect/Installer.event"
     #include "ItemSpecialEffect/Installer.event"
     #include "Fatigue/Fatigue.event" 
 #include "Escape/Installer.event"
+#include "kagaribi3/Installer.event"
+#include "MultiTileMarker/MultiTileMarker_Install.event"
+
 
 
 

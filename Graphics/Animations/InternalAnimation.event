@@ -1379,7 +1379,6 @@ UnarmedAnim(0x2B)
 WORD 0x0
 
 ALIGN 4
-
 SoldierAnim:
 LanceAnim(0x98)
 WORD 0x0

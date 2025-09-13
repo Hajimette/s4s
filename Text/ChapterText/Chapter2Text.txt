@@ -8,8 +8,45 @@ again and again...[A][X]
 
 ## MikoTutorial
 Miko's [Red]Again Staff[Red] is a special type[N]
-of item different than others.[A][N]
+of item similar to the Combat Stim.[A][N]
 Her staff is able to [Red]RENEW[Red] after[N]
 each chapter.[A] When you see these[N]
 special items, go crazy![A][X]
+
+
+## PolkaTutorial
+Polka is your mobile supply hub.[A][N]
+Unlike other units in your army,[N]
+Polka focuses on [Red]Utility and Mobility[Red].[A][N]
+Polka's defeat will [Red]prevent[Red] you from[N]
+storing items from your supply.[A][N]
+Tread carefully.[A][X]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -53,7 +53,7 @@
 [......v.] = [FarRight]
 [.......v] = [FarFarRight]
 
-[CurrentPortrait] = [LoadFace][0xFF][0x1]
+[CurrentPortrait] = [LoadFace][0xFFFF][0x01]
 
 [LoadAme] = [LoadFace][0x02][0x1]
 [LoadReineP] = [LoadFace][0x04][0x1]

@@ -221,6 +221,11 @@ ALIGN 4
 SlimLanceBoost:
 StatBonus(0, 0, 0, 0, 4, 0, 0, 0, 0, 0)
 
+ALIGN 4
+NephBoost:
+StatBonus(0, 10, 10, 0, 4, 0, 0, 0, 0, 0)
+
+
 //ALIGN 4
 //WeaponStatBoosts:
 //defStatBoosts(hp, str, mag, skl, spd, luk, def, res)

@@ -1140,7 +1140,8 @@ Forged from steel.[X]
 Combat Stim[X]
 
 ## CombatStimDesc
-Ame Only. Grants buffs for 5 turns.[X]
+Ame Only. Deals 5 damage, but[N]
+Grants +10 Atk for 5 turns.[X]
 
 ## EntrapName
 Entrap[X]

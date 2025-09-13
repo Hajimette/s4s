@@ -44,6 +44,7 @@ POIN AxefaithHit
 POIN StancesASM
 POIN AirRaidSkillCheck
 POIN FactionSlayer
+POIN Investigation
 #ifdef ENABLE_GBA_LETHALITY
 POIN LethalitySkill 
 #else

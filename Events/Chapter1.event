@@ -36,6 +36,7 @@ LocationBasedEvents:
 	END_MAIN
 
 Dunno1:
+	AFEV 0x7 ReineChp1DeathNotice 0
 
 	END_MAIN
 
@@ -67,8 +68,8 @@ EnemyUnits:
 		UNIT 0xAC 0x55 0x53 Level(1,Enemy,True) [7,2] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
 		UNIT 0xAA 0x52 0x53 Level(2,Enemy,True) [12,4] 0x0 0x0 0x0 0x0 [RottenClaw] NoMoveAI
 		UNIT 0xAA 0x53 0x53 Level(1,Enemy,True) [10,0] 0x0 0x0 0x0 0x0 [0x8B] TwoActionAI
-		UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [15,0] 0x0 0x0 0x0 0x0 [RottenClaw] NoMoveAI
-		UNIT 0xAA 0x52 0x53 Level(3,Enemy,True) [18,1] 0x0 0x0 0x0 0x0 [RottenClaw] NoMoveAI
+		UNIT 0xAA 0x54 0x53 Level(1,Enemy,True) [15,1] 0x0 0x0 0x0 0x0 [SlimSword] NoMoveAI
+		UNIT 0xAA 0x54 0x53 Level(3,Enemy,True) [17,0] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
 		UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [18,13] 0x0 0x0 0x0 0x0 [RottenClaw] DefaultAI
 		UNIT 0xAA 0x53 0x53 Level(1,Enemy,True) [2,6] 0x0 0x0 0x0 0x0 [RottenClaw] NoMoveAI
 		UNIT 0xAA 0x54 0x53 Level(1,Enemy,True) [8,3] DropItem 0x0 0x0 0x0 [IronSword] NoMoveAI
@@ -95,7 +96,7 @@ Creature:
 
 TheyCome:
 	UNIT 0xAA 0x52 0xAA Level(1,Enemy,True) [19,12] 0x0 0x0 1 REDA15R11 [RottenClaw,0x0] DefaultAI
-	UNIT 0xAA 0x52 0xAA Level(1,Enemy,True) [19,13] 0x0 0x0 1 REDA14R12 [RottenClaw,0x0] DefaultAI
+	UNIT 0xAA 0x55 0xAA Level(1,Enemy,True) [19,13] 0x0 0x0 1 REDA14R12 [IronBow,0x0] DefaultAI
 
 	UNIT
 	
@@ -247,12 +248,36 @@ TalkConvo(Chp1HouseText)
 ENDA
 
 Chp1VillageEvent:
+FadeBlack
 SetBackground(House1)
+FadeBackBlack
 TalkConvo(Chp1HouseText)
+FadeBlack
+CLEAN
+FadeBackBlack
+GiveItem(0x76,0xFFFF)
+NoFade
+ENDA
+
+ALIGN 4
+ReineChp1DeathNotice:
+	CHECK_ACTIVE
+	SVAL s1 0x2
+	BEQ 1 s1 sC
+	ENUF 7 // unset completion flag if unit selected isn't Miko
+	GOTO 2
+	LABEL 1
+	TextBox(ReineTutorial)
+	LABEL 2
+	NoFade
 ENDA
 
 
+
+
 EndingScene:
+EndOfEscapeRoutineASMC
+EnactAutoRepair
 	MNC2 2
 	NoFade
 	ENDA

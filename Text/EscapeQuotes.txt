@@ -5,12 +5,29 @@ Time to go.[A][X]
 
 ## ReineChapter1EscapeQuoteText
 [MidRight][LoadReineP]
+[MidRight]
 Damn these things...I hope[N]
 Shike is alright...[A][X]
 
+## FaunaChapter1EscapeQuoteText
+[MidRight][LoadFaunaP]
+[MidRight]
+I hope Mumei managed [N]
+to make it through...[A][X]
+
+## MumeiChapter1EscapeQuoteText
+[MidRight][LoadMumei]
+[MidRight]
+Too many of these things...[N]
+I'm getting out of here...[A][N]
+hopefully Fauna is alright...[A][X]
 
 
-## AmeliaFinalEscapeQuoteList
+
+
+//
+## AmeliaChapter1FinalEscapeText
 [MidRight][LoadAme]
-Everyone! This way forward![A][X]
+[MidRight]
+That's everyone! Lets move![A][X]
 

@@ -49,30 +49,57 @@ CharEscapeQuoteEntriesTable:
 ALIGN 4
 Chapter1EscapeeList:
 RequiredEscapee(0x1)
+RequiredEscapee(0x2)
 RequiredEscapeeTerm
 
 SetRequiredEscapeesList(Chapter1,Chapter1EscapeeList)
+
+ALIGN 4
+AmeliaFinalEscapeQuoteList:
+CharEscapeQuote(Chapter1, AmeliaChapter1FinalEscapeText)
+CharEscapeQuoteTerm
 
 ALIGN 4
 AmeliaEscapeQuoteList:
 CharEscapeQuote(Chapter1, AmeliaChapter1EscapeText)
 CharEscapeQuoteTerm
 
+ALIGN 4
+ReineFinalEscapeQuoteList:
+CharEscapeQuote(Chapter1, ReineFinalEscapeQuoteList)
+CharEscapeQuoteTerm
+
+ALIGN 4
+ReineEscapeQuoteList:
+CharEscapeQuote(Chapter1, ReineChapter1EscapeQuoteText)
+CharEscapeQuoteTerm
+
+ALIGN 4
+MumeiEscapeQuoteList:
+CharEscapeQuote(Chapter1, MumeiChapter1EscapeQuoteText)
+CharEscapeQuoteTerm
+
+ALIGN 4
+FaunaEscapeQuoteList:
+CharEscapeQuote(Chapter1, FaunaChapter1EscapeQuoteText)
+CharEscapeQuoteTerm
+
+
 ////////
 
 
 SetRequiredCharFinalEscapeQuoteList(Amelia, AmeliaFinalEscapeQuoteList)
+SetRequiredCharFinalEscapeQuoteList(0x2, ReineFinalEscapeQuoteList)
 
 SetCharEscapeQuoteList(Amelia,AmeliaEscapeQuoteList)
-//SetCharEscapeQuoteList(0x2)
+SetCharEscapeQuoteList(0x2, ReineEscapeQuoteList)
+SetCharEscapeQuoteList(Mumei, MumeiEscapeQuoteList)
+SetCharEscapeQuoteList(Fauna, FaunaEscapeQuoteList)
+
 
 ////////
 
 
-ALIGN 4
-ReineEscapeQuoteList:
-CharEscapeQuote(Chapter1,ReineChapter1EscapeQuoteText)
-CharEscapeQuoteTerm
 
 
 
@@ -112,12 +139,12 @@ SetRequiredEscapeesList(Chapter14, Chapter14EscapeeList)
 SetRequiredEscapeesList(Chapter16, Chapter16EscapeeList)
 
 ALIGN 4
-LoeweFinalEscapeQuoteList:
+LoeweEscapeQuoteList:
 CharEscapeQuote(Chapter1,LoeweChapter1EscapeQuoteText)
 CharEscapeQuote(Chapter3,LoeweChapter3EscapeQuoteText)
-CharEscapeQuote(Chapter9,LoeweChapter1EscapeQuoteText)
-CharEscapeQuote(Chapter14,LoeweChapter1EscapeQuoteText)
-CharEscapeQuote(Chapter16,LoeweChapter1EscapeQuoteText)
+CharEscapeQuote(Chapter9,LoeweChapter3EscapeQuoteText)
+CharEscapeQuote(Chapter14,LoeweChapter3EscapeQuoteText)
+CharEscapeQuote(Chapter16,LoeweChapter3EscapeQuoteText)
 CharEscapeQuoteTerm
 
 ALIGN 4

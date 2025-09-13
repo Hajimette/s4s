@@ -48,6 +48,7 @@ LocationBasedEvents:
 	END_MAIN
 
 Dunno1:
+	AFEV 0x11 AmeliaPrologueCombatStim 0
 
 	END_MAIN
 
@@ -163,6 +164,19 @@ Traps1:
 Traps2:
 	ENDTRAP
 	ALIGN 4
+
+AmeliaPrologueCombatStim:
+CHECK_ACTIVE
+	SVAL s1 0x1
+	BEQ 1 s1 sC
+	ENUF 11 // unset completion flag if unit selected isn't Miko
+	GOTO 2
+	LABEL 1
+	TextBox(CombatTutorial)
+	LABEL 2
+	NoFade
+ENDA
+
 
 BeginningScene:
 
@@ -436,7 +450,12 @@ SetUnitStatus(0xB7,State,0)
 
 	ENDA
 
+
+
+
+
 EndingScene:
+EnactAutoRepair
 	FadeBlack
 	MusicChange(0x2E)
 	SetBackground(Lava)

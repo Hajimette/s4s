@@ -134,3 +134,11 @@ Uh...sure.[A][X]
 [MidLeft][LoadMan]
 [MidLeft]
 Placeholder Text moment.[A][X]
+
+## ReineTutorial
+Reine is a lose condition for[N]
+this chapter [Red]only[Red].[A] Both her[N]
+and Amelia [Red]must[Red] escape alive.[A][X]
+
+
+//Reminder to add flavor text for Faunmei talks

@@ -167,6 +167,7 @@ IMPData:
 #incbin "Dmps/IMP_palette.dmp"
 #incbin "Dmps/IMP_minimug.dmp"
 setMugEntry(IMP, IMPData, 5, 6, 5, 4)
+setMugEntryExtend(IMP, IMPData, 5, 6, 5, 4, 10, 2, 10, 4)
 
 ALIGN 4
 IMPWandData:
@@ -175,7 +176,7 @@ IMPWandData:
 #incbin "Dmps/IMPWand_palette.dmp"
 #incbin "Dmps/IMPWand_minimug.dmp"
 setMugEntry(IMPWand, IMPWandData, 5, 6, 5, 4)
-
+setMugEntryExtend(IMPWand, IMPWandData, 5, 6, 5, 4, 10, 2, 10, 4)
 
 ALIGN 4
 IofiEvilData:
@@ -216,6 +217,7 @@ KiryuData:
 #incbin "Dmps/Kiryu_palette.dmp"
 #incbin "Dmps/Kiryu_minimug.dmp"
 setMugEntry(Kiryu, KiryuData, 4, 6, 4, 4)
+setMugEntryExtend(Kiryu, KiryuData, 4, 6, 4, 4, 0, 3, 0, 5)
 
 ALIGN 4
 KoroneData:
@@ -232,6 +234,7 @@ KurokamiData:
 #incbin "Dmps/Kurokami_palette.dmp"
 #incbin "Dmps/Kurokami_minimug.dmp"
 setMugEntry(Kurokami, KurokamiData, 4, 6, 4, 4)
+setMugEntryExtend(Kurokami, KurokamiData, 4, 6, 4, 4, 10, 5, 10, 3)
 
 ALIGN 4
 LaplaceData:
@@ -280,6 +283,7 @@ OllieData:
 #incbin "Dmps/Ollie_palette.dmp"
 #incbin "Dmps/Ollie_minimug.dmp"
 setMugEntry(Ollie, OllieData, 3, 6, 3, 4)
+setMugEntryExtend(Ollie, OllieData, 3, 6, 3, 4, 10, 5, 10, 3)
 
 ALIGN 4
 OllieEvilData:
@@ -288,6 +292,7 @@ OllieEvilData:
 #incbin "Dmps/OllieEvil_palette.dmp"
 #incbin "Dmps/OllieEvil_minimug.dmp"
 setMugEntry(OllieEvil, OllieEvilData, 3, 6, 3, 4)
+setMugEntryExtend(OllieEvil, OllieEvilData, 3, 6, 3, 4, 10, 5, 10, 3)
 
 ALIGN 4
 ReineData:
@@ -394,6 +399,7 @@ RBCNoGlassesData:
 #incbin "Dmps/RBCNoGlasses_palette.dmp"
 #incbin "Dmps/RBCNoGlasses_minimug.dmp"
 setMugEntry(RBCNoGlasses, RBCNoGlassesData, 4, 5, 4, 3)
+setMugEntryExtend(RBCNoGlasses, RBCNoGlassesData, 4, 5, 4, 3, 0, 5, 0, 3)
 
 ALIGN 4
 AZKiData:
@@ -410,7 +416,7 @@ PolkaData:
 #incbin "Dmps/Polka_palette.dmp"
 #incbin "Dmps/Polka_minimug.dmp"
 setMugEntry(Polka, PolkaData, 3, 6, 3, 4)
-
+setMugEntryExtend(Polka, PolkaData, 3, 6, 3, 4, 10, 0, 0, 0)
 
 ALIGN 4
 KroniiData:
@@ -419,6 +425,8 @@ KroniiData:
 #incbin "Dmps/Kronii_palette.dmp"
 #incbin "Dmps/Kronii_minimug.dmp"
 setMugEntry(Kronii, KroniiData, 2, 5, 2, 3)
+setMugEntryExtend(Kronii, KroniiData, 2, 5, 2, 3, 10, 5, 10, 3)
+
 
 ALIGN 4
 KroniiAngryData:
@@ -427,7 +435,7 @@ KroniiAngryData:
 #incbin "Dmps/KroniiAngry_palette.dmp"
 #incbin "Dmps/KroniiAngry_minimug.dmp"
 setMugEntry(KroniiAngry, KroniiAngryData, 2, 5, 2, 3)
-
+setMugEntryExtend(KroniiAngry, KroniiAngryData, 2, 5, 2, 3, 10, 5, 10, 3)
 
 ALIGN 4
 KroniiBeatData:
@@ -436,6 +444,7 @@ KroniiBeatData:
 #incbin "Dmps/KroniiBeat_palette.dmp"
 #incbin "Dmps/KroniiBeat_minimug.dmp"
 setMugEntry(KroniiBeat, KroniiBeatData, 2, 5, 2, 3)
+setMugEntryExtend(KroniiBeat, KroniiBeatData, 2, 5, 2, 3, 10, 5, 10, 3)
 
 ALIGN 4
 Kronii1Data:
@@ -517,7 +526,7 @@ SubaruData:
 #incbin "Dmps/Subaru_frames.dmp"
 #incbin "Dmps/Subaru_palette.dmp"
 #incbin "Dmps/Subaru_minimug.dmp"
-setMugEntry(SubaruP, SubaruData, 2, 6, 3, 4)
+setMugEntry(SubaruP, SubaruData, 3, 5, 3, 3)
 
 ALIGN 4
 SuzyData:

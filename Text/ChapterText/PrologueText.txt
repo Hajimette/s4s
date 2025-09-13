@@ -352,3 +352,10 @@ Seiso flows deep in your veins.[X]
 0% Growths disabled.[A][X]
 
 
+## CombatTutorial
+Amelia's Combat Stimulant is a [Red]special[Red][N]
+type of item compared to others.[A][N]
+Unlike other weapons, the Combat Stim[N]
+is able to [Red]RENEW[Red] after every chapter[N] 
+without breaking.[A] Don't be afraid to use[N]
+it when it's needed![A][X]

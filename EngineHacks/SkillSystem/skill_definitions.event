@@ -57,7 +57,10 @@
 
 //Gentilhomme: Female allies within 2 tiles receive -2 damage.
 //Author Unknown (Initial Commit)
-#define GentilhommeID 201
+#define GentilhommeID 255
+
+//Investigation
+#define InvestigationID 201
 
 //Hex: -15 avoid to all adjacent enemies.
 //By Snakey1

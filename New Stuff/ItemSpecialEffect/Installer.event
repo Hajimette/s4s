@@ -1,17 +1,5 @@
 #include "Extensions/Hack Installation.txt"
 
-PUSH
-//ORG	FEBUILDER_EXTRA_ORG	//FEBuilderGBAで確保したメニュー領域に追加
-POIN	0x80D7D8C		//"Use" String
-SHORT	0x505 0x0		//右がヘルプ指定
-SHORT	$6302 0			//02は青メニュー
-POIN	ItemSpecialEffectCallUsability|1
-POIN	ItemSpecialDraw|1
-POIN	ItemSpecialEffect|1
-WORD	0 0 0
-
-POP
-
 
 PUSH 
 ORG $16854
@@ -42,7 +30,41 @@ WORD 0 0 0 // Terminator
 
 ALIGN 4
 AmeliaStim:
+//CheckCurrentHP(0x1)
+//BLE 13 s5 sC
+RANDOMNUMBER 3
+BEQ 0 s0 sC
+BEQ 1 s1 sC
+BEQ 2 s2 sC
+BEQ 3 s3 sC
+LABEL 0
 TalkConvo(AmeliaStim1)
+GOTO 4
+LABEL 1
+TalkConvo(AmeliaStim1)
+GOTO 4
+LABEL 2
+TalkConvo(AmeliaStim1)
+GOTO 4
+LABEL 3
+TalkConvo(AmeliaStim1)
+GOTO 4
+LABEL 4
+//SVAL s1 0x1
+//SVAL s6 5
+//ASMC 0x80709A5			// Force Stop
+//ASMC ClearMOVEUNITs
+SelfDamageLikePoison(0x1 , 5)
+SOUN 0xAA
+SetUnitStatus(0x1,State,0x01000000)
+SetUnitStatus(0x1,0x30,0x55)
+STAL 120
+SetUnitStatus(0x1,State,0x2)
+//GOTO 14
+//LABEL 13
+//TalkConvo(AmeliaStim1)
+//LABEL 14
+
 ENDA
 
 
@@ -67,3 +89,25 @@ ALIGN 4
 ItemSpecialEffectCallUsability:
 #incbin "ItemSpecialEffectCallUsability.dmp"
 POIN ItemSpecialEffectUsability
+
+#define MenuCommand(name,description,colour,usability,drawingroutine, effect) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; POIN drawingroutine|1; POIN effect|1; WORD 0 0 0"
+
+PUSH
+ORG $59D120
+POIN ItemMenuTable
+POP
+
+ALIGN 4
+ItemMenuTable:
+
+#define IM_Use "BYTE $8C $7D $0D $08 $96 $06 $DB $06 $00 $34 $00 $00 $7D $36 $02 $08 $00 $00 $00 $00 $71 $37 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
+#define IM_Equip "BYTE $84 $7D $0D $08 $97 $06 $DA $06 $04 $35 $00 $00 $F5 $36 $02 $08 $00 $00 $00 $00 $F9 $37 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
+#define IM_Trade "BYTE $7C $7D $0D $08 $98 $06 $D4 $06 $04 $36 $00 $00 $35 $2F $02 $08 $00 $00 $00 $00 $39 $38 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
+#define IM_Discard "BYTE $74 $7D $0D $08 $99 $06 $DC $06 $04 $37 $00 $00 $3D $37 $02 $08 $00 $00 $00 $00 $6D $38 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
+#define IM_Separator "WORD 0 0 0 0 0 0 0 0 0"
+
+MenuCommand(0x505, 0, BlueText, ItemSpecialEffectCallUsability|1, ItemSpecialDraw|1, ItemSpecialEffect|1)
+IM_Use
+IM_Trade
+IM_Discard
+IM_Separator
