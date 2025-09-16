@@ -1844,3 +1844,8 @@ damage to specific opponents.[X]
 ## SD_Investigation
 Investigation: Adjacent units receive[N]
 Amelia's (Str+Mt/2) during combat.[X]
+
+## SD_Tonjok
+Tonjok: Converts magic to physical[N]
+damage at 1 range when there's a[N]
+wind tome in her inventory.[X]

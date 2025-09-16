@@ -1,10 +1,10 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
 Eirika,InvestigationID
-Seth,ChaosStyleID
+Seth,TonjokID
 Gilliam,RallyDefID
 Franz,SealStrID
-Moulder,PowerstaffID
+Moulder,ParagonID
 Suisei,AxefaireID
 Ross,ParagonID
 Neimi,RallyLukID

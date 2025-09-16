@@ -45,6 +45,7 @@ POIN StancesASM
 POIN AirRaidSkillCheck
 POIN FactionSlayer
 POIN Investigation
+POIN Tonjok
 #ifdef ENABLE_GBA_LETHALITY
 POIN LethalitySkill 
 #else

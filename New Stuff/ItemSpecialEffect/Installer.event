@@ -108,6 +108,7 @@ ItemMenuTable:
 
 MenuCommand(0x505, 0, BlueText, ItemSpecialEffectCallUsability|1, ItemSpecialDraw|1, ItemSpecialEffect|1)
 IM_Use
+IM_Equip
 IM_Trade
 IM_Discard
 IM_Separator

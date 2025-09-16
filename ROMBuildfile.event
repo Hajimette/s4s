@@ -53,12 +53,21 @@ ALIGN 4
 
 
 
-
 //CustomSkillStuff
 gInvestigationID:
 BYTE InvestigationID
 
 #include "Investigation.lyn.event"
+
+
+gTonjokID:
+BYTE TonjokID
+
+#include "Tonjack.event"
+
+ALIGN 4; Tonjok:
+#include "Tonjok.lyn.event"
+
 
 
 

@@ -133,7 +133,9 @@
 
 //Horseguard: +4 defense against horseback enemies if within 3 spaces of an ally horse rider.
 //By Sme
-#define HorseguardID 157
+#define HorseguardID 255
+
+#define TonjokID 157
 
 //Armorboost: +4 attack and defense against armored enemies if within 3 spaces of an armored ally.
 //By Sme

@@ -1,0 +1,3 @@
+ALIGN 4; Tonjok_WindTomeList:
+BYTE 0x3E 0xBD 0xBE 0xBF
+BYTE 0 // Terminator
