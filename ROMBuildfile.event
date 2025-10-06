@@ -18,7 +18,9 @@
 
 
     //CSV tables
-    #include "Tables/TableInstaller.event"
+    #include "Tables/SupportConvos.event"
+#include "Tables/SupportPointers.event"    
+#include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
 
 

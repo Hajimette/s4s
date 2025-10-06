@@ -21,11 +21,6 @@ used it for storing food and[N]
 other things for awhile.[A]
 
 
-
-
-
-
-
 So, a few months [.]
 ago, I wanted to try time magic.[A][OpenMidLeft]Time magic?[A][OpenMidRight]Yea, basically, if I were [.]
 cast it, I can control time.[A]
@@ -34,4 +29,4 @@ preserve food and other things.[A]
 It could come in handy if I [.]
 was able to teach it.[A][OpenMidLeft]Were you successful?[A][OpenMidRight]Not at all.[A] I'll tell you [.]
 more later.[A] I think I see [.]
-more enemies ahead.[A]
+more enemies ahead.[A][X]

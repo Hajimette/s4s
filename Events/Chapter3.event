@@ -13,6 +13,7 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0, THERAT, 3)
 
 	END_MAIN
 
@@ -68,7 +69,9 @@ UNIT Miko 0x4A Amelia Level(3,Ally,False) [0,7] 0x0 0x0 0x0  0x0 [Heal,0xF4, Vul
 	UNIT
 
 Rat:
-	UNIT 0x7 0x83 Amelia Level(1,Ally,False) [20,15] 0x0 0x0 0x0 0x0 [0xC5,Fire,Vulnerary] NoAI
+	UNIT 0x7 0x83 Amelia Level(1,Ally,False) [20,14] 0x0 0x0 1 REDA20R15 [0xC5,Fire,Vulnerary] NoAI
+	
+	UNIT
 
 EnemyUnits:
 
@@ -139,12 +142,17 @@ Traps2:
 BeginningScene:
 LOAD1 0 PlayerUnits
 
-LOAD1 0 Rat
+
 
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	GotoPrepScreen
 	ENDA
+
+THERAT:
+CAM1 [20,14]
+LOAD1 0 Rat
+ENDA
 
 EndingScene:
 	MNC2 4
