@@ -59,13 +59,13 @@ Tutorial:
 	END_MAIN
 
 PlayerUnits:
-        UNIT Amelia 0x1 Amelia Level(1,Ally,False) [4,16] 0x0 0x1 0x0 REDA4R16 [0,0] NoAI
+        UNIT Amelia 0x1 Amelia Level(1,Ally,False) [2,19] 0x0 0x1 0x1 REDA4R16 [0,0] NoAI
 
         UNIT 0x2 0x4 Amelia Level(1,Ally,False) [5,17] 0x0 0x0 0x1 REDA5R17 [0,0] NoAI
 	
-	UNIT Mumei 0xD Amelia Level(1,Ally,False) [4,18] 0x0 0x0 0x1 REDA4R18 [0,0] NoAI
+		UNIT Mumei 0xD Amelia Level(1,Ally,False) [4,18] 0x0 0x0 0x1 REDA4R18 [0,0] NoAI
 
-	UNIT Fauna 0x1A Amelia Level(1,Ally,False) [3,17] 0x0 0x0 0x1 REDA3R17 [0,0] NoAI         
+		UNIT Fauna 0x1A Amelia Level(1,Ally,False) [3,17] 0x0 0x0 0x1 REDA3R17 [0,0] NoAI         
 
 	UNIT
 
@@ -132,7 +132,8 @@ BeginningScene:
 	ENUN
 	CAM1 [4,17]
 		FadeBackBlack
-		LOAD3 2 PlayerUnits
+		//LOAD3 2 PlayerUnits
+		LOAD3 0x1 PlayerUnits
         ENUN
 		STAL 45
 		CAM1 [21,3]

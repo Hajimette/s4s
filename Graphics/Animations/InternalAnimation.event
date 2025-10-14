@@ -1335,8 +1335,8 @@ WORD 0x0
 
 ALIGN 4
 RBCAnim:
-//SpecialAnim(0x4A, Rifle)
-//SpecialAnim(0x4B, Pistol)
+BowAnim(0x4A) //Rifle
+SpecialAnim(0x4B, 0xA0) //Pistol
 UnarmedAnim(0x4C)
 WORD 0x0
 

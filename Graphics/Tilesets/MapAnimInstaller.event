@@ -3,6 +3,7 @@
 SetTileAnim(FE4StyleFieldsID, FE4StyleFields)
 SetTileAnim(StrongholdAnimsID, StrongholdAnims)
 SetTileAnim(DungeonAnimsID, DungeonAnims)
+SetTileAnim(FE5FieldAnimsID, FE5FieldAnims)
 //EventPointerTable(
 
 ALIGN 4
@@ -228,6 +229,37 @@ ALIGN 4
 DungeonAnim6:
 #incbin "FE5Dungeon/DungeonAnimations/DungeonFE5.mapanime1_006.dmp"
 
+ALIGN 4
+FE5FieldAnim0:
+#incbin "FE5Field/FE5FieldsAnimation/fe5plainsimproved.mapanime 1_000.dmp"
+
+ALIGN 4
+FE5FieldAnim1:
+#incbin "FE5Field/FE5FieldsAnimation/fe5plainsimproved.mapanime 1_001.dmp"
+
+ALIGN 4
+FE5FieldAnim2:
+#incbin "FE5Field/FE5FieldsAnimation/fe5plainsimproved.mapanime 1_002.dmp"
+
+ALIGN 4
+FE5FieldAnim3:
+#incbin "FE5Field/FE5FieldsAnimation/fe5plainsimproved.mapanime 1_003.dmp"
+
+ALIGN 4
+FE5FieldAnim4:
+#incbin "FE5Field/FE5FieldsAnimation/fe5plainsimproved.mapanime 1_004.dmp"
+
+ALIGN 4
+FE5FieldAnim5:
+#incbin "FE5Field/FE5FieldsAnimation/fe5plainsimproved.mapanime 1_005.dmp"
+
+ALIGN 4
+FE5FieldAnim6:
+#incbin "FE5Field/FE5FieldsAnimation/fe5plainsimproved.mapanime 1_006.dmp"
+
+ALIGN 4
+FE5FieldAnim7:
+#incbin "FE5Field/FE5FieldsAnimation/fe5plainsimproved.mapanime 1_007.dmp"
 
 ALIGN 4
 FE4StyleFields:
@@ -296,4 +328,17 @@ tilesetAnimation(12,0x1000,DungeonAnim3)
 tilesetAnimation(12,0x1000,DungeonAnim4)
 tilesetAnimation(12,0x1000,DungeonAnim5)
 tilesetAnimation(12,0x1000,DungeonAnim6)
+WORD 0 0
+
+
+ALIGN 4
+FE5FieldAnims:
+tilesetAnimation(12,0x1000,FE5FieldAnim0)
+tilesetAnimation(12,0x1000,FE5FieldAnim1)
+tilesetAnimation(12,0x1000,FE5FieldAnim2)
+tilesetAnimation(12,0x1000,FE5FieldAnim3)
+tilesetAnimation(12,0x1000,FE5FieldAnim4)
+tilesetAnimation(12,0x1000,FE5FieldAnim5)
+tilesetAnimation(12,0x1000,FE5FieldAnim6)
+tilesetAnimation(12,0x1000,FE5FieldAnim7)
 WORD 0 0

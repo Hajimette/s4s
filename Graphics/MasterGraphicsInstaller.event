@@ -1,6 +1,8 @@
 
 #include "Animations/MasterBattleAniInstaller.event"
 
+#include "PortraitHeight/PortraitHeight.event"
+
 //#include "ClassCards/MasterCardInstaller.event"
 
 //#include "CGs/CGMasterInstaller.event"

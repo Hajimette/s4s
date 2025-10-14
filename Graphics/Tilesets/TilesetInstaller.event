@@ -38,8 +38,10 @@ SetTilesetObject(DungeonID, DungeonObject)
 SetTilesetPalette(DungeonPalID, DungeonPal)
 SetTilesetConfig(DungeonConfigID, DungeonConfig)
 
-
-
+#include "FE5Field/FE5Field.event"
+SetTilesetObject(ThraciaCandyID, ThraciaCandyObject)
+SetTilesetPalette(ThraciaCandyPalID, ThraciaCandyPal)
+SetTilesetConfig(ThraciaCandyConfigID, ThraciaCandyConfig)
 
 
 

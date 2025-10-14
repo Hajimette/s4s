@@ -26,7 +26,7 @@ ALIGN 4
 MapData:
   #incbin "Chapter5_data.dmp"
 
-SetChapterData(5, 0x5, 0, 0x9, 0x5, 0x1B, MapData, 0x9C, 0x0, 0x1D)
+SetChapterData(0x5, 0x5, 0, 0x9, 0x5, 0x1B, MapData, 0x9C, 0x0, 0x1D)
 
 ALIGN 4
 Map_Change_0:
@@ -38,7 +38,7 @@ Map_Change_1:
 
 ALIGN 4
 Map_Change_2:
-  SHORT $208 $1AC $1B0 $188 $78 $200 $184 $78 $180 $188 $208 $22C $230 $30C $F8 $180 $184 $F8 $180 $188 $208 $200 $1C0 $1C0 $1C0 $184 $184 $1C0 $184 $188 $2F0 $48 $11C $180 $184 $184 $184 $184 $184 $188 $0 $0 $208 $180 $184 $184 $184 $184 $184 $188 $0 $0 $450 $0 $0 $180 $184 $0 $0 $454
+  SHORT $1AC $1BC $1B0 $188 $488 $384 $504 $504 $504 $504 $78 $508 $404 $384 $78 $508 $188 $22C $23C $230 $30C $488 $384 $384 $384 $384 $384 $F8 $488 $404 $384 $F8 $488 $188 $384 $384 $384 $384 $384 $404 $384 $384 $404 $384 $404 $384 $384 $384 $384 $384 $188 $404 $404 $384 $384 $404 $384 $384 $384 $384 $384 $404 $384 $404 $384 $404 $384 $188 $384 $404 $404 $384 $384 $118 $48 $48 $48 $944 $488 $384 $384 $404 $384 $384 $188 $384 $72C $404 $384 $404 $208 $0 $0 $0 $208 $488 $404 $404 $404 $384 $118 $454 $384 $384 $384 $384 $384 $208 $0 $0 $0 $208 $488 $384 $404 $384 $384 $0 $0 $0 $0 $0 $0 $40 $2EC $0 $0 $0 $450 $0 $0 $404 $384 $0 $0 $0
 
 ALIGN 4
 Map_Change_3:
@@ -46,7 +46,7 @@ Map_Change_3:
 
 ALIGN 4
 Map_Change_4:
-  SHORT $1C0 $0 $184 $1C0
+  SHORT $1C0 $1C0 $184 $184
 
 ALIGN 4
 Map_Change_5:
@@ -69,17 +69,22 @@ Map_Change_9:
   SHORT $1C0 $1C0 $184 $184
 
 ALIGN 4
+Map_Change_10:
+  SHORT $1C0 $0 $184 $1C0
+
+ALIGN 4
 MapChangesData:
-  TileMap(0, 3, 3, 1, 2, Map_Change_0)
+  TileMap(0, 3, 8, 1, 2, Map_Change_0)
   TileMap(1, 19, 3, 1, 1, Map_Change_1)
-  TileMap(2, 7, 0, 10, 6, Map_Change_2)
-  TileMap(3, 21, 7, 2, 2, Map_Change_3)
-  TileMap(4, 12, 12, 2, 2, Map_Change_4)
-  TileMap(5, 13, 12, 1, 1, Map_Change_5)
-  TileMap(6, 15, 12, 1, 1, Map_Change_6)
-  TileMap(7, 14, 13, 1, 1, Map_Change_7)
-  TileMap(8, 16, 13, 1, 1, Map_Change_8)
-  TileMap(9, 21, 15, 2, 2, Map_Change_9)
+  TileMap(2, 0, 0, 17, 8, Map_Change_2)
+  TileMap(3, 19, 8, 2, 2, Map_Change_3)
+  TileMap(4, 19, 15, 2, 2, Map_Change_4)
+  TileMap(5, 13, 13, 1, 1, Map_Change_5)
+  TileMap(6, 12, 12, 1, 1, Map_Change_6)
+  TileMap(7, 11, 13, 1, 1, Map_Change_7)
+  TileMap(8, 10, 12, 1, 1, Map_Change_8)
+  TileMap(9, 2, 15, 2, 2, Map_Change_9)
+  TileMap(10, 9, 12, 2, 2, Map_Change_10)
   TileMapEnd
 
 EventPointerTable(0x1D, MapChangesData)

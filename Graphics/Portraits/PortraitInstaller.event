@@ -57,6 +57,7 @@
 #define FlareP 0xE
 #define SubaruP 0x13
 #define IrohaP 0x3
+#define SoraP 0x1C
 
 //Pending but aligned
 #define CalliopePortrait 0xAD
@@ -553,10 +554,21 @@ IrohaData:
 #incbin "Dmps/Iroha_minimug.dmp"
 setMugEntry(IrohaP, IrohaData, 4, 7, 4, 5)
 
-//ALIGN 4
-//:
-//#incbin "Dmps/_mug.dmp"
-//#incbin "Dmps/_frames.dmp"
-//#incbin "Dmps/_palette.dmp"
-//#incbin "Dmps/_minimug.dmp"
-//setMugEntry(, , 3, 5, 3, 3)
+ALIGN 4
+SodaData:
+#incbin "Dmps/Soda_mug.dmp"
+#incbin "Dmps/Soda_frames.dmp"
+#incbin "Dmps/Soda_palette.dmp"
+#incbin "Dmps/Soda_minimug.dmp"
+setMugEntry(SoraP, SodaData, 3, 6, 3, 4)
+
+
+/*
+ALIGN 4
+:
+#incbin "Dmps/_mug.dmp"
+#incbin "Dmps/_frames.dmp"
+#incbin "Dmps/_palette.dmp"
+#incbin "Dmps/_minimug.dmp"
+setMugEntry(, , 3, 5, 3, 3)
+*/

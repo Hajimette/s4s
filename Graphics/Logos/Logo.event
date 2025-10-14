@@ -61,17 +61,17 @@ LogoPal2:
 
 ALIGN 4
 PlushImage:
-#incbin "Logo.png.dmp"
+#incbin "RuPresents.png.dmp"
 
 ALIGN 4
 PlushTSA:
-#incbin "Logo.png.tsa.dmp"
+#incbin "RuPresents.png.tsa.dmp"
 
 ALIGN 4
 PlushPal:
-#incbin "Logo.png.pal.dmp"
+#incbin "RuPresents.png.pal.dmp"
 
 
 ALIGN 4
 PlushPal2:
-#incbin "Logo.png.pal.dmp"
+#incbin "RuPresents.png.pal.dmp"

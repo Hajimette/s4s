@@ -1,0 +1,11 @@
+ALIGN 4
+ThraciaCandyObject:
+#incbin "ThraciaCandy.dmp"
+
+ALIGN 4
+ThraciaCandyPal:
+#incbin "ThraciaCandy_pal.dmp"
+
+ALIGN 4
+ThraciaCandyConfig:
+#incbin "ThraciaCandy_comp.dmp"

@@ -68,4 +68,14 @@ BYTE HardCharLock
 BYTE Noel
 BYTE EndLockArray
 
+BaeArray:
+BYTE HardCharLock
+BYTE Baelz
+BYTE EndLockArray
+
+RBCArray:
+BYTE HardCharLock
+BYTE Roboco
+BYTE EndLockArray
+
 #endif // ADV_WEAPON_LOCKS

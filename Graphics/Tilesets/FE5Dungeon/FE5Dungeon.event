@@ -1,10 +1,10 @@
 ALIGN 4
 DungeonObject:
-#incbin "Dungeon.dmp"
+#incbin "DungeonNew.dmp"
 
 ALIGN 4
 DungeonPal:
-#incbin "Dungeon_pal.dmp"
+#incbin "DungeonPaletteNew_pal.dmp"
 
 ALIGN 4
 DungeonConfig:

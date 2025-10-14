@@ -13,6 +13,8 @@
 #define FaunaLock 0x04000000
 #define MikoLock 0x05000000
 #define NoelLock 0x06000000
+#define BaeLock 0x07000000
+#define RBCLock 0x08000000
 
 
 

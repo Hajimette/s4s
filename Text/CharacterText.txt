@@ -436,3 +436,10 @@ Nousagi[X]
 ## NousagiTxt
 A soldier from the invading[N]
 armies of Pekoland.[X]
+
+## NewNovalaTxt
+Ruffian[X]
+
+## NovalaDesc
+Leader of a group of brigands[N]
+working with Pekoland.[X]

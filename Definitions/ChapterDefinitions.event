@@ -107,6 +107,7 @@
 #define StrongholdID 0x03
 #define VillageRemakeID 0x4
 #define DungeonID 0x5
+#define ThraciaCandyID 0x6
 
 
 //Palettes
@@ -119,6 +120,7 @@
 #define StrongholdSnowPalID 0x7
 #define VillageRemakePalID 0x8
 #define DungeonPalID 0x9
+#define ThraciaCandyPalID 0xA
 
 
 //Config
@@ -127,13 +129,14 @@
 #define StrongholdConfigID 0x03
 #define VillageRemakeConfigID 0x4
 #define DungeonConfigID 0x5
+#define ThraciaCandyConfigID 0x6
 
 
 // TileAnimations
 #define  FE4StyleFieldsID 0x01
 #define  StrongholdAnimsID 0x07
 #define  DungeonAnimsID 0x9C
-//#define  0x05
+#define  FE5FieldAnimsID 0x05
 //#define  0xcd
 //#define  0xD6
 //#define  0xDb

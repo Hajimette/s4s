@@ -7,3 +7,9 @@ Underworld[X]
 
 ## EscapeChp1
 Escape the Forest[X]
+
+## ShikeChp2
+Clear the Nousagi[X]
+
+## HTTEChp3
+Defeat the Leader[X]
