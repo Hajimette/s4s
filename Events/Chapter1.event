@@ -20,7 +20,7 @@ TurnBasedEvents:
 
 ALIGN 32
 CharacterBasedEvents:
-	CharacterEventBothWays(7, ReineAmeliaTalk, Amelia, 0x2)
+	CharacterEventBothWays(8, ReineAmeliaTalk, Amelia, 0x2)
 	
 	END_MAIN
 

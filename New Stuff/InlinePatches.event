@@ -175,3 +175,15 @@ PUSH
 ORG 0x23F88
 BYTE 0xF3
 POP
+
+// Staff Exp
+PUSH
+ORG 0x2C676
+BYTE 15
+POP
+
+//Adjust Mode Coefficient 
+PUSH
+ORG 0x2C474
+BYTE 0
+POP

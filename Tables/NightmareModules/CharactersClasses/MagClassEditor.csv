@@ -1,37 +1,37 @@
 INLINE MagClassTable,Base Magic,Magic Growth,Magic Cap,Magic Promotion Bonus
 None,0,0,40,0
-Ephraim Lord,1,10,20,0
-Eirika Lord,1,40,40,0
-Ephraim Master Lord,2,10,50,1
-Eirika Master Lord,2,40,50,2
+Investigator,1,10,20,0
+Detective,2,40,40,7
+Battle Maiden,7,20,50,0
+BattleSage,2,40,50,2
 Cavalier,0,0,20,0
 Cavalier (F),0,0,20,0
 Paladin,2,10,40,2
 Paladin (F),2,10,40,2
-Armour Knight,0,0,20,0
+Armor Knight,0,0,20,0
 Armour Knight (F),0,0,20,0
 General,0,0,40,0
-General (F),0,0,40,0
+Crate,0,0,40,0
 Thief,1,5,20,0
-Manakete,0,0,40,0
+Dummy,0,0,40,0
 Mercenary,0,0,20,0
 Mercenary (F),0,0,20,0
 Hero,0,0,40,0
 Hero (F),0,0,40,0
-Myrmidon,1,15,40,0
-Myrmidon (F),1,15,40,0
+Myrmidon,1,15,20,0
+Myrmidon (F),1,15,20,0
 Swordmaster,2,10,40,1
 Swordmaster (F),2,10,40,1
 Assassin,1,0,40,0
 Assassin (F),1,0,40,0
-Archer,0,0,40,0
-Archer (F),0,0,40,0
+Archer,0,0,20,0
+Archer (F),0,0,20,0
 Sniper,1,10,40,1
 Sniper (F),1,10,40,1
 Ranger,0,0,40,0
 Ranger (F),0,0,40,0
-Wyvern Rider,0,0,40,0
-Wyvern Rider (F),0,0,40,0
+Wyvern Rider,0,0,20,0
+Wyvern Rider (F),0,0,20,0
 Wyvern Lord,0,0,40,0
 Wyvern Lord (F),0,0,40,0
 Wyvern Knight,1,5,40,1
@@ -44,8 +44,8 @@ Mage Knight,4,40,40,2
 Mage Knight (F),3,40,40,2
 Bishop,4,35,40,2
 Bishop (F),4,35,40,1
-Shaman,2,50,40,0
-Shaman (F),3,45,40,0
+Shaman,2,50,20,0
+Shaman (F),3,45,20,0
 Druid,6,55,40,0
 Druid (F),7,55,40,0
 Summoner,5,50,40,0
@@ -54,31 +54,31 @@ Rogue,3,40,26,3
 Gorgon Egg,0,0,40,0
 Great Knight,0,0,40,0
 Great Knight (F),0,0,40,0
-Recruit (2),0,0,40,0
-Journeyman (3),0,0,40,0
-Pupil (3),5,55,40,2
-Recruit (3),0,0,40,0
+Im[_p][_e][_r][_f][_e][_c][_t][_SP][_O][_n][_e],0,0,40,0
+Im[_p][_e][_r][_f][_e][_c][_t][_SP][_O][_n][_e],0,0,40,0
+Im[_p][_e][_r][_f][_e][_c][_t][_SP][_O][_n][_e],5,55,40,2
+Im[_p][_e][_r][_f][_e][_c][_t][_SP][_O][_n][_e],0,0,40,0
 Manakete,2,0,40,0
 Manakete (F),2,0,40,0
-Journeyman (1),0,0,40,0
-Pupil (1),1,55,40,0
+Im[_p][_e][_r][_f][_e][_c][_t][_SP][_O][_n][_e],0,0,40,0
+Catalyst,1,55,40,0
 Fighter,0,0,20,0
 Warrior,0,0,40,0
 Brigand,0,0,40,0
-Pirate,0,0,40,0
+Pirate,0,0,20,0
 Berserker,0,0,40,0
-Monk,1,40,40,0
-Priest,1,40,40,0
-Bard,1,45,40,0
-Recruit (1),0,0,40,0
-Pegasus Knight,1,10,40,0
-Falcon Knight,3,40,40,3
+Squire,1,40,20,0
 Cleric,1,40,20,0
-Troubadour,1,40,40,0
+Bard,1,45,20,0
+Recruit,0,0,20,0
+Pegasus Knight,1,10,20,0
+Falcon Knight,3,40,40,3
+[_S][_h][_r]i[_n][_e][_SP]M[_a]i[_d][_e][_n],1,40,20,0
+Troubadour,1,40,20,0
 Valkyrie,4,35,40,2
-Dancer,1,45,40,0
+Dancer,1,45,20,0
 Soldier,0,0,40,0
-Necromancer,9,55,40,0
+The Reaper,9,55,40,0
 Fleet,0,0,40,0
 Phantom,0,0,40,0
 Revenant,0,0,40,0
@@ -125,79 +125,79 @@ Pontifex,0,0,40,0
 Dead Peer,0,0,40,0
 Cyclops,0,0,40,0
 Elder Bael,0,0,40,0
-Journeyman (2),0,0,40,0
-Pupil (2),2,55,40,1
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
-Ephraim Lord,1,10,40,0
+Im[_p][_e][_r][_f][_e][_c][_t][_SP][_O][_n][_e],0,0,40,0
+Im[_p][_e][_r][_f][_e][_c][_t][_SP][_O][_n][_e],2,55,40,1
+Circus Tent,1,10,40,0
+???,1,10,40,0
+Neko,1,10,40,0
+Mage,1,10,20,0
+Light Mage,1,10,20,0
+Crewmate,1,10,40,0
+The Weapon,1,10,40,0
+T[_r][_a][_v][_e]li[_n][_g][_SP][_C]i[_r][_c][_u][_s],1,10,40,0
+Smol Ame,1,10,40,0
+Crossbowmen,1,10,20,0
+Warrior,1,10,40,0
+Berserker,1,10,40,0
+Succubus,1,10,40,0
+Scholar,1,10,20,0
+Witch,1,10,40,0
+Gunner,1,10,20,0
+L. Gunner,1,10,40,0
+Rogue,1,10,40,0
+KFP,1,10,40,0
+Harrier,1,10,40,0
+Blacksmith,1,10,40,0
+Samurai,1,10,40,0
+The Doog,1,10,40,0
+The Slayer,1,10,40,0
+FellBeast,1,10,40,0
+Oni,1,10,40,0
+Pirate,1,10,20,0
+Shaman,1,10,20,0
+Angel,1,10,40,0
+Commander,1,10,40,0
+Baellista,1,10,40,0
+Tank,1,10,40,0
+Infantry,1,10,20,0
+Howtizer,1,10,40,0
+Warden,1,10,40,0
+Guardian,1,10,40,0
+Guardian,1,10,40,0
+Drowned,1,10,20,0
+Symphone,1,10,40,0
+Druid,1,10,40,0
+Succubus,1,10,40,0
+Laplace,1,10,40,0
+Scientist,1,10,40,0
+Nephilim,1,10,40,0
+Peg. Trainee,1,10,20,0
+Magic Girl,1,10,20,0
+Mahou Girl,1,10,40,0
+Maid,1,10,40,0
+Gore,1,10,40,0
+Legion,1,10,40,0
+King,1,10,40,0
+Seal,1,10,40,0
+CEO,1,10,40,0
+War Elephant,1,10,40,0
+Rat,1,10,40,0
+Catapult,1,10,40,0
+Novistador,1,10,40,0
+Dancer,1,10,40,0
+Trickster,1,10,40,0
+Marshall,1,10,40,0
+Sentinel,1,10,40,0
+Necromancer,1,10,40,0
+Seraph Knight,1,10,40,0
+Master Knight,1,10,40,0
+Marksmen,1,10,40,0
+Halberdier,1,10,40,0
+Archer,1,10,20,0
+Ballista,1,10,40,0
+Corpse,1,10,40,0
+Corpse,1,10,40,0
+Corpse,1,10,40,0
 Ephraim Lord,1,10,40,0
 Ephraim Lord,1,10,40,0
 Ephraim Lord,1,10,40,0

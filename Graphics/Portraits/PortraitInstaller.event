@@ -58,14 +58,18 @@
 #define SubaruP 0x13
 #define IrohaP 0x3
 #define SoraP 0x1C
+#define KoyoriP 0x27
+#define RushiaP 0xB
+#define RisuP 0x18
+
 
 //Pending but aligned
 #define CalliopePortrait 0xAD
-//#define RushiaPortrait 0xB
+
 //#define LaplusPortrait 0xD
 //#define AnyaPortrait 0x17
 //#define KoboPortrait 0x1D
-//#define KoyoriPortrait 0x27
+
 //#define AyamePortrait 0x2D
 
 
@@ -562,6 +566,29 @@ SodaData:
 #incbin "Dmps/Soda_minimug.dmp"
 setMugEntry(SoraP, SodaData, 3, 6, 3, 4)
 
+ALIGN 4
+KoyoriData:
+#incbin "Dmps/Koyori_mug.dmp"
+#incbin "Dmps/Koyori_frames.dmp"
+#incbin "Dmps/Koyori_palette.dmp"
+#incbin "Dmps/Koyori_minimug.dmp"
+setMugEntry(KoyoriP, KoyoriData, 4, 6, 4, 4)
+
+ALIGN 4
+RushiaData:
+#incbin "Dmps/Rushia_mug.dmp"
+#incbin "Dmps/Rushia_frames.dmp"
+#incbin "Dmps/Rushia_palette.dmp"
+#incbin "Dmps/Rushia_minimug.dmp"
+setMugEntry(RushiaP, RushiaData, 3, 6, 3, 4)
+
+ALIGN 4
+RisuData:
+#incbin "Dmps/Risu_mug.dmp"
+#incbin "Dmps/Risu_frames.dmp"
+#incbin "Dmps/Risu_palette.dmp"
+#incbin "Dmps/Risu_minimug.dmp"
+setMugEntry(RisuP, RisuData, 3, 6, 3, 4)
 
 /*
 ALIGN 4

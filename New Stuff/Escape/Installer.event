@@ -65,13 +65,13 @@ CharEscapeQuote(Chapter1, AmeliaChapter1EscapeText)
 CharEscapeQuoteTerm
 
 ALIGN 4
-ReineFinalEscapeQuoteList:
-CharEscapeQuote(Chapter1, ReineFinalEscapeQuoteList)
+ReineEscapeQuoteList:
+CharEscapeQuote(Chapter1, ReineChapter1EscapeQuoteText)
 CharEscapeQuoteTerm
 
 ALIGN 4
-ReineEscapeQuoteList:
-CharEscapeQuote(Chapter1, ReineChapter1EscapeQuoteText)
+ReineFinalEscapeQuoteList:
+CharEscapeQuote(Chapter1, ReineFinalEscapeQuoteText)
 CharEscapeQuoteTerm
 
 ALIGN 4

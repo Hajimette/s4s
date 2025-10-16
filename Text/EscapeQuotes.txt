@@ -29,5 +29,13 @@ hopefully Fauna is alright...[A][X]
 ## AmeliaChapter1FinalEscapeText
 [MidRight][LoadAme]
 [MidRight]
-That's everyone! Lets move![A][X]
+Please don't force me to kill[N]
+more of these things...[A][N]
+Damn it Warden...[A][X]
 
+## ReineFinalEscapeQuoteText
+[MidRight][LoadReineP]
+[MidRight]
+Shike... I hope the village[N]
+is alright...[A][N]
+I better talk to Amelia...[A][X]

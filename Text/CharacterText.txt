@@ -109,7 +109,7 @@ A cultured artist.[X]
 Roboco [X]
 
 ## RobocoDesc
-A high=tech android from[N]
+A high-tech android from[N]
 another world. It is unknown[N]
 how she got here.[X]
 

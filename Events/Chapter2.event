@@ -126,14 +126,12 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
-        
 		
 		LOAD1 0x1 EnemyUnits
 	ENUN
 	CAM1 [4,17]
 		FadeBackBlack
-		//LOAD3 2 PlayerUnits
-		LOAD3 0x1 PlayerUnits
+		LOAD3 0x0 PlayerUnits
         ENUN
 		STAL 45
 		CAM1 [21,3]
