@@ -40,7 +40,7 @@ SetTilesetPalette(ThraciaCandyPalID, ThraciaCandyPal)
 SetTilesetConfig(ThraciaCandyConfigID, ThraciaCandyConfig)
 
 
-#include "Desert2/Desert.event"
+#include "Desert/Desert.event"
 SetTilesetObject(DesertID, FE5Desert)
 SetTilesetPalette(DesertPalID, FE5DesertPal)
 SetTilesetConfig(DesertConfigID, FE5DesertConfig)

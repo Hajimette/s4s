@@ -1,0 +1,11 @@
+ALIGN 4
+FE5Desert:
+#incbin "DesertBastion.dmp"
+
+ALIGN 4
+FE5DesertPal:
+#incbin "DesertBastion_pal.dmp"
+
+ALIGN 4
+FE5DesertConfig:
+#incbin "DesertBastion_comp.dmp"

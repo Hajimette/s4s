@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="19" height="33" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
- <tileset firstgid="1" name="0D001011" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+ <tileset firstgid="1" name="0D001011" tilewidth="16" tileheight="16" tilecount="0" columns="32">
   <image source="0D001011.png" trans="ffffff" width="512" height="512"/>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="19" height="33">
   <properties>
-   <property name="Anims1" value="0x01"/>
+   <property name="Anims1" value="0x1"/>
    <property name="Anims2" value="0x0"/>
-   <property name="ChapterID" value="0x7"/>
+   <property name="ChapterID" value="7"/>
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0x26"/>
    <property name="MapID" value="0x25"/>
