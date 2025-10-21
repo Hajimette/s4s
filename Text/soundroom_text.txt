@@ -2,7 +2,7 @@
 Shiny Smily Story [X]
 
 ## SSSTitle
-SSS FE Ver. -MemeTzar[X]
+SSS FE Ver.[X]
 
 ## AstrogirlTxt
 Astrogirl [X]
@@ -101,76 +101,76 @@ Valkyrie Staff [X]
 Palace of Silezha [X]
 
 ## AugustBTxt
-August B - FE5 [X]
+August B[X]
 
 ## AdvanceTxt
-Advance - FE5 [X]
+Advance[X]
 
 ## AdversityTxt
-Adversity - FE5 [X]
+Adversity[X]
 
 ## BossBattleTxt
-Boss Battle - FE5 [X]
+Boss Battle[X]
 
 ## CuringTxt
-Curing - FE5 [X]
+Curing[X]
 
 ## DefendTxt
-Defend - FE5 [X]
+Defend[X]
 
 ## DestinyTxt
-Destiny - FE5 [X]
+Destiny[X]
 
 ## PrepsTxt
-Preparations - FE5 [X]
+Preparations[X]
 
 ## PressingThreatTxt
-Pressing Threat- FE5 [X]
+Pressing Threat[X]
 
 ## SorrowTxt
-Sorrow - FE5 [X]
+Sorrow[X]
 
 ## SquadATxt
-Squad A - FE5 [X]
+Squad A[X]
 
 ## SquadBTxt
-Squad B - FE5 [X]
+Squad B[X]
 
 ## ThreatBTxt
-Threat B - FE5 [X]
+Threat B[X]
 
 ## VictoryTxt
-Victory - FE5 [X]
+Victory[X]
 
 ## VictoryMTxt
-Victory Minor - FE5 [X]
+Victory Minor[X]
 
 ## AttackTxt
-Attack - FE5 [X]
+Attack[X]
 
 ## ConquestTxt
-Conquest - FE5 [X]
+Conquest[X]
 
 ## CrisisTxt
-Crisis - FE5 [X]
+Crisis[X]
 
 ## NearDefeatTxt
-Near Defeat - FE5 [X]
+Near Defeat[X]
 
 ## NearVictoryTxt
-Near Victory - FE5 [X]
+Near Victory[X]
 
 ## LoptousATxt
-Loptous A - FE5 [X]
+Loptous A[X]
 
 ## MapBTxt
-Map B - FE5 [X]
+Map B[X]
 
 ## Search4VictoryTxt
 Searching for Seiso[X]
 
 ## ChargeBTxt
-Charge B - FE5 [X]
+Charge B[X]
 
 ## ShamanTxt
 Shaman in the Dark [X]
@@ -179,19 +179,19 @@ Shaman in the Dark [X]
 Priestess of Darkness [X]
 
 ## PromotionTxt
-Leaps and Bounds- FE11 [X]
+Leaps and Bounds[X]
 
 ## DarknessTxt
-Into the Darkness- FE11 [X]
+Into the Darkness[X]
 
 ## EscapeTxt
-Escape- Runa [X]
+Escape[X]
 
 ## GodzillaTxt
 King of Monsters [X]
 
 ## ShopTxt
-Neko To Sanpo- Nekopara [X]
+Neko To Sanpo[X]
 
 ## KawanabeTxt
 Kawanabe [X]
@@ -203,7 +203,7 @@ Among Us Drip [X]
 Decisive Battle [X]
 
 ## TiesTxt
-Ties of FriendShip[X]
+Ties of Friendship[X]
 
 ## TwistedTxt
 Twisted Shadows A [X]
@@ -224,10 +224,130 @@ Blessing of the Generals II[X]
 Enemy Message 2[X]
 
 ## FE5BarbariansTxt
-Barbarians - FE5[X]
+Barbarians[X]
 
 ## SecretGardenTxt
 Secret Gardens[X]
 
 ## FE5HealingTxt
-Healing - FE5[X]
+Healing[X]
+
+## KaijuuTxt
+Kaijuu no Hanauta[X]
+
+## KaijuuCreds
+Vaundy[X]
+
+## SSSCreds
+Hololive Idol Project[X]
+
+## SSSTitleCreds
+MemeTzar[X]
+
+## AstroCreds
+Tsukumo Sana[X]
+
+## AstroSlowCreds
+Arranged by Harlos Music[X]
+
+## BlueClapperCreds
+Holo-Five[X]
+
+## CaesuraCreds
+Irys[X]
+
+## _223Creds
+Dova Syndrome[X]
+
+## ChoirWaltxCreds
+PERITune[X]
+
+## DaydreamCreds
+Ouro Kronii[X]
+
+## FantasiaCreds
+Holo-Fantasy[X]
+
+## FukkiCreds
+Teto[X]
+
+## GhostCreds
+Hoshimachi Suisei[X]
+
+## CircusCreds
+Omaru Polka[X]
+
+## IdentityCreds
+Hololive Indonesia[X]
+
+## InochiCreds
+AZKi[X]
+
+## KisekiCreds
+Holo-Force[X]
+
+## MarineSailCreds
+Houshou Marine[X]
+
+## NonfictionCreds
+Holo-Myth[X]
+
+## SeasonsCreds
+Hololive 2nd Gen[X]
+
+## RushiaCreds
+Mopi Sound[X]
+
+## LullabyCreds
+Tsunomaki Watame[X]
+
+## KawaiiGomenCreds
+Honey Works[X]
+
+## SFSCreds
+A_Reliable_Chair[X]
+
+## InfinityCreds
+Akai Haato/Haachama[X]
+
+## FE4Creds
+Genealogy of the Holy War[X]
+
+## FE5Creds
+Thracia 776[X]
+
+## FE6Creds
+The Binding Blade[X]
+
+## FE11Creds
+Shadow Dragon[X]
+
+## RunaCreds
+Runa[X]
+
+## GodzillaCreds
+Godzilla Final Wars[X]
+
+## NekoparaCreds
+Nekopara[X]
+
+## KawanabeCreds
+Umihara Kawase[X]
+
+## AmongusCreds
+Among Us[X]
+
+## DecisiveCreds
+Final Fantasy Tactics[X]
+
+## FE8Creds
+The Sacred Stones[X]
+
+## ShinigamiCreds
+Kenshi Yonezu[X]
+
+## TogetherWeCreditCreds
+The Blazing Blade[X]
+
+## MoomCreds
+Yuuki Wataru[X]

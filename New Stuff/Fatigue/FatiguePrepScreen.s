@@ -10,7 +10,7 @@
 @return false if unit can be deployed
 @r4=unit to check
 
-.equ CannotDeployReturnPoint,0x8095805
+.equ CannotDeployReturnPoint,0x8095819
 .equ CanDeployReturnPoint,0x8095819
 
 DenyDeploymentIfFatigued:

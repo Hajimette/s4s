@@ -32,8 +32,8 @@
 #include "Escape/Installer.event"
 #include "kagaribi3/Installer.event"
 #include "MultiTileMarker/MultiTileMarker_Install.event"
-
-
+#include "SoundRoomText/Installer.event"
+#include "Send2Convoy/SendAllTransporter.event."
 
 
 

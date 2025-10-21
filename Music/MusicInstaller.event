@@ -401,4 +401,9 @@ SongTable(FE5BarbariansID, FE5Barbarians, MapMusicGroup)
 SongTable(SecretGardenID, SecretGardens, MapMusicGroup)
 }
 
+{
+#include "MusicEvents/KaijuunoHanauta.event"
+SongTable(KaijuuID, KaijuunoHanauta, MapMusicGroup)
+}
+
 #include "SoundroomEditor.event"

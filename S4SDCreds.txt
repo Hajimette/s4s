@@ -43,7 +43,9 @@ Towa
 Yagoo
 Zeta
 
-
+Cygnus:
+Sora
+Risu
 
 
 Patches/ASM:
@@ -51,6 +53,7 @@ Free Movement- Mokha
 Chapter Transitions- Huichelaar
 Change Unit Status Rewrite- Vesly
 Escape (FE5 Version)- Sme, Loog and Pikmin1211
+Soundroom Text- Pikmin, Loog
 
 Contro:
 FE4 Refresh
@@ -84,7 +87,9 @@ Sme:
 Fatigue
 ASMC Check Suite
 
-Change Status BG- 7743
+7743:
+Change Status BG
+Kagabiri
 
 
 
@@ -92,12 +97,14 @@ Change Status BG- 7743
 Animations:
 
 Hatsuru:
-
 Amelia (Spliced Version)
 Rushia
 Iroha, Base by Redbean
 Ayame, Base by Seliost1, Reskin by UltraFenix
-Fubuki- NamelessX
+
+
+NamelessX:
+Fubuki
 
 Amyd:
 Howitzer
@@ -490,6 +497,7 @@ Inochi- Original by AZKi, Arranged by Lordovino
 Interact Fantasia- Arranged by Kaede000, Original by Hololive 3rd Generation's Usada Pekora, Houshou Marine, Uruha Rushia, Shirogane Noel and Shiranui Flare
 IS
 Kawaikute Gomen- arranged by 7743, Original by Nakamura Chizuru, Honeyworks
+Kawanabe (Umihara Kawase)- Tak, 7743
 King of Monsters (Godzilla Final Wars)- Arranged by Mehran Sadiq Rahman
 Kirameki Rider (Instrumental)-Arranged by Pooh5821_TH, original by Hololive IDOL PROJECT
 Kiseki Knot-Original by Hololive's 4th generation, Arranged by Kurolaff
@@ -505,6 +513,9 @@ Watame's Lullaby-Original by Tsunomaki Watame, Arranged by StarDust27274
 Within the Magnificent Nature (with drums)-7743
 くるくるぽん(Rushia BGM)-もっぴーさうんど (Transcibed by sr_329)
 しゃろう-2:23 AM- Arranged by 髒雪, original by @DOVA-SYNDROME
+Kaijuu No Hanauta- Original by Vaundy, Arrangement by Simpson (Ion), Io
+
+
 
 
 

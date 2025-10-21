@@ -760,6 +760,7 @@ AZKiAnim:
 AnimaAnim(0x91)
 LightAnim(0x91)
 DarkAnim(0x91)
+UnarmedAnim(0x91)
 WORD 0x0
 
 ALIGN 4

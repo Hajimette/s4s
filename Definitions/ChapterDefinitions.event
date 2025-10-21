@@ -36,11 +36,11 @@
 #define Chapter6MapChanges 0x1D
 #define Chapter7MapChanges 0x20
 #define Chapter8MapChanges 0x23
-#define Chapter9MapChanges 0x26
-#define Chapter10MapChanges 0x29
-#define Chapter11MapChanges 0x2C
-#define Chapter12MapChanges 0x32
-#define Chapter13MapChanges 0x36
+#define Chapter9MapChanges 0x26 // The desert Chp 8
+#define Chapter10MapChanges 0x29 //Interlude
+#define Chapter11MapChanges 0x2C // 9
+#define Chapter12MapChanges 0x32 // 9x
+#define Chapter13MapChanges 0x36 // 10
 #define Chapter14MapChanges 0x3A
 #define Chapter15MapChanges 0x40
 #define Chapter16MapChanges 0x46
@@ -65,11 +65,11 @@
 #define Chapter6Map 0x1B
 #define Chapter7Map 0x1F
 #define Chapter8Map 0x22
-#define Chapter9Map 0x25
-#define Chapter10Map 0x28
-#define Chapter11Map 0x2B
-#define Chapter12Map 0x31
-#define Chapter13Map 0x35
+#define Chapter9Map 0x25 //Chp8 
+#define Chapter10Map 0x28 //Interlude
+#define Chapter11Map 0x2B // 9
+#define Chapter12Map 0x31 //9x
+#define Chapter13Map 0x35 // 10
 #define Chapter14Map 0x39
 #define Chapter15Map 0x3F
 #define Chapter16Map 0x45
@@ -108,6 +108,7 @@
 #define VillageRemakeID 0x4
 #define DungeonID 0x5
 #define ThraciaCandyID 0x6
+#define DesertID 0x7
 
 
 //Palettes
@@ -121,6 +122,7 @@
 #define VillageRemakePalID 0x8
 #define DungeonPalID 0x9
 #define ThraciaCandyPalID 0xA
+#define DesertPalID 0xB
 
 
 //Config
@@ -130,6 +132,7 @@
 #define VillageRemakeConfigID 0x4
 #define DungeonConfigID 0x5
 #define ThraciaCandyConfigID 0x6
+#define DesertConfigID 0x7
 
 
 // TileAnimations
@@ -137,7 +140,7 @@
 #define  StrongholdAnimsID 0x07
 #define  DungeonAnimsID 0x9C
 #define  FE5FieldAnimsID 0x05
-//#define  0xcd
+#define  FE5CastleAnimsID 0xcd
 //#define  0xD6
 //#define  0xDb
 //#define  0xE0

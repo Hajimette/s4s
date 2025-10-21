@@ -36,3 +36,15 @@
 {
 #include "Chapter5.event"
 }
+
+{
+#include "Chapter6.event"
+}
+
+{
+#include "Chapter7.event"
+}
+
+{
+#include "Chapter8.event"
+}

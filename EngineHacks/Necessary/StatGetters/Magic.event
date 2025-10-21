@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pMagicModifiers: // Magic
-	POIN prAddUnitMagic HalfMagFunc prAddEquipMagic 
+	POIN prAddUnitMagic HalfMagFunc prAddEquipMagic FatiguePenalty
 	POIN prDebuffMag 
 	POIN prRallyMag prSkillFury prFortressDefensePow prFortressResistancePow prItemPassiveMag VigorDanceCheck prLifeAndDeathBonus prDefiantMag prPushMag
 	#ifdef DEBUFFS_MIN_ZERO

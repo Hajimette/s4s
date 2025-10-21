@@ -443,3 +443,10 @@ Ruffian[X]
 ## NovalaDesc
 Leader of a group of brigands[N]
 working with Pekoland.[X]
+
+## VillagerTxt
+Villager[X]
+
+## VillagerDesc
+A common villager with their[N]
+own reasons for fighting.[A]

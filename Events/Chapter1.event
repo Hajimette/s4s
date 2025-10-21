@@ -245,6 +245,9 @@ BeginningScene:
 Chp1House:
 SetBackground(House1)
 TalkConvo(Chp1HouseText)
+FadeBlack
+CLEAN
+FadeBackBlack
 ENDA
 
 Chp1VillageEvent:

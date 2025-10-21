@@ -12,13 +12,10 @@ SetTilesetPalette(SuperFieldsCandyPalID, SuperFieldsCandyPal)
 SetTilesetPalette(SuperFieldsNightPalID, SuperFieldsNightPal)
 SetTilesetConfig(SuperFieldsConfigID, SuperFieldsConfig)
 
-
-
 #include "FE5Castle/FE5Castle.event"
 SetTilesetObject(FE5CastleID, FE5CastleObject)
 SetTilesetPalette(FE5CastlePalID,FE5CastlePal)
 SetTilesetConfig(FE5CastleConfigID,FE5CastleConfig)
-
 
 #include "UpdatedStronghold/Stronghold.event"
 SetTilesetObject(StrongholdID, StrongholdObject)
@@ -26,7 +23,6 @@ SetTilesetPalette(StrongholdGrassPalID, StrongholdGrassPal)
 SetTilesetPalette(StrongholdLavaPalID, StrongholdLavaPal)
 SetTilesetPalette(StrongholdSnowPalID, StrongholdSnowPal)
 SetTilesetConfig(StrongholdConfigID, StrongholdConfig)
-
 
 #include "VillageRemakeGrass/VillageRemake.event"
 SetTilesetObject(VillageRemakeID, VillageRemakeObject)
@@ -43,6 +39,11 @@ SetTilesetObject(ThraciaCandyID, ThraciaCandyObject)
 SetTilesetPalette(ThraciaCandyPalID, ThraciaCandyPal)
 SetTilesetConfig(ThraciaCandyConfigID, ThraciaCandyConfig)
 
+
+#include "Desert2/Desert.event"
+SetTilesetObject(DesertID, FE5Desert)
+SetTilesetPalette(DesertPalID, FE5DesertPal)
+SetTilesetConfig(DesertConfigID, FE5DesertConfig)
 
 
 
