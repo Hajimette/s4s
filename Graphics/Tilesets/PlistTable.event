@@ -111,15 +111,15 @@ SetTileAnim(0x5, 0x59D520) //Boat Map Water TileAnim1
 
 SetTileAnim(0x6, 0x59D800) //Lava Cave TileAnim2
 
-//#define SetMapData(entry, pointer) "PUSH; ORG MapData_PTABLE + (entry*4); POIN pointer; POP"
-//PUSH; ORG 0x34680; POIN MapData_PTABLE; POP
-//ALIGN 4; MapData_PTABLE:
-//FILL 257*4
+#define SetMapData(entry, pointer) "PUSH; ORG MapData_PTABLE + (entry*4); POIN pointer; POP"
+PUSH; ORG 0x34680; POIN MapData_PTABLE; POP
+ALIGN 4; MapData_PTABLE:
+FILL 257*4
 
-//#define SetTileChanges(entry, pointer) "PUSH; ORG TileChanges_PTABLE + (entry*4); POIN pointer; POP"
-//PUSH; ORG 0x346AC; POIN TileChanges_PTABLE; POP
-//ALIGN 4; TileChanges_PTABLE:
-//FILL 257*4
+#define SetTileChanges(entry, pointer) "PUSH; ORG TileChanges_PTABLE + (entry*4); POIN pointer; POP"
+PUSH; ORG 0x346AC; POIN TileChanges_PTABLE; POP
+ALIGN 4; TileChanges_PTABLE:
+FILL 257*4
 
 #define SetChapterEvents(entry, pointer) "PUSH; ORG ChapterEvents_PTABLE + (entry*4); POIN pointer; POP"
 PUSH; ORG 0x346DC; POIN ChapterEvents_PTABLE; POP

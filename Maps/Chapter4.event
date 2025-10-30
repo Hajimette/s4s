@@ -14,7 +14,7 @@
     #endif
 #endif
 
-#define SetChapterData(ChapterID,ObjectType1,ObjectType2,PaletteID,TileConfig,MapID,MapPointer,Anims1,Anims2,MapChanges) "PUSH; ORG ChapterDataTable+(ChapterID*ChapterDataTableEntSize)+4; BYTE ObjectType1 ObjectType2 PaletteID TileConfig MapID Anims1 Anims2 MapChanges; EventPointerTable(MapID,MapPointer); POP"
+#define SetChapterData(ChapterID,ObjectType1,ObjectType2,PaletteID,TileConfig,MapID,MapPointer,Anims1,Anims2,MapChanges) "PUSH; ORG ChapterDataTable+(ChapterID*ChapterDataTableEntSize)+4; BYTE ObjectType1 ObjectType2 PaletteID TileConfig MapID Anims1 Anims2 MapChanges; SetMapData(MapID,MapPointer); POP"
 
 #endif // TMX2EA
 
@@ -52,6 +52,6 @@ MapChangesData:
   TileMap(3, 6, 16, 3, 3, Map_Change_3)
   TileMapEnd
 
-EventPointerTable(0x16, MapChangesData)
+SetTileChanges(0x16, MapChangesData)
 
 }

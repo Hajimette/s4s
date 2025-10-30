@@ -67,7 +67,8 @@ BYTE TonjokID
 
 #include "Tonjack.event"
 
-ALIGN 4; Tonjok:
+ALIGN 4
+Tonjok:
 #include "Tonjok.lyn.event"
 
 
