@@ -39,8 +39,8 @@
 #define Chapter9MapChanges 0x26 // The desert Chp 8
 #define Chapter10MapChanges 0x29 //Interlude
 #define Chapter11MapChanges 0x2C // 9
-#define Chapter12MapChanges 0x32 // 9x
-#define Chapter13MapChanges 0x36 // 10
+#define Chapter12MapChanges 0x32 // 10
+#define Chapter13MapChanges 0x36 // 11
 #define Chapter14MapChanges 0x3A
 #define Chapter15MapChanges 0x40
 #define Chapter16MapChanges 0x46
@@ -96,7 +96,12 @@
 #define Chapter6Event 0x21
 #define Chapter7Event 0x24
 #define Chapter8Event 0x27
-#define Chapter9Event 0x2A
+#define Chapter9Event 0x2A //Interlude
+#define Chapter10Event 0x2D
+#define Chapter11Event 0x33
+#define Chapter12Event 0x37
+#define Chapter13Event 0x3B
+#define Chapter14Event 0x41
 #define CalliCutsceneEvent 0x7F
 #define GrassCutscene 0x80
 
@@ -109,6 +114,7 @@
 #define DungeonID 0x5
 #define ThraciaCandyID 0x6
 #define DesertID 0x7
+#define MetroID 0x8
 
 
 //Palettes
@@ -123,6 +129,7 @@
 #define DungeonPalID 0x9
 #define ThraciaCandyPalID 0xA
 #define DesertPalID 0xB
+#define MetroPalID 0xC
 
 
 //Config
@@ -133,7 +140,7 @@
 #define DungeonConfigID 0x5
 #define ThraciaCandyConfigID 0x6
 #define DesertConfigID 0x7
-
+#define MetroConfig 0x8
 
 // TileAnimations
 #define  FE4StyleFieldsID 0x01
@@ -141,7 +148,7 @@
 #define  DungeonAnimsID 0x9C
 #define  FE5FieldAnimsID 0x05
 #define  FE5CastleAnimsID 0xcd
-//#define  0xD6
+#define MetroAnimsID  0xD6
 //#define  0xDb
 //#define  0xE0
 

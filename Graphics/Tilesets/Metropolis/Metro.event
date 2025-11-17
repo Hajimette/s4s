@@ -1,0 +1,11 @@
+ALIGN 4
+MetroObject:
+#incbin "MetroObject.dmp"
+
+ALIGN 4
+MetroObjectPal:
+#incbin "MetroObject_pal.dmp"
+
+ALIGN 4
+MetroObjectConfig:
+#incbin "MetroConfig_comp.dmp"

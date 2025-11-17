@@ -3,7 +3,7 @@
 
 #include "PortraitHeight/PortraitHeight.event"
 
-//#include "ClassCards/MasterCardInstaller.event"
+#include "ClassCards/MasterCardInstaller.event"
 
 //#include "CGs/CGMasterInstaller.event"
 

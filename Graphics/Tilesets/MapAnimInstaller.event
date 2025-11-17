@@ -5,6 +5,7 @@ SetTileAnim(StrongholdAnimsID, StrongholdAnims)
 SetTileAnim(DungeonAnimsID, DungeonAnims)
 SetTileAnim(FE5FieldAnimsID, FE5FieldAnims)
 SetTileAnim(FE5CastleAnimsID, FE5CastleAnimations)
+SetTileAnim(MetroAnimsID, MetropolisAnimations)
 //EventPointerTable(
 
 ALIGN 4
@@ -293,6 +294,172 @@ FE5CastleAnim6:
 ALIGN 4
 FE5CastleAnim7:
 #incbin "FE5Castle/FE5CastleAnims/fe5castlev2anims.mapanime 1_007.dmp"
+
+
+ALIGN 4
+MetroAnim1:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_000.dmp"
+
+ALIGN 4
+MetroAnim2:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_001.dmp"
+
+ALIGN 4
+MetroAnim3:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_002.dmp"
+
+ALIGN 4
+MetroAnim4:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_003.dmp"
+
+ALIGN 4
+MetroAnim5:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_004.dmp"
+
+ALIGN 4
+MetroAnim6:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_005.dmp"
+
+ALIGN 4
+MetroAnim7:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_006.dmp"
+
+ALIGN 4
+MetroAnim8:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_007.dmp"
+
+ALIGN 4
+MetroAnim9:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_008.dmp"
+
+ALIGN 4
+MetroAnim10:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_009.dmp"
+
+ALIGN 4
+MetroAnim11:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_010.dmp"
+
+ALIGN 4
+MetroAnim12:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_011.dmp"
+
+ALIGN 4
+MetroAnim13:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_012.dmp"
+
+ALIGN 4
+MetroAnim14:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_013.dmp"
+
+ALIGN 4
+MetroAnim15:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_014.dmp"
+
+ALIGN 4
+MetroAnim16:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_015.dmp"
+
+ALIGN 4
+MetroAnim17:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_016.dmp"
+
+ALIGN 4
+MetroAnim18:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_017.dmp"
+
+ALIGN 4
+MetroAnim19:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_018.dmp"
+
+ALIGN 4
+MetroAnim20:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_019.dmp"
+
+ALIGN 4
+MetroAnim21:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_020.dmp"
+
+ALIGN 4
+MetroAnim22:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_021.dmp"
+
+ALIGN 4
+MetroAnim23:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_022.dmp"
+
+ALIGN 4
+MetroAnim24:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_023.dmp"
+
+ALIGN 4
+MetroAnim25:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_024.dmp"
+
+ALIGN 4
+MetroAnim26:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_025.dmp"
+
+ALIGN 4
+MetroAnim27:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_026.dmp"
+
+ALIGN 4
+MetroAnim28:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_027.dmp"
+
+ALIGN 4
+MetroAnim29:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_028.dmp"
+
+ALIGN 4
+MetroAnim30:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_029.dmp"
+
+ALIGN 4
+MetroAnim31:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_030.dmp"
+
+ALIGN 4
+MetroAnim32:
+#incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_031.dmp"
+
+
+ALIGN 4
+MetropolisAnimations:
+tilesetAnimation(16,0x1000,MetroAnim1)
+tilesetAnimation(16,0x1000,MetroAnim2)
+tilesetAnimation(16,0x1000,MetroAnim3)
+tilesetAnimation(16,0x1000,MetroAnim4)
+tilesetAnimation(16,0x1000,MetroAnim5)
+tilesetAnimation(16,0x1000,MetroAnim6)
+tilesetAnimation(16,0x1000,MetroAnim7)
+tilesetAnimation(16,0x1000,MetroAnim8)
+tilesetAnimation(16,0x1000,MetroAnim9)
+tilesetAnimation(16,0x1000,MetroAnim10)
+tilesetAnimation(16,0x1000,MetroAnim11)
+tilesetAnimation(16,0x1000,MetroAnim12)
+tilesetAnimation(16,0x1000,MetroAnim13)
+tilesetAnimation(16,0x1000,MetroAnim14)
+tilesetAnimation(16,0x1000,MetroAnim15)
+tilesetAnimation(16,0x1000,MetroAnim16)
+tilesetAnimation(16,0x1000,MetroAnim17)
+tilesetAnimation(16,0x1000,MetroAnim18)
+tilesetAnimation(16,0x1000,MetroAnim19)
+tilesetAnimation(16,0x1000,MetroAnim20)
+tilesetAnimation(16,0x1000,MetroAnim21)
+tilesetAnimation(16,0x1000,MetroAnim22)
+tilesetAnimation(16,0x1000,MetroAnim23)
+tilesetAnimation(16,0x1000,MetroAnim24)
+tilesetAnimation(16,0x1000,MetroAnim25)
+tilesetAnimation(16,0x1000,MetroAnim26)
+tilesetAnimation(16,0x1000,MetroAnim27)
+tilesetAnimation(16,0x1000,MetroAnim28)
+tilesetAnimation(16,0x1000,MetroAnim29)
+tilesetAnimation(16,0x1000,MetroAnim30)
+tilesetAnimation(16,0x1000,MetroAnim31)
+tilesetAnimation(16,0x1000,MetroAnim32)
+WORD 0 0
 
 
 

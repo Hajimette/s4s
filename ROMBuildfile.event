@@ -53,27 +53,6 @@ ALIGN 4
 
 
 
-
-
-//CustomSkillStuff
-gInvestigationID:
-BYTE InvestigationID
-
-#include "Investigation.lyn.event"
-
-
-gTonjokID:
-BYTE TonjokID
-
-#include "Tonjack.event"
-
-ALIGN 4
-Tonjok:
-#include "Tonjok.lyn.event"
-
-
-
-
 #define Text_ResetTileAllocation 0x8003D21
 
 //ASMC Text_ResetTileAllocation

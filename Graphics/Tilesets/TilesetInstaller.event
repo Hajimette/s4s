@@ -45,8 +45,10 @@ SetTilesetObject(DesertID, FE5Desert)
 SetTilesetPalette(DesertPalID, FE5DesertPal)
 SetTilesetConfig(DesertConfigID, FE5DesertConfig)
 
-
-
+#include "Metropolis/Metro.event"
+SetTilesetObject(MetroID, MetroObject)
+SetTilesetPalette(MetroPalID, MetroObjectPal)
+SetTilesetConfig(MetroConfig, MetroObjectConfig)
 
 
 

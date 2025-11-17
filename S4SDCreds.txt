@@ -47,6 +47,120 @@ Cygnus:
 Sora
 Risu
 
+NickT:
+Roman ( )
+
+
+Class Cards:
+
+Angel - N426
+
+Assassin!F - Pushwall, L95
+
+Assassin!M - Sword of Heaven and Earth
+
+Ballistician - Arch
+
+Barbarian - Valak
+
+Berserker!F - Zoramine Fae, Der
+
+Bishop!M Staff - IS
+
+Bonewalker Legion - Seal
+
+Dancer!F - Orihara Saki
+
+General (Lance Alt) - Pushwall, SamirPlayz
+
+Halberdier!F - TBA, YellowToad
+
+Knight!M - SALVAGED
+
+Mage!F - Leif
+
+Mage!M - jj09, SamirPlayz, IS
+
+Marksmen!F - Flasuban
+
+Rat - The Big Dededester
+
+Sage!F - Topazlight, L95, HyperGammaSpaces
+
+Seraph Knight!F - CamusZekeSirius
+
+Soldier!M FE10 Style - Flasuban
+
+Squire!M - Maiser6
+
+Trickster!F - Jj09, Scraiza, Sword of HaE, SableMage
+
+Villager!U - Ghast, HyperGammaSpaces
+
+Warrior!F - Jj09
+
+Cavalier!M - RobertFPY
+
+Figher!F - Samirplayz, Serif
+
+Lightmage!F - Leo_link, L95
+
+Vanguard - Nuramon, Der
+
+L95:
+Bishop!F Staff
+Druid!F
+Myrmidon!F
+Sniper
+Swordmaster!F
+Thief!F
+
+Laurent Lacroix:
+Crate
+Chicken
+
+Der:
+Archer!F
+Archer!M
+Pirate!M
+
+Melia:
+Harrier
+Nephilim
+
+Uncredited:
+Shaman!F
+Summoner!M 
+
+SamirPlays:
+Summoner!F
+
+RobertFPY, SamirPlayz:
+Hero!F
+Hero!M
+Cavalier!F
+
+Flasuban, RobertFPY:
+Paladin!M
+Paladin!F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Patches/ASM:
 Free Movement- Mokha
@@ -443,6 +557,8 @@ Atlas:
 Prologue Grass Cutscene Map
 
 
+
+
 Music:
 
 Among us Drip-MichaelPosin'
@@ -495,7 +611,6 @@ Id:Entity- Original Arrangement by Farhan Sarasin, Lyrics by Datenkou, Vocals do
 Infinity- Original by Akai Haato (Haachama), Arranged by Kurolaff
 Inochi- Original by AZKi, Arranged by Lordovino
 Interact Fantasia- Arranged by Kaede000, Original by Hololive 3rd Generation's Usada Pekora, Houshou Marine, Uruha Rushia, Shirogane Noel and Shiranui Flare
-IS
 Kawaikute Gomen- arranged by 7743, Original by Nakamura Chizuru, Honeyworks
 Kawanabe (Umihara Kawase)- Tak, 7743
 King of Monsters (Godzilla Final Wars)- Arranged by Mehran Sadiq Rahman

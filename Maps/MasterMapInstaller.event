@@ -7,6 +7,8 @@
 #include "Chapter8.event"
 #include "Chp6.event"
 #include "Chp7.event"
+#include "CutsceneMetro.event"
+#include "Interlude1.event"
 #include "NewChp2.event"
 #include "PrologueGrass.event"
 #include "PrologueMap.event"

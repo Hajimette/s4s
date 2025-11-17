@@ -7,7 +7,7 @@ POP
 PUSH
 ORG 0x59EE40
 ArmyRedPal:
-BYTE $90 $42 $2D $31 $B8 $5E $9C $73 $8E $31 $56 $2E $FF $6B $AC $10 $93 $14 $58 $08 $5A $25 $47 $1B $FF $23 $A5 $14 $FF $7F $09 $21
+BYTE $90 $42 $2D $31 $B8 $5E $9C $73 $8E $31 $56 $2E $FF $6B $AC $10 $93 $14 $58 $08 $5A $25 $47 $1B $FF $23 $09 $21 $FF $7F $A5 $14
 POP
 
 PUSH

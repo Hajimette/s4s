@@ -32,22 +32,25 @@ ALIGN 4
 AmeliaStim:
 //CheckCurrentHP(0x1)
 //BLE 13 s5 sC
-RANDOMNUMBER 3
-BEQ 0 s0 sC
-BEQ 1 s1 sC
-BEQ 2 s2 sC
-BEQ 3 s3 sC
+RANDOMNUMBER 4
+BEQ 0 s0 sC //because s0 is always 0
+SVAL s1 1
+BEQ 1 s1 sC //if value is 1
+SVAL s1 2
+BEQ 2 s1 sC // if value is 2
+SVAL s1 3
+// else, value is 4
 LABEL 0
-TalkConvo(AmeliaStim1)
+Text(AmeliaStim1)
 GOTO 4
 LABEL 1
-TalkConvo(AmeliaStim1)
+Text(AmeliaStim2)
 GOTO 4
 LABEL 2
-TalkConvo(AmeliaStim1)
+Text(AmeliaStim3)
 GOTO 4
 LABEL 3
-TalkConvo(AmeliaStim1)
+Text(AmeliaStim4)
 GOTO 4
 LABEL 4
 //SVAL s1 0x1

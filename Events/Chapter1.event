@@ -29,7 +29,7 @@ MiscBasedEvents:
 	END_MAIN
 
 LocationBasedEvents:
-	House(0,Chp1House,11,12)
+	House(20,Chp1House,11,12)
 	Village(0x10,Chp1VillageEvent,2,3)
 	Escape(7,0)
 	Escape(8,0)
@@ -127,6 +127,37 @@ UNIT 0xAA 0x63 0xAA Level(5,Enemy,True) [18,16] 0x0 0x0 0x0 0x0 [IronLance,0x0] 
 
 UNIT
 	
+AquaSpawnChp1:
+UNIT 0x1D 0xAF 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA7R7 [IronLance,0x0] DefaultAI
+UNIT 0xD3 0xF 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA6R8 [IronLance,0x0] DefaultAI
+UNIT 0xD4 0x10 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA5R7 [IronLance,0x0] DefaultAI
+UNIT 0xD5 0x19 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA5R8 [IronLance,0x0] DefaultAI
+UNIT 0xD6 0x19 0xAA Level(5,NPC,True) [2,16] 0x0 0x0 1 REDA6R9 [IronLance,0x0] DefaultAI
+UNIT
+
+ShionChp1Spawn:
+UNIT 0x1F 0x8D 0xAA Level(5,NPC,True) [10,0] 0x0 0x0 1 REDA8R6 [IronLance,0x0] DefaultAI
+UNIT 0xD7 0x25 0xAA Level(5,NPC,True) [9,0] 0x0 0x0 1 REDA9R7 [IronLance,0x0] DefaultAI
+UNIT 0xD8 0x25 0xAA Level(5,NPC,True) [11,0] 0x0 0x0 1 REDA8R8 [IronLance,0x0] DefaultAI
+UNIT
+
+PekolandSpawnChp1:
+UNIT 0xCA 0x07 0xAA Level(5,Enemy,True) [9,0] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xCB 0xBF 0xAA Level(5,Enemy,True) [10,0] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xCC 0x07 0xAA Level(5,Enemy,True) [11,0] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT
+
+PekolandSpawn2Chp1:
+UNIT 0xCD 0xC1 0xAA Level(5,Enemy,True) [17,6] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xCE 0xBC 0xAA Level(5,Enemy,True) [17,7] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xCF 0xC1 0xAA Level(5,Enemy,True) [17,8] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT
+	
+PekolandSpawn3Chp1:
+UNIT 0xD0 0x1B 0xAA Level(5,Enemy,True) [0,10] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xD1 0xBC 0xAA Level(5,Enemy,True) [0,11] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xD2 0x1B 0xAA Level(5,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT
 	
 Chapter1Units:
 	UNIT
@@ -244,7 +275,7 @@ BeginningScene:
 
 Chp1House:
 SetBackground(House1)
-TalkConvo(Chp1HouseText)
+TalkConvo(Chp1HouseTextt)
 FadeBlack
 CLEAN
 FadeBackBlack
@@ -254,7 +285,7 @@ Chp1VillageEvent:
 FadeBlack
 SetBackground(House1)
 FadeBackBlack
-TalkConvo(Chp1HouseText)
+TalkConvo(Chp1Village)
 FadeBlack
 CLEAN
 FadeBackBlack
@@ -281,6 +312,83 @@ ENDA
 EndingScene:
 EndOfEscapeRoutineASMC
 EnactAutoRepair
+FadeBlack
+MusicChange(0x2E)
+SetBackground(ForestNight)
+FadeBackBlack
+CHECK_ALIVE 0x3
+BEQ 0x1 0xC 0x0
+CHECK_ALIVE 0x4
+BEQ 0x1 0xC 0x0
+Text(ReineAmeliaFaunaMumeiEnd)
+GOTO 0x2
+LABEL 0x1
+Text(ReineAmeliaEnd)
+LABEL 0x2
+FadeBlack
+LOMA 0x4c
+VCWF 0
+CAM1 [6,7]
+CLEARALL
+MusicChange(0x31)
+FadeBackBlack
+LOAD2 1 AquaSpawnChp1
+Text(AquaChp1)
+CAM1 [10,1]
+LOAD2 1 ShionChp1Spawn
+ENUN
+CAM1 [8,6]
+Text(ShionChp1)
+CAM1 [10,1]
+LOAD2 1 PekolandSpawnChp1
+ENUN
+STAL 45
+CAM1 [17,5]
+LOAD2 1 PekolandSpawn2Chp1
+ENUN
+STAL 45
+CAM1 [1,11]
+LOAD2 1 PekolandSpawn3Chp1
+ENUN
+STAL 45
+CAM1 [6,7]
+PlayEmotionEffect(0x1D,ExclamationEffect)
+STAL 45
+Text(PekolandChp1Txt)
+STAL 10
+CAM1 [11,11]
+
+MOVE 15 0x1D [17,17]
+STAL 45
+MOVE 15 0x1f [16,17]
+STAL 45
+MoveCoords(6,8,15,10,19)
+STAL 45
+MoveCoords(5,7,15,11,9)
+STAL 45
+MoveCoords(5,8,15,11,10)
+STAL 45
+MoveCoords(6,9,15,12,10)
+STAL 45
+MoveCoords(9,7,15,12,9)
+STAL 45
+MoveCoords(8,8,15,10,9)
+STAL 45
+
+
+/*
+MOVE 15 0xD3 [10,19]
+MOVE 15 0xD4 [11,9]
+ENUN
+MOVE 15 0xD5 [11,10]
+MOVE 15 0xD6 [12,10]
+ENUN
+MOVE 15 0xD7 [12,9]
+MOVE 15 0xD8 [10,9]
+ENUN
+*/
+
+FadeBlack
 	MNC2 2
 	NoFade
 	ENDA

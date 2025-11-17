@@ -460,13 +460,13 @@ EnactAutoRepair
 	MusicChange(0x2E)
 	SetBackground(Lava)
 	FadeBackBlack
-	TalkConvo(AmeDone)
+	Text(AmeDone)
 	FadeBlack
 	SOUN 0xB4
 	SetBackground(Field1)
 	FadeBackBlack
 	SOUN 0xB5
-	TalkConvo(TimetoGo)
+	Text(TimetoGo)
 	FadeBlack
 	MNC2 1
 	NoFade

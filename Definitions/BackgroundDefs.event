@@ -9,3 +9,4 @@
 #define FieldSunset 0x19
 #define Forest1 0x22
 #define Lava 0x32
+#define ForestNight 0x20

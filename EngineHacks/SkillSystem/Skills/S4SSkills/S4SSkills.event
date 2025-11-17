@@ -1,0 +1,23 @@
+//CustomSkillStuff
+gInvestigationID:
+BYTE InvestigationID
+
+#include "Investigation/Investigation.lyn.event"
+
+
+
+gTonjokID:
+BYTE TonjokID
+
+#include "Tonjok/Tonjack.event"
+
+ALIGN 4
+Tonjok:
+#include "Tonjok/Tonjok.lyn.event"
+
+ALIGN 4
+Gozaru:
+#incbin "Gozaru/Gozaru.dmp"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD GozaruID

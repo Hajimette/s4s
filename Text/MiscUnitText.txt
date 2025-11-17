@@ -2,3 +2,19 @@
 [MidLeft][LoadAme]
 [MidLeft]
 Stimulant time![A][X]
+
+## AmeliaStim2
+[MidLeft][LoadAme]
+[MidLeft]
+I need a dose![A][X]
+
+## AmeliaStim3
+[MidLeft][LoadAme]
+[MidLeft]
+Stimulant, [Red]ENGAGE![Red][A][X]
+
+## AmeliaStim4
+[MidLeft][LoadAme]
+[MidLeft]
+Good thing these things[N]
+really don't sting...[A][X]
