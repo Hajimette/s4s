@@ -108,7 +108,7 @@ PUSH
 	
 	ORG $73588
 	#incbin "WriteGrowthtoRamAnimOn.dmp"
-	SHORT 0xE096
+	SHORT 0xE090
 	
 	//Change list of stat text IDS
 	ORG $7373A
@@ -142,14 +142,13 @@ PUSH
 	ORG $7F43C
 	POIN Growths_Anims_Off_Stat_Name_Table
 	
+	//Check Mag Cap
+	ORG $2C008
+	jumpToHack(LevelupMagCap)
+	
 	/*//Add mag boost in battle struct // This has been incorporated into MSS -> Write_Growths_To_Battle_Struct. - Snek
 	ORG $2BB44
 	callHack_r3(Write_Mag_Growth)*/
-	
-	//Check Mag Cap
-    ORG $2C008
-    jumpToHack(LevelupMagCap)
-	
 POP
 
 ALIGN 4
@@ -253,7 +252,7 @@ ALIGN 4
 New_Stats_Jump_Table:
 POIN 0x7EC44 0x7EC48 0x7EC64 0x7ED0C 0x7EC80 0x7EC9C 0x7ECB8 0x7ECD4 0x7ECF0
 #ifdef ExpandedLevelUpScreen
-	POIN 0x7ED28 0x7ED28
+	POIN ConMapAnimCheck MovMapAnimCheck
 #endif
 
 ALIGN 4
@@ -279,3 +278,11 @@ ALIGN 4
 LevelupMagCap:
 #incbin "LevelupMagCap.dmp"
 POIN MagClassTable
+
+ALIGN 4
+ConMapAnimCheck:
+#incbin "LevelUpCon.dmp"
+
+ALIGN 4
+MovMapAnimCheck:
+#incbin "LevelUpMov.dmp"
