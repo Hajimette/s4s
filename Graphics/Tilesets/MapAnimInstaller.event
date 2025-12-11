@@ -6,6 +6,7 @@ SetTileAnim(DungeonAnimsID, DungeonAnims)
 SetTileAnim(FE5FieldAnimsID, FE5FieldAnims)
 SetTileAnim(FE5CastleAnimsID, FE5CastleAnimations)
 SetTileAnim(MetroAnimsID, MetropolisAnimations)
+SetTileAnim(SnowFieldsAnimsID, SnowFieldAnims)
 //EventPointerTable(
 
 ALIGN 4
@@ -424,6 +425,73 @@ ALIGN 4
 MetroAnim32:
 #incbin "Metropolis/Animations/MetropolisType1Animation.mapanime1_031.dmp"
 
+ALIGN 4
+SnowFieldAnim0:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_000.dmp"
+
+ALIGN 4
+SnowFieldAnim1:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_001.dmp"
+
+ALIGN 4
+SnowFieldAnim2:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_002.dmp"
+
+ALIGN 4
+SnowFieldAnim3:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_003.dmp"
+
+ALIGN 4
+SnowFieldAnim4:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_004.dmp"
+
+ALIGN 4
+SnowFieldAnim5:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_005.dmp"
+
+ALIGN 4
+SnowFieldAnim6:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_006.dmp"
+
+ALIGN 4
+SnowFieldAnim7:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_007.dmp"
+
+ALIGN 4
+SnowFieldAnim8:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_008.dmp"
+
+ALIGN 4
+SnowFieldAnim9:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_009.dmp"
+
+ALIGN 4
+SnowFieldAnim10:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_010.dmp"
+
+ALIGN 4
+SnowFieldAnim11:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_011.dmp"
+
+ALIGN 4
+SnowFieldAnim12:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_012.dmp"
+
+ALIGN 4
+SnowFieldAnim13:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_013.dmp"
+
+ALIGN 4
+SnowFieldAnim14:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_014.dmp"
+
+ALIGN 4
+SnowFieldAnim15:
+#incbin "SnowFields/SnowAnims/anim.mapanime 1_015.dmp"
+
+
+
+
 
 ALIGN 4
 MetropolisAnimations:
@@ -558,4 +626,25 @@ tilesetAnimation(12,0x1000,FE5FieldAnim4)
 tilesetAnimation(12,0x1000,FE5FieldAnim5)
 tilesetAnimation(12,0x1000,FE5FieldAnim6)
 tilesetAnimation(12,0x1000,FE5FieldAnim7)
+WORD 0 0
+
+
+ALIGN 4
+SnowFieldAnims:
+tilesetAnimation(12,0x1000,SnowFieldAnim0)
+tilesetAnimation(12,0x1000,SnowFieldAnim1)
+tilesetAnimation(12,0x1000,SnowFieldAnim2)
+tilesetAnimation(12,0x1000,SnowFieldAnim3)
+tilesetAnimation(12,0x1000,SnowFieldAnim4)
+tilesetAnimation(12,0x1000,SnowFieldAnim5)
+tilesetAnimation(12,0x1000,SnowFieldAnim6)
+tilesetAnimation(12,0x1000,SnowFieldAnim7)
+tilesetAnimation(12,0x1000,SnowFieldAnim8)
+tilesetAnimation(12,0x1000,SnowFieldAnim9)
+tilesetAnimation(12,0x1000,SnowFieldAnim10)
+tilesetAnimation(12,0x1000,SnowFieldAnim11)
+tilesetAnimation(12,0x1000,SnowFieldAnim12)
+tilesetAnimation(12,0x1000,SnowFieldAnim13)
+tilesetAnimation(12,0x1000,SnowFieldAnim14)
+tilesetAnimation(12,0x1000,SnowFieldAnim15)
 WORD 0 0

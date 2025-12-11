@@ -12,6 +12,13 @@ SetTilesetPalette(SuperFieldsCandyPalID, SuperFieldsCandyPal)
 SetTilesetPalette(SuperFieldsNightPalID, SuperFieldsNightPal)
 SetTilesetConfig(SuperFieldsConfigID, SuperFieldsConfig)
 
+
+#include "SnowFields/SnowFields.event"
+SetTilesetObject(SnowFieldsID, SnowFieldsObject)
+SetTilesetPalette(SnowFieldsPalID, SnowFieldsPal)
+SetTilesetConfig(SnowFieldsConfigID, SnowFieldsConfig)
+
+
 #include "FE5Castle/FE5Castle.event"
 SetTilesetObject(FE5CastleID, FE5CastleObject)
 SetTilesetPalette(FE5CastlePalID,FE5CastlePal)

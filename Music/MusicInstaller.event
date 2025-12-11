@@ -22,6 +22,11 @@ POP
 
 
 {
+#include "MusicEvents/SwordPing Installer.txt"
+}
+
+
+{
 #include "MusicEvents/_223AM.event"
 SongTable(_223AMID, _223AM, MapMusicGroup)
 }
@@ -163,7 +168,7 @@ SongTable(FE5PressingThreatID, FE5PressingThreat, MapMusicGroup)
 
 {
 #include "MusicEvents/FE5Sorrow.event"
-SongTable(FE5SorrowID, FE5Sorrow, MapMusicGroup)
+SongTable(FE5SorrowID, FE5Sorrow, BattleMusicGroup)
 }
 
 {
@@ -404,6 +409,11 @@ SongTable(SecretGardenID, SecretGardens, MapMusicGroup)
 {
 #include "MusicEvents/KaijuunoHanauta.event"
 SongTable(KaijuuID, KaijuunoHanauta, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/SSSEndingTheme.event"
+SongTable(SSSEndingID, SSSEnd, MapMusicGroup)
 }
 
 #include "SoundroomEditor.event"

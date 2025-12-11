@@ -1,7 +1,7 @@
 #define AmeP 0x02
 #define AmeliaAlt1 0xD2
 #define AmeLonk 0xCE
-//#define MKmelia 0xD5
+#define MKmelia 0xD5
 #define Bloom 0xC6
 #define Chloe 0x23
 #define Choco 0xB6
@@ -62,12 +62,14 @@
 #define RushiaP 0xB
 #define RisuP 0x18
 #define Smirnoff 0xFF
+#define LaplusPortrait 0xD
+#define LaplusNoChain 0xE4
+#define NousagiReg 0xFE
 
 
 //Pending but aligned
 #define CalliopePortrait 0xAD
 
-//#define LaplusPortrait 0xD
 //#define AnyaPortrait 0x17
 //#define KoboPortrait 0x1D
 
@@ -542,14 +544,21 @@ SuzyData:
 #incbin "Dmps/Suzy_minimug.dmp"
 setMugEntry(SuiseiP, SuzyData, 2, 6, 3, 4)
 
-
 ALIGN 4
 MKmeliaData:
 #incbin "Dmps/MKmelia_mug.dmp"
 #incbin "Dmps/MKmelia_frames.dmp"
 #incbin "Dmps/MKmelia_palette.dmp"
 #incbin "Dmps/MKmelia_minimug.dmp"
-setMugEntry(AmeP, MKmeliaData, 3, 6, 3, 4)
+setMugEntry(MKmelia, MKmeliaData, 3, 6, 3, 4)
+
+ALIGN 4
+AmeTezData:
+#incbin "Dmps/AmeTez_mug.dmp"
+#incbin "Dmps/AmeTez_frames.dmp"
+#incbin "Dmps/AmeTez_palette.dmp"
+#incbin "Dmps/AmeTez_minimug.dmp"
+setMugEntry(AmeP, AmeTezData, 3, 6, 3, 4)
 
 ALIGN 4
 IrohaData:
@@ -600,7 +609,29 @@ SmirnoffData:
 #incbin "Dmps/Roman_minimug.dmp"
 setMugEntry(Smirnoff, SmirnoffData, 2, 6, 2, 4)
 
+ALIGN 4
+LaplusChainData:
+#incbin "Dmps/LapChain_mug.dmp"
+#incbin "Dmps/LapChain_frames.dmp"
+#incbin "Dmps/LapChain_palette.dmp"
+#incbin "Dmps/LapChain_minimug.dmp"
+setMugEntryExtend(LaplusPortrait, LaplusChainData, 3, 7, 3, 5, 0, 4, 0, 2)
 
+ALIGN 4
+LaplusNoChainData:
+#incbin "Dmps/LapNoChain_mug.dmp"
+#incbin "Dmps/LapNoChain_frames.dmp"
+#incbin "Dmps/LapNoChain_palette.dmp"
+#incbin "Dmps/LapNoChain_minimug.dmp"
+setMugEntryExtend(LaplusNoChain, LaplusNoChainData, 3, 7, 3, 5, 0, 4, 0, 2)
+
+ALIGN 4
+NousagiData:
+#incbin "Dmps/Nousagi_mug.dmp"
+#incbin "Dmps/Nousagi_frames.dmp"
+#incbin "Dmps/Nousagi_palette.dmp"
+#incbin "Dmps/Nousagi_minimug.dmp"
+setMugEntryExtend(NousagiReg, NousagiData, 3, 6, 3, 4, 0, 1, 0, 0)
 
 /*
 ALIGN 4

@@ -359,35 +359,28 @@ STAL 10
 CAM1 [11,11]
 
 MOVE 15 0x1D [17,17]
-STAL 45
 MOVE 15 0x1f [16,17]
-STAL 45
-MoveCoords(6,8,15,10,19)
-STAL 45
-MoveCoords(5,7,15,11,9)
-STAL 45
-MoveCoords(5,8,15,11,10)
-STAL 45
-MoveCoords(6,9,15,12,10)
-STAL 45
-MoveCoords(9,7,15,12,9)
-STAL 45
-MoveCoords(8,8,15,10,9)
-STAL 45
-
-
-/*
-MOVE 15 0xD3 [10,19]
-MOVE 15 0xD4 [11,9]
+MoveCoords(6,8,15,10,12)
+MoveCoords(5,7,15,11,11)
 ENUN
-MOVE 15 0xD5 [11,10]
-MOVE 15 0xD6 [12,10]
+MoveCoords(5,8,15,11,12)
+MoveCoords(6,9,15,12,12)
+MoveCoords(9,7,15,12,11)
+MoveCoords(8,8,15,10,11)
 ENUN
-MOVE 15 0xD7 [12,9]
-MOVE 15 0xD8 [10,9]
-ENUN
-*/
 
+MoveCoords(0,10,15,10,10)
+MoveCoords(0,11,15,10,9)
+MoveCoords(0,12,15,9,9)
+ENUN
+MoveCoords(17,6,15,10,9)
+MoveCoords(17,7,15,10,9)
+MoveCoords(17,8,15,10,10)
+ENUN
+MoveCoords(9,0,15,12,8)
+MoveCoords(10,0,15,12,10)
+MoveCoords(11,0,15,10,8)
+STAL 45
 FadeBlack
 	MNC2 2
 	NoFade

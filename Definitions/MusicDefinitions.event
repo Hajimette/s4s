@@ -33,6 +33,7 @@
 #define ShinigamiID 0x08
 #define SearchingforSeisoID 0x35
 #define SecretGardenID 0x54
+#define SSSEndingID 0x3E4
 
 //FE4 
 #define FE4AnotherAssaultID 0x21

@@ -426,7 +426,6 @@ Brigand[X]
 Mountain people who follow[N]
 no rule of law.[X]
 
-
 ## DeadbeatName
 Deadbeat[X]
 
@@ -438,7 +437,7 @@ A soldier from the invading[N]
 armies of Pekoland.[X]
 
 ## NewNovalaTxt
-Ruffian[X]
+Randall[X]
 
 ## NovalaDesc
 Leader of a group of brigands[N]
@@ -449,4 +448,17 @@ Villager[X]
 
 ## VillagerDesc
 A common villager with their[N]
-own reasons for fighting.[A]
+own reasons for fighting.[X]
+
+## ChamaName
+Haachama[X]
+
+## ChamaDesc
+Who is really inside?[X]
+
+## HaatoName
+Haato[X]
+
+## HaatoDesc
+Corruption starts at[N]
+the heart, then the soul.[X]

@@ -115,6 +115,7 @@
 #define ThraciaCandyID 0x6
 #define DesertID 0x7
 #define MetroID 0x8
+#define SnowFieldsID 0x9
 
 
 //Palettes
@@ -130,6 +131,7 @@
 #define ThraciaCandyPalID 0xA
 #define DesertPalID 0xB
 #define MetroPalID 0xC
+#define SnowFieldsPalID 0xD
 
 
 //Config
@@ -141,6 +143,7 @@
 #define ThraciaCandyConfigID 0x6
 #define DesertConfigID 0x7
 #define MetroConfig 0x8
+#define SnowFieldsConfigID 0x9
 
 // TileAnimations
 #define  FE4StyleFieldsID 0x01
@@ -148,8 +151,8 @@
 #define  DungeonAnimsID 0x9C
 #define  FE5FieldAnimsID 0x05
 #define  FE5CastleAnimsID 0xcd
-#define MetroAnimsID  0xD6
-//#define  0xDb
+#define  MetroAnimsID  0xD6
+#define  SnowFieldsAnimsID 0xDb
 //#define  0xE0
 
 

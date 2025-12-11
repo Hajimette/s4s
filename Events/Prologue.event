@@ -125,37 +125,74 @@ BrigandsCutscene:
 	UNIT
 	
 AmeliaCalli:
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [4,5] 0x0 0x0 0x0 0x0 [CombatStim,0x0] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [8,7] 0x0 0x0 0x0 0x0 [CombatStim,0x0] NoAI
 	
 	UNIT
-	
-SansCutin:
-	UNIT 0xAA 0x56 0xAB Level(1,NPC,False) [2,10] 0x0 0x0 0x0 0x0 [0,0] NoAI
-	
-	UNIT 0xBD 0x65 0xAB Level(1,NPC,False) [10,11] 0x0 0x0 0x0 0x0 [0,0] NoAI
-	
-	UNIT 0xBB 0x63 0xAB Level(1,NPC,False) [6,10] 0x0 0x0 0x0 0x0 [0,0] NoAI
-	
-	UNIT 0xAD 0x56 0xAB Level(1,NPC,False) [10,2] 0x0 0x0 0x0 0x0 [0,0] NoAI
-	
-	UNIT 0xAC 0x56 0xAB Level(1,NPC,False) [7,1] 0x0 0x0 0x0 0x0 [0,0] NoAI
-	
-	UNIT
+
 	
 SansMove:
-	UNIT 0xB8 0x54 0xAB Level(1,NPC,False) [16,6] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	UNIT 0xB8 0x4E 0xAB Level(1,NPC,False) [3,2] 0x0 0x0 1 REDA3R4 [0,0] NoAI
+	UNIT 0xB9 0x4E 0xAB Level(1,NPC,False) [3,2] 0x0 0x0 1 REDA2R3 [0,0] NoAI
+
 	
 	UNIT
 	
 CalliopeIntervenes:
-	UNIT 0x23 0x4F 0xAA Level(1,NPC,False) [20,4] 0x0 0x0 0x0 0x0 [Ricky,0x0] NoAI
+	UNIT 0xD0 0x4E 0xAA Level(1,NPC,False) [15,9] 0x0 0x0 1 REDA9R8 [Ricky,0x0] NoAI
+	UNIT 0xD1 0x4E 0xAA Level(1,NPC,False) [15,7] 0x0 0x0 1 REDA8R8 [Ricky,0x0] NoAI
+
 	
 	UNIT
 	
-SansWarpsIn:
-	UNIT 0xB7 0x54 0xAA Level(1,NPC,False) [11,13] 0x0 0x0 0x0 0x0 [IronSword,0x0] NoAI
+AmeWarpsIn:
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,8] 0x0 0x0 0x0 0x0 [CombatStim,0x0] NoAI
 	
 	UNIT
+	
+CalliopeChp1:
+UNIT 0x23 0x4F 0xAA Level(1,NPC,False) [9,8] 0x0 0x0 0x0 0x0 [Ricky,0x0] NoAI
+
+UNIT 0xF2 0x8C 0xF3 Level(1,Enemy,False) [11,7] 0x0 0x0 0x0 0x0 [0x0] NoAI
+
+UNIT 0xF2 0x8C 0xF3 Level(1,Enemy,False) [12,9] 0x0 0x0 0x0 0x0 [0x0] NoAI
+
+UNIT 0xF2 0x8C 0xF3 Level(1,Enemy,False) [12,5] 0x0 0x0 0x0 0x0 [0x0] NoAI
+
+UNIT 0xF2 0xB0 0xF3 Level(1,Enemy,False) [7,8] 0x0 0x0 0x0 0x0 [0x0] NoAI
+
+UNIT 0xF2 0xB0 0xF3 Level(1,Enemy,False) [6,6] 0x0 0x0 0x0 0x0 [0x0] NoAI
+
+UNIT 0xF2 0xB0 0xF3 Level(1,Enemy,False) [5,10] 0x0 0x0 0x0 0x0 [0x0] NoAI
+
+UNIT 0xF2 0xB3 0xF3 Level(1,Enemy,False) [4,8] 0x0 0x0 0x0 0x0 [0x0] NoAI
+
+UNIT 0xF2 0x65 0xF3 Level(1,Enemy,False) [14,8] 0x0 0x0 0x0 0x0 [0x0] NoAI
+
+UNIT
+
+ReapergetsjumpedChp1:
+	UNIT 0xF1 0xA6 0xF3 Level(1,Enemy,False) [7,0] 0x0 0x0 1 REDA7R2 [0x0,0x0] NoAI
+	UNIT 0xF1 0xA6 0xF3 Level(1,Enemy,False) [11,0] 0x0 0x0 1 REDA11R2 [0x0,0x0] NoAI
+	UNIT 0xF1 0xA6 0xF3 Level(1,Enemy,False) [8,15] 0x0 0x0 1 REDA8R12 [0x0,0x0] NoAI
+	UNIT 0xF1 0xA6 0xF3 Level(1,Enemy,False) [11,15] 0x0 0x0 1 REDA11R12 [0x0,0x0] NoAI
+
+UNIT
+
+Sheiscoming:
+	UNIT 0xF9 0x81 0xF3 Level(1,Enemy,False) [18,7] 0x0 0x0 1 REDA11R8 [0x0,0x0] NoAI
+
+UNIT
+	
+	
+SansCutin:
+	UNIT 0xAA 0x4E 0xAB Level(1,NPC,False) [12,4] 0x0 0x0 1 REDA11R3 [0,0] NoAI
+	
+	UNIT 0xBD 0x4E 0xAB Level(1,NPC,False) [12,4] 0x0 0x0 1 REDA11R4 [0,0] NoAI
+	UNIT
+	
+	
+
+	
 	
 Traps1:
 	ENDTRAP
@@ -312,39 +349,168 @@ BeginningScene:
 	FADI 60
 	CLEARALL
 	MuteMusic
-	LOMA 0x4E
-	CAMERA [4,5]
-	LOAD1 1 SansCutin
+	LOMA 0x4E //Snow Cutscene
+	CAMERA [8,7]
 	FadeBackBlack
-	WARPIN [4,5]
+	WARPIN [8,7]
 	LOAD1 1 AmeliaCalli
 	STAL 120
 	MusicChange(0x318)
 	TalkConvo(AmeEnter)
-	SCOORD sB [4, 5]
-	MOVE 0x1E (-2) [8,5]
+	
+	/*
 	STAL 30
-	LOAD1 1 SansMove
+	
 	SCOORD sB [16, 6]
 	MOVE 0x1E (-2) [0,17]
 	STAL 60
 	DISA 0xB8
+	*/
+	
+	
+	SCOORD sB [8, 7]   //Grabs ame's coords
+	MOVE 0x1E (-2) [8,6] //idk what -2 is I assume its how fast
+	ENUN
 	PlayEmotionEffect(Amelia,QuestionEffect)
 	STAL 45
 	TalkConvo(AmeQuestion)
-	CAMERA [7,12]
-	SCOORD sB [8, 5]
-	MOVE 0x1E (-2) [10,14]
-	LOAD1 1 CalliopeIntervenes
-	MOVE 15 0x23 [10,13]
+	CAMERA [12,4]
+	LOAD1 1 SansCutin
 	ENUN
-	TalkConvo(CalliopeTalk)
-	WARPIN [11,13]
-	LOAD1 1 SansWarpsIn
+	TalkConvo(NousagiComeOut)
+	CAMERA [8,7]
+	PlayEmotionEffect(Amelia,QuestionEffect)
+	STAL 45
+	Text(AmeBigBruhMoment)
+	SCOORD sB [11, 3]
+	MOVE 0x1E (-2) [9,5]
+	SCOORD sB [11, 4]
+	MOVE 0x1E (-2) [10,6]
+	ENUN
+	Text(NoticeMeSenpai)
+	CAM1 [3,2]
+	CameraCursorLocation(3,2,60)
+	LOAD1 1 SansMove
+	Text(NousagiChp1Wtf)
+	SCOORD sB [3, 4]
+	MOVE 0x1E (-2) [6,6]
+	SCOORD sB [2, 3]
+	MOVE 0x1E (-2) [7,5]
+	ENUN
+	CAM1 [8,7]
+	LOAD1 1 CalliopeIntervenes 
+	Text(NousagiChp1Lockherup)
+	WARPOUT [6,6]
 	ENDWARP
+	REMOVEUNIT Amelia
+	WARPIN [7,8]
+	LOAD1 1 AmeWarpsIn
+	ENDWARP
+	BREAKING_SACRED_STONE Amelia
+	STAL 45
+	PlayEmotionEffect(Amelia,ExclamationEffect)
+	STAL 45
+	MuteMusic
+	TalkConvo(AmePanik)
+	BREAKING_SACRED_STONE Amelia
+	STAL 45
+	BREAKING_SACRED_STONE Amelia
+	STAL 45
+	TalkConvo(HUH)
+	CUSE 0xAA
+	CUSE 0xBD
+	CUSE 0xb8
+	CUSE 0xb9
+	CUSE 0xd0
+	CUSE 0xd1
+	STAL 45
+	FadeBlack
+	MusicChange(0x31)
+	CLEARALL
+	SetBackground(SnowField)        //FIX FIX FIX FIX
+	FadeBackBlack
+	TalkConvo(WhatThe)
+	FadeBlack
+	STAL 60
+	SetBackground(Dungeon)  
+	
+	
+	
+	
+	TalkConvo(gtfo)
+	TalkConvo(bruh)
+		
+	
+	FadeBlack
+	CLEARALL
+	LOMA 0x0
+	CAM1 [7,3]
+	FadeBackBlack
+	
+	SOUN 0xB1
+	TILECHANGE 0
+	LOAD1 0x1 PlayerUnits
+	ENUN
+	SOUN 0xB1
+	TILEREVERT 0
+	TalkConvo(AmeliasBruhMoment)
+	
+	CAMERA [6,14]
+	LOAD2 0 EnemyUnits
+    ENUN
+	CAMERA [7,3]
+	PlayEmotionEffect(Amelia,SweatEffect)
+	TalkConvo(TimetoLeave)
+
+	ENDA
+
+
+
+
+
+EndingScene:
+EnactAutoRepair
+	FadeBlack
+	MusicChange(0x2E)
+	SetBackground(Lava)
+	FadeBackBlack
+	Text(AmeDone)
+	FadeBlack
+	SOUN 0xB4
+	SetBackground(Field1)
+	FadeBackBlack
+	SOUN 0xB5
+	Text(TimetoGo)
+	FadeBlack
+MusicChange(0x5F)
+LOMA 0x4B
+CLEARALL
+CAM1 [9,8]
+LOAD1 1 CalliopeChp1
+FadeBackBlack
+STAL 60
+LOAD1 1 ReapergetsjumpedChp1
+PlayEmotionEffect(0x23,SweatEffect)
+STAL 45
+Text(CalliTrippinBruh)
+LOAD1 1 Sheiscoming
+ENUN
+Text(SHEAppears)
+
+STAL 60
+Text(CalliBruhMoment)
+CUSE 0x23
+	FadeBlack
+	MNC2 1
+	NoFade
+	ENDA
+	
+	
+	/*
 	TEXTSTART
 	TextShow MoriExplains
 	TEXTEND
+	
 	MOVE 15 0xB7 [12,11]
 	ENUN
 	MOVE 15 0xB7 [12,14]
@@ -353,17 +519,11 @@ BeginningScene:
 	ENUN
 	TEXTCONT
 	TEXTEND
-	REMA
-	BREAKING_SACRED_STONE Amelia
-	PlayEmotionEffect(Amelia,ExclamationEffect)
-	PlayEmotionEffect(0x23,QuestionEffect)
-	STAL 45
-	MuteMusic
-	TalkConvo(AmePanik)
-	SOUN 0x13B
+	
+		SOUN 0x13B
 	GetUnitStatus(0xB7,State)
 SetUnitStatus(0xB7,State,0x01000000)
-TalkConvo(WhatThe)
+
 CUSE 0xb7
 SetUnitStatus(0xB7,State,0)
 	MOVE 15 0xB7 [11,13]
@@ -380,7 +540,7 @@ SetUnitStatus(0xB7,State,0)
 	
 	SetUnitStatus(0xBB,State,0x01000000)
 	
-	TalkConvo(HUH)
+	
 	GiveItem(Rapier,Amelia)
 	
     SetUnitStatus(0xAA,State,0x01000000)
@@ -410,7 +570,7 @@ SetUnitStatus(0xB7,State,0)
 	MOVE 15 0xAC [10,4]
 	MOVE 15 0xAD [8,4]
 	SetUnitStatus(0xAA,State,0)
-	TalkConvo(gtfo)
+	
 	MOVE 20 Amelia [20,17]
 	
 	MOVE 15 0xBB [11,13]
@@ -424,50 +584,57 @@ SetUnitStatus(0xB7,State,0)
 	
 	MOVE 20 0x23 [9,9]
 	CAM1 [9,9]
-	TalkConvo(bruh)
 	
-	FadeBlack
-	CLEARALL
-	LOMA 0x0
-	CAM1 [7,3]
-	FadeBackBlack
 	
-	SOUN 0xB1
-	TILECHANGE 0
-	LOAD1 0x1 PlayerUnits
-	ENUN
-	SOUN 0xB1
-	TILEREVERT 0
-	TalkConvo(AmeliasBruhMoment)
 	
-	CAMERA [6,14]
-	LOAD2 0 EnemyUnits
-    ENUN
-	CAMERA [7,3]
-	PlayEmotionEffect(Amelia,SweatEffect)
-	TalkConvo(TimetoLeave)
+	
+	
+	
+	
+	
+	Refer to the bottom Text for code 
+	
+	
+## MoriExplains
+[Left][LoadCalliope][BoxHeight][0x3]
+My power as the Reaper gives me[N]
+control over those who wish to[N]
+pass into the afterlife.[A][NL]
+Unfortunately, those with[N]
+withered bodies can only do[N]
+so much for themselves.[A][NL]
+I was nominated as the one[N]
+to lead them to the afterlife.[A][N]
+Therefore, I can relatively[N]
+control the corpses pretty[N]
+well.[A] Take a look at this[N]
+here.[A][LoadOverworldFaces][NL]
+[Beat][.A][Beat]See?[A][BoxHeight][0x2]
+[FarLeft][LoadAme]
+[CloseEyes][ToggleMouthMove][BoxType][0x3]Come on... why are you bugging[N]
+out now...[A][ToggleMouthMove][BoxType][0x1]
+[Left]
+[BoxHeight][0x1]Amelia?[A][BoxHeight][0x2]
+[FarLeft]
+[ToggleMouthMove][BoxType][0x3]Maybe I should flip this switch[N]
+again...Or maybe this thing...[A][N]
+Do I need to open this area here?[N]
+So much work for this stupid thing...[A][ToggleMouthMove][BoxType][0x1]
+[Left][ClearFace]
+[Right][LoadCalliope]
+[BoxHeight][0x1][BoxType][0x2]AMELIA![A][BoxType][0x1][BoxHeight][0x2]
+[FarLeft]
+[OpenEyes][OpenFarLeft][MoveFarLeft][BoxType][0x2][BoxHeight][0x1]GAH![A][BoxHeight][0x2][BoxType][0x1][X]
 
-
-	ENDA
-
-
-
-
-
-EndingScene:
-EnactAutoRepair
-	FadeBlack
-	MusicChange(0x2E)
-	SetBackground(Lava)
-	FadeBackBlack
-	Text(AmeDone)
-	FadeBlack
-	SOUN 0xB4
-	SetBackground(Field1)
-	FadeBackBlack
-	SOUN 0xB5
-	Text(TimetoGo)
-	FadeBlack
-	MNC2 1
-	NoFade
-	ENDA
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	*/ 
+	
+	

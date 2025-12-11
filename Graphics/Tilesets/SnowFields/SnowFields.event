@@ -1,0 +1,11 @@
+ALIGN 4
+SnowFieldsObject:
+#incbin "SnowFieldsObject.dmp"
+
+ALIGN 4
+SnowFieldsPal:
+#incbin "SnowFieldsObject_pal.dmp"
+
+ALIGN 4
+SnowFieldsConfig:
+#incbin "Snow_comp.dmp"

@@ -22,7 +22,11 @@ Polka's defeat will [Red]prevent[Red] you from[N]
 storing items from your supply.[A][N]
 Tread carefully.[A][X]
 
+## ShikeNameChp2
+Shike Village[A][X]
 
+## NousagiChp2
+Bruh[A][X]
 
 
 

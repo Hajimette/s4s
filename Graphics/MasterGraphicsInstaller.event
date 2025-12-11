@@ -5,8 +5,6 @@
 
 #include "ClassCards/MasterCardInstaller.event"
 
-//#include "CGs/CGMasterInstaller.event"
-
 #include "Portraits/PortraitInstaller.event"
 
 #include "RemoveBGFog/RemoveEffects.event"

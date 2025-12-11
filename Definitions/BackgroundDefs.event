@@ -4,9 +4,96 @@
 #define OutVillage 0x3
 #define VillageSunset 0x4
 #define Village2 0x5
+#define Free6 0x6 //FREE
 #define Port 0x7
+#define Ship 0x8
+#define Inn 0x9
+#define Castle 0xA
+#define CastleNight 0xB
+#define DesertHall 0xC
+#define DesertHallNight 0xD
+#define CastleChamber 0xE
+#define FreeF 0xF //FREE
+#define Hallway 0x10
+#define HallwayNight 0x11
+#define HallwayCastle 0x12
+#define Ruins 0x13
+#define Free14 0x14 //FREE
+#define CastleOutside 0x15
+#define Castle16 0x16 //FREE
+#define Prison 0x17
 #define Field1 0x18
 #define FieldSunset 0x19
-#define Forest1 0x22
-#define Lava 0x32
+#define FieldsFog 0x1a
+#define Hills 0x1b
+#define Grasslands 0x1c
+#define Mountains 0x1d
+#define MountainsFog 0x1e
+#define MountainsSunset 0x1f
 #define ForestNight 0x20
+#define Marsh 0x21
+#define Forest1 0x22
+#define ForestInside 0x23
+#define VillageOutside 0x24
+#define Fort 0x25
+#define PillarsIn 0x26
+#define PillarsInSunset 0x27
+#define PillarRuins 0x28
+#define RuinsCastle 0x29
+#define HallwayRuins 0x2A
+#define HallwayRuinsFire 0x2B
+#define Church 0x2C
+#define Free2D 0x2D //FREE
+#define ChurchPews 0x2E
+#define Sanctuary 0x2F
+#define Desert 0x30
+#define DeepForest 0x31
+#define Lava 0x32
+#define DragonGate 0x33
+#define DragonGateRuins 0x34
+
+
+//
+#define AquaCG 0x38
+#define AmeliaKroniiCG 0x39
+#define LaplusCG 0x3A
+#define ReineCG 0x3B
+#define RushiaCG 0x3C
+#define SoraCG 0x3D
+#define MoriCG 0x3E
+#define PekoraCG 0x3f
+#define SnowField 0x40
+#define VillageTrailNight 0x41
+#define Dungeon 0x42
+
+
+/*
+
+
+43
+44
+45
+46
+47
+48
+49
+4a
+4b
+4c
+4d
+4e
+4f
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+5A
+*/
+
+

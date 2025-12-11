@@ -129,14 +129,21 @@ BeginningScene:
 		
 		LOAD1 0x1 EnemyUnits
 	ENUN
-	CAM1 [4,17]
+	MusicChange(0x2E)
+	CAM1 [8,2]
 		FadeBackBlack
-		LOAD3 0x0 PlayerUnits
-        ENUN
+		Location(ShikeNameChp2)
+		CameraCursorLocation(8,2,60)
+		Text(NousagiChp2)
+        
 		STAL 45
 		CAM1 [21,3]
 		
 		LOAD1 0 Shiraken
+		ENUN
+		
+		CAM1 [4,17]
+		LOAD1 0x0 PlayerUnits
 		ENUN
 
 	ENDA

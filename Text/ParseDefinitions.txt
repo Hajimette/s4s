@@ -113,13 +113,14 @@
 
 [LoadKurokamiP] = [LoadFace][0x2E][0x1]
 
-
+[LoadGalzus] = [LoadFace][0xB9][0x1]
 [LoadKroniiPlayerP] = [LoadFace][0xB5][0x1]
 [LoadKroniiBeat] = [LoadFace][0xDC][0x1]
 
-
+[LoadNousagi] = [LoadFace][0xFE][0x1]
 [LoadBrig] = [LoadFace][0x4D][0x1]
 [LoadCalliope] = [LoadFace][0x46][0x1]
+[LoadEVILCalliope] = [LoadFace][0xAD][0x1]
 [LoadMan] = [LoadFace][0x5A][0x1]
 [LoadOldLady] = [LoadFace][0x5f][0x1]
 

@@ -1,4 +1,3 @@
-#include "CalliopeCastleCutscene.event"
 #include "Chapter1.event"
 #include "Chapter10.event"
 #include "Chapter3.event"
@@ -11,4 +10,6 @@
 #include "Interlude1.event"
 #include "NewChp2.event"
 #include "PrologueGrass.event"
-#include "PrologueMap.event"
+#include "PrologueManster.event"
+#include "ProloguePekoland.event"
+#include "PrologueUnderworld.event"

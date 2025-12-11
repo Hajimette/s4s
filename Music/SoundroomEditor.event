@@ -6,6 +6,7 @@ ALIGN 4
 NewSoundRoom:
 SoundRoomEntry(ShinySmilyStoryID, 0, SSSText)
 SoundRoomEntry(ShinySmilyStoryTitleID, 0, SSSTitle)
+SoundRoomEntry(SSSEndingID, 0, SSSEndTxt)
 SoundRoomEntry(AstrogirlID, 0, AstrogirlTxt)
 SoundRoomEntry(AstrogirlSlowedID, 0, AstroSlowedTxt)
 SoundRoomEntry(BaskingIntheSunID, 0, BaskingintheSunTxt)
@@ -194,6 +195,7 @@ SoundRoomSource(TogetherWeRideID, TogetherWeCreditCreds)
 SoundRoomSource(BlessingoftheGeneralsIID, TogetherWeCreditCreds)
 SoundRoomSource(BlessingoftheGeneralsIIID, TogetherWeCreditCreds)
 SoundRoomSource(EnemyMessage2ID, FE4Creds)
+SoundRoomSource(SSSEndingID, SSSEndCreds)
 
 
 WORD 0 0 // term
