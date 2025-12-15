@@ -216,9 +216,13 @@ ENDA
 
 
 BeginningScene:
-
+SetBackground(0x35)
+FadeBackBlack
+CenterTextbox(OpeningMonologue)
+FadeBlack
+STAL 60
 	LOMA 0x4D 
-	CAMERA [13,11]
+	CAM1 [13,9]
 	MUSS 0x4C
 	LOAD1 0x1 GrassCutsceneUnit
 	FadeBackBlack
@@ -433,11 +437,22 @@ BeginningScene:
 	FadeBlack
 	STAL 60
 	SetBackground(Dungeon)  
+	MuteMusic
+	FadeBackBlack
+	STAL 90
+	TextBox(IronWarren)
+	FadeBlack
+	SetBackground(Dungeon2)
+	FadeBackBlack
+	Text(gtfo)
+	FadeBlack
+	LOMA 0x0
+	CLEARALL
+	FadeBackBlack
 	
 	
 	
 	
-	TalkConvo(gtfo)
 	TalkConvo(bruh)
 		
 	

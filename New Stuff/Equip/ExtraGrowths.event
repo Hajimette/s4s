@@ -61,7 +61,7 @@ SetUnitConGrowth(Kurokami,5)
 
 
 // Mov Growth Table
-SetUnitMovGrowth(Amelia,3)
+SetUnitMovGrowth(Amelia,1)
 SetUnitMovGrowth(Reine,5)
 SetUnitMovGrowth(Mumei,3)
 SetUnitMovGrowth(Fauna,0)

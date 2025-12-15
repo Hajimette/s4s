@@ -101,6 +101,7 @@ SetConvoBackground(RushiaCG, RushiaImageData, RushiaTSAData, RushiaPalData)
 SetConvoBackground(SnowField, SnowFieldImage, SnowFieldTSA, SnowFieldPal)
 SetConvoBackground(VillageTrailNight, VillageNightTrailImage, VillageNightTrailTSA, VillageNightTrailPal)
 SetConvoBackground(Dungeon, DungeonImage, DungeonTSA, DungeonPal)
+SetConvoBackground(Dungeon2, Dungeon2Image, Dungeon2TSA, Dungeon2Pal)
 
 
 ALIGN 4
@@ -173,27 +174,27 @@ Pekora256Pal:
 
 ALIGN 4
 SnowFieldImage:
-#incbin "SnowField.dmp"
+#incbin "SnowField.png.dmp"
 
 ALIGN 4
 SnowFieldTSA:
-#incbin "SnowFieldTSA.dmp"
+#incbin "SnowField.png.tsa.dmp"
 
 ALIGN 4
 SnowFieldPal:
-#incbin "SnowFieldPal.dmp"
+#incbin "SnowField.png.pal.dmp"
 
 ALIGN 4
 VillageNightTrailImage:
-#incbin "VillageNightTrail.dmp"
+#incbin "VillageNightTrail.png.dmp"
 
 ALIGN 4
 VillageNightTrailTSA:
-#incbin "VillageNightTrailTSA.dmp"
+#incbin "VillageNightTrail.png.tsa.dmp"
 
 ALIGN 4
 VillageNightTrailPal:
-#incbin "VillageNightTrailPal.dmp"
+#incbin "VillageNightTrail.png.pal.dmp"
 
 ALIGN 4 
 DungeonImage:
@@ -206,6 +207,19 @@ DungeonTSA:
 ALIGN 4
 DungeonPal:
 #incbin "DungeonPal.dmp"
+
+ALIGN 4 
+Dungeon2Image:
+#incbin "Dungeon2Image.dmp"
+
+ALIGN 4
+Dungeon2TSA:
+#incbin "Dungeon2TSA.dmp"
+
+ALIGN 4
+Dungeon2Pal:
+#incbin "Dungeon2Pal.dmp"
+
 
 
 /*

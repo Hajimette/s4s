@@ -1,3 +1,13 @@
+## OpeningMonologue
+Did I ever tell you?[A][2NL]
+Out of everyone else in the world at[N]
+their disposal, they chose me.[A][N]
+Why did they decide this fate for me?[N]
+Why am I the one that they wanted?[A][2NL]
+Why am I the one chosen for this?[A][X]
+
+
+
 ## AmeliaOldLady
 [MidLeft][LoadAme]
 [MidRight][LoadOldLady]
@@ -203,9 +213,7 @@ HEY! GIVE IT BACK![A]
 [FarRight]
 Get her to shut up,[N]
 will you already?[A]
-[FarLeft][MoveFarLeft]
-[PlaySound][0x0082][0x008D][0x0080][0x0080][....]
-[Left]
+[Left][OpenLeft]
 [CloseEyes]Gah![A][X]
 
 
@@ -216,15 +224,37 @@ will you already?[A]
 Stop her![A][X]
 
 ## gtfo
-[MidLeft][LoadCalliope]
-[MidRight][LoadAme]
-[MidLeft][BoxType][0x2]
-Hurry! Something isn't right![N]
-Warn the people above please![A][N]
-The world must know whats going[N]
-on here! Please Amelia![A]
-[MidRight]
-S...sure![A][X]
+[Right][LoadNousagi]
+[FarRight][LoadNousagi]
+[Left][LoadNousagi]
+[Left]
+Ok, well.[A][N]
+As you both heard, we've[N]
+collected more...guests.[A][N]
+42nd Division just got called[N]
+for the front.[A] So we're a[N]
+bit... short handed for the[N]
+time being.[A][2NL]
+Keep doing your tasks, and[N]
+take up those double shifts.[A]
+[Left][ClearFace]
+[FarRight]
+Damn it.[A] I thought we were[N]
+winning the war.[A]
+[Right]
+We are, it's just the[N]
+insurgency is too entrenched.[A]
+[FarRight]
+Ah, I see.[A]
+[Right]
+Besides, they're starting to[N]
+get smarter...[A] One of them[N]
+were able to kill a whole company[N]
+by blowing up a building...[A][N]
+Seems like the insurgency will[N]
+only get worse from there...[A][X]
+
+
 
 ## bruh
 [MidLeft][LoadCalliope]
@@ -398,5 +428,6 @@ W...what...?[A]
 [MidLeft][LoadEVILCalliope]
 ...[A][X]
 
-
-
+## IronWarren
+Pekolandian Year 445.[A][N]
+The Iron Warren.[A][X]
