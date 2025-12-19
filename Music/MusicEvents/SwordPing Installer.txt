@@ -16,7 +16,7 @@ SongTable(0x02CE,SwordPing,6)
     ALIGN 4
 
 loop_sfx_1:
-    BYTE        VOL     127*loop_sfx_mvl/mxv
+    BYTE        VOL     127*loop_sfx_mvl_SwordPing/mxv
     BYTE    KEYSH   loop_sfx_key_SwordPing+0
     BYTE        VOICE   0
     BYTE        TIE     Cn3   v064

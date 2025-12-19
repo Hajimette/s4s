@@ -128,6 +128,7 @@ PROTECT 0x2BA28
 POP
 */
 
+/*
 ALIGN 4
 gExtra_Growth_Boosts:
 POIN Extra_Growth_Boosts|1
@@ -157,6 +158,7 @@ POIN Get_Luk_Growth|1
 
 gGetMagGrowth:
 POIN Get_Mag_Growth|1
+*/
 
 //SynchronizeIDLink:
 //BYTE SynchronizeID
@@ -164,6 +166,11 @@ POIN Get_Mag_Growth|1
 ALIGN 4
 FixedGrowthsFlagIDLink:
 BYTE FIXED_GROWTHS_FLAG_ID
+
+
+
+
+
 
 ALIGN 4
 CharacterMovGrowthTable:

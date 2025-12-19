@@ -3,7 +3,7 @@ DungeonObject:
 #incbin "DungeonNew.dmp"
 
 ALIGN 4
-DungeonPal:
+FE5DungeonPal:
 #incbin "DungeonPaletteNew_pal.dmp"
 
 ALIGN 4

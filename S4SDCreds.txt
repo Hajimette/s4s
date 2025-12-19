@@ -585,20 +585,23 @@ FE5 Adversity- Scraiza
 FE5 Attack-SurfingKyogre
 FE5 August B Talk- IS
 FE5 Barbarians- Dolkar
-Fe5 Boss Battle- Dolkar
+FE5 Boss Battle- Falkion
 FE5 Charge B- REALxViperz
 FE5 Conquest- SurfingKyogre
 FE5 Crisis- SurfingKyogre
 FE5 Curing- Warpath
 FE5 Defend- DertheVaporeon
 FE5 Destiny- Hatsuru
+FE5 Healing - Falkion
 FE5 Leif (Base)-RSFlame
-FE5 Loptyr A- War Path
+FE5 Loptous A - Falkion
+FE5 Loptous B - Falkion
 FE5 Map A-Dolkar
 FE5 Near Defeat-Haiboku Chikashi
 FE5 Near Victory-Syuuri Chikashi
 FE5 Preparations-hypergammaspaces
 FE5 Pressing Threat- MrGreen3339
+FE5 Pressing Thread; Final - Falkion
 FE5 Sorrow -Surfing Kyogre
 FE5 Squadron A- Dolkar
 FE5 Thracia- Surfing Kyogre

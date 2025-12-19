@@ -28,6 +28,7 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0, AmeBecomesWOKE, 2)
 
 	END_MAIN
 
@@ -48,7 +49,7 @@ LocationBasedEvents:
 	END_MAIN
 
 Dunno1:
-	AFEV 0x11 AmeliaPrologueCombatStim 0
+	AFEV 0x11 ZetaPrologueSelect 0
 
 	END_MAIN
 
@@ -66,22 +67,36 @@ Tutorial:
 
 PlayerUnits:
 
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,3] 0x0 0x0 1 REDA7R6 [CombatStim,0x0] NoAI
+	UNIT 0xF0 0x73 Amelia Level(1,Ally,False) [0,9] 0x0 0x0 0x0 0x0 [0x0,0x0] NoAI
+
+UNIT
 
 
-        UNIT
+
+Boatan:
+	UNIT 0x14 0x89 Amelia Level(4,Ally,False) [0,10] 0x0 0x0 0x0 0x0 [0,0] NoAI
+
+UNIT
 
 EnemyUnits:
 
-	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] DropItem 0x0 1 REDA4R9 [RottenClaw,Vulnerary] ChargeAI
-	
-	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA8R11 [RottenClaw,0x0] Wait1Turn
-	
-	UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA6R14 [RottenClaw,0x0] Wait1Turn
-	
-	UNIT 0x49 0x52 0x53 Level(1,Enemy,True) [6,18] 0x0 0x0 1 REDA6R17 [RottenClaw,0x0] RangeAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [4,16] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [2,13] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [2,5] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [6,3] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [10,7] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [11,12] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [10,17] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [8,21] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [1,20] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
 
         UNIT
+
+AmeliaWakesUp:
+UNIT Amelia 0x1 Amelia Level(1,Ally,False) [0,9] 0x0 0x0 0x0 0x0 [0x0] NoAI
+
+UNIT
+
 
 GrassCutsceneUnit:
 
@@ -145,7 +160,7 @@ CalliopeIntervenes:
 	UNIT
 	
 AmeWarpsIn:
-	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,8] 0x0 0x0 0x0 0x0 [CombatStim,0x0] NoAI
+	UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,8] 0x0 0x0 0x0 0x0 [0x0,0x0] NoAI
 	
 	UNIT
 	
@@ -190,7 +205,17 @@ SansCutin:
 	UNIT 0xBD 0x4E 0xAB Level(1,NPC,False) [12,4] 0x0 0x0 1 REDA11R4 [0,0] NoAI
 	UNIT
 	
+ZetaPrologue:
+UNIT 0x32 0x91 Amelia Level(1,Ally,False) [14,24] 0x0 0x0 1 REDA14R22 [SteelSword,0xD,Vulnerary] NoAI
 	
+	UNIT 0x10 0x8F Amelia Level(1,Ally,False) [13,24] 0x0 0x0 1 REDA13R23 [0xA0,0x6C] NoAI
+	
+	UNIT 0x11 0x8D Amelia Level(2,Ally,False) [14,24] 0x0 0x0 1 REDA15R23 [0x45,0x38] NoAI
+	
+	UNIT 0x34 0x14 Amelia Level(2,NPC,False) [14,24] 0x0 0x0 1 REDA13R22 [0x45,0x38] NoAI
+	UNIT 0x35 0xAA Amelia Level(2,NPC,False) [14,24] 0x0 0x0 1 REDA15R22 [0x45,0x38] NoAI
+
+UNIT
 
 	
 	
@@ -202,14 +227,14 @@ Traps2:
 	ENDTRAP
 	ALIGN 4
 
-AmeliaPrologueCombatStim:
+ZetaPrologueSelect:
 CHECK_ACTIVE
-	SVAL s1 0x1
+	SVAL s1 0x32
 	BEQ 1 s1 sC
 	ENUF 11 // unset completion flag if unit selected isn't Miko
 	GOTO 2
 	LABEL 1
-	TextBox(CombatTutorial)
+	TextBox(ZetaWarningPrologue)
 	LABEL 2
 	NoFade
 ENDA
@@ -362,14 +387,8 @@ STAL 60
 	MusicChange(0x318)
 	TalkConvo(AmeEnter)
 	
-	/*
-	STAL 30
 	
-	SCOORD sB [16, 6]
-	MOVE 0x1E (-2) [0,17]
-	STAL 60
-	DISA 0xB8
-	*/
+	
 	
 	
 	SCOORD sB [8, 7]   //Grabs ame's coords
@@ -447,38 +466,72 @@ STAL 60
 	Text(gtfo)
 	FadeBlack
 	LOMA 0x0
+	CAM1 [11,9]
 	CLEARALL
-	FadeBackBlack
-	
-	
-	
-	
-	TalkConvo(bruh)
-		
-	
-	FadeBlack
-	CLEARALL
-	LOMA 0x0
-	CAM1 [7,3]
-	FadeBackBlack
-	
-	SOUN 0xB1
-	TILECHANGE 0
+	LOAD1 0 EnemyUnits
 	LOAD1 0x1 PlayerUnits
+	LOAD1 0x1 Boatan
+	FadeBackBlack
+	STAL 60
+	CAM1 [13,21]
+	STAL 15
+	MusicChange(0x28)
+	LOAD1 1 ZetaPrologue
+	TalkConvo(bruhPrologue)
+	SCOORD sB [13, 22]
+	MOVE 0x34 (-2) [14,25]
+	SCOORD sB [15, 22]
+	MOVE 0x35 (-2) [15,25]
+	STAL 5
+	DISA_IF 0x34
+	DISA_IF 0x35
+	REMU 0x1
+	SOUN 0xB1
 	ENUN
 	SOUN 0xB1
-	TILEREVERT 0
+	STAL 30
 	TalkConvo(AmeliasBruhMoment)
-	
-	CAMERA [6,14]
-	LOAD2 0 EnemyUnits
-    ENUN
-	CAMERA [7,3]
-	PlayEmotionEffect(Amelia,SweatEffect)
-	TalkConvo(TimetoLeave)
-
 	ENDA
 
+
+
+AmeBecomesWOKE:
+CAMERA [1,6]
+MusicChange(0x12)
+FlashCursor(0,9,60)
+TalkConvo(TimetoLeave)
+SoundEffect(0x14A)
+DISA_IF 0xF0
+REMU 0xF0
+REVEAL 0x1
+LOAD1 1 AmeliaWakesUp
+STAL 30
+FadeBlack
+SetBackground(Dungeon2)
+FadeBackBlack
+Text(BoatAmeliaPrologue)
+FadeBlack
+CLEAN
+FadeBackBlack
+	
+	
+	
+	ENDA
+	
+/*
+	SVAL s1 0x32
+	BEQ 1 s1 sC
+	ENUF 11 // unset completion flag if unit selected isn't Miko
+	GOTO 2
+	LABEL 1
+	TextBox(CombatTutorial)
+	LABEL 2
+	NoFade
+
+	
+	
+	
+*/
 
 
 
@@ -521,7 +574,29 @@ CUSE 0x23
 	ENDA
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/*
+	
+	
+
+	STAL 30
+	
+	SCOORD sB [16, 6]
+	MOVE 0x1E (-2) [0,17]
+	STAL 60
+	DISA 0xB8
+
+	
+	
 	TEXTSTART
 	TextShow MoriExplains
 	TEXTEND

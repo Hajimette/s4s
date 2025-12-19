@@ -71,6 +71,7 @@
 [LoadSubaruP] = [LoadFace][0x13][0x1]
 [LoadIofiP] = [LoadFace][0x14][0x1]
 [LoadRobocoP] = [LoadFace][0x16][0x1]
+[LoadRbcGlassesP] = [LoadFace][0xE0][0x1]
 [LoadRisuP] = [LoadFace][0x18][0x1]
 [LoadMatsuriP] = [LoadFace][0x19][0x1]
 [LoadAkiP] = [LoadFace][0x1A][0x1]

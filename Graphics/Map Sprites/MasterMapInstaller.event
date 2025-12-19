@@ -153,6 +153,7 @@ StandingMapSprite(0xAC,0,HalberdierStand)
 StandingMapSprite(0xAD,1,BallistaStand)
 StandingMapSprite(0xAE,0,VillagerMStand)
 StandingMapSprite(0xAF,0,VillagerFStand)
+StandingMapSprite(0x62,0,AmeLayStand)
 
 
 
@@ -279,6 +280,7 @@ MovingMapSprite(0xC1,NormalAP,HalberdierWalk)
 MovingMapSprite(0xC3,BallistaAP,BallistaWalk)
 MovingMapSprite(0x71,NormalAP,VillagerMWalk)
 MovingMapSprite(0x72,NormalAP,VillagerFWalk)
+MovingMapSprite(0x73,NormalAP,AmeLayWalk)
 
 
 

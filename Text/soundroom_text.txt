@@ -163,6 +163,9 @@ Near Victory[X]
 ## LoptousATxt
 Loptous A[X]
 
+## LoptousBTxt
+Loptous B[X]
+
 ## MapBTxt
 Map B[X]
 
@@ -357,3 +360,15 @@ Arranged by Ren216[X]
 
 ## SSSEndTxt
 SSS Ending Song[X]
+
+## MapBATxt
+Map B- A[X]
+
+## FE5PODTxt
+FE5 Priest of Darkness[X]
+
+## FE5OnAlertTxt
+FE5 On Alert[X]
+
+## PressingThreatFinalTxt
+FE5 Pressing Threat- Final[X]

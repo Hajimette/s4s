@@ -70,6 +70,11 @@
 #define FE5MapBID 0x34
 #define FE5ChargeBID 0x36
 #define FE5HealingID 0xE8
+#define FE5LoptousBID 0x3E3
+#define FE5MapBAID 0x3E2
+#define FE5PriestofDarknessID 0x3E1
+#define FE5OnAlertID 0x3E0
+#define FE5PressingThreatFinalID 0x3DF
 
 //FE6
 #define FE6ShamanID 0x37

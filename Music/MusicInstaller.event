@@ -22,7 +22,7 @@ POP
 
 
 {
-//#include "MusicEvents/SwordPing Installer.txt"
+#include "MusicEvents/SwordPing Installer.txt"
 }
 
 
@@ -414,6 +414,34 @@ SongTable(KaijuuID, KaijuunoHanauta, MapMusicGroup)
 {
 #include "MusicEvents/SSSEndingTheme.event"
 SongTable(SSSEndingID, SSSEnd, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/FE5LoptousB.event"
+SongTable(FE5LoptousBID, FE5LoptousB, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/FE5MapBA.event"
+SongTable(FE5MapBAID, FE5MapBA, MapMusicGroup)
+}
+
+
+{
+#include "MusicEvents/FE5PriestofDarkness.event"
+SongTable(FE5PriestofDarknessID, FE5PriestofDarkness, MapMusicGroup)
+}
+
+
+{
+#include "MusicEvents/FE5OnAlert.event"
+SongTable(FE5OnAlertID, FE5OnAlert, MapMusicGroup)
+}
+
+
+{
+#include "MusicEvents/FE5PressingThreatFinal.event"
+SongTable(FE5PressingThreatFinalID, FE5PressingThreatFinal, MapMusicGroup)
 }
 
 #include "SoundroomEditor.event"

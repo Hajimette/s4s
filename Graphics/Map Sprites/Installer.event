@@ -13,6 +13,14 @@ AmeliaWalk:
 #incbin "dmp/AmeWalk.dmp"
 
 ALIGN 4
+AmeLayStand:
+#incbin "dmp/AmeLay.dmp"
+
+ALIGN 4
+AmeLayWalk:
+#incbin "dmp/AmeLayWalk.dmp"
+
+ALIGN 4
 BMaidenStand:
 #incbin "dmp/CamillaSteamingTofuStand.dmp"
 

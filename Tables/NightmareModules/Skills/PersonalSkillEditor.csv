@@ -1,62 +1,62 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Eirika,InvestigationID
-Seth,TonjokID
-Gilliam,RallyDefID
-Franz,SealStrID
-Moulder,ParagonID
-Suisei,AxefaireID
-Ross,ParagonID
-Neimi,RallyLukID
-Colm,RallySpdID
-Garcia,ColossusID
-Innes,BowRangeUpID
-Lute,ParagonID
-Natasha,SealLukID
-Cormag,RallyStrID
-Ephraim,InspirationID
-Forde,SpurSpdID
-Kyle,SpurStrID
-Amelia,ParagonID
-Artur,FocusID
-Gerik,BondID
-Tethys,DemoiselleID
-Marisa,FocusID
-Saleh,SpurMagID
-Ewan,CelerityID
-L'Arachel,IntimidateID
-Dozla,PivotID
-0,0x0
-Rennac,SpurSpdID
-Duessel,RepositionID
-Myrrh,DragonsBloodID
-Knoll,VoiceOfPeaceID
-Joshua,GambleID
-Syrene,TantivyID
-Tana,LilysPoiseID
-Lyon,LunaID
-Orson,0x0
-Glen,0x0
-Selena,0x0
-Valter,CharmID
-Riev,0x0
-Caellach,0x0
-Fado,0x0
-Ismaire,0x0
-Hayden,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-Iroha,SpeedBoostID
-0,0x0
-Sana,SynchronizeID
-0,0x0
-0,0x0
-0,0x0
+0x01 Amelia,InvestigationID
+0x02 Reine,TonjokID
+0x03 Mumei,RallyDefID
+0x04 Fauna,SealStrID
+0x05 Miko,ParagonID
+0x06 Suisei,AxefaireID
+0x07 Baelz,ParagonID
+0x08 Polka,RallyLukID
+0x09 Noel,RallySpdID
+0x0A Flare,ColossusID
+0x0B Watame,BowRangeUpID
+0x0C Nene,ParagonID
+0x0D Luna,SealLukID
+0x0E Subaru,RallyStrID
+0x0F Iofi,InspirationID
+0x10 Roboco,SpurSpdID
+0x11 Risu,SpurStrID
+0x12 Matsuri,ParagonID
+0x13 Aki,FocusID
+0x14 Botan,BondID
+0x15 Sora,DemoiselleID
+0x16 Azki,FocusID
+0x17 Pekora,SpurMagID
+0x18 Moona,CelerityID
+0x19 Lamy,IntimidateID
+0x1A Chloe,PivotID
+0x1B Rushia,0x0
+0x1C Kiara,SpurSpdID
+0x1D Aqua,RepositionID
+0x1E Friend C,DragonsBloodID
+0x1F Shion,VoiceOfPeaceID
+0x20 Marine,GambleID
+0x21 Gura,TantivyID
+0x22 Ina,LilysPoiseID
+0x23 Calliope,LunaID
+0x24 Ollie,0x0
+0x25 Shirakami,0x0
+0x26 Korone,0x0
+0x27 Okayu,CharmID
+0x28 Mio,0x0
+0x29 Irys,0x0
+0x2A Kanata,0x0
+0x2B Towa,0x0
+0x2C Mel,0x0
+0x2D Choco,0x0
+0x2E Lui,0x0
+0x2F Laplus,0x0
+0x30 Anya,0x0
+0x31 Kobo,0x0
+0x32 Zeta,0x0
+0x33 Kaela,0x0
+0x34 Iroha,SpeedBoostID
+0x35 Koyori,0x0
+0x36 Sana,SynchronizeID
+0x37 Ayame,0x0
+0x38 Kronii,0x0
+0x39 Kurokami,0x0
 0,0x0
 Lyon's Summon,0x0
 0,0x0
@@ -238,7 +238,7 @@ Rausten Knight,0x0
 0,0x0
 0,0x0
 0,0x0
-0,0x0
+0,InvestigationID
 0,0x0
 0,0x0
 0,0x0

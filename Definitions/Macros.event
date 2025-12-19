@@ -83,6 +83,9 @@
 #define TextBox(textID) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART; TEXTSHOW textID; TEXTEND; REMA"
 #define Location(textid) "BROWNBOXTEXT textid [8,8]"
 #define EndgameQuote(unit,text) "CHECK_DEPLOYED unit; BEQ unit 0xc 0x0; Text(text); LABEL unit"
+#define FlashCursor(X,Y,time) "CUMO [X,Y]; STAL time; CURE"
+#define FlashCursor(character,time) "CURF character"
+#define FlashCursor(character) "CURF character"
 
 
 #define FadeBlack "FADI 60"
