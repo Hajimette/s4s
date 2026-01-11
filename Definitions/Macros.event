@@ -86,6 +86,8 @@
 #define FlashCursor(X,Y,time) "CUMO [X,Y]; STAL time; CURE"
 #define FlashCursor(character,time) "CURF character"
 #define FlashCursor(character) "CURF character"
+#define SoloTextboxCenter(textId) "CenterTutorialTextBox; SOLOTEXTBOXSTART; TEXTSHOW textId; TEXTEND; REMA"
+
 
 
 #define FadeBlack "FADI 60"

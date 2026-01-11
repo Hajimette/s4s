@@ -61,20 +61,40 @@
 #define KoyoriP 0x27
 #define RushiaP 0xB
 #define RisuP 0x18
-#define Smirnoff 0xFF
 #define LaplusPortrait 0xD
 #define LaplusNoChain 0xE4
-#define NousagiReg 0xFE
 #define BotanPortrait 0x1B
+#define ShionPortrait 0x29
+#define AyamePortrait 0x2D
+#define AquaPortrait 0x25
+#define AquaAngyPortrait 0x30
+#define RatPortrait 0x9
+#define CalliopePortrait 0x46
+#define CalliopeInfluencePortrait 0x2E
+
+
+
+
+
+
+//Bosses
+#define EmiliaPortrait 0xFD
+#define NousagiReg 0xFE
+#define Smirnoff 0xFF
+
+
+
+
+
+
 
 
 //Pending but aligned
-#define CalliopePortrait 0xAD
+
 
 //#define AnyaPortrait 0x17
 //#define KoboPortrait 0x1D
 
-//#define AyamePortrait 0x2D
 
 
 
@@ -642,6 +662,72 @@ BotanData:
 #incbin "Dmps/Botan_minimug.dmp"
 setMugEntryExtend(BotanPortrait, BotanData, 3, 5, 3, 3, 0, 5, 0, 3)
 
+ALIGN 4
+ShionData:
+#incbin "Dmps/Shion_mug.dmp"
+#incbin "Dmps/Shion_frames.dmp"
+#incbin "Dmps/Shion_palette.dmp"
+#incbin "Dmps/Shion_minimug.dmp"
+setMugEntryExtend(ShionPortrait, ShionData, 3, 6, 3, 4, 0, 4, 2, 254)
+
+ALIGN 4
+EmiliaData:
+#incbin "Dmps/Emilia_mug.dmp"
+#incbin "Dmps/Emilia_frames.dmp"
+#incbin "Dmps/Emilia_palette.dmp"
+#incbin "Dmps/Emilia_minimug.dmp"
+setMugEntry(EmiliaPortrait, EmiliaData, 2, 6, 3, 4)
+
+
+ALIGN 4
+AyameData:
+#incbin "Dmps/Ayame_mug.dmp"
+#incbin "Dmps/Ayame_frames.dmp"
+#incbin "Dmps/Ayame_palette.dmp"
+#incbin "Dmps/Ayame_minimug.dmp"
+setMugEntryExtend(AyamePortrait, AyameData, 2, 6, 2, 4, 0, 2, 12, 8)
+
+ALIGN 4
+AquaData:
+#incbin "Dmps/Onion_mug.dmp"
+#incbin "Dmps/Onion_frames.dmp"
+#incbin "Dmps/Onion_palette.dmp"
+#incbin "Dmps/Onion_minimug.dmp"
+setMugEntry(AquaPortrait, AquaData, 3, 6, 3, 4)
+
+ALIGN 4
+RatData:
+#incbin "Dmps/RatBasilica_mug.dmp"
+#incbin "Dmps/RatBasilica_frames.dmp"
+#incbin "Dmps/RatBasilica_palette.dmp"
+#incbin "Dmps/RatBasilica_minimug.dmp"
+setMugEntry(RatPortrait, RatData, 3, 6, 3, 4)
+
+
+ALIGN 4
+MoriData:
+#incbin "Dmps/MoriNew_mug.dmp"
+#incbin "Dmps/MoriNew_frames.dmp"
+#incbin "Dmps/MoriNew_palette.dmp"
+#incbin "Dmps/MoriNew_minimug.dmp"
+setMugEntry(CalliopePortrait, MoriData, 4, 5, 4, 3)
+
+ALIGN 4
+CalliopeInfluencePortraitData:
+#incbin "Dmps/MoriNewInfluence_mug.dmp"
+#incbin "Dmps/MoriNewInfluence_frames.dmp"
+#incbin "Dmps/MoriNewInfluence_palette.dmp"
+#incbin "Dmps/MoriNewInfluence_minimug.dmp"
+setMugEntryExtend(CalliopeInfluencePortrait, CalliopeInfluencePortraitData, 4, 5, 4, 3, 5, 254, 0, 1)
+
+
+ALIGN 4
+AngyOnionData:
+#incbin "Dmps/AngyOnion_mug.dmp"
+#incbin "Dmps/AngyOnion_frames.dmp"
+#incbin "Dmps/AngyOnion_palette.dmp"
+#incbin "Dmps/AngyOnion_minimug.dmp"
+setMugEntry(AquaAngyPortrait, AngyOnionData, 3, 6, 3, 4)
 
 /*
 ALIGN 4

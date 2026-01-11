@@ -462,3 +462,10 @@ Haato[X]
 ## HaatoDesc
 Corruption starts at[N]
 the heart, then the soul.[X]
+
+## EmiliaName
+Emilia[X]
+
+## EmiliaDesc
+A mercenary from the Union[N]
+who defected to Pekoland.[X]

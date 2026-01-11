@@ -1,3 +1,22 @@
+## AmeCroakPrologue
+[MidRight][LoadAme]
+[MidRight]
+All because of that...[N]
+stupid watch...[A][CloseEyes][X]
+
+## BotanCroakPrologue
+[MidRight][LoadBotanP]
+[MidRight]
+D...damn it! Why now?[A][N]
+Everyone...I'm so sorry...[A][CloseEyes][X]
+
+## ZetaCroakPrologue
+[MidRight][LoadZetaP]
+[MidRight]
+This...wasn't suppose to[N]
+happen...[A][N]
+Why...now?[A][CloseEyes][X]
+
 ## AmeDeath
 [MidRight][LoadAme]
 I can't...go home[N]

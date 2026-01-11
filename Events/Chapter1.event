@@ -173,12 +173,12 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
-	SetBackground(FieldSunset)
+	SetBackground(Dungeon2)
 	FadeBackBlack
 	TalkConvo(AmeliaBum)
 	FadeBlack
 	CLEAN
-	CAM1 [4,9]
+	CAM1 [19,7]
 	MusicChange(0x28)
 	FadeBackBlack
 	LOAD1 0x1 ReineUnit1 

@@ -10,10 +10,10 @@
 #define MaxConvoy 100
 
 // if true, weapons at 0 durability will have reduced stats and still be equippable.
-#define EQUIP_BROKEN_WEAPONS TRUE
+#define EQUIP_BROKEN_WEAPONS FALSE
 
 // if false, magic weapons will be exempt from the above rule
-#define EQUIP_BROKEN_MAGIC TRUE
+#define EQUIP_BROKEN_MAGIC FALSE
 
 // broken weapon table macro
 #define BrokenWeaponEntry(name, desc, mt, hit, wt, crit, rng) "SHORT name desc mt hit wt crit rng"

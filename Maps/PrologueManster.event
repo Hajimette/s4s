@@ -46,7 +46,7 @@ Map_Change_3:
 
 ALIGN 4
 Map_Change_4:
-  SHORT $180 $84
+  SHORT $208 $78 $1AC $1B0 $78 $208 $F8 $22C $230 $F8 $944 $200 $1C0 $1C0 $1C0 $208 $180 $184 $184 $184 $208 $180 $184 $184 $184 $0 $0 $180 $184 $0 $0 $0 $84 $84 $0
 
 ALIGN 4
 Map_Change_5:
@@ -90,7 +90,7 @@ MapChangesData:
   TileMap(1, 10, 0, 1, 1, Map_Change_1)
   TileMap(2, 10, 1, 1, 1, Map_Change_2)
   TileMap(3, 4, 2, 2, 2, Map_Change_3)
-  TileMap(4, 12, 5, 1, 2, Map_Change_4)
+  TileMap(4, 11, 0, 5, 7, Map_Change_4)
   TileMap(5, 2, 8, 2, 2, Map_Change_5)
   TileMap(6, 7, 8, 1, 1, Map_Change_6)
   TileMap(7, 12, 9, 3, 2, Map_Change_7)

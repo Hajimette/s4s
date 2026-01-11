@@ -1,7 +1,33 @@
+## AmeliaPrologueEscapeText
+[MidRight][LoadAme]
+[MidRight]
+I'll let them take the heat.[A][N]
+I better find a way to split[N]
+off to find my watch...[A][X]
+
 ## AmeliaChapter1EscapeText
 [MidRight][LoadAme]
 I'm not dealing with this anymore.[N]
 Time to go.[A][X]
+
+## BotanPrologueEscapeText
+[MidRight][LoadBotanP]
+[MidRight]
+I'll clear the way forward![A][X]
+
+## ZetaPrologueEscapeText
+[MidRight][LoadZetaP]
+[MidRight]
+I'll make sure the way[N]
+ahead is safe![A][X]
+
+## ZetaFinalPrologueEscapeText
+[MidRight][LoadZetaP]
+[MidRight]
+I saved everyone I could.[A][N]
+Now to meet up with[N]
+Iroha and Koyori.[A][X]
+
 
 ## ReineChapter1EscapeQuoteText
 [MidRight][LoadReineP]
@@ -22,16 +48,39 @@ Too many of these things...[N]
 I'm getting out of here...[A][N]
 hopefully Fauna is alright...[A][X]
 
+## RisuPrologueEscapeText
+[MidRight][LoadRisuP]
+[MidRight]
+All right... that wasn't so[N]
+bad this time around...[A][X]
 
+## RBCPrologueEscapeText
+[MidRight][LoadRobocoP]
+[MidRight]
+I've done all I can.[A][N]
+I'll be up ahead![A][X]
 
 
 //
+## AmeliaPrologueFinalEscapeText
+[MidRight][LoadAme]
+[MidRight]
+Damn it...I need my damn[N]
+Watch back...[A][N]
+Kronii...[A][X]
+
 ## AmeliaChapter1FinalEscapeText
 [MidRight][LoadAme]
 [MidRight]
 Please don't force me to kill[N]
 more of these things...[A][N]
 Damn it Warden...[A][X]
+
+## BotanPrologueFinalEscapeText
+[MidRight][LoadBotanP]
+[MidRight]
+Alright, thats everyone![N]
+Lets get out of here![A][X]
 
 ## ReineFinalEscapeQuoteText
 [MidRight][LoadReineP]

@@ -121,10 +121,10 @@
 [LoadNousagi] = [LoadFace][0xFE][0x1]
 [LoadBrig] = [LoadFace][0x4D][0x1]
 [LoadCalliope] = [LoadFace][0x46][0x1]
-[LoadEVILCalliope] = [LoadFace][0xAD][0x1]
+[LoadEVILCalliope] = [LoadFace][0x2E][0x1]
 [LoadMan] = [LoadFace][0x5A][0x1]
 [LoadOldLady] = [LoadFace][0x5f][0x1]
-
+[LoadEmilia] = [LoadFace][0xFD][0x1]
 
 
 [period] = [0xDE][0x82]

@@ -74,7 +74,7 @@
 #define Nousagi5 0x46
 #define Nousagi6 0x47
 #define Nousagi7 0x48
-#define Entombed_boss 0x49
+#define EmiliaBoss 0x49
 #define Entombed_boss2 0x4A
 #define Anti 0x4B
 #define Kronii_Boss 0x4D

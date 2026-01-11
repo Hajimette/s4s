@@ -29,6 +29,18 @@ PointerList:
 
 TurnBasedEvents:
 TurnEventPlayer(0, AmeBecomesWOKE, 2)
+TurnEventPlayer(0, NousagiPrologueSpawn1, 3)
+TurnEventEnemy(0, PrologueNoticing, 4)
+TurnEventPlayer(0, EmiliaQuestion, 5)
+TurnEventPlayer(0, NousagiPrologue7, 7)
+TurnEventPlayer(0, NousagiPrologue9, 10)
+TurnEventPlayer(0, NousagiPrologue7, 13)
+TurnEventPlayer(0, NousagiPrologue9, 16)
+TurnEventPlayer(0, NousagiPrologue19, 19)
+TurnEventPlayer(0, NousagiPrologue9, 22)
+TurnEventPlayer(0, ReinforcementsPrologueFinal, 25)
+
+
 
 	END_MAIN
 
@@ -39,17 +51,38 @@ CharacterBasedEvents:
 
 MiscBasedEvents:
 	CauseGameOverIfLordDies
-        DefeatBoss(EndingScene)
+
 
 
 	END_MAIN
 
 LocationBasedEvents:
+Chest(IronBow,7,17)
+Chest(Vulnerary,10,0)
+Chest(Rapier,10,1)
+Door(4,2)
+Door(5,2)
+Door(12,5)
+LOCA 16 PrologueBossDoor [13,5] 0x12
+LOCA 16 PrologueBossDoor [14,5] 0x12
+//Door(2,8)
+LOCA 13 BotanAmeliaDoorPrologue [2,8] 0x12
+Chest(IronSword,7,8)
+Door(13,9)
+Door(7,11)
+Door(7,14)
+Door(2,16)
+Chest(CombatStim,8,16)
+Door(13,15)
+Chest(0x6D,9,0)
+Escape(13,0)
+Escape(14,0)
 
 	END_MAIN
 
 Dunno1:
-	AFEV 0x11 ZetaPrologueSelect 0
+	AFEV 0x12 ZetaPrologueSelect 0
+	AFEV 0x20 RBCTutorialSelect 0
 
 	END_MAIN
 
@@ -79,22 +112,61 @@ Boatan:
 UNIT
 
 EnemyUnits:
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [4,16] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
+  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [2,13] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [2,5] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [6,3] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [10,7] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [11,12] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [10,17] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [8,21] 0x0 0x0 0x0 0x0 [IronLance,0x6A] TwoActionAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [1,20] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [10,17] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
+  
+ UNIT 0x80 0x09 0x53 Level(4,Enemy,True) [13,0] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
+UNIT 0x80 0x09 0x53 Level(4,Enemy,True) [14,0] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
+UNIT 0x49 0x89 0x53 Level(10,Enemy,True) [14,2] DropItem 0x0 0x0 0x0 [Crossbow] NoMoveAI
 
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [4,16] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
-  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [2,13] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [2,5] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [6,3] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [10,7] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [11,12] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [10,17] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [8,21] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [1,20] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
 
-        UNIT
+ UNIT 0xFC 0x6F 0x53 Level(1,NPC,True) [1,15] 0x0 0x0 0x0 0x0 [0x0] NoMoveAI
+ UNIT 0xFC 0x70 0x53 Level(1,NPC,True) [0,17] 0x0 0x0 0x0 0x0 [0x0] NoMoveAI
+UNIT 0xFC 0x6D 0x53 Level(1,NPC,True) [14,9] 0x0 0x0 0x0 0x0 [0x0] NoMoveAI
+UNIT 0xFC 0x70 0x53 Level(1,NPC,True) [14,16] 0x0 0x0 0x0 0x0 [0x0] NoMoveAI
+    UNIT
+
+NousagiPrologueTurn3:
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [15,12] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [0,20] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+UNIT
+
+NousagiPrologueSpawn7:
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [15,12] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [0,20] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+UNIT
+
+NousagiPrologueSpawn9:
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [0,13] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [15,7] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+UNIT
+
+NousagiPrologueSpawn19:
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [15,12] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [0,20] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [0,19] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
+UNIT
+
+AntiTurtlePrologue:
+UNIT 0x7F 0xC1 0x53 Level(10,Enemy,True) [14,22] 0x0 0x0 1 REDA14R22 [0x19] DefaultAI
+UNIT 0x7F 0xC1 0x53 Level(10,Enemy,True) [13,24] 0x0 0x0 1 REDA13R23 [IronLance] DefaultAI
+UNIT 0x7F 0xC1 0x53 Level(10,Enemy,True) [15,24] 0x0 0x0 1 REDA15R23 [IronLance] DefaultAI
+UNIT
+
+
+
+
 
 AmeliaWakesUp:
 UNIT Amelia 0x1 Amelia Level(1,Ally,False) [0,9] 0x0 0x0 0x0 0x0 [0x0] NoAI
-
 UNIT
 
 
@@ -231,7 +303,7 @@ ZetaPrologueSelect:
 CHECK_ACTIVE
 	SVAL s1 0x32
 	BEQ 1 s1 sC
-	ENUF 11 // unset completion flag if unit selected isn't Miko
+	ENUF 18 // unset completion flag if unit selected isn't Miko
 	GOTO 2
 	LABEL 1
 	TextBox(ZetaWarningPrologue)
@@ -239,11 +311,24 @@ CHECK_ACTIVE
 	NoFade
 ENDA
 
+RBCTutorialSelect:
+CHECK_ACTIVE
+	SVAL s1 0x10
+	BEQ 1 s1 sC
+	ENUF 32 // unset completion flag if unit selected isn't Miko
+	GOTO 2
+	LABEL 1
+	Text(RBCReloading)
+	TextBox(CombatTutorial)
+	LABEL 2
+	NoFade
+ENDA
 
 BeginningScene:
+EVBIT_MODIFY 4
 SetBackground(0x35)
 FadeBackBlack
-CenterTextbox(OpeningMonologue)
+SoloTextboxCenter(OpeningMonologue)
 FadeBlack
 STAL 60
 	LOMA 0x4D 
@@ -251,6 +336,7 @@ STAL 60
 	MUSS 0x4C
 	LOAD1 0x1 GrassCutsceneUnit
 	FadeBackBlack
+	STAL 15
 	ENUT 7
 	ENUT 8
 	ENUT 9
@@ -340,6 +426,7 @@ STAL 60
 	STAL 20
 	PlayEmotionEffect(Amelia,DotDotDotEffect)
 	STAL 45
+	EVBIT_MODIFY 0
 	TalkConvo(AmeliaOldLady)
 	LOAD1 0x1 BrigandsCutscene
 	PlayEmotionEffect(0xAA,ExclamationEffect)
@@ -491,6 +578,9 @@ STAL 60
 	SOUN 0xB1
 	STAL 30
 	TalkConvo(AmeliasBruhMoment)
+	    SetUnitStatus(0x49,0x1A,0)
+		TextBox(RequiredEscapesPrologue)
+NoFade
 	ENDA
 
 
@@ -513,25 +603,101 @@ Text(BoatAmeliaPrologue)
 FadeBlack
 CLEAN
 FadeBackBlack
-	
-	
-	
+NoFade
 	ENDA
 	
-/*
-	SVAL s1 0x32
-	BEQ 1 s1 sC
-	ENUF 11 // unset completion flag if unit selected isn't Miko
-	GOTO 2
-	LABEL 1
-	TextBox(CombatTutorial)
-	LABEL 2
-	NoFade
+PrologueNoticing:
+CAM1 [1,9]
+FadeBlack
+MusicChange(0x31)
+SetBackground(Dungeon2)
+FadeBackBlack
+Text(BoatanisNoticing)
+FadeBlack
+CLEAN
+FadeBackBlack
+NoFade
+ENDA
 
+BotanAmeliaDoorPrologue:
+SoundEffect(0xB1)
+TILECHANGE 5
+NoFade
+FadeBlack
+MusicChange(0x17)
+SetBackground(Dungeon2)
+FadeBackBlack
+Text(ZetaMeliANPrologue)
+FadeBlack
+CLEAN
+FadeBackBlack
+NoFade
+ENDA
 	
-	
-	
-*/
+
+
+
+NousagiPrologueSpawn1:
+CAM1 [15,12]
+LOAD1 1 NousagiPrologueTurn3
+Text(NousagiPrologueWhatdaheeeell)
+NoFade
+ENDA
+
+NousagiPrologue7:
+CAM1 [0,12]
+LOAD1 1 NousagiPrologueSpawn7
+NoFade
+ENDA
+
+
+NousagiPrologue9:
+CAM1 [0,19]
+LOAD1 1 NousagiPrologueSpawn9
+NoFade
+ENDA
+
+NousagiPrologue19:
+CAM1 [0,20]
+LOAD1 1 NousagiPrologueSpawn19
+Text(NousagiPrologueIntRUders)
+NoFade
+ENDA
+
+PrologueBossDoor:
+SoundEffect(0xB1)
+TILECHANGE 4
+CAM1 [13,3]
+PlayEmotionEffect(0x49,ExclamationEffect)
+STAL 45
+Text(EmiliaBruhMoment)
+CAM1 [0,20]
+LOAD1 1 NousagiPrologueSpawn9
+NoFade
+ENDA
+
+EmiliaQuestion:
+MusicChange(0x3E3)
+CAM1 [13,3]
+FadeBlack
+SetBackground(Dungeon)
+FadeBackBlack
+Text(EmiliaWhatdehellgoingon)
+FadeBlack
+CLEAN
+FadeBackBlack
+NoFade
+ENDA
+
+ReinforcementsPrologueFinal:
+CAM1 [14,23]
+ENUT 120
+ENUT 4
+LOAD1 1 AntiTurtlePrologue
+Text(PrologueYouScrewedUp)
+NoFade
+ENDA
+
 
 
 
@@ -539,16 +705,63 @@ FadeBackBlack
 EndingScene:
 EnactAutoRepair
 	FadeBlack
+	SetBackground(0x45)
+	FadeBackBlack
+	CHECK_ALIVE 0x10  //RBC
+	SVAL s7 0
+	BEQ 2 sC s7 //Checks if rbc is alive
+	CHECK_ALIVE 0x11 //Risu
+	SVAL s7 0
+	BEQ 3 sC s7  //Checks after if Treerat is alive
+	CHECK_EVENTID 0x78 //Checks if both alive and triggered 78
+	SVAL s7 0
+	BEQ 8 sC s7 //Checks for flag 78
+	MusicChange(0x31)
+	Text(PrologueWeSurvivedbutwealertedtheguardbro)
+	GOTO 67
+	LABEL 8
 	MusicChange(0x2E)
-	SetBackground(Lava)
-	FadeBackBlack
-	Text(AmeDone)
-	FadeBlack
-	SOUN 0xB4
-	SetBackground(Field1)
-	FadeBackBlack
-	SOUN 0xB5
-	Text(TimetoGo)
+	Text(PrologueWeVENTEDandescaped)
+	GOTO 67
+	LABEL 2 //if RBC is dead checks if Risu is alive
+	CHECK_ALIVE 0x11 //Risu
+	SVAL s7 0
+	BEQ 4 sC s7
+	CHECK_EVENTID 0x78
+	SVAL s7 0
+	BEQ 9 sC s7 //Checks for flag 78
+	MusicChange(0x2F)
+	Text(RBCDeadRisuAliveTrigger) //TEXT HERE IF RISU IS ALIVE BUT RBC DEAD
+	GOTO 67
+	LABEL 9
+	MusicChange(0x2F)
+	Text(RBCDeadRisuAliveNoTrigger)   //Rbc dead and no 78 trigger
+	GOTO 67
+	LABEL 3// RBC alive but Risu Dead
+	CHECK_EVENTID 0x78
+	SVAL s7 0
+	BEQ 11 sC s7 //Checks for flag 78
+	MusicChange(0x2F)
+	Text(RisuDeadTrigger)  //Text
+	GOTO 67
+	LABEL 11
+	MusicChange(0x2F)
+	Text(RisuDeadNoTrigger)  //Text
+GOTO 67	
+	LABEL 4 //This event plays if both Risu and RBC are dead
+	CHECK_EVENTID 0x78
+	SVAL s7 0
+	BEQ 1 sC s7 //Checks for flag 78
+	MusicChange(0x31)
+	Text(RBCRISUDEADTRIGGER) // ADD TEXT HERE FOR TREERAT/RISU DEATH BUT FLAG ON
+	GOTO 67
+	LABEL 1 //Label if 78 is off and Treerat/RBC is dead
+	MusicChange(0x31)
+	Text(RBCRISUDEADNOTRIGGER)
+	LABEL 67
+	
+	
+	// Calliope Cutscene
 	FadeBlack
 MusicChange(0x5F)
 LOMA 0x4B
@@ -580,13 +793,15 @@ CUSE 0x23
 	
 	
 	
-	
-	
-	
-	
 	/*
-	
-	
+	SVAL s1 0x32
+	BEQ 1 s1 sC
+	ENUF 11 // unset completion flag if unit selected isn't Miko
+	GOTO 2
+	LABEL 1
+	TextBox(CombatTutorial)
+	LABEL 2
+	NoFade
 
 	STAL 30
 	
@@ -595,7 +810,6 @@ CUSE 0x23
 	STAL 60
 	DISA 0xB8
 
-	
 	
 	TEXTSTART
 	TextShow MoriExplains
@@ -670,16 +884,9 @@ SetUnitStatus(0xB7,State,0)
 	NormalDamage(0x23,80)
 	EndAttack
 	FIGHT_MAP 0x23 0xBB Ricky False
-	
-	
 	MOVE 20 0x23 [9,9]
 	CAM1 [9,9]
-	
-	
-	
-	
-	
-	
+
 	
 	
 	Refer to the bottom Text for code 
@@ -715,15 +922,6 @@ So much work for this stupid thing...[A][ToggleMouthMove][BoxType][0x1]
 [BoxHeight][0x1][BoxType][0x2]AMELIA![A][BoxType][0x1][BoxHeight][0x2]
 [FarLeft]
 [OpenEyes][OpenFarLeft][MoveFarLeft][BoxType][0x2][BoxHeight][0x1]GAH![A][BoxHeight][0x2][BoxType][0x1][X]
-
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	*/ 
 	

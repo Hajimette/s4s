@@ -35,47 +35,53 @@ FILL 256
 #define EndLockArray 0
 
 
-AmeliaArray:
+AmeliaLock:
 BYTE HardCharLock
 BYTE Amelia
 BYTE EndLockArray
 
 
-ReineArray:
+ReineLock:
 BYTE HardCharLock
 BYTE Reine
 BYTE EndLockArray
 
 
-MumeiArray:
+MumeiLock:
 BYTE HardCharLock
 BYTE Mumei
 BYTE EndLockArray
 
 
-FaunaArray:
+FaunaLock:
 BYTE HardCharLock
 BYTE Fauna
 BYTE EndLockArray
 
-MikoArray:
+MikoLock:
 BYTE HardCharLock
 BYTE Miko
 BYTE EndLockArray
 
-NoelArray:
+NoelLock:
 BYTE HardCharLock
 BYTE Noel
 BYTE EndLockArray
 
-BaeArray:
+BaeLock:
 BYTE HardCharLock
 BYTE Baelz
 BYTE EndLockArray
 
-RBCArray:
+RBCLock:
 BYTE HardCharLock
 BYTE Roboco
+BYTE EndLockArray
+
+BotanLock:
+BYTE HardCharLock
+BYTE Botan
+BYTE 0x49
 BYTE EndLockArray
 
 #endif // ADV_WEAPON_LOCKS
