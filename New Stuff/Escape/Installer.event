@@ -59,7 +59,10 @@ SetRequiredEscapeesList(Prologue,PrologueEscapeeList)
 ALIGN 4
 Chapter1EscapeeList:
 RequiredEscapee(0x1)
-RequiredEscapee(0x2)
+RequiredEscapee(0x14)
+RequiredEscapee(0x32)
+RequiredEscapee(0x34)
+RequiredEscapee(0x35)
 RequiredEscapeeTerm
 
 SetRequiredEscapeesList(Chapter1,Chapter1EscapeeList)
@@ -82,52 +85,58 @@ CharEscapeQuoteTerm
 ALIGN 4
 BotanFinalEscapeQuoteList:
 CharEscapeQuote(Prologue, BotanPrologueFinalEscapeText)
+CharEscapeQuote(Chapter1, BotanChp1FinalEscapeText)
 CharEscapeQuoteTerm
 
 ALIGN 4
 BotanEscapeQuoteList:
 CharEscapeQuote(Prologue, BotanPrologueEscapeText)
+CharEscapeQuote(Chapter1, BotanChp1EscapeText)
 CharEscapeQuoteTerm
 
 ALIGN 4
 ZetaEscapeQuoteList:
 CharEscapeQuote(Prologue, ZetaPrologueEscapeText)
+CharEscapeQuote(Chapter1, ZetaChp1EscapeText)
 CharEscapeQuoteTerm
 
 ALIGN 4
 ZetaFinalEscapeQuoteList:
 CharEscapeQuote(Prologue, ZetaFinalPrologueEscapeText)
+CharEscapeQuote(Chapter1, ZetaFinalChp1EscapeText)
 CharEscapeQuoteTerm
 
 ALIGN 4
 RisuEscapeQuoteList:
 CharEscapeQuote(Prologue, RisuPrologueEscapeText)
+CharEscapeQuote(Chapter1, RisuChp1EscapeText)
 CharEscapeQuoteTerm
 
 ALIGN 4
 RobocoEscapeQuoteList:
 CharEscapeQuote(Prologue, RBCPrologueEscapeText)
+CharEscapeQuote(Chapter1, RBCChp1EscapeText)
 CharEscapeQuoteTerm
 
 
 ALIGN 4
-ReineEscapeQuoteList:
-CharEscapeQuote(Chapter1, ReineChapter1EscapeQuoteText)
+IrohaEscapeQuoteList:
+CharEscapeQuote(Chapter1, IrohaChapter1EscapeQuoteText)
 CharEscapeQuoteTerm
 
 ALIGN 4
-ReineFinalEscapeQuoteList:
-CharEscapeQuote(Chapter1, ReineFinalEscapeQuoteText)
+IrohaFinalEscapeQuoteList:
+CharEscapeQuote(Chapter1, IrohaFinalEscapeQuoteText)
 CharEscapeQuoteTerm
 
 ALIGN 4
-MumeiEscapeQuoteList:
-CharEscapeQuote(Chapter1, MumeiChapter1EscapeQuoteText)
+KoyoriEscapeQuoteList:
+CharEscapeQuote(Chapter1, KoyoriChapter1EscapeQuoteText)
 CharEscapeQuoteTerm
 
 ALIGN 4
-FaunaEscapeQuoteList:
-CharEscapeQuote(Chapter1, FaunaChapter1EscapeQuoteText)
+KoyoriFinalEscapeQuoteList:
+CharEscapeQuote(Chapter1, KoyoriFinalEscapeQuoteText)
 CharEscapeQuoteTerm
 
 
@@ -138,20 +147,20 @@ SetRequiredCharFinalEscapeQuoteList(Amelia, AmeliaFinalEscapeQuoteList)
 SetRequiredCharFinalEscapeQuoteList(0x14, BotanFinalEscapeQuoteList)
 SetRequiredCharFinalEscapeQuoteList(0x32, ZetaFinalEscapeQuoteList)
 
-SetRequiredCharFinalEscapeQuoteList(0x2, ReineFinalEscapeQuoteList)
-
+SetRequiredCharFinalEscapeQuoteList(0x34, IrohaFinalEscapeQuoteList)
+SetRequiredCharFinalEscapeQuoteList(0x35, KoyoriFinalEscapeQuoteList)
 
 
 
 SetCharEscapeQuoteList(Amelia,AmeliaEscapeQuoteList)
 SetCharEscapeQuoteList(0x14,BotanEscapeQuoteList)
 SetCharEscapeQuoteList(0x32,ZetaEscapeQuoteList)
-SetCharEscapeQuoteList(0x10,RisuEscapeQuoteList)
-SetCharEscapeQuoteList(0x11,RobocoEscapeQuoteList)
+SetCharEscapeQuoteList(0x11,RisuEscapeQuoteList)
+SetCharEscapeQuoteList(0x10,RobocoEscapeQuoteList)
 
-SetCharEscapeQuoteList(0x2, ReineEscapeQuoteList)
-SetCharEscapeQuoteList(Mumei, MumeiEscapeQuoteList)
-SetCharEscapeQuoteList(Fauna, FaunaEscapeQuoteList)
+SetCharEscapeQuoteList(0x34, IrohaEscapeQuoteList)
+SetCharEscapeQuoteList(0x35, KoyoriEscapeQuoteList)
+
 
 
 ////////

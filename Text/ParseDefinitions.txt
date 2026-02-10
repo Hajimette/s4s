@@ -117,15 +117,21 @@
 [LoadGalzus] = [LoadFace][0xB9][0x1]
 [LoadKroniiPlayerP] = [LoadFace][0xB5][0x1]
 [LoadKroniiBeat] = [LoadFace][0xDC][0x1]
+[LoadHaatoNormal] = [LoadFace][0x4E][0x1]
+[LoadHaatoFaded] = [LoadFace][0x47][0x1]
+[LoadHaatoInjured] = [LoadFace][0x50][0x1]
+
 
 [LoadNousagi] = [LoadFace][0xFE][0x1]
 [LoadBrig] = [LoadFace][0x4D][0x1]
 [LoadCalliope] = [LoadFace][0x46][0x1]
 [LoadEVILCalliope] = [LoadFace][0x2E][0x1]
 [LoadMan] = [LoadFace][0x5A][0x1]
+[LoadBlondKid] = [LoadFace][0x5E][0x1]
+[LoadBlackHairGirl] = [LoadFace][0x62][0x1]
 [LoadOldLady] = [LoadFace][0x5f][0x1]
 [LoadEmilia] = [LoadFace][0xFD][0x1]
-
+[LoadNoir] = [LoadFace][0xFC][0x1]
 
 [period] = [0xDE][0x82]
 [dquote] = [0xDE][0x83]

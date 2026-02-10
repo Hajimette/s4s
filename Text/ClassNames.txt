@@ -329,7 +329,7 @@ power. [X]
 Scientist[X]
 
 ## ScientistDesc
-Koyori Hakui, a clumsy[N] 
+Koyori Hakui, a clumsy[N]
 scientist who knows all magic.[X]
 
 ## NephilimName
@@ -537,3 +537,45 @@ Ballista [X]
 ## BallDesc
 Large siege weapon with[N]
 superior range and damage.[X]
+
+## VanguardName
+Vanguard[X]
+
+## VanguardDesc
+Powerful weapon smiths who've[N]
+mastered powerful strikes.[X]
+
+## RoninName
+Ronin[X]
+
+## RoninDesc
+Wandering sword users looking[N]
+for a worthy opponent.[X]
+
+## KenseiName
+Kensei[X]
+
+## KenseiDesc
+Unparalled swordfighters with[N]
+swift killing blows.[X]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

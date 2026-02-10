@@ -16,6 +16,12 @@ ORG 0xC57E4
 POIN ForegroundImage
 POP
 
+PUSH
+ORG 0xAADBA8
+#incbin "HoloEmblemLogo.png.pal.dmp"
+POP
+
+
 
 PUSH
 ORG 0xC57F4

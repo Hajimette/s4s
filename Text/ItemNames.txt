@@ -1269,3 +1269,17 @@ Brave. Auto Refresh.[X]
 
 ## CombatStimText
 Self Prescribed.[X]
+
+## VialName
+Vial[X]
+
+## VialDesc
+Creates a random utility[N]
+item thrice per map on use.[X]
+
+## VialUseDesc
+Whatever the hell this[N]
+is better be useful.[X]
+
+## KoyoriCommand
+Synthesis[X]

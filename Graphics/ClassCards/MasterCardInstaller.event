@@ -40,6 +40,8 @@
 #define FhamanClassCard 0xCC
 #define VanguardClassCard 0xCD //Unaligned
 #define FageNormalClassCard 0xCF
+#define FercenaryClassCard 0x71
+
 
 
 ALIGN 4
@@ -310,6 +312,15 @@ FageNormalClassCardData:
 FageNormalClassCardPal:
 #incbin "Dmp/Sage (F) Levin64's Sage Style {L95, HyperGammaSpaces, UltraFenix}.png_pal.dmp"
 setCardEntry(FageNormalClassCard, FageNormalClassCardData, FageNormalClassCardPal)
+
+
+ALIGN 4
+FercenaryClassCardData:
+#incbin "Dmp/Mercenary (F) Sword {Uncredited}.dmp"
+FercenaryClassCardPal:
+#incbin "Dmp/Mercenary (F) Sword {Uncredited}.png_pal.dmp"
+setCardEntry(FercenaryClassCard,FercenaryClassCardData,FercenaryClassCardPal)
+
 
 /*
 ALIGN 4

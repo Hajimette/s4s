@@ -84,4 +84,14 @@ BYTE Botan
 BYTE 0x49
 BYTE EndLockArray
 
+IrohaLock:
+BYTE HardCharLock
+BYTE 0x34
+BYTE EndLockArray
+
+KoyoriLock:
+BYTE HardCharLock
+BYTE 0x35
+BYTE EndLockArray
+
 #endif // ADV_WEAPON_LOCKS

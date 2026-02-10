@@ -1,0 +1,330 @@
+//Generated - do not edit!
+//Copy paste the /* */ section into your definitions if desired.
+ 
+ 
+ 
+/* 
+//First free icon past vanilla is 222 / 0xDE 
+ 
+#define AncientOneIcon 222 
+#define CombatStimIcon 223 
+#define doogstoneIcon 224 
+#define DragonstoneminusIcon 225 
+#define FingerIcon 226 
+#define HoloEmblemIcon 227 
+#define HowitzerIcon 228 
+#define KanaboIcon 229 
+#define Katana3Icon 230 
+#define LeadershipIcon 231 
+#define MaceIcon 232 
+#define MTGIcon 233 
+#define PokoWandIcon 234 
+#define RedebutIcon 235 
+#define RifleIcon 236 
+#define RockIcon 237 
+#define SeisodaIcon 238 
+#define StarIcon 239 
+#define ThornIcon 240 
+#define TusksIcon 241 
+#define VialIcon 242 
+#define {2WB} (Icon Blitz 1) ElixirIcon 243 
+#define {2WB} (Icon Blitz 1) Silver Blade2Icon 244 
+#define {2WB} (Icon Blitz 1) ZanbatouIcon 245 
+#define {2WB} (Vanilla + Blitz) AntitoxinIcon 246 
+#define {2WB} (Vanilla + Blitz) Black GemIcon 247 
+#define {2WB} (Vanilla + Blitz) Blue GemIcon 248 
+#define {2WB} (Vanilla + Blitz) Body RingIcon 249 
+#define {2WB} (Vanilla + Blitz) BootsIcon 250 
+#define {2WB} (Vanilla + Blitz) Crimson EyeIcon 251 
+#define {2WB} (Vanilla + Blitz) Dark BreathIcon 252 
+#define {2WB} (Vanilla + Blitz) Demon LightIcon 253 
+#define {2WB} (Vanilla + Blitz) DragonstoneIcon 254 
+#define {2WB} (Vanilla + Blitz) Evil EyeIcon 255 
+#define {2WB} (Vanilla + Blitz) Fetid ClawIcon 256 
+#define {2WB} (Vanilla + Blitz) Fiery FangIcon 257 
+#define {2WB} (Vanilla + Blitz) HellfangIcon 258 
+#define {2WB} (Vanilla + Blitz) LockpickIcon 259 
+#define {2WB} (Vanilla + Blitz) MineIcon 260 
+#define {2WB} (Vanilla + Blitz) Poison ClawIcon 261 
+#define {2WB} (Vanilla + Blitz) RavagerIcon 262 
+#define {2WB} (Vanilla + Blitz) Red GemIcon 263 
+#define {2WB} (Vanilla + Blitz) Rotten ClawIcon 264 
+#define {2WB} (Vanilla + Blitz) Sharp ClawIcon 265 
+#define {2WB} (Vanilla + Blitz) Sharp TalonIcon 266 
+#define {2WB} (Vanilla + Blitz) StoneIcon 267 
+#define {2WB} (Vanilla + Blitz) White GemIcon 268 
+#define {Artist Unknown} Bow 1Icon 269 
+#define {Artist Unknown} Light Magic (3)Icon 270 
+#define {Artist Unknown} Staff 2Icon 271 
+#define {AtelierLabs} scythe 1Icon 272 
+#define {Batima} ArcblizzardIcon 273 
+#define {Batima} ArmadsIcon 274 
+#define {Batima} Brave Axe (FE4)Icon 275 
+#define {Batima} Dark SpikesIcon 276 
+#define {Batima} Earth Sword(FE5)Icon 277 
+#define {Batima} GradivusIcon 278 
+#define {Batima} Light Brand(FE5)Icon 279 
+#define {Batima} MercuriusIcon 280 
+#define {Batima} ParthiaIcon 281 
+#define {Batima} Seraph RobeIcon 282 
+#define {Batima} YewfelleIcon 283 
+#define {Beansy} (Vanilla) Ring GreenIcon 284 
+#define {Beansy} (Vanilla) Ring RedIcon 285 
+#define {Beansy} ArectarisIcon 286 
+#define {Beansy} CoffeeIcon 287 
+#define {Beansy} Cursed OrbIcon 288 
+#define {Beansy} Fire LanceIcon 289 
+#define {Beansy} Gilded ClawIcon 290 
+#define {Beansy} Hatchet [F2E]Icon 291 
+#define {Beansy} Rabbit's FootIcon 292 
+#define {Beansy} Ring BlackIcon 293 
+#define {Beansy} Ring BlueIcon 294 
+#define {Beansy} Ring WhiteIcon 295 
+#define {Beansy} SpeedwingIcon 296 
+#define {Beansy} StarlightIcon 297 
+#define {Beansy} Steel ScytheIcon 298 
+#define {Beansy} Tomahawk [F2E]Icon 299 
+#define {Beansy} Zanbato [F2E]Icon 300 
+#define {CamTech075} (Pack 2) icon 003Icon 301 
+#define {Cardcafe} (FE15) Item 44Icon 302 
+#define {Cardcafe} Item 1Icon 303 
+#define {Cardcafe} Item 3Icon 304 
+#define {Celice} Item 22Icon 305 
+#define {Celice} Item 45Icon 306 
+#define {Celice} [Divine]Icon 307 
+#define {Celice} [Hammer]Icon 308 
+#define {Celice} [Lancereaver]Icon 309 
+#define {Celice} [Wing Clipper]Icon 310 
+#define {EldritchA, Indogutsu Tenbuki} (Tactics Ogre) Bow 11Icon 311 
+#define {EldritchA} Heaven Seal (Dark)Icon 312 
+#define {Ereshkigal} Axe 23Icon 313 
+#define {Ereshkigal} Blade 26Icon 314 
+#define {Ereshkigal} Dragon Sword [Wyrmslayer]Icon 315 
+#define {Ereshkigal} Katana 10Icon 316 
+#define {Ereshkigal} Katana 3Icon 317 
+#define {Ereshkigal} Katana 6Icon 318 
+#define {Ereshkigal} Staff 6Icon 319 
+#define {Gabrielknight} Light CrossbowIcon 320 
+#define {Leif} Dark 7Icon 321 
+#define {Leif} Fire 5Icon 322 
+#define {Lisandra Brave} (FE5 Recolor) 135 8x8Icon 323 
+#define {Lisandra Brave} (FE5 Recolor) 136 8x8Icon 324 
+#define {Lisandra Brave} (FE5 Recolor) 140 8x8Icon 325 
+#define {Lisandra Brave} (FE5 Recolor) 141 8x8Icon 326 
+#define {Lisandra Brave} (FE5 Recolor) 142 8x8Icon 327 
+#define {Lisandra Brave} (FE5 Recolor) 72 8x8Icon 328 
+#define {Lisandra Brave} (FE5 Recolor) 86 8x8Icon 329 
+#define {Lisandra Brave} (FE5 Recolor) ArmorslayerIcon 330 
+#define {Lisandra Brave} (FE5 Recolor) AuraIcon 331 
+#define {Lisandra Brave} (FE5 Recolor) BallistaIcon 332 
+#define {Lisandra Brave} (FE5 Recolor) BerserkIcon 333 
+#define {Lisandra Brave} (FE5 Recolor) BoltingIcon 334 
+#define {Lisandra Brave} (FE5 Recolor) Brave BowIcon 335 
+#define {Lisandra Brave} (FE5 Recolor) Brave LanceIcon 336 
+#define {Lisandra Brave} (FE5 Recolor) Brave SwordIcon 337 
+#define {Lisandra Brave} (FE5 Recolor) Darkness LanceIcon 338 
+#define {Lisandra Brave} (FE5 Recolor) Devil AxeIcon 339 
+#define {Lisandra Brave} (FE5 Recolor) Dire ThunderIcon 340 
+#define {Lisandra Brave} (FE5 Recolor) ElfireIcon 341 
+#define {Lisandra Brave} (FE5 Recolor) FenrirIcon 342 
+#define {Lisandra Brave} (FE5 Recolor) FireIcon 343 
+#define {Lisandra Brave} (FE5 Recolor) ForsetiIcon 344 
+#define {Lisandra Brave} (FE5 Recolor) FortifyIcon 345 
+#define {Lisandra Brave} (FE5 Recolor) GrafcaliburIcon 346 
+#define {Lisandra Brave} (FE5 Recolor) Hand AxeIcon 347 
+#define {Lisandra Brave} (FE5 Recolor) HealIcon 348 
+#define {Lisandra Brave} (FE5 Recolor) HelIcon 349 
+#define {Lisandra Brave} (FE5 Recolor) Iron AxeIcon 350 
+#define {Lisandra Brave} (FE5 Recolor) Iron BallistaIcon 351 
+#define {Lisandra Brave} (FE5 Recolor) Iron BowIcon 352 
+#define {Lisandra Brave} (FE5 Recolor) Iron LanceIcon 353 
+#define {Lisandra Brave} (FE5 Recolor) Iron SwordIcon 354 
+#define {Lisandra Brave} (FE5 Recolor) JavelinIcon 355 
+#define {Lisandra Brave} (FE5 Recolor) JormungandrIcon 356 
+#define {Lisandra Brave} (FE5 Recolor) Kia StaffIcon 357 
+#define {Lisandra Brave} (FE5 Recolor) Killer AxeIcon 358 
+#define {Lisandra Brave} (FE5 Recolor) Killer BallistaIcon 359 
+#define {Lisandra Brave} (FE5 Recolor) Killer BowIcon 360 
+#define {Lisandra Brave} (FE5 Recolor) Killer LanceIcon 361 
+#define {Lisandra Brave} (FE5 Recolor) Killing EdgeIcon 362 
+#define {Lisandra Brave} (FE5 Recolor) Knight KillerIcon 363 
+#define {Lisandra Brave} (FE5 Recolor) LightningIcon 364 
+#define {Lisandra Brave} (FE5 Recolor) Long BowIcon 365 
+#define {Lisandra Brave} (FE5 Recolor) LoptousIcon 366 
+#define {Lisandra Brave} (FE5 Recolor) M UpIcon 367 
+#define {Lisandra Brave} (FE5 Recolor) MeisteraxtIcon 368 
+#define {Lisandra Brave} (FE5 Recolor) MeisterbogenIcon 369 
+#define {Lisandra Brave} (FE5 Recolor) MeisterlanzeIcon 370 
+#define {Lisandra Brave} (FE5 Recolor) MeisterschwertIcon 371 
+#define {Lisandra Brave} (FE5 Recolor) MendIcon 372 
+#define {Lisandra Brave} (FE5 Recolor) Mj”lnirIcon 373 
+#define {Lisandra Brave} (FE5 Recolor) NosferatuIcon 374 
+#define {Lisandra Brave} (FE5 Recolor) Paragon SwordIcon 375 
+#define {Lisandra Brave} (FE5 Recolor) PhysicIcon 376 
+#define {Lisandra Brave} (FE5 Recolor) RapierIcon 377 
+#define {Lisandra Brave} (FE5 Recolor) RecoverIcon 378 
+#define {Lisandra Brave} (FE5 Recolor) RepairIcon 379 
+#define {Lisandra Brave} (FE5 Recolor) RescueIcon 380 
+#define {Lisandra Brave} (FE5 Recolor) RestoreIcon 381 
+#define {Lisandra Brave} (FE5 Recolor) ReturnIcon 382 
+#define {Lisandra Brave} (FE5 Recolor) RewarpIcon 383 
+#define {Lisandra Brave} (FE5 Recolor) SilenceIcon 384 
+#define {Lisandra Brave} (FE5 Recolor) Silver AxeIcon 385 
+#define {Lisandra Brave} (FE5 Recolor) Silver BowIcon 386 
+#define {Lisandra Brave} (FE5 Recolor) Silver LanceIcon 387 
+#define {Lisandra Brave} (FE5 Recolor) Silver SwordIcon 388 
+#define {Lisandra Brave} (FE5 Recolor) Sleep SwordIcon 389 
+#define {Lisandra Brave} (FE5 Recolor) SleepIcon 390 
+#define {Lisandra Brave} (FE5 Recolor) Slim LanceIcon 391 
+#define {Lisandra Brave} (FE5 Recolor) Slim SwordIcon 392 
+#define {Lisandra Brave} (FE5 Recolor) Steel AxeIcon 393 
+#define {Lisandra Brave} (FE5 Recolor) Steel BowIcon 394 
+#define {Lisandra Brave} (FE5 Recolor) Steel LanceIcon 395 
+#define {Lisandra Brave} (FE5 Recolor) Steel SwordIcon 396 
+#define {Lisandra Brave} (FE5 Recolor) ThiefIcon 397 
+#define {Lisandra Brave} (FE5 Recolor) ThoronIcon 398 
+#define {Lisandra Brave} (FE5 Recolor) ThunderIcon 399 
+#define {Lisandra Brave} (FE5 Recolor) TorchIcon 400 
+#define {Lisandra Brave} (FE5 Recolor) TornadoIcon 401 
+#define {Lisandra Brave} (FE5 Recolor) UnlockIcon 402 
+#define {Lisandra Brave} (FE5 Recolor) ValflameIcon 403 
+#define {Lisandra Brave} (FE5 Recolor) WarpIcon 404 
+#define {Lisandra Brave} (FE5 Recolor) Wind SwordIcon 405 
+#define {Lisandra Brave} (FE5 Recolor) WindIcon 406 
+#define {Lisandra Brave} Tome icon 006Icon 407 
+#define {LordGlenn} (ArchaneaIconProject) tile010Icon 408 
+#define {LordGlenn} (ArchaneaIconProject) tile063Icon 409 
+#define {LordGlenn} (ArchaneaIconProject) tile066Icon 410 
+#define {LordGlenn} Dark 8Icon 411 
+#define {LordGlenn} Lance 30Icon 412 
+#define {LordGlenn} Sword 53Icon 413 
+#define {LordGlenn} [Shine]Icon 414 
+#define {Maxim} Accessory 5Icon 415 
+#define {Maxim} PillIcon 416 
+#define {MeatOfJustice} Scythe 1Icon 417 
+#define {Mike} SickleIcon 418 
+#define {Mike} Syringe IIcon 419 
+#define {Peerless} (FE9) WishbladeIcon 420 
+#define {Ryan914} Gun IIIIcon 421 
+#define {Seal} (SacredWar) AxereaverIcon 422 
+#define {Seal} (SacredWar) Item 26Icon 423 
+#define {Seal} (SacredWar) Item 30Icon 424 
+#define {Seal} (SacredWar) Item 35Icon 425 
+#define {Seal} (SacredWar) Item 36Icon 426 
+#define {Seal} (SacredWar) Light 5Icon 427 
+#define {Seal} (SacredWar) Secret BookIcon 428 
+#define {Seal} (SacredWar) Staff 8Icon 429 
+#define {Seal} (SacredWar) Storm SpearIcon 430 
+#define {Seal} (SacredWar) Sword 19Icon 431 
+#define {Seal} (SacredWar) Tome 4Icon 432 
+#define {SmithyGCN, Zarg} (Soul Blazer) Item 47Icon 433 
+#define {SmithyGCN, Zarg} (Soul Blazer) Item 48Icon 434 
+#define {SmithyGCN, Zarg} (Soul Blazer) Item 52Icon 435 
+#define {SMITHYGCN} Potion IIIIcon 436 
+#define {Snakey1} icon 001Icon 437 
+#define {SN_Ivan} BalberithIcon 438 
+#define {The Big Dededester} Demon Regal BladeIcon 439 
+#define {Thunder Mage} Anima 39Icon 440 
+#define {Topazlight} Volant AxeIcon 441 
+#define {Windsweep} DrillIcon 442 
+#define {Windsweep} Lifetaker BraceIcon 443 
+#define {XVI} Sword ReaverIcon 444 
+#define {Zane} (Icon Blitz 1) Lance 6Icon 445 
+#define {Zane} Axe 25 [F2E]Icon 446 
+#define {Zarg} Bow 9Icon 447 
+#define {Zarg} Dark 8Icon 448 
+#define {Zarg} Staff 9Icon 449 
+#define {Zarg} Sword 29Icon 450 
+#define {Zelix} icon 031Icon 451 
+#define {Zelix} icon 075Icon 452 
+#define {Zelix} icon 180Icon 453 
+#define {Zelix} ReaverLanceIcon 454 
+*/ 
+ 
+ 
+ 
+ 
+//Image Data 
+ 
+PUSH 
+ 
+ItemIconEntry(AncientOneIcon) 
+#incbin "dmp/AncientOne.dmp" 
+ 
+ItemIconEntry(CombatStimIcon) 
+#incbin "dmp/CombatStim.dmp" 
+ 
+ItemIconEntry(doogstoneIcon) 
+#incbin "dmp/doogstone.dmp" 
+ 
+ItemIconEntry(DragonstoneminusIcon) 
+#incbin "dmp/Dragonstoneminus.dmp" 
+ 
+ItemIconEntry(FingerIcon) 
+#incbin "dmp/Finger.dmp" 
+ 
+ItemIconEntry(HoloEmblemIcon) 
+#incbin "dmp/HoloEmblem.dmp" 
+ 
+ItemIconEntry(HowitzerIcon) 
+#incbin "dmp/Howitzer.dmp" 
+ 
+ItemIconEntry(KanaboIcon) 
+#incbin "dmp/Kanabo.dmp" 
+ 
+ItemIconEntry(Katana3Icon) 
+#incbin "dmp/Katana3.dmp" 
+ 
+ItemIconEntry(LeadershipIcon) 
+#incbin "dmp/Leadership.dmp" 
+ 
+ItemIconEntry(MaceIcon) 
+#incbin "dmp/Mace.dmp" 
+ 
+ItemIconEntry(MTGIcon) 
+#incbin "dmp/MTG.dmp" 
+ 
+ItemIconEntry(PokoWandIcon) 
+#incbin "dmp/PokoWand.dmp" 
+ 
+ItemIconEntry(RedebutIcon) 
+#incbin "dmp/Redebut.dmp" 
+ 
+ItemIconEntry(RifleIcon) 
+#incbin "dmp/Rifle.dmp" 
+ 
+ItemIconEntry(RockIcon) 
+#incbin "dmp/Rock.dmp" 
+ 
+ItemIconEntry(SeisodaIcon) 
+#incbin "dmp/Seisoda.dmp" 
+ 
+ItemIconEntry(StarIcon) 
+#incbin "dmp/Star.dmp" 
+ 
+ItemIconEntry(ThornIcon) 
+#incbin "dmp/Thorn.dmp" 
+ 
+ItemIconEntry(TusksIcon) 
+#incbin "dmp/Tusks.dmp" 
+ 
+ItemIconEntry(VialIcon) 
+#incbin "dmp/Vial.dmp" 
+ 
+ItemIconEntry({2WB} (Icon Blitz 1) ElixirIcon) 
+#incbin "dmp/{2WB} (Icon Blitz 1) Elixir.dmp" 
+ 
+ItemIconEntry({2WB} (Icon Blitz 1) Silver Blade2Icon) 
+#incbin "dmp/{2WB} (Icon Blitz 1) Silver Blade2.dmp" 
+ 
+ItemIconEntry({2WB} (Icon Blitz 1) ZanbatouIcon) 
+#incbin "dmp/{2WB} (Icon Blitz 1) Zanbatou.dmp" 
+ 
+ItemIconEntry({2WB} (Vanilla + Blitz) AntitoxinIcon) 
+#incbin "dmp/{2WB} (Vanilla + Blitz) Antitoxin.dmp" 
+ 
+ItemIconEntry({2WB} (Vanilla + Blitz) Black GemIcon) 
+#incbin "dmp/{2WB} (Vanilla + Blitz) Black Gem.dmp" 
+ 
+ItemIconEntry({2WB} (Vanilla + Blitz) Blue GemIcon) 
+#incbin "dmp/{2WB} (Vanilla + Blitz) Blue Gem.dmp" 

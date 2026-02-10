@@ -11,7 +11,7 @@ BossBGMTable:
 //Prologue
 BossBGMEntry(Entombed_boss, FE5BossBattleID)
 //Chp1
-BossBGMEntry(0x49, FE5BossBattleID)
+BossBGMEntry(0x46, FE5BossBattleID)
 //Chp2
 BossBGMEntry(0x4A, FE5BossBattleID)
 //Chp3

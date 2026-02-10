@@ -16,13 +16,13 @@
 #define BaeLocked 0x07000000
 #define RBCLocked 0x08000000
 #define BotanLocked 0x09000000
-
+#define IrohaLocked 0x0a000000
+#define KoyoriLocked  0x0b000000
 
 
 
 /*
-#define ButchLocked 0x0a000000
-#define RachaelLocked 0x0b000000
+
 #define CassiusLocked 0x0c000000
 #define JeffLocked 0x0d000000
 #define EmileLocked 0x0e000000

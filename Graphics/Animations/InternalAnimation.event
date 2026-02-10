@@ -706,6 +706,14 @@ POP
 {
 #include "BattleAnims/Bae/Magic Installer.event"
 }
+{
+#include "BattleAnims/Ronin/Sword Installer.event"
+#include "BattleAnims/Ronin/Unarmed Installer.event"
+}
+{
+#include "BattleAnims/Kensei/IrohaT3Sword Installer.event"
+#include "BattleAnims/Kensei/Unarmed Installer.event"
+}
 
 
 ALIGN 4
@@ -1021,8 +1029,8 @@ WORD 0x0
 
 ALIGN 4
 FSwordmasterAnim:
-SwordAnim(0x13)
-UnarmedAnim(0x14)
+SwordAnim(0x17)
+UnarmedAnim(0x18)
 WORD 0x0
 
 ALIGN 4
@@ -1520,4 +1528,29 @@ DarkAnim(0x99)
 LightAnim(0x99)
 UnarmedAnim(0x99)
 WORD 0x0
+
+ALIGN 4
+RoninAnim:
+SwordAnim(0x16C)
+UnarmedAnim(0x16D)
+WORD 0x0
+
+ALIGN 4
+KenseiAnim:
+SwordAnim(0x16E)
+UnarmedAnim(0x16F)
+WORD 0x0
+
+
+
+
+
+
+
+
+
+
+
+
+
 

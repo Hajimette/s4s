@@ -71,8 +71,13 @@
 #define RatPortrait 0x9
 #define CalliopePortrait 0x46
 #define CalliopeInfluencePortrait 0x2E
-
-
+#define LamyPortrait 0x22
+#define FBKPortrait 0x4B
+#define WatamePortrait 0xF
+#define NormalHaatoPortrait 0x4E
+#define IrysPortrait 0x43
+#define YabairysPortrait 0xFB
+#define InjuredHaatoPortrait 0x50
 
 
 
@@ -81,6 +86,7 @@
 #define EmiliaPortrait 0xFD
 #define NousagiReg 0xFE
 #define Smirnoff 0xFF
+#define NoirPortrait 0xFC
 
 
 
@@ -728,6 +734,76 @@ AngyOnionData:
 #incbin "Dmps/AngyOnion_palette.dmp"
 #incbin "Dmps/AngyOnion_minimug.dmp"
 setMugEntry(AquaAngyPortrait, AngyOnionData, 3, 6, 3, 4)
+
+ALIGN 4
+NoirData:
+#incbin "Dmps/Noir_mug.dmp"
+#incbin "Dmps/Noir_frames.dmp"
+#incbin "Dmps/Noir_palette.dmp"
+#incbin "Dmps/Noir_minimug.dmp"
+setMugEntry(NoirPortrait, NoirData, 2, 5, 3, 2)
+
+ALIGN 4
+LamyData:
+#incbin "Dmps/LamyBasilica_mug.dmp"
+#incbin "Dmps/LamyBasilica_frames.dmp"
+#incbin "Dmps/LamyBasilica_palette.dmp"
+#incbin "Dmps/LamyBasilica_minimug.dmp"
+setMugEntryExtend(LamyPortrait, LamyData, 3, 5, 3, 3, 4, 254, 0, 0)
+
+ALIGN 4
+FBKData:
+#incbin "Dmps/Shirakami_mug.dmp"
+#incbin "Dmps/Shirakami_frames.dmp"
+#incbin "Dmps/Shirakami_palette.dmp"
+#incbin "Dmps/Shirakami_minimug.dmp"
+setMugEntry(FBKPortrait, FBKData, 2, 6, 3, 4)
+
+ALIGN 4
+WatameData:
+#incbin "Dmps/Watame_mug.dmp"
+#incbin "Dmps/Watame_frames.dmp"
+#incbin "Dmps/Watame_palette.dmp"
+#incbin "Dmps/Watame_minimug.dmp"
+setMugEntry(WatamePortrait, WatameData, 3, 6, 3, 4)
+
+ALIGN 4
+NormalHaatoData:
+#incbin "Dmps/NormalHaato_mug.dmp"
+#incbin "Dmps/NormalHaato_frames.dmp"
+#incbin "Dmps/NormalHaato_palette.dmp"
+#incbin "Dmps/NormalHaato_minimug.dmp"
+setMugEntry(NormalHaatoPortrait, NormalHaatoData, 3, 7, 3, 5)
+
+
+ALIGN 4
+IrysData:
+#incbin "Dmps/irys_mug.dmp"
+#incbin "Dmps/irys_frames.dmp"
+#incbin "Dmps/irys_palette.dmp"
+#incbin "Dmps/irys_minimug.dmp"
+setMugEntry(IrysPortrait, IrysData, 3, 6, 3, 4)
+
+
+
+ALIGN 4
+YabairysData:
+#incbin "Dmps/yabairys_mug.dmp"
+#incbin "Dmps/yabairys_frames.dmp"
+#incbin "Dmps/yabairys_palette.dmp"
+#incbin "Dmps/yabairys_minimug.dmp"
+setMugEntry(YabairysPortrait, YabairysData, 3, 6, 3, 4)
+
+
+ALIGN 4
+InjuredHaatoData:
+#incbin "Dmps/InjuredHaato_mug.dmp"
+#incbin "Dmps/InjuredHaato_frames.dmp"
+#incbin "Dmps/InjuredHaato_palette.dmp"
+#incbin "Dmps/InjuredHaato_minimug.dmp"
+setMugEntry(InjuredHaatoPortrait, InjuredHaatoData, 3, 7, 3, 5)
+
+
 
 /*
 ALIGN 4

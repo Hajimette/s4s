@@ -1,0 +1,233 @@
+AncientOne.png
+CombatStim.png
+doogstone.png
+Dragonstoneminus.png
+Finger.png
+HoloEmblem.png
+Howitzer.png
+Kanabo.png
+Katana3.png
+Leadership.png
+Mace.png
+MTG.png
+PokoWand.png
+Redebut.png
+Rifle.png
+Rock.png
+Seisoda.png
+Star.png
+Thorn.png
+Tusks.png
+Vial.png
+{2WB} (Icon Blitz 1) Elixir.png
+{2WB} (Icon Blitz 1) Silver Blade2.png
+{2WB} (Icon Blitz 1) Zanbatou.png
+{2WB} (Vanilla + Blitz) Antitoxin.png
+{2WB} (Vanilla + Blitz) Black Gem.png
+{2WB} (Vanilla + Blitz) Blue Gem.png
+{2WB} (Vanilla + Blitz) Body Ring.png
+{2WB} (Vanilla + Blitz) Boots.png
+{2WB} (Vanilla + Blitz) Crimson Eye.png
+{2WB} (Vanilla + Blitz) Dark Breath.png
+{2WB} (Vanilla + Blitz) Demon Light.png
+{2WB} (Vanilla + Blitz) Dragonstone.png
+{2WB} (Vanilla + Blitz) Evil Eye.png
+{2WB} (Vanilla + Blitz) Fetid Claw.png
+{2WB} (Vanilla + Blitz) Fiery Fang.png
+{2WB} (Vanilla + Blitz) Hellfang.png
+{2WB} (Vanilla + Blitz) Lockpick.png
+{2WB} (Vanilla + Blitz) Mine.png
+{2WB} (Vanilla + Blitz) Poison Claw.png
+{2WB} (Vanilla + Blitz) Ravager.png
+{2WB} (Vanilla + Blitz) Red Gem.png
+{2WB} (Vanilla + Blitz) Rotten Claw.png
+{2WB} (Vanilla + Blitz) Sharp Claw.png
+{2WB} (Vanilla + Blitz) Sharp Talon.png
+{2WB} (Vanilla + Blitz) Stone.png
+{2WB} (Vanilla + Blitz) White Gem.png
+{Artist Unknown} Bow 1.png
+{Artist Unknown} Light Magic (3).png
+{Artist Unknown} Staff 2.png
+{AtelierLabs} scythe 1.png
+{Batima} Arcblizzard.png
+{Batima} Armads.png
+{Batima} Brave Axe (FE4).png
+{Batima} Dark Spikes.png
+{Batima} Earth Sword(FE5).png
+{Batima} Gradivus.png
+{Batima} Light Brand(FE5).png
+{Batima} Mercurius.png
+{Batima} Parthia.png
+{Batima} Seraph Robe.png
+{Batima} Yewfelle.png
+{Beansy} (Vanilla) Ring Green.png
+{Beansy} (Vanilla) Ring Red.png
+{Beansy} Arectaris.png
+{Beansy} Coffee.png
+{Beansy} Cursed Orb.png
+{Beansy} Fire Lance.png
+{Beansy} Gilded Claw.png
+{Beansy} Hatchet [F2E].png
+{Beansy} Rabbit's Foot.png
+{Beansy} Ring Black.png
+{Beansy} Ring Blue.png
+{Beansy} Ring White.png
+{Beansy} Speedwing.png
+{Beansy} Starlight.png
+{Beansy} Steel Scythe.png
+{Beansy} Tomahawk [F2E].png
+{Beansy} Zanbato [F2E].png
+{CamTech075} (Pack 2) icon 003.png
+{Cardcafe} (FE15) Item 44.png
+{Cardcafe} Item 1.png
+{Cardcafe} Item 3.png
+{Celice} Item 22.png
+{Celice} Item 45.png
+{Celice} [Divine].png
+{Celice} [Hammer].png
+{Celice} [Lancereaver].png
+{Celice} [Wing Clipper].png
+{EldritchA, Indogutsu Tenbuki} (Tactics Ogre) Bow 11.png
+{EldritchA} Heaven Seal (Dark).png
+{Ereshkigal} Axe 23.png
+{Ereshkigal} Blade 26.png
+{Ereshkigal} Dragon Sword [Wyrmslayer].png
+{Ereshkigal} Katana 10.png
+{Ereshkigal} Katana 3.png
+{Ereshkigal} Katana 6.png
+{Ereshkigal} Staff 6.png
+{Gabrielknight} Light Crossbow.png
+{Leif} Dark 7.png
+{Leif} Fire 5.png
+{Lisandra Brave} (FE5 Recolor) 135 8x8.png
+{Lisandra Brave} (FE5 Recolor) 136 8x8.png
+{Lisandra Brave} (FE5 Recolor) 140 8x8.png
+{Lisandra Brave} (FE5 Recolor) 141 8x8.png
+{Lisandra Brave} (FE5 Recolor) 142 8x8.png
+{Lisandra Brave} (FE5 Recolor) 72 8x8.png
+{Lisandra Brave} (FE5 Recolor) 86 8x8.png
+{Lisandra Brave} (FE5 Recolor) Armorslayer.png
+{Lisandra Brave} (FE5 Recolor) Aura.png
+{Lisandra Brave} (FE5 Recolor) Ballista.png
+{Lisandra Brave} (FE5 Recolor) Berserk.png
+{Lisandra Brave} (FE5 Recolor) Bolting.png
+{Lisandra Brave} (FE5 Recolor) Brave Bow.png
+{Lisandra Brave} (FE5 Recolor) Brave Lance.png
+{Lisandra Brave} (FE5 Recolor) Brave Sword.png
+{Lisandra Brave} (FE5 Recolor) Darkness Lance.png
+{Lisandra Brave} (FE5 Recolor) Devil Axe.png
+{Lisandra Brave} (FE5 Recolor) Dire Thunder.png
+{Lisandra Brave} (FE5 Recolor) Elfire.png
+{Lisandra Brave} (FE5 Recolor) Fenrir.png
+{Lisandra Brave} (FE5 Recolor) Fire.png
+{Lisandra Brave} (FE5 Recolor) Forseti.png
+{Lisandra Brave} (FE5 Recolor) Fortify.png
+{Lisandra Brave} (FE5 Recolor) Grafcalibur.png
+{Lisandra Brave} (FE5 Recolor) Hand Axe.png
+{Lisandra Brave} (FE5 Recolor) Heal.png
+{Lisandra Brave} (FE5 Recolor) Hel.png
+{Lisandra Brave} (FE5 Recolor) Iron Axe.png
+{Lisandra Brave} (FE5 Recolor) Iron Ballista.png
+{Lisandra Brave} (FE5 Recolor) Iron Bow.png
+{Lisandra Brave} (FE5 Recolor) Iron Lance.png
+{Lisandra Brave} (FE5 Recolor) Iron Sword.png
+{Lisandra Brave} (FE5 Recolor) Javelin.png
+{Lisandra Brave} (FE5 Recolor) Jormungandr.png
+{Lisandra Brave} (FE5 Recolor) Kia Staff.png
+{Lisandra Brave} (FE5 Recolor) Killer Axe.png
+{Lisandra Brave} (FE5 Recolor) Killer Ballista.png
+{Lisandra Brave} (FE5 Recolor) Killer Bow.png
+{Lisandra Brave} (FE5 Recolor) Killer Lance.png
+{Lisandra Brave} (FE5 Recolor) Killing Edge.png
+{Lisandra Brave} (FE5 Recolor) Knight Killer.png
+{Lisandra Brave} (FE5 Recolor) Lightning.png
+{Lisandra Brave} (FE5 Recolor) Long Bow.png
+{Lisandra Brave} (FE5 Recolor) Loptous.png
+{Lisandra Brave} (FE5 Recolor) M Up.png
+{Lisandra Brave} (FE5 Recolor) Meisteraxt.png
+{Lisandra Brave} (FE5 Recolor) Meisterbogen.png
+{Lisandra Brave} (FE5 Recolor) Meisterlanze.png
+{Lisandra Brave} (FE5 Recolor) Meisterschwert.png
+{Lisandra Brave} (FE5 Recolor) Mend.png
+{Lisandra Brave} (FE5 Recolor) Mj”lnir.png
+{Lisandra Brave} (FE5 Recolor) Nosferatu.png
+{Lisandra Brave} (FE5 Recolor) Paragon Sword.png
+{Lisandra Brave} (FE5 Recolor) Physic.png
+{Lisandra Brave} (FE5 Recolor) Rapier.png
+{Lisandra Brave} (FE5 Recolor) Recover.png
+{Lisandra Brave} (FE5 Recolor) Repair.png
+{Lisandra Brave} (FE5 Recolor) Rescue.png
+{Lisandra Brave} (FE5 Recolor) Restore.png
+{Lisandra Brave} (FE5 Recolor) Return.png
+{Lisandra Brave} (FE5 Recolor) Rewarp.png
+{Lisandra Brave} (FE5 Recolor) Silence.png
+{Lisandra Brave} (FE5 Recolor) Silver Axe.png
+{Lisandra Brave} (FE5 Recolor) Silver Bow.png
+{Lisandra Brave} (FE5 Recolor) Silver Lance.png
+{Lisandra Brave} (FE5 Recolor) Silver Sword.png
+{Lisandra Brave} (FE5 Recolor) Sleep Sword.png
+{Lisandra Brave} (FE5 Recolor) Sleep.png
+{Lisandra Brave} (FE5 Recolor) Slim Lance.png
+{Lisandra Brave} (FE5 Recolor) Slim Sword.png
+{Lisandra Brave} (FE5 Recolor) Steel Axe.png
+{Lisandra Brave} (FE5 Recolor) Steel Bow.png
+{Lisandra Brave} (FE5 Recolor) Steel Lance.png
+{Lisandra Brave} (FE5 Recolor) Steel Sword.png
+{Lisandra Brave} (FE5 Recolor) Thief.png
+{Lisandra Brave} (FE5 Recolor) Thoron.png
+{Lisandra Brave} (FE5 Recolor) Thunder.png
+{Lisandra Brave} (FE5 Recolor) Torch.png
+{Lisandra Brave} (FE5 Recolor) Tornado.png
+{Lisandra Brave} (FE5 Recolor) Unlock.png
+{Lisandra Brave} (FE5 Recolor) Valflame.png
+{Lisandra Brave} (FE5 Recolor) Warp.png
+{Lisandra Brave} (FE5 Recolor) Wind Sword.png
+{Lisandra Brave} (FE5 Recolor) Wind.png
+{Lisandra Brave} Tome icon 006.png
+{LordGlenn} (ArchaneaIconProject) tile010.png
+{LordGlenn} (ArchaneaIconProject) tile063.png
+{LordGlenn} (ArchaneaIconProject) tile066.png
+{LordGlenn} Dark 8.png
+{LordGlenn} Lance 30.png
+{LordGlenn} Sword 53.png
+{LordGlenn} [Shine].png
+{Maxim} Accessory 5.png
+{Maxim} Pill.png
+{MeatOfJustice} Scythe 1.png
+{Mike} Sickle.png
+{Mike} Syringe I.png
+{Peerless} (FE9) Wishblade.png
+{Ryan914} Gun III.png
+{Seal} (SacredWar) Axereaver.png
+{Seal} (SacredWar) Item 26.png
+{Seal} (SacredWar) Item 30.png
+{Seal} (SacredWar) Item 35.png
+{Seal} (SacredWar) Item 36.png
+{Seal} (SacredWar) Light 5.png
+{Seal} (SacredWar) Secret Book.png
+{Seal} (SacredWar) Staff 8.png
+{Seal} (SacredWar) Storm Spear.png
+{Seal} (SacredWar) Sword 19.png
+{Seal} (SacredWar) Tome 4.png
+{SmithyGCN, Zarg} (Soul Blazer) Item 47.png
+{SmithyGCN, Zarg} (Soul Blazer) Item 48.png
+{SmithyGCN, Zarg} (Soul Blazer) Item 52.png
+{SMITHYGCN} Potion III.png
+{Snakey1} icon 001.png
+{SN_Ivan} Balberith.png
+{The Big Dededester} Demon Regal Blade.png
+{Thunder Mage} Anima 39.png
+{Topazlight} Volant Axe.png
+{Windsweep} Drill.png
+{Windsweep} Lifetaker Brace.png
+{XVI} Sword Reaver.png
+{Zane} (Icon Blitz 1) Lance 6.png
+{Zane} Axe 25 [F2E].png
+{Zarg} Bow 9.png
+{Zarg} Dark 8.png
+{Zarg} Staff 9.png
+{Zarg} Sword 29.png
+{Zelix} icon 031.png
+{Zelix} icon 075.png
+{Zelix} icon 180.png
+{Zelix} ReaverLance.png

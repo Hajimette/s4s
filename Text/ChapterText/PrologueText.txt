@@ -682,7 +682,7 @@ leave these walls![A][X]
 
 ## RequiredEscapesPrologue
 Required Escapes:[N]
-Amelia, Zeta, Botan.[A][X]
+[ToggleRed]Amelia, Zeta, Botan.[A][ToggleRed][X]
 
 ## NousagiPrologueIntRUders
 [Left][LoadNousagi]
@@ -1123,15 +1123,17 @@ back on your country?![A]
 
 ## RisuPrologueQuote
 [MidRight][LoadRisuP]
-[MidLeft]
+[MidRight]
 Mmm... you're from the[N]
 Union, aren't you?[A]
 [MidRight][ClearFace]
 [MidLeft][LoadEmilia]
+[Left]
 ...Cease your resistance.[N]
 Drop your weapons![A]
 [MidRight][ClearFace]
 [MidRight][LoadRisuP]
+[MidRight]
 If that's how it is...[N]
 well, I'll make it quick.[A][X]
 
@@ -1143,6 +1145,119 @@ You're from the Union.[A]
 [MidLeft][LoadEmilia]
 I won't say this again![A][N]
 Drop your weapons![A]
-[MidRight][ClearFace]
+[MidLeft][ClearFace]
 [MidRight][LoadRbcGlassesP]
 Suit yourself.[A][X]
+
+## RobocoDoorPrologue
+[FarLeft][LoadBotanP]
+[Left][LoadAme]
+[FarFarRight][LoadRbcGlassesP]
+[FarFarRight][MoveMidRight]
+[MidRight]
+I don't believe it.[A][N]
+I knew the chances were unlikely...[N]
+but... you're actually alive.[A]
+[FarLeft]
+Is that you, Roboco?[N]
+It's good to see you again.[A]
+[Left]
+Finally...thank you.[A]
+[MidRight]
+[....][....]...Amelia? Is that you?[A]
+[Left]
+Ugh...yea that's me.[A]
+[MidRight]
+It's good to see you both[N]
+still alive.[A] We should[N]
+go, our contact will probably[N]
+leave us if we stay too long...[A]
+[FarLeft]
+Your contact?[A]
+[MidRight]
+It's how we were all able to[N]
+get into the prison...[A][N]
+Can you guys fight?[A]
+[FarLeft]
+My bow arm is still good.[A]
+[Left]
+...My swordplay is a bit[N]
+rusty, but...[A]
+[MidRight]
+Alright, stay behind me.[A][N]
+I'm sure she's looting[N]
+some chests...[A][N]
+There might be something for[N]
+you both to use...[A][X]
+
+## RisuDoorPrologue
+[FarLeft][LoadBotanP]
+[Left][LoadAme]
+[FarFarRight][LoadRisuP]
+[FarFarRight][MoveMidRight]
+[MidRight]
+You're alive!.[A]
+[FarLeft]
+Good to see you too, Risu.[A][N]
+How's the war going? Good I[N]
+hope, considering we we are...[A]
+[MidRight]
+It's going horribly.[A] We thought[N]
+you'd be alive still so we could[N]
+have a chance to win.[A]
+[FarLeft]
+Is that so...[A]
+[Left]
+Is there a way out of here?![A]
+[MidRight]
+Sorry, excuse my manners.[A][N]
+Who are you?[A]
+[FarLeft]
+This is Amelia, you've both[N]
+met briefly awhile back.[A]
+[MidRight]
+I think I remember now...[A][2NL]
+Good to see you here too![A]
+[Left]
+Likewise, Risu.[A]
+[MidRight]
+Now then, can you fight?[A]
+[Left]
+I know a little swordplay...[A]
+[FarLeft]
+I'm a bit rusty, but you[N]
+know I can use a bow.[A]
+[MidRight]
+Wonderful! Stay near me.[A][N]
+Zeta probably found something[N]
+you both can use...[A][X]
+
+## NPCDialogueUpper
+[MidLeft][LoadBlondKid]
+[MidLeft]
+I...I can really go?![A][N]
+Mama, where are you...[A][X]
+
+## NPCDialogueLower
+[MidLeft][LoadBlackHairGirl]
+[MidLeft]
+H...how did you break in?![N]
+F...forget it![A][2NL]
+Thank you![A][X]
+
+## UnionistsPrologue
+[Left][LoadAme]
+[Left]
+Placeholder, ENGAGE[A][X]
+
+
+
+
+
+
+
+
+
+
+
+

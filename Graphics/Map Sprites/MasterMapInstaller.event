@@ -130,7 +130,7 @@ StandingMapSprite(0x96,0,FoobStand)
 StandingMapSprite(0x97,1,DrownedStand)
 StandingMapSprite(0x98,1,SymphoneStand)
 StandingMapSprite(0x99,2,LaplaceStand)
-StandingMapSprite(0x9A,0,SageStand)
+StandingMapSprite(0x9A,0,KoyoriStand)
 StandingMapSprite(0x9B,1,NephStand)
 StandingMapSprite(0x9C,1,MGirlStand)
 StandingMapSprite(0x9D,0,MahouStand)
@@ -154,6 +154,8 @@ StandingMapSprite(0xAD,1,BallistaStand)
 StandingMapSprite(0xAE,0,VillagerMStand)
 StandingMapSprite(0xAF,0,VillagerFStand)
 StandingMapSprite(0x62,0,AmeLayStand)
+StandingMapSprite(0xB0,0,RoninStand)
+StandingMapSprite(0xB1,1,VanguardStand)
 
 
 
@@ -256,7 +258,7 @@ MovingMapSprite(0xA5,NormalAP,DrownedWalk)
 MovingMapSprite(0xA6,NormalAP,DrownedWalk)
 MovingMapSprite(0xA7,NormalAP,DruidFWalk)
 MovingMapSprite(0xA9,NormalAP,LaplaceWalk)
-MovingMapSprite(0xAA,NormalAP,SageWalk)
+MovingMapSprite(0xAA,NormalAP,KoyoriWalk)
 MovingMapSprite(0xAB,NormalAP,NephWalk)
 MovingMapSprite(0xAD,NormalAP,MGirlWalk)
 MovingMapSprite(0xAE,NormalAP,MahouWalk)
@@ -281,8 +283,8 @@ MovingMapSprite(0xC3,BallistaAP,BallistaWalk)
 MovingMapSprite(0x71,NormalAP,VillagerMWalk)
 MovingMapSprite(0x72,NormalAP,VillagerFWalk)
 MovingMapSprite(0x73,NormalAP,AmeLayWalk)
-
-
+MovingMapSprite(0xC5,NormalAP,RoninWalk)
+MovingMapSprite(0xC4,NormalAP,VanguardWalk)
 
 
 

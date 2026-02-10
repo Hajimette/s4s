@@ -3,24 +3,32 @@ CGs by Avil
 Portraits:
 
 Amelia Alt- MKCocoon
-Botan Alt- ZoramineFae
+Baelz - Basilica
+Botan - ZoramineFae
+
+
+Tobiki:
+Kanata
+Subaru
+
 
 Hatsuru:
 Bloom
 Gloom
 Yagoo
+Miko Alt
 Amelia Alts 2 and 3
+Nousagi
+
 
 Tezuka:
 AZKi
+Aqua
+Ayame
 Chloe
 Choco
-Corrupt Haachama
-Corrupt Haato
-Faded Eyes Haato
-Hood Haato
-Eye Patch Haato
-Haachama/Haato Neck
+Haachama/all alts
+Calliope/EVIL version
 Iroha Magical Princess
 IMP w/ Wand
 Iofi/Iofi EVIL version
@@ -31,6 +39,7 @@ Korone
 Kronii/Kronii ALT versions
 Kurokami
 Laplace
+Laplus
 Laufey
 Lui/Lui EVIL version
 Mel
@@ -40,6 +49,7 @@ Polka
 RBC/With GLASSES
 Reine/EVIL version
 Sana
+Shion
 Towa
 Yagoo
 Zeta
@@ -48,8 +58,31 @@ Cygnus:
 Sora
 Risu
 
-NickT:
-Roman ( )
+
+
+
+
+Roman (Randall) - NickT
+
+Noir (Marduk) - Gustabo
+
+
+Emilia - Lord of Admiral
+
+Noel - Markex133
+
+
+
+
+
+Map Sprites:
+Ronin- Hatsuru, Base by FEGirls
+
+
+
+
+
+
 
 
 Class Cards:
@@ -214,7 +247,9 @@ Animations:
 Hatsuru:
 Amelia (Spliced Version)
 Rushia
-Iroha, Base by Redbean
+Iroha T1, Base by Redbean
+Iroha T2, Base by Redbean
+Iroha T3, Base by Nuramon, Elements taken from SteamingTofu's Karla Anim
 Ayame, Base by Seliost1, Reskin by UltraFenix
 
 

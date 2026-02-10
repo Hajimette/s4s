@@ -922,6 +922,10 @@ ALIGN 4
 ItemIconEntry(Star)
 #incbin "dmp/Star.dmp"
 
+ALIGN 4
+ItemIconEntry(Vial)
+#incbin "dmp/Vial.dmp"
+
 POP
 
 

@@ -469,3 +469,17 @@ Emilia[X]
 ## EmiliaDesc
 A mercenary from the Union[N]
 who defected to Pekoland.[X]
+
+## UnionName
+Unionist[X]
+
+## UnionDesc
+An inhabitant of the Union.[N]
+A mercenary to the end.[X]
+
+## NoirName
+Noir[X]
+
+## NoirDesc
+A serious Union defector who[N]
+believes in the Pekoland cause.[X]

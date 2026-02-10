@@ -19,6 +19,7 @@ ItemSpecialEffectTable:
 // ItemID, unit, class, hp%, ReqFlag, TextID, POIN EventAddress 
 
 BYTE 0xF1   Amelia        0    0; SHORT 0 InjectName ; POIN AmeliaStim // 0xBB is gold gem 
+BYTE 0x95   0x35        0    0; SHORT 0 KoyoriCommand ; POIN KoyoriVialEvent // 0xBB is gold gem 
 
 //BYTE 0xBB   0        0    0; SHORT 0     0     ; POIN ExampleEvent // 0xBB is gold gem 
 
@@ -30,8 +31,15 @@ WORD 0 0 0 // Terminator
 
 ALIGN 4
 AmeliaStim:
+/*
 //CheckCurrentHP(0x1)
 //BLE 13 s5 sC
+SET_ACTIVE 0x0
+GetUnitStatus(0x1, CurrentHP)
+SVAL s1 6
+BLE 13 s5 sC
+*/
+
 RANDOMNUMBER 4
 BEQ 0 s0 sC //because s0 is always 0
 SVAL s1 1
@@ -51,7 +59,6 @@ Text(AmeliaStim3)
 GOTO 4
 LABEL 3
 Text(AmeliaStim4)
-GOTO 4
 LABEL 4
 //SVAL s1 0x1
 //SVAL s6 5
@@ -63,12 +70,164 @@ SetUnitStatus(0x1,State,0x01000000)
 SetUnitStatus(0x1,0x30,0x55)
 STAL 120
 SetUnitStatus(0x1,State,0x2)
-//GOTO 14
-//LABEL 13
-//TalkConvo(AmeliaStim1)
-//LABEL 14
-
+GOTO 14
+LABEL 13
+TalkConvo(AmeStimNah)
+SetUnitStatus(0x1,State,0x2)
+LABEL 14
+NoFade
 ENDA
+
+ALIGN 4
+KoyoriVialEvent:
+Text(KoyoReadytoCook)
+RANDOMNUMBER 9
+SVAL s1 0
+BEQ 0 s0 sC //because s0 is always 0
+SVAL s1 1
+BEQ 1 s1 sC //if value is 1
+SVAL s1 2
+BEQ 2 s1 sC // if value is 2
+SVAL s1 3
+BEQ 3 s1 sC
+
+SVAL s1 4
+BEQ 4 s1 sC
+
+SVAL s1 5
+BEQ 5 s1 sC
+
+SVAL s1 6
+BEQ 6 s1 sC
+
+SVAL s1 7
+BEQ 7 s1 sC
+
+SVAL s1 8
+BEQ 9 s1 sC
+
+// else, value is 4
+LABEL 0
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,DotDotDotEffect)
+GiveItem(Vulnerary,0x35)
+Text(KoyoVuln1)
+GOTO 8
+LABEL 1
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,DotDotDotEffect)
+GiveItem(Vulnerary,0x35)
+Text(KoyoVuln1)
+GOTO 8
+LABEL 2
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,DotDotDotEffect)
+GiveItem(Vulnerary,0x35)
+Text(KoyoVuln1)
+GOTO 8
+LABEL 3
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,ExclamationEffect)
+GiveItem(0x6D,0x35)
+Text(KoyoVuln2)
+GOTO 8
+LABEL 4
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,ZZZEffect)
+GiveItem(0x6E,0x35)
+Text(KoyoVuln3)
+GOTO 8
+LABEL 5
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,FrustratedEffect)
+GiveItem(0x6F,0x35)
+Text(KoyoVuln4)
+GOTO 8
+LABEL 6
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,DotDotDotEffect)
+GiveItem(0x69,0x35)
+Text(KoyoVuln5)
+GOTO 8
+LABEL 7
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,DotDotDotEffect)
+GiveItem(0x6A,0x35)
+Text(KoyoVuln6)
+GOTO 8
+LABEL 9
+
+RANDOMNUMBER 2
+SVAL s1 0
+BEQ 10 s0 sC
+SVAL s1 1
+BEQ 11 s0 sC
+SVAL s1 2
+BEQ 12 s0 sC
+LABEL 10
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,MusicNoteEffect)
+GiveItem(0x5B,0x35)
+Text(KoyoVuln7)
+
+GOTO 8
+LABEL 11
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,MoneyEffect)
+GiveItem(0x76,0x35)
+Text(KoyoVuln8)
+GOTO 8
+LABEL 12
+CUMO 0x35
+STAL 15
+CURE
+SoundEffect(0x135)
+PlayEmotionEffect(0x35,MusicNoteEffect)
+GiveItem(0x61,0x35)
+Text(KoyoVuln9)
+
+LABEL 8
+SetUnitStatus(0x35,State,0x2)
+NoFade
+ENDA
+
+
+
+
+
+
+
+
 
 
 ALIGN 4

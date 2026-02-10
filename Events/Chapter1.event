@@ -13,14 +13,15 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-	TurnEventPlayer(0, FaunmeiSpawn, 3)
-	TurnEventPlayer(0, MoreBodies, 5)
-	TurnEventPlayer(0, TimeToGo, 7)
+	TurnEventPlayer(0, IroKoyoSpawnPrologue, 3)
+	TurnEventPlayer(0, MoreBodies, 6)
+	TurnEventPlayer(0, TimeToGo, 8)
 	END_MAIN
 
 ALIGN 32
 CharacterBasedEvents:
-	CharacterEventBothWays(8, ReineAmeliaTalk, Amelia, 0x2)
+	CharacterEventBothWays(8, ReineAmeliaTalk, 0x32, 0x34)
+	CharacterEventBothWays(9, ZetaKoyoChp1Talk, 0x32, 0x35)
 	
 	END_MAIN
 
@@ -29,10 +30,18 @@ MiscBasedEvents:
 	END_MAIN
 
 LocationBasedEvents:
-	House(20,Chp1House,11,12)
-	Village(0x10,Chp1VillageEvent,2,3)
-	Escape(7,0)
-	Escape(8,0)
+	Chest(0x5,8,0)
+	Chest(0x6D,8,6)
+	Door(16,7)
+	Chest(0x4B,14,8)
+	Chest(0x3F,7,12)
+	Door(10,12)
+	Chest(0x6C,7,13)
+	Chest(0x39,8,13)
+	Escape(21,6)
+	Escape(21,7)
+	Escape(21,8)
+	Escape(21,9)
 	END_MAIN
 
 Dunno1:
@@ -53,77 +62,117 @@ Tutorial:
 	END_MAIN
 
 PlayerUnits:
-        UNIT Amelia 0x1 Amelia Level(1,Ally,False) [3,16] 0x0 0x0 1 REDA5R14 [0,0] NoAI
-
+        UNIT Amelia 0x1 Amelia Level(1,Ally,False) [0,3] 0x0 0x0 1 REDA2R3 [0,0] NoAI
+		UNIT 0x14 0x89 Amelia Level(4,Ally,False) [0,4] 0x0 0x0 1 REDA3R2 [0,0] NoAI
+		UNIT 0x32 0x91 Amelia Level(1,Ally,False) [0,1] 0x0 0x0 1 REDA3R4 [SteelSword,0xD,Vulnerary] NoAI
+		UNIT 0x10 0x8F Amelia Level(1,Ally,False) [0,2] 0x0 0x0 1 REDA1R2 [0xA0,0x6C] NoAI
+		UNIT 0x11 0x8D Amelia Level(2,Ally,False) [0,5] 0x0 0x0 1 REDA1R4 [0x45,0x38] NoAI
 	UNIT
 
 EnemyUnits:
 
-        UNIT 0xAA 0x52 0x53 Level(4,Enemy,True) [1,8] 0x0 0x0 0x0 0x0 [RottenClaw] DefaultAI
-		UNIT 0xAC 0x54 0x53 Level(3,Enemy,True) [3,16] 0x0 0x0 0x0 0x0 [IronLance] TwoActionAI
-		UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [9,14] 0x0 0x0 0x0 0x0 [RottenClaw] TwoActionAI
-		UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [12,16] 0x0 0x0 0x0 0x0 [RottenClaw] NoMoveAI
-		UNIT 0xAC 0x54 0x53 Level(2,Enemy,True) [8,6] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
-		UNIT 0xAC 0x55 0x53 Level(1,Enemy,True) [0,4] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
-		UNIT 0xAC 0x55 0x53 Level(1,Enemy,True) [7,2] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
-		UNIT 0xAA 0x52 0x53 Level(2,Enemy,True) [12,4] 0x0 0x0 0x0 0x0 [RottenClaw] NoMoveAI
-		UNIT 0xAA 0x53 0x53 Level(1,Enemy,True) [10,0] 0x0 0x0 0x0 0x0 [0x8B] TwoActionAI
-		UNIT 0xAA 0x54 0x53 Level(1,Enemy,True) [15,1] 0x0 0x0 0x0 0x0 [SlimSword] NoMoveAI
-		UNIT 0xAA 0x54 0x53 Level(3,Enemy,True) [17,0] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
-		UNIT 0xAA 0x52 0x53 Level(1,Enemy,True) [18,13] 0x0 0x0 0x0 0x0 [RottenClaw] DefaultAI
-		UNIT 0xAA 0x53 0x53 Level(1,Enemy,True) [2,6] 0x0 0x0 0x0 0x0 [RottenClaw] NoMoveAI
-		UNIT 0xAA 0x54 0x53 Level(1,Enemy,True) [8,3] DropItem 0x0 0x0 0x0 [IronSword] NoMoveAI
-		UNIT 0xAA 0x54 0x53 Level(1,Enemy,True) [15,14] 0x0 0x0 0x0 0x0 [IronSword,0x5e] NoMoveAI
-		UNIT 0x49 0x52 0x53 Level(5,Enemy,True) [8,0] 0x0 0x0 0x0 0x0 [RottenClaw] NoMoveAI //Boss
- 
+        UNIT 0x80 0x09 0x53 Level(8,Enemy,True) [7,3] 0x0 0x0 0x0 0x0 [Javelin,0x69] UnmovingAI	
+		UNIT 0x80 0x09 0x53 Level(8,Enemy,True) [7,4] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
+		
+		
+		UNIT 0x80 0x4E 0x53 Level(1,Enemy,True) [3,7] 0x0 0x0 0x0 0x0 [IronLance,0x69] TwoActionAI
+		UNIT 0x80 0x19 0x53 Level(5,Enemy,True) [10,8] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
+		UNIT 0x80 0x3F 0x53 Level(2,Enemy,True) [1,11] 0x0 0x0 0x0 0x0 [IronAxe,Vulnerary] NoMoveAI
+		UNIT 0x80 0x19 0x53 Level(4,Enemy,True) [4,13] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
+		UNIT 0x80 0x10 0x53 Level(5,Enemy,True) [12,9] 0x0 0x0 0x0 0x0 [IronSword] NoMoveAI
+		UNIT 0x80 0x3f 0x53 Level(5,Enemy,True) [14,10] 0x0 0x0 0x0 0x0 [IronAxe] NoMoveAI
+		UNIT 0x80 0x10 0x53 Level(4,Enemy,True) [5,10] 0x0 0x0 0x0 0x0 [SlimSword] TwoActionAI
+		UNIT 0x80 0x2E 0x53 Level(3,Enemy,True) [15,14] 0x0 0x0 0x0 0x0 [Flux,0x5e] NoMoveAI
+		UNIT 0x80 0x19 0x53 Level(4,Enemy,True) [10,3] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
+		UNIT 0x80 0x19 0x53 Level(4,Enemy,True) [10,4] 0x0 0x0 0x0 0x0 [IronBow,0x5D] NoMoveAI
+		UNIT 0x80 0x3f 0x53 Level(1,Enemy,True) [13,1] 0x0 0x0 0x0 0x0 [SteelAxe] DefaultAI
+		UNIT 0x80 0x4E 0x53 Level(4,Enemy,True) [14,4] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+		UNIT 0x80 0x3f 0x53 Level(4,Enemy,True) [17,12] 0x0 0x0 0x0 0x0 [IronAxe] NoMoveAI
+		UNIT 0x80 0x09 0x53 Level(8,Enemy,True) [11,12] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
+		UNIT 0x80 0x09 0x53 Level(8,Enemy,True) [9,8] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
+		UNIT 0x80 0x09 0x53 Level(8,Enemy,True) [9,9] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
+		UNIT 0x80 0x10 0x53 Level(5,Enemy,True) [16,2] 0x0 0x0 0x0 0x0 [SteelSword] NoMoveAI
+		UNIT 0x80 0x19 0x53 Level(5,Enemy,True) [20,6] 0x0 0x0 0x0 0x0 [SteelBow] NoMoveAI
+		UNIT 0x80 0x19 0x53 Level(5,Enemy,True) [20,9] 0x0 0x0 0x0 0x0 [SteelBow] NoMoveAI
 	UNIT
 
+Chapter1Units:
+	UNIT 0x46 0x2F 0x0 Level(1,Enemy,True) [21,7] 0x0 0x0 1 REDA19R7 [Flux] NoMoveAI //Boss
+	UNIT 0xAA 0xC1 0x0 Level(1,Enemy,True) [21,8] 0x0 0x0 1 REDA19R8 [0x0] NoMoveAI //Boss
+	
+	UNIT
+
+
+
+
+
 ReineUnit1:
-	UNIT 0x2 0x4 Amelia Level(1,NPC,False) [4,16] 0x0 0x0 0x0 0x0 [Fire,SlimSword,Vulnerary] NoAI
+	UNIT 0x7F 0x1B 0x53 Level(10,Enemy,False) [0,3] 0x0 0x0 0x0 0x0 [0x31] DefaultAI
+	UNIT 0x7F 0xBB 0x53 Level(10,Enemy,False) [0,3] 0x0 0x0 1 REDA1R3 [0x17] DefaultAI	
+	UNIT 0x7F 0xBB 0x53 Level(10,Enemy,False) [0,13] 0x0 0x0 1 REDA1R13 [0x17] DefaultAI
 	
 	UNIT
 
 Faunmei:
-	UNIT Mumei 0xD Amelia Level(1,NPC,False) [19,9] 0x0 0x0 1 REDA14R9 [Society,0x6b] NoAI
-	UNIT Fauna 0x1A Amelia Level(3,NPC,False) [19,10] 0x0 0x0 1 REDA14R10 [Selection,Vulnerary] NoAI
+	UNIT 0x34 0xC5 Amelia Level(6,Ally,False) [12,15] 0x0 0x0 1 REDA12R13 [0xC9,0x6C] NoAI
+	UNIT 0x35 0xAA Amelia Level(2,Ally,False) [12,15] 0x0 0x0 1 REDA13R14 [Fire,0x95] NoAI
 	
 	UNIT
 
 Creature:
-	UNIT 0xAA 0x52 0xAA Level(1,Enemy,True) [19,11] 0x0 0x0 1 REDA16R10 [RottenClaw,0x0] DefaultAI
-	
+	UNIT 0x01 0x52 0xAA Level(1,Ally,True) [0,10] 0x0 0x0 1 REDA5R10 [RottenClaw,0x0] DefaultAI
+	UNIT 0x14 0x52 0xAA Level(1,Ally,True) [0,10] 0x0 0x0 1 REDA6R12 [RottenClaw,0x0] DefaultAI
+	UNIT 0x35 0x52 0xAA Level(1,Ally,True) [0,11] 0x0 0x0 1 REDA8R11 [RottenClaw,0x0] DefaultAI
 	UNIT
 
-TheyCome:
-	UNIT 0xAA 0x52 0xAA Level(1,Enemy,True) [19,12] 0x0 0x0 1 REDA15R11 [RottenClaw,0x0] DefaultAI
-	UNIT 0xAA 0x55 0xAA Level(1,Enemy,True) [19,13] 0x0 0x0 1 REDA14R12 [IronBow,0x0] DefaultAI
-
+Chp1EndChama:
+	UNIT 0xF2 0x70 Amelia Level(6,NPC,False) [20,11] 0x0 0x0 1 REDA21R11 [0xC9,0x6C] NoAI
+	
 	UNIT
 	
 MoreCome:
-	UNIT 0xAA 0x52 0xAA Level(1,Enemy,True) [18,2] 0x0 0x0 0 0x0 [RottenClaw,0x0] DefaultAI
-	UNIT 0xAA 0x52 0xAA Level(1,Enemy,True) [16,3] 0x0 0x0 0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0x80 0xC1 0xAA Level(1,Enemy,True) [29,8] 0x0 0x0 1 REDA26R8 [0x0] DefaultAI
+	UNIT 0x80 0xC1 0xAA Level(1,Enemy,True) [29,9] 0x0 0x0 1 REDA26R9 [0x0] DefaultAI
+	UNIT 0x80 0x9 0xAA Level(1,Enemy,True) [29,10] 0x0 0x0 1 REDA26R10 [0x0] DefaultAI
+	UNIT 0x80 0xC1 0xAA Level(1,Enemy,True) [29,11] 0x0 0x0 1 REDA26R11 [0x0] DefaultAI
 	
 	UNIT
 	
 ReineGetsJumped:
-	UNIT 0xAB 0x52 0xAA Level(6,Enemy,True) [2,7] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
-	UNIT 0xAA 0x52 0xAA Level(7,Enemy,True) [5,6] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0x82 0x10 0xAA Level(6,Enemy,True) [5,9] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0x81 0xF 0xAA Level(7,Enemy,True) [3,13] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0x83 0x9 0xAA Level(7,Enemy,True) [12,10] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0x84 0x9 0xAA Level(7,Enemy,True) [12,11] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0x85 0x10 0xAA Level(7,Enemy,True) [17,19] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0x86 0x4E 0xAA Level(7,Enemy,True) [18,14] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0x87 0x4E 0xAA Level(7,Enemy,True) [21,8] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0x88 0x4E 0xAA Level(7,Enemy,True) [23,13] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0x89 0x4E 0xAA Level(7,Enemy,True) [9,12] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
+	UNIT 0xF1 0x70 0xAA Level(7,NPC,True) [20,11] 0x0 0x0 0x0 0x0 [RottenClaw,0x0] DefaultAI
 	
 	UNIT
 	
 CorpsesArise:
-UNIT 0xAA 0x55 0xAA Level(4,Enemy,True) [3,16] 0x0 0x0 0x0 0x0 [IronBow,0x0] DefaultAI
-UNIT 0xAA 0x55 0xAA Level(4,Enemy,True) [4,16] 0x0 0x0 0x0 0x0 [IronBow,0x0] DefaultAI
+UNIT 0x80 0x4E 0xAA Level(6,Enemy,True) [0,1] 0x0 0x0 1 REDA1R1 [SteelLance] DefaultAI
+UNIT 0x80 0x4E 0xAA Level(6,Enemy,True) [0,2] 0x0 0x0 1 REDA1R2 [SteelLance] DefaultAI
+UNIT 0x80 0x4E 0xAA Level(6,Enemy,True) [0,3] 0x0 0x0 1 REDA1R3 [SteelLance] DefaultAI
+UNIT 0x80 0x4E 0xAA Level(6,Enemy,True) [0,4] 0x0 0x0 1 REDA1R4 [SteelLance] DefaultAI
+
+
+UNIT 0x80 0x1A 0xAA Level(8,Enemy,True) [0,1] 0x0 0x0 0x0 0x0 [IronBow,0x0] DefaultAI
+UNIT 0x80 0x25 0xAA Level(7,Enemy,True) [0,2] 0x0 0x0 0x0 0x0 [Thunder,0x0] DefaultAI
+UNIT 0x80 0x26 0xAA Level(7,Enemy,True) [0,3] 0x0 0x0 0x0 0x0 [Thunder,0x0] DefaultAI
+UNIT 0x80 0x1A 0xAA Level(8,Enemy,True) [0,4] 0x0 0x0 0x0 0x0 [IronBow,0x0] DefaultAI
 	
 	UNIT
 	
 Cooked:
-UNIT 0xAA 0x63 0xAA Level(5,Enemy,True) [2,16] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT 0xAA 0x63 0xAA Level(5,Enemy,True) [7,16] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT 0xAA 0x63 0xAA Level(5,Enemy,True) [11,16] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT 0xAA 0x63 0xAA Level(5,Enemy,True) [14,16] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT 0xAA 0x63 0xAA Level(5,Enemy,True) [18,16] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0x7F 0xC1 0xAA Level(10,Enemy,True) [0,12] 0x0 0x0 1 REDA1R11 [IronLance,0x0] DefaultAI
+UNIT 0x7F 0xC1 0xAA Level(10,Enemy,True) [0,13] 0x0 0x0 1 REDA2R13 [IronLance,0x0] DefaultAI
+
+UNIT 0x7F 0xC1 0xAA Level(10,Enemy,True) [0,2] 0x0 0x0 1 REDA1R2 [IronLance,0x0] DefaultAI
+UNIT 0x7F 0xC1 0xAA Level(10,Enemy,True) [0,3] 0x0 0x0 1 REDA2R3 [IronLance,0x0] DefaultAI
+UNIT 0x7F 0xC1 0xAA Level(10,Enemy,True) [0,4] 0x0 0x0 1 REDA1R4 [IronLance,0x0] DefaultAI
 
 UNIT
 	
@@ -159,11 +208,15 @@ UNIT 0xD1 0xBC 0xAA Level(5,Enemy,True) [0,11] 0x0 0x0 0x0 0x0 [IronLance,0x0] D
 UNIT 0xD2 0x1B 0xAA Level(5,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
 UNIT
 	
-Chapter1Units:
-	UNIT
-	UNIT
-	UNIT
-	
+
+ZetaIrohaIntervention:
+UNIT 0x34 0xC5 Amelia Level(6,Ally,False) [0,10] 0x0 0x0 1 REDA4R9 [0xC9,0x6C] NoAI
+UNIT 0x32 0xC5 Amelia Level(6,Ally,False) [0,11] 0x0 0x0 1 REDA3R12 [0xC9,0x6C] NoAI
+UNIT
+
+
+
+
 Traps1:
 	ENDTRAP
 	ALIGN 4
@@ -173,135 +226,114 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+EnactAutoRepair
 	SetBackground(Dungeon2)
 	FadeBackBlack
 	TalkConvo(AmeliaBum)
 	FadeBlack
 	CLEAN
 	CAM1 [19,7]
-	MusicChange(0x28)
-	FadeBackBlack
-	LOAD1 0x1 ReineUnit1 
-	MOVE 15 0x2 [5,10]
-	TalkConvo(ReineIntro)
-	LOAD1 0x1 ReineGetsJumped
-	MusicChange(0x31)
-	MOVE 15 0x2 [4,8]
-	STAL 60
-	PlayEmotionEffect(0x2,ExclamationEffect)
-	STAL 45
-	TalkConvo(ReineWTF)
-	MOVE 15 0xAB [4,7]
-	ENUN
-	StartBattle
-	NormalDamage(0xAB, 5)
-	EndAttack
-	FIGHT_MAP 0xAB 0x02 RottenClaw False
-	STAL 45
-	StartBattle
-	NormalDamage(0x02, 80)
-	EndAttack
-	FIGHT_MAP 0x02 0xAB Fire False
-	DISA 0xAB
-	LOAD1 1 Chapter1Units
-	TalkConvo(ReineBruh)
-	CAM1 [5,14]
-    LOAD1 0x1 PlayerUnits
-	STAL 60
-	PlayEmotionEffect(Amelia,DotDotDotEffect)
-	STAL 45
-	TalkConvo(AmeWth)
-	CAM1 [5,14]
-    ENUN
-	CUSA 0x2
 	LOAD1 0x1 EnemyUnits
-	ENUN
-	SetUnitStatus(0x2,SwordExp,1)
-	SetUnitStatus(0x2,LightExp,0)
-	SetUnitStatus(0x2,StaffExp,0)
-	
-	
-	
+	FadeBackBlack
+	LOAD1 0 Chapter1Units //Unfilled 
+	Highlight(0x46)
+	STAL 10
+	PlayEmotionEffect(0x46,DotDotDotEffect)
+	STAL 45
+	CHECK_EVENTID 0x78 //Checks if triggered 78
+	SVAL s7 1
+	BEQ 8 sC s7
+	MusicChange(0x13)
+	TalkConvo(NoirIntro)
+	SCOORD sB [19, 8]
+	MOVE 0x05 (-2) [21,8]
+	STAL 120
+	DISA_IF 0xAA
+	Text(Noirhasabruhmoment)
+	CAM1 [2,3]
+	LOAD1 0 PlayerUnits
+	TalkConvo(ZetaChapter1Desc)
+	GOTO 2
+	LABEL 8
+	MusicChange(0x14)
+	TalkConvo(NoirIntroAlerted)
+	SCOORD sB [19, 8]
+	MOVE 0x05 (-2) [21,8]
+	STAL 120
+	DISA_IF 0xAA
+	Text(NoirhasabruhmomentAlert)
+	CAM1 [2,3]
+	LOAD1 0x1 PlayerUnits
+	TalkConvo(ZetaChapter1DescAlerted)
+	LABEL 2
+	TextBox(RequiredEscapesChapter1)
 	ENDA
 	
 	
 	
-	FaunmeiSpawn:
-	MusicChange(0x03)
+	IroKoyoSpawnPrologue:
+	MusicChange(0x31)
 	STAL 45
-	CAM1 [15,8]
+	CAM1 [12,14]
 	LOAD1 0x1 Faunmei
 	ENUN
 	TalkConvo(FaunmeiAnimals)
-	LOAD1 0x1 Creature
-	TalkConvo(FaunmeiCreature)
-	LOAD1 0x1 TheyCome
-	ENUN
-	PlayEmotionEffect(Fauna,ExclamationEffect)
-	PlayEmotionEffect(Mumei,ExclamationEffect)
-	STAL 45
-	LOAD1 0x1 MoreCome
-	TalkConvo(FaunmeisBruhMoment)
-	MOVE 15 Mumei [17,5]
-	MOVE 15 Fauna [15,8]
-	PlayEmotionEffect(Mumei,ExclamationEffect)
-	STAL 45
-	MusicChange(0x31)
-	TalkConvo(MumeiGetsSmoked)
-	MOVE 15 Fauna [16,6]
-	ENUN
-	TalkConvo(FaunmeiFight)
-	CUSA Mumei
-	CUSA Fauna
-	
 	ENDA
 	
 	ReineAmeliaTalk:
 	MusicChange(0x17)
 	TalkConvo(ReineAmeliaTalkCh1)
+	NoFade
+	ENDA
+	
+	ZetaKoyoChp1Talk:
+	MusicChange(0x17)
+	TalkConvo(ReineBruh)
+NoFade
 	ENDA
 	
 	MoreBodies:
+	CAM1 [1,3]
 	LOAD2 1 CorpsesArise
+	CHECK_EVENTID 0x78 //Checks if triggered 78
+	SVAL s7 1
+	BEQ 8 sC s7
+	Text(FaunmeiCreature) //Flag check
+	GOTO 67
+	LABEL 8
+	Text(ReineWTF)
+	LABEL 67
+	NoFade
 	ENDA
 
     TimeToGo:
-	LOAD2 1 Cooked
+	CAM1 [1,12]
+	LOAD1 1 Cooked
+	CAM1 [1,3]
+	CHECK_EVENTID 0x78 //Checks if triggered 78
+	SVAL s7 0
+	BEQ 21 sC s7
+	LOAD1 0x1 ReineUnit1
+	
+	LABEL 21
 	ENUT 4
+	NoFade
 	ENDA
 
 
 
 
-Chp1House:
-SetBackground(House1)
-TalkConvo(Chp1HouseTextt)
-FadeBlack
-CLEAN
-FadeBackBlack
-ENDA
 
-Chp1VillageEvent:
-FadeBlack
-SetBackground(House1)
-FadeBackBlack
-TalkConvo(Chp1Village)
-FadeBlack
-CLEAN
-FadeBackBlack
-GiveItem(0x76,0xFFFF)
-NoFade
-ENDA
 
 ALIGN 4
 ReineChp1DeathNotice:
 	CHECK_ACTIVE
-	SVAL s1 0x2
+	SVAL s1 0x32
 	BEQ 1 s1 sC
 	ENUF 7 // unset completion flag if unit selected isn't Miko
 	GOTO 2
 	LABEL 1
-	TextBox(ReineTutorial)
+	Text(ReineTutorial)
 	LABEL 2
 	NoFade
 ENDA
@@ -313,19 +345,162 @@ EndingScene:
 EndOfEscapeRoutineASMC
 EnactAutoRepair
 FadeBlack
-MusicChange(0x2E)
-SetBackground(ForestNight)
+MuteMusic
+LOMA 0x4A
+CLEARALL
+LOAD1 0x1 ReineGetsJumped
+CAM1 [0,10]
 FadeBackBlack
-CHECK_ALIVE 0x3
-BEQ 0x1 0xC 0x0
-CHECK_ALIVE 0x4
-BEQ 0x1 0xC 0x0
+STAL 30
+SOUN 0xB0
+STAL 30
+SOUN 0xB0
+STAL 30
+SOUN 0xAF
+TILECHANGE 0
+MusicChange(0x5F)
+LOAD1 1 ZetaIrohaIntervention
+STAL 15
+SOUN 0xD8
+STAL 5
+Draw(ThinSlashAnimID,3,13)
+STAL 15
+SET_SOMETHING 0x81
+SOUN 0x2CE
+Draw(MapSword,5,9) //Iroha hit 1st
+MoveCoords(5,9,6,9)
+MoveCoords(4,9,5,9)
+MoveCoords(9,12,7,12)
+MoveCoords(3,12,6,12)
+ENUN
+SOUN 0x2CE
+Draw(MapSword,6,9)  //Iro hit 2nd
+STAL 7
+SOUN 0xB1
+TILECHANGE 2
+STAL 8
+MoveCoords(12,11,14,11)
+SOUN 0xD7
+Draw(MapLance,6,12)
+STAL 5
+SOUN 0x2CE
+STAL 10
+SOUN 0xD3
+Draw(ThinSlashAnimID,7,12)
+SET_SOMETHING 0x89
+MoveCoords(6,9,5,10)
+MoveCoords(5,9,6,10)
+ENUN
+SOUN 0xD4
+Draw(ThickSlashAnimID,5,10) //Iroha
+STAL 30
+SET_SOMETHING 0x82
+
+SOUN 0xB1
+TILEREVERSE 2
+MoveCoords(6,10,11,10)
+MoveCoords(6,12,12,11) // Zeta
+STAL 45
+SOUN 0xD8
+Draw(ThickSlashAnimID,12,10)
+STAL 30
+SET_SOMETHING 0x83
+STAL 30
+PlayEmotionEffect(0x34,AngryEffect)
+STAL 45
+
+
+
+
+MoveCoords(14,11,29,0)
 Text(ReineAmeliaFaunaMumeiEnd)
-GOTO 0x2
-LABEL 0x1
+LOAD1 0x1 Creature
+Text(AmeWth)
+SOUN 0xB1
+TILECHANGE 2
+STAL 15
+MoveCoords(12,11,15,12)
+MoveCoords(11,10,15,9)
+ENUN
+CAM1 [17,10]
+PlayEmotionEffect(0x32,ExclamationEffect)
+STAL 45
+FlashCursor(20,11,60)
+MoveCoords(5,10,14,10)
 Text(ReineAmeliaEnd)
-LABEL 0x2
-FadeBlack
+FlashCursor(23,13,60)
+MuteMusic
+Text(FaunmeisBruhMoment)
+CAM1 [20,11]
+DKSummonEffectASMC
+LOAD1 0 Chp1EndChama
+DKFloorEffectASMC
+//COLORFADE_FADE 8 255 255 255
+MusicChange(0x3E3)
+
+
+STAL 60
+SOUN 0x26A
+EARTHQUAKE_START 1
+SOUN 0x135
+SetUnitStatus(0xF1,State,0x01000000)
+BREAKING_SACRED_STONE 0xF1
+SetUnitStatus(0xF2,State,0x01000000)
+BREAKING_SACRED_STONE 0xF2
+STAL 120
+SetUnitStatus(0xF1,State,0)
+SetUnitStatus(0xF2,State,0)
+EARTHQUAKE_END
+STAL 45
+FlashCursor(20,11,60)
+Text(Chp1HouseTextt)
+PlayEmotionEffect(0x1,ExclamationEffect)
+Text(Chp1Village)
+MoveCoords(14,10,18,11)
+MoveCoords(21,8,21,10)
+MoveCoords(18,14,19,11)
+STAL 15
+SOUN 0x2CE
+Draw(MapSword,19,11)
+STAL 45
+LOAD1 0x1 MoreCome
+PlayEmotionEffect(0x32,ExclamationEffect)
+MoveCoords(15,12,19,12)
+MoveCoords(15,9,20,10)
+MoveCoords(23,13,22,11)
+STAL 10
+SOUN 0x2CE
+Draw(MapSword,21,10)
+STAL 20
+Text(MumeiGetsSmoked)
+SOUN 0x2CE
+Draw(MapSword,21,10)
+STAL 45
+SOUN 0xD8
+SET_SOMETHING 0x86
+Draw(ThickSlashAnimID,21,11)
+MoveCoords(22,11,24,11)
+MoveCoords(21,11,23,11)
+SET_SOMETHING 0x87
+Text(FaunmeiFight)
+MoveCoords(24,11,25,11)
+MoveCoords(23,11,24,11)
+MoveCoords(20,10,19,10)
+MoveCoords(20,11,19,11)
+ENUN
+MoveCoords(26,8,23,10)
+MoveCoords(26,9,22,11)
+MoveCoords(26,11,23,12)
+ENUN
+Text(ZetaChp1TimetoGo)
+MoveCoords(19,10,10,10)
+MoveCoords(19,11,10,11)
+MoveCoords(26,8,23,13)
+MoveCoords(19,12,10,12)
+
+
+/*
+FadeBlack // AquaShion Cutscene
 LOMA 0x4c
 VCWF 0
 CAM1 [6,7]
@@ -381,7 +556,132 @@ MoveCoords(9,0,15,12,8)
 MoveCoords(10,0,15,12,10)
 MoveCoords(11,0,15,10,8)
 STAL 45
+*/
+
+
+
+
 FadeBlack
 	MNC2 2
 	NoFade
 	ENDA
+
+
+
+
+
+
+
+
+/*
+	SetUnitStatus(0x2,SwordExp,1)
+	SetUnitStatus(0x2,LightExp,0)
+	SetUnitStatus(0x2,StaffExp,0)
+
+	 
+	MOVE 15 0x2 [5,10]
+	
+	MusicChange(0x31)
+	MOVE 15 0x2 [4,8]
+	STAL 60
+	PlayEmotionEffect(0x2,ExclamationEffect)
+	STAL 45
+	
+	MOVE 15 0xAB [4,7]
+	ENUN
+	StartBattle
+	NormalDamage(0xAB, 5)
+	EndAttack
+	FIGHT_MAP 0xAB 0x02 RottenClaw False
+	STAL 45
+	StartBattle
+	NormalDamage(0x02, 80)
+	EndAttack
+	FIGHT_MAP 0x02 0xAB Fire False
+	DISA 0xAB
+	
+	CAM1 [1,1]
+	STAL 60
+	PlayEmotionEffect(Amelia,DotDotDotEffect)
+	STAL 45
+	
+	CAM1 [5,14]
+    ENUN
+	CUSA 0x2
+	ENUN
+
+
+	
+	
+	ENUN
+	PlayEmotionEffect(Fauna,ExclamationEffect)
+	PlayEmotionEffect(Mumei,ExclamationEffect)
+	STAL 45
+	
+	
+	MOVE 15 Mumei [17,5]
+	MOVE 15 Fauna [15,8]
+	PlayEmotionEffect(Mumei,ExclamationEffect)
+	STAL 45
+	MusicChange(0x31)
+	
+	MOVE 15 Fauna [16,6]
+	ENUN
+	
+	CUSA Mumei
+	CUSA Fauna
+
+Chp1House:
+SetBackground(House1)
+TalkConvo()
+FadeBlack
+CLEAN
+FadeBackBlack
+ENDA
+
+Chp1VillageEvent:
+FadeBlack
+SetBackground(House1)
+FadeBackBlack
+TalkConvo()
+FadeBlack
+CLEAN
+FadeBackBlack
+GiveItem(0x76,0xFFFF)
+NoFade
+ENDA
+
+
+
+MusicChange(0x2E)
+SetBackground(ForestNight)
+FadeBackBlack
+CHECK_ALIVE 0x3
+BEQ 0x1 0xC 0x0
+CHECK_ALIVE 0x4
+BEQ 0x1 0xC 0x0
+
+GOTO 0x2
+LABEL 0x1
+
+LABEL 0x2
+
+
+
+
+
+
+
+House(20,Chp1House,11,12)
+	Village(0x10,Chp1VillageEvent,2,3)
+
+
+
+
+
+TalkConvo()
+
+
+*/
+
+

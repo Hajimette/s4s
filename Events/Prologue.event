@@ -51,6 +51,7 @@ CharacterBasedEvents:
 
 MiscBasedEvents:
 	CauseGameOverIfLordDies
+	AREA 0 CivilianEscape [15, 12] [15, 13]
 
 
 
@@ -68,12 +69,12 @@ LOCA 16 PrologueBossDoor [14,5] 0x12
 //Door(2,8)
 LOCA 13 BotanAmeliaDoorPrologue [2,8] 0x12
 Chest(IronSword,7,8)
-Door(13,9)
+LOCA Flag22 PrologueNPCUpper [13,9] 0x12
+LOCA Flag23 PrologueNPCLower [13,15] 0x12
 Door(7,11)
 Door(7,14)
-Door(2,16)
+LOCA Flag21 UnionPrologueDoor [2,16] 0x12
 Chest(CombatStim,8,16)
-Door(13,15)
 Chest(0x6D,9,0)
 Escape(13,0)
 Escape(14,0)
@@ -100,16 +101,11 @@ Tutorial:
 
 PlayerUnits:
 
-	UNIT 0xF0 0x73 Amelia Level(1,Ally,False) [0,9] 0x0 0x0 0x0 0x0 [0x0,0x0] NoAI
-
-UNIT
-
-
-
-Boatan:
+	UNIT 0x01 0x73 Amelia Level(1,Ally,False) [0,9] 0x0 0x0 0x0 0x0 [0x0,0x0] NoAI
 	UNIT 0x14 0x89 Amelia Level(4,Ally,False) [0,10] 0x0 0x0 0x0 0x0 [0,0] NoAI
-
+	
 UNIT
+
 
 EnemyUnits:
  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [4,16] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
@@ -128,10 +124,10 @@ UNIT 0x80 0x09 0x53 Level(4,Enemy,True) [14,0] 0x0 0x0 0x0 0x0 [Javelin] Unmovin
 UNIT 0x49 0x89 0x53 Level(10,Enemy,True) [14,2] DropItem 0x0 0x0 0x0 [Crossbow] NoMoveAI
 
 
- UNIT 0xFC 0x6F 0x53 Level(1,NPC,True) [1,15] 0x0 0x0 0x0 0x0 [0x0] NoMoveAI
- UNIT 0xFC 0x70 0x53 Level(1,NPC,True) [0,17] 0x0 0x0 0x0 0x0 [0x0] NoMoveAI
-UNIT 0xFC 0x6D 0x53 Level(1,NPC,True) [14,9] 0x0 0x0 0x0 0x0 [0x0] NoMoveAI
-UNIT 0xFC 0x70 0x53 Level(1,NPC,True) [14,16] 0x0 0x0 0x0 0x0 [0x0] NoMoveAI
+ UNIT 0xF5 0x10 0x53 Level(5,NPC,True) [1,15] 0x0 0x0 0x0 0x0 [0x0] DefaultAI
+ UNIT 0xEF 0x42 0x53 Level(4,NPC,True) [0,17] 0x0 0x0 0x0 0x0 [0x0] DefaultAI
+UNIT 0xFC 0x6D 0x53 Level(1,NPC,True) [14,9] 0x0 0x0 0x0 0x0 [0x0] EscapeOnlyAI
+UNIT 0xFC 0x70 0x53 Level(1,NPC,True) [14,16] 0x0 0x0 0x0 0x0 [0x0] EscapeOnlyAI
     UNIT
 
 NousagiPrologueTurn3:
@@ -164,10 +160,6 @@ UNIT
 
 
 
-
-AmeliaWakesUp:
-UNIT Amelia 0x1 Amelia Level(1,Ally,False) [0,9] 0x0 0x0 0x0 0x0 [0x0] NoAI
-UNIT
 
 
 GrassCutsceneUnit:
@@ -279,12 +271,9 @@ SansCutin:
 	
 ZetaPrologue:
 UNIT 0x32 0x91 Amelia Level(1,Ally,False) [14,24] 0x0 0x0 1 REDA14R22 [SteelSword,0xD,Vulnerary] NoAI
-	
 	UNIT 0x10 0x8F Amelia Level(1,Ally,False) [13,24] 0x0 0x0 1 REDA13R23 [0xA0,0x6C] NoAI
-	
 	UNIT 0x11 0x8D Amelia Level(2,Ally,False) [14,24] 0x0 0x0 1 REDA15R23 [0x45,0x38] NoAI
-	
-	UNIT 0x34 0x14 Amelia Level(2,NPC,False) [14,24] 0x0 0x0 1 REDA13R22 [0x45,0x38] NoAI
+	UNIT 0x34 0xC5 Amelia Level(2,NPC,False) [14,24] 0x0 0x0 1 REDA13R22 [0x45,0x38] NoAI
 	UNIT 0x35 0xAA Amelia Level(2,NPC,False) [14,24] 0x0 0x0 1 REDA15R22 [0x45,0x38] NoAI
 
 UNIT
@@ -555,9 +544,10 @@ STAL 60
 	LOMA 0x0
 	CAM1 [11,9]
 	CLEARALL
+	REVEAL 0x1
 	LOAD1 0 EnemyUnits
 	LOAD1 0x1 PlayerUnits
-	LOAD1 0x1 Boatan
+	RECLASS 0x1 0x73
 	FadeBackBlack
 	STAL 60
 	CAM1 [13,21]
@@ -572,7 +562,6 @@ STAL 60
 	STAL 5
 	DISA_IF 0x34
 	DISA_IF 0x35
-	REMU 0x1
 	SOUN 0xB1
 	ENUN
 	SOUN 0xB1
@@ -591,10 +580,7 @@ MusicChange(0x12)
 FlashCursor(0,9,60)
 TalkConvo(TimetoLeave)
 SoundEffect(0x14A)
-DISA_IF 0xF0
-REMU 0xF0
-REVEAL 0x1
-LOAD1 1 AmeliaWakesUp
+RECLASS 0x1 0x1
 STAL 30
 FadeBlack
 SetBackground(Dungeon2)
@@ -627,13 +613,86 @@ FadeBlack
 MusicChange(0x17)
 SetBackground(Dungeon2)
 FadeBackBlack
-Text(ZetaMeliANPrologue)
+CHECK_ACTIVE
+	SVAL s1 0x32 //If zeta active
+	BEQ 1 s1 sC
+		CHECK_ACTIVE
+		SVAL s1 0x10
+		BEQ 2 s1 sC
+			TalkConvo(RisuDoorPrologue)	// Risu Here
+	GOTO 10
+	LABEL 1 // Here if Zeta active
+	TalkConvo(ZetaMeliANPrologue)
+	GOTO 10
+		LABEL 2
+		TalkConvo(RobocoDoorPrologue)
+LABEL 10
 FadeBlack
 CLEAN
 FadeBackBlack
 NoFade
 ENDA
 	
+UnionPrologueDoor:
+SoundEffect(0xB1)
+TILECHANGE 11
+TalkConvo(UnionistsPrologue)
+SilentGiveItem(IronAxe, 0xEF)
+SilentGiveItem(IronSword, 0xF5)
+
+
+/*
+SCOORD sB [1,15]
+SVAL s1 0xFFFE
+SVAL s2 0x2
+SVAL s3 0
+ASMC SilentGiveItem
+//SVAL s1 0xF6
+//SVAL s1 0xF5
+SCOORD sB [0,17]
+SVAL s1 0xFFFE
+SVAL s2 0x1F
+SVAL s3 0
+ASMC SilentGiveItem
+*/
+
+
+NoFade
+ENDA
+
+
+
+PrologueNPCUpper:
+SoundEffect(0xB1)
+TILECHANGE 7
+TalkConvo(NPCDialogueUpper)
+
+NoFade
+ENDA
+
+
+PrologueNPCLower:
+SoundEffect(0xB1)
+TILECHANGE 10
+TalkConvo(NPCDialogueLower)
+NoFade
+ENDA
+
+CivilianEscape:
+CHECK_CLASS -1
+SVAL s1 0x6D
+BNE 4 s1 sC
+	ENUT 0x79
+	GOTO 5
+LABEL 4
+SVAL s1 0x70
+BNE 5 s1 sC
+	ENUT 0x7a
+LABEL 5
+NoFade
+ENDA
+
+
 
 
 
@@ -703,6 +762,7 @@ ENDA
 
 
 EndingScene:
+EndOfEscapeRoutineASMC
 EnactAutoRepair
 	FadeBlack
 	SetBackground(0x45)
@@ -761,7 +821,7 @@ GOTO 67
 	LABEL 67
 	
 	
-	// Calliope Cutscene
+							// Calliope Cutscene
 	FadeBlack
 MusicChange(0x5F)
 LOMA 0x4B
@@ -799,7 +859,7 @@ CUSE 0x23
 	ENUF 11 // unset completion flag if unit selected isn't Miko
 	GOTO 2
 	LABEL 1
-	TextBox(CombatTutorial)
+	TextBox(
 	LABEL 2
 	NoFade
 

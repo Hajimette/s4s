@@ -36,6 +36,7 @@ BYTE 0xF4 // Again Staff
 BYTE 0xF3 // Thief Staff
 BYTE 0xF2 // Entrap
 BYTE 0xF1 // Stim
+BYTE 0x95 // Vial
 BYTE 0xBB //Rewarp
 BYTE 0xA0 //Pistol
 

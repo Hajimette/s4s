@@ -141,6 +141,7 @@
 #define Violance 0x91
 #define Brandioche 0x92 //
 #define Maidsweeper 0x93
+#define Vial 0x94
 #define DireThunder 0x95
 #define SpaceSeal 0x96
 #define Stopwatch 0x97

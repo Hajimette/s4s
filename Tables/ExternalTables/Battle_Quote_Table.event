@@ -15,6 +15,7 @@ SpecifiedBattleConvo(0x14,Entombed_boss,Prologue,Flag13,BotanPrologueQuote)
 SpecifiedBattleConvo(0x11,Entombed_boss,Prologue,Flag14,RisuPrologueQuote)
 SpecifiedBattleConvo(0x10,Entombed_boss,Prologue,Flag15,RobocoPrologueQuote)
 SpecifiedBattleConvo(Amelia,Entombed_boss,Prologue,BossQuote,AmeliaMonsterQuote)
-
+//Chapter1
+UnspecifiedBattleConvo(0x46,0x1,BossQuote,NoirBattleQuote)
 
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0  // Terminator

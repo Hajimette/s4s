@@ -8,18 +8,33 @@ off to find my watch...[A][X]
 ## AmeliaChapter1EscapeText
 [MidRight][LoadAme]
 I'm not dealing with this anymore.[N]
-Time to go.[A][X]
+Time to go.[A][2NL]
+God damn it I need my watch...[A][X]
 
 ## BotanPrologueEscapeText
 [MidRight][LoadBotanP]
 [MidRight]
 I'll clear the way forward![A][X]
 
+## BotanChp1EscapeText
+[MidLeft][LoadBotanP]
+[MidLeft]
+Better start relearning everything...[A][N]
+this felt harder than I remember...[A][X]
+
+
+
 ## ZetaPrologueEscapeText
 [MidRight][LoadZetaP]
 [MidRight]
 I'll make sure the way[N]
 ahead is safe![A][X]
+
+## ZetaChp1EscapeText
+[MidLeft][LoadZetaP]
+[MidLeft]
+We're getting slightly overwhelmed.[A][N]
+Better to leave now than never.[A][X]
 
 ## ZetaFinalPrologueEscapeText
 [MidRight][LoadZetaP]
@@ -28,25 +43,38 @@ I saved everyone I could.[A][N]
 Now to meet up with[N]
 Iroha and Koyori.[A][X]
 
+## ZetaFinalChp1EscapeText
+[MidLeft][LoadZetaP]
+[MidLeft]
+Thats everyone. Lets go[N]
+before we get cornered.[A][X]
 
-## ReineChapter1EscapeQuoteText
-[MidRight][LoadReineP]
-[MidRight]
-Damn these things...I hope[N]
-Shike is alright...[A][X]
 
-## FaunaChapter1EscapeQuoteText
-[MidRight][LoadFaunaP]
-[MidRight]
-I hope Mumei managed [N]
-to make it through...[A][X]
+## IrohaChapter1EscapeQuoteText
+[MidLeft][LoadIrohaP]
+[MidLeft]
+A pity I couldn't fight them[N]
+all, I daresay.[A][2NL]
+Though, I'm sure master has[N]
+more targets for us to raid.[A][X]
 
-## MumeiChapter1EscapeQuoteText
-[MidRight][LoadMumei]
-[MidRight]
-Too many of these things...[N]
-I'm getting out of here...[A][N]
-hopefully Fauna is alright...[A][X]
+
+
+## KoyoriFinalEscapeQuoteText
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+Everyone else left...I better[N]
+hurry and get these to the lab.[A][X]
+
+
+## KoyoriChapter1EscapeQuoteText
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+I better get these things to[N]
+the lab.[A] Looks like there's[N]
+a lot of potential I need to[N]
+unlock from them.[A][X]
+
 
 ## RisuPrologueEscapeText
 [MidRight][LoadRisuP]
@@ -54,11 +82,27 @@ hopefully Fauna is alright...[A][X]
 All right... that wasn't so[N]
 bad this time around...[A][X]
 
+## RisuChp1EscapeText
+[MidLeft][LoadRisuP]
+[MidLeft]
+Why are there so many of[N]
+these stupid rabbits?![A][X]
+
+
 ## RBCPrologueEscapeText
 [MidRight][LoadRobocoP]
 [MidRight]
 I've done all I can.[A][N]
 I'll be up ahead![A][X]
+
+## RBCChp1EscapeText
+[MidLeft][LoadRobocoP]
+[MidLeft]
+Enemies are increasing[N]
+exponentially.[A][N]
+We better get out of here[N]
+while we can.[A][X]
+
 
 
 //
@@ -70,11 +114,11 @@ Watch back...[A][N]
 Kronii...[A][X]
 
 ## AmeliaChapter1FinalEscapeText
-[MidRight][LoadAme]
-[MidRight]
-Please don't force me to kill[N]
-more of these things...[A][N]
-Damn it Warden...[A][X]
+[MidLeft][LoadAme]
+[MidLeft]
+D...damn it! Too close[N]
+for comfort...[A][X]
+
 
 ## BotanPrologueFinalEscapeText
 [MidRight][LoadBotanP]
@@ -82,9 +126,15 @@ Damn it Warden...[A][X]
 Alright, thats everyone![N]
 Lets get out of here![A][X]
 
-## ReineFinalEscapeQuoteText
-[MidRight][LoadReineP]
-[MidRight]
-Shike... I hope the village[N]
-is alright...[A][N]
-I better talk to Amelia...[A][X]
+## BotanChp1FinalEscapeText
+[MidLeft][LoadBotanP]
+[MidLeft]
+Everyone is ahead, lets go![A][X]
+
+
+
+## IrohaFinalEscapeQuoteText
+[MidLeft][LoadIrohaP]
+[MidLeft]
+Protected what I could, I daresay.[A][N]
+Now to link up with Master...[A][X]

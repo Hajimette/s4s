@@ -18,3 +18,70 @@ Stimulant, [Red]ENGAGE![Red][A][X]
 [MidLeft]
 Good thing these things[N]
 really don't sting...[A][X]
+
+
+## AmeStimNah
+[MidLeft][LoadAme]
+[MidLeft]
+Maybe I should wait a bit...[A][N]
+I'd probably die with a dose[N]
+right now...[A][X]
+
+
+## KoyoReadytoCook
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+Here we go...[A][X]
+
+
+## KoyoVuln1
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+Hmph...It's better[N]
+than nothing![A][X]
+
+## KoyoVuln2
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+Oh yea... this will[N]
+DEFINITELY help us![A][X]
+
+## KoyoVuln3
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+Well... this should help[N]
+us against magic.[A][X]
+
+## KoyoVuln4
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+## KoyoVuln5
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+Well... it's something![A][X]
+
+## KoyoVuln6
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+How do I even create[N]
+things like this...[A][X]
+
+## KoyoVuln7
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+Hmm... the fabric seems pretty[N]
+strong... seems ready for field use![A][X]
+
+## KoyoVuln8
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+Maybe I should invest more[N]
+into making gems...[A][X]
+
+## KoyoVuln9
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+Heh, seems like the metal[N]
+finally hardened![A][X]

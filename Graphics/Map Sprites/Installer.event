@@ -805,12 +805,12 @@ LaplaceWalk:
 #incbin "dmp/LaplaceWalk.dmp"
 
 ALIGN 4
-SageStand:
-#incbin "dmp/SageStand.dmp"
+KoyoriStand:
+#incbin "dmp/Koyori.dmp"
 
 ALIGN 4
-SageWalk:
-#incbin "dmp/SageWalk.dmp"
+KoyoriWalk:
+#incbin "dmp/KoyoriWalk.dmp"
 
 ALIGN 4
 NephStand:
@@ -987,3 +987,19 @@ VillagerFWalk:
 ALIGN 4
 VillagerFStand:
 #incbin "dmp/VillagerFStand.dmp"
+
+ALIGN 4
+RoninStand:
+#incbin "dmp/RoninStand.dmp"
+
+ALIGN 4
+RoninWalk:
+#incbin "dmp/RoninWalk.dmp"
+
+ALIGN 4
+VanguardStand:
+#incbin "dmp/VanguardStand.dmp"
+
+ALIGN 4
+VanguardWalk:
+#incbin "dmp/VanguardWalk.dmp"

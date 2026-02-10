@@ -24,7 +24,7 @@ now...[A][CloseEyes][X]
 
 
 ## ReineDeath
-[MidRight][LoadReineP]
+[MidRight][ReineP]
 Urgh[ToggleMouthMove]...[ToggleMouthMove][A]Sorry Amelia, I can't fight[N]
 anymore...[A][2NL][N]
 I got to pull back.[A][X]
@@ -301,3 +301,7 @@ Damn it![A][MidRight][LoadShirakamiP][....][MidRight][LoadKurokamiP][OpenMidRigh
 Why do we...[....][MidRight][LoadShirakamiP][OpenMidRight]have to go[....][MidRight][LoadKurokamiP][OpenMidRight] now?![A][OpenMidRight][CloseEyes][X]
 
 // Bosses
+## NoirDeath
+[MidLeft][LoadNoir]
+Damn it... you don't know what[N]
+you're doing killing me...[A][CloseEyes][X]
