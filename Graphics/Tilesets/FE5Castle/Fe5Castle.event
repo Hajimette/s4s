@@ -9,3 +9,7 @@ FE5CastlePal:
 ALIGN 4
 FE5CastleConfig:
 #incbin "FE5Castle_comp.dmp"
+
+ALIGN 4
+FE5CastleSnowPal:
+#incbin "FE5CastleSnowPal_pal.dmp"

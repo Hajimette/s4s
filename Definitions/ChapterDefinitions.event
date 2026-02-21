@@ -132,6 +132,7 @@
 #define DesertPalID 0xB
 #define MetroPalID 0xC
 #define SnowFieldsPalID 0xD
+#define FE5CastleSnowPalID 0xE
 
 
 //Config

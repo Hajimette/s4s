@@ -17,6 +17,54 @@ This...wasn't suppose to[N]
 happen...[A][N]
 Why...now?[A][CloseEyes][X]
 
+## IrohaChp1Death
+[MidRight][LoadIrohaP]
+[MidRight]
+Why[ToggleMouthMove]...[ToggleMouthMove]now?[A][2NL]
+Why[ToggleMouthMove]...[ToggleMouthMove]here?[A][CloseEyes][X]
+
+## KoyotiChp1Death
+[MidRight][LoadKoyoriP]
+[MidRight]
+There was so much I wanted to[N]
+uncover...[A] Why now?[A][2NL]
+Iroha...[A][CloseEyes][X]
+
+## AmeCroakChp1
+[MidRight][LoadAme]
+[MidRight]
+N...no! Why am I going to[N]
+die here![A] Why here of all[N]
+places?![A][CloseEyes][X]
+
+## BotanCroakChp1
+[MidRight][LoadBotanP]
+[MidRight]
+Heh. I guess I was meant[N]
+to die here.[A][CloseEyes][X]
+
+
+## ZetaCroakChp1
+[MidRight][LoadZetaP]
+[MidRight]
+Heh. They won't be able to[N]
+get out without me...[A][N]
+Forgive me, boss.[A][CloseEyes][X]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## AmeDeath
 [MidRight][LoadAme]
 I can't...go home[N]
@@ -24,7 +72,7 @@ now...[A][CloseEyes][X]
 
 
 ## ReineDeath
-[MidRight][ReineP]
+[MidRight][LoadReineP]
 Urgh[ToggleMouthMove]...[ToggleMouthMove][A]Sorry Amelia, I can't fight[N]
 anymore...[A][2NL][N]
 I got to pull back.[A][X]

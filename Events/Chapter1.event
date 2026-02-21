@@ -263,7 +263,7 @@ EnactAutoRepair
 	DISA_IF 0xAA
 	Text(NoirhasabruhmomentAlert)
 	CAM1 [2,3]
-	LOAD1 0x1 PlayerUnits
+	LOAD1 0 PlayerUnits
 	TalkConvo(ZetaChapter1DescAlerted)
 	LABEL 2
 	TextBox(RequiredEscapesChapter1)
@@ -562,6 +562,7 @@ STAL 45
 
 
 FadeBlack
+CLEARALL
 	MNC2 2
 	NoFade
 	ENDA

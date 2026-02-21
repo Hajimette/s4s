@@ -62,5 +62,3 @@ Chapter 16: Tides Turn[X]
 Chapter 17: Liberation[X]
 
 
-## EscapeObjective
-Escape[X]

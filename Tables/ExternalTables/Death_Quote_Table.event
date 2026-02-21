@@ -9,7 +9,13 @@ DeathQuote(0x1,0x0,GameOver,AmeCroakPrologue)
 DeathQuote(0x14,0x0,GameOver,BotanCroakPrologue)
 DeathQuote(0x32,0x0,GameOver,ZetaCroakPrologue)
 
-//DeathQuote(0x2,0x1,GameOver,ReineChp1Death) //Reine
+
+// Chapter1
+DeathQuote(0x1,0x1,GameOver,AmeCroakChp1)
+DeathQuote(0x14,0x1,GameOver,BotanCroakChp1)
+DeathQuote(0x32,0x1,GameOver,ZetaCroakChp1)
+DeathQuote(0x34,0x1,GameOver,IrohaChp1Death) //Gozaru
+DeathQuote(0x35,0x1,GameOver,KoyotiChp1Death)
 
 
 

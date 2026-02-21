@@ -20,7 +20,7 @@ I'll clear the way forward![A][X]
 [MidLeft][LoadBotanP]
 [MidLeft]
 Better start relearning everything...[A][N]
-this felt harder than I remember...[A][X]
+this feels harder than I remember...[A][X]
 
 
 

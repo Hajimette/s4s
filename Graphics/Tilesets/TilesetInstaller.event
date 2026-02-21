@@ -21,8 +21,9 @@ SetTilesetConfig(SnowFieldsConfigID, SnowFieldsConfig)
 
 #include "FE5Castle/FE5Castle.event"
 SetTilesetObject(FE5CastleID, FE5CastleObject)
-SetTilesetPalette(FE5CastlePalID,FE5CastlePal)
-SetTilesetConfig(FE5CastleConfigID,FE5CastleConfig)
+SetTilesetPalette(FE5CastlePalID, FE5CastlePal)
+SetTilesetPalette(FE5CastleSnowPalID, FE5CastleSnowPal)
+SetTilesetConfig(FE5CastleConfigID, FE5CastleConfig)
 
 #include "UpdatedStronghold/Stronghold.event"
 SetTilesetObject(StrongholdID, StrongholdObject)

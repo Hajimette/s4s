@@ -279,8 +279,7 @@ POIN SoundRoom
 ORG $B042C
 POIN SoundRoom
 
-ORG $5524
-POIN PortraitTable
+
 
 ORG $28BC
 POIN MusicTable

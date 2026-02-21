@@ -6,10 +6,12 @@ Escape the[N]
 Prison[X]
 
 ## EscapeChp1
-Escape the Forest[X]
+Break through the[N]
+guards and escape.[X]
 
 ## ShikeChp2
-Clear the Nousagi[X]
+Get out while[N]
+you still can.[X]
 
 ## HTTEChp3
 Defeat the Leader[X]

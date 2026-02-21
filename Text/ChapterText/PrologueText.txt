@@ -1246,7 +1246,7 @@ F...forget it![A][2NL]
 Thank you![A][X]
 
 ## UnionistsPrologue
-[Left][LoadAme]
+[Left][LoadPrologueNPCF]
 [Left]
 Placeholder, ENGAGE[A][X]
 
