@@ -715,6 +715,12 @@ POP
 #include "BattleAnims/Kensei/Unarmed Installer.event"
 }
 
+{
+#include "BattleAnims/Koyori/KoyoMagic Installer.event"
+#include "BattleAnims/Koyori/KoyoStaff Installer.event"
+}
+
+
 
 ALIGN 4
 InvestigatorAnims:
@@ -1541,9 +1547,14 @@ SwordAnim(0x16E)
 UnarmedAnim(0x16F)
 WORD 0x0
 
-
-
-
+ALIGN 4
+KoyoriAnim:
+AnimaAnim(0x170)
+DarkAnim(0x170)
+LightAnim(0x170)
+UnarmedAnim(0x170)
+StaffAnim(0x171)
+WORD 0x0
 
 
 

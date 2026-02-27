@@ -42,7 +42,7 @@ Looks like more auxillary units.[A][X]
 ## Zeta1SusChp2
 [Left][LoadZetaP]
 [Left]
-Looks like we have some time[N]
+We likely have some time[N]
 before they start mobilizing.[A][ToggleSmile][N]
 That's good news for us, at least.[A][X]
 

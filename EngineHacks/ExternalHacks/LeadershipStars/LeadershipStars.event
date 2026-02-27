@@ -18,7 +18,7 @@ BYTE 1
 EnemyStarHitBonus:
 BYTE 3
 EnemyStarAvoidBonus:
-BYTE 1
+BYTE 0
 
 NPCStarHitBonus:
 BYTE 0
@@ -30,19 +30,13 @@ BYTE 1 // change to 0 if you don't want this behaviour
 
 LeadershipTable:
 // ALLIES
-BYTE Eirika 1
-BYTE Seth 1
+BYTE 0x1 2
+BYTE 0x32 1
+BYTE 0x14 1
 BYTE Kronii 10
 // BOSSES
-BYTE Murray 1
-BYTE ONeill 1
-BYTE Breguet 1
-BYTE Bazba 1
-BYTE Saar 1
-BYTE Novala 1
-BYTE Zonta 1
-BYTE Tirado 1
-BYTE EmiliaBoss 1
+BYTE 0x49 3
+BYTE 0x4A 3
 BYTE 0x0 0x0 //delimiter
 
 PUSH

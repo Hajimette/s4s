@@ -70,7 +70,7 @@ SHORT FatigueTxt
 
 ALIGN 4
 FatigueExemptCharList:
-BYTE Eirika
+BYTE 0x1
 BYTE 0
 
 ALIGN 4

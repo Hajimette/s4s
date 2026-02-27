@@ -18,4 +18,15 @@ EscapePointEntry(15,12,EscapeRight)
 EscapePointEntry(15,13,EscapeRight)
 EscapePointTerminator
 
+Chp2NPCEscapeTable:
+EscapePointEntry(22,0,EscapeUp)
+EscapePointEntry(24,0,EscapeUp)
+EscapePointEntry(23,0,EscapeUp)
+EscapePointTerminator
+
+
+
 SetNPCEscapePoint(Prologue,PrologueNPCEscapeTable)
+
+
+SetEnemyEscapePoint(Chapter2,Chp2NPCEscapeTable)

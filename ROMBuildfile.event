@@ -36,13 +36,13 @@ ALIGN 4
 
 
 //Engine Hacks
-    
+    #include "Graphics/MasterGraphicsInstaller.event"
     #include "EngineHacks/_MasterHackInstaller.event"
 #include "New Stuff/Patches.event"
     #include "Music/MusicInstaller.event"
     #include "TitleScreen/TitleMaster.event"
     #include "StatusScreen/ChangeStatusBG.event"
-    #include "Graphics/MasterGraphicsInstaller.event"
+    
 
 #include "Tables/ExternalTables/Battle_Quote_Table.event"
 

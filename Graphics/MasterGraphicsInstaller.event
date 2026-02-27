@@ -1,11 +1,10 @@
-
 #include "Animations/MasterBattleAniInstaller.event"
+
+#include "Portraits/PortraitInstaller.event"
 
 #include "PortraitHeight/PortraitHeight.event"
 
 #include "ClassCards/MasterCardInstaller.event"
-
-#include "Portraits/PortraitInstaller.event"
 
 #include "RemoveBGFog/RemoveEffects.event"
 
@@ -19,11 +18,13 @@
 
 #include "ItemIcons/Installer.event"
 
-#include "UserInterface.event"
-
 #include "ArmyPalettes/ArmyPalette.event"
 
 #include "Ui/BattleScreen.event"
+
+#include "UserInterface.event"
+
+
 
 
 

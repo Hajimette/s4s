@@ -9,7 +9,7 @@
 ALIGN 4
 BossBGMTable:
 //Prologue
-BossBGMEntry(Entombed_boss, FE5BossBattleID)
+BossBGMEntry(EmiliaBoss, FE5BossBattleID)
 //Chp1
 BossBGMEntry(0x46, FE5BossBattleID)
 //Chp2

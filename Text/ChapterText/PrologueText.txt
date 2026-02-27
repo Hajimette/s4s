@@ -1247,8 +1247,18 @@ Thank you![A][X]
 
 ## UnionistsPrologue
 [Left][LoadPrologueNPCF]
+[FarLeft][LoadPrologueNPCM]
 [Left]
-Placeholder, ENGAGE[A][X]
+Looks like the door opened.[A]
+[FarLeft]
+Heh, time for payback.[A]
+[Left][ClearFace]
+[Right][LoadPrologueNPCF]
+[Right]
+How the hell did you keep[N]
+these from the guards?![A]
+[FarLeft]
+You don't want to know.[A][X]
 
 
 

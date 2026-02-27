@@ -1,3 +1,4 @@
+/*
 //Characters
 #define Eirika 0x01
 #define Seth 0x02
@@ -101,6 +102,8 @@
 #define OldCivilian 0xFC
 #define Wall 0xFE
 #define Snag 0xFF
+*/
+
 
 //Classes
 #define EphraimLord 0x01
@@ -454,6 +457,9 @@
 #define _200G 0xB9
 #define BlackGem 0xBA
 #define GoldGem 0xBB
+
+
+
 
 //Chapter IDs
 #define Prologue 0x00

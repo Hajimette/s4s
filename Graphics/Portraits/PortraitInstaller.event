@@ -23,53 +23,53 @@ POP
 #define AmeliaAlt1 0xD2
 #define AmeLonk 0xCE
 #define MKmelia 0xD5
-#define Bloom 0xC6
-#define Chloe 0x23
-#define Choco 0xB6
+#define BloomPortrait 0xC6
+#define ChloePortrait 0x23
+#define ChocoPortrait 0xB6
 #define Corruptchama 0x4A
 #define Corrupthaato 0x3C
 #define Fadedhaato 0x47
 #define Galzus 0xB9
-#define Gloom 0xC7
+#define GloomPortrait 0xC7
 #define Haatoeyepatch 0x40
 #define HaatoNeck 0x4F
 #define IMP 0x28
 #define IMPWand 0x44
 #define IofiEvil 0xF1
 #define Iofifteen 0x14
-#define Kaela 0xC4
+#define KaelaPortrait 0xC4
 #define KaelaEvil 0xF3
 #define Kiryu 0x26
-#define Korone 0x3F
-#define Kurokami 0x41
-#define Laplace 0x1F
-#define Laufey 0x39
+#define KoronePortrait 0x3F
+#define KurokamiPortrait 0x41
+#define LaplacePortrait 0x1F
+#define LaufeyPortrait 0x39
 #define LuiMorph 0x2F
 #define LuiN 0x15
-#define Mel 0x52
-#define Okayu 0x42
-#define Ollie 0x45
+#define MelPortrait 0x52
+#define OkayuPortrait 0x42
+#define OlliePortrait 0x45
 #define OllieEvil 0xF0
-#define Reine 0x04
+#define ReinePortrait 0x04
 #define ReineEvil 0xF7
-#define Sana 0x53
-#define Towa 0x56
-#define Yagoo 0xD4
-#define Zeta 0x12
+#define SanaPortrait 0x53
+#define TowaPortrait 0x56
+#define YagooPortrait 0xD4
+#define ZetaPortrait 0x12
 #define ZetaMorph 0xD9
 #define ZetaSus 0xF5
 #define RBC 0x16
 #define RBCNoGlasses 0xE0
-#define AZKi 0x1E
-#define Polka 0x0A
-#define Kronii 0xB5
+#define AZKiPortrait 0x1E
+#define PolkaPortrait 0x0A
+#define KroniiPortrait 0xB5
 #define KroniiAngry 0xB2
 #define KroniiBeat 0xDC
 #define Kronii1 0xE1
 #define Kronii2 0xE2
 #define Kronii3 0xE3
 #define OldLady 0x5F
-#define Brigand 0x4d
+#define BrigandPortrait 0x4d
 #define NoelP 0xC
 #define MumeiP 0x5
 #define FaunaP 0x6
@@ -99,7 +99,8 @@ POP
 #define IrysPortrait 0x43
 #define YabairysPortrait 0xFB
 #define InjuredHaatoPortrait 0x50
-#define NPCProloguePortraitF 0x0100
+#define NPCProloguePortraitF 0x0101
+#define NPCProloguePortraitM 0x0102
 
 
 
@@ -140,7 +141,7 @@ BloomData:
 #incbin "Dmps/Bloom_frames.dmp"
 #incbin "Dmps/Bloom_palette.dmp"
 #incbin "Dmps/Bloom_minimug.dmp"
-setMugEntry(Bloom, BloomData, 2, 8, 2, 6)
+setMugEntry(BloomPortrait, BloomData, 2, 8, 2, 6)
 
 
 ALIGN 4
@@ -149,7 +150,7 @@ ChloeData:
 #incbin "Dmps/Chloe_frames.dmp"
 #incbin "Dmps/Chloe_palette.dmp"
 #incbin "Dmps/Chloe_minimug.dmp"
-setMugEntry(Chloe, ChloeData, 3, 6, 3, 4)
+setMugEntry(ChloePortrait, ChloeData, 3, 6, 3, 4)
 
 ALIGN 4
 ChocoData:
@@ -157,7 +158,7 @@ ChocoData:
 #incbin "Dmps/Choco_frames.dmp"
 #incbin "Dmps/Choco_palette.dmp"
 #incbin "Dmps/Choco_minimug.dmp"
-setMugEntry(Choco, ChocoData, 3, 5, 3, 3)
+setMugEntry(ChocoPortrait, ChocoData, 3, 5, 3, 3)
 
 
 ALIGN 4
@@ -198,7 +199,7 @@ GloomData:
 #incbin "Dmps/Gloom_frames.dmp"
 #incbin "Dmps/Gloom_palette.dmp"
 #incbin "Dmps/Gloom_minimug.dmp"
-setMugEntry(Gloom, GloomData, 2, 8, 3, 6)
+setMugEntry(GloomPortrait, GloomData, 2, 8, 3, 6)
 
 ALIGN 4
 HaatoeyepatchData:
@@ -256,7 +257,7 @@ KaelaData:
 #incbin "Dmps/Kaela_frames.dmp"
 #incbin "Dmps/Kaela_palette.dmp"
 #incbin "Dmps/Kaela_minimug.dmp"
-setMugEntry(Kaela, KaelaData, 5, 5, 5, 3)
+setMugEntry(KaelaPortrait, KaelaData, 5, 5, 5, 3)
 
 ALIGN 4
 KaelaEvilData:
@@ -281,7 +282,7 @@ KoroneData:
 #incbin "Dmps/Korone_frames.dmp"
 #incbin "Dmps/Korone_palette.dmp"
 #incbin "Dmps/Korone_minimug.dmp"
-setMugEntry(Korone, KoroneData, 5, 7, 5, 5)
+setMugEntry(KoronePortrait, KoroneData, 5, 7, 5, 5)
 
 ALIGN 4
 KurokamiData:
@@ -290,7 +291,7 @@ KurokamiData:
 #incbin "Dmps/Kurokami_palette.dmp"
 #incbin "Dmps/Kurokami_minimug.dmp"
 //setMugEntry(Kurokami, KurokamiData, 4, 6, 4, 4)
-setMugEntryExtend(Kurokami, KurokamiData, 4, 6, 4, 4, 10, 5, 10, 3)
+setMugEntryExtend(KurokamiPortrait, KurokamiData, 4, 6, 4, 4, 10, 5, 10, 3)
 
 ALIGN 4
 LaplaceData:
@@ -298,7 +299,7 @@ LaplaceData:
 #incbin "Dmps/Laplace_frames.dmp"
 #incbin "Dmps/Laplace_palette.dmp"
 #incbin "Dmps/Laplace_minimug.dmp"
-setMugEntry(Laplace, LaplaceData, 3, 5, 3, 3)
+setMugEntry(LaplacePortrait, LaplaceData, 3, 5, 3, 3)
 
 ALIGN 4
 LuiMorphData:
@@ -322,7 +323,7 @@ MelData:
 #incbin "Dmps/Mel_frames.dmp"
 #incbin "Dmps/Mel_palette.dmp"
 #incbin "Dmps/Mel_minimug.dmp"
-setMugEntry(Mel, MelData, 3, 6, 3, 4)
+setMugEntry(MelPortrait, MelData, 3, 6, 3, 4)
 
 ALIGN 4
 OkayuData:
@@ -330,7 +331,7 @@ OkayuData:
 #incbin "Dmps/Okayu_frames.dmp"
 #incbin "Dmps/Okayu_palette.dmp"
 #incbin "Dmps/Okayu_minimug.dmp"
-setMugEntry(Okayu, OkayuData, 3, 6, 3, 4)
+setMugEntry(OkayuPortrait, OkayuData, 3, 6, 3, 4)
 
 ALIGN 4
 OllieData:
@@ -339,7 +340,7 @@ OllieData:
 #incbin "Dmps/Ollie_palette.dmp"
 #incbin "Dmps/Ollie_minimug.dmp"
 //setMugEntry(Ollie, OllieData, 3, 6, 3, 4)
-setMugEntryExtend(Ollie, OllieData, 3, 6, 3, 4, 10, 5, 10, 3)
+setMugEntryExtend(OlliePortrait, OllieData, 3, 6, 3, 4, 10, 5, 10, 3)
 
 ALIGN 4
 OllieEvilData:
@@ -356,7 +357,7 @@ ReineData:
 #incbin "Dmps/Reine_frames.dmp"
 #incbin "Dmps/Reine_palette.dmp"
 #incbin "Dmps/Reine_minimug.dmp"
-setMugEntry(Reine, ReineData, 4, 5, 4, 3)
+setMugEntry(ReinePortrait, ReineData, 4, 5, 4, 3)
 
 ALIGN 4
 ReineEvilData:
@@ -372,7 +373,7 @@ SanaData:
 #incbin "Dmps/Sana_frames.dmp"
 #incbin "Dmps/Sana_palette.dmp"
 #incbin "Dmps/Sana_minimug.dmp"
-setMugEntry(Sana, SanaData, 3, 5, 3, 3)
+setMugEntry(SanaPortrait, SanaData, 3, 5, 3, 3)
 
 ALIGN 4
 TowaData:
@@ -380,7 +381,7 @@ TowaData:
 #incbin "Dmps/Towa_frames.dmp"
 #incbin "Dmps/Towa_palette.dmp"
 #incbin "Dmps/Towa_minimug.dmp"
-setMugEntry(Towa, TowaData, 4, 6, 4, 4)
+setMugEntry(TowaPortrait, TowaData, 4, 6, 4, 4)
 
 ALIGN 4
 YagooData:
@@ -388,7 +389,7 @@ YagooData:
 #incbin "Dmps/Yagoo_frames.dmp"
 #incbin "Dmps/Yagoo_palette.dmp"
 #incbin "Dmps/Yagoo_minimug.dmp"
-setMugEntry(Yagoo, YagooData, 4, 6, 4, 4)
+setMugEntry(YagooPortrait, YagooData, 4, 6, 4, 4)
 
 ALIGN 4
 ZetaData:
@@ -396,7 +397,7 @@ ZetaData:
 #incbin "Dmps/Zeta_frames.dmp"
 #incbin "Dmps/Zeta_palette.dmp"
 #incbin "Dmps/Zeta_minimug.dmp"
-setMugEntry(Zeta, ZetaData, 4, 6, 4, 4)
+setMugEntry(ZetaPortrait, ZetaData, 4, 6, 4, 4)
 
 ALIGN 4
 ZetaMorphData:
@@ -437,7 +438,7 @@ LaufeyData:
 #incbin "Dmps/Laufey_frames.dmp"
 #incbin "Dmps/Laufey_palette.dmp"
 #incbin "Dmps/Laufey_minimug.dmp"
-setMugEntry(Laufey, LaufeyData, 4, 6, 4, 4)
+setMugEntry(LaufeyPortrait, LaufeyData, 4, 6, 4, 4)
 
 ALIGN 4
 RBCData:
@@ -463,7 +464,7 @@ AZKiData:
 #incbin "Dmps/AZKi_frames.dmp"
 #incbin "Dmps/AZKi_palette.dmp"
 #incbin "Dmps/AZKi_minimug.dmp"
-setMugEntry(AZKi, AZKiData, 3, 6, 3, 4)
+setMugEntry(AZKiPortrait, AZKiData, 3, 6, 3, 4)
 
 ALIGN 4
 PolkaData:
@@ -472,7 +473,7 @@ PolkaData:
 #incbin "Dmps/Polka_palette.dmp"
 #incbin "Dmps/Polka_minimug.dmp"
 //setMugEntry(Polka, PolkaData, 3, 6, 3, 4)
-setMugEntryExtend(Polka, PolkaData, 3, 6, 3, 4, 10, 0, 0, 0)
+setMugEntryExtend(PolkaPortrait, PolkaData, 3, 6, 3, 4, 10, 0, 0, 0)
 
 ALIGN 4
 KroniiData:
@@ -481,7 +482,7 @@ KroniiData:
 #incbin "Dmps/Kronii_palette.dmp"
 #incbin "Dmps/Kronii_minimug.dmp"
 //setMugEntry(Kronii, KroniiData, 2, 5, 2, 3)
-setMugEntryExtend(Kronii, KroniiData, 2, 5, 2, 3, 10, 5, 10, 3)
+setMugEntryExtend(KroniiPortrait, KroniiData, 2, 5, 2, 3, 10, 5, 10, 3)
 
 
 ALIGN 4
@@ -830,7 +831,15 @@ NPCPrologueFData:
 #incbin "Dmps/NPCFPrologue_frames.dmp"
 #incbin "Dmps/NPCFPrologue_palette.dmp"
 #incbin "Dmps/NPCFPrologue_minimug.dmp"
-setMugEntryExtend(NPCProloguePortraitF, NPCPrologueFData, 3, 6, 3, 4, 0, 0, 0, 0)
+setMugEntry(NPCProloguePortraitF, NPCPrologueFData, 3, 6, 3, 4)
+
+ALIGN 4
+NPCPrologueMData:
+#incbin "Dmps/Milo_mug.dmp"
+#incbin "Dmps/Milo_frames.dmp"
+#incbin "Dmps/Milo_palette.dmp"
+#incbin "Dmps/Milo_minimug.dmp"
+setMugEntry(NPCProloguePortraitM, NPCPrologueMData, 2, 5, 3, 3)
 
 ALIGN 4
 HatsuruData:
@@ -838,17 +847,8 @@ HatsuruData:
 #incbin "Dmps/Hatsuru_frames.dmp"
 #incbin "Dmps/Hatsuru_palette.dmp"
 #incbin "Dmps/Hatsuru_minimug.dmp"
-setMugEntryExtend(0x100, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
-setMugEntryExtend(0xF4, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
-setMugEntryExtend(0xFB, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
-setMugEntryExtend(0xFC, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
-setMugEntryExtend(0xFD, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
-setMugEntryExtend(0xFF, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
-setMugEntryExtend(0x1FD, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
-setMugEntryExtend(0x145, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
-setMugEntryExtend(0x155, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
-setMugEntryExtend(0x14B, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
-setMugEntryExtend(0x14C, HatsuruData, 4, 5, 4, 3, 0, 0, 0, 0)
+setMugEntry(0x1FE, HatsuruData, 4, 5, 4, 3)
+setMugEntry(0x100, HatsuruData, 4, 5, 4, 3) // Filler
 
 /*
 ALIGN 4

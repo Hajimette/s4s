@@ -11,10 +11,10 @@ POP
 ALIGN 4
 BattleQuoteTable:
 //Prologue
-SpecifiedBattleConvo(0x14,Entombed_boss,Prologue,Flag13,BotanPrologueQuote)
-SpecifiedBattleConvo(0x11,Entombed_boss,Prologue,Flag14,RisuPrologueQuote)
-SpecifiedBattleConvo(0x10,Entombed_boss,Prologue,Flag15,RobocoPrologueQuote)
-SpecifiedBattleConvo(Amelia,Entombed_boss,Prologue,BossQuote,AmeliaMonsterQuote)
+SpecifiedBattleConvo(0x14,EmiliaBoss,Prologue,Flag13,BotanPrologueQuote)
+SpecifiedBattleConvo(0x11,EmiliaBoss,Prologue,Flag14,RisuPrologueQuote)
+SpecifiedBattleConvo(0x10,EmiliaBoss,Prologue,Flag15,RobocoPrologueQuote)
+SpecifiedBattleConvo(Amelia,EmiliaBoss,Prologue,BossQuote,AmeliaMonsterQuote)
 //Chapter1
 UnspecifiedBattleConvo(0x46,0x1,BossQuote,NoirBattleQuote)
 
