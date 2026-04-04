@@ -21,13 +21,16 @@ Learned  [X]
 Likes:[X]
 
 #0xd4d DislikesText 
-*{Dislikes}:[X]
+Skills:[X]
 
 #0xd4e HeightText
 Height:[X]
 
 #0xd4f AgeText
 Age:[X]
+
+#0xd53 AffinityStatusCheck
+Affinity:[X]
 
 ## HouseText
 //first text ID in the free block
@@ -40,9 +43,9 @@ Age:[X]
 Freeze all enemies[N]
 for one turn[X]
 
-## nameCamus
+//## nameCamus
 //for identity problems
-Camus[X]
+//Camus[X]
 
 ## nameSirius
 Sirius[X]

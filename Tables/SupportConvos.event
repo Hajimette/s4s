@@ -11,3 +11,11 @@ POP
 ALIGN 4
 NewSupportConvoTable:
 SupportConvoEntry(0x1, 0x2, AmeReineC, AmeReineC, AmeReineC) 
+SupportConvoEntry(0x1, 0x1C, AmeReineC, AmeReineC, AmeReineC) 
+SupportConvoEntry(0x1, 0x21, AmeReineC, AmeReineC, AmeReineC) 
+SupportConvoEntry(0x1, 0x23, AmeReineC, AmeReineC, AmeReineC) 
+SupportConvoEntry(0x1, 0x32, AmeReineC, AmeReineC, AmeReineC) 
+SupportConvoEntry(0x1, 0x22, AmeReineC, AmeReineC, AmeReineC) 
+SupportConvoEntry(0x1, 0x38, AmeReineC, AmeReineC, AmeReineC) 
+
+SupportConvoTerminator

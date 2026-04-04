@@ -1,6 +1,7 @@
 #include "2.event"
 #include "Chapter10.event"
 #include "Chapter3.event"
+#include "Chapter3End.event"
 #include "Chapter4.event"
 #include "Chapter5.event"
 #include "Chapter8.event"

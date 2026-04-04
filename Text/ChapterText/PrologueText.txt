@@ -572,7 +572,7 @@ The Iron Warren.[A][X]
 
 ## ZetaWarningPrologue
 As mentioned, Zeta, Botan[N]
-and Amelia are required escapees.[A][N]
+and Amelia are required to live.[A][N]
 This also means they are all[N]
 [ToggleRed]gameover[ToggleRed] conditions.[A][N]
 ...Temporarily[....][....][....], except for[N]
@@ -681,7 +681,7 @@ Bring it! You won't ever[N]
 leave these walls![A][X]
 
 ## RequiredEscapesPrologue
-Required Escapes:[N]
+Required Alive:[N]
 [ToggleRed]Amelia, Zeta, Botan.[A][ToggleRed][X]
 
 ## NousagiPrologueIntRUders

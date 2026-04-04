@@ -108,8 +108,10 @@ POP
 //Bosses
 #define EmiliaPortrait 0xFD
 #define NousagiReg 0xFE
+#define NousagiGen 0x1FD
 #define Smirnoff 0xFF
 #define NoirPortrait 0xFC
+#define FNousagiGen 0x1FC
 
 
 
@@ -849,6 +851,23 @@ HatsuruData:
 #incbin "Dmps/Hatsuru_minimug.dmp"
 setMugEntry(0x1FE, HatsuruData, 4, 5, 4, 3)
 setMugEntry(0x100, HatsuruData, 4, 5, 4, 3) // Filler
+
+ALIGN 4
+GenNousagiData:
+#incbin "Dmps/GenNousagi_mug.dmp"
+#incbin "Dmps/GenNousagi_frames.dmp"
+#incbin "Dmps/GenNousagi_palette.dmp"
+#incbin "Dmps/GenNousagi_minimug.dmp"
+setMugEntry(NousagiGen, GenNousagiData, 3, 5, 3, 3)
+
+
+ALIGN 4
+FNousagiGenData:
+#incbin "Dmps/FNousagi_mug.dmp"
+#incbin "Dmps/FNousagi_frames.dmp"
+#incbin "Dmps/FNousagi_palette.dmp"
+#incbin "Dmps/FNousagi_minimug.dmp"
+setMugEntry(FNousagiGen, FNousagiGenData, 3, 5, 3, 3)
 
 /*
 ALIGN 4

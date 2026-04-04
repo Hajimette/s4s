@@ -575,6 +575,18 @@ CLEARALL
 
 
 /*
+
+
+
+You're holding onto something[N]
+that's already broken.[A][N]
+You saw how seamlessly we[N]
+broke through that.[A][N]
+What makes you think I can't[N]
+beat them here?[A]
+
+
+
 	SetUnitStatus(0x2,SwordExp,1)
 	SetUnitStatus(0x2,LightExp,0)
 	SetUnitStatus(0x2,StaffExp,0)

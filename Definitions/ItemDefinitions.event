@@ -190,7 +190,7 @@
 #define Society 0xc7
 #define EliteSword 0xc8
 #define Chakimaru 0xc9
-#define ClockHands 0xca
+#define ClockHands 0xCA
 #define Manaslayer 0xcb
 #define SleepSword 0xcc
 #define Rakshasa 0xce
@@ -243,7 +243,7 @@
 #define Selection 0xFD
 #define Asura 0xFE
 #define Mercurius 0xFf //
-#define Lead 0x9d
+#define Lead 0x9D
 #define Star 0x9E
 //#define
 //#define

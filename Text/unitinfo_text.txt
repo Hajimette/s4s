@@ -5,13 +5,13 @@ Your Mother[X]
 Dogs[X]
 
 ## Skills
-health food[X]
+Bond (Lvl. 5)[X]
 
 ## EirikaDislike2ID
-yoga[X]
+Resolve (Lvl.15)[X]
 
-## EirikaAgeID
-^{Redacted}[X]
+## RedactedAgeID
+*{Reda}c*{ted}[X]
 
 ## EirikaHeightID
 150cm[X]
@@ -22,8 +22,62 @@ yoga[X]
 ## ReineLike2
 Sweets[X]
 
+## ReineSkill
+Rally Speed (Lvl. 5)[X]
+
+## ReineSkill2
+Counter Magic (Lvl. 15)[X]
+
 ## AgeSecret
 Secret[X]
 
 ## ReineHeight
 172cm[X]
+
+## MumeiLike
+Berries[X]
+
+## MumeiLike2
+Humanity[X]
+
+## MumeiSkill
+Forager (Lvl. 5)[X]
+
+## MumeiSkill2
+Pass (Lvl. 15)[X]
+
+## MumeiAge
+Unknown[X]
+
+## MumeiHeight
+156cm[X]
+
+## ZetaLike1
+Cats[X]
+
+## ZetaLike2
+Languages[X]
+
+## ZetaSkill1
+Dazzle (Lvl. 5)[X]
+
+## ZetaSkill2
+Provoke (Lvl. 15)[X]
+
+## ZetaHeight
+155cm[X]
+
+## BotanLike
+Noodles[X]
+
+## BotanLike2
+Sweets[X]
+
+## BotanSkill1
+Placeholder[X]
+
+## BotanSkill2
+Placeholder[X]
+
+## BotanHeight
+165cm[X]

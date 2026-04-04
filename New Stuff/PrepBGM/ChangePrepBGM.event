@@ -1,0 +1,62 @@
+// this gives the definitions for B and BL as EA macros
+#include "Extensions/Hack Installation.txt"
+
+// Definitions (jumpToHack for r0 to r7)
+#define r0 0
+#define jumpToHack(reg,ptr) "SHORT ((1001b << 11)|(reg << 8)) ((1000111b << 8)|(reg << 3)); POIN (ptr|1)"
+
+// Inline edits
+PUSH
+ORG 0x965E2
+B(0x96656)
+jumpToHack(r0, PrepsBGM_c0p)
+
+ORG 0x341C4
+BL(0x965E4)
+ORG 0x965DC
+BL(0x965E4)
+ORG 0xAEB54
+BL(0x965E4)
+
+ORG 0xB1CF0
+jumpToHack(r0, PrepsBGM_c1p)
+
+ORG 0xB1D0A
+B(0xB24A2)
+jumpToHack(r0, PrepsBGM_c2p)
+
+ORG 0x9CCD6
+BL(0xB1D0C)
+ORG 0xCC6B6
+BL(0xB1D0C)
+POP
+
+ALIGN 4; PrepsBGM_c0p:
+#incbin "c0p.dmp"
+
+ALIGN 4; PrepsBGM_c1p:
+#incbin "c1p.bin"
+
+ALIGN 4; PrepsBGM_c2p:
+#incbin "c2p.bin"
+
+// I don't know actually what this does, but it seems to wrap an ASMC call to c2p
+#define Event_PlayBGMInPreps "ASMC PrepsBGM_c2p|1"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

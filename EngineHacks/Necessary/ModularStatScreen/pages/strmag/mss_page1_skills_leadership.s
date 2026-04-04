@@ -173,9 +173,13 @@ ldr r0,=TalkTextIDLink
 ldrh r0,[r0]
 draw_talk_text_at 21, 11
 
+
+/*
 ldr r0,=SkillsTextIDLink
 ldrh r0, [r0]
 draw_textID_at 13, 17, colour=White @skills
+*/
+
 
 Nexty:
 
@@ -217,32 +221,34 @@ mov r6, r0
 ldrb r0, [r6] 
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 16, 17
+draw_skill_icon_at 13, 17
 
 ldrb r0, [r6,#1]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 18, 17
+draw_skill_icon_at 15, 17
 
 ldrb r0, [r6, #2]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 20, 17
+draw_skill_icon_at 17, 17
 
 ldrb r0, [r6, #3]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 22, 17
+draw_skill_icon_at 19, 17
 
 ldrb r0, [r6, #4]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 24, 17
+draw_skill_icon_at 21, 17
 
 ldrb r0, [r6, #5]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 26, 17
+draw_skill_icon_at 23, 17
+
+//draw_affinity_icon_at 25, 17
 
 SkillEnd:
 

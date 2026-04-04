@@ -348,8 +348,22 @@ D...damn it all...[A][X]
 Damn it![A][MidRight][LoadShirakamiP][....][MidRight][LoadKurokamiP][OpenMidRight][N]
 Why do we...[....][MidRight][LoadShirakamiP][OpenMidRight]have to go[....][MidRight][LoadKurokamiP][OpenMidRight] now?![A][OpenMidRight][CloseEyes][X]
 
+
+## LamyDeathChp2
+[MidLeft][LoadLamyP]
+[MidLeft]
+Botan... I'm... I'm so[N]
+sorry for all of this...[A][CloseEyes][X]
+
+
 // Bosses
 ## NoirDeath
 [MidLeft][LoadNoir]
 Damn it... you don't know what[N]
 you're doing killing me...[A][CloseEyes][X]
+
+## NousagiChp2Death
+[MidLeft][LoadChp2Boss]
+[MidLeft]
+It can't be... how could[N]
+I lose this easily?![A][CloseEyes][X]

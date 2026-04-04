@@ -954,8 +954,8 @@ Raises magic.[X]
 Seisoda[X]
 
 ## SeisodaDesc
-Clears fatigue and heals[N]
-30 HP.[X]
+Clears all fatigue[N]
+on use.[X]
 
 ## RickyName
 Ricky[X]
@@ -1283,3 +1283,8 @@ is better be useful.[X]
 
 ## KoyoriCommand
 Synthesis[X]
+
+
+## SeisodaUse
+Made with lots of[N]
+love and care![X]

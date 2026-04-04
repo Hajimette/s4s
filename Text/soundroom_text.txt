@@ -238,6 +238,12 @@ Healing[X]
 ## KaijuuTxt
 Kaijuu no Hanauta[X]
 
+## BlueRoseTxt
+BlueRose[X]
+
+## ShallysTxt
+Shallys[X]
+
 ## KaijuuCreds
 Vaundy[X]
 
@@ -372,3 +378,6 @@ FE5 On Alert[X]
 
 ## PressingThreatFinalTxt
 FE5 Pressing Threat- Final[X]
+
+## ShallysCreds
+Aki Rosenthal[X]

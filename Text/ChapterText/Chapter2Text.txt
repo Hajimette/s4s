@@ -1,34 +1,3 @@
-## MikoSelectTutorial
-[MidLeft][LoadMikoP]
-[MidLeft]
-Alright Miko! It's time to put this[N]
-staff into use...[A][N]
-Its just like I practiced...[N]
-again and again...[A][X]
-
-## MikoTutorial
-Miko's [Red]Again Staff[Red] is a special type[N]
-of item similar to the Combat Stim.[A][N]
-Her staff is able to [Red]RENEW[Red] after[N]
-each chapter.[A] When you see these[N]
-special items, go crazy![A][X]
-
-
-## PolkaTutorial
-Polka is your mobile supply hub.[A][N]
-Unlike other units in your army,[N]
-Polka focuses on [Red]Utility and Mobility[Red].[A][N]
-Polka's defeat will [Red]prevent[Red] you from[N]
-storing items from your supply.[A][N]
-Tread carefully.[A][X]
-
-## ShikeNameChp2
-Shike Village[A][X]
-
-## NousagiChp2
-Bruh[A][X]
-
-
 
 ## ZetaSusChp2
 [Right][LoadZetaP]
@@ -39,6 +8,14 @@ prison was notified already.[A]
 [FarRight]
 Looks like more auxillary units.[A][X]
 
+## Zeta3SusChp2
+[Right][LoadZetaP]
+[Right]
+The prison has been notified.[A][N]
+We better move quickly.[A][X]
+
+
+
 ## Zeta1SusChp2
 [Left][LoadZetaP]
 [Left]
@@ -46,6 +23,12 @@ We likely have some time[N]
 before they start mobilizing.[A][ToggleSmile][N]
 That's good news for us, at least.[A][X]
 
+## Zeta2SusChp2
+[Left][LoadZetaP]
+[Left]
+We shouldn't stay for long.[A][N]
+They're probably close to[N]
+mobilizing more units.[A][X]
 
 
 ## BotanBruhMomentChp2
@@ -116,24 +99,201 @@ try to chase and imprison us.[A][2NL]
 Come, we still have to[N]
 make it back to Master.[A][X]
 
+## LamyChp2Attacked
+[MidLeft][LoadLamyP]
+[MidLeft]
+H...hey! I'm unarmed,[N]
+p...please have mercy![A][X]
+
+## BotanLamyTalkChp2
+[MidLeft][LoadLamyP]
+[MidRight][LoadBotanP]
+[MidRight]
+I don't believe it.[N]
+Is it really you, Lamy?[A]
+[MidLeft]
+You know this would have[N]
+happened when the war started.[A]
+[MidRight]
+But why this? Why are you[N]
+serving their army like this?[A]
+[MidLeft]
+I...I had no choice.[A][CloseEyes][2NL]
+My[ToggleMouthMove]...[....][ToggleMouthMove]my family[....][ToggleMouthMove]...[ToggleMouthMove] they[N]
+were going to[ToggleMouthMove]...[ToggleMouthMove][A]
+[MidRight]
+I understand.[....][....] I'm sorry...[A]
+[MidLeft]
+Are you? You left the country[N]
+before things kicked up.[A][OpenEyes][2NL]
+You practically left us to fend[N]
+for ourselves.[A]
+[MidRight]
+Well, I'm here now! You can[N]
+join us and leave this place![A]
+[MidLeft]
+And what of the rest of my[N]
+family in the Capital?[A][N]
+I can't just leave them![A]
+[MidRight]
+Would you want to die in[N]
+some foreign land alone?[A][N]
+Or do you want to die in[N]
+some foreign land with me?[A]
+[MidLeft]
+[ToggleMouthMove]...[ToggleMouthMove][A]
+[MidRight]
+Come with me, Lamy.[A][N]
+There's more to do[N]
+outside of Pekoland.[A]
+[MidLeft]
+Shishiro...[A]
+[MidRight]
+I won't leave you again.[N]
+Just please. Come with me.[A]
+[MidLeft]
+A...alright... I'm with you.[A][X]
+
+
+## LamyChp2Pensive
+[MidRight][LoadLamyP]
+[MidRight]
+[ToggleMouthMove]...[ToggleMouthMove]Damn it. [CloseEyes][....]This beats fighting[N]
+and dying on the front lines[ToggleMouthMove]...[ToggleMouthMove][A][OpenEyes][N]
+I could have been anywhere[N]
+but here...[A][2NL]
+Yea, I could have been on some[N]
+coastline, sipping on some wine.[A][N]
+I could have had a life in peace[N]
+than working for these creatures...[A][CloseEyes][N]
+Botan, why...[A][X]
+
+## Chp2GenANGRY
+[MidRight][LoadChp2Boss]
+[MidRight]
+Wow my unit really IS terrible.[A][N]
+[....]Forget it, they're replaceable[N]
+enough. I'll just hold this down.[A][N]
+Can't let those rats escape.[A][X]
+
+## ShikeNameChp2
+[MidRight][LoadChp2Boss]
+[MidRight]
+Do we really not have[N]
+anything else to spare?![A][N]
+Bishop! Contact the west[N]
+wing and have them deploy![A][X]
+
+## MikoSelectTutorial
+[MidRight][LoadChp2Boss]
+[MoveMidRight][MidRight]
+Damn it! They're gaining too[N]
+much ground![A] Where's the[N]
+west wing, damn it![A][X]
+
+## PensiveNousagiChp2
+[MidRight][LoadChp2Boss]
+[FarFarLeft][LoadNousagi]
+[FarFarLeft][MoveMidLeft]
+[MidLeft]
+S...sir![A]
+[MidRight]
+What is it, soldier?[A]
+[MidLeft]
+We have intruders in the[N]
+base![A] They look like they[N]
+raided the research wing![A]
+[MidRight]
+Well of course, you fool.[A][N]
+Can't you see we're trying to[N]
+apprehend our vistors?[A]
+[MidLeft]
+There's more, it seems like there's[N]
+a major prison jailbreak![A][N]
+The west wing was tasked to help[N]
+put down what they could![A]
+[MidRight]
+Damn it![A] The best we can do[N]
+is delay their advance![A][N]
+Get ahold of the Capital and[N]
+inform them about this![A]
+[MidLeft]
+B...but they'll execute us, sir![A]
+[MidRight]
+You, maybe.[A] I'll get a slap on[N]
+the wrist and retire honorably.[A][N]
+Do you want me to carry out what[N]
+they'll do to you?[A]
+[MidLeft]
+No sir![A][X]
+
+## Chapter2BossBruhMoment
+[MidRight][LoadChp2Boss]
+[MidRight]
+Well then, I suppose we'll do what[N]
+we can until we get reinforced...[A][N]
+Those fools better be useful as[N]
+meatshields if they can't stop them...[A][X]
+
+## NousagiChp2
+[Left][LoadNousagi]
+[FarLeft][LoadNousagi]
+[Left]
+Time is ticking! 2nd Squad will[N]
+form up on the northern entrance![A][N]
+Start the pressure![A][X]
+
+## NousagiMOREChp2
+[Left][LoadNousagi]
+[FarLeft][LoadNousagi]
+[Left]
+Time is ticking! 2nd Squad will[N]
+form up on the northern entrance![A][N]
+3rd Squad should be reinforcing[N]
+the General at the East Wing![A][X]
+
+
+## MikoTutorial
+[Left][LoadBotanP]
+[FarLeft][LoadAme]
+[Left]
+Ahhhh, fresh air![A]
+[FarLeft]
+Heh, maybe we can finally take[N]
+a rest now that we're out.[A]
+[MidRight][LoadZetaP]
+[MidRight]
+We're not done yet! We still need to[N]
+reach outside of the courtyard![A][N]
+Get ready everyone![A][X]
 
 
 
+## PolkaTutorial
+[FarFarLeft][LoadNousagi]
+[FarFarLeft][MoveLeft]
+[Left]
+Sir! We found Commander Noir![A][N]
+He's dead![A]
+[FarLeft][LoadNousagi]
+[FarLeft]
+Damn it! These aren't ordinary[N]
+intruders![A] Inform command[N]
+and mobilize all able bodied[N]
+rabbits to the perimeter![A]
+[FarFarRight][LoadNousagi]
+[FarFarRight][MoveMidRight]
+[MidRight][BoxHeight][0x3]
+Sir! I came from the R&D[N]
+department! The HoloEmblem[N]
+has been stolen![A][BoxHeight][0x2]
+[FarLeft]
+WHAT?! We can't let these[N]
+guys go at any cost![A][N]
+Inform the leadership![A][X]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## BossChp2Attacked
+[Left][LoadChp2Boss]
+[Left]
+You can't win! Not against[N]
+me at least![A][X]

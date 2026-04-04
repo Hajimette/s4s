@@ -15,13 +15,21 @@ this unit tired.[X]
 ## FatigueTxt
  Ftg[X]
 
+## AffinityStatusDesc
+Grants certain bonuses after[N]
+TeeTee with other characters.[X]
+
 ## SS_TalkRText
 Character with whom this unit[N]
 may talk on the battlefield.[X]
 
-## SS_SkillsRText
-Special abilities that can do[N]
-many different things.[X]
+//## SS_SkillsRText
+//Special abilities that can do[N]
+//many different things.[X]
+
+## SS_Fatigue
+Suffers stat debuffs if number[N]
+is higher or equal than Unit HP.[X]
 
 ## SS_SkillsDefaultRText
 No skill description found.[X]

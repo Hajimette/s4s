@@ -444,4 +444,14 @@ SongTable(FE5OnAlertID, FE5OnAlert, MapMusicGroup)
 SongTable(FE5PressingThreatFinalID, FE5PressingThreatFinal, MapMusicGroup)
 }
 
+{
+#include "MusicEvents/BlueRose.event"
+SongTable(BlueRoseID, BlueRose, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/Shallys.event"
+SongTable(ShallysID, Shallys, MapMusicGroup)
+}
+
 #include "SoundroomEditor.event"

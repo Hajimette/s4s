@@ -14,15 +14,27 @@ PointerList:
 
 TurnBasedEvents:
 TurnEventPlayer(0, NWStairsChp2, 3)
-	END_MAIN
+TurnEventPlayer(0, Chp2UpperVillage, 4)
+TurnEventPlayer(0, Chp2CentralVillage, 5) //General Talks
+TurnEventPlayer(0, Chp2CentralEastVillage, 7)
+TurnEventPlayer(0, Chp2EastVillage, 10)
+TurnEventPlayer(0, Chp2Inn, 13)
+TurnEventPlayer(0, Chp2Temple, 15)
+TurnEventPlayer(0, SecondSqdNorthChp2, 17)
+TurnEventPlayer(0, ThirdSquadSouthChp2, 22)
+
+END_MAIN
+
 
 ALIGN 32
 CharacterBasedEvents:
+CharacterEvent(Flag13,BotanRUcruitLamyChp2, 0x14, 0x19)
 
 	END_MAIN
 
 MiscBasedEvents:
 	CauseGameOverIfLordDies
+	DefeatBoss
 	END_MAIN
 
 LocationBasedEvents:
@@ -30,23 +42,12 @@ Door(20,2)
 Door(11,7)
 Door(29,8)
 Door(30,8)
-
 Chest(0x31,19,12)
 Chest(0xBB,17,17)
-Village(0x8,Chp2UpperVillage,12,1)
-Village(0x9,Chp2CentralVillage,6,8)
-Village(0x0,Chp2CentralEastVillage,16,11)
-Village(0xA,Chp2EastVillage,23,11)
-House(0,Chp2Inn,2,12)
-House(0xB,Chp2Temple,12,6)
-Armory(Chp2Armory,5,2)
-Vendor(Chp2Vendor,1,2)
 
 	END_MAIN
 
 Dunno1:
-	AFEV 0x7 MikoTutorialEvent 0
-	AFEV 0xC PolkaTutorialEvent 0
 
 	END_MAIN
 
@@ -63,96 +64,135 @@ Tutorial:
 	END_MAIN
 
 PlayerUnits:
-        UNIT Amelia 0x1 Amelia Level(1,Ally,False) [0,17] 0x0 0x0 0x1 REDA1R15 [0,0] NoAI
+        UNIT Amelia 0x1 Amelia Level(1,Ally,False) [0,17] 0x0 0x0 0x1 REDA2R16 [0,0] NoAI
         UNIT 0x14 0x4 Amelia Level(1,Ally,False) [0,18] 0x0 0x0 0x1 REDA3R15 [0,0] NoAI
-		UNIT 0x10 0xD Amelia Level(1,Ally,False) [0,19] 0x0 0x0 0x1 REDA2R16 [0,0] NoAI
+		UNIT 0x10 0xD Amelia Level(1,Ally,False) [0,19] 0x0 0x0 0x1 REDA1R19 [0,0] NoAI
 		UNIT 0x11 0x1A Amelia Level(1,Ally,False) [0,17] 0x0 0x0 0x1 REDA1R17 [0,0] NoAI   
 UNIT 0x32 0x1A Amelia Level(1,Ally,False) [0,18] 0x0 0x0 0x1 REDA3R17 [0,0] NoAI  
 UNIT 0x34 0x1A Amelia Level(1,Ally,False) [0,19] 0x0 0x0 0x1 REDA2R18 [0,0] NoAI  
-UNIT 0x35 0x1A Amelia Level(1,Ally,False) [0,17] 0x0 0x0 0x1 REDA1R19 [0,0] NoAI  		
+UNIT 0x35 0x1A Amelia Level(1,Ally,False) [0,17] 0x0 0x0 0x1 REDA1R15 [0,0] NoAI  		
 
 	UNIT
 	
 AmeliaGroupChp2:
-	        UNIT Amelia 0x1 Amelia Level(1,Ally,False) [0,17] 0x0 0x0 0x1 REDA1R15 [0,0] NoAI
-        UNIT 0x14 0x4 Amelia Level(1,Ally,False) [0,18] 0x0 0x0 0x1 REDA3R15 [0,0] NoAI
-		UNIT 0x10 0xD Amelia Level(1,Ally,False) [0,19] 0x0 0x0 0x1 REDA2R16 [0,0] NoAI
-		UNIT 0x11 0x1A Amelia Level(1,Ally,False) [0,17] 0x0 0x0 0x1 REDA1R17 [0,0] NoAI   
-UNIT 0x32 0x1A Amelia Level(1,Ally,False) [0,18] 0x0 0x0 0x1 REDA3R17 [0,0] NoAI  
-UNIT 0x34 0x1A Amelia Level(1,Ally,False) [0,19] 0x0 0x0 0x1 REDA2R18 [0,0] NoAI  
-UNIT 0x35 0x1A Amelia Level(1,Ally,False) [0,17] 0x0 0x0 0x1 REDA1R19 [0,0] NoAI  		
+UNIT 0x80 0xC1 Amelia Level(1,Enemy,True) [1,4] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
+UNIT 0x80 0xC1 Amelia Level(1,Enemy,True) [6,20] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI	
 UNIT
 
 Shiraken:
-
-UNIT Miko 0x4A Amelia Level(3,Ally,False) [20,0] 0x0 0x0 0x1  REDA21R1 [Heal,0xF4, Vulnerary] NoAI
-
-	UNIT Suisei 0x3F Amelia Level(4,Ally,False) [20,0] 0x0 0x0 0x1  REDA20R3 [IronAxe,Vulnerary] NoAI
-	
-	UNIT 0x8 0x87 Amelia Level(4,Ally,False) [21,0] 0x0 0x0 0x1  REDA22R2 [0x2C,Vulnerary] NoAI
-	
-	UNIT 0x9 0x9 Amelia Level(5,Ally,False) [20,0] 0x0 0x0 0x1  REDA21R5 [Mace,IronLance,Vulnerary] NoAI
-	
-	UNIT 0xA 0xC2 Amelia Level(4,Ally,False) [21,0] 0x0 0x0 0x1  REDA22R4 [IronBow,Vulnerary] NoAI
-	
+UNIT 0x80 0x05 Amelia Level(14,Enemy,True) [1,4] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
+UNIT 0x80 0x05 Amelia Level(14,Enemy,True) [6,20] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
 	UNIT
+
+
+DoneBuddyChp2:
+UNIT 0x7F 0xC1 0x53 Level(10,Enemy,True) [0,17] 0x0 0x0 1 REDA2R16 [0x19] DefaultAI
+UNIT 0x7F 0xC1 0x53 Level(10,Enemy,True) [0,18] 0x0 0x0 1 REDA3R17 [0x19] DefaultAI
+UNIT 0x7F 0xC1 0x53 Level(10,Enemy,True) [0,19] 0x0 0x0 1 REDA2R18 [0x19] DefaultAI
+UNIT 0x7F 0x2B 0x53 Level(10,Enemy,True) [0,17] 0x0 0x0 1 REDA2R17 [0xF2,0x4B] ChargeHealAI
+UNIT
+
+DonerBuddyChp2:
+UNIT 0x7F 0x07 0x53 Level(10,Enemy,True) [0,17] 0x0 0x0 1 REDA1R16 [SteelLance] DefaultAI
+UNIT 0x7F 0x07 0x53 Level(10,Enemy,True) [0,18] 0x0 0x0 1 REDA1R17 [SteelLance] DefaultAI
+UNIT 0x7F 0x07 0x53 Level(10,Enemy,True) [0,19] 0x0 0x0 1 REDA1R18 [SteelLance] DefaultAI
+UNIT
+
+Chp2Bishop:
+UNIT 0x7F 0x2B 0x53 Level(10,Enemy,True) [23,0] 0x0 0x0 1 REDA23R0 [0x4E,0x4B] HealAI
+UNIT
+
+ThirdChp2:
+
+UNIT 0x80 0xC1 0x53 Level(1,Enemy,True) [26,24] 0x0 0x0 1 REDA26R21 [SteelLance] DefaultAI
+UNIT 0x80 0xC1 0x53 Level(1,Enemy,True) [26,24] 0x0 0x0 1 REDA27R20 [SteelLance] DefaultAI
+UNIT 0x80 0xC1 0x53 Level(1,Enemy,True) [26,24] 0x0 0x0 1 REDA28R19 [SteelLance] DefaultAI
+UNIT 0x80 0xC1 0x53 Level(1,Enemy,True) [26,24] 0x0 0x0 1 REDA29R21 [SteelLance] DefaultAI
+UNIT
+
+
+SecondChp2Spawn:
+UNIT 0x7F 0xC1 0x53 Level(6,Enemy,True) [22,0] 0x0 0x0 1 REDA22R0 [SteelLance] DefaultAI
+UNIT 0x7F 0xC1 0x53 Level(7,Enemy,True) [23,0] 0x0 0x0 1 REDA23R1 [SteelLance] DefaultAI
+UNIT 0x7F 0xC1 0x53 Level(6,Enemy,True) [22,0] 0x0 0x0 1 REDA24R0 [SteelLance] DefaultAI
+UNIT
 
 
 EnemyUnits:
 
  UNIT 0x80 0x3f 0x53 Level(11,Enemy,True) [8,11] 0x0 0x0 0x0 0x0 [SteelAxe] NoMoveAI
- UNIT 0x80 0x4E 0x53 Level(12,Enemy,True) [11,15] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+ UNIT 0x80 0x4E 0x53 Level(12,Enemy,True) [9,15] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
  UNIT 0x80 0xf 0x53 Level(11,Enemy,True) [14,6] 0x0 0x0 0x0 0x0 [SteelSword] NoMoveAI
  UNIT 0x80 0x4e 0x53 Level(10,Enemy,True) [4,13] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
  UNIT 0x80 0x13 0x53 Level(9,Enemy,True) [2,10] 0x0 0x0 0x0 0x0 [SlimSword] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(6,Enemy,True) [6,9] DropItem 0x0 0x0 0x0 [SteelLance, 0x6A] DefaultAI
- UNIT 0x80 0x4e 0x53 Level(7,Enemy,True) [5,6] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
+ UNIT 0x80 0x4e 0x53 Level(6,Enemy,True) [5,11] DropItem 0x0 0x0 0x0 [SteelLance, 0x6A] DefaultAI
+ UNIT 0x80 0x4e 0x53 Level(7,Enemy,True) [4,8] 0x0 0x0 0x0 0x0 [Javelin] NoMoveAI
  UNIT 0x80 0x2E 0x53 Level(7,Enemy,True) [6,16] 0x0 0x0 0x0 0x0 [Flux] DefaultAI
-  UNIT 0x80 0xD 0x53 Level(7,Enemy,True) [4,9] DropItem 0x0 0x0 0x0 [IronSword,0x6B] EscapeOnlyAI
+  UNIT 0x80 0xD 0x53 Level(7,Enemy,True) [7,9] DropItem 0x0 0x0 0x0 [IronSword,0x6B] EscapeOnlyAI
   UNIT 0x80 0x1A 0x53 Level(5,Enemy,True) [9,9] 0x0 0x0 0x0 0x0 [Longbow] DefaultAI
  UNIT 0x80 0x26 0x53 Level(5,Enemy,True) [3,2] 0x0 0x0 0x0 0x0 [0x3A] DefaultAI
- 
- 
- UNIT 0x80 0x19 0x53 Level(13,Enemy,True) [15,11] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
+ UNIT 0x80 0x45 0x53 Level(11,Enemy,True) [6,8] DropItem 0x0 0x0 0x0 [Heal] HealAI
+ UNIT 0x80 0x26 0x53 Level(7,Enemy,True) [1,6] 0x0 0x0 0x0 0x0 [Thunder] DefaultAI
+ UNIT 0x80 0x19 0x53 Level(13,Enemy,True) [15,11] 0x0 0x0 0x0 0x0 [IronBow] DefaultAI
  UNIT 0x80 0x4e 0x53 Level(10,Enemy,True) [19,8] 0x0 0x0 0x0 0x0 [Javelin] CommanderAI
- UNIT 0x80 0x9 0x53 Level(9,Enemy,True) [22,16] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
- 
+ UNIT 0x80 0x1B 0x53 Level(1,Enemy,True) [22,16] 0x0 0x0 0x0 0x0 [SteelBow,0x6D] NoMoveAI
  UNIT 0x80 0x10 0x53 Level(7,Enemy,True) [18,15] 0x0 0x0 0x0 0x0 [IronSword] NoMoveAI
- 
  UNIT 0x80 0x19 0x53 Level(10,Enemy,True) [15,1] 0x0 0x0 0x0 0x0 [Longbow] NoMoveAI
   UNIT 0x80 0x19 0x53 Level(10,Enemy,True) [15,3] 0x0 0x0 0x0 0x0 [Longbow] NoMoveAI
   UNIT 0x80 0x3f 0x53 Level(11,Enemy,True) [14,1] 0x0 0x0 0x0 0x0 [SteelAxe] NoMoveAI
-  UNIT 0x80 0x45 0x53 Level(11,Enemy,True) [14,2] DropItem 0x0 0x0 0x0 [Heal] HealAI
+  UNIT 0x80 0x45 0x53 Level(11,Enemy,True) [14,2] 0x0 0x0 0x0 0x0 [Heal] HealAI
   UNIT 0x80 0x3f 0x53 Level(10,Enemy,True) [14,3] 0x0 0x0 0x0 0x0 [SteelAxe] NoMoveAI
   UNIT 0x80 0xF 0x53 Level(11,Enemy,True) [13,2] 0x0 0x0 0x0 0x0 [SteelSword] NoMoveAI
- 
  UNIT 0x80 0x9 0x53 Level(11,Enemy,True) [10,7] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
  UNIT 0x80 0x9 0x53 Level(11,Enemy,True) [16,19] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
- 
- UNIT 0x80 0x3F 0x53 Level(12,Enemy,True) [7,2] 0x0 0x0 0x0 0x0 [SteelAxe] NoMoveAI
- 
- UNIT 0x80 0x13 0x53 Level(12,Enemy,True) [11,19] 0x0 0x0 0x0 0x0 [0xD] DefaultAI
- 
+ UNIT 0x80 0x25 0x53 Level(9,Enemy,True) [3,1] 0x0 0x0 0x0 0x0 [Fire] DefaultAI
+ UNIT 0x80 0x13 0x53 Level(10,Enemy,True) [13,15] 0x0 0x0 0x0 0x0 [0xD] DefaultAI
+ UNIT 0x80 0x3F 0x53 Level(8,Enemy,True) [12,20] 0x0 0x0 0x0 0x0 [0x26] DefaultAI
  UNIT 0x80 0x26 0x53 Level(12,Enemy,True) [23,4] 0x0 0x0 0x0 0x0 [Thunder] NoMoveAI
  UNIT 0x80 0x10 0x53 Level(13,Enemy,True) [27,3] 0x0 0x0 0x0 0x0 [0xD] NoMoveAI
  UNIT 0x80 0x4E 0x53 Level(13,Enemy,True) [26,7] DropItem 0x0 0x0 0x0 [IronLance] NoMoveAI
  UNIT 0x80 0x25 0x53 Level(10,Enemy,True) [30,6] 0x0 0x0 0x0 0x0 [Thunder] NoMoveAI
- UNIT 0x80 0x19 0x53 Level(10,Enemy,True) [23,10] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
- 
- UNIT 0x80 0x3f 0x53 Level(10,Enemy,True) [22,20] 0x0 0x0 0x0 0x0 [SteelAxe] UnmovingAI
- UNIT 0x80 0x1B 0x53 Level(10,Enemy,True) [18,19] DropItem 0x0 0x0 0x0 [SilverBow,0x5B] NoMoveAI
- UNIT 0x80 0x10 0x53 Level(10,Enemy,True) [18,21] 0x0 0x0 0x0 0x0 [IronSword] UnmovingAI
+ UNIT 0x80 0x19 0x53 Level(10,Enemy,True) [23,11] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
+ UNIT 0x80 0x3f 0x53 Level(10,Enemy,True) [20,20] 0x0 0x0 0x0 0x0 [SteelAxe] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(10,Enemy,True) [19,19] 0x0 0x0 0x0 0x0 [SteelLance] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(10,Enemy,True) [19,21] 0x0 0x0 0x0 0x0 [SteelLance] NoMoveAI
  UNIT 0x80 0x10 0x53 Level(10,Enemy,True) [27,14] 0x0 0x0 0x0 0x0 [0xD] NoMoveAI
  UNIT 0x80 0x19 0x53 Level(11,Enemy,True) [30,14] 0x0 0x0 0x0 0x0 [Longbow] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(9,Enemy,True) [28,16] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
- 
- UNIT 0x19 0x45 0x53 Level(4,Enemy,True) [25,5] 0x0 0x0 0x0 0x0 [0x4B,0xF2] HealAI
+ UNIT 0x80 0x4e 0x53 Level(9,Enemy,True) [28,16] 0x0 0x0 0x0 0x0 [Javelin] NoMoveAI
+ UNIT 0x80 0x19 0x53 Level(10,Enemy,True) [23,7] 0x0 0x0 0x0 0x0 [Longbow] NoMoveAI
+ UNIT 0x80 0x84 0x53 Level(8,Enemy,True) [30,17] 0x0 0x0 0x0 0x0 [0x3F] NoMoveAI
+  UNIT 0x80 0x2E 0x53 Level(7,Enemy,True) [26,18] 0x0 0x0 0x0 0x0 [0x45] NoMoveAI
+ UNIT 0x80 0x2C 0x53 Level(1,Enemy,True) [27,24] 0x0 0x0 0x0 0x0 [0x4E] NMHealAI
+ UNIT 0x80 0x3F 0x53 Level(8,Enemy,True) [29,11] 0x0 0x0 0x0 0x0 [IronAxe] NoMoveAI
+ UNIT 0x80 0x4E 0x53 Level(9,Enemy,True) [25,10] 0x0 0x0 0x0 0x0 [IronLance] NoMoveAI
+
+ UNIT 0x19 0x45 0x53 Level(4,Enemy,False) [25,5] 0x0 0x0 0x0 0x0 [0x4B,0xF2] HealAI
  UNIT 0x4A 0xB 0x53 Level(1,Enemy,True) [27,22] 0x0 0x0 0x0 0x0 [SteelSword, Javelin, IronAxe] UnmovingAI
 	UNIT
 
-NWStairsChp2Spawn:
-UNIT 0x80 0x19 0x53 Level(10,Enemy,True) [0,1] 0x0 0x0 0x0 0x0 [Longbow] NoMoveAI
+NousagiNE:
+UNIT 0x80 0x4e 0x53 Level(10,Enemy,True) [22,0] 0x0 0x0 1 REDA22R0 [Javelin] DefaultAI
+UNIT 0x80 0x4e 0x53 Level(10,Enemy,True) [23,0] 0x0 0x0 1 REDA23R0 [SteelLance] DefaultAI
+UNIT 0x80 0x4e 0x53 Level(10,Enemy,True) [24,0] 0x0 0x0 1 REDA24R0 [Javelin] DefaultAI
+UNIT 0x80 0x26 0x53 Level(10,Enemy,True) [21,7] 0x0 0x0 0x0 0x0 [Thunder] DefaultAI
+UNIT 0x80 0x25 0x53 Level(10,Enemy,True) [21,7] 0x0 0x0 0x0 0x0 [Thunder,0x5E] DefaultAI
 UNIT
+
+
+NWStairsChp2Spawn:
+UNIT 0x80 0x19 0x53 Level(10,Enemy,True) [0,1] 0x0 0x0 1 REDA0R1 [Longbow] DefaultAI
+UNIT 0x80 0x19 0x53 Level(10,Enemy,True) [0,2] 0x0 0x0 1 REDA0R2 [Longbow] DefaultAI
+UNIT 0x80 0x4E 0x53 Level(10,Enemy,True) [1,1] 0x0 0x0 1 REDA0R2 [SteelLance,Javelin] DefaultAI
+UNIT 0x80 0x4E 0x53 Level(10,Enemy,True) [1,2] 0x0 0x0 1 REDA0R2 [SteelLance,Javelin] DefaultAI
+UNIT
+
+
+NousagiChp2Moment:
+UNIT 0x85 0x4E 0x53 Level(10,Enemy,True) [26,24] 0x0 0x0 1 REDA26R22 [0x0] DefaultAI
+UNIT
+
+
+
 
 Traps1:
 	ENDTRAP
@@ -178,200 +218,166 @@ EndOfEscapeRoutineASMC
 		STAL 45
 		CameraCursorLocation(3,17,60)
 		CAM1 [6,8]
+		CHECK_EVENTID 0x78 //Checks if triggered 78
+	SVAL s7 1
+	BEQ 8 sC s7
 		Text(ZetaSusChp2)
 		CAM1 [28,20]
 Text(Zeta1SusChp2)
-		
+GOTO 3
+LABEL 8
+Text(Zeta3SusChp2)
+CAM1 [28,20]
+Text(Zeta2SusChp2)
+LABEL 3
 	ENUN
-		/*
-	CAM1 [8,2]
-		FadeBackBlack
-		Location(ShikeNameChp2)
-		CameraCursorLocation(8,2,60)
-		Text(NousagiChp2)
-        
-		STAL 45
-		CAM1 [21,3]
-		
-	
-		LOAD1 0 Shiraken
-		ENUN
-		*/
-	
-		CAM1 [4,17]
-		
+CAM1 [4,17]
+TextBox(RequiredEscapesChapter1)
 NoFade
 	ENDA
 
 NWStairsChp2:
 CAM1 [1,1]
 LOAD1 1 NWStairsChp2Spawn
+NoFade
+ENDA
 
+BotanRUcruitLamyChp2:
+MUSC 0x17
+Text(BotanLamyTalkChp2)
+CUSA 0x19
+ENUT Flag14
 NoFade
 ENDA
 
 
-
-
-// Miko Selection Tutorial
-ALIGN 4
-MikoTutorialEvent:
-	CHECK_ACTIVE
-	SVAL s1 Miko
-	BEQ 1 s1 sC
-	ENUF 7 // unset completion flag if unit selected isn't Miko
-	GOTO 2
-	LABEL 1
-	TalkConvo(MikoSelectTutorial)
-	TextBox(MikoTutorial)
-	LABEL 2
-	NoFade
-ENDA
-
-ALIGN 4
-PolkaTutorialEvent:
-CHECK_ACTIVE
-	SVAL s1 0x8
-	BEQ 1 s1 sC
-	ENUF 0xB // unset completion flag if unit selected isn't Miko
-	GOTO 2
-	LABEL 1
-	TextBox(PolkaTutorial)
-	LABEL 2
-	NoFade
-ENDA
-
-
-
-
-
-
-
 Chp2UpperVillage:
-FadeBlack
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
-GiveItem(0x6C,0xFFFF)
+CameraMove(0x19)
+Highlight(0x19)
+PlayEmotionEffect(0x19,FrustratedEffect)
+Text(LamyChp2Pensive)
 NoFade
 ENDA
 
 
 
 Chp2CentralVillage:
-FadeBlack
-CHECK_ACTIVEID 0x2
-BEQ 1 s1 sC
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
-GiveItem(0x6C,0xFFFF)
-GOTO 2
-LABEL 1
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
-GiveItem(0xC1,0xFFFF)
-LABEL 2
+MUSC 0x62
+CAM1 [27,22]
+Text(Chp2GenANGRY)
+LOAD2 1 NousagiChp2Moment
+Text(PensiveNousagiChp2)
+SCOORD sB [26, 22]
+	MOVE 0x05 (-2) [26,24]
+	STAL 45
+	DISA_IF 0x85
+	Text(Chapter2BossBruhMoment)
 NoFade
 ENDA
 
 Chp2CentralEastVillage:
-FadeBlack
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
+CHECK_EVENTID 0x78 //Checks if triggered 78
+	SVAL s7 1
+	BEQ 8 sC s7
+LOAD1 0 Shiraken
+GOTO 21
+LABEL 8
+LOAD1 0 AmeliaGroupChp2
+LABEL 21
+NoFade
 ENDA
 
 Chp2EastVillage:
-FadeBlack
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
-GiveItem(0x6C,0xFFFF)
+CAM1 [27,22]
+PlayEmotionEffect(0x4A,AngryEffect)
+Text(ShikeNameChp2)
+LOAD2 0 NousagiNE
+NoFade
 ENDA
 
 
 Chp2Inn:
-FadeBlack
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
+CAM1 [27,22]
+PlayEmotionEffect(0x4A,AngryEffect)
+Text(MikoSelectTutorial)
+NoFade
 ENDA
 
 Chp2Temple:
-FadeBlack
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
+ENUT 4
+CHECK_EVENTID 0x78 //Checks if triggered 78
+SVAL s7 1
+BEQ 8 sC s7
+CAM1 [2,17]
+LOAD2 1 DoneBuddyChp2
+Text(NousagiChp2)
+GOTO 67
+LABEL 8
+CAM1 [2,17]
+LOAD2 0 DoneBuddyChp2
+ENUN
+LOAD2 1 DonerBuddyChp2
+Text(NousagiMOREChp2)
+LABEL 67
+NoFade
 ENDA
 
+SecondSqdNorthChp2:
+CAM1 [23,1]
+CHECK_EVENTID 0x78 //Checks if triggered 78
+	SVAL s7 1
+	BEQ 8 sC s7
+LOAD2 1 SecondChp2Spawn
+GOTO 67
+LABEL 8
+LOAD2 1 SecondChp2Spawn
+ENUN
+LOAD2 1 Chp2Bishop
+ENUN
+LABEL 67
+NoFade
+ENDA
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ALIGN 4
-Chp2Armory:
-SHORT 0x1
-SHORT 0x2
-SHORT 0x14
-SHORT 0x15
-SHORT IronAxe
-SHORT SteelAxe
-SHORT IronBow
-SHORT 0x34
-SHORT 0
-SHORT 0
-
-ALIGN 4
-Chp2Vendor:
-SHORT 0x38
-SHORT 0x39
-SHORT 0x4B
-SHORT 0x4C
-SHORT 0x6C
-SHORT 0x70
-SHORT 0
-SHORT 0
-
-
-
-
+ThirdSquadSouthChp2:
+CHECK_EVENTID 0x78 //Checks if triggered 78
+	SVAL s7 1
+	BEQ 8 sC s7
+CAM1 [27,19]
+LOAD2 1 ThirdChp2
+LABEL 8
+NoFade
+ENDA
 
 EndingScene:
 EnactAutoRepair
+FadeBlack
+CLEARALL
+MusicChange(0x31)
+SetBackground(0x40)
+FadeBackBlack
+	Text(MikoTutorial)
+	MusicChange(0x31)
+SetBackground(0x45)
+FadeBackBlack
+	Text(PolkaTutorial)
+	FadeBlack
 	MNC2 3
 	NoFade
 	ENDA
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

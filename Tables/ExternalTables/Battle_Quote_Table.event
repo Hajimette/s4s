@@ -3,10 +3,12 @@ ORG $846AC
 POIN BattleQuoteTable
 POP
 
+
 #define SpecifiedBattleConvo(Character1,Character2,Chapter,EventID,TextID) "SHORT Character1 Character2 Chapter EventID TextID 0x0 0x0 0x0; SHORT Character2 Character1 Chapter EventID TextID 0x0 0x0 0x0"
 #define UnspecifiedBattleConvo(Character,Chapter,EventID,TextID) "SHORT Character 0x0 Chapter EventID TextID 0x0 0x0 0x0; SHORT 0x0 Character Chapter EventID TextID 0x0 0x0 0x0"
 #define UnspecifiedAttackerConvo(Character,Chapter,EventID,TextID) "SHORT Character 0x0 Chapter EventID TextID 0x0 0x0 0x0"
 #define UnspecifiedAttackedConvo(Character,Chapter,EventID,TextID) "SHORT 0x0 Character Chapter EventID TextID 0x0 0x0 0x0"
+
 
 ALIGN 4
 BattleQuoteTable:
@@ -16,6 +18,13 @@ SpecifiedBattleConvo(0x11,EmiliaBoss,Prologue,Flag14,RisuPrologueQuote)
 SpecifiedBattleConvo(0x10,EmiliaBoss,Prologue,Flag15,RobocoPrologueQuote)
 SpecifiedBattleConvo(Amelia,EmiliaBoss,Prologue,BossQuote,AmeliaMonsterQuote)
 //Chapter1
+SpecifiedBattleConvo(0x14,0x46,0x1,Flag13,BotanChp2Quote)
+SpecifiedBattleConvo(0x11,0x46,0x1,Flag14,RisuChp2Quote)
+SpecifiedBattleConvo(0x10,0x46,0x1,Flag15,RobocoChp2Quote)
 UnspecifiedBattleConvo(0x46,0x1,BossQuote,NoirBattleQuote)
+//Chapter2
+UnspecifiedAttackedConvo(0x19,0x2,Flag14,LamyChp2Attacked)
+UnspecifiedAttackedConvo(0x4A,0x2,Flag15,BossChp2Attacked)
+
 
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0  // Terminator

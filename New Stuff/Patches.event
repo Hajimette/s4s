@@ -29,14 +29,17 @@
 #include "UseItemEffect/Installer.event"
     #include "ItemSpecialEffect/Installer.event"
     #include "Fatigue/Fatigue.event" 
+#include "MultiVulnarary/Install.event"
 #include "Escape/Installer.event"
 #include "kagaribi3/Installer.event"
 #include "MultiTileMarker/MultiTileMarker_Install.event"
 #include "SoundRoomText/Installer.event"
 #include "Send2Convoy/SendAllTransporter.event."
+#include "SettingTransporterEachChapter/SettingTransporterEachChapter_Install.event"
 #include "_256ColCG-4/CGCol.event"
-
 #include "SilentGiveItem/SilentGiveItem.event"
+#include "PrepBGM/ChangePrepBGM.event"
+
 
 
 //#include "SilentGiveItem/SilentGiveItem.c"

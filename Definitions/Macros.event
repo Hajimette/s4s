@@ -100,9 +100,9 @@
 #define DKSummonEffectASMC "ASMC 0x0807F879"
 
 
-#define FadeBlack "FADI 60"
+#define FadeBlack "FADI 16"
 #define FadeBackWhite "FAWU 60"
-#define FadeBackBlack "FADU 60"
+#define FadeBackBlack "FADU 16"
 #define SoundEffect(music) "SOUN music"
 #define SFX(music) "SOUN music"
 

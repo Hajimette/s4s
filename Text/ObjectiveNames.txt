@@ -14,4 +14,5 @@ Get out while[N]
 you still can.[X]
 
 ## HTTEChp3
-Defeat the Leader[X]
+Escape the[N]
+Iron Warren.[X]

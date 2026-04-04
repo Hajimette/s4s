@@ -360,7 +360,7 @@ We shouldn't wait for them.[N]
 Lets go while we still can![A][X]
 
 ## RequiredEscapesChapter1
-Required Escapees:[A][N]
+Required Alive:[A][N]
 [ToggleRed]Amelia, Botan, Zeta[N]
 Iroha, Koyori[ToggleRed][A][X]
 
@@ -382,3 +382,60 @@ Why can't you accept[N]
 the new order here?![A][N]
 You've put yourselves to[N]
 death by doing this![A][X]
+
+## BotanChp2Quote
+[MidLeft][LoadNoir]
+[MidLeft]
+I know those garments.[A][N]
+Why must you make it[N]
+worse for yourself, Lion?[A]
+[MidLeft][ClearFace]
+[MidRight][LoadBotanP]
+[MidRight]
+Why are you siding[N]
+with the invaders?![A]
+[MidRight][ClearFace]
+[MidLeft][LoadNoir]
+[MidLeft]
+Bah. If you won't accept[N]
+the new order, then so be it.[A][X]
+
+## RisuChp2Quote
+[MidLeft][LoadNoir]
+[MidLeft]
+Unionist. I know those[N]
+robes from anywhere.[A][N]
+Put down your books, and[N]
+come quietly.[A] I promise[N]
+you'll have more freedom[N]
+than working with these lot.[A]
+[MidLeft][ClearFace]
+[MidRight][LoadRisuP]
+[MidRight]
+You're nuts if you think[N]
+I'd actually do that.[A][X]
+
+## RobocoChp2Quote
+[MidRight][LoadRobocoP]
+[MidRight]
+Take off those robes, traitor.[A]
+[MidRight][ClearFace]
+[MidLeft][LoadNoir]
+[MidLeft]
+It's time we conform.[A] Why[N]
+can't you see the glory of[N]
+Pekoland saving the continent?[A]
+[MidLeft][ClearFace]
+[MidRight][LoadRobocoP]
+[MidRight]
+Illogical.[A][X]
+
+
+
+
+
+
+
+
+
+

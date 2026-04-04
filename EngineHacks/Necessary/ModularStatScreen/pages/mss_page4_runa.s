@@ -163,12 +163,12 @@ str    r2, [sp]
 str    r0, [sp, #4]
 mov    r2, #0 @colour
 mov    r0, r7
-ldr    r1, =(tile_origin+(0x20*2*11)+(2*16))
+ldr    r1, =(tile_origin+(0x20*2*11)+(2*17))
 mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
-draw_textID_at 21, 11, textID=0xd4e, width=16, colour=Blue
+draw_textID_at 13, 13, textID=0xd4e, width=16, colour=Blue
 
 b LiteralJump4
 .ltorg
@@ -198,13 +198,15 @@ str    r2, [sp]
 str    r0, [sp, #4]
 mov    r2, #0 @colour
 mov    r0, r7
-ldr    r1, =(tile_origin+(0x20*2*11)+(2*25))
+ldr    r1, =(tile_origin+(0x20*2*13)+(2*17))
 mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
 @ Next let's draw Gaiden spells if the hack is installed.
-draw_gaiden_spells_at 13, 13, GaidenStatScreen @ GaidenStatScreen is a pointer to the routine, GaidenStatScreen.
+draw_textID_at 13, 15, textID=0xD53, width=16, colour=Blue
+draw_affinity_icon_at 18, 15
+@draw_gaiden_spells_at 13, 13, GaidenStatScreen @ GaidenStatScreen is a pointer to the routine, GaidenStatScreen.
 
 page_end
 

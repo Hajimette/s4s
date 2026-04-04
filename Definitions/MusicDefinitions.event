@@ -34,6 +34,8 @@
 #define SearchingforSeisoID 0x35
 #define SecretGardenID 0x54
 #define SSSEndingID 0x3E4
+#define BlueRoseID 0x3DE
+#define ShallysID 0x3DD
 
 //FE4 
 #define FE4AnotherAssaultID 0x21
