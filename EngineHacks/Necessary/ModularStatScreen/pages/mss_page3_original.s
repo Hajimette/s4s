@@ -31,4 +31,7 @@ EndRanks:
 
 blh      DrawSupports
 
+draw_textID_at 13, 17, textID=0xD53, width=16, colour=Blue
+draw_affinity_icon_at 18, 17
+
 page_end

@@ -81,3 +81,45 @@ Placeholder[X]
 
 ## BotanHeight
 165cm[X]
+
+## HoloMyth
+Myth[X]
+
+## Gen0
+Founders[X]
+
+## Gen1
+HoloFirst[X]
+
+## Gen2
+HoloSecond[X]
+
+## Gamers
+Gamers[X]
+
+## Gen3
+Fantasy[X]
+
+## Gen4
+Force[X]
+
+## Gen5
+HoloFive[X]
+
+## Gen6
+HoloX[X]
+
+## EnCouncil
+Council[X]
+
+## IDone
+AREA15[X]
+
+## IDsecond
+HoloRo[X]
+
+## IDthird
+H3RO[X]
+
+## GenPromise
+Promise[X]

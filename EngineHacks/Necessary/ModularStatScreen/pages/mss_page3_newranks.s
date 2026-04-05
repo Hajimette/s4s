@@ -49,11 +49,18 @@ cmp r7, #0x2F
 ble LoopWeapons
 b EndRanks
 
+
+
+
+
 .ltorg
 
 EndRanks:
 pop {r5-r7}
 
 blh      DrawSupports
+
+draw_textID_at 13, 17, textID=0xD53, width=16, colour=Blue
+draw_affinity_icon_at 18, 17
 
 page_end

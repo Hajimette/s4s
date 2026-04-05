@@ -39,8 +39,8 @@
 #include "_256ColCG-4/CGCol.event"
 #include "SilentGiveItem/SilentGiveItem.event"
 #include "PrepBGM/ChangePrepBGM.event"
-
-
+#include "ContinueBattleBGM/ContinueBattleBGM.event"
+#include "ChangeBattleBgm/Installer.event"
 
 //#include "SilentGiveItem/SilentGiveItem.c"
 //	#include "SilentGiveItem/SilentGiveItem.lyn.event"

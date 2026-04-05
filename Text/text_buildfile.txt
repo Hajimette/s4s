@@ -23,6 +23,9 @@ Likes:[X]
 #0xd4d DislikesText 
 Skills:[X]
 
+#0x00DA
+Generation:[X]
+
 #0xd4e HeightText
 Height:[X]
 

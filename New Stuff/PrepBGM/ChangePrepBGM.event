@@ -17,6 +17,8 @@ ORG 0x965DC
 BL(0x965E4)
 ORG 0xAEB54
 BL(0x965E4)
+ORG 0xA1960
+BL(0x965E4)
 
 ORG 0xB1CF0
 jumpToHack(r0, PrepsBGM_c1p)
@@ -42,21 +44,3 @@ ALIGN 4; PrepsBGM_c2p:
 
 // I don't know actually what this does, but it seems to wrap an ASMC call to c2p
 #define Event_PlayBGMInPreps "ASMC PrepsBGM_c2p|1"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
