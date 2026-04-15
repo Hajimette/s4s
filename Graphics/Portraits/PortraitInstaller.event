@@ -95,6 +95,7 @@ POP
 #define LamyPortrait 0x22
 #define FBKPortrait 0x4B
 #define WatamePortrait 0xF
+#define WatameVariant 0x31
 #define NormalHaatoPortrait 0x4E
 #define IrysPortrait 0x43
 #define YabairysPortrait 0xFB
@@ -112,7 +113,7 @@ POP
 #define Smirnoff 0xFF
 #define NoirPortrait 0xFC
 #define FNousagiGen 0x1FC
-
+#define JackPortrait 0xFA
 
 
 
@@ -789,7 +790,7 @@ WatameData:
 #incbin "Dmps/Watame_frames.dmp"
 #incbin "Dmps/Watame_palette.dmp"
 #incbin "Dmps/Watame_minimug.dmp"
-setMugEntry(WatamePortrait, WatameData, 3, 6, 3, 4)
+setMugEntry(WatameVariant, WatameData, 3, 6, 3, 4)
 
 ALIGN 4
 NormalHaatoData:
@@ -868,6 +869,24 @@ FNousagiGenData:
 #incbin "Dmps/FNousagi_palette.dmp"
 #incbin "Dmps/FNousagi_minimug.dmp"
 setMugEntry(FNousagiGen, FNousagiGenData, 3, 5, 3, 3)
+
+
+ALIGN 4
+JackData:
+#incbin "Dmps/Jack_mug.dmp"
+#incbin "Dmps/Jack_frames.dmp"
+#incbin "Dmps/Jack_palette.dmp"
+#incbin "Dmps/Jack_minimug.dmp"
+setMugEntry(JackPortrait, JackData, 3, 5, 3, 3)
+
+ALIGN 4
+WatameS4SData:
+#incbin "Dmps/WatameS4S_mug.dmp"
+#incbin "Dmps/WatameS4S_frames.dmp"
+#incbin "Dmps/WatameS4S_palette.dmp"
+#incbin "Dmps/WatameS4S_minimug.dmp"
+setMugEntry(WatamePortrait, WatameS4SData, 2, 6, 3, 4)
+
 
 /*
 ALIGN 4

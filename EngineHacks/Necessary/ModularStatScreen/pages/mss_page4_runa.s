@@ -17,7 +17,7 @@ ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 @add    r1,#2
 add	   r0,r1
@@ -50,7 +50,7 @@ ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 add    r1,#2
 ldrh   r0,[r0,r1]		@load textid
@@ -85,7 +85,7 @@ ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 add    r1,#4
 ldrh   r0,[r0,r1]		@load textid
@@ -112,7 +112,7 @@ ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 add    r1,#6
 ldrh   r0,[r0,r1]		@load textid
@@ -147,7 +147,7 @@ ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 add    r1,#8
 ldrh   r0,[r0,r1]		@load textid
@@ -182,7 +182,7 @@ ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 add    r1,#10
 ldrh   r0,[r0,r1]		@load textid
@@ -211,9 +211,9 @@ ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
-add    r1,#14
+add    r1,#12
 ldrh   r0,[r0,r1]		@load textid
 mov    r3, r7
 mov r1, #12

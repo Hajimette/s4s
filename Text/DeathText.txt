@@ -367,3 +367,17 @@ you're doing killing me...[A][CloseEyes][X]
 [MidLeft]
 It can't be... how could[N]
 I lose this easily?![A][CloseEyes][X]
+
+
+## JackDeath
+[MidLeft][LoadJack]
+[MidLeft]
+It wasn't personal... you[N]
+were the better fighter...[A][CloseEyes][X]
+
+## NousagiSGTDeath
+[MidLeft][LoadNousagi]
+[MidLeft]
+The rest is on the rest[N]
+of you...[A] Don't stop[N]
+fighting for the Princess...[A][CloseEyes][X]

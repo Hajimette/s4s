@@ -194,7 +194,7 @@ Escape[X]
 King of Monsters [X]
 
 ## ShopTxt
-Neko To Sanpo[X]
+Rat Intro BGM[X]
 
 ## KawanabeTxt
 Kawanabe [X]
@@ -338,7 +338,7 @@ Runa[X]
 Godzilla Final Wars[X]
 
 ## NekoparaCreds
-Nekopara[X]
+DOVA Syndrome[X]
 
 ## KawanabeCreds
 Umihara Kawase[X]

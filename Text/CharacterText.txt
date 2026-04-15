@@ -483,3 +483,39 @@ Noir[X]
 ## NoirDesc
 A serious Union defector who[N]
 believes in the Pekoland cause.[X]
+
+## MercenaryUnit
+Mercenary[X]
+
+## MercUnitDesc
+A roaming mercenary recruited[N]
+from across the continent.[X]
+
+## JackName
+Jack[X]
+
+## JackDesc
+A mercenary hired to prevent[N]
+intruders from escaping the prison.[X]
+
+## SgtDesc
+A non-commissioned officer[N]
+of Pekolandian forces.[X]
+
+## NaiaName
+Carmina[X]
+
+## NaiaDesc
+The Warden of the Iron Warren.[N]
+Cold and calculated.[X]
+
+## CampfireName
+Campfire[X]
+
+## CmpFireDesc
+It's a fire...in a camp.[X]
+
+## HaatoInterlude1
+A girl rescued from[N]
+the Iron Warren.[X]
+

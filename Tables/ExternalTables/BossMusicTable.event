@@ -15,7 +15,11 @@ BossBGMEntry(0x46, FE5BossBattleID)
 //Chp2
 BossBGMEntry(0x4A, FE5BossBattleID)
 BossBGMEntry(0x19, 0x22)
+
 //Chp3
+BossBGMEntry(0x47, FE5BossBattleID)
+BossBGMEntry(0x4C, FE5BossBattleID)
+BossBGMEntry(0x48, FE5BossBattleID)
 
 //Chp4
 

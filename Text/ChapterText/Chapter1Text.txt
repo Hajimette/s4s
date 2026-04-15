@@ -362,7 +362,7 @@ Lets go while we still can![A][X]
 ## RequiredEscapesChapter1
 Required Alive:[A][N]
 [ToggleRed]Amelia, Botan, Zeta[N]
-Iroha, Koyori[ToggleRed][A][X]
+Iroha, Koyori.[ToggleRed][A][X]
 
 ## ZetaChp1TimetoGo
 [Left][LoadZetaP]

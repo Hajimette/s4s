@@ -36,6 +36,7 @@
 #define SSSEndingID 0x3E4
 #define BlueRoseID 0x3DE
 #define ShallysID 0x3DD
+#define RatShopID 0x59
 
 //FE4 
 #define FE4AnotherAssaultID 0x21
@@ -94,7 +95,6 @@
 //misc
 #define EscapeID 0x44
 #define KingofMonstersID 0x45
-#define NekotoSanpoID 0x59
 #define KawanabeID 0x5D
 #define amongusdripID 0x5E
 #define KaijuuID 0xC0

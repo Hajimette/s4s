@@ -16,6 +16,7 @@ SetTilesetConfig(SuperFieldsConfigID, SuperFieldsConfig)
 #include "SnowFields/SnowFields.event"
 SetTilesetObject(SnowFieldsID, SnowFieldsObject)
 SetTilesetPalette(SnowFieldsPalID, SnowFieldsPal)
+SetTilesetPalette(SnowFieldsNightPalID, SnowFieldsNightPal)
 SetTilesetConfig(SnowFieldsConfigID, SnowFieldsConfig)
 
 

@@ -166,6 +166,8 @@ Do you want to Escape?[N]
 
 #include "ChapterText/Chapter3Text.txt"
 
+#include "ChapterText/Chapter4Text.txt"
+
 #include "Supports/AmeliaxReine/AmeReine.txt"
 
 #include "unitmenu_text.txt"

@@ -25,8 +25,8 @@ Hatsuru:
 Bloom
 Gloom
 Yagoo
-Miko Alt
-Amelia Alts 2 and 3
+Miko Variant
+Amelia Variants
 Nousagi
 
 
@@ -67,10 +67,29 @@ Cygnus:
 Sora
 Risu
 
+Markex133:
+Noel
+Noel Variant
+Flare Variant
+Ina Variant
+Shion Variant
+Moona Variant
+Miko Variant
 
-Amelia Alt- MKCocoon
 
-Botan - ZoramineFae
+
+
+MKCocoon:
+Amelia Variant 
+
+
+Zoramine Fae
+Botan
+Mumei Variant
+
+Fatman:
+Jack (OC 44)
+
 
 
 
@@ -81,7 +100,7 @@ Noir (Marduk) - Gustabo
 
 Emilia - Lord of Admiral
 
-Noel - Markex133
+Watame - Dale Sanguchito
 
 
 
@@ -662,6 +681,7 @@ FE5 Threat B- Hatsuru
 FE5 Victory Minor- Dolkar
 FE5 Victory-Dolkar
 Fukkireta (Ochame Kinou)- 7743
+8bit Game Menu - DOVA Syndrome, Arranged by Square Root
 GHOST- ITHY
 Hologram Circus- Arranged by Memetzar, Original by Omaru Polka
 Id:Entity- Original Arrangement by Farhan Sarasin, Lyrics by Datenkou, Vocals done by Ayunda Risu, Moona Hoshinova, Airani Iofifteen, Kureiji Ollie, Anya Melfissa, Pavolia Reine. Arrangement by Kurolaff.

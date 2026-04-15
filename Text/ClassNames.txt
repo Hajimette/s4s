@@ -16,7 +16,7 @@ Amelia, still searching for[N]
 seiso. [X]
 
 ## MaidenName
-Battle Maiden [X]
+*{Battle Maiden}[X]
 
 ## MaidenDesc
 Hardened Axe Fighters with[N]

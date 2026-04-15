@@ -7,5 +7,9 @@ SnowFieldsPal:
 #incbin "SnowFieldsObject_pal.dmp"
 
 ALIGN 4
+SnowFieldsNightPal:
+#incbin "SnowFieldsNightPal_pal.dmp"
+
+ALIGN 4
 SnowFieldsConfig:
 #incbin "Snow_comp.dmp"

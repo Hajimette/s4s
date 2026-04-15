@@ -41,6 +41,7 @@
 #include "PrepBGM/ChangePrepBGM.event"
 #include "ContinueBattleBGM/ContinueBattleBGM.event"
 #include "ChangeBattleBgm/Installer.event"
+#include "FreeMove/Buildfile.event"
 
 //#include "SilentGiveItem/SilentGiveItem.c"
 //	#include "SilentGiveItem/SilentGiveItem.lyn.event"

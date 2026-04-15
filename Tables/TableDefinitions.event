@@ -233,6 +233,39 @@ ALIGN 4
 ChakimaruBoost:
 StatBonus(0, 0, 0, 5, 10, 0, 0, 0, 0, 0)
 
+ALIGN 4
+PettanBoost:
+StatBonus(0, 0, 0, 0, 0, 0, 0, 0, 5, 0)
+
+ALIGN 4
+TokenBoost:
+StatBonus(0, 0, 0, 0, 0, 0, 0, 4, 0, 0)
+
+ALIGN 4
+TalismanBoost:
+StatBonus(0, 0, 0, 0, 0, 0, 0, 0, 0, 5)
+
+ALIGN 4
+CoffeeBoost:
+StatBonus(0, 0, 0, 0, 0, 0, 5, 0, 0, 0)
+
+ALIGN 4
+ArchiveBoost:
+StatBonus(0, 0, 0, 5, 0, 0, 0, 0, 0, 0)
+
+ALIGN 4
+EngageBoost:
+StatBonus(0, 5, 0, 0, 0, 0, 0, 0, 0, 0)
+
+ALIGN 4
+RobeBoost:
+StatBonus(7, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+ALIGN 4
+MagicRingBoost:
+StatBonus(0, 0, 5, 0, 0, 0, 0, 0, 0, 0)
+
 //ALIGN 4
 //WeaponStatBoosts:
 //defStatBoosts(hp, str, mag, skl, spd, luk, def, res)
+//   |IsPointer

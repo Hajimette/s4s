@@ -762,8 +762,8 @@ ENDA
 
 
 EndingScene:
-EndOfEscapeRoutineASMC
 EnactAutoRepair
+EndOfEscapeRoutineASMC
 	FadeBlack
 	SetBackground(0x45)
 	FadeBackBlack

@@ -21,7 +21,7 @@ Steel Sword[X]
 Silver Sword[X]
 
 ## TrainSwdName
-Training Blade[X]
+*{Training Blade}[X]
 
 ## TrainSwdDesc
 Weak, but nimble.[X]
@@ -512,21 +512,21 @@ Engage Ring[X]
 
 ## EngageDesc
 ENGAGE in more combat.[N]
-+3 Str.[X]
++5 Str.[X]
 
 ## ArchiveName
 Archive[X]
 
 ## ArchiveDesc
 A novella from a certain[N]
-library. +4 Skl.[X]
+library. +5 Skl.[X]
 
 ## CoffeeName
 Coffee[X]
 
 ## CoffeeDesc
 All you need is speed.[N]
-+3 Spd.[X]
++5 Spd.[X]
 
 ## TokensName
 Tokens[X]
@@ -540,11 +540,11 @@ PettanShield[X]
 
 ## PShieldDesc
 Lets the user become[N]
-a wall. +3 Def[X]
+a wall. +5 Def[X]
 
 ## TalisDesc
 Pairs well with Alcoholism.[N]
-+4 Res.[X]
++5 Res.[X]
 
 ## BootsDesc
 New boots to run from[N]
@@ -945,7 +945,7 @@ Magic Ring[X]
 
 ## MagicRingDesc
 Feel the magic inside.[N]
-+3 Mag.[X]
++5 Mag.[X]
 
 ## MagicRingUse
 Raises magic.[X]

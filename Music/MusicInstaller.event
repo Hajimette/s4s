@@ -332,8 +332,8 @@ SongTable(MarineSailID, MarineSail, MapMusicGroup)
 }
 
 {
-#include "MusicEvents/NekotoSanpo.event"
-SongTable(NekotoSanpoID, NekotoSanpo, MapMusicGroup)
+#include "MusicEvents/RatMenuOp.event"
+SongTable(RatShopID, RatShop, MapMusicGroup)
 }
 
 {

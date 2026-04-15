@@ -19,7 +19,19 @@ DeathQuote(0x35,0x1,GameOver,KoyotiChp1Death)
 
 // Chp2
 DeathQuote(0x19,0x2,Flag13,LamyDeathChp2)
-DeathQuote(0x4A,0x2,DefeatBossFlag,NousagiChp2Death)
+DeathQuote(0x14,0x2,GameOver,BotanCroakChp1)
+DeathQuote(0x32,0x2,GameOver,ZetaCroakChp1)
+DeathQuote(0x34,0x2,GameOver,IrohaChp1Death) //Gozaru
+DeathQuote(0x35,0x2,GameOver,KoyotiChp1Death)
+
+
+// Chp3
+DeathQuote(0x14,0x3,GameOver,BotanCroakChp1)
+DeathQuote(0x32,0x3,GameOver,ZetaCroakChp1)
+DeathQuote(0x34,0x3,GameOver,IrohaChp1Death) //Gozaru
+DeathQuote(0x35,0x3,GameOver,KoyotiChp1Death)
+
+
 
 //General Characters
 DeathQuote(Amelia,Any,GameOver,AmeDeath)
@@ -93,6 +105,11 @@ DeathQuote(EmiliaBoss,Prologue,DefeatBossFlag,AmeEntombed)
 //Chp1
 DeathQuote(0x46,0x1,DefeatBossFlag,NoirDeath)
 
+//Chp2
+DeathQuote(0x4A,0x2,DefeatBossFlag,NousagiChp2Death)
 
+// Chp3
+DeathQuote(0x4C,0x1,GameOver,JackDeath) // Jack
+DeathQuote(0x47,0x1,GameOver,NousagiSGTDeath) //Nousagi SGT
 
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 // Terminator

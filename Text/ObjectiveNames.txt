@@ -16,3 +16,10 @@ you still can.[X]
 ## HTTEChp3
 Escape the[N]
 Iron Warren.[X]
+
+## Interlude1Obj
+Talk to the[N]
+rest of camp.[X]
+
+## DiscussObj
+Discuss.[X]
