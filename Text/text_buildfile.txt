@@ -168,6 +168,8 @@ Do you want to Escape?[N]
 
 #include "ChapterText/Chapter4Text.txt"
 
+#include "ChapterText/Chapter5Text.txt"
+
 #include "Supports/AmeliaxReine/AmeReine.txt"
 
 #include "unitmenu_text.txt"

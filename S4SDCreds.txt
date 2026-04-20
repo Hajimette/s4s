@@ -97,7 +97,6 @@ Roman (Randall) - NickT
 
 Noir (Marduk) - Gustabo
 
-
 Emilia - Lord of Admiral
 
 Watame - Dale Sanguchito
@@ -275,6 +274,10 @@ ASMC Check Suite
 7743:
 Change Status BG
 Kagabiri
+MultiDancers
+MultiDancer BGM
+MultiDancer Map
+TraineeRework
 
 
 
@@ -643,6 +646,7 @@ Caesura of Despair-  Composer- (buzzG), Arranger (Coch), IRyS, Arrangement by Ku
 Choir Waltz (Haato BGM)-Original by PERITune, Arrangement by suikann@tw
 Dance of the Toys (Amelia Watson BGM)- Arranged by Kotailri, original by DOVA SYNDROME
 Daydream- Vocals by Nanashi Mumei/Ouro Kronii, Music by Tatsuya Yano, Lyrics by Kota Morita, Mori Calliope, Original Mixing by Tomoari Taguma, Arranged by Kurolaff
+End of a Life - Arranged by cccheungoffic, Original by Mori Calliope, Composition by Pretty Patterns
 FE11 Into the Darkness-REALxViperz
 FE11 Leaps and Bounds-Saxor the nobody
 FE4 Another Enemy Assault- Tristan Hollow
@@ -709,12 +713,16 @@ Kaijuu No Hanauta- Original by Vaundy, Arrangement by Simpson (Ion), Io
 
 
 Backgrounds:
-Snow Field - FGO (Wave, Zoramine)
+FGO/(Wave, Zoramine)
+Snow Field
+Snow Field Night
+
+Path of Radiance
+Dungeon
+Dungeon 2
+Winter Camp
+
+
 Night Village - FE7
-Dungeon - FE9
-Dungeon2 - FE9
-
-
-
 
 

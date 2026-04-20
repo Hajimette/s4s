@@ -381,3 +381,9 @@ FE5 Pressing Threat- Final[X]
 
 ## ShallysCreds
 Aki Rosenthal[X]
+
+## EndofaLifeTxt
+End of a Life[X]
+
+## EndofaLifeCreds
+Mori Calliope[X]

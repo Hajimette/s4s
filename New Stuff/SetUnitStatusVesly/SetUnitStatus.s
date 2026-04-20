@@ -24,10 +24,10 @@ SetUnitStatus:
 
 	ldr		r7, =MemorySlot 
 	ldr 	r4, [r7, #4*0x03]	@What status do we set?
-	
 	ldr 	r0, [r7, #4*0x01]	@What unit are we examining?
 	blh 	GetUnitByEventParameter
 	mov 	r5, r0 				@Copy unit pointer to r5 
+	@mov r11, r11
 	cmp 	r5, #0x0
 	beq 	Error
 	
@@ -94,9 +94,15 @@ Error:
 	str	r0, [r7, #4*0x0C]
 
 Return:
-	blh  0x0801a1f4   @RefreshFogAndUnitMaps
+ldr r0, =0x202E4D8 @ Unit map	{U}
+ldr r0, [r0] 
+mov r1, #0
+blh 0x080197E4 @ FillMap 
+blh 0x08019FA0   //UpdateUnitMapAndVision
+blh 0x0801A1A0   //UpdateTrapHiddenStates
 	blh  0x080271a0   @SMS_UpdateFromGameData
 	blh  0x08019c3c   @UpdateGameTilesGraphics
 Term:
 	pop {r4-r7}
-	pop	{pc}
+	pop	{r1}
+	bx r1 

@@ -42,6 +42,11 @@
 #include "ContinueBattleBGM/ContinueBattleBGM.event"
 #include "ChangeBattleBgm/Installer.event"
 #include "FreeMove/Buildfile.event"
+#include "VictoryBgm/VictoryBGM.event"
+//#include "MultiDancer/Installer.event"
+//#include "MultiDanceBGM/Installer.event"
+//#include "MultiDancerMap/Installer.event"
+#include "TraineeRework/Install.event"
 
 //#include "SilentGiveItem/SilentGiveItem.c"
 //	#include "SilentGiveItem/SilentGiveItem.lyn.event"

@@ -37,6 +37,7 @@
 #define BlueRoseID 0x3DE
 #define ShallysID 0x3DD
 #define RatShopID 0x59
+#define EndofaLifeID 0x3DC
 
 //FE4 
 #define FE4AnotherAssaultID 0x21

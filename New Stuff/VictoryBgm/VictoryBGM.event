@@ -1,0 +1,20 @@
+#define jumpToHack(reg,ptr) "SHORT ((1001b << 11)|(reg << 8)) ((1000111b << 8)|(reg << 3)); POIN (ptr|1)"
+#define r1 1
+
+PUSH
+ORG 0x160C4
+jumpToHack(r1, VictoryBGM)
+ORG 0x20FAC
+#incbin "kill_chapter_prologue_bgm.bin"
+ORG 0x20CF0
+#incbin "kill_chapter_prologue_bgm2.bin"
+ORG 0x20D84
+#incbin "kill_chapter_prologue_bgm2.bin"
+ORG 0x20D94
+#incbin "kill_chapter_prologue_bgm3.bin"
+ORG 0x20D00
+#incbin "kill_chapter_prologue_bgm3.bin"
+POP
+
+ALIGN 4; VictoryBGM:
+#incbin "music10change.bin"

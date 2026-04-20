@@ -85,3 +85,19 @@ into making gems...[A][X]
 [MidLeft]
 Heh, seems like the metal[N]
 finally hardened![A][X]
+
+## NenePromo1
+Riding doesn't seem[N]
+so scary anymore![A][X]
+
+## NenePromo2
+I think I can really[N]
+help everyone out now![A][X]
+
+## NenePromo3
+I don't want to give up[N]
+what I know with magic...[A][X]
+
+## NenePromo4
+Maybe I should excel in[N]
+one field before the other...[A][X]

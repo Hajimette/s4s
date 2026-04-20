@@ -102,6 +102,8 @@ SetConvoBackground(SnowField, SnowFieldImage, SnowFieldTSA, SnowFieldPal)
 SetConvoBackground(VillageTrailNight, VillageNightTrailImage, VillageNightTrailTSA, VillageNightTrailPal)
 SetConvoBackground(Dungeon, DungeonImage, DungeonTSA, DungeonPal)
 SetConvoBackground(Dungeon2, Dungeon2Image, Dungeon2TSA, Dungeon2Pal)
+SetConvoBackground(SnowFieldNight, SnowFieldNightImage, SnowFieldNightTSA, SnowFieldNightPal)
+SetConvoBackground(CampfireWinter, CampWinterImage, CampWinterTSA, CampWinterPal)
 
 
 ALIGN 4
@@ -220,6 +222,29 @@ ALIGN 4
 Dungeon2Pal:
 #incbin "Dungeon2Pal.dmp"
 
+ALIGN 4
+SnowFieldNightImage:
+#incbin "SnowFieldNight.dmp"
+
+ALIGN 4
+SnowFieldNightTSA:
+#incbin "SnowFieldNight.tsa.dmp"
+
+ALIGN 4
+SnowFieldNightPal:
+#incbin "SnowFieldNight.pal.dmp"
+
+ALIGN 4
+CampWinterImage:
+#incbin "CampWinter.dmp"
+
+ALIGN 4
+CampWinterTSA:
+#incbin "CampWinter.tsa.dmp"
+
+ALIGN 4
+CampWinterPal:
+#incbin "CampWinter.pal.dmp"
 
 
 /*

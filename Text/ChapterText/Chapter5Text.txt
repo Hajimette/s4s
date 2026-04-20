@@ -1,0 +1,18 @@
+## BotanAmeIntro5
+[MidLeft][LoadBotanP]
+[MidLeft]
+Amelia, wake up![A]
+[MidRight]
+Ugh....[A]
+[MidLeft]
+Something is happening![A]
+[MidRight][LoadAme]
+[MidRight]
+Wh...ats going on?[A]
+[MidLeft]
+Over here, look.[A][X]
+
+## PolkaIntroChapter5
+[MidLeft][LoadPolkaP]
+[MidLeft]
+Placeholder.[A][X]

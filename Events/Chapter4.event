@@ -18,6 +18,12 @@ TurnBasedEvents:
 
 ALIGN 32
 CharacterBasedEvents:
+CharacterEvent(Flag14,EndingScene, 0x1, 0x14)
+CharacterEvent(Flag13,RBCInterlude1, 0x1, 0x10)
+CharacterEvent(Flag12,RisuInterlude1, 0x1, 0x11)
+CharacterEvent(Flag11,LamyInterlude1, 0x1, 0x19)
+CharacterEvent(Flag10,IrohaInterlude1, 0x1, 0x34)
+CharacterEvent(0x0,KoyoriInterlude1, 0x1, 0x35)
 
 	END_MAIN
 
@@ -26,10 +32,6 @@ MiscBasedEvents:
 	END_MAIN
 
 LocationBasedEvents:
-House(0,Chp4UpperHouse,11,16)
-House(0,Chp4LeftHouse,25,3)
-Village(0xA,Chp4LowerVillage,7,18)
-Village(0xB,Chp4UpperVillage,29,2)
 
 	END_MAIN
 
@@ -63,7 +65,7 @@ UNIT Amelia 0x1 Amelia Level(1,Ally,False) [5,4] 0x0 0x0 0x0 0x0 [0,0] NoAI
 	   
 	 UNIT 0x34 0x4 Amelia Level(1,Ally,False) [7,6] 0x0 0x0 0x0 0x0 [0,0] NoAI
 	
-	 UNIT 0x35 0x4 Amelia Level(1,Ally,False) [3,6] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	 UNIT 0x35 0x4 Amelia Level(1,Ally,False) [2,5] 0x0 0x0 0x0 0x0 [0,0] NoAI
  
 	UNIT
 
@@ -85,7 +87,37 @@ UNIT 0x35 0x4 Amelia Level(1,Ally,False) [4,0] 0x0 0x0 1 REDA6R2 [0,0] NoAI
 
 UNIT
 
+AquaSpawnChp1:
+UNIT 0x1D 0xAF 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA7R7 [IronLance,0x0] DefaultAI
+UNIT 0xD3 0xF 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA6R8 [IronLance,0x0] DefaultAI
+UNIT 0xD4 0x10 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA5R7 [IronLance,0x0] DefaultAI
+UNIT 0xD5 0x19 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA5R8 [IronLance,0x0] DefaultAI
+UNIT 0xD6 0x19 0xAA Level(5,NPC,True) [2,16] 0x0 0x0 1 REDA6R9 [IronLance,0x0] DefaultAI
+UNIT
 
+ShionChp1Spawn:
+UNIT 0x1F 0x8D 0xAA Level(5,NPC,True) [10,0] 0x0 0x0 1 REDA8R6 [IronLance,0x0] DefaultAI
+UNIT 0xD7 0x25 0xAA Level(5,NPC,True) [9,0] 0x0 0x0 1 REDA9R7 [IronLance,0x0] DefaultAI
+UNIT 0xD8 0x25 0xAA Level(5,NPC,True) [11,0] 0x0 0x0 1 REDA8R8 [IronLance,0x0] DefaultAI
+UNIT
+
+PekolandSpawnChp1:
+UNIT 0xCA 0x07 0xAA Level(5,Enemy,True) [9,0] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xCB 0xBF 0xAA Level(5,Enemy,True) [10,0] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xCC 0x07 0xAA Level(5,Enemy,True) [11,0] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT
+
+PekolandSpawn2Chp1:
+UNIT 0xCD 0xC1 0xAA Level(5,Enemy,True) [17,6] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xCE 0xBC 0xAA Level(5,Enemy,True) [17,7] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xCF 0xC1 0xAA Level(5,Enemy,True) [17,8] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT
+	
+PekolandSpawn3Chp1:
+UNIT 0xD0 0x1B 0xAA Level(5,Enemy,True) [0,10] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xD1 0xBC 0xAA Level(5,Enemy,True) [0,11] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT 0xD2 0x1B 0xAA Level(5,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
+UNIT
 
 Traps1:
 	ENDTRAP
@@ -106,74 +138,284 @@ FadeBlack
 CLEARALL
 LOAD1 0 PlayerUnits
 LOAD1 0 TheCampFire
+TILECHANGE 1
+Weather 1
 FadeBackBlack
 TextBox(Interlude1Intro)
 EnableFreeMovement
-
-
 	NoFade
 	ENDA
 
-
-
-
-
-
-
-Chp4UpperVillage:
-FadeBlack
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
-GiveItem(0xE,0xFFFF)
+RBCInterlude1:
+Text(RBCAmeIntL1)
+GiveItem(0xD4,0x01)
+NoFade
 ENDA
 
-Chp4LowerVillage:
-FadeBlack
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
-GiveItem(0x04,0xFFFF)
+RisuInterlude1:
+Text(RisuAmeInt1)
+GiveItem(0x76,0x01)
+NoFade
 ENDA
 
-Chp4UpperHouse:
-FadeBlack
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
+IrohaInterlude1:
+SoundEffect(0xB0)
+Draw(MapSword,7,7)
+STAL 30
+SoundEffect(0xB0)
+Draw(ThinSlashAnimID,7,7)
+STAL 15
+CHECK_EVENTID FlagA //Checks if triggered 78
+	SVAL s7 1
+	BEQ 1 sC s7 
+Text(IroAmeIntNoKoyo)
+TextBox(FatigueIntro)
+GOTO 2
+LABEL 1
+Text(IroAmeInterTalk1)
+TextBox(FatigueIntro)
+LABEL 2
+NoFade
 ENDA
 
-Chp4LeftHouse:
-FadeBlack
-SetBackground(House2)
-FadeBackBlack
-TalkConvo(Chp1HouseText)
-FadeBlack
-CLEAN
-FadeBackBlack
+KoyoriInterlude1:
+CHECK_EVENTID FlagB // Checks if already gotten stats
+SVAL s7 1
+BEQ 55 sC s7 
+	CHECK_EVENTID FlagA //Checks if already talked to Koyo
+	SVAL s7 1
+	BEQ 1 sC s7 
+	Text(KoyoAmeInterlude1)
+	SoundEffect(0xBF)
+	Draw(FireAnimID,1,6)
+	STAL 15
+	SoundEffect(0x123)
+	TILECHANGE 0
+	STAL 30
+	PlayEmotionEffect(0x1,ExclamationEffect)
+	STAL 45
+	CHECK_EVENTID Flag10 // Checks if already talked to GozaRU
+SVAL s7 1
+BEQ 15 sC s7
+Text(KoyoAmeIntLd1)
+	GOTO 3
+	LABEL 15
+	Text(KoyoAmeIroLd1)
+	STAL 120
+	SoundEffect(0xBE)
+	Draw(Splash2AnimID,1,6)
+	STAL 30
+	PlayEmotionEffect(0x35,ExclamationEffect)
+	STAL 60
+	Text(KoyoCaughtaFish)
+	AddUnitStatus(0x35, Skill, 7)
+	TextBox(KoyoInterlude1Status)
+	ENUT FlagB
+	GOTO 2
+	LABEL 3
+	ENUT FlagA
+	GOTO 2
+	LABEL 1
+CHECK_EVENTID Flag10 // Checks if already talked to GozaRU
+SVAL s7 1
+BEQ 10 sC s7 
+Text(KoyoAmeFishNay)
+GOTO 2 
+LABEL 10
+	Text(FishingPole1) //Got fishing pole (Talked to Gozaru)
+STAL 120
+	SoundEffect(0xBE)
+	Draw(Splash2AnimID,1,6)
+	STAL 30
+	PlayEmotionEffect(0x35,ExclamationEffect)
+	STAL 60
+	Text(KoyoCaughtaFish)
+	AddUnitStatus(0x35, Skill, 7)
+	TextBox(KoyoInterlude1Status)
+	ENUT FlagB
+GOTO 2
+LABEL 55
+Text(KoyoFishmaxxing)
+LABEL 2
+NoFade
+ENDA
+
+LamyInterlude1:
+Text(LAmeIntl1)
+AddUnitStatus(0x19, Resistance, 4)
+AddUnitStatus(0x19, Magic, 4)
+TextBox(LamyIntLd1)
+NoFade
 ENDA
 
 EndingScene:
+FadeBlack
+DisableFreeMovement
+MuteMusic
+SoundEffect(0x4A)
 EnactAutoRepair
-REMU 0x2
-REMU 0x3
-REMU 0x4
-REMU 0x5
-REMU 0x6
-REMU 0x7
-REMU 0x8
-REMU 0x9
-REMU 0xA
-SendAll(Amelia)
+SetBackground(CampfireWinter)
+FadeBackBlack
+Text(BotanAmeINTLD1)
+STAL 30
+CHECK_ALIVE 0x10 //RBC
+SVAL s7 0
+BEQ 1 sC s7
+	CHECK_ALIVE 0x11 //Checks if Risu is Alive
+	SVAL s7 0
+	BEQ 2 sC s7
+	CHECK_ALIVE 0x19 //LAMY
+	SVAL s7 0
+	BEQ 3 sC s7
+Text(InterludeEndAll3)	//Dialogue here if all 3 are alive
+CALL ResistCutsceneInterlude1
+FadeBlack
+LOMA 0x4
+SoundEffect(0x4A)
+CLEARALL
+SetBackground(CampfireWinter)
+FadeBackBlack
+Text(InterludeEndAll32)
+
+GOTO 67
+LABEL 3
+Text(InterludeEndRBCRisu)	//Dialogue if Lamy ded but RBC/TreeRat is alive
+CALL ResistCutsceneInterlude1
+FadeBlack
+LOMA 0x4
+SoundEffect(0x4A)
+CLEARALL
+SetBackground(CampfireWinter)
+FadeBackBlack
+Text(InterludeEndRBCRisu2)
+GOTO 67
+LABEL 2
+CHECK_ALIVE 0x19 // RBC Alive but Risu ded
+SVAL s7 0
+BEQ 4 sC s7
+Text(InterludeLamyRBC)
+CALL ResistCutsceneInterlude1
+FadeBlack
+LOMA 0x4
+SoundEffect(0x4A)
+CLEARALL
+SetBackground(CampfireWinter)
+FadeBackBlack
+Text(InterludeLamyRBC2)
+GOTO 67
+LABEL 1 // Here if RBC is DEAD
+CHECK_ALIVE 0x11
+SVAL s7 0
+BEQ 5 sC s7 // Risu alive
+CHECK_ALIVE 0x19 // Checks for Lamy
+SVAL s7 0
+BEQ 7 sC s7
+Text(InterludeLamyRisu) // Risu and Lamy are alive only
+CALL ResistCutsceneInterlude1
+FadeBlack
+LOMA 0x4
+SoundEffect(0x4A)
+CLEARALL
+SetBackground(CampfireWinter)
+FadeBackBlack
+Text(InterludeLamyRisu2)
+GOTO 67
+LABEL 7 // Risu alive only
+Text(InterludeRisu)
+CALL ResistCutsceneInterlude1
+FadeBlack
+LOMA 0x4
+SoundEffect(0x4A)
+CLEARALL
+SetBackground(CampfireWinter)
+FadeBackBlack
+Text(InterludeRisu2)
+GOTO 67
+LABEL 5 //Risu and RBC are DEAD
+CHECK_ALIVE 0x19 
+	SVAL s7 0
+	BEQ 6 sC s7 // Lamy Alive only
+Text(InterludeLamy)
+CALL ResistCutsceneInterlude1
+FadeBlack
+LOMA 0x4
+SoundEffect(0x4A)
+CLEARALL
+SetBackground(CampfireWinter)
+FadeBackBlack
+Text(InterludeLamy2)
+GOTO 67
+LABEL 4 //RBC Alive Only
+Text(InterludeRBC)
+CALL ResistCutsceneInterlude1
+FadeBlack
+LOMA 0x4
+SoundEffect(0x4A)
+CLEARALL
+SetBackground(CampfireWinter)
+FadeBackBlack
+Text(InterludeRBC2)
+GOTO 67
+LABEL 6 //All 3 are DEAD
+STAL 60
+Text(InterludeEndBotanAme)
+CALL ResistCutsceneInterlude1
+FadeBlack
+LOMA 0x4
+SoundEffect(0x4A)
+CLEARALL
+SetBackground(CampfireWinter)
+FadeBackBlack
+Text(InterludeEndBotanAme2)
+LABEL 67
+FadeBlack
+SetBackground(SnowFieldNight)
+FadeBackBlack
+Text(IroKoyoInterlude1)
+
+FadeBlack
 	MNC2 5
 	NoFade
 	ENDA
+
+
+
+ResistCutsceneInterlude1:
+FadeBlack // AquaShion Cutscene
+CLEAN
+LOMA 0x4c
+VCWF 0
+Weather 5
+CAM1 [4,10]
+MuteMusic
+CLEARALL
+MusicChange(0x31)
+FadeBackBlack
+Location(HoloPelagia)
+LOAD1 0 AquaSpawnChp1
+Text(AquaChp1)
+CAM1 [10,1]
+LOAD1 0 ShionChp1Spawn
+ENUN
+CAM1 [8,6]
+Text(ShionChp1)
+CAM1 [10,1]
+LOAD2 1 PekolandSpawnChp1
+ENUN
+STAL 45
+CAM1 [17,5]
+LOAD2 1 PekolandSpawn2Chp1
+ENUN
+STAL 45
+CAM1 [1,11]
+LOAD2 1 PekolandSpawn3Chp1
+ENUN
+STAL 45
+CAM1 [6,7]
+PlayEmotionEffect(0x1D,ExclamationEffect)
+STAL 45
+Text(PekolandChp1Txt)
+STAL 10
+MuteMusic
+NoFade
+ENDA

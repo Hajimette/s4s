@@ -381,3 +381,10 @@ were the better fighter...[A][CloseEyes][X]
 The rest is on the rest[N]
 of you...[A] Don't stop[N]
 fighting for the Princess...[A][CloseEyes][X]
+
+## CampfireDeath
+[MidLeft][LoadBotanP]
+[MidLeft]
+Why would you do that?![A][N]
+Now we're going to freeze[N]
+to death out here![A][X]

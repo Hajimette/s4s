@@ -51,6 +51,7 @@
 #define Lava 0x32
 #define DragonGate 0x33
 #define DragonGateRuins 0x34
+#define CampfireWinter 0x42
 
 
 //
@@ -63,6 +64,7 @@
 #define MoriCG 0x3E
 #define PekoraCG 0x3f
 #define SnowField 0x40
+#define SnowFieldNight 0x41
 #define VillageTrailNight 0x44
 #define Dungeon 0x45
 #define Dungeon2 0x46

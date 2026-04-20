@@ -454,4 +454,9 @@ SongTable(BlueRoseID, BlueRose, MapMusicGroup)
 SongTable(ShallysID, Shallys, MapMusicGroup)
 }
 
+{
+#include "MusicEvents/EndofaRu.event"
+SongTable(EndofaLifeID, EndofaLife, MapMusicGroup)
+}
+
 #include "SoundroomEditor.event"

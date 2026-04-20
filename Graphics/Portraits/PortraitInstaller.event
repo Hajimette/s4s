@@ -102,6 +102,7 @@ POP
 #define InjuredHaatoPortrait 0x50
 #define NPCProloguePortraitF 0x0101
 #define NPCProloguePortraitM 0x0102
+#define KoyoriLeftPortrait 0xD0
 
 
 
@@ -887,6 +888,13 @@ WatameS4SData:
 #incbin "Dmps/WatameS4S_minimug.dmp"
 setMugEntry(WatamePortrait, WatameS4SData, 2, 6, 3, 4)
 
+ALIGN 4
+KoyoriLeftData:
+#incbin "Dmps/KoyoriLeft_mug.dmp"
+#incbin "Dmps/KoyoriLeft_frames.dmp"
+#incbin "Dmps/KoyoriLeft_palette.dmp"
+#incbin "Dmps/KoyoriLeft_minimug.dmp"
+setMugEntry(KoyoriLeftPortrait, KoyoriLeftData, 4, 6, 4, 4)
 
 /*
 ALIGN 4

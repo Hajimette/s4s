@@ -169,45 +169,10 @@ UNIT 0x80 0x1A 0xAA Level(8,Enemy,True) [0,4] 0x0 0x0 0x0 0x0 [IronBow,0x0] Defa
 Cooked:
 UNIT 0x7F 0xC1 0xAA Level(10,Enemy,True) [0,12] 0x0 0x0 1 REDA1R11 [IronLance,0x0] DefaultAI
 UNIT 0x7F 0xC1 0xAA Level(10,Enemy,True) [0,13] 0x0 0x0 1 REDA2R13 [IronLance,0x0] DefaultAI
-
 UNIT 0x7F 0xC1 0xAA Level(10,Enemy,True) [0,2] 0x0 0x0 1 REDA1R2 [IronLance,0x0] DefaultAI
 UNIT 0x7F 0xC1 0xAA Level(10,Enemy,True) [0,3] 0x0 0x0 1 REDA2R3 [IronLance,0x0] DefaultAI
 UNIT 0x7F 0xC1 0xAA Level(10,Enemy,True) [0,4] 0x0 0x0 1 REDA1R4 [IronLance,0x0] DefaultAI
-
 UNIT
-	
-AquaSpawnChp1:
-UNIT 0x1D 0xAF 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA7R7 [IronLance,0x0] DefaultAI
-UNIT 0xD3 0xF 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA6R8 [IronLance,0x0] DefaultAI
-UNIT 0xD4 0x10 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA5R7 [IronLance,0x0] DefaultAI
-UNIT 0xD5 0x19 0xAA Level(5,NPC,True) [0,12] 0x0 0x0 1 REDA5R8 [IronLance,0x0] DefaultAI
-UNIT 0xD6 0x19 0xAA Level(5,NPC,True) [2,16] 0x0 0x0 1 REDA6R9 [IronLance,0x0] DefaultAI
-UNIT
-
-ShionChp1Spawn:
-UNIT 0x1F 0x8D 0xAA Level(5,NPC,True) [10,0] 0x0 0x0 1 REDA8R6 [IronLance,0x0] DefaultAI
-UNIT 0xD7 0x25 0xAA Level(5,NPC,True) [9,0] 0x0 0x0 1 REDA9R7 [IronLance,0x0] DefaultAI
-UNIT 0xD8 0x25 0xAA Level(5,NPC,True) [11,0] 0x0 0x0 1 REDA8R8 [IronLance,0x0] DefaultAI
-UNIT
-
-PekolandSpawnChp1:
-UNIT 0xCA 0x07 0xAA Level(5,Enemy,True) [9,0] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT 0xCB 0xBF 0xAA Level(5,Enemy,True) [10,0] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT 0xCC 0x07 0xAA Level(5,Enemy,True) [11,0] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT
-
-PekolandSpawn2Chp1:
-UNIT 0xCD 0xC1 0xAA Level(5,Enemy,True) [17,6] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT 0xCE 0xBC 0xAA Level(5,Enemy,True) [17,7] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT 0xCF 0xC1 0xAA Level(5,Enemy,True) [17,8] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT
-	
-PekolandSpawn3Chp1:
-UNIT 0xD0 0x1B 0xAA Level(5,Enemy,True) [0,10] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT 0xD1 0xBC 0xAA Level(5,Enemy,True) [0,11] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT 0xD2 0x1B 0xAA Level(5,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [IronLance,0x0] DefaultAI
-UNIT
-	
 
 ZetaIrohaIntervention:
 UNIT 0x34 0xC5 Amelia Level(6,Ally,False) [0,10] 0x0 0x0 1 REDA4R9 [0xC9,0x6C] NoAI
@@ -499,64 +464,7 @@ MoveCoords(26,8,23,13)
 MoveCoords(19,12,10,12)
 
 
-/*
-FadeBlack // AquaShion Cutscene
-LOMA 0x4c
-VCWF 0
-CAM1 [6,7]
-CLEARALL
-MusicChange(0x31)
-FadeBackBlack
-LOAD2 1 AquaSpawnChp1
-Text(AquaChp1)
-CAM1 [10,1]
-LOAD2 1 ShionChp1Spawn
-ENUN
-CAM1 [8,6]
-Text(ShionChp1)
-CAM1 [10,1]
-LOAD2 1 PekolandSpawnChp1
-ENUN
-STAL 45
-CAM1 [17,5]
-LOAD2 1 PekolandSpawn2Chp1
-ENUN
-STAL 45
-CAM1 [1,11]
-LOAD2 1 PekolandSpawn3Chp1
-ENUN
-STAL 45
-CAM1 [6,7]
-PlayEmotionEffect(0x1D,ExclamationEffect)
-STAL 45
-Text(PekolandChp1Txt)
-STAL 10
-CAM1 [11,11]
 
-MOVE 15 0x1D [17,17]
-MOVE 15 0x1f [16,17]
-MoveCoords(6,8,15,10,12)
-MoveCoords(5,7,15,11,11)
-ENUN
-MoveCoords(5,8,15,11,12)
-MoveCoords(6,9,15,12,12)
-MoveCoords(9,7,15,12,11)
-MoveCoords(8,8,15,10,11)
-ENUN
-
-MoveCoords(0,10,15,10,10)
-MoveCoords(0,11,15,10,9)
-MoveCoords(0,12,15,9,9)
-ENUN
-MoveCoords(17,6,15,10,9)
-MoveCoords(17,7,15,10,9)
-MoveCoords(17,8,15,10,10)
-ENUN
-MoveCoords(9,0,15,12,8)
-MoveCoords(10,0,15,12,10)
-MoveCoords(11,0,15,10,8)
-STAL 45
-*/
 
 
 
