@@ -1,11 +1,11 @@
 
 // Con Growth Table
-SetUnitConGrowth(Amelia,5)
-SetUnitConGrowth(Reine,15)
-SetUnitConGrowth(Mumei,5)
-SetUnitConGrowth(Fauna,3)
-SetUnitConGrowth(Miko,3)
-SetUnitConGrowth(Suisei,10)
+SetUnitConGrowth(0x1,5)
+SetUnitConGrowth(0x2,15)
+SetUnitConGrowth(0x3,5)
+SetUnitConGrowth(0x4,3)
+SetUnitConGrowth(0x5,3)
+SetUnitConGrowth(0x6,10)
 SetUnitConGrowth(Baelz,0)
 SetUnitConGrowth(Polka,25)
 SetUnitConGrowth(Noel,15)
@@ -15,8 +15,8 @@ SetUnitConGrowth(Nene,3)
 SetUnitConGrowth(Luna,0)
 SetUnitConGrowth(Subaru,10)
 SetUnitConGrowth(Iofi,3)
-SetUnitConGrowth(Roboco,10)
-SetUnitConGrowth(Risu,3)
+SetUnitConGrowth(0x10,10) //RBC
+SetUnitConGrowth(0x11,3)
 SetUnitConGrowth(Matsuri,5)
 SetUnitConGrowth(Aki,10)
 SetUnitConGrowth(Botan,10)
@@ -61,7 +61,7 @@ SetUnitConGrowth(Kurokami,5)
 
 
 // Mov Growth Table
-SetUnitMovGrowth(Amelia,1)
+SetUnitMovGrowth(0x1,1)
 SetUnitMovGrowth(Reine,5)
 SetUnitMovGrowth(Mumei,3)
 SetUnitMovGrowth(Fauna,0)

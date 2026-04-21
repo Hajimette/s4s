@@ -75,6 +75,26 @@ mov r1, r5 @ possibly defender
 add	r7, #0x04	@prepare next pointer
 b	Loop
 End:
+ldr     r0,=0x203A545       @Move attacker data into r0.
+ldrh    r3,[r0]     @Load the attacker's CON statup into r3.
+mov 	r3, #0	    @Set statup to 0.
+strh    r3,[r0]     @Store attacker CON stat up.
+
+ldr     r0,=0x203A56B       @Move attacker data into r0.
+ldrh    r3,[r0]     @Load the attacker's MOV statup into r3.
+mov 	r3, #0	    @Set statup to 0.
+strh    r3,[r0]     @Store attacker MOV stat up.
+
+ldr     r0,=0x203A5C5       @Move defender data into r0.
+ldrh    r3,[r0]     @Load the defender's CON statup into r3.
+mov 	r3, #0	    @Set statup to 0.
+strh    r3,[r0]     @Store attacker CON stat up.
+
+ldr     r0,=0x203A5EB       @Move defender data into r0.
+ldrh    r3,[r0]     @Load the defender's MOV statup into r3.
+mov 	r3, #0	    @Set statup to 0.
+strh    r3,[r0]     @Store attacker MOV stat up.
+
 ldr	r0,=#0x203A4D4
 mov	r1,#0
 strb	r1,[r0]

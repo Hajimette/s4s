@@ -2,6 +2,23 @@
 //To disable a skill, define it as 255.
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
+
+// Custom Skills
+
+// Alchemist (koyori skill but skl/4)
+#define AlchemistID 204
+
+// Reine unlucky skill
+#define TonjokID 157
+
+// Iroha Skill
+#define GozaruID 158
+
+
+
+
+
+
 //AI Skills
 
 //Provoke: Enemies are more likely to target this unit.
@@ -64,7 +81,7 @@
 
 //Hex: -15 avoid to all adjacent enemies.
 //By Snakey1
-#define HexID 204
+#define HexID 255
 
 //Infiltrator: If within 2 spaces of two or more enemies, gain +3 damage and +15% hit.
 //By Datagne
@@ -135,8 +152,7 @@
 //By Sme
 #define HorseguardID 255
 
-#define TonjokID 157
-#define GozaruID 158
+
 
 //Armorboost: +4 attack and defense against armored enemies if within 3 spaces of an armored ally.
 //By Sme

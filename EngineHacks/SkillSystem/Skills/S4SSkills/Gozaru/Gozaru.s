@@ -1,52 +1,108 @@
 .thumb
-.equ GozaruID, SkillTester+4
-.equ GetUnitsInRange, SkillTester+4
+.align 2
 
 .equ gBattleData, 0x203A4D4
+.equ GozaruID, 0x158    @ change this to your real ID
 
+.global GozaruSkill
+.type GozaruSkill, %function
+
+GozaruSkill:
 push {r4-r7, lr}
-mov r4, r0 @atkr
-mov r5, r1 @dfdr
+mov r4, r0      @ current power
+mov r5, r1      @ attacker
+mov r6, r2      @ defender
 
-CheckSkill:
-@now check for the skill
-ldr r0, GetUnitsInRange
+@ SKILL CHECK (SkillTester)
+ldr r0, =SkillTester
 mov lr, r0
-mov r0, r4 @attacker
-mov r1, #3 @Enemy
-mov r2, #2
-.short 0xf800
+mov r0, r5              @ unit
+ldr r1, =GozaruID       @ skill ID to check
+.short 0xF800
 cmp r0, #0
-beq Done
+beq End                 @ if no skill → exit
 
-mov r2, #0x0
+@ Get enemies in range (2 tiles)
+mov r2, #0
+
+ldr r1, =0x8019430     @ FE8 unit table start
+ldr r1, [r1]
+
 Loop:
-ldrb r1, [r0, r2]
-cmp  r1, #0x0
-beq  CheckCount
-add  r2, #0x1
+cmp r1, #0
+beq CheckCount
+
+@ skip invalid/dead/hidden units
+ldrb r0, [r1, #0x0C]
+lsl r0, #28
+lsr r0, #28
+cmp r0, #0
+bne Next
+
+@ check allegiance
+ldrb r0, [r1, #0x0B]
+ldrb r3, [r5, #0x0B]
+cmp r0, r3
+beq Next
+
+@ distance check (Manhattan)
+
+ldrb r0, [r1, #0x10]   @ enemy x
+ldrb r3, [r5, #0x10]   @ attacker x
+sub r0, r0, r3
+cmp r0, #0
+bge absx
+neg r0, r0
+absx:
+
+ldrb r3, [r1, #0x11]   @ enemy y
+ldrb r7, [r5, #0x11]   @ attacker y
+sub r3, r3, r7
+cmp r3, #0
+bge absy
+neg r3, r3
+absy:
+
+add r0, r0, r3
+cmp r0, #2
+bgt Next
+
+@ count enemy
+add r2, #1
+
+Next:
+ldr r1, [r1, #0x44]     @ next unit
 b Loop
 
+@ CHECK THRESHOLD
 CheckCount:
-cmp r2,#0x2
-blt Done
+cmp r2, #3
+blt End
 
-@store spd/2 in r6
-mov		r1,#0x16
-ldrb	r6,[r4,r1]
-lsr		r6,#1
+@ SPD / 2
+ldrb r0, [r5, #0x16]
+lsr  r0, #1
 
-mov     r1,r4        @Move attacker data into r1.
-add     r1,#0x5A    @Move to the attacker's power.
-ldrh    r3,[r1]        @Load the attacker's power into r3.
-add     r3,r6    @Add r6 to the attacker's power.
-strh     r3,[r1]        @Store attacker power.
 
+@ Add to Attack (0x5A battle struct)
+@ldr r1, =gBattleData
+@mov r3, #0x5A
+@ldrh r2, [r1, r3]
+@add r2, r0
+@strh r2, [r1, r3]
+
+add r4, r0   @ add to power (r4 = current power)
+
+
+
+@ END
 End:
-pop {r4-r7, r15}
-.align
-.ltorg
+mov r0, r4
+pop {r4-r7}
+pop {r1}
+bx r1
+
+
 SkillTester:
 @Poin SkillTester
-@POIN GetUnitsInRange
 @WORD GozaruID

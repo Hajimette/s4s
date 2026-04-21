@@ -6,6 +6,7 @@ prRallyMag:
 push { r4 - r5, lr }
 mov r5, r0 @ Stat
 mov r4, r1 @ Unit
+ldr r2, =SpecMagAmount_Link
 bl AddRallySpectrum 
 add r5, r0 
 mov r1, r4 
@@ -25,25 +26,30 @@ bx r2
 .ltorg 
 
 AddRallySpectrum: 
-push {lr} 
-mov r0, r1 @ unit 
+push {r4, lr} 
+
+mov r4, r2        @ save pointer to stat-specific amount
+mov r0, r1        @ unit
 bl GetUnitDebuffEntry 
 
 ldr r1, =SpecRallyOffset_Link
 ldr r1, [r1] 
 bl CheckBit
+
 cmp r0, #0 
 beq AddZero 
-ldr r0, =SpecRallyAmount_Link 
-ldr r0, [r0] 
 
+ldr r0, [r4]      @ load stat-specific amount
 b ExitSpec 
+
 AddZero: 
 mov r0, #0 
+
 ExitSpec: 
+pop {r4} 
 pop {r1} 
 bx r1 
-.ltorg 
+.ltorg
 
 IsRallySet: 
 push {r4, lr} 
@@ -69,6 +75,7 @@ prRallyStr:
 push { r4 - r5, lr }
 mov r5, r0 @ Stat
 mov r4, r1 @ Unit
+ldr r2, =SpecStrAmount_Link
 bl AddRallySpectrum 
 add r5, r0 
 mov r1, r4 
@@ -95,6 +102,7 @@ prRallySkl:
 push { r4 - r5, lr }
 mov r5, r0 @ Stat
 mov r4, r1 @ Unit
+ldr r2, =SpecSklAmount_Link
 bl AddRallySpectrum 
 add r5, r0 
 mov r1, r4 
@@ -121,6 +129,7 @@ prRallySpd:
 push { r4 - r5, lr }
 mov r5, r0 @ Stat
 mov r4, r1 @ Unit
+ldr r2, =SpecSpdAmount_Link
 bl AddRallySpectrum 
 add r5, r0 
 mov r1, r4 
@@ -147,6 +156,7 @@ prRallyDef:
 push { r4 - r5, lr }
 mov r5, r0 @ Stat
 mov r4, r1 @ Unit
+ldr r2, =SpecDefAmount_Link
 bl AddRallySpectrum 
 add r5, r0 
 mov r1, r4 
@@ -173,6 +183,7 @@ prRallyRes:
 push { r4 - r5, lr }
 mov r5, r0 @ Stat
 mov r4, r1 @ Unit
+ldr r2, =SpecResAmount_Link
 bl AddRallySpectrum 
 add r5, r0 
 mov r1, r4 
@@ -199,6 +210,7 @@ prRallyLuk:
 push { r4 - r5, lr }
 mov r5, r0 @ Stat
 mov r4, r1 @ Unit
+ldr r2, =SpecLukAmount_Link
 bl AddRallySpectrum 
 add r5, r0 
 mov r1, r4 
@@ -225,8 +237,9 @@ prRallyMov:
 push { r4 - r5, lr }
 mov r5, r0 @ Stat
 mov r4, r1 @ Unit
-@bl AddRallySpectrum 
-@add r5, r0 
+ldr r2, =SpecMovAmount_Link
+bl AddRallySpectrum 
+add r5, r0  
 mov r1, r4 
 ldr r2, =MovRallyOffset_Link
 ldr r2, [r2] 
@@ -242,9 +255,6 @@ pop {r4-r5}
 pop {r2} 
 bx r2 
 .ltorg 
-
-
-
 
 
 

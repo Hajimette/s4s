@@ -319,8 +319,8 @@ Rally Movement: +1 Move[N]
 to allies within 2 tiles.[X]
 
 ## SD_RallySpectrum
-Rally Spectrum: +2 all stats[N]
-to allies within 2 tiles.[X]
+Rally Society: +10 all stats[N]
+and +3 Mov to allies in 2 tiles.[X]
 
 ## SD_BowRangeUp
 Bow Range +1: Maximum range[N]
@@ -1853,3 +1853,7 @@ wind tome in her inventory.[X]
 ## SD_Gozaru
 Way of the Gozaru: If 3 enemies are[N]
 in two spaces, add (Spd/2) to damage.[X]
+
+## SD_Alchemist
+Alchemist: Has a chance upon defeating[N]
+an enemy to create an item.[X]

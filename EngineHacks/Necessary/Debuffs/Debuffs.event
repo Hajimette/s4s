@@ -50,12 +50,22 @@ EternalVanity_Link:
 WORD EternalVanityID 
 
 
+SpecStrAmount_Link: WORD 10
+SpecMagAmount_Link: WORD 10
+SpecSklAmount_Link: WORD 10
+SpecSpdAmount_Link: WORD 10
+SpecDefAmount_Link: WORD 10
+SpecResAmount_Link: WORD 10
+SpecLukAmount_Link: WORD 10
+SpecMovAmount_Link: WORD 3
+
+
 SpecRallyAmount_Link: 
 WORD 2 
 MagRallyAmount_Link: 
 WORD 4 
 StrRallyAmount_Link: 
-WORD 4 
+WORD 1 
 SklRallyAmount_Link: 
 WORD 4 
 SpdRallyAmount_Link: 

@@ -15,9 +15,14 @@ ALIGN 4
 Tonjok:
 #include "Tonjok/Tonjok.lyn.event"
 
+
+gGozaruID:
+BYTE GozaruID
+
 ALIGN 4
-Gozaru:
-#incbin "Gozaru/Gozaru.dmp"
-POIN SkillTester
-POIN GetUnitsInRange
-WORD GozaruID
+GozaruSkill:
+//#incbin "Gozaru/Gozaru.dmp"
+#incbin "Gozaru/Gozaru.lyn.event"
+//POIN SkillTester
+//WORD GozaruID
+

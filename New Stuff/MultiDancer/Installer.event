@@ -14,6 +14,6 @@ POIN MultiDancerClassTable
 MultiDancerClassTable:
 BYTE 0x46   //Class: Dancer
 BYTE 0x4d   //Class: Dancer
-BYTE 0xB9 //Class: Bard
+//BYTE 0xB9 //Class: Bard
 
 BYTE 0x00   //term data
