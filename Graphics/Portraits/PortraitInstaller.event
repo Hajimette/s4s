@@ -103,6 +103,10 @@ POP
 #define NPCProloguePortraitF 0x0101
 #define NPCProloguePortraitM 0x0102
 #define KoyoriLeftPortrait 0xD0
+#define GalzusEyesPortrait 0xD1
+#define AkiPortrait 0x1A
+#define NenePortrait 0x10
+#define MatsuriPortrait 0x19
 
 
 
@@ -115,6 +119,7 @@ POP
 #define NoirPortrait 0xFC
 #define FNousagiGen 0x1FC
 #define JackPortrait 0xFA
+#define NougalasPortrait 0xF9
 
 
 
@@ -895,6 +900,47 @@ KoyoriLeftData:
 #incbin "Dmps/KoyoriLeft_palette.dmp"
 #incbin "Dmps/KoyoriLeft_minimug.dmp"
 setMugEntry(KoyoriLeftPortrait, KoyoriLeftData, 4, 6, 4, 4)
+
+
+ALIGN 4
+GalzusEyesData:
+#incbin "Dmps/GalzusEyes_mug.dmp"
+#incbin "Dmps/GalzusEyes_frames.dmp"
+#incbin "Dmps/GalzusEyes_palette.dmp"
+#incbin "Dmps/GalzusEyes_minimug.dmp"
+setMugEntry(GalzusEyesPortrait, GalzusEyesData, 3, 7, 3, 5)
+
+ALIGN 4
+AkiData:
+#incbin "Dmps/Aki_mug.dmp"
+#incbin "Dmps/Aki_frames.dmp"
+#incbin "Dmps/Aki_palette.dmp"
+#incbin "Dmps/Aki_minimug.dmp"
+setMugEntryExtend(AkiPortrait, AkiData, 2, 6, 3, 4, 10, 2, 10, 4)
+
+ALIGN 4
+NeneData:
+#incbin "Dmps/Nene_mug.dmp"
+#incbin "Dmps/Nene_frames.dmp"
+#incbin "Dmps/Nene_palette.dmp"
+#incbin "Dmps/Nene_minimug.dmp"
+setMugEntry(NenePortrait, NeneData, 3, 6, 3, 4)
+
+ALIGN 4
+MatsuriData:
+#incbin "Dmps/Matsuri1_mug.dmp"
+#incbin "Dmps/Matsuri1_frames.dmp"
+#incbin "Dmps/Matsuri1_palette.dmp"
+#incbin "Dmps/Matsuri1_minimug.dmp"
+setMugEntryExtend(MatsuriPortrait, MatsuriData, 2, 6, 3, 4, 0, 2, 0, 4)
+
+ALIGN 4
+NougalasData:
+#incbin "Dmps/Nougalas_mug.dmp"
+#incbin "Dmps/Nougalas_frames.dmp"
+#incbin "Dmps/Nougalas_palette.dmp"
+#incbin "Dmps/Nougalas_minimug.dmp"
+setMugEntryExtend(NougalasPortrait, NougalasData, 2, 6, 3, 4, 10, 4, 10, 6)
 
 /*
 ALIGN 4

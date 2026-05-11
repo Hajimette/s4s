@@ -117,6 +117,7 @@
 [LoadKurokamiP] = [LoadFace][0x2E][0x1]
 
 [LoadGalzus] = [LoadFace][0xB9][0x1]
+[LoadGalzusEyes] = [LoadFace][0xD1][0x1]
 [LoadKroniiPlayerP] = [LoadFace][0xB5][0x1]
 [LoadKroniiBeat] = [LoadFace][0xDC][0x1]
 [LoadHaatoNormal] = [LoadFace][0x4E][0x1]

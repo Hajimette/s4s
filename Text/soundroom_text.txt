@@ -215,7 +215,7 @@ Twisted Shadows A [X]
 Shinigami [X]
 
 ## TWRTxt
-Together We Ride[X]
+BIBBIDIBA[X]
 
 ## BOTG1
 Blessing of the Generals I[X]
@@ -355,9 +355,6 @@ The Sacred Stones[X]
 ## ShinigamiCreds
 Kenshi Yonezu[X]
 
-## TogetherWeCreditCreds
-The Blazing Blade[X]
-
 ## MoomCreds
 Yuuki Wataru[X]
 
@@ -387,3 +384,6 @@ End of a Life[X]
 
 ## EndofaLifeCreds
 Mori Calliope[X]
+
+## TogetherWeCreditCreds
+The Blazing Blade[X]

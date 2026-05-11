@@ -10,7 +10,7 @@ None,0,0
 0x08 Polka,2,0
 0x09 Noel,1,10
 0x0A Flare,0,5
-0x0B Watame,1,10
+0x0B Watame,0,0
 0x0C Nene,5,65
 0x0D Luna,1,60
 0x0E Subaru,0,5
@@ -69,14 +69,14 @@ None,0,0
 0x43 Valter (Ch 15),2,5
 0x44 Selena (Ch 10B & 13B),10,40
 0x45 Valter (Prologue),2,5
-0x46 Noir (Ch 1),11,45
-0x47 Bone (Ch 2),0,5
-0x48 Bazba (Ch 3),1,10
-0x49 Entombed (Ch 4),1,5
+0x46 Noir (Chapter 1),11,45
+0x47 Nousagi (3),0,5
+0x48 Naia (Prison Boss),1,10
+0x49 Emilia (Prologue),1,5
 0x4A Saar (Ch 5),1,5
 0x4B Novala (Ch 6),8,50
-0x4C Murray (Ch 7),2,5
-0x4D Tirado (Ch 8),3,15
+0x4C Jack,2,5
+0x4D Nougalas,6,30
 0x4E Binks (Ch 9A),2,10
 0x4F Pablo (Ch 10A),8,50
 0x50 Maelduin (Ch 12A),2,10
@@ -125,11 +125,11 @@ None,0,0
 0x7B -,0,0
 0x7C -,0,0
 0x7D -,0,0
-0x7E -,0,0
+0x7E -,4,35
 0x7F -,2,20
 0x80 Nousagi,4,30
 0x81 Nousagi,0,0
-0x82 Nousagi,8,35
+0x82 Nousagi,10,35
 0x83 -,0,0
 0x84 -,0,0
 0x85 -,0,0

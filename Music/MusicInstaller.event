@@ -387,7 +387,7 @@ SongTable(ShinigamiID, Shinigami, MapMusicGroup)
 }
 
 {
-#include "MusicEvents/TogetherWeRide_Hatsuru.event"
+#include "MusicEvents/SkibidiSigma.event"
 SongTable(TogetherWeRideID, TogetherWeRide, MapMusicGroup)
 }
 

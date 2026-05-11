@@ -52,7 +52,7 @@
 #define DragonGate 0x33
 #define DragonGateRuins 0x34
 #define CampfireWinter 0x42
-
+#define KroniiMoon 0x43
 
 //
 #define AquaCG 0x38

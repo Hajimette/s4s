@@ -17,6 +17,7 @@ TurnEventPlayer(0, THERAT, 4)
 TurnEventPlayer(0, VillagerUprising, 6)
 TurnEventPlayer(0, Chp3Mercs, 8)
 TurnEventPlayer(0, Chp3LowerVillage, 10) // Troops appear SE
+TurnEventPlayer(0, ExtraSouthern3Spawn, 12)
 TurnEventPlayer(0, Chp3UpperVillage, 14) //Carmina Leaves
 TurnEventPlayer(0, Chp3Carmina, 16)
 
@@ -273,6 +274,15 @@ UNIT 0x7F 0x7 0x53 Level(15,Enemy,True) [0,6] 0x0 0x0 0x0 0x0 [0x0] DefaultAI
 UNIT 0x7F 0x7 0x53 Level(15,Enemy,True) [0,8] 0x0 0x0 0x0 0x0 [0x0] DefaultAI
 UNIT
 	
+ExtraSouthernCentral3:
+UNIT 0x80 0xF 0x53 Level(8,Enemy,True) [10,21] 0x0 0x0 1 REDA10R20 [IronSword] DefaultAI
+UNIT 0x80 0x10 0x53 Level(8,Enemy,True) [11,21] 0x0 0x0 1 REDA11R20 [IronSword] DefaultAI
+UNIT 0x80 0x25 0x53 Level(8,Enemy,True) [9,21] 0x0 0x0 0x0 0x0 [Thunder] DefaultAI
+UNIT 0x80 0x19 0x53 Level(8,Enemy,True) [10,20] 0x0 0x0 0x0 0x0 [IronBow] DefaultAI
+UNIT 0x80 0x1A 0x53 Level(8,Enemy,True) [10,20] 0x0 0x0 0x0 0x0 [IronBow] DefaultAI
+UNIT 0x80 0x26 0x53 Level(8,Enemy,True) [10,20] 0x0 0x0 0x0 0x0 [Elfire] DefaultAI
+
+UNIT
 	
 Traps1:
 	ENDTRAP
@@ -450,9 +460,11 @@ CAM1 0x32
 NoFade
 ENDA
 
-
-
-
+ExtraSouthern3Spawn:
+CAM1 [11,20]
+LOAD1 0 ExtraSouthernCentral3
+NoFade
+ENDA
 
 
 Chp3LowerVillage:

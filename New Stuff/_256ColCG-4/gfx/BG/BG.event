@@ -86,7 +86,7 @@ POIN Pekora256Image; WORD 0x0; POIN Pekora256Pal
 WORD 0x0 0x0 0x0 
 WORD 0x0 0x0 0x0 
 WORD 0x0 0x0 0x0 
-WORD 0x0 0x0 0x0 
+WORD 0x0 0x0 0x0
 WORD 0x0 0x0 0x0 
 WORD 0x0 0x0 0x0 
 WORD 0x0 0x0 0x0 
@@ -104,7 +104,7 @@ SetConvoBackground(Dungeon, DungeonImage, DungeonTSA, DungeonPal)
 SetConvoBackground(Dungeon2, Dungeon2Image, Dungeon2TSA, Dungeon2Pal)
 SetConvoBackground(SnowFieldNight, SnowFieldNightImage, SnowFieldNightTSA, SnowFieldNightPal)
 SetConvoBackground(CampfireWinter, CampWinterImage, CampWinterTSA, CampWinterPal)
-
+SetConvoBackground(KroniiMoon, KroniiMoonImage, KroniiMoonTSA, KroniiMoonPal)
 
 ALIGN 4
 Aqua256Image:
@@ -245,6 +245,18 @@ CampWinterTSA:
 ALIGN 4
 CampWinterPal:
 #incbin "CampWinter.pal.dmp"
+
+ALIGN 4
+KroniiMoonImage:
+#incbin "KroniiMoon.dmp"
+
+ALIGN 4
+KroniiMoonTSA:
+#incbin "KroniiMoon.tsa.dmp"
+
+ALIGN 4
+KroniiMoonPal:
+#incbin "KroniiMoon.pal.dmp"
 
 
 /*

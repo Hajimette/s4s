@@ -8,11 +8,161 @@ Ugh....[A]
 Something is happening![A]
 [MidRight][LoadAme]
 [MidRight]
-Wh...ats going on?[A]
+Wh...whats going on?[A]
 [MidLeft]
-Over here, look.[A][X]
+Over there, look.[A][X]
 
 ## PolkaIntroChapter5
 [MidLeft][LoadPolkaP]
+[Right][LoadNousagi]
+[FarRight][LoadNousagi]
+[MidRight]
+Why are you traveling[N]
+through a restricted area?![A]
 [MidLeft]
-Placeholder.[A][X]
+Restricted? This is a public path![A]
+[Right]
+By decree of the Princess, all[N]
+public roads are now closed![A][2NL]
+Now, what are you doing traveling[N]
+in the middle of the night?[A][X]
+
+## IrohaObserve2
+[Left][LoadIrohaP]
+[FarLeft][LoadKoyoriP]
+[FarLeft]
+What do you think?[A]
+[Left]
+They're restricting movement[N]
+across the country, I daresay.[A][2NL]
+I'm suprised they haven't done[N]
+this earlier.[A]
+[FarLeft]
+I've woken up the[N]
+rest of camp.[A]
+[Left]
+Good. We might need to move sooner.[A][N]
+I didn't expect them to reach[N]
+this far so fast, I daresay.[A]
+[FarLeft]
+We might be able to catch a[N]
+ride in that carriage...[A]
+[Left]
+More people to bring along will[N]
+only complicate things, I daresay.[A]
+[FarLeft]
+Either way, this patrol is[N]
+already way too close.[A][2NL]
+We're going to have to kill[N]
+them anyways.[A][X]
+
+## WatameNeneIntro
+[Right][LoadNousagi]
+[FarRight][LoadNousagi]
+[Left][LoadNeneP]
+[FarLeft][LoadWatameP]
+[Right]
+So... we have a clown, a bard[N]
+and a pegasus rider.[A]
+[FarRight]
+Sounds like a joke.[A]
+[Left]
+We're just trying to leave[N]
+peacefully, is all.[A][N]
+[Right]
+No.[A][2NL]
+That insignia on the pegasus[N]
+you have. I know it when I see it.[A]
+[FarLeft]
+Why did you bring[N]
+out your pegasus?![A]
+[Left]
+She freaks out when[N]
+I'm not around her![A][X]
+
+## IrohaObserve3
+[FarRight][LoadIrohaP]
+[Right][LoadKoyoriP]
+[FarLeft][LoadAme]
+[Left][LoadBotanP]
+[Right]
+You see whats happening?[A]
+[Left]
+Yea, are we waiting?[A]
+[FarRight]
+No. They're searching the area.[A][2NL]
+We're going to kill the whole[N]
+search party, I daresay.[A]
+[FarLeft]
+Can't we just run and[N]
+evade them?![A]
+[FarRight]
+No. Pekoland search parties go[N]
+in groups of three.[A][N]
+We're bound to come across[N]
+the others.[A]
+[Right]
+It's best to silence them now[N]
+and hide the bodies.[A][N]
+The people getting harassed can[N]
+provide us some assistance.[A]
+[Left]
+And what if it doesn't work[N]
+out as planned?[A]
+[FarRight]
+We won't be able to outrun[N]
+them, I daresay.[A]
+[FarLeft]
+So... you're fighting?[A]
+[FarRight]
+We're all fighting, I daresay.[A][N]
+Lets finish this quickly.[A][X]
+
+## WatameNeneIntro2
+[Left][LoadPolkaP]
+[MidLeft][LoadNeneP]
+[FarLeft][LoadWatameP]
+[MidRight][LoadNousagi]
+[MidRight]
+Seize them![A]
+[Left]
+I hope you guys can[N]
+catch up![A][X]
+
+
+
+
+
+
+
+
+## AmeGroggyChp5
+[MidRight][LoadAme]
+W...where?[A][X]
+
+## AmeGroggy52
+..li....u.![A][X]
+
+## AmeGroggy53
+.m.l.a![A][X]
+
+## AmeGroggyChp54
+[MidRight][LoadAme]
+W...ho?[A][X]
+
+## AmeGroggyChp55
+Wa....p![A][X]
+
+## AmeGroggyChp56
+[MidLeft][LoadAme]
+[MidLeft]
+No... [....][....][....][....]
+[MoveMidLeft]
+no no no no![A][X]
+
+## AmeGroggyChp57
+[MidLeft][LoadAme]
+S...stay back![A][X]
+
+## AmeGroggyChp58
+Wake up![A][X]

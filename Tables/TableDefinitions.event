@@ -247,7 +247,7 @@ StatBonus(0, 0, 0, 0, 0, 0, 0, 0, 0, 5)
 
 ALIGN 4
 CoffeeBoost:
-StatBonus(0, 0, 0, 0, 0, 0, 5, 0, 0, 0)
+StatBonus(0, 0, 0, 5, 0, 0, 0, 0, 0, 0)
 
 ALIGN 4
 ArchiveBoost:

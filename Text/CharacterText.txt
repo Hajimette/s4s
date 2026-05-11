@@ -519,3 +519,9 @@ It's a fire...in a camp.[X]
 A girl rescued from[N]
 the Iron Warren.[X]
 
+## NougalasName
+Nougalas[X]
+
+## NougalasDesc
+The commanding officer for one[N]
+of Pekoland's scouting parties.[X]

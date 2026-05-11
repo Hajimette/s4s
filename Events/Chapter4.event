@@ -248,6 +248,46 @@ TextBox(LamyIntLd1)
 NoFade
 ENDA
 
+ResistCutsceneInterlude1:
+FadeBlack // AquaShion Cutscene
+CLEAN
+LOMA 0x4c
+VCWF 0
+Weather 5
+CAM1 [4,10]
+MuteMusic
+CLEARALL
+MusicChange(0x31)
+FadeBackBlack
+Location(HoloPelagia)
+LOAD1 0 AquaSpawnChp1
+Text(AquaChp1)
+CAM1 [10,1]
+LOAD1 0 ShionChp1Spawn
+ENUN
+CAM1 [8,6]
+Text(ShionChp1)
+CAM1 [10,1]
+LOAD2 1 PekolandSpawnChp1
+ENUN
+STAL 45
+CAM1 [17,5]
+LOAD2 1 PekolandSpawn2Chp1
+ENUN
+STAL 45
+CAM1 [1,11]
+LOAD2 1 PekolandSpawn3Chp1
+ENUN
+STAL 45
+CAM1 [6,7]
+PlayEmotionEffect(0x1D,ExclamationEffect)
+STAL 45
+Text(PekolandChp1Txt)
+STAL 10
+MuteMusic
+NoFade
+ENDA
+
 EndingScene:
 FadeBlack
 DisableFreeMovement
@@ -372,7 +412,12 @@ FadeBlack
 SetBackground(SnowFieldNight)
 FadeBackBlack
 Text(IroKoyoInterlude1)
-
+FadeBlack
+MuteMusic
+SetBackground(Dungeon)
+FadeBackBlack
+MusicChange(0x3E3)
+Text(ChamaChp4End)
 FadeBlack
 	MNC2 5
 	NoFade
@@ -380,42 +425,3 @@ FadeBlack
 
 
 
-ResistCutsceneInterlude1:
-FadeBlack // AquaShion Cutscene
-CLEAN
-LOMA 0x4c
-VCWF 0
-Weather 5
-CAM1 [4,10]
-MuteMusic
-CLEARALL
-MusicChange(0x31)
-FadeBackBlack
-Location(HoloPelagia)
-LOAD1 0 AquaSpawnChp1
-Text(AquaChp1)
-CAM1 [10,1]
-LOAD1 0 ShionChp1Spawn
-ENUN
-CAM1 [8,6]
-Text(ShionChp1)
-CAM1 [10,1]
-LOAD2 1 PekolandSpawnChp1
-ENUN
-STAL 45
-CAM1 [17,5]
-LOAD2 1 PekolandSpawn2Chp1
-ENUN
-STAL 45
-CAM1 [1,11]
-LOAD2 1 PekolandSpawn3Chp1
-ENUN
-STAL 45
-CAM1 [6,7]
-PlayEmotionEffect(0x1D,ExclamationEffect)
-STAL 45
-Text(PekolandChp1Txt)
-STAL 10
-MuteMusic
-NoFade
-ENDA

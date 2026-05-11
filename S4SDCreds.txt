@@ -89,7 +89,7 @@ Mumei Variant
 
 Fatman:
 Jack (OC 44)
-
+Nougalas (OC 39)
 
 
 
@@ -101,6 +101,7 @@ Emilia - Lord of Admiral
 
 Watame - Dale Sanguchito
 
+Luknight - Armor by Garytop
 
 
 Nousagi Variants:
@@ -110,9 +111,11 @@ Dark General Nousagi (face paint) - Nokitrix, Hatsuru, Armor base by Bwdyeti and
 F!Armored Nousagi - Base by Garytop, Nokitrix, Hatsuru
 Warrior Nousagi- Armor by Nuramon, Head by Stitch, Nokitrix, Hatsuru
 DreadFighter Nousagi- Armor by Garytop, Nokitrix, Hatsuru
-
-
-
+Marksmen Nousagi - Nokitrix, Hatsuru, Tezuka, Garytop, Obsidian_Daddy
+F!Peg Knight - HyperGammaSpaces, Plant_Academy, Garytop, Nuramon, Hatsuru
+F! MageKnight - Obsidian_daddy, Tezuka
+M!Sage - Nuramon, Garytop
+M!Samurai Nousagi - Armor by Garytop
 
 
 Map Sprites:
@@ -641,7 +644,8 @@ Among us Drip-MichaelPosin'
 Astrogirl (Orchestral Arrange)- Harlos Music
 Astrogirl- Original by Tsukumo Sana and Snail's House, Arranged by A_Reliable_Chair
 Basking in the Sun (Mumei BGM)- Original by Yuuki Wataru, Arranged by A_Reliable_Chair
-Blue Clapper- Lyrics/Original Composition by PandaBoY, Sung by HoloFive (Yukihana Lamy, Momosuzu Nene, Shishiro Botan, Omaru Polka), Arrangement by Kurolaff. 
+Blue Clapper- Lyrics/Original Composition by PandaBoY, Sung by HoloFive (Yukihana Lamy, Momosuzu Nene, Shishiro Botan, Omaru Polka), Arrangement by Kurolaff.
+BIBBIDIBA- Original Composition by Tsumiki, Vocals by Hoshimachi Suisei, Arranged by ITYH
 Caesura of Despair-  Composer- (buzzG), Arranger (Coch), IRyS, Arrangement by Kurolaff
 Choir Waltz (Haato BGM)-Original by PERITune, Arrangement by suikann@tw
 Dance of the Toys (Amelia Watson BGM)- Arranged by Kotailri, original by DOVA SYNDROME
