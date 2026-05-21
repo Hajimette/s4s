@@ -27,7 +27,9 @@ DefeatAll(EndingScene)
 	END_MAIN
 
 LocationBasedEvents:
-
+Armory(Chp5Armory,13,6)
+Vendor(Chp5Vendor,12,6)
+Village(0x7,Chp5House,13,1)
 	END_MAIN
 
 Dunno1:
@@ -108,7 +110,7 @@ UNIT 0x82 0x05 0x53 Level(9,Enemy,True) [3,0] 0x0 0x0 0x0 0x0 [IronSword,IronLan
 UNIT 0x82 0x05 0x53 Level(10,Enemy,True) [4,0] 0x0 0x0 0x0 0x0 [IronSword,IronLance] Wait1Turn
 UNIT 0x82 0x05 0x53 Level(9,Enemy,True) [3,1] 0x0 0x0 0x0 0x0 [IronSword,IronLance] Wait1Turn
 UNIT 0x82 0x05 0x53 Level(10,Enemy,True) [4,1] 0x0 0x0 0x0 0x0 [IronSword,IronLance] Wait1Turn
-UNIT 0x82 0x19 0x53 Level(8,Enemy,True) [13,7] 0x0 0x0 0x0 0x0 [0x34] NoMoveAI
+UNIT 0x82 0x19 0x53 Level(8,Enemy,True) [15,7] 0x0 0x0 1 REDA13R7 [0x34] NoMoveAI
 UNIT 0x82 0x13 0x53 Level(9,Enemy,True) [9,3] 0x0 0x0 0x0 0x0 [SlimSword] NoMoveAI
 UNIT 0x82 0x4E 0x53 Level(10,Enemy,True) [13,1] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
 UNIT 0x82 0x19 0x53 Level(9,Enemy,True) [16,0] 0x0 0x0 0x0 0x0 [SteelBow] NoMoveAI
@@ -138,6 +140,32 @@ Traps1:
 Traps2:
 	ENDTRAP
 	ALIGN 4
+
+Chp5Armory:
+SHORT SlimSword
+SHORT IronSword
+SHORT SlimLance
+SHORT IronLance
+SHORT IronAxe
+SHORT 0x2C
+SHORT ShortBow
+SHORT IronBow
+SHORT 0
+SHORT 0
+
+Chp5Vendor:
+SHORT Fire
+SHORT Wind
+SHORT Thunder
+SHORT Heal
+SHORT Mend
+SHORT Vulnerary
+SHORT 0x6F
+SHORT 0x6E
+SHORT 0
+SHORT 0
+
+
 
 AmeDreamChp5:
 LOMA 0x4D
@@ -249,6 +277,40 @@ ENDA
 
 
 
+
+
+
+
+
+
+Chp5House:
+FadeBlack
+SetBackground(House2)
+FadeBackBlack
+CHECK_EVENTID 0x79 //Checks if saved kid
+	SVAL s7 0
+	BEQ 8 sC s7
+TalkConvo(Chp5HouseTxt)
+GiveItem(0x1E,0xFFFF)
+
+
+
+GOTO 4
+LABEL 8
+TalkConvo(Chp5HouseTxtUnsaved)
+GiveItem(0x6C,0xFFFF)
+
+
+
+
+LABEL 4
+FadeBlack
+CLEAN
+FadeBackBlack
+
+
+NoFade
+ENDA
 
 EndingScene:
 EnactAutoRepair

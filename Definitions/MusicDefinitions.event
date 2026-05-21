@@ -99,6 +99,7 @@
 #define KawanabeID 0x5D
 #define amongusdripID 0x5E
 #define KaijuuID 0xC0
+#define RevolutionID 0x3DB
 
 //FFT
 #define DecisiveBattleID 0x5F

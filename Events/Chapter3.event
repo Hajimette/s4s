@@ -396,14 +396,18 @@ ENDA
 
 
 Chp3Mercs:
+CHECK_EVENTID 0x78 //Checks if triggered 78
+	SVAL s7 0
+	BEQ 8 sC s7 
 CAM1 [17,1]
-LOAD1 0 JackChp3
+LOAD1 0 JackChp3 // Jack intro
 STAL 30
 CAM1 [26,0]
 CUMO 0x4C
 STAL 60
 CURE
 Text(JackFriesintheBag)
+LABEL 8
 NoFade
 ENDA
 

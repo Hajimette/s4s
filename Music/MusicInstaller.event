@@ -459,4 +459,9 @@ SongTable(ShallysID, Shallys, MapMusicGroup)
 SongTable(EndofaLifeID, EndofaLife, MapMusicGroup)
 }
 
+{
+#include "MusicEvents/Revolution.event"
+SongTable(RevolutionID, Revolution, MapMusicGroup)
+}
+
 #include "SoundroomEditor.event"

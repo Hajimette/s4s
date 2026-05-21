@@ -523,5 +523,5 @@ the Iron Warren.[X]
 Nougalas[X]
 
 ## NougalasDesc
-The commanding officer for one[N]
+The commanding officer of one[N]
 of Pekoland's scouting parties.[X]

@@ -22,6 +22,8 @@
 
 #include "Ui/BattleScreen.event"
 
+#include "SpellAnimations/SpellAnimationInstaller.event"
+
 #include "UserInterface.event"
 
 
