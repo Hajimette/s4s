@@ -292,23 +292,14 @@ CHECK_EVENTID 0x79 //Checks if saved kid
 	BEQ 8 sC s7
 TalkConvo(Chp5HouseTxt)
 GiveItem(0x1E,0xFFFF)
-
-
-
 GOTO 4
 LABEL 8
 TalkConvo(Chp5HouseTxtUnsaved)
 GiveItem(0x6C,0xFFFF)
-
-
-
-
 LABEL 4
 FadeBlack
 CLEAN
 FadeBackBlack
-
-
 NoFade
 ENDA
 

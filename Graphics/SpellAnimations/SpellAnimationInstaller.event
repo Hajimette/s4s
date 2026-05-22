@@ -10,7 +10,7 @@
 
 #include "Event/Jormungand.event"
 #include "Event/Wind.event"
-//#include "Event/Thunder.event"
+#include "Event/Thunder.event"
 
 
 /*
