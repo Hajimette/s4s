@@ -203,8 +203,28 @@ ItemIconEntry(Water)
 #incbin "dmp/WaterIcon.dmp"
 
 ALIGN 4
+ItemIconEntry(Leviathan)
+#incbin "dmp/LeviathanIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Maelstrom)
+#incbin "dmp/MaelstromIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Bolganone)
+#incbin "dmp/BolganoneIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Meteor)
+#incbin "dmp/MeteorIcon.dmp"
+
+ALIGN 4
 ItemIconEntry(Wind)
 #incbin "dmp/WindIcon.dmp"
+
+ALIGN 4
+ItemIconEntry(Blizzard)
+#incbin "dmp/BlizzardIcon.dmp"
 
 ALIGN 4
 ItemIconEntry(WindSword)
@@ -925,6 +945,8 @@ ItemIconEntry(Star)
 ALIGN 4
 ItemIconEntry(Vial)
 #incbin "dmp/Vial.dmp"
+
+
 
 POP
 

@@ -337,9 +337,6 @@ Runa[X]
 ## GodzillaCreds
 Godzilla Final Wars[X]
 
-## NekoparaCreds
-DOVA Syndrome[X]
-
 ## KawanabeCreds
 Umihara Kawase[X]
 

@@ -107,7 +107,7 @@ POP
 #define AkiPortrait 0x1A
 #define NenePortrait 0x10
 #define MatsuriPortrait 0x19
-
+#define RushiaAlt 0xD6
 
 
 
@@ -643,11 +643,19 @@ KoyoriData:
 setMugEntry(KoyoriP, KoyoriData, 4, 6, 4, 4)
 
 ALIGN 4
-RushiaData:
+UruhaData:
 #incbin "Dmps/Rushia_mug.dmp"
 #incbin "Dmps/Rushia_frames.dmp"
 #incbin "Dmps/Rushia_palette.dmp"
 #incbin "Dmps/Rushia_minimug.dmp"
+setMugEntry(RushiaAlt, UruhaData, 3, 6, 3, 4)
+
+ALIGN 4
+RushiaData:
+#incbin "Dmps/RushiaDefault_mug.dmp"
+#incbin "Dmps/RushiaDefault_frames.dmp"
+#incbin "Dmps/RushiaDefault_palette.dmp"
+#incbin "Dmps/RushiaDefault_minimug.dmp"
 setMugEntry(RushiaP, RushiaData, 3, 6, 3, 4)
 
 ALIGN 4

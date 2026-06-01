@@ -2,3 +2,61 @@
 [MidRight][LoadIrohaP]
 [MidRight]
 Placeholder, Engage![A][X]
+
+## AmeReineB
+[MidRight][LoadIrohaP]
+[MidRight]
+Placeholder, Engage![A][X]
+
+## AmeReineA
+[MidRight][LoadIrohaP]
+[MidRight]
+Placeholder, Engage![A][X]
+
+
+
+## AmeKiaraC
+[MidRight][LoadIrohaP]
+[MidRight]
+Placeholder, Engage![A][X]
+
+## AmeKiaraB
+[MidRight][LoadIrohaP]
+[MidRight]
+Placeholder, Engage![A][X]
+
+## AmeKiaraA
+[MidRight][LoadIrohaP]
+[MidRight]
+Placeholder, Engage![A][X]
+
+
+
+## AmeGuraC
+[MidRight][LoadIrohaP]
+[MidRight]
+Placeholder, Engage![A][X]
+
+## AmeGuraB
+[MidRight][LoadIrohaP]
+[MidRight]
+Placeholder, Engage![A][X]
+
+## AmeGuraA
+[MidRight][LoadIrohaP]
+[MidRight]
+Placeholder, Engage![A][X]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

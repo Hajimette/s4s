@@ -112,10 +112,17 @@ F!Armored Nousagi - Base by Garytop, Nokitrix, Hatsuru
 Warrior Nousagi- Armor by Nuramon, Head by Stitch, Nokitrix, Hatsuru
 DreadFighter Nousagi- Armor by Garytop, Nokitrix, Hatsuru
 Marksmen Nousagi - Nokitrix, Hatsuru, Tezuka, Garytop, Obsidian_Daddy
-F!Peg Knight - HyperGammaSpaces, Plant_Academy, Garytop, Nuramon, Hatsuru
 F! MageKnight - Obsidian_daddy, Tezuka
 M!Sage - Nuramon, Garytop
 M!Samurai Nousagi - Armor by Garytop
+F!Peg Younger Sister - HyperGammaSpaces, Plant_Academy, Garytop, Nuramon, Hatsuru
+F!Peg Middle Sister- Nokitrix, Hatsuru, Buskhusker
+F!Peg Seraph Sister- Nokitrix, Hatsuru, Buskhusker, Garytop, Nuramon, Plant_Academy
+F!Shaman Boss - Nokitrix, Hatsuru, Redbean
+F!Warrior (blue) - Nokitrix, Hatsuru, NickT, Melia and Luminescent_Blade
+M!WyvernKnight - Nokitrix, Garytop
+F!Witch - Nokitrix, Hatsuru and Wdimta
+F!Master Knight- Nokitrix, Hatsuru, Nuramon, Plant_Academy, BuskHusker and NanayaJacob (base protrait commissioner.)
 
 
 Map Sprites:
@@ -322,14 +329,20 @@ Amelia
 
 Item Icons:
 
+IS:
+Bolganone (FE5)
+Meteor (FE5)
+
 AtelierLabs:
 Scythe 1 (Ricky)
+
+Stephano, Zane:
+Blizzard Repal
 
 Batima:
 FE5 Light Brand
 FE5 Earthsword (Runesword)
 Brave Axe FE4
-Arcblizzard (fimbulvetr)
 Seraph Robe (Seiso Stone)
 Armads (Brandioche)
 Dark Spikes
@@ -383,6 +396,11 @@ Katana 6 (Chakimaru)
 Katana 10 (Asura)
 Katana 3 (Rakshasa)
 Axe 23 (Suicopath)
+Water D (Water)
+Water C (Fimbulvetr)
+Water B (Maelstrom)
+Water A (Leviathan)
+
 
 EldritchA, Indogutsu:
 Bow 11 (Crossbow)
@@ -474,7 +492,6 @@ FE5 Item 140 (Vulnerary)
 FE5 Item 141 (Pure Water)
 FE5 Item 142 (Torch)
 FE5 Item 86 (Arcwind)
-Tome Icon 006 (Water)
 FE5 Item 72 (Hand Cannon)
 
 MeatofJustice:

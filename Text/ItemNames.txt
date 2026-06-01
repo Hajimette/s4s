@@ -293,11 +293,8 @@ Pettancaliber[X]
 ## LightningName
 Lightning[X]
 
-## ShineName
-Shine[X]
-
 ## DivineName
-Divine[X]
+Soleil[X]
 
 ## PurgeName
 Purge[X]
@@ -306,10 +303,10 @@ Purge[X]
 Aura[X]
 
 ## FluxName
-Flux[X]
+Vorgandr[X]
 
 ## LunaItemName
-Luna[X]
+Morva[X]
 
 ## LunaItemDesc
 Negates defense.[X]
@@ -321,7 +318,7 @@ Nosferatu[X]
 Absorbs enemy HP.[X]
 
 ## EclipseName
-Eclipse[X]
+Eitr[X]
 
 ## EclipseDesc
 Reduces HP by half.[X]
@@ -330,7 +327,7 @@ Reduces HP by half.[X]
 Fenrir[X]
 
 ## NephName
-Council's Sorrow[X]
+Hope's Lament[X]
 
 ## NephDesc
 An ancient dark tome.[X]
@@ -1288,3 +1285,31 @@ Synthesis[X]
 ## SeisodaUse
 Made with lots of[N]
 love and care![X]
+
+## LightningDesc
+Let there be light.[X]
+
+## JormanName
+Jormangand[X]
+
+## JormanDesc
+Inflicts poison on contact.[X]
+
+## BolganoneName
+Bolganone[X]
+
+## LeviathanName
+Leviathan[X]
+
+## MeteorName
+Meteor[X]
+
+## BlizzardName
+Blizzard[X]
+
+## MaelstromName
+Maelstrom[X]
+
+
+
+

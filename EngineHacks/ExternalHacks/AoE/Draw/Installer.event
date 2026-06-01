@@ -59,6 +59,13 @@ POP
 ALIGN 4
 SpecificWeaponAnimations:
 BYTE SilverSword Shards1AnimID // Silver sword will always use the Shards1 animation 
+BYTE 0x38 FireAnimID
+BYTE 0xBD WindAnimID
+BYTE 0x39 ThunderAnimID
+BYTE 0x3A ElfireAnimID
+//BYTE 0x3B
+BYTE 0x3C IceAnimID
+
 SHORT 0xFFFF // Terminator 
 
 // These default animations are by Hypergammaspaces. Please credit him! 

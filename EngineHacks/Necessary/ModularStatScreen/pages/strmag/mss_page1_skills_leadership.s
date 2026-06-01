@@ -144,7 +144,7 @@ draw_number_at 27, 15
 pop 	{r0}
 cmp		r0,#0x0
 beq		DontDrawIcon2
-draw_icon_at 25, 15, 0x9E @change this to the ID you put the icon in
+draw_icon_at 25, 15, 0xCA @change this to the ID you put the icon in
 DontDrawIcon2:
 
 

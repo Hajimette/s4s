@@ -62,7 +62,6 @@
 #define Thunder 0x39 //
 #define Elfire 0x3a
 #define Bolting 0x3b
-#define Fimbulvetr 0x3c
 #define Tsunami 0x3d
 #define Pettancaliber 0x3e
 #define Lightning 0x3f
@@ -70,7 +69,6 @@
 #define Divine 0x41
 #define Purge 0x42
 #define Aura 0x43
-//#define DUMMY 0X44
 #define Flux 0x45
 #define Luna 0x46
 #define Nosferatu 0x47 //
@@ -112,7 +110,6 @@
 #define Lockpick 0x6b
 #define Vulnerary 0x6c
 #define Elixir 0x6d
-#define PureWater 0x6e
 #define Antitoxin 0x6f
 #define YabShield 0x70
 #define TealGem 0x76
@@ -180,7 +177,17 @@
 #define Wind 0xbd
 #define Shaver 0xbe
 #define Arcwind 0xbf
+
 #define Water 0xc0
+#define Fimbulvetr 0x3c
+#define Leviathan 0x98
+#define Maelstrom 0x9B
+
+#define Blizzard 0x9C
+
+#define Bolganone 0x44
+#define Meteor 0x99
+
 #define Explosion 0xc1
 #define AncientOne 0xc2
 #define DarkSpikes 0xc3 //
@@ -190,7 +197,7 @@
 #define Society 0xc7
 #define EliteSword 0xc8
 #define Chakimaru 0xc9
-#define ClockHands 0xCA
+#define ClockHands 0x9E
 #define Manaslayer 0xcb
 #define SleepSword 0xcc
 #define Rakshasa 0xce
@@ -244,7 +251,7 @@
 #define Asura 0xFE
 #define Mercurius 0xFf //
 #define Lead 0x9D
-#define Star 0x9E
+#define Star 0xCA
 //#define
 //#define
 //#define

@@ -1,7 +1,7 @@
 // Spells
 
 #define Jormungand_index 0x48
-#define Wind_index 0x49
+#define Wind_index 0x10
 #define Thunder_index 0x19
 
 #include "CSA System FE8/Master Spell Animation Installer.event"
@@ -9,9 +9,9 @@
 // "safe" spell anims (work)
 
 #include "Event/Jormungand.event"
-#include "Event/Wind.event"
-#include "Event/Thunder.event"
 
+#include "Event/Thunder.event"
+#include "Event/Wind.event"
 
 /*
 credits

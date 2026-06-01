@@ -10,12 +10,19 @@ POP
 
 ALIGN 4
 NewSupportConvoTable:
-SupportConvoEntry(0x1, 0x2, AmeReineC, AmeReineC, AmeReineC) 
-SupportConvoEntry(0x1, 0x1C, AmeReineC, AmeReineC, AmeReineC) 
-SupportConvoEntry(0x1, 0x21, AmeReineC, AmeReineC, AmeReineC) 
+SupportConvoEntry(0x1, 0x2, AmeReineC, AmeReineB, AmeReineA) 
+SupportConvoEntry(0x1, 0x1C, AmeKiaraC, AmeKiaraB, AmeKiaraA) 
+SupportConvoEntry(0x1, 0x21, AmeGuraC, AmeGuraB, AmeGuraA) 
 SupportConvoEntry(0x1, 0x23, AmeReineC, AmeReineC, AmeReineC) 
 SupportConvoEntry(0x1, 0x32, AmeReineC, AmeReineC, AmeReineC) 
 SupportConvoEntry(0x1, 0x22, AmeReineC, AmeReineC, AmeReineC) 
-SupportConvoEntry(0x1, 0x38, AmeReineC, AmeReineC, AmeReineC) 
+SupportConvoEntry(0x1, 0x38, AmeReineC, AmeReineC, AmeReineC)
+
+SupportConvoEntry(0x2, 0x2E, AmeReineC, AmeReineC, AmeReineC)
+SupportConvoEntry(0x2, 0x11, AmeReineC, AmeReineC, AmeReineC)
+SupportConvoEntry(0x2, 0x32, AmeReineC, AmeReineC, AmeReineC)
+SupportConvoEntry(0x2, 0x1C, AmeReineC, AmeReineC, AmeReineC)
+SupportConvoEntry(0x2, 0x4, AmeReineC, AmeReineC, AmeReineC)
+SupportConvoEntry(0x2, 0x30, AmeReineC, AmeReineC, AmeReineC)
 
 SupportConvoTerminator

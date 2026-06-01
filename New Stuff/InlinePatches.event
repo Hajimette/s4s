@@ -37,6 +37,16 @@ BYTE 0x00
 POP
 
 
+// Hardcoding Money stealing
+PUSH
+ORG 0x115AA
+BYTE 0x00 //8f
+POP
+
+PUSH
+ORG 0x324CE
+BYTE 0x00 //8f
+POP
 
 
 // Monster Fix Brendor/Circles
