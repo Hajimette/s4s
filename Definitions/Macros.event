@@ -93,6 +93,7 @@
 #define FlashCursor(character,time) "CURF character"
 #define FlashCursor(character) "CURF character"
 #define SoloTextboxCenter(textId) "CenterTutorialTextBox; SOLOTEXTBOXSTART; TEXTSHOW textId; TEXTEND; REMA"
+#define PreparationsThracia "CALL $591FD8"
 
 
 #define DKSealEffectASMC "ASMC2 0x08080475"

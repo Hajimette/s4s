@@ -143,6 +143,11 @@
 [LoadPrologueNPCM] = [LoadFace][0x02][0x2]
 [LoadJack] = [LoadFace][0xFA][0x1]
 [LoadNougalas] = [LoadFace][0xF9][0x1]
+[LoadPhina] = [LoadFace][0xF6][0x1]
+[LoadShiina] = [LoadFace][0xF7][0x1]
+[LoadRielle] = [LoadFace][0xF8][0x1]
+[LoadNyx] = [LoadFace][0xE5][0x1]
+
 
 
 [period] = [0xDE][0x82]

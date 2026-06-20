@@ -23,3 +23,9 @@ rest of camp.[X]
 
 ## DiscussObj
 Discuss.[X]
+
+## SeizeObj
+Seize the Gate.[X]
+
+## SeizeChp6
+Seize[X]

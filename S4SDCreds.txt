@@ -677,7 +677,8 @@ FE4 Royal Palace of Silezha- IS
 FE4 Thoughts Going Around- SurfingKyogre
 FE4 Valkyria Staff- Jack_G
 FE5 (Leif) In Search for Victory- Disquietude
-Fe5 Advance- Dolkar
+FE5 Advance- Dolkar
+FE5 Advance A - Falkion
 FE5 Adversity- Scraiza
 FE5 Attack-SurfingKyogre
 FE5 August B Talk- IS

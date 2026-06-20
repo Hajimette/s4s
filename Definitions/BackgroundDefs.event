@@ -55,6 +55,7 @@
 #define KroniiMoon 0x43
 
 //
+#define BlackBackground 0x35
 #define AquaCG 0x38
 #define AmeliaKroniiCG 0x39
 #define LaplusCG 0x3A
@@ -68,6 +69,7 @@
 #define VillageTrailNight 0x44
 #define Dungeon 0x45
 #define Dungeon2 0x46
+#define CaveDark 0x47
 
 /*
 

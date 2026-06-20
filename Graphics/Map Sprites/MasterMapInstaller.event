@@ -286,7 +286,7 @@ MovingMapSprite(0x72,NormalAP,VillagerFWalk)
 MovingMapSprite(0x73,NormalAP,AmeLayWalk)
 MovingMapSprite(0xC5,NormalAP,RoninWalk)
 MovingMapSprite(0xC4,NormalAP,VanguardWalk)
-
+MovingMapSprite(0xCB,NormalAP,BlankWalk)
 
 
 

@@ -1004,6 +1004,10 @@ ALIGN 4
 VanguardWalk:
 #incbin "dmp/VanguardWalk.dmp"
 
+ALIGN 4
+BlankWalk:
+#incbin "dmp/BlankWalk.dmp"
+
 
 ALIGN 4
 FireStand:

@@ -72,7 +72,7 @@ WORD 0x0894A524 0x0894EEF8 0x0894F3AC
 WORD 0x0894F4AC 0x08953538 0x089539EC
 WORD 0x08953AEC 0x089584A4 0x08958958
 WORD 0x08958A58 0x0895D1A8 0x0895D65C
-WORD 0x0895D75C 0x0895D768 0x0895DC1C
+WORD 0x0 0x0 0x0  
 WORD 0x0 0x0 0x0                                    // Not sure what this is used for. 0x35
 WORD 0x0 0x0 0x0                                    // ID used for random BG. 0x36
 POIN Aqua256Image; WORD 0x0; POIN Aqua256Pal      // TSA == 0 indicates 256-colour BGs. 38
@@ -92,11 +92,17 @@ WORD 0x0 0x0 0x0
 WORD 0x0 0x0 0x0 
 WORD 0x0 0x0 0x0 
 WORD 0x0 0x0 0x0 
-
+WORD 0x0 0x0 0x0 
+WORD 0x0 0x0 0x0
+WORD 0x0 0x0 0x0
+WORD 0x0 0x0 0x0
+WORD 0x0 0x0 0x0
 
 
 //POIN Sommie224BG; WORD 0x1; POIN Sommie224Pal       // TSA == 1 indicates 224-colour BGs.
 
+
+SetConvoBackground(BlackBackground, BlackBGImage, BlackBGTSA, BlackBGPal)
 SetConvoBackground(RushiaCG, RushiaImageData, RushiaTSAData, RushiaPalData)
 SetConvoBackground(SnowField, SnowFieldImage, SnowFieldTSA, SnowFieldPal)
 SetConvoBackground(VillageTrailNight, VillageNightTrailImage, VillageNightTrailTSA, VillageNightTrailPal)
@@ -105,6 +111,7 @@ SetConvoBackground(Dungeon2, Dungeon2Image, Dungeon2TSA, Dungeon2Pal)
 SetConvoBackground(SnowFieldNight, SnowFieldNightImage, SnowFieldNightTSA, SnowFieldNightPal)
 SetConvoBackground(CampfireWinter, CampWinterImage, CampWinterTSA, CampWinterPal)
 SetConvoBackground(KroniiMoon, KroniiMoonImage, KroniiMoonTSA, KroniiMoonPal)
+SetConvoBackground(CaveDark, CaveDarkImage, CaveDarkTSA, CaveDarkPal)
 
 ALIGN 4
 Aqua256Image:
@@ -258,6 +265,29 @@ ALIGN 4
 KroniiMoonPal:
 #incbin "KroniiMoon.pal.dmp"
 
+ALIGN 4
+BlackBGImage:
+#incbin "BlackBG.png.dmp"
+
+ALIGN 4
+BlackBGTSA:
+#incbin "BlackBG.png.tsa.dmp"
+
+ALIGN 4
+BlackBGPal:
+#incbin "BlackBG.png.pal.dmp"
+
+ALIGN 4
+CaveDarkImage:
+#incbin "Cave.png.dmp"
+
+ALIGN 4
+CaveDarkTSA:
+#incbin "Cave.png.tsa.dmp"
+
+ALIGN 4
+CaveDarkPal:
+#incbin "Cave.png.pal.dmp"
 
 /*
 //colors

@@ -56,9 +56,20 @@ Forgive me, boss.[A][CloseEyes][X]
 
 
 
+## IrohaChp5Death
+[MidRight][LoadIrohaP]
+[MidRight]
+Why here...[A][N]
+I'm sorry. I failed. I'm[N]
+pulling back, I daresay.[A][X]
 
-
-
+## KoyoriChp5Death
+[MidRight][LoadKoyoriP]
+[MidRight]
+Gah! I knew I should have[N]
+let Iroha fight more![A][2NL]
+I'm pulling back... I wish[N]
+to still walk, you know...[A][X]
 
 
 
@@ -388,3 +399,9 @@ fighting for the Princess...[A][CloseEyes][X]
 Why would you do that?![A][N]
 Now we're going to freeze[N]
 to death out here![A][X]
+
+## NougalasDeath
+[MidLeft][LoadNougalas]
+[MidLeft]
+Why?! My arrows shot[N]
+true and yet...[A][CloseEyes][X]

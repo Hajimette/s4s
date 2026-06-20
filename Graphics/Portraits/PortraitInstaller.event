@@ -21,8 +21,8 @@ POP
 
 #define AmeP 0x02
 #define AmeliaAlt1 0xD2
-#define AmeLonk 0xCE
-#define MKmelia 0xD5
+#define AmeLonk 0xD3
+#define MKmelia 0xD4
 #define BloomPortrait 0xC6
 #define ChloePortrait 0x23
 #define ChocoPortrait 0xB6
@@ -51,10 +51,10 @@ POP
 #define OlliePortrait 0x45
 #define OllieEvil 0xF0
 #define ReinePortrait 0x04
-#define ReineEvil 0xF7
+#define ReineEvil 0xED
 #define SanaPortrait 0x53
 #define TowaPortrait 0x56
-#define YagooPortrait 0xD4
+#define YagooPortrait 0xD5
 #define ZetaPortrait 0x12
 #define ZetaMorph 0xD9
 #define ZetaSus 0xF5
@@ -75,6 +75,9 @@ POP
 #define FaunaP 0x6
 #define MikoP 0x7
 #define SuiseiP 0x8
+#define SuiseiAlt1 0x49
+
+
 #define FlareP 0xE
 #define SubaruP 0x13
 #define IrohaP 0x3
@@ -120,7 +123,14 @@ POP
 #define FNousagiGen 0x1FC
 #define JackPortrait 0xFA
 #define NougalasPortrait 0xF9
+#define NyxPortrait 0xE5
 
+
+
+// PegSisters
+#define PhinaPortrait 0xF6
+#define ShiinaPortrait 0xF7
+#define RiellePortrait 0xF8
 
 
 //Misc
@@ -596,11 +606,11 @@ setMugEntry(SubaruP, SubaruData, 3, 5, 3, 3)
 
 ALIGN 4
 SuzyData:
-#incbin "Dmps/Suzy_mug.dmp"
-#incbin "Dmps/Suzy_frames.dmp"
-#incbin "Dmps/Suzy_palette.dmp"
-#incbin "Dmps/Suzy_minimug.dmp"
-setMugEntry(SuiseiP, SuzyData, 2, 6, 3, 4)
+#incbin "Dmps/SomeDenseGuy_Suichan_mug.dmp"
+#incbin "Dmps/SomeDenseGuy_Suichan_frames.dmp"
+#incbin "Dmps/SomeDenseGuy_Suichan_palette.dmp"
+#incbin "Dmps/SomeDenseGuy_Suichan_minimug.dmp"
+setMugEntryExtend(SuiseiP, SuzyData, 2, 6, 2, 4, 0, 4, 0, 2)
 
 ALIGN 4
 MKmeliaData:
@@ -949,6 +959,47 @@ NougalasData:
 #incbin "Dmps/Nougalas_palette.dmp"
 #incbin "Dmps/Nougalas_minimug.dmp"
 setMugEntryExtend(NougalasPortrait, NougalasData, 2, 6, 3, 4, 10, 4, 10, 6)
+
+ALIGN 4
+PhinaData:
+#incbin "Dmps/PegSisterSeraph_mug.dmp"
+#incbin "Dmps/PegSisterSeraph_frames.dmp"
+#incbin "Dmps/PegSisterSeraph_palette.dmp"
+#incbin "Dmps/PegSisterSeraph_minimug.dmp"
+setMugEntry(PhinaPortrait, PhinaData, 3, 5, 3, 3)
+
+ALIGN 4
+ShiinaData:
+#incbin "Dmps/PegMiddleSister_mug.dmp"
+#incbin "Dmps/PegMiddleSister_frames.dmp"
+#incbin "Dmps/PegMiddleSister_palette.dmp"
+#incbin "Dmps/PegMiddleSister_minimug.dmp"
+setMugEntryExtend(ShiinaPortrait, ShiinaData, 3, 5, 3, 3, 0, 1, 0, 0)
+
+ALIGN 4
+RielleData:
+#incbin "Dmps/PegKnight_mug.dmp"
+#incbin "Dmps/PegKnight_frames.dmp"
+#incbin "Dmps/PegKnight_palette.dmp"
+#incbin "Dmps/PegKnight_minimug.dmp"
+setMugEntry(RiellePortrait, RielleData, 3, 5, 3, 3)
+
+
+ALIGN 4
+NyxData:
+#incbin "Dmps/Nyx_mug.dmp"
+#incbin "Dmps/Nyx_frames.dmp"
+#incbin "Dmps/Nyx_palette.dmp"
+#incbin "Dmps/Nyx_minimug.dmp"
+setMugEntry(NyxPortrait, NyxData, 3, 6, 3, 4)
+
+ALIGN 4
+SuzyData1:
+#incbin "Dmps/Suzy_mug.dmp"
+#incbin "Dmps/Suzy_frames.dmp"
+#incbin "Dmps/Suzy_palette.dmp"
+#incbin "Dmps/Suzy_minimug.dmp"
+setMugEntry(SuiseiAlt1, SuzyData1, 2, 6, 3, 4)
 
 /*
 ALIGN 4

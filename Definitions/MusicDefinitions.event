@@ -79,6 +79,7 @@
 #define FE5PriestofDarknessID 0x3E1
 #define FE5OnAlertID 0x3E0
 #define FE5PressingThreatFinalID 0x3DF
+#define FE5AdvanceAID 0x63
 
 //FE6
 #define FE6ShamanID 0x37
@@ -92,6 +93,7 @@
 //FE11
 #define FE11LeapsID 0x42
 #define FE11IntoTheDarknessID 0x11
+#define FE11OutofDarknessID 0x3DA
 
 //misc
 #define EscapeID 0x44

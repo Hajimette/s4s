@@ -464,4 +464,16 @@ SongTable(EndofaLifeID, EndofaLife, MapMusicGroup)
 SongTable(RevolutionID, Revolution, MapMusicGroup)
 }
 
+{
+#include "MusicEvents/OuttheDarkness.event"
+SongTable(FE11OutofDarknessID, OutofDarkness, MapMusicGroup)
+}
+
+
+
+{
+#include "MusicEvents/AdvanceA.event"
+SongTable(FE5AdvanceAID, AdvanceA, MapMusicGroup)
+}
+
 #include "SoundroomEditor.event"

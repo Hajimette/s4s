@@ -525,3 +525,25 @@ Nougalas[X]
 ## NougalasDesc
 The commanding officer of one[N]
 of Pekoland's scouting parties.[X]
+
+## PhinaName
+Phina[X]
+
+## ShiinaName
+Shiina[X]
+
+## RielleName
+Rielle[X]
+
+## LaufeyName
+Laufey[X]
+
+## NyxName
+Nyx[X]
+
+## NyxDesc
+A Nousagi tasked with patrolling[N]
+the area. Undersupplied.[X]
+
+## CamName
+Camera[X]

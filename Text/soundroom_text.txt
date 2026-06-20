@@ -387,3 +387,9 @@ The Blazing Blade[X]
 
 ## RevolutionTxt
 Revolution[X]
+
+## OutDarkTxt
+Out of the Darkness[X]
+
+## AdanceATxt
+Advance A[X]

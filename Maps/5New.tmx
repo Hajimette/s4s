@@ -382,7 +382,7 @@
    <tile gid="598"/>
    <tile gid="68"/>
    <tile gid="643"/>
-   <tile gid="720"/>
+   <tile gid="195"/>
    <tile gid="68"/>
    <tile gid="68"/>
    <tile gid="68"/>
@@ -429,7 +429,7 @@
    <tile gid="100"/>
    <tile gid="975"/>
    <tile gid="68"/>
-   <tile gid="196"/>
+   <tile gid="720"/>
   </data>
  </layer>
  <layer id="2" name="Map Change 0" width="23" height="18">
