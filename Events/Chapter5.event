@@ -416,7 +416,7 @@ NoFade
 ENDA
 
 LamyPolkaRucruit:
-MusicChange(0x17)
+MusicChange(0xC)
 Text(LamyPolkaChp5)
 NoFade
 ENDA
@@ -428,7 +428,7 @@ NoFade
 ENDA
 
 BotanPolkaRucruit:
-MusicChange(0x17)
+MusicChange(0xC)
 Text(BotanPolkaChp5)
 NoFade
 ENDA

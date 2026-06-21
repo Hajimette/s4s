@@ -3,6 +3,7 @@
 #define Jormungand_index 0x48
 #define Wind_index 0x10
 #define Thunder_index 0x19
+#define Fire_index 0x16
 
 #include "CSA System FE8/Master Spell Animation Installer.event"
 
@@ -12,6 +13,7 @@
 
 #include "Event/Thunder.event"
 #include "Event/Wind.event"
+#include "Event/Fire.event" //Fire
 
 /*
 credits

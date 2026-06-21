@@ -80,6 +80,9 @@ SetUnitStatusAll(0xAABD, MovBonus, 6, AnyDeployed, EnemyArmy, 0x5266, Area(1,3,1
 
 #define AddUnitStatus(UnitID, StatusDefinition, Value) "SVAL 4 0x03; SVAL 1 UnitID; SVAL 3 StatusDefinition; ASMC GetUnitStatus; SVAL 5 Value; SADD 5 5 rC; ASMC SetUnitStatus"
 
+#define SubUnitStatus(UnitID, StatusDefinition, Value) "SVAL 4 0x03; SVAL 1 UnitID; SVAL 3 StatusDefinition; ASMC GetUnitStatus; SVAL 5 Value; SSUB 5 5 rC; ASMC SetUnitStatus"
+
+
 #define Area(LowerX, LowerY, UpperX, UpperY) "LowerX*0x1000000+LowerY*0x10000+UpperX*0x100+UpperY"
 #define Range(LowerX, LowerY, UpperX, UpperY) "LowerX*0x1000000+LowerY*0x10000+UpperX*0x100+UpperY"
 

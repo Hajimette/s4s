@@ -23,9 +23,14 @@ BossBGMEntry(0x48, FE5BossBattleID)
 
 //Chp4
 
+
 //Chp5
+BossBGMEntry(0x4D, FE5BossBattleID)
+
 
 //Chp6
+BossBGMEntry(0x45, FE5BossBattleID)
+
 
 //Chp7
 
