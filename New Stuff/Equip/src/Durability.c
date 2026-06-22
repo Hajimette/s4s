@@ -1,4 +1,4 @@
-/*
+
 bool IsItemDefenseEquipment(Item item){
 	extern u8 DefenseEquipmentList[];
 
@@ -99,4 +99,3 @@ bool PopR_InitEquipmentBroke(void) {
 
 	return false;
 }
-*/

@@ -1,5 +1,5 @@
 #include "ItemMenu.h"
-/*
+
 int UnequipEquipmentUsability(){
 	Unit* unit = gActiveUnit;
 	int slot = gActionData.itemSlotIndex;
@@ -49,4 +49,3 @@ void UnequipEquipment(Proc* procState){
 	ListItems(procState);
 }
 
-*/

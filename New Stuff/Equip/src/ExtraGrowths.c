@@ -204,5 +204,3 @@ int GetMovGrowthAnimsOff(void* thisFunction, void* parentFunction, int index){
 }
 
 
-}
-}

@@ -1,4 +1,4 @@
-/*
+
 int GetEquipmentSkill(Unit* unit){
 	Item item = GetUnitEquippedItem(unit);
 
@@ -8,4 +8,3 @@ int GetEquipmentSkill(Unit* unit){
 
 	return GetItemData(item.number)->skill;
 }
-*/

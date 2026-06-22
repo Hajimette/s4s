@@ -61,11 +61,11 @@ return;
 		unit->ranks[GetItemData(battleUnit->weaponBefore.number)->weaponType] = newWexp;
 	}
 
-	/*
+	
 	for (int i = 0; i < UNIT_ITEM_COUNT; i++){
 		unit->items[i] = battleUnit->unit.items[i];
 	}
-	*/
+	
 
 	// this is lame but avoids memmove so
 	unit->items[0] = battleUnit->unit.items[0];
@@ -74,7 +74,7 @@ return;
 	unit->items[3] = battleUnit->unit.items[3];
 	unit->items[4] = battleUnit->unit.items[4];
 
-/*
+
 	// Equipment
 	Item item = GetUnitEquippedItem(unit);
 
@@ -108,7 +108,7 @@ return;
 	}
 
 }
-*/
+
 
 void New_InitBattleUnitFromUnit(BattleUnit* battleUnit, Unit* unit){
 
@@ -173,11 +173,11 @@ return;
 	gBattleActor.expGain = 0;
 	gBattleTarget.expGain = 0;
 
-/*
+
 	// Equipment
 	gBattleActor.attacksMade = 0;
 	gBattleTarget.attacksMade = 0;
 	gBattleActor.hitsTaken = 0;
 	gBattleTarget.hitsTaken = 0;
 	// Equipment
-}*/
+}
