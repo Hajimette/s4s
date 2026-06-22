@@ -1,6 +1,6 @@
 void UnsetEventId(int flag);
 void UnitChangeClassEvent(Unit* unit, const ClassData* newClass);
-
+/*
 bool IsItemEquipment (Item item){
 	extern u8 EquipmentList[];
 
@@ -193,3 +193,4 @@ void SmolderingSealPreBattle(BattleUnit* unit1, BattleUnit* unit2){
         unit1->battleAttack += unit1->unit.pow;
     }
 }
+*/

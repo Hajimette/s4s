@@ -14,7 +14,7 @@ POIN MoveStarProcEventRaw
 ALIGN 4
 MoveStarProcEventRaw:
 CAM1 0xFFFF
-SOUN 0x10F
+SOUN 0x2E9
 STAL 0x16
 NoFade
 ENDA

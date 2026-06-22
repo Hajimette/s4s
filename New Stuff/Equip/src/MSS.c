@@ -1,5 +1,5 @@
 #include "MSS.h"
-
+/*
 void DrawUnitEquippedItem(Unit* unit){
 	int itemSlot = GetUnitEquippedItemSlot(unit);
 
@@ -17,3 +17,4 @@ void DrawUnitEquippedItem(Unit* unit){
 	BGMap_ApplyTSA((EquipTSA_BGMapAddr+EquipTSA_BGMapOffset),EquipTSA_Pointer,tileAddr);
 
 }
+*/

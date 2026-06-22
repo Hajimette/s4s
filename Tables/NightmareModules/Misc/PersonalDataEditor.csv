@@ -1,5 +1,5 @@
 INLINE PersonalDataTable,First Like,Second Like,First Disike,Second Dislike,Age,Height,Generation
-0x0,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+0x01 Amelia,AmeliaLike,AmeliaLike2,Skills,EirikaDislike2ID,RedactedAgeID,EirikaHeightID,HoloMyth
 0x01 Amelia,AmeliaLike,AmeliaLike2,Skills,EirikaDislike2ID,RedactedAgeID,EirikaHeightID,HoloMyth
 0x02 Reine,ReineLike,ReineLike2,ReineSkill,ReineSkill2,AgeSecret,ReineHeight,IDsecond
 0x03 Mumei,MumeiLike,MumeiLike2,MumeiSkill,MumeiSkill2,MumeiAge,MumeiHeight,EnCouncil

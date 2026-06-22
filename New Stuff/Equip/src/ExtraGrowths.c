@@ -2,6 +2,8 @@
 #include "gbafe.h"
 #include "ExtraGrowths.h"
 
+
+
 int CheckEventId(int someFlag);
 
 #define REROLL_ATTEMPTS 2;
@@ -10,6 +12,23 @@ extern u8 Class_Level_Cap_Table[];
 extern u8 CharacterMovGrowthTable[];
 extern u8 CharacterConGrowthTable[];
 const ClassData* GetMountedClass(Unit* unit);
+
+bool HasBattleUnitGainedStats(BattleUnit* battleUnit){
+	if (battleUnit->changeHP || battleUnit->changePow || battleUnit->changeMag || battleUnit->changeSkl || battleUnit->changeSpd || battleUnit->changeDef || battleUnit->changeRes || battleUnit->changeLck || battleUnit->changeMov || battleUnit->changeCon){
+		return true;
+	}
+	return false;
+}
+
+int GetMovGrowth(Unit* unit){
+	int currGrowth = CharacterMovGrowthTable[unit->pCharacterData->number];
+	return gExtra_Growth_Boosts(unit, currGrowth, 18); //	
+}
+
+int GetConGrowth(Unit* unit){
+	int currGrowth = CharacterConGrowthTable[unit->pCharacterData->number];
+	return gExtra_Growth_Boosts(unit, currGrowth, 19);
+}
 
 int GetFixedGrowthChange(int charGrowth, BattleUnit* battleUnit2){
     	int growthTotal = (charGrowth * (battleUnit2->unit.level - 1)) / 100;
@@ -154,22 +173,9 @@ void New_WriteGrowthsToBattleStruct(BattleUnit* battleUnit){
 	}
 }
 
-bool HasBattleUnitGainedStats(BattleUnit* battleUnit){
-	if (battleUnit->changeHP || battleUnit->changePow || battleUnit->changeMag || battleUnit->changeSkl || battleUnit->changeSpd || battleUnit->changeDef || battleUnit->changeRes || battleUnit->changeLck || battleUnit->changeMov || battleUnit->changeCon){
-		return true;
-	}
-	return false;
-}
 
-int GetMovGrowth(Unit* unit){
-	int currGrowth = CharacterMovGrowthTable[unit->pCharacterData->number];
-	return gExtra_Growth_Boosts(unit, currGrowth, 18);
-}
 
-int GetConGrowth(Unit* unit){
-	int currGrowth = CharacterConGrowthTable[unit->pCharacterData->number];
-	return gExtra_Growth_Boosts(unit, currGrowth, 19);
-}
+
 
 void WriteNewGrowthsToRAMAnimStruct(){
 
@@ -198,5 +204,5 @@ int GetMovGrowthAnimsOff(void* thisFunction, void* parentFunction, int index){
 }
 
 
-
-
+}
+}

@@ -5,7 +5,7 @@
 
 
 
-//#include "src/Equip.lyn.event"
+#include "src/Equip.lyn.event"
 
 // add prEquipmentBonus to each stat getter
 //#define rEquipmentBonus(stat) "rAdd; rWithConstant(stat); rCallExternal(GetEquipmentStatBonus^1)"

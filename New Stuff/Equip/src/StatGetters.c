@@ -1,5 +1,5 @@
 typedef struct GrowthScrollEntry GrowthScrollEntry;
-
+/* 
 struct GrowthScrollEntry{
 	s8 hpBonus;
 	s8 powBonus;
@@ -80,3 +80,4 @@ int GetEquipmentStatBonus(Unit* unit, int stat){
 
 	return ((s8*)itemStatBonuses)[stat];
 }
+ */

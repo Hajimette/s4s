@@ -1,6 +1,6 @@
 
 // Con Growth Table
-SetUnitConGrowth(0x1,5)
+SetUnitConGrowth(0x1,100)
 SetUnitConGrowth(0x2,15)
 SetUnitConGrowth(0x3,5)
 SetUnitConGrowth(0x4,3)
@@ -61,7 +61,7 @@ SetUnitConGrowth(Kurokami,5)
 
 
 // Mov Growth Table
-SetUnitMovGrowth(0x1,1)
+SetUnitMovGrowth(0x1,100)
 SetUnitMovGrowth(Reine,5)
 SetUnitMovGrowth(Mumei,3)
 SetUnitMovGrowth(Fauna,0)

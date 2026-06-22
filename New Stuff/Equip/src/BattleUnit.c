@@ -10,6 +10,8 @@ void New_SaveUnitFromBattle(Unit* unit, BattleUnit* battleUnit){
 	unit->curHP = battleUnit->unit.curHP;
 	unit->state = battleUnit->unit.state;
 
+return;
+
 	// (state>>11) & 7 placed at 3003060??
 	idkAddr = ((battleUnit->unit.state>>11) & 7);
 
@@ -72,6 +74,7 @@ void New_SaveUnitFromBattle(Unit* unit, BattleUnit* battleUnit){
 	unit->items[3] = battleUnit->unit.items[3];
 	unit->items[4] = battleUnit->unit.items[4];
 
+/*
 	// Equipment
 	Item item = GetUnitEquippedItem(unit);
 
@@ -105,6 +108,7 @@ void New_SaveUnitFromBattle(Unit* unit, BattleUnit* battleUnit){
 	}
 
 }
+*/
 
 void New_InitBattleUnitFromUnit(BattleUnit* battleUnit, Unit* unit){
 
@@ -157,6 +161,8 @@ void New_InitBattleUnitFromUnit(BattleUnit* battleUnit, Unit* unit){
 	battleUnit->attacksMade = 0;
 	battleUnit->hitsTaken = 0;
 
+return;
+
 	// gBattleActor and gBattleTarget
 	gBattleActor.wexpMultiplier = 0;
 	gBattleTarget.wexpMultiplier = 0;
@@ -167,10 +173,11 @@ void New_InitBattleUnitFromUnit(BattleUnit* battleUnit, Unit* unit){
 	gBattleActor.expGain = 0;
 	gBattleTarget.expGain = 0;
 
+/*
 	// Equipment
 	gBattleActor.attacksMade = 0;
 	gBattleTarget.attacksMade = 0;
 	gBattleActor.hitsTaken = 0;
 	gBattleTarget.hitsTaken = 0;
 	// Equipment
-}
+}*/

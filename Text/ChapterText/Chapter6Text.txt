@@ -218,3 +218,7 @@ starting to rot.[A]
 [MidLeft]
 Huh, so that's why I feel[N]
 I bit woozy...[A][X]
+
+## NyxMomentChp6
+Nyx lost -5 Spd,[N]
+Def, and Res.[A][X]

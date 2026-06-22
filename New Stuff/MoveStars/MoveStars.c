@@ -12,7 +12,7 @@ u8 GetUnitMoveStars(Unit* unit){
 
 }
 
-// For PostCombat
+// For PostCombat     && IsReMoveAllowed(unit)
 void TryProcMoveStar(){
 
 	Unit* unit = gActiveUnit; // this is dumb because post combat loop is dumb
@@ -40,17 +40,17 @@ bool IsReMoveAllowed(Unit* unit){
 	if (unit->state & US_HAS_MOVED_AI){
 		return false;
 	}
-	if (UNIT_FACTION(unit) != UA_BLUE){
-		return false;
+if (UNIT_FACTION(unit) != UA_BLUE){
+	return false;
+}
+if (gActionData.unitActionType == UNIT_ACTION_SEIZE){
+	return false;
+}
+if (GetLocationEventCommandAt(unit->xPos, unit->yPos) == 0x13 && gActionData.unitActionType == UNIT_ACTION_WAIT){ //escape point
+	return false;
 	}
-	if (gActionData.unitActionType == UNIT_ACTION_SEIZE){
-		return false;
-	}
-	if (GetLocationEventCommandAt(unit->xPos, unit->yPos) != 0x13 && gActionData.unitActionType == UNIT_ACTION_WAIT){ //escape point
-		return false;
-	}
-	if (GetLocationEventCommandAt(unit->xPos, unit->yPos) != 0x19 && gActionData.unitActionType == UNIT_ACTION_WAIT){ //arrive point
-		return false;
+if (GetLocationEventCommandAt(unit->xPos, unit->yPos) == 0x19 && gActionData.unitActionType == UNIT_ACTION_WAIT){ //arrive point
+	return false;
 	}
 	return true;
 }
