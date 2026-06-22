@@ -59,17 +59,17 @@ Add to Popups.event
 PopRBattlePopup(PopR_InitEquipmentBroke, 0x592420, 96)
 */
 
-//PUSH
-//ORG 0x2C1EC
-//jumpToHack(New_SaveUnitFromBattle)
-//PROTECT 0x2C1EC
-//POP
+PUSH
+ORG 0x2C1EC
+jumpToHack(New_SaveUnitFromBattle)
+PROTECT 0x2C1EC
+POP
 
-//PUSH
-//ORG 0x2A584
-//jumpToHack(New_InitBattleUnitFromUnit)
-//PROTECT 0x2A584
-//POP
+PUSH
+ORG 0x2A584
+jumpToHack(New_InitBattleUnitFromUnit)
+PROTECT 0x2A584
+POP
 
 ALIGN 4
 gSkillTester:

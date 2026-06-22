@@ -10,7 +10,7 @@ void New_SaveUnitFromBattle(Unit* unit, BattleUnit* battleUnit){
 	unit->curHP = battleUnit->unit.curHP;
 	unit->state = battleUnit->unit.state;
 
-return;
+
 
 	// (state>>11) & 7 placed at 3003060??
 	idkAddr = ((battleUnit->unit.state>>11) & 7);
@@ -26,6 +26,8 @@ return;
 			}
 		}
 	}
+	
+	
 	if (gSkillTester(&gBattleTarget.unit, SynchronizeIDLink)){
 		if(gBattleTarget.statusOut > 0){
 			if(gBattleActor.statusOut != 0xFF){
@@ -33,11 +35,13 @@ return;
 			}
 		}
 	}
+	
+	
 	// Synchronize
-
 	if (battleUnit->statusOut > 0){
 		SetUnitNewStatus(unit, battleUnit->statusOut);
 	}
+	
 
 	unit->maxHP += battleUnit->changeHP;
 	unit->pow   += battleUnit->changePow;
@@ -53,6 +57,8 @@ return;
 	unit->conBonus += battleUnit->changeCon;
 	// Extra Growths
 
+
+
 	UnitCheckStatCaps(unit);
 
 	int newWexp = GetBattleNewWEXP(battleUnit);
@@ -61,11 +67,11 @@ return;
 		unit->ranks[GetItemData(battleUnit->weaponBefore.number)->weaponType] = newWexp;
 	}
 
-	
+	/*
 	for (int i = 0; i < UNIT_ITEM_COUNT; i++){
 		unit->items[i] = battleUnit->unit.items[i];
 	}
-	
+	*/
 
 	// this is lame but avoids memmove so
 	unit->items[0] = battleUnit->unit.items[0];
@@ -75,30 +81,7 @@ return;
 	unit->items[4] = battleUnit->unit.items[4];
 
 
-	// Equipment
-	Item item = GetUnitEquippedItem(unit);
 
-	if (item.number != 0){
-		int itemSlot = GetUnitEquippedItemSlot(unit);
-
-		if (IsItemOffenseEquipment(item)){
-			if ((item.number == 0xd2 ) && (gActionData.unitActionType == UNIT_ACTION_COMBAT)){ //red scarf
-				Unit* target = &gBattleTarget.unit;
-				if(target->curHP <= 0){ // did this unit kill the target
-					DecrementItemSlotDurability(unit, itemSlot, battleUnit->attacksMade);
-				}
-			}
-			else if (item.number != 0x84){ //anything else does decrement
-				DecrementItemSlotDurability(unit, itemSlot, battleUnit->attacksMade);
-			}
-			else{
-
-			}
-		}
-		else if (IsItemDefenseEquipment(item)){
-			DecrementItemSlotDurability(unit, itemSlot, battleUnit->hitsTaken);
-		}
-	}
 	// Equipment
 
 	RemoveUnitBlankItems(unit);
@@ -161,7 +144,7 @@ void New_InitBattleUnitFromUnit(BattleUnit* battleUnit, Unit* unit){
 	battleUnit->attacksMade = 0;
 	battleUnit->hitsTaken = 0;
 
-return;
+
 
 	// gBattleActor and gBattleTarget
 	gBattleActor.wexpMultiplier = 0;
