@@ -1,0 +1,70 @@
+## GuideSection1
+New Mechanics[X]
+
+## GuideSection2
+Countries[X]
+
+## GuideChanges
+Move Stars[X]
+
+## GuideLeadership
+Leadership[X]
+
+## GuidePCC
+PCC[X]
+
+## GuideItemRefresh
+Renewable Items[X]
+
+## GuideChangesDesc
+Move Stars provide a 5% chance[N]
+for a unit to move again.[X]
+
+## GuideLeadershipDesc
+Each player Leadership Star provides[N]
++5 Hit and +3 Avo. Enemy Leadership[N]
+only provides +5 Hit per star.[N]
+Leadership Stars can cancel each other.[X]
+
+## GuidePCCDesc
+Pursuit Critical Coefficient, also[N]
+known as PCC, is a modifier that[N]
+allows for critical hits on[N]
+follow up attacks.[N]
+Critical rate - target's dodge[N]
+×(unit's follow-up critical[N]
+multiplier) = % actual critical[N]
+hit rate.[N]
+The higher the innate PCC the more[N]
+likely for follow up crits.[X]
+
+
+## GuideItemRefreshDesc
+There are some personal weapons[N]
+and staves that will automatically[N]
+have their durability restored the[N]
+beginning of each chapter. Unlike[N]
+physical weapons, magic will be[N]
+unusable at 0 durability. Physical[N]
+weapons at 0 will suffer 50 Hit and[N]
+0 Might.[X]
+
+
+
+## GuidePekoland
+Pekoland[X]
+
+## GuidePekolandDesc
+Pekoland, the land of the rabbits.[N]
+A country known it's resilience[N]
+and it's powerful military.[N]
+Despite the harsh winter and[N]
+less harsh summers, Pekoland[N]
+is covered in snow year round.[N]
+Farmland is rare and unreliable[N]
+to supply its exponentially[N]
+growing population.[N]
+After failed agreemeents and[N]
+increasing resentment, Pekoland[N]
+invades the other countries in[N]
+search for more land and resources.[X]

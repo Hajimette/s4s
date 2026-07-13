@@ -15,6 +15,14 @@ PrologueMenu:
 MenuDefinition(6, 4, 18, 0, 1, PrologueMenuOptions)
 
 ALIGN 4
+Interlude1Menu:
+MenuDefinition(6, 5, 18, 0, 1, AmeliaInt1Options)
+
+ALIGN 4
+ImSureMenu:
+MenuDefinition(6, 6, 18, 0, 1, ImSureOptions)
+
+ALIGN 4
 PrologueMenuOptions:
 MenuOption(RealNumName, RealNumDesc, 7)
 MenuOption(CasName, CasDesc, 8)
@@ -26,14 +34,18 @@ MenuOption(Begin, BeginDesc, 0)
 MenuTerminator
 
 ALIGN 4
-ImSureMenu:
-MenuDefinition(6, 6, 18, 0, 1, ImSureOptions)
-
-ALIGN 4
 ImSureOptions:
 MenuOption(Misclick, MisclickDesc, 0)
 MenuOption(ImReady, ImReadyDesc, 0)
 MenuTerminator
+
+ALIGN 4
+AmeliaInt1Options:
+MenuOption(AttackStanceOp, AttackStanceDesc, 0)
+MenuOption(DefenseStanceOp, DefenseStanceDesc, 0)
+MenuOption(SpeedStanceOp, SpeedStanceDesc, 0)
+MenuTerminator
+
 
 
 #include "LordSplitMenuPlus.lyn.event"

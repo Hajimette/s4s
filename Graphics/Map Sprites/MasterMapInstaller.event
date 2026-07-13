@@ -158,6 +158,10 @@ StandingMapSprite(0x62,0,AmeLayStand)
 StandingMapSprite(0xB0,0,RoninStand)
 StandingMapSprite(0xB1,1,VanguardStand)
 StandingMapSprite(0xB2,0,FireStand)
+StandingMapSprite(0xB3,0,DeadKnightStand)
+StandingMapSprite(0xB4,0,DeadMercenaryStand)
+StandingMapSprite(0xB5,0,DeadSoldierStand)
+
 
 
 MovingMapSprite(0x1,NormalAP,AmeliaWalk)

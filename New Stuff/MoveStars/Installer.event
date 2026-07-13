@@ -14,8 +14,9 @@ POIN MoveStarProcEventRaw
 ALIGN 4
 MoveStarProcEventRaw:
 CAM1 0xFFFF
-SOUN 0x2E9
+SOUN 0x8A
 STAL 0x16
+PlayEmotionEffect(0xFFFF,MusicNoteEffect)
 NoFade
 ENDA
 

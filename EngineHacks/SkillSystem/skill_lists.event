@@ -2,7 +2,12 @@
 ALIGN 4 
 
 EphraimLordSkillList:
-BYTE 00 00
+BYTE 05 BondID
+BYTE 15 ResolveID
+ALIGN 4
+
+PolkaSkillsList:
+BYTE 255 CantoID
 ALIGN 4
 
 EirikaLordSkillList:

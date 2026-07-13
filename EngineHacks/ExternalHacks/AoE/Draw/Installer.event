@@ -49,6 +49,7 @@ POP
 #define MapLight 30
 #define MapDark 31
 #define MapMonster 32
+#define MapThiefID 33
 
 
 
@@ -117,6 +118,7 @@ AnimTable_Entry(WindAnimID,gust_Anim)
 AnimTable_Entry(ElfireAnimID,fire_plume_Anim)
 AnimTable_Entry(DarkAnimID,ghost_Anim)
 AnimTable_Entry(HealAnimID,healing_Anim)
+AnimTable_Entry(MapThiefID,MapThiefWarp_Anim)
 #ifdef INSTALL_BONUS_ANIMATIONS 
 AnimTable_Entry(Hit2AnimID,Hit2_Small_Anim)
 AnimTable_Entry(Break2AnimID,Break2_Small_Anim)

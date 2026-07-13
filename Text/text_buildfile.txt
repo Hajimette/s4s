@@ -172,6 +172,8 @@ Do you want to Escape?[N]
 
 #include "ChapterText/Chapter6Text.txt"
 
+#include "ChapterText/Chapter7Text.txt"
+
 #include "Supports/AmeliaxReine/AmeReine.txt"
 
 #include "unitmenu_text.txt"
@@ -197,6 +199,8 @@ Do you want to Escape?[N]
 #include "ObjectiveNames.txt"
 
 #include "NewPhrasing.txt"
+
+//#include "GuideText.txt"
 
 
 

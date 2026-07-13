@@ -29,3 +29,7 @@ Seize the Gate.[X]
 
 ## SeizeChp6
 Seize[X]
+
+## EscapeChp7
+Escape deeper into[N]
+the facility.[X]

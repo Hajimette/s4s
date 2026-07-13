@@ -212,6 +212,27 @@ I see. I'll give it to her then.[A]
 [MidRight]
 Thank you.[A][X]
 
+## IrohaInt1Ame
+[MidRight][LoadIrohaP]
+[MidLeft][LoadAme]
+[MidRight]
+That reminds me, I daresay.[A][N]
+draw your sword.[A]
+[MidLeft]
+What?[A]
+[MidRight]
+Draw your sword, I don't want[N]
+you to be a liability.[A]
+[MidLeft]
+[ToggleMouthMove]...[A][ToggleMouthMove]
+[MidRight]
+We have enough time to have me[N]
+train you with basic stances.[A][N]
+What do you want to learn?[A]
+[MidLeft]
+Well...[A][X]
+
+
 ## FatigueIntro
 Starting next chapter, [ToggleRed]Fatigue[ToggleRed] will[N]
 become an active mechanic.[A][N]
@@ -1616,3 +1637,41 @@ Heh...[A][N]
 I'll destroy it...[A][N]
 All of it...[A]
 Everything that makes me...weak.[A][X]
+
+
+## AttackStanceOp
+Fire Stance[X]
+
+## AttackStanceDesc
+Grants +5 Atk and Skl.[X]
+
+## DefenseStanceOp
+Stone Stance[X]
+
+## DefenseStanceDesc
+Grants +5 Def and Res.[X]
+
+## SpeedStanceOp
+Water Stance[X]
+
+## SpeedStanceDesc
+Grants +5 Spd and Lck.[X]
+
+## Int1AtkStance
+Amelia learned [ToggleRed]Fire Stance[ToggleRed].[N]
++5 Attack and +5 Skill.[A][X]
+
+## Int1StoneStance
+Amelia learned [ToggleRed]Stone Stance[ToggleRed].[N]
++5 Defense and +5 Resistance.[A][X]
+
+## Int1WaterStance
+Amelia learned [ToggleRed]Water Stance[ToggleRed].[N]
++5 Speed and +5 Luck.[A][X]
+
+## AmeWtfInt1
+[MidRight][LoadAme]
+[MidRight]
+H...huh?[A][N]
+What the... what the heck[N]
+is this thing?![A][X]

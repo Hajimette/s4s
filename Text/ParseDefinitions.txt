@@ -82,6 +82,7 @@
 [LoadMoonaP] = [LoadFace][0x21][0x1]
 [LoadLamyP] = [LoadFace][0x22][0x1]
 [LoadChloeP] = [LoadFace][0x23][0x1]
+[LoadChloeMask] = [LoadFace][0x1D][0x1]
 [LoadRushiaP] = [LoadFace][0xB][0x1]
 [LoadKiaraP] = [LoadFace][0x24][0x1]
 [LoadAquaP] = [LoadFace][0x25][0x1]
@@ -113,7 +114,6 @@
 [LoadKoyoriLeftP] = [LoadFace][0xD0][0x1]
 [LoadSanaP] = [LoadFace][0x53][0x1]
 [LoadAyameP] = [LoadFace][0x2D][0x1]
-
 [LoadKurokamiP] = [LoadFace][0x2E][0x1]
 
 [LoadGalzus] = [LoadFace][0xB9][0x1]
@@ -123,30 +123,36 @@
 [LoadHaatoNormal] = [LoadFace][0x4E][0x1]
 [LoadHaatoFaded] = [LoadFace][0x47][0x1]
 [LoadHaatoInjured] = [LoadFace][0x50][0x1]
-
-
 [LoadNousagi] = [LoadFace][0xFE][0x1]
 [LoadBrig] = [LoadFace][0x4D][0x1]
 [LoadCalliope] = [LoadFace][0x46][0x1]
 [LoadEVILCalliope] = [LoadFace][0x2E][0x1]
-[LoadMan] = [LoadFace][0x5A][0x1]
-[LoadBlondKid] = [LoadFace][0x5E][0x1]
-[LoadBlackHairGirl] = [LoadFace][0x62][0x1]
-[LoadBlondGirl] = [LoadFace][0x61][0x1]
-[LoadBlondOldMan] = [LoadFace][0x5B][0x1]
-[LoadOldLady] = [LoadFace][0x5f][0x1]
 [LoadEmilia] = [LoadFace][0xFD][0x1]
 [LoadNoir] = [LoadFace][0xFC][0x1]
 [LoadChp2Boss] = [LoadFace][0xFD][0x2]
 [LoadFGenNousagi] = [LoadFace][0xFC][0x2]
 [LoadPrologueNPCF] = [LoadFace][0x01][0x2]
 [LoadPrologueNPCM] = [LoadFace][0x02][0x2]
+[LoadTamara] = [LoadFace][0xFB][0x2]
 [LoadJack] = [LoadFace][0xFA][0x1]
 [LoadNougalas] = [LoadFace][0xF9][0x1]
 [LoadPhina] = [LoadFace][0xF6][0x1]
 [LoadShiina] = [LoadFace][0xF7][0x1]
 [LoadRielle] = [LoadFace][0xF8][0x1]
 [LoadNyx] = [LoadFace][0xE5][0x1]
+
+
+// NPCs
+[LoadMan] = [LoadFace][0x5A][0x1]
+[LoadBlondKid] = [LoadFace][0x5E][0x1]
+[LoadBlackHairGirl] = [LoadFace][0x62][0x1]
+[LoadBlondGirl] = [LoadFace][0x61][0x1]
+[LoadBlondOldMan] = [LoadFace][0x5B][0x1]
+[LoadOldLady] = [LoadFace][0x5f][0x1]
+
+[LoadOldMan] = [LoadFace][0x59][0x1]
+[LoadBlondGuy] = [LoadFace][0x5C][0x1]
+
 
 
 

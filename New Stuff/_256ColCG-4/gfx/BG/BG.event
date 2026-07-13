@@ -112,6 +112,8 @@ SetConvoBackground(SnowFieldNight, SnowFieldNightImage, SnowFieldNightTSA, SnowF
 SetConvoBackground(CampfireWinter, CampWinterImage, CampWinterTSA, CampWinterPal)
 SetConvoBackground(KroniiMoon, KroniiMoonImage, KroniiMoonTSA, KroniiMoonPal)
 SetConvoBackground(CaveDark, CaveDarkImage, CaveDarkTSA, CaveDarkPal)
+SetConvoBackground(SnowVillage, SnowVillageImage, SnowVillageTSA, SnowVillagePal)
+
 
 ALIGN 4
 Aqua256Image:
@@ -288,6 +290,20 @@ CaveDarkTSA:
 ALIGN 4
 CaveDarkPal:
 #incbin "Cave.png.pal.dmp"
+
+ALIGN 4
+SnowVillageImage:
+#incbin "SnowVillage.png.dmp"
+
+ALIGN 4
+SnowVillageTSA:
+#incbin "SnowVillage.png.tsa.dmp"
+
+ALIGN 4
+SnowVillagePal:
+#incbin "SnowVillage.png.pal.dmp"
+
+
 
 /*
 //colors

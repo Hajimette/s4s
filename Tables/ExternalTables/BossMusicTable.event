@@ -33,7 +33,7 @@ BossBGMEntry(0x45, FE5BossBattleID)
 
 
 //Chp7
-
+BossBGMEntry(0x4E, FE5BossBattleID)
 
 
 BossBGMTerminator

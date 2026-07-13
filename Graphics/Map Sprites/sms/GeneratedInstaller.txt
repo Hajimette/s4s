@@ -1,0 +1,682 @@
+//Generated - do not edit
+//Copy paste the /* */ section into your definitions if desired.
+//Please copy the SetSMS and SetMMS section to change SMS size and MMS AP. 
+ 
+ 
+ 
+/* 
+//hello
+#define AmeLay 0 
+#define AmeliaStand 1 
+#define AMogallStand 2 
+#define AmongusStand 3 
+#define AngelStand 4 
+#define AnyaStand 5 
+#define ArcherFStand 6 
+#define ArmorKnightStand 7 
+#define ArtStand 8 
+#define AssassinFStand 9 
+#define AyameStand 10 
+#define BaelStand 11 
+#define BaeStand 12 
+#define BallistaStand 13 
+#define BarbarianMStand 14 
+#define BardStand 15 
+#define BattleSageSwordtopazlightstand 16 
+#define BeastStand 17 
+#define BerserkerFStand 18 
+#define BerserkerMStand 19 
+#define BishopFStand 20 
+#define BlackSmithStand 21 
+#define BowWalkerStand 22 
+#define CalliopeStand 23 
+#define CamillaSteamingTofuStand 24 
+#define CatapultStand 25 
+#define CatStand 26 
+#define CavalierFStand 27 
+#define CavalierMStand 28 
+#define CerberusStand 29 
+#define ChickenStand 30 
+#define ClericFStand 31 
+#define CommanderStand 32 
+#define CrateTopazLight 33 
+#define DancerStand 34 
+#define DeadKnight 35 
+#define DeadMercenary 36 
+#define DeadSoldier 37 
+#define DGoyleStand 38 
+#define DoogStand 39 
+#define DrownedStand 40 
+#define DruidFStand 41 
+#define EBaelStand 42 
+#define ElephantStand 43 
+#define EntombedStand 44 
+#define FalcoStand 45 
+#define FemechanistAB 46 
+#define FighterFStand 47 
+#define Fire 48 
+#define FlareStand 49 
+#define FoobStand 50 
+#define GalzusStand 51 
+#define GeneralStand 52 
+#define GKnightFStand 53 
+#define GKnightMStand 54 
+#define GoreStand 55 
+#define GorgonStand 56 
+#define GoyleStand 57 
+#define GunnerStand 58 
+#define HalberdierStand 59 
+#define HarrierStand 60 
+#define HeroFStand 61 
+#define HeroMStand 62 
+#define InfantryStand 63 
+#define Koyori 64 
+#define LaplaceStand 65 
+#define LapStand 66 
+#define LegionStand 67 
+#define LGunnerStand 68 
+#define LightMageStand 69 
+#define MaelduinStand 70 
+#define MageFStand 71 
+#define MageKnightFStand 72 
+#define MageKnightMStand 73 
+#define MageMStand 74 
+#define MahouStand 75 
+#define MaidStand 76 
+#define ManaketeFStand 77 
+#define MarksmenStand 78 
+#define MarshallStand 79 
+#define MercenaryFStand 80 
+#define MercenaryMStand 81 
+#define MGirlStand 82 
+#define MikoFStand 83 
+#define MilitiaStand 84 
+#define MioStand 85 
+#define MKnightStand 86 
+#define MogallStand 87 
+#define NecromancerStand 88 
+#define NekoStand 89 
+#define NephStand 90 
+#define NovistadorStand 91 
+#define PaladinFStand 92 
+#define PaladinMStand 93 
+#define PegRiderStand 94 
+#define PegTrainStand 95 
+#define PirateFStand 96 
+#define PirateMStand 97 
+#define PolkaStand 98 
+#define RatStand 99 
+#define RogueGeneric 100 
+#define RoninStand 101 
+#define SageStand 102 
+#define SameStand 103 
+#define SamuraiStand 104 
+#define ScholarStand 105 
+#define SealStand 106 
+#define SentinelStand 107 
+#define SeraphStand 108 
+#define ShamanFStand 109 
+#define SkelekingStand 110 
+#define SniperFStand 111 
+#define SniperMStand 112 
+#define SoldierStand 113 
+#define SquireStand 114 
+#define SuccStand 115 
+#define SwdmasterMStanddrgreen 116 
+#define SwordmasterFStand 117 
+#define SymphoneStand 118 
+#define TankStand 119 
+#define ThiefStand 120 
+#define TricksterStand 121 
+#define VanguardStand 122 
+#define VillagerFStand 123 
+#define VillagerMStand 124 
+#define WardenStand 125 
+#define WarriorFStand 126 
+#define WitchStand 127 
+#define WKFStand 128 
+#define WLFStand 129 
+#define WLMStand 130 
+#define WolfStand 131 
+#define WRFStand 132 
+#define WRMStand 133 
+#define YagooStand 134 
+#define ZombieStand 135 
+ 
+ 
+//First free MMS is 127 and will show up if you've expanded classes.
+#define AmeLayWalk 0 
+#define AmeWalk 1 
+#define AmongusWalk 2 
+#define AngelWalk 3 
+#define AnyaWalk 4 
+#define ArcherFWalk 5 
+#define ArmorKnightWalk 6 
+#define ArtWalk 7 
+#define AssassinFWalk 8 
+#define AyameWalk 9 
+#define BaelWalk 10 
+#define BaeWalk 11 
+#define BallistaWalk 12 
+#define BarbarianMWalk 13 
+#define BardFWalk 14 
+#define BattleSagetopazlightwalk 15 
+#define BeastWalk 16 
+#define BerserkerFWalk 17 
+#define BerserkerMWalk 18 
+#define BishopFWalk 19 
+#define BlackSmithWalk 20 
+#define BlankWalk 21 
+#define CalliopeWalkNorikins 22 
+#define CamillaSteamingTofuWalk 23 
+#define CatapultWalk 24 
+#define CatWalk 25 
+#define CavalierFWalk 26 
+#define CavalierMWalk 27 
+#define ChickenWalk 28 
+#define ClericFWalk 29 
+#define CommanderWalk 30 
+#define CrateWalkTopazLight 31 
+#define DancerWalk 32 
+#define DoogWalk 33 
+#define DrownedWalk 34 
+#define DruidFWalk 35 
+#define ElephantWalk 36 
+#define FalcoWalk 37 
+#define FemechanistABWalk 38 
+#define FighterFWalk 39 
+#define FlareWalk 40 
+#define FoobWalk 41 
+#define GalzusWalk 42 
+#define GeneralWalk 43 
+#define GKnightFWalk 44 
+#define GKnightMWalk 45 
+#define GoreWalk 46 
+#define GunnerWalk 47 
+#define HalberdierWalk 48 
+#define HarrierWalk 49 
+#define HeroFWalk 50 
+#define HeroMWalk 51 
+#define InfantryWalk 52 
+#define KoyoriWalk 53 
+#define LaplaceWalk 54 
+#define LapWalk 55 
+#define LegionWalk 56 
+#define LGunnerWalk 57 
+#define LightMageWalk 58 
+#define MageFWalk 59 
+#define MageKnightFWalk 60 
+#define MageKnightMWalk 61 
+#define MageMWalk 62 
+#define MahouWalk 63 
+#define MaidWalk 64 
+#define ManaketeFWalk 65 
+#define MarksmenWalk 66 
+#define MarshallWalk 67 
+#define MercenaryFWalk 68 
+#define MercenaryMWalk 69 
+#define MGirlWalk 70 
+#define MikoFWalk 71 
+#define MilitiaWalk 72 
+#define MioWalk 73 
+#define MKnightWalk 74 
+#define NecromancerWalk 75 
+#define NekoWalk 76 
+#define NephWalk 77 
+#define NovistadorWalk 78 
+#define PaladinFWalk 79 
+#define PaladinMWalk 80 
+#define PegRiderWalk 81 
+#define PegTrainWalk 82 
+#define PirateFWalk 83 
+#define PirateMWalk 84 
+#define PolkaWalk 85 
+#define RatWalk 86 
+#define RogueGenericWalk 87 
+#define RoninWalk 88 
+#define SageWalk 89 
+#define SameWalk 90 
+#define SamuraiWalk 91 
+#define ScholarWalk 92 
+#define SealWalk 93 
+#define SentinelWalk 94 
+#define SeraphWalk 95 
+#define ShamanFWalk 96 
+#define SkelekingWalk 97 
+#define SniperFWalk 98 
+#define SniperMWalk 99 
+#define SoldierWalk 100 
+#define SquireWalk 101 
+#define SuccWalk 102 
+#define SwdmasterMWalkdrgreen 103 
+#define SwordmasterFWalk 104 
+#define TankWalk 105 
+#define TentWalk 106 
+#define ThiefWalk 107 
+#define TricksterWalk 108 
+#define VanguardWalk 109 
+#define VillagerFWalk 110 
+#define VillagerMWalk 111 
+#define WardenWalk 112 
+#define WarriorFWalk 113 
+#define WitchWalk 114 
+#define WKFWalk 115 
+#define WLFWalk 116 
+#define WLMWalk 117 
+#define WRFWalk 118 
+#define WRMWalk 119 
+#define YagooWalk 120 
+ 
+*/ 
+ 
+ 
+ 
+/* 
+//Copy from here 
+PUSH 
+ 
+SetSMS(AmeLay, 1, AmeLay_Data) 
+SetSMS(AmeliaStand, 1, AmeliaStand_Data) 
+SetSMS(AMogallStand, 1, AMogallStand_Data) 
+SetSMS(AmongusStand, 1, AmongusStand_Data) 
+SetSMS(AngelStand, 1, AngelStand_Data) 
+SetSMS(AnyaStand, 1, AnyaStand_Data) 
+SetSMS(ArcherFStand, 1, ArcherFStand_Data) 
+SetSMS(ArmorKnightStand, 1, ArmorKnightStand_Data) 
+SetSMS(ArtStand, 1, ArtStand_Data) 
+SetSMS(AssassinFStand, 1, AssassinFStand_Data) 
+SetSMS(AyameStand, 1, AyameStand_Data) 
+SetSMS(BaelStand, 1, BaelStand_Data) 
+SetSMS(BaeStand, 1, BaeStand_Data) 
+SetSMS(BallistaStand, 1, BallistaStand_Data) 
+SetSMS(BarbarianMStand, 1, BarbarianMStand_Data) 
+SetSMS(BardStand, 1, BardStand_Data) 
+SetSMS(BattleSageSwordtopazlightstand, 1, BattleSageSwordtopazlightstand_Data) 
+SetSMS(BeastStand, 1, BeastStand_Data) 
+SetSMS(BerserkerFStand, 1, BerserkerFStand_Data) 
+SetSMS(BerserkerMStand, 1, BerserkerMStand_Data) 
+SetSMS(BishopFStand, 1, BishopFStand_Data) 
+SetSMS(BlackSmithStand, 1, BlackSmithStand_Data) 
+SetSMS(BowWalkerStand, 1, BowWalkerStand_Data) 
+SetSMS(CalliopeStand, 1, CalliopeStand_Data) 
+SetSMS(CamillaSteamingTofuStand, 1, CamillaSteamingTofuStand_Data) 
+SetSMS(CatapultStand, 1, CatapultStand_Data) 
+SetSMS(CatStand, 1, CatStand_Data) 
+SetSMS(CavalierFStand, 1, CavalierFStand_Data) 
+SetSMS(CavalierMStand, 1, CavalierMStand_Data) 
+SetSMS(CerberusStand, 1, CerberusStand_Data) 
+SetSMS(ChickenStand, 1, ChickenStand_Data) 
+SetSMS(ClericFStand, 1, ClericFStand_Data) 
+SetSMS(CommanderStand, 1, CommanderStand_Data) 
+SetSMS(CrateTopazLight, 1, CrateTopazLight_Data) 
+SetSMS(DancerStand, 1, DancerStand_Data) 
+SetSMS(DeadKnight, 1, DeadKnight_Data) 
+SetSMS(DeadMercenary, 1, DeadMercenary_Data) 
+SetSMS(DeadSoldier, 1, DeadSoldier_Data) 
+SetSMS(DGoyleStand, 1, DGoyleStand_Data) 
+SetSMS(DoogStand, 1, DoogStand_Data) 
+SetSMS(DrownedStand, 1, DrownedStand_Data) 
+SetSMS(DruidFStand, 1, DruidFStand_Data) 
+SetSMS(EBaelStand, 1, EBaelStand_Data) 
+SetSMS(ElephantStand, 1, ElephantStand_Data) 
+SetSMS(EntombedStand, 1, EntombedStand_Data) 
+SetSMS(FalcoStand, 1, FalcoStand_Data) 
+SetSMS(FemechanistAB, 1, FemechanistAB_Data) 
+SetSMS(FighterFStand, 1, FighterFStand_Data) 
+SetSMS(Fire, 1, Fire_Data) 
+SetSMS(FlareStand, 1, FlareStand_Data) 
+SetSMS(FoobStand, 1, FoobStand_Data) 
+SetSMS(GalzusStand, 1, GalzusStand_Data) 
+SetSMS(GeneralStand, 1, GeneralStand_Data) 
+SetSMS(GKnightFStand, 1, GKnightFStand_Data) 
+SetSMS(GKnightMStand, 1, GKnightMStand_Data) 
+SetSMS(GoreStand, 1, GoreStand_Data) 
+SetSMS(GorgonStand, 1, GorgonStand_Data) 
+SetSMS(GoyleStand, 1, GoyleStand_Data) 
+SetSMS(GunnerStand, 1, GunnerStand_Data) 
+SetSMS(HalberdierStand, 1, HalberdierStand_Data) 
+SetSMS(HarrierStand, 1, HarrierStand_Data) 
+SetSMS(HeroFStand, 1, HeroFStand_Data) 
+SetSMS(HeroMStand, 1, HeroMStand_Data) 
+SetSMS(InfantryStand, 1, InfantryStand_Data) 
+SetSMS(Koyori, 1, Koyori_Data) 
+SetSMS(LaplaceStand, 1, LaplaceStand_Data) 
+SetSMS(LapStand, 1, LapStand_Data) 
+SetSMS(LegionStand, 1, LegionStand_Data) 
+SetSMS(LGunnerStand, 1, LGunnerStand_Data) 
+SetSMS(LightMageStand, 1, LightMageStand_Data) 
+SetSMS(MaelduinStand, 1, MaelduinStand_Data) 
+SetSMS(MageFStand, 1, MageFStand_Data) 
+SetSMS(MageKnightFStand, 1, MageKnightFStand_Data) 
+SetSMS(MageKnightMStand, 1, MageKnightMStand_Data) 
+SetSMS(MageMStand, 1, MageMStand_Data) 
+SetSMS(MahouStand, 1, MahouStand_Data) 
+SetSMS(MaidStand, 1, MaidStand_Data) 
+SetSMS(ManaketeFStand, 1, ManaketeFStand_Data) 
+SetSMS(MarksmenStand, 1, MarksmenStand_Data) 
+SetSMS(MarshallStand, 1, MarshallStand_Data) 
+SetSMS(MercenaryFStand, 1, MercenaryFStand_Data) 
+SetSMS(MercenaryMStand, 1, MercenaryMStand_Data) 
+SetSMS(MGirlStand, 1, MGirlStand_Data) 
+SetSMS(MikoFStand, 1, MikoFStand_Data) 
+SetSMS(MilitiaStand, 1, MilitiaStand_Data) 
+SetSMS(MioStand, 1, MioStand_Data) 
+SetSMS(MKnightStand, 1, MKnightStand_Data) 
+SetSMS(MogallStand, 1, MogallStand_Data) 
+SetSMS(NecromancerStand, 1, NecromancerStand_Data) 
+SetSMS(NekoStand, 1, NekoStand_Data) 
+SetSMS(NephStand, 1, NephStand_Data) 
+SetSMS(NovistadorStand, 1, NovistadorStand_Data) 
+SetSMS(PaladinFStand, 1, PaladinFStand_Data) 
+SetSMS(PaladinMStand, 1, PaladinMStand_Data) 
+SetSMS(PegRiderStand, 1, PegRiderStand_Data) 
+SetSMS(PegTrainStand, 1, PegTrainStand_Data) 
+SetSMS(PirateFStand, 1, PirateFStand_Data) 
+SetSMS(PirateMStand, 1, PirateMStand_Data) 
+SetSMS(PolkaStand, 1, PolkaStand_Data) 
+SetSMS(RatStand, 1, RatStand_Data) 
+SetSMS(RogueGeneric, 1, RogueGeneric_Data) 
+SetSMS(RoninStand, 1, RoninStand_Data) 
+SetSMS(SageStand, 1, SageStand_Data) 
+SetSMS(SameStand, 1, SameStand_Data) 
+SetSMS(SamuraiStand, 1, SamuraiStand_Data) 
+SetSMS(ScholarStand, 1, ScholarStand_Data) 
+SetSMS(SealStand, 1, SealStand_Data) 
+SetSMS(SentinelStand, 1, SentinelStand_Data) 
+SetSMS(SeraphStand, 1, SeraphStand_Data) 
+SetSMS(ShamanFStand, 1, ShamanFStand_Data) 
+SetSMS(SkelekingStand, 1, SkelekingStand_Data) 
+SetSMS(SniperFStand, 1, SniperFStand_Data) 
+SetSMS(SniperMStand, 1, SniperMStand_Data) 
+SetSMS(SoldierStand, 1, SoldierStand_Data) 
+SetSMS(SquireStand, 1, SquireStand_Data) 
+SetSMS(SuccStand, 1, SuccStand_Data) 
+SetSMS(SwdmasterMStanddrgreen, 1, SwdmasterMStanddrgreen_Data) 
+SetSMS(SwordmasterFStand, 1, SwordmasterFStand_Data) 
+SetSMS(SymphoneStand, 1, SymphoneStand_Data) 
+SetSMS(TankStand, 1, TankStand_Data) 
+SetSMS(ThiefStand, 1, ThiefStand_Data) 
+SetSMS(TricksterStand, 1, TricksterStand_Data) 
+SetSMS(VanguardStand, 1, VanguardStand_Data) 
+SetSMS(VillagerFStand, 1, VillagerFStand_Data) 
+SetSMS(VillagerMStand, 1, VillagerMStand_Data) 
+SetSMS(WardenStand, 1, WardenStand_Data) 
+SetSMS(WarriorFStand, 1, WarriorFStand_Data) 
+SetSMS(WitchStand, 1, WitchStand_Data) 
+SetSMS(WKFStand, 1, WKFStand_Data) 
+SetSMS(WLFStand, 1, WLFStand_Data) 
+SetSMS(WLMStand, 1, WLMStand_Data) 
+SetSMS(WolfStand, 1, WolfStand_Data) 
+SetSMS(WRFStand, 1, WRFStand_Data) 
+SetSMS(WRMStand, 1, WRMStand_Data) 
+SetSMS(YagooStand, 1, YagooStand_Data) 
+SetSMS(ZombieStand, 1, ZombieStand_Data) 
+ 
+ 
+SetMMS(AmeLayWalk, AmeLayWalk_Data, DemonKingAP) 
+SetMMS(AmeWalk, AmeWalk_Data, DemonKingAP) 
+SetMMS(AmongusWalk, AmongusWalk_Data, DemonKingAP) 
+SetMMS(AngelWalk, AngelWalk_Data, DemonKingAP) 
+SetMMS(AnyaWalk, AnyaWalk_Data, DemonKingAP) 
+SetMMS(ArcherFWalk, ArcherFWalk_Data, DemonKingAP) 
+SetMMS(ArmorKnightWalk, ArmorKnightWalk_Data, DemonKingAP) 
+SetMMS(ArtWalk, ArtWalk_Data, DemonKingAP) 
+SetMMS(AssassinFWalk, AssassinFWalk_Data, DemonKingAP) 
+SetMMS(AyameWalk, AyameWalk_Data, DemonKingAP) 
+SetMMS(BaelWalk, BaelWalk_Data, DemonKingAP) 
+SetMMS(BaeWalk, BaeWalk_Data, DemonKingAP) 
+SetMMS(BallistaWalk, BallistaWalk_Data, DemonKingAP) 
+SetMMS(BarbarianMWalk, BarbarianMWalk_Data, DemonKingAP) 
+SetMMS(BardFWalk, BardFWalk_Data, DemonKingAP) 
+SetMMS(BattleSagetopazlightwalk, BattleSagetopazlightwalk_Data, DemonKingAP) 
+SetMMS(BeastWalk, BeastWalk_Data, DemonKingAP) 
+SetMMS(BerserkerFWalk, BerserkerFWalk_Data, DemonKingAP) 
+SetMMS(BerserkerMWalk, BerserkerMWalk_Data, DemonKingAP) 
+SetMMS(BishopFWalk, BishopFWalk_Data, DemonKingAP) 
+SetMMS(BlackSmithWalk, BlackSmithWalk_Data, DemonKingAP) 
+SetMMS(BlankWalk, BlankWalk_Data, DemonKingAP) 
+SetMMS(CalliopeWalkNorikins, CalliopeWalkNorikins_Data, DemonKingAP) 
+SetMMS(CamillaSteamingTofuWalk, CamillaSteamingTofuWalk_Data, DemonKingAP) 
+SetMMS(CatapultWalk, CatapultWalk_Data, DemonKingAP) 
+SetMMS(CatWalk, CatWalk_Data, DemonKingAP) 
+SetMMS(CavalierFWalk, CavalierFWalk_Data, DemonKingAP) 
+SetMMS(CavalierMWalk, CavalierMWalk_Data, DemonKingAP) 
+SetMMS(ChickenWalk, ChickenWalk_Data, DemonKingAP) 
+SetMMS(ClericFWalk, ClericFWalk_Data, DemonKingAP) 
+SetMMS(CommanderWalk, CommanderWalk_Data, DemonKingAP) 
+SetMMS(CrateWalkTopazLight, CrateWalkTopazLight_Data, DemonKingAP) 
+SetMMS(DancerWalk, DancerWalk_Data, DemonKingAP) 
+SetMMS(DoogWalk, DoogWalk_Data, DemonKingAP) 
+SetMMS(DrownedWalk, DrownedWalk_Data, DemonKingAP) 
+SetMMS(DruidFWalk, DruidFWalk_Data, DemonKingAP) 
+SetMMS(ElephantWalk, ElephantWalk_Data, DemonKingAP) 
+SetMMS(FalcoWalk, FalcoWalk_Data, DemonKingAP) 
+SetMMS(FemechanistABWalk, FemechanistABWalk_Data, DemonKingAP) 
+SetMMS(FighterFWalk, FighterFWalk_Data, DemonKingAP) 
+SetMMS(FlareWalk, FlareWalk_Data, DemonKingAP) 
+SetMMS(FoobWalk, FoobWalk_Data, DemonKingAP) 
+SetMMS(GalzusWalk, GalzusWalk_Data, DemonKingAP) 
+SetMMS(GeneralWalk, GeneralWalk_Data, DemonKingAP) 
+SetMMS(GKnightFWalk, GKnightFWalk_Data, DemonKingAP) 
+SetMMS(GKnightMWalk, GKnightMWalk_Data, DemonKingAP) 
+SetMMS(GoreWalk, GoreWalk_Data, DemonKingAP) 
+SetMMS(GunnerWalk, GunnerWalk_Data, DemonKingAP) 
+SetMMS(HalberdierWalk, HalberdierWalk_Data, DemonKingAP) 
+SetMMS(HarrierWalk, HarrierWalk_Data, DemonKingAP) 
+SetMMS(HeroFWalk, HeroFWalk_Data, DemonKingAP) 
+SetMMS(HeroMWalk, HeroMWalk_Data, DemonKingAP) 
+SetMMS(InfantryWalk, InfantryWalk_Data, DemonKingAP) 
+SetMMS(KoyoriWalk, KoyoriWalk_Data, DemonKingAP) 
+SetMMS(LaplaceWalk, LaplaceWalk_Data, DemonKingAP) 
+SetMMS(LapWalk, LapWalk_Data, DemonKingAP) 
+SetMMS(LegionWalk, LegionWalk_Data, DemonKingAP) 
+SetMMS(LGunnerWalk, LGunnerWalk_Data, DemonKingAP) 
+SetMMS(LightMageWalk, LightMageWalk_Data, DemonKingAP) 
+SetMMS(MageFWalk, MageFWalk_Data, DemonKingAP) 
+SetMMS(MageKnightFWalk, MageKnightFWalk_Data, DemonKingAP) 
+SetMMS(MageKnightMWalk, MageKnightMWalk_Data, DemonKingAP) 
+SetMMS(MageMWalk, MageMWalk_Data, DemonKingAP) 
+SetMMS(MahouWalk, MahouWalk_Data, DemonKingAP) 
+SetMMS(MaidWalk, MaidWalk_Data, DemonKingAP) 
+SetMMS(ManaketeFWalk, ManaketeFWalk_Data, DemonKingAP) 
+SetMMS(MarksmenWalk, MarksmenWalk_Data, DemonKingAP) 
+SetMMS(MarshallWalk, MarshallWalk_Data, DemonKingAP) 
+SetMMS(MercenaryFWalk, MercenaryFWalk_Data, DemonKingAP) 
+SetMMS(MercenaryMWalk, MercenaryMWalk_Data, DemonKingAP) 
+SetMMS(MGirlWalk, MGirlWalk_Data, DemonKingAP) 
+SetMMS(MikoFWalk, MikoFWalk_Data, DemonKingAP) 
+SetMMS(MilitiaWalk, MilitiaWalk_Data, DemonKingAP) 
+SetMMS(MioWalk, MioWalk_Data, DemonKingAP) 
+SetMMS(MKnightWalk, MKnightWalk_Data, DemonKingAP) 
+SetMMS(NecromancerWalk, NecromancerWalk_Data, DemonKingAP) 
+SetMMS(NekoWalk, NekoWalk_Data, DemonKingAP) 
+SetMMS(NephWalk, NephWalk_Data, DemonKingAP) 
+SetMMS(NovistadorWalk, NovistadorWalk_Data, DemonKingAP) 
+SetMMS(PaladinFWalk, PaladinFWalk_Data, DemonKingAP) 
+SetMMS(PaladinMWalk, PaladinMWalk_Data, DemonKingAP) 
+SetMMS(PegRiderWalk, PegRiderWalk_Data, DemonKingAP) 
+SetMMS(PegTrainWalk, PegTrainWalk_Data, DemonKingAP) 
+SetMMS(PirateFWalk, PirateFWalk_Data, DemonKingAP) 
+SetMMS(PirateMWalk, PirateMWalk_Data, DemonKingAP) 
+SetMMS(PolkaWalk, PolkaWalk_Data, DemonKingAP) 
+SetMMS(RatWalk, RatWalk_Data, DemonKingAP) 
+SetMMS(RogueGenericWalk, RogueGenericWalk_Data, DemonKingAP) 
+SetMMS(RoninWalk, RoninWalk_Data, DemonKingAP) 
+SetMMS(SageWalk, SageWalk_Data, DemonKingAP) 
+SetMMS(SameWalk, SameWalk_Data, DemonKingAP) 
+SetMMS(SamuraiWalk, SamuraiWalk_Data, DemonKingAP) 
+SetMMS(ScholarWalk, ScholarWalk_Data, DemonKingAP) 
+SetMMS(SealWalk, SealWalk_Data, DemonKingAP) 
+SetMMS(SentinelWalk, SentinelWalk_Data, DemonKingAP) 
+SetMMS(SeraphWalk, SeraphWalk_Data, DemonKingAP) 
+SetMMS(ShamanFWalk, ShamanFWalk_Data, DemonKingAP) 
+SetMMS(SkelekingWalk, SkelekingWalk_Data, DemonKingAP) 
+SetMMS(SniperFWalk, SniperFWalk_Data, DemonKingAP) 
+SetMMS(SniperMWalk, SniperMWalk_Data, DemonKingAP) 
+SetMMS(SoldierWalk, SoldierWalk_Data, DemonKingAP) 
+SetMMS(SquireWalk, SquireWalk_Data, DemonKingAP) 
+SetMMS(SuccWalk, SuccWalk_Data, DemonKingAP) 
+SetMMS(SwdmasterMWalkdrgreen, SwdmasterMWalkdrgreen_Data, DemonKingAP) 
+SetMMS(SwordmasterFWalk, SwordmasterFWalk_Data, DemonKingAP) 
+SetMMS(TankWalk, TankWalk_Data, DemonKingAP) 
+SetMMS(TentWalk, TentWalk_Data, DemonKingAP) 
+SetMMS(ThiefWalk, ThiefWalk_Data, DemonKingAP) 
+SetMMS(TricksterWalk, TricksterWalk_Data, DemonKingAP) 
+SetMMS(VanguardWalk, VanguardWalk_Data, DemonKingAP) 
+SetMMS(VillagerFWalk, VillagerFWalk_Data, DemonKingAP) 
+SetMMS(VillagerMWalk, VillagerMWalk_Data, DemonKingAP) 
+SetMMS(WardenWalk, WardenWalk_Data, DemonKingAP) 
+SetMMS(WarriorFWalk, WarriorFWalk_Data, DemonKingAP) 
+SetMMS(WitchWalk, WitchWalk_Data, DemonKingAP) 
+SetMMS(WKFWalk, WKFWalk_Data, DemonKingAP) 
+SetMMS(WLFWalk, WLFWalk_Data, DemonKingAP) 
+SetMMS(WLMWalk, WLMWalk_Data, DemonKingAP) 
+SetMMS(WRFWalk, WRFWalk_Data, DemonKingAP) 
+SetMMS(WRMWalk, WRMWalk_Data, DemonKingAP) 
+SetMMS(YagooWalk, YagooWalk_Data, DemonKingAP) 
+ 
+POP 
+//Copy until here 
+*/ 
+ 
+ 
+//SMS Image Data 
+ 
+ALIGN 4 
+AmeLay_Data: 
+#incbin "dmp/AmeLay.dmp" 
+ 
+ALIGN 4 
+AmeliaStand_Data: 
+#incbin "dmp/AmeliaStand.dmp" 
+ 
+ALIGN 4 
+AMogallStand_Data: 
+#incbin "dmp/AMogallStand.dmp" 
+ 
+ALIGN 4 
+AmongusStand_Data: 
+#incbin "dmp/AmongusStand.dmp" 
+ 
+ALIGN 4 
+AngelStand_Data: 
+#incbin "dmp/AngelStand.dmp" 
+ 
+ALIGN 4 
+AnyaStand_Data: 
+#incbin "dmp/AnyaStand.dmp" 
+ 
+ALIGN 4 
+ArcherFStand_Data: 
+#incbin "dmp/ArcherFStand.dmp" 
+ 
+ALIGN 4 
+ArmorKnightStand_Data: 
+#incbin "dmp/ArmorKnightStand.dmp" 
+ 
+ALIGN 4 
+ArtStand_Data: 
+#incbin "dmp/ArtStand.dmp" 
+ 
+ALIGN 4 
+AssassinFStand_Data: 
+#incbin "dmp/AssassinFStand.dmp" 
+ 
+ALIGN 4 
+AyameStand_Data: 
+#incbin "dmp/AyameStand.dmp" 
+ 
+ALIGN 4 
+BaelStand_Data: 
+#incbin "dmp/BaelStand.dmp" 
+ 
+ALIGN 4 
+BaeStand_Data: 
+#incbin "dmp/BaeStand.dmp" 
+ 
+ALIGN 4 
+BallistaStand_Data: 
+#incbin "dmp/BallistaStand.dmp" 
+ 
+ALIGN 4 
+BarbarianMStand_Data: 
+#incbin "dmp/BarbarianMStand.dmp" 
+ 
+ALIGN 4 
+BardStand_Data: 
+#incbin "dmp/BardStand.dmp" 
+ 
+ALIGN 4 
+BattleSageSwordtopazlightstand_Data: 
+#incbin "dmp/BattleSageSwordtopazlightstand.dmp" 
+ 
+ALIGN 4 
+BeastStand_Data: 
+#incbin "dmp/BeastStand.dmp" 
+ 
+ALIGN 4 
+BerserkerFStand_Data: 
+#incbin "dmp/BerserkerFStand.dmp" 
+ 
+ALIGN 4 
+BerserkerMStand_Data: 
+#incbin "dmp/BerserkerMStand.dmp" 
+ 
+ALIGN 4 
+BishopFStand_Data: 
+#incbin "dmp/BishopFStand.dmp" 
+ 
+ALIGN 4 
+BlackSmithStand_Data: 
+#incbin "dmp/BlackSmithStand.dmp" 
+ 
+ALIGN 4 
+BowWalkerStand_Data: 
+#incbin "dmp/BowWalkerStand.dmp" 
+ 
+ALIGN 4 
+CalliopeStand_Data: 
+#incbin "dmp/CalliopeStand.dmp" 
+ 
+ALIGN 4 
+CamillaSteamingTofuStand_Data: 
+#incbin "dmp/CamillaSteamingTofuStand.dmp" 
+ 
+ALIGN 4 
+CatapultStand_Data: 
+#incbin "dmp/CatapultStand.dmp" 
+ 
+ALIGN 4 
+CatStand_Data: 
+#incbin "dmp/CatStand.dmp" 
+ 
+ALIGN 4 
+CavalierFStand_Data: 
+#incbin "dmp/CavalierFStand.dmp" 
+ 
+ALIGN 4 
+CavalierMStand_Data: 
+#incbin "dmp/CavalierMStand.dmp" 
+ 
+ALIGN 4 
+CerberusStand_Data: 
+#incbin "dmp/CerberusStand.dmp" 
+ 
+ALIGN 4 
+ChickenStand_Data: 
+#incbin "dmp/ChickenStand.dmp" 
+ 
+ALIGN 4 
+ClericFStand_Data: 
+#incbin "dmp/ClericFStand.dmp" 
+ 
+ALIGN 4 
+CommanderStand_Data: 
+#incbin "dmp/CommanderStand.dmp" 
+ 
+ALIGN 4 
+CrateTopazLight_Data: 
+#incbin "dmp/CrateTopazLight.dmp" 
+ 
+ALIGN 4 
+DancerStand_Data: 

@@ -4,6 +4,7 @@
 #define Wind_index 0x10
 #define Thunder_index 0x19
 #define Fire_index 0x16
+#define Water_index 0x49
 
 #include "CSA System FE8/Master Spell Animation Installer.event"
 
@@ -14,6 +15,7 @@
 #include "Event/Thunder.event"
 #include "Event/Wind.event"
 #include "Event/Fire.event" //Fire
+#include "Event/Water.event"
 
 /*
 credits

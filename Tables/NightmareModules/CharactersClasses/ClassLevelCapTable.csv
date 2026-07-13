@@ -61,7 +61,7 @@ INLINE Class_Level_Cap_Table,Level Cap
 0x3B Manakete,20
 0x3C Manakete (F),20
 0x3D Journeyman (1),10
-0x3E Pupil (1),10
+0x3E Pupil (1),25
 0x3F Fighter,20
 0x40 Warrior,20
 0x41 Brigand,20

@@ -1,0 +1,327 @@
+//Guide data is a series of lists; contained within these lists are the flags to use for unlock and read for each entry
+//This sets all of those flags to the same flag, effectively freeing up all of the guide flags for other uses
+#define UnlockGuideFlag 0xCB
+#define GuideChpt1 0xCC
+#define GuideChpt2 0xCD
+#define GuideChpt3 0xCE
+#define GuideChpt4 0xCF
+#define GuideChpt5 0xD0
+#define GuideChpt6 0xD1
+#define GuideChpt7 0xD2
+#define GuideChpt8 0xD3
+#define GuideChpt9 0xD4
+#define GuideChpt10 0xD5
+#define GuideChpt11 0xD6
+#define GuideChpt12 0xD7
+#define GuideChpt13 0xD8
+#define GuideChpt14 0xD9
+#define GuideChpt15 0xDa //also covers zeke party
+#define GuideChpt16 0xDb
+#define GuideChpt17 0xDc
+#define GuideChpt18 0xdd
+#define GuideChpt19 0xde
+#define GuideChpt20 0xdf
+#define GuideChpt21 0xe0 //also covers virid party
+#define GuideChpt22 0xe1
+#define GuideChpt23 0xe2
+#define GuideChpt24 0xe3
+#define GuideChpt25 0xe4
+#define GuideChpt26 0xe5
+#define GuideChpt27 0xe6
+#define GuideChpt28 0xe7
+#define GuideChptE 0xe8
+
+//make unit existence/class impact guide shit
+PUSH
+ORG $CE440
+jumpToHack(GuideCheck1)
+ORG $CEB10
+jumpToHack(GuideCheck2)
+ORG $CEBD4
+jumpToHack(GuideCheck3)
+POP
+ALIGN 4
+GuideCheck1:
+#incbin "check1.dmp"
+ALIGN 4
+GuideCheck2:
+#incbin "check2.dmp"
+ALIGN 4
+GuideCheck3:
+#incbin "check3.dmp"
+
+// entry table: 0xB19E0C
+// pointers: CDF5C, CE380, CE40C, CE480, CE57C, CE618, CE6C4, CE998, CEB5C, CEC20, CF090, CF468, CF488
+// BYTE Category Chapter SHORT TitleText BodyText Flag ReadFlag BYTE 0 0
+
+// chapter table: 0xB12AE0
+// pointers: CE1FC
+// SHORT ChapterText BYTE 0 0
+
+// category table: 0xB12B04
+// pointers: CE23C, CE1BC
+// SHORT CategoryText
+
+// By Pikmin, Huichelaar 
+#define PageCount 1 // This must be less than or equal to the number of entries you have in GuideCategoryTable
+
+//Disable guide sort for glitchiness reasons
+PUSH
+  // Guide Menu
+    // Disable guide Sort2 for glitchiness reasons
+    // Credit to Pikmin1211
+    ORG 0xCEF7C
+    SHORT 0xE001
+	// This section by Huichelaar 
+    // Don't draw "Sort" sprite
+    ORG 0xCDFB8
+    SHORT 0x46C0 0x46C0
+    // Draw "Back" where "Sort" used to be
+    ORG 0xCDFC4
+    SHORT 0x2203
+POP
+
+#define GuideTerminator "ALIGN 4; WORD 0 0 0 0 0 0 0 0 0 0"
+
+#define GuideEntry(Category, Chapter, TitleText, BodyText, Flag) "BYTE Category Chapter; SHORT TitleText BodyText Flag Flag 0x0"
+#define GuideEntry(Category, Chapter, TitleText, BodyText, Flag, Unit, Class) "BYTE Category Chapter; SHORT TitleText BodyText Flag Flag; BYTE Unit Class"
+#define GuideEntry(Category, Chapter, TitleText, BodyText, Flag, Unit) "BYTE Category Chapter; SHORT TitleText BodyText Flag Flag; BYTE Unit 0x0"
+
+#define GuideChapterEntry(ChapterText) "SHORT ChapterText 0x0"
+
+#define GuideCategoryEntry(CategoryText) "SHORT CategoryText"
+
+
+ALIGN 4
+GuideEntryTable:
+//mechanical stuff
+GuideEntry(1, 0, GuideChanges, GuideChangesDesc, UnlockGuideFlag) //Move Stars
+GuideEntry(1, 0, GuideLeadership, GuideLeadershipDesc, UnlockGuideFlag)
+GuideEntry(1, 0, GuidePCC, GuidePCCDesc, UnlockGuideFlag)
+GuideEntry(1, 0, GuideItemRefresh, GuideItemRefreshDesc, UnlockGuideFlag)
+
+
+/*
+
+GuideEntry(1, 0, GuideLevelUpSkills, GuideLevelUpSkillsDesc, UnlockGuideFlag)
+GuideEntry(1, 0, GuideSupportPairings, GuideSupportPairingsDesc, UnlockGuideFlag)
+GuideEntry(1, 0, GuideSupportPairings2, GuideSupportPairings2Desc, UnlockGuideFlag)
+GuideEntry(1, 0, GuideShopHints, GuideShopHintsDesc, GuideChpt3)
+GuideEntry(1, 0, GuidePandora, GuidePandoraDesc, UnlockGuideFlag,Yuyu)
+GuideEntry(1, 0, GuideEarthPower, GuideEarthPowerDesc, GuideChpt25)
+GuideEntry(1, 0, GuideAnimusList, GuideAnimusListDesc, AnimusModeFlag)
+*/
+
+//country lore
+GuideEntry(2, 1, GuidePekoland, GuidePekolandDesc, UnlockGuideFlag)
+
+/*
+GuideEntry(2, 1, GuideDalst, GuideDalstDesc, UnlockGuideFlag)
+GuideEntry(2, 1, GuideMevion, GuideMevionDesc, UnlockGuideFlag)
+GuideEntry(2, 1, GuideYgstra, GuideYgstraDesc, UnlockGuideFlag)
+GuideEntry(2, 1, GuideElbaCor, GuideElbaCorDesc, UnlockGuideFlag)
+GuideEntry(2, 1, GuideOpistia, GuideOpistiaDesc, UnlockGuideFlag)
+GuideEntry(2, 1, GuideHolanis, GuideHolanisDesc, UnlockGuideFlag)
+GuideEntry(2, 1, GuideLowlands, GuideLowlandsDesc, UnlockGuideFlag)
+GuideEntry(2, 1, GuideLoile, GuideLoileDesc, UnlockGuideFlag)
+*/
+
+//chapter summmary/blair thoughts
+/*
+GuideEntry(3, 2, _PrologueD, PrologueDiary, UnlockGuideFlag)
+GuideEntry(3, 2, _Chapt1D, Chapt1Diary, GuideChpt1)
+GuideEntry(3, 2, _Chapt2D, Chapt2Diary, GuideChpt2)
+GuideEntry(3, 2, _Chapt3D, Chapt3Diary, GuideChpt3)
+GuideEntry(3, 2, _Chapt4D, Chapt4Diary, GuideChpt4)
+GuideEntry(3, 2, _Chapt5D, Chapt5Diary, GuideChpt5)
+GuideEntry(3, 2, _Chapt6D, Chapt6Diary, GuideChpt6)
+GuideEntry(3, 2, _Chapt7D, Chapt7Diary, GuideChpt7)
+GuideEntry(3, 2, _Chapt8D, Chapt8Diary, GuideChpt8)
+GuideEntry(3, 2, _Chapt9D, Chapt9Diary, GuideChpt9)
+GuideEntry(3, 2, _Chapt10D, Chapt10Diary, GuideChpt10)
+GuideEntry(3, 2, _Chapt11D, Chapt11Diary, GuideChpt11)
+GuideEntry(3, 2, _Chapt12D, Chapt12Diary, GuideChpt12)
+GuideEntry(3, 2, _Chapt13D, Chapt13Diary, GuideChpt13)
+GuideEntry(3, 2, _Chapt14D, Chapt14Diary, GuideChpt14)
+GuideEntry(3, 2, _Chapt15D, Chapt15Diary, GuideChpt15)
+GuideEntry(3, 2, _Chapt16D, Chapt16Diary, GuideChpt16)
+GuideEntry(3, 2, _Chapt17D, Chapt17Diary, GuideChpt17)
+GuideEntry(3, 2, _Chapt18D, Chapt18Diary, GuideChpt18)
+GuideEntry(3, 2, _Chapt19D, Chapt19Diary, GuideChpt19)
+GuideEntry(3, 2, _Chapt20D, Chapt20Diary, GuideChpt20)
+GuideEntry(3, 2, _Chapt21D, Chapt21Diary, GuideChpt21)
+GuideEntry(3, 2, _Chapt22D, Chapt22Diary, GuideChpt22)
+GuideEntry(3, 2, _Chapt23D, Chapt23Diary, GuideChpt23)
+GuideEntry(3, 2, _Chapt24D, Chapt24Diary, GuideChpt24)
+GuideEntry(3, 2, _Chapt25D, Chapt25Diary, GuideChpt25)
+GuideEntry(3, 2, _Chapt26D, Chapt26Diary, GuideChpt26)
+GuideEntry(3, 2, _Chapt27D, Chapt27Diary, GuideChpt27)
+GuideEntry(3, 2, _Chapt28D, Chapt28Diary, GuideChpt28)
+GuideEntry(3, 2, _ChaptFD, ChaptFDiary, GuideChptE)
+*/
+
+//characters
+/*
+GuideEntry(4,3,Name_Blair,GuideBlairDesc,UnlockGuideFlag,Blair)
+GuideEntry(4,3,Name_Arin,GuideArinDesc,UnlockGuideFlag,Arin)
+GuideEntry(4,3,Name_Kenneth,GuideKennethDesc,UnlockGuideFlag,Kenneth)
+GuideEntry(4,3,Name_Natasia,GuideNatasiaDesc,UnlockGuideFlag,Natasia)
+GuideEntry(4,3,Name_Stefan,GuideStefanDesc,UnlockGuideFlag,Stefan)
+GuideEntry(4,3,Name_Desmond,GuideDesmondDesc,UnlockGuideFlag,Desmond)
+GuideEntry(4,3,Name_Sam,GuideSamDesc,UnlockGuideFlag,Sam)
+GuideEntry(4,3,Name_Josef,GuideJosefDesc,UnlockGuideFlag,Josef)
+GuideEntry(4,3,Name_Peggy,GuidePeggyDesc,UnlockGuideFlag,Peggy)
+GuideEntry(4,3,Name_Butch,GuideButchDesc,UnlockGuideFlag,Butch)
+GuideEntry(4,3,Name_Cassius,GuideCassiusDesc,UnlockGuideFlag,Cassius)
+GuideEntry(4,3,Name_Rachael,GuideRachaelDesc,UnlockGuideFlag,Rachael)
+GuideEntry(4,3,Name_Emile,GuideEmileDesc,UnlockGuideFlag,Emile)
+GuideEntry(4,3,Name_Jeff,GuideJeffDesc,UnlockGuideFlag,Jeff)
+GuideEntry(4,3,Name_Apollo,GuideApolloDesc,UnlockGuideFlag,Apollo)
+GuideEntry(4,3,Name_Bechamel,GuideBechamelDesc,UnlockGuideFlag,Bechamel)
+GuideEntry(4,3,EI10Sveltzalus,GuideSveltzalusDesc,UnlockGuideFlag,Sveltzalus)
+GuideEntry(4,3,Name_Hilbert,GuideHilbertDesc,UnlockGuideFlag,Hilbert)
+GuideEntry(4,3,Name_Flynn,GuideFlynnDesc,UnlockGuideFlag,Flynn)
+GuideEntry(4,3,Name_Mikey,GuideMikeyDesc,UnlockGuideFlag,Mikey)
+GuideEntry(4,3,Name_Carbon,GuideCarbonDesc,UnlockGuideFlag,Carbon)
+GuideEntry(4,3,Name_Athena,GuideAthenaDesc,UnlockGuideFlag,Athena)
+GuideEntry(4,3,Name_Charley,GuideCharleyDesc,UnlockGuideFlag,Charley)
+GuideEntry(4,3,Name_Zeke,GuideZekeDesc,UnlockGuideFlag,Zeke)
+GuideEntry(4,3,Name_Hyperius,GuideHyperiusDesc,UnlockGuideFlag,Hyperius)
+GuideEntry(4,3,Name_Alexis,GuideAlexisDesc,UnlockGuideFlag,Alexis)
+GuideEntry(4,3,Name_Leila,GuideLeilaDesc,UnlockGuideFlag,Leila)
+GuideEntry(4,3,Name_Damien,GuideDamienDesc,UnlockGuideFlag,Damien)
+GuideEntry(4,3,EI10Zacharias,GuideZachariasDesc,UnlockGuideFlag,Zacharias)
+GuideEntry(4,3,Name_Avan,GuideAvanDesc,UnlockGuideFlag,Avan)
+GuideEntry(4,3,EI10Toddsworth,GuideToddsworthDesc,UnlockGuideFlag,Toddsworth)
+GuideEntry(4,3,Name_Yuyu,GuideYuyuDesc,UnlockGuideFlag,Yuyu)
+GuideEntry(4,3,Name_Artemis,GuideArtemisDesc,UnlockGuideFlag,Artemis)
+GuideEntry(4,3,EI10Hollandaise,GuideHollandaiseDesc,UnlockGuideFlag,Hollandaise)
+GuideEntry(4,3,Name_Vladmir,GuideVladmirDesc,UnlockGuideFlag,Vladmir)
+GuideEntry(4,3,Name_Horatio,GuideHoratioDesc,UnlockGuideFlag,Horatio)
+GuideEntry(4,3,Name_Simone,GuideSimoneDesc,UnlockGuideFlag,Simone)
+GuideEntry(4,3,Name_Ptolemy,GuidePtolemyDesc,UnlockGuideFlag,Ptolemy)
+GuideEntry(4,3,Name_Johan,GuideJohanDesc,UnlockGuideFlag,Johan)
+GuideEntry(4,3,Name_Peter,GuidePeterDesc,UnlockGuideFlag,Peter)
+GuideEntry(4,3,Name_Sonia,GuideSoniaDesc,UnlockGuideFlag,Sonia)
+GuideEntry(4,3,Name_Joan,GuideJoanDesc,UnlockGuideFlag,Joan)
+GuideEntry(4,3,Name_Tobias,GuideTobiasDesc,UnlockGuideFlag,Tobias)
+GuideEntry(4,3,Name_Ian,GuideIanDesc,UnlockGuideFlag,Ian)
+GuideEntry(4,3,Name_Olsen,GuideOlsenDesc,UnlockGuideFlag,Olsen)
+GuideEntry(4,3,Name_Elcorian,GuideElcorianDesc,UnlockGuideFlag,Elcorian)
+GuideEntry(4,3,Name_Viridian,GuideViridianDesc,UnlockGuideFlag,Viridian)
+GuideEntry(4,3,Name_Freddric,GuideFreddricDesc,UnlockGuideFlag,Freddric)
+GuideEntry(4,3,Name_Dean,GuideDeanDesc,UnlockGuideFlag,Dean)
+GuideEntry(4,3,Name_Eliza,GuideElizaDesc,UnlockGuideFlag,Eliza)
+GuideEntry(4,3,NameNonNarrow_Chartreuse,GuideChartreuseDesc,UnlockGuideFlag,Chartreuse)
+GuideEntry(4,3,Name_Rift,GuideRiftDesc,UnlockGuideFlag,Rift)
+GuideEntry(4,3,Name_Estelle,GuideEstelleDesc,UnlockGuideFlag,Estelle)
+GuideEntry(4,3,Name_Rose,GuideRoseDesc,UnlockGuideFlag,Rose)
+GuideEntry(4,3,Name_Dirk,GuideDirkDesc,UnlockGuideFlag,Dirk)
+GuideEntry(4,3,Name_Callum,GuideCallumDesc,UnlockGuideFlag,Callum)
+GuideEntry(4,3,Name_Manfred,GuideManfredDesc,UnlockGuideFlag,Manfred)
+GuideEntry(4,3,Name_Wilhelm,GuideWilhelmDesc,UnlockGuideFlag,Wilhelm)
+GuideEntry(4,3,Name_Argent,GuideArgentDesc,UnlockGuideFlag,Argent)
+
+GuideEntry(4, 3, Name_Agnes, GuideAgnesDesc,UnlockGuideFlag,Agnes)
+GuideEntry(4, 3, EI10Addington, GuideAddingtonDesc,UnlockGuideFlag,Addington)
+GuideEntry(4, 3, Name_Gaylord, GuideGaylordDesc,UnlockGuideFlag,Gaylord)
+GuideEntry(4, 3, Name_Q, GuideQDesc,UnlockGuideFlag,UnitQ)
+GuideEntry(4, 3, Name_Clarque, GuideClarqueDesc,UnlockGuideFlag,SecretClarque)
+GuideEntry(4, 3, Name_Tonnamin, GuideTonnaminDesc,UnlockGuideFlag,Tonnamin)
+GuideEntry(4, 3, Name_Laronde, GuideLarondeDesc,UnlockGuideFlag,SecretLaronde)
+GuideEntry(4, 3, Name_Kyrie, GuideKyrieDesc,UnlockGuideFlag,Kyrie)
+GuideEntry(4, 3, Name_Jonas, GuideJonasDesc,UnlockGuideFlag,SecretJonas)
+GuideEntry(4, 3, Name_Valeria, GuideValeriaDesc,UnlockGuideFlag,Valeria)
+*/
+
+//npcs and such
+/*
+GuideEntry(4, 3, Name_Brandl, GuideBrandlDesc, GuideChpt8)
+GuideEntry(4, 3, Name_Cid, GuideCidDesc, GuideChpt11)
+GuideEntry(4, 3, Name_Valden, GuideValdenDesc, GuideChpt15)
+GuideEntry(4, 3, Name_Lazarus, GuideLazarusDesc, GuideChpt15)
+GuideEntry(4, 3, Name_Briant, GuideBriantDesc, GuideChpt15)
+GuideEntry(4, 3, Name_NathanielLong, GuideNathanielDesc, GuideChpt22)
+GuideEntry(4, 3, Name_Liam, GuideLiamDesc, GuideChpt23)
+GuideEntry(4, 3, Name_Neillstrom, GuideTarquinDesc, GuideChpt24)
+GuideEntry(4, 3, Name_Ciraweiss, GuideEthylDesc, GuideChpt27)
+GuideEntry(4, 3, Name_Arbordia, GuideGirardDesc, GuideChptE)
+*/
+//lost diaries/lore
+/*
+GuideEntry(5, 4, _ChaptZ1D, ChaptZ1Lore, GuideChpt15)
+GuideEntry(5, 4, _ChaptZ2D, ChaptZ2Lore, GuideChpt15)
+GuideEntry(5, 4, _ChaptZ3D, ChaptZ3Lore, GuideChpt15)
+GuideEntry(5, 4, _ChaptV1D, ChaptV1Lore, GuideChpt21)
+GuideEntry(5, 4, _ChaptV2D, ChaptV2Lore, GuideChpt21)
+GuideEntry(5, 4, _ChaptV3D, ChaptV3Lore, GuideChpt21)
+GuideEntry(5, 4, _ChaptV4D, ChaptV4Lore, GuideChpt21)
+GuideEntry(5, 4, _ChaptV5D, ChaptV5Lore, GuideChpt21)
+GuideEntry(5, 4, MariusLetterTitle, MariusLetter, GuideChpt20)
+GuideEntry(5, 4, LazarusLetterTitle, LazarusLetter, GuideChpt24)
+GuideEntry(5, 4, SimoneNotesTitle, SimoneNotes, GuideChpt26)
+*/
+
+
+//credits
+/*
+GuideEntry(6, 5, CreditsAssets, CreditsAssetsDesc, UnlockGuideFlag)
+GuideEntry(6, 5, CreditsAssets2, CreditsAssets2Desc, UnlockGuideFlag)
+GuideEntry(6, 5, CreditsPatches, CreditsPatchesDesc, UnlockGuideFlag)
+GuideEntry(6, 5, CreditsThanks, CreditsThanksDesc, UnlockGuideFlag)
+GuideEntry(0xC,0,0,0,0) //terminator?
+*/
+
+GuideTerminator
+
+ALIGN 4
+GuideChapterTable:
+GuideChapterEntry(GuideSection1)
+GuideChapterEntry(GuideSection2)
+
+BYTE 0x0 0x0 0xC9 0x5 //terminator?
+GuideTerminator
+
+ALIGN 4
+GuideCategoryTable:
+GuideCategoryEntry(0x0)
+GuideCategoryEntry(GuideSection1) //Section
+GuideChapterEntry(GuideSection2)
+GuideEntry(PageCount,0,0,0,0) //terminator?
+GuideTerminator
+
+
+PUSH
+ORG 0xCE380
+POIN GuideEntryTable
+ORG 0xCDF5C
+POIN GuideEntryTable
+ORG 0xCE40C
+POIN GuideEntryTable
+ORG 0xCE480
+POIN GuideEntryTable
+ORG 0xCE57C
+POIN GuideEntryTable
+ORG 0xCE618
+POIN GuideEntryTable
+ORG 0xCE6C4
+POIN GuideEntryTable
+ORG 0xCE998
+POIN GuideEntryTable
+ORG 0xCEB5C
+POIN GuideEntryTable
+ORG 0xCEC20
+POIN GuideEntryTable
+ORG 0xCF090
+POIN GuideEntryTable
+ORG 0xCF468
+POIN GuideEntryTable
+ORG 0xCF488
+POIN GuideEntryTable
+ORG 0xCE1FC
+POIN GuideChapterTable
+ORG 0xCE23C
+POIN GuideCategoryTable
+ORG 0xCE1BC
+POIN GuideCategoryTable
+POP

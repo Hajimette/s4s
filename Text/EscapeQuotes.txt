@@ -1,3 +1,93 @@
+## NeneChp7EscapeText
+[MidRight][LoadNeneP]
+[MidRight]
+I'm glad we're getting[N]
+away inside...[A][N]
+I know those pegasi are[N]
+breathing down our necks..[A][X]
+
+## WatameChp7EscapeText
+[MidRight][LoadWatameP]
+[MidRight]
+All of this to just leave?[A][X]
+
+## PolkaChp7EscapeText
+[MidRight][LoadPolkaP]
+[MidRight][MoveMidRight]
+S...society made this place[N]
+rigged to explode...right?![A][X]
+
+## AmeliaChapter7FinalEscapeText
+[MidRight][LoadAme]
+[MidRight]
+How many explosive do[N]
+these people have?![A][X]
+
+## AmeliaChapter7EscapeText
+[MidRight][LoadAme]
+[MidRight]
+Better leave while I can...[N]
+I don't like explosives...[A][X]
+
+## BotanChp7EscapeText
+[MidRight][LoadBotanP]
+[MidRight]
+I trust there's no more[N]
+troops up ahead...[A][X]
+
+## RisuChp7EscapeText
+[MidRight][LoadRisuP]
+[MidRight]
+How crazy it is they'd blow[N]
+up a whole mountain for this.[A][N]
+Then again, it HAS been[N]
+crazy the past few days...[A][X]
+
+## RBCChp7EscapeText
+[MidRight][LoadRobocoP]
+[MidRight]
+The logistics that had to[N]
+have been put into this...[A][N]
+Incredible.[A][X]
+
+## IrohaChapter7EscapeQuoteText
+[MidRight][LoadIrohaP]
+[MidRight]
+Chloe, Koyori, hurry up,[N]
+I daresay![A][X]
+
+## KoyoriChapter7EscapeQuoteText
+[MidRight][LoadKoyoriP]
+[MidRight]
+The explosives will blow[N]
+soon, hurry![A][X]
+
+## LamyChp7EscapeText
+[MidRight][LoadLamyP]
+[MidRight][MoveMidRight]
+Why are we doing this?![A][N]
+Get us out of here![A][X]
+
+## ChloeChp7EscapeText
+[MidRight][LoadChloeMask]
+[MidRight]
+Iroha, Koyori, you[N]
+better hurry up![A][X]
+
+
+
+## LamyChp3EscapeText
+[MidLeft][LoadLamyP]
+[MidLeft]
+Finally... I'm finally away from[N]
+this wretched prison![A][X]
+
+
+## KoyoriFinalChp3EscapeText
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+We're all here, time to go![A][X]
+
 ## AmeliaPrologueEscapeText
 [MidRight][LoadAme]
 [MidRight]
@@ -7,9 +97,16 @@ off to find my watch...[A][X]
 
 ## AmeliaChapter1EscapeText
 [MidRight][LoadAme]
+[MidRight]
 I'm not dealing with this anymore.[N]
 Time to go.[A][2NL]
 God damn it I need my watch...[A][X]
+
+## AmeliaChapter3EscapeText
+[MidRight][LoadAme]
+[MidRight]
+We...we made it...[A][X]
+
 
 ## BotanPrologueEscapeText
 [MidRight][LoadBotanP]
@@ -22,6 +119,11 @@ I'll clear the way forward![A][X]
 Better start relearning everything...[A][N]
 this feels harder than I remember...[A][X]
 
+## BotanChp3EscapeText
+[MidLeft][LoadBotanP]
+[MidLeft]
+Almost there! We'll go[N]
+into the forest soon![A][X]
 
 
 ## ZetaPrologueEscapeText
@@ -35,6 +137,13 @@ ahead is safe![A][X]
 [MidLeft]
 We're getting slightly overwhelmed.[A][N]
 Better to leave now than never.[A][X]
+
+## ZetaChp3EscapeText
+[MidLeft][LoadZetaP]
+[MidLeft][MoveMidLeft]
+Don't stop! Keep going![A][X]
+
+
 
 ## ZetaFinalPrologueEscapeText
 [MidRight][LoadZetaP]
@@ -50,6 +159,13 @@ Thats everyone. Lets go[N]
 before we get cornered.[A][X]
 
 
+## ZetaFinalChp3EscapeText
+[MidLeft][LoadZetaP]
+[MidLeft]
+Everyone, get to the bridge[N]
+before it's too late![A][X]
+
+
 ## IrohaChapter1EscapeQuoteText
 [MidLeft][LoadIrohaP]
 [MidLeft]
@@ -58,6 +174,19 @@ all, I daresay.[A][2NL]
 Though, I'm sure master has[N]
 more targets for us to raid.[A][X]
 
+## IrohaChapter3EscapeQuoteText
+[MidLeft][LoadIrohaP]
+[MidLeft]
+We're almost out of here.[A][N]
+I better make sure the path[N]
+forward is safe, I daresay.[A][X]
+
+## IrohaFinalChp3EscapeText
+[MidLeft][LoadIrohaP]
+[MidLeft]
+We'll be back.[A][2NL]
+And when we are,[N]
+you're mine.[A][X]
 
 
 ## KoyoriFinalEscapeQuoteText
@@ -75,6 +204,11 @@ the lab.[A] Looks like there's[N]
 a lot of potential I need to[N]
 unlock from them.[A][X]
 
+## KoyoriChapter3EscapeQuoteText
+[MidLeft][LoadKoyoriP]
+[MidLeft]
+D...damn it! Do I have any[N]
+spare ingredients left...[A][X]
 
 ## RisuPrologueEscapeText
 [MidRight][LoadRisuP]
@@ -88,6 +222,13 @@ bad this time around...[A][X]
 Why are there so many of[N]
 these stupid rabbits?![A][X]
 
+## RisuChp3EscapeText
+[MidLeft][LoadRisuP]
+[MidLeft]
+We'll burn this place down[N]
+in the future.[A][2NL]
+Too many nuts here to allow[N]
+them to live.[A][X]
 
 ## RBCPrologueEscapeText
 [MidRight][LoadRobocoP]
@@ -103,7 +244,10 @@ exponentially.[A][N]
 We better get out of here[N]
 while we can.[A][X]
 
-
+## RBCChp3EscapeText
+[MidLeft][LoadRobocoP]
+[MidLeft]
+...We beat the odds.[A][X]
 
 //
 ## AmeliaPrologueFinalEscapeText
@@ -119,6 +263,12 @@ Kronii...[A][X]
 D...damn it! Too close[N]
 for comfort...[A][X]
 
+## AmeliaChapter3FinalEscapeText
+[MidLeft][LoadAme]
+[MidLeft][MoveMidLeft]
+GOD DAMN IT![A][N]
+MY WATCH![A][X]
+
 
 ## BotanPrologueFinalEscapeText
 [MidRight][LoadBotanP]
@@ -131,6 +281,11 @@ Lets get out of here![A][X]
 [MidLeft]
 Everyone is ahead, lets go![A][X]
 
+## BotanChp3FinalEscapeText
+[MidLeft][LoadBotanP]
+[MidLeft]
+Gotta get into the forest...[N]
+lose their line of sight...[A][X]
 
 
 ## IrohaFinalEscapeQuoteText

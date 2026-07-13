@@ -545,7 +545,20 @@ Laufey[X]
 ## NyxName
 Nyx[X]
 
+## CrateName
+Crate[X]
 
+## CrateDesc
+A crate of items.[X]
 
 ## CamName
 Camera[X]
+
+## TamaraName
+Tamara[X]
+
+## TamaraDesc
+A hot headed Nousagi officer[N]
+in charge of a few patrols.[X]
+
+

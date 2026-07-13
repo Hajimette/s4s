@@ -58,15 +58,20 @@ MiscBasedEvents:
 	END_MAIN
 
 LocationBasedEvents:
-Chest(IronBow,7,17)
-Chest(Vulnerary,10,0)
-Chest(Rapier,10,1)
-Door(4,2)
-Door(5,2)
-Door(12,5)
+Chest(IronBow,0,0)
+Chest(Vulnerary,1,0)
+Chest(Rapier,1,1)
+Door(2,4)
+//LOCA 0x0 NorthDoor [2,4] 0x12
+Door(3,4)
+//LOCA 0x0 NorthDoor [3,4] 0x12
+//Door(10,2)
+Door(0,2)
+LOCA 0x0 NorthCentral [10,2] 0x12
+
 LOCA 16 PrologueBossDoor [13,5] 0x12
 LOCA 16 PrologueBossDoor [14,5] 0x12
-//Door(2,8)
+
 LOCA 13 BotanAmeliaDoorPrologue [2,8] 0x12
 Chest(IronSword,7,8)
 LOCA Flag22 PrologueNPCUpper [13,9] 0x12
@@ -108,21 +113,25 @@ UNIT
 
 
 EnemyUnits:
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [4,16] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
-  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [2,13] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(3,Enemy,True) [4,16] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
+  UNIT 0x80 0x4e 0x53 Level(2,Enemy,True) [2,13] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [2,5] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [6,3] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(2,Enemy,True) [6,3] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [10,7] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [11,12] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(3,Enemy,True) [11,12] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] NoMoveAI
  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [10,17] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
- UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [8,21] 0x0 0x0 0x0 0x0 [IronLance,0x6A] TwoActionAI
+ UNIT 0x80 0x4e 0x53 Level(1,Enemy,True) [8,21] 0x0 0x0 0x0 0x0 [IronLance,0x6A] TwoActionAI
  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [1,20] 0x0 0x0 0x0 0x0 [IronLance,Vulnerary] DefaultAI
-  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [10,17] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
-  
- UNIT 0x80 0x09 0x53 Level(4,Enemy,True) [13,0] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
+ UNIT 0x80 0x4e 0x53 Level(1,Enemy,True) [10,17] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
+ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [5,1] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
+UNIT 0x80 0x25 0x53 Level(4,Enemy,True) [8,1] 0x0 0x0 0x0 0x0 [Fire] NoMoveAI
+UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [15,6] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
+ UNIT 0x80 0x09 0x53 Level(2,Enemy,True) [13,0] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
 UNIT 0x80 0x09 0x53 Level(4,Enemy,True) [14,0] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
+ UNIT 0x80 0x09 0x53 Level(4,Enemy,True) [0,3] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
+  UNIT 0x80 0x4e 0x53 Level(1,Enemy,True) [12,9] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
 UNIT 0x49 0x89 0x53 Level(10,Enemy,True) [14,2] DropItem 0x0 0x0 0x0 [Crossbow] NoMoveAI
-
+  UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [6,6] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
 
  UNIT 0xF5 0x10 0x53 Level(5,NPC,True) [1,15] 0x0 0x0 0x0 0x0 [0x0] DefaultAI
  UNIT 0xEF 0x42 0x53 Level(4,NPC,True) [0,17] 0x0 0x0 0x0 0x0 [0x0] DefaultAI
@@ -241,8 +250,8 @@ SansCutin:
 	
 ZetaPrologue:
 UNIT 0x32 0x91 Amelia Level(1,Ally,False) [14,24] 0x0 0x0 1 REDA14R22 [SteelSword,0xD,Vulnerary] NoAI
-	UNIT 0x10 0x8F Amelia Level(1,Ally,False) [13,24] 0x0 0x0 1 REDA13R23 [0xA0,0x6C] NoAI
-	UNIT 0x11 0x8D Amelia Level(2,Ally,False) [14,24] 0x0 0x0 1 REDA15R23 [0x45,0x38] NoAI
+	UNIT 0x10 0x8F Amelia Level(1,Ally,False) [13,24] 0x0 0x0 1 REDA13R23 [0xA0,0x6C,0x6A] NoAI
+	UNIT 0x11 0x8D Amelia Level(2,Ally,False) [14,24] 0x0 0x0 1 REDA15R23 [0x45,0x38,0x69] NoAI
 	UNIT 0x34 0xC5 Amelia Level(2,NPC,False) [14,24] 0x0 0x0 1 REDA13R22 [0x45,0x38] NoAI
 	UNIT 0x35 0xAA Amelia Level(2,NPC,False) [14,24] 0x0 0x0 1 REDA15R22 [0x45,0x38] NoAI
 
@@ -283,9 +292,31 @@ CHECK_ACTIVE
 	NoFade
 ENDA
 
+
+NorthCentral:
+SoundEffect(0xB1)
+TileChangeCheck(0x15)
+	SVAL s7 0
+	BEQ 1 sC s7
+TILECHANGE 4
+LABEL 1
+CAM1 [13,3]
+PlayEmotionEffect(0x49,ExclamationEffect)
+STAL 45
+Text(EmiliaBruhMoment)
+CAM1 [0,20]
+LOAD1 1 NousagiPrologueSpawn9
+
+
+TILECHANGE 15
+NoFade
+ENDA
+
+
+
 BeginningScene:
 EVBIT_MODIFY 4
-SetBackground(0x36)
+SetBackground(0x35)
 FadeBackBlack
 SoloTextboxCenter(OpeningMonologue)
 FadeBlack
@@ -539,6 +570,7 @@ STAL 60
 	TalkConvo(AmeliasBruhMoment)
 	    SetUnitStatus(0x49,0x1A,0)
 		TextBox(RequiredEscapesPrologue)
+		ENUT 0xCB
 NoFade
 	ENDA
 
@@ -563,6 +595,10 @@ NoFade
 	ENDA
 	
 PrologueNoticing:
+CHECK_EVENTID 0x13
+SVAL s7 1
+BEQ 8 sC s7
+
 CAM1 [1,9]
 FadeBlack
 MusicChange(0x31)
@@ -572,6 +608,7 @@ Text(BoatanisNoticing)
 FadeBlack
 CLEAN
 FadeBackBlack
+LABEL 8
 NoFade
 ENDA
 
@@ -695,17 +732,27 @@ ENDA
 
 PrologueBossDoor:
 SoundEffect(0xB1)
-TILECHANGE 4
+TILECHANGE 15
+TileChangeCheck(0x4)
+	SVAL s7 0
+	BEQ 1 sC s7
+
 CAM1 [13,3]
 PlayEmotionEffect(0x49,ExclamationEffect)
 STAL 45
 Text(EmiliaBruhMoment)
 CAM1 [0,20]
 LOAD1 1 NousagiPrologueSpawn9
+LABEL 1
 NoFade
 ENDA
 
 EmiliaQuestion:
+CHECK_EVENTID 0x10 //Checks if both alive and triggered 78
+	SVAL s7 0
+	BEQ 1 sC s7
+ 
+ 
 MusicChange(0x3E3)
 CAM1 [13,3]
 FadeBlack
@@ -715,6 +762,7 @@ Text(EmiliaWhatdehellgoingon)
 FadeBlack
 CLEAN
 FadeBackBlack
+LABEL 1
 NoFade
 ENDA
 
@@ -732,8 +780,6 @@ ENDA
 
 
 EndingScene:
-EnactAutoRepair
-EndOfEscapeRoutineASMC
 	FadeBlack
 	SetBackground(0x45)
 	FadeBackBlack
@@ -789,9 +835,11 @@ GOTO 67
 	MusicChange(0x31)
 	Text(RBCRISUDEADNOTRIGGER)
 	LABEL 67
-	
+
 	
 FadeBlack
+	EnactAutoRepair
+EndOfEscapeRoutineASMC
 	MNC2 1
 	NoFade
 	ENDA

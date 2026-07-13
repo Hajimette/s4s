@@ -101,7 +101,7 @@ Emilia - Lord of Admiral
 
 Watame - Dale Sanguchito
 
-Luknight - Armor by Garytop
+Lu-knight - Armor by Garytop
 
 
 Nousagi Variants:
@@ -117,16 +117,29 @@ M!Sage - Nuramon, Garytop
 M!Samurai Nousagi - Armor by Garytop
 F!Peg Younger Sister - HyperGammaSpaces, Plant_Academy, Garytop, Nuramon, Hatsuru
 F!Peg Middle Sister- Nokitrix, Hatsuru, Buskhusker
-F!Peg Seraph Sister- Nokitrix, Hatsuru, Buskhusker, Garytop, Nuramon, Plant_Academy
+F!Peg Seraph Sister- Nokitrix, Hatsuru, Buskhusker, Garytop, Nuramon, Plant_Academy //RUMINDER TO UPDATE NAME
 F!Shaman Boss - Nokitrix, Hatsuru, Redbean
 F!Warrior (blue) - Nokitrix, Hatsuru, NickT, Melia and Luminescent_Blade
 M!WyvernKnight - Nokitrix, Garytop
 F!Witch - Nokitrix, Hatsuru and Wdimta
 F!Master Knight- Nokitrix, Hatsuru, Nuramon, Plant_Academy, BuskHusker and NanayaJacob (base protrait commissioner.)
+F!Revanent Nousagi - Nokitrix, Hatsuru, Serif
+F!Sister-to-Revenant (Assassin) - Nokitrix, Hatsuru, Tezuka
+M!Veld Druid - Nokitrix, Hatsuru, CardCafe
+F!Ranger - Nokitrix, Hatsuru, Nuramon, Levin64, WAve
+F!Seraph Knight Alt - Nokitrix, Hatsuru, Nuramon, Garytop, Tezuka, TastaPasta
+F!Sage (Tamara) - VelvetKitsune, Hatsuru
 
 
 Map Sprites:
 Ronin- Hatsuru, Base by FEGirls
+
+Dead People:
+Armor Knight - PKLucky
+
+Mercenary - MasterAwesome
+
+Soldier - TheGreatNothing
 
 
 
@@ -249,6 +262,12 @@ Change Unit Status Rewrite- Vesly
 Escape (FE5 Version)- Sme, Loog and Pikmin1211
 Soundroom Text- Pikmin, Loog
 
+
+AuraWolf:
+UpdatedLCycling
+LockedDeployment
+
+
 Contro:
 FE4 Refresh
 FOW Terrain Blocker
@@ -277,9 +296,13 @@ StaffAI
 ThiefStaff
 UnlockStaff
 
+Scraiza:
+StatGain
+
 Sme:
 Fatigue
 ASMC Check Suite
+New Promotion Screen
 
 7743:
 Change Status BG
@@ -679,12 +702,12 @@ FE4 Valkyria Staff- Jack_G
 FE5 (Leif) In Search for Victory- Disquietude
 FE5 Advance- Dolkar
 FE5 Advance A - Falkion
-FE5 Adversity- Scraiza
+FE5 Adversity- Falkion
 FE5 Attack-SurfingKyogre
-FE5 August B Talk- IS
+FE5 August B Talk- Falkion
 FE5 Barbarians- Dolkar
 FE5 Boss Battle- Falkion
-FE5 Charge B- REALxViperz
+FE5 Charge B- Falkion
 FE5 Conquest- SurfingKyogre
 FE5 Crisis- SurfingKyogre
 FE5 Curing- Warpath
@@ -695,9 +718,9 @@ FE5 Leif (Base)-RSFlame
 FE5 Loptous A - Falkion
 FE5 Loptous B - Falkion
 FE5 Map A-Dolkar
-FE5 Near Defeat-Haiboku Chikashi
-FE5 Near Victory-Syuuri Chikashi
-FE5 Preparations-hypergammaspaces
+FE5 Near Defeat-Falkion
+FE5 Near Victory-Falkion
+FE5 Preparations-Falkion
 FE5 Pressing Threat- MrGreen3339
 FE5 Pressing Thread; Final - Falkion
 FE5 Sorrow -Surfing Kyogre
@@ -746,5 +769,24 @@ Winter Camp
 
 
 Night Village - FE7
+
+
+
+Special Thanks:
+Contro- General coding help.
+Dragz - For creating special ASM and helping me with custom UI shenanigans
+LegendofLoog - For allowing me to utilize Bell of Byelen's Thracian Mechanics and providing major coding help. 
+Retina - General coding help.
+Tezuka - For creating almost the entirety of the casts new portraits. 
+Nokitrix - For creating a major amount of boss mugs
+Rivian - Rivian
+
+Hololive Productions.
+
+
+I will forever be grateful to everyone who has helped me in
+this project and I geguinely wouldn't have
+been able to do so without you guys. 
+Love you guys so much!
 
 

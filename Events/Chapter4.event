@@ -28,6 +28,7 @@ CharacterEvent(0x0,KoyoriInterlude1, 0x1, 0x35)
 	END_MAIN
 
 MiscBasedEvents:
+AREA Flag15 Int1Ame [2, 12] [2, 12]
 	CauseGameOverIfLordDies
 	END_MAIN
 
@@ -166,14 +167,104 @@ SoundEffect(0xB0)
 Draw(ThinSlashAnimID,7,7)
 STAL 15
 CHECK_EVENTID FlagA //Checks if triggered 78
-	SVAL s7 1
-	BEQ 1 sC s7 
+SVAL s7 1
+BEQ 1 sC s7 
 Text(IroAmeIntNoKoyo)
 TextBox(FatigueIntro)
+STAL 15
+Text(IrohaInt1Ame)
+ASMC 0x8003D21
+CallMenu(Interlude1Menu)
+SVAL s7 0
+BEQ 15 sC s7
+SVAL s7 1
+BEQ 16 sC s7
+SVAL s7 2
+BEQ 17 sC s7
+LABEL 15
+SoundEffect(0xB0)
+Draw(MapSword,7,7)
+STAL 30
+SoundEffect(0xB0)
+Draw(ThinSlashAnimID,7,7)
+STAL 15
+PlayEmotionEffect(0x1,ExclamationEffect)
+TextBox(Int1AtkStance)
+AddUnitStatus(0x1, Attack, 5)
+AddUnitStatus(0x1, Skill, 5)
+GOTO 2
+LABEL 16
+SoundEffect(0xB0)
+Draw(MapSword,7,7)
+STAL 30
+SoundEffect(0xB0)
+Draw(ThinSlashAnimID,7,7)
+STAL 15
+PlayEmotionEffect(0x1,ExclamationEffect)
+TextBox(Int1StoneStance)
+AddUnitStatus(0x1, DefenseStat, 5)
+AddUnitStatus(0x1, Resistance, 5)
+GOTO 2
+LABEL 17
+SoundEffect(0xB0)
+Draw(MapSword,7,7)
+STAL 30
+SoundEffect(0xB0)
+Draw(ThinSlashAnimID,7,7)
+STAL 15
+PlayEmotionEffect(0x1,ExclamationEffect)
+TextBox(Int1WaterStance)
+AddUnitStatus(0x1, Speed, 5)
+AddUnitStatus(0x1, LuckStat, 5)
 GOTO 2
 LABEL 1
 Text(IroAmeInterTalk1)
 TextBox(FatigueIntro)
+STAL 15
+Text(IrohaInt1Ame)
+ASMC 0x8003D21
+CallMenu(Interlude1Menu)
+SVAL s7 0
+BEQ 20 sC s7
+SVAL s7 1
+BEQ 21 sC s7
+SVAL s7 2
+BEQ 22 sC s7
+LABEL 20
+SoundEffect(0xB0)
+Draw(MapSword,7,7)
+STAL 30
+SoundEffect(0xB0)
+Draw(ThinSlashAnimID,7,7)
+STAL 15
+PlayEmotionEffect(0x1,ExclamationEffect)
+TextBox(Int1AtkStance)
+AddUnitStatus(0x1, Attack, 5)
+AddUnitStatus(0x1, Skill, 5)
+GOTO 2
+LABEL 21
+SoundEffect(0xB0)
+Draw(MapSword,7,7)
+STAL 30
+SoundEffect(0xB0)
+Draw(ThinSlashAnimID,7,7)
+STAL 15
+PlayEmotionEffect(0x1,ExclamationEffect)
+TextBox(Int1StoneStance)
+AddUnitStatus(0x1, DefenseStat, 5)
+AddUnitStatus(0x1, Resistance, 5)
+GOTO 2
+LABEL 22
+SoundEffect(0xB0)
+Draw(MapSword,7,7)
+STAL 30
+SoundEffect(0xB0)
+Draw(ThinSlashAnimID,7,7)
+STAL 15
+PlayEmotionEffect(0x1,ExclamationEffect)
+TextBox(Int1WaterStance)
+AddUnitStatus(0x1, Speed, 5)
+AddUnitStatus(0x1, LuckStat, 5)
 LABEL 2
 NoFade
 ENDA
@@ -423,5 +514,29 @@ FadeBlack
 	NoFade
 	ENDA
 
+Int1Ame:
+CALL label142
+FadeBlack
+SetBackground(0x41)
+FadeBackBlack
+Text(AmeWtfInt1)
+FadeBlack
+CLEAN
+FadeBackBlack
+GiveItem(0x69,0x01)
+NoFade
+ENDA
 
+label41:
+CHECK_EVENTID
+SADD 0xC2
+ENUF_SLOT2
+EVBIT_T 0x7
+ENDB
 
+label142:
+CHECK_ALLEGIANCE 0xFFFF
+BEQ 0x0 0xC 0x2
+CALL label41
+LABEL 0x0
+ENDA

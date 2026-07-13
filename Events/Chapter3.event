@@ -419,24 +419,24 @@ CHECK_EVENTID 0x78 //Checks if triggered 78
 	BEQ 8 sC s7       // Carmina Leaves, maybe add a flag for mercs showing up?
 LOAD1 0 Villagers
 Text(CarminaChp3Bruh) //Mercs Show up
-SCOORD sB [12, 2]
-	MOVE 0x05 (-2) [12,0]
-	STAL 30
+	MOVE 5 0xD1 [12,0]
+ENUN
+	STAL 10
 	DISA_IF 0xF4
 GOTO 9
 LABEL 8
 LOAD1 0 Villagers
 Text(CarminaChp3Anger) //Mercs don't show up and gets angry
-SCOORD sB [12, 2]
-	MOVE 0x05 (-2) [12,0]
-	STAL 30
+	MOVE 5 0xD1 [12,0]
+ENUN
+	STAL 10
 	DISA_IF 0xF4
 LABEL 9
 SCOORD sB [12, 3]
-	MOVE 0x05 (-2) [12,0]
+	MOVE 5 0x48 [12,0]
 	STAL 30
 	DISA_IF 0x48
-NoFade
+	NoFade
 ENDA
 
 
@@ -529,6 +529,7 @@ ENDA
 
 
 EndingScene:
+EndOfEscapeRoutineASMC
 EnactAutoRepair
 FadeBlack
 CLEARALL

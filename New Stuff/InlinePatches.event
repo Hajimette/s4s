@@ -23,7 +23,7 @@ OFF:0x897C4=0x33 0xF0 0x26 0xFC
 
 ONN:0x206948=0x00
 OFF:0x206948=0x04
-*/
+
 
 // ChapterID Fix
 PUSH
@@ -34,6 +34,19 @@ POP
 PUSH
 ORG 0x206948
 BYTE 0x00
+POP
+*/
+
+//Allows MNC2 To jump to any chapter ID.
+PUSH
+ORG 0xBD070
+SHORT 0xE0B8
+//Fixes the world map chapter ID being loaded instead of the actual chapter ID.
+ORG 0x897B2
+SHORT 0 0
+//Fixes the game considering some chapters postgame.
+ORG 0x897C4
+SHORT 0x200E 0x5620 //mov r0, #0x0E; ldsb r0, [r4, r0]
 POP
 
 

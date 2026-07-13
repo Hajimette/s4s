@@ -1008,7 +1008,19 @@ ALIGN 4
 BlankWalk:
 #incbin "dmp/BlankWalk.dmp"
 
-
 ALIGN 4
 FireStand:
 #incbin "dmp/Fire.dmp"
+
+ALIGN 4
+DeadKnightStand:
+#incbin "dmp/DeadKnight.dmp"
+
+ALIGN 4
+DeadMercenaryStand:
+#incbin "dmp/DeadMercenary.dmp"
+
+ALIGN 4 
+DeadSoldierStand:
+#incbin "dmp/DeadSoldier.dmp"
+

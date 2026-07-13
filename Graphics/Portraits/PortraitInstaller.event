@@ -25,6 +25,7 @@ POP
 #define MKmelia 0xD4
 #define BloomPortrait 0xC6
 #define ChloePortrait 0x23
+#define ChloeMaskPortrait 0x1D
 #define ChocoPortrait 0xB6
 #define Corruptchama 0x4A
 #define Corrupthaato 0x3C
@@ -124,8 +125,7 @@ POP
 #define JackPortrait 0xFA
 #define NougalasPortrait 0xF9
 #define NyxPortrait 0xE5
-
-
+#define TamaraPortrait 0x1FB
 
 // PegSisters
 #define PhinaPortrait 0xF6
@@ -170,6 +170,14 @@ ChloeData:
 #incbin "Dmps/Chloe_palette.dmp"
 #incbin "Dmps/Chloe_minimug.dmp"
 setMugEntry(ChloePortrait, ChloeData, 3, 6, 3, 4)
+
+ALIGN 4
+ChloeMaskData:
+#incbin "Dmps/mask_mug.dmp"
+#incbin "Dmps/mask_frames.dmp"
+#incbin "Dmps/mask_palette.dmp"
+#incbin "Dmps/mask_minimug.dmp"
+setMugEntry(ChloeMaskPortrait, ChloeMaskData, 3, 6, 3, 4)
 
 ALIGN 4
 ChocoData:
@@ -1000,6 +1008,15 @@ SuzyData1:
 #incbin "Dmps/Suzy_palette.dmp"
 #incbin "Dmps/Suzy_minimug.dmp"
 setMugEntry(SuiseiAlt1, SuzyData1, 2, 6, 3, 4)
+
+
+ALIGN 4
+TamaraData:
+#incbin "Dmps/Tamara_mug.dmp"
+#incbin "Dmps/Tamara_frames.dmp"
+#incbin "Dmps/Tamara_palette.dmp"
+#incbin "Dmps/Tamara_minimug.dmp"
+setMugEntryExtend(TamaraPortrait, TamaraData, 5, 6, 5, 3, 254, 4, 0, 4)
 
 /*
 ALIGN 4

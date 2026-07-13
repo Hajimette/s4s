@@ -726,5 +726,52 @@ ALIGN 4
 small_splash2_009_Data: 
 #incbin "dmp/small_splash2_009.dmp"	//HINT=BIN
  
- 
- 
+ALIGN 4
+MapThiefWarp_Anim:
+BYTE 1 0; SHORT 0; POIN Thief_Warp_Zip_g000_Data Thief_Warp_Zip_g000_pal 
+BYTE 1 0; SHORT 0; POIN Thief_Warp_Zip_g001_Data Thief_Warp_Zip_g000_pal 
+BYTE 1 0; SHORT 0; POIN Thief_Warp_Zip_g002_Data Thief_Warp_Zip_g000_pal 
+BYTE 1 0; SHORT 0; POIN Thief_Warp_Zip_g003_Data Thief_Warp_Zip_g000_pal 
+BYTE 1 0; SHORT 0; POIN Thief_Warp_Zip_g004_Data Thief_Warp_Zip_g000_pal 
+BYTE 1 0; SHORT 0; POIN Thief_Warp_Zip_g005_Data Thief_Warp_Zip_g000_pal 
+BYTE 1 0; SHORT 0; POIN Thief_Warp_Zip_g006_Data Thief_Warp_Zip_g000_pal 
+BYTE 1 0; SHORT 0; POIN Thief_Warp_Zip_g007_Data Thief_Warp_Zip_g000_pal
+WORD 0 0 0
+
+// Image Data lmao
+
+ALIGN 4
+Thief_Warp_Zip_g000_pal:
+#incbin "dmp/Thief_Warp_Zip_g000_pal.dmp"
+
+ALIGN 4
+Thief_Warp_Zip_g000_Data:
+#incbin "dmp/Thief_Warp_Zip_g000.dmp"
+
+ALIGN 4
+Thief_Warp_Zip_g001_Data:
+#incbin "dmp/Thief_Warp_Zip_g001.dmp"
+
+ALIGN 4
+Thief_Warp_Zip_g002_Data:
+#incbin "dmp/Thief_Warp_Zip_g002.dmp"
+
+ALIGN 4
+Thief_Warp_Zip_g003_Data:
+#incbin "dmp/Thief_Warp_Zip_g003.dmp"
+
+ALIGN 4
+Thief_Warp_Zip_g004_Data:
+#incbin "dmp/Thief_Warp_Zip_g004.dmp"
+
+ALIGN 4
+Thief_Warp_Zip_g005_Data:
+#incbin "dmp/Thief_Warp_Zip_g005.dmp"
+
+ALIGN 4
+Thief_Warp_Zip_g006_Data:
+#incbin "dmp/Thief_Warp_Zip_g006.dmp"
+
+ALIGN 4
+Thief_Warp_Zip_g007_Data:
+#incbin "dmp/Thief_Warp_Zip_g007.dmp"

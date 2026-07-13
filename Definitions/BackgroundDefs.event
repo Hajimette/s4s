@@ -70,6 +70,7 @@
 #define Dungeon 0x45
 #define Dungeon2 0x46
 #define CaveDark 0x47
+#define SnowVillage 0x48
 
 /*
 
