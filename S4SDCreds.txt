@@ -129,7 +129,8 @@ M!Veld Druid - Nokitrix, Hatsuru, CardCafe
 F!Ranger - Nokitrix, Hatsuru, Nuramon, Levin64, WAve
 F!Seraph Knight Alt - Nokitrix, Hatsuru, Nuramon, Garytop, Tezuka, TastaPasta
 F!Sage (Tamara) - VelvetKitsune, Hatsuru
-
+F!Sage (Nousagi Head) - Nokitrix, Hatsuru, Garytop, Plant_Academy, HyperGammaSpaces
+F!Assassin - Nokitrix, Hatsuru, Raymond
 
 Map Sprites:
 Ronin- Hatsuru, Base by FEGirls

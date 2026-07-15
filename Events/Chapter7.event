@@ -410,11 +410,21 @@ NoFade
 ENDA
 
 EndingScene:
+//EndOfEscapeRoutineASMC
 EnactAutoRepair
 FadeBlack
 MusicChange(0x31)
 SetBackground(0x2B)
 SoundEffect(0x2F0)
+
+GetUnitStatus(0x1A,State)
+SVAL s7 73731
+BEQ 168 sC s7
+
+
+
+
+
 CHECK_ALIVE 0x1A //Chloe
 SVAL s7 0
 BEQ 1 sC s7
@@ -565,6 +575,122 @@ CUMO 0x1
 STAL 60
 CURE
 Text(Chp7LuiSussy1)
+FadeBlack
+CLEARALL
+MuteMusic
+STAL 120
+LOAD2 0 Chp7Discussion1
+LOAD2 0 Chp7IrhKyr2
+LOAD1 0 Chp7EveryoneElse
+CAM1 [10,10]
+FadeBackBlack
+STAL 60
+Text(LapExplainsChp71)
+STAL 120
+CHECK_ALIVE 0xB
+SVAL s7 0
+BEQ 56 sC s7
+PlayEmotionEffect(0xB,SweatEffect)
+Text(WatameChp7)
+LABEL 56
+CHECK_ALIVE 0xC
+SVAL s7 0
+BEQ 57 sC s7
+PlayEmotionEffect(0xC,QuestionEffect)
+Text(NeneChp7)
+LABEL 57
+CHECK_ALIVE 0x19
+SVAL s7 0
+BEQ 58 sC s7
+PlayEmotionEffect(0x19,BeerEffect)
+Text(LamyChp7)
+LABEL 58
+CHECK_ALIVE 0x10
+SVAL s7 0
+BEQ 59 sC s7
+PlayEmotionEffect(0x10,DotDotDotEffect)
+Text(RBCChp7)
+LABEL 59
+CHECK_ALIVE 0x8
+SVAL s7 0
+BEQ 60 sC s7
+PlayEmotionEffect(0x8,DotDotDotEffect)
+Text(PolkaChp7)
+LABEL 60
+CHECK_ALIVE 0x11
+SVAL s7 0
+BEQ 61 sC s7
+PlayEmotionEffect(0x11,QuestionEffect)
+Text(RisuChp7)
+LABEL 61
+Text(ChloeChp71)
+PlayEmotionEffect(0x81,SweatEffect)
+STAL 45
+Text(KoyoriChp71)
+FadeBlack
+CLEARALL
+CAM1 [16,5]
+LOAD2 0 Chp7HoloXNoChloe
+LOAD1 1 Chp7EveryoneChests
+FadeBackBlack
+STAL 120
+CUMO 0x1
+STAL 60
+CURE
+Text(Chp7AmeSus)
+STAL 45
+CAM1 [3,3]
+CUMO 0x2F
+STAL 60
+CURE
+Text(Chp7HoloXTalk1)
+GOTO 1137
+LABEL 168
+
+
+
+
+
+
+
+
+
+Text(Chp7IrohaEnding)
+SoundEffect(0x2F0)
+SoundEffect(0x11D)
+STAL 60
+SoundEffect(0xB1)
+STAL 240
+MuteMusic
+SetBackground(0x12)
+FadeBackBlack
+SoundEffect(0x2CE)
+STAL 90
+SoundEffect(0x2CE)
+STAL 60
+Text(Chp7IrohaDoor)
+FadeBlack
+CLEAN
+CLEARALL
+LOMA 0x47
+CAM1 [3,11]
+LOAD2 0 Chp7BunkerNoChloe
+LOAD1 0 Chp7Bunker
+FadeBackBlack
+STAL 60
+LOAD1 1 Chp7LuiLapIntro
+MOVE 5 0x2F [7,9]
+MOVE 5 0x2E [7,10]
+ENUN
+MusicChange(0x2E)
+	CUMO 0x2F
+STAL 120
+CURE
+Text(Chp7LaplusIntro1)
+CUMO 0x1
+STAL 60
+CURE
+Text(Chp7LuiSussy2)
 FadeBlack
 CLEARALL
 MuteMusic
