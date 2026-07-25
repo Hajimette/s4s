@@ -4,6 +4,18 @@
 
 
 
+
+
+/////////////////////////////////////////////////////
+
+
+
+
+//HoloEmblem Death Quotes
+DeathQuote(0x1,Any,0x0,0x0,HoloEmblemDeath)
+DeathQuote(0x1A,Any,0x0,0x0,HoloEmblemDeathChloe)
+
+
 //Character Chapter Deaths
 DeathQuote(0x1,0x0,GameOver,AmeCroakPrologue)
 DeathQuote(0x14,0x0,GameOver,BotanCroakPrologue)
@@ -38,9 +50,12 @@ DeathQuote(0x34,0x6,0x7B,IrohaChp5Death)
 DeathQuote(0x35,0x5,0x7C,KoyoriChp5Death)
 DeathQuote(0x35,0x6,0x7C,KoyoriChp5Death)
 
-DeathQuote(0x34,0x7,0x7B,IrohaChp7Death)
-DeathQuote(0x35,0x7,0x7C,KoyoriChp7Death)
+DeathQuote(0x34,0x7,GameOver,IrohaChp7Death)
+DeathQuote(0x35,0x7,GameOver,KoyoriChp7Death)
 DeathQuote(0x1A,0x7,0x0,ChloeChp7Death)
+DeathQuote(0x14,0x7,GameOver,BotanCroakChp7)
+
+
 
 //General Characters
 DeathQuote(Amelia,Any,GameOver,AmeDeath)

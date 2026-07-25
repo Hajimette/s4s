@@ -1183,6 +1183,7 @@ WORD 0x0
 ALIGN 4
 LaplusAnim:
 DarkAnim(0x95)
+AnimaAnim(0x95)
 UnarmedAnim(0x95)
 WORD 0x0
 

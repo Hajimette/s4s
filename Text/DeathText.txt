@@ -1,3 +1,23 @@
+## BotanCroakChp7
+[MidRight][LoadBotanP]
+[MidRight]
+D...damn it! Why now?![A][CloseEyes][X]
+
+## ChloeHoloDeath
+[MidRight][LoadChloeMask]
+[MidRight]
+Everyone...I'm so sorry.[A][N]
+Run while you still can...[A][CloseEyes][X]
+
+
+## AmeDeathHolo
+[MidRight][LoadAme]
+[MidRight][MoveMidRight]
+D...damn it! No! Get this[N]
+thing away from me![A][X]
+
+
+
 ## AmeCroakPrologue
 [MidRight][LoadAme]
 [MidRight]

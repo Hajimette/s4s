@@ -230,6 +230,7 @@ ENDA
 
 
 
+
 ALIGN 4
 ItemSpecialEffect:
 #incbin "ItemSpecialEffect.dmp"

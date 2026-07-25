@@ -37,6 +37,7 @@ ALIGN 4
 
 
 //Engine Hacks
+#include "HoloEmblemDeaths.event"
     #include "Graphics/MasterGraphicsInstaller.event"
     #include "EngineHacks/_MasterHackInstaller.event"
 #include "New Stuff/Patches.event"

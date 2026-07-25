@@ -45,6 +45,8 @@
 #include "FreeMove/Buildfile.event"
 #include "VictoryBgm/VictoryBGM.event"
 #include "TileChange/Installer.event"
+#include "CheckUnitWItem/CheckIfUnitHasItem.event"
+
 
 //#include "StatGain/HigherNumberGains.event"
 

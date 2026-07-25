@@ -1254,3 +1254,9 @@ take some time if we're on the road.[A]
 It must be done.[A][N]
 Then, thats all for now.[N]
 Get ready to leave.[A][X]
+
+
+## RequiredEscapes7
+Required Escapees:[A][N]
+[ToggleRed]Amelia, Botan,[N]
+Iroha, Koyori.[A][ToggleRed][X]

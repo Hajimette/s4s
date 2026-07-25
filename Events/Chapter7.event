@@ -355,7 +355,7 @@ CURE
 	Text(ChloeChp7Stress)
 	CAM1 [0,0]
 	Text(NCorridorChp7)
-	
+	TextBox(RequiredEscapes7)
 
 	
 	NoFade
@@ -410,7 +410,7 @@ NoFade
 ENDA
 
 EndingScene:
-//EndOfEscapeRoutineASMC
+EndOfEscapeRoutineASMC
 EnactAutoRepair
 FadeBlack
 MusicChange(0x31)

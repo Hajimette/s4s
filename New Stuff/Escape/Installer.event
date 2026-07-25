@@ -81,6 +81,9 @@ SetRequiredEscapeesList(Chapter3,Chapter3EscapeeList)
 ALIGN 4
 Chapter7EscapeeList:
 RequiredEscapee(0x1)
+RequiredEscapee(0x14)
+RequiredEscapee(0x34)
+RequiredEscapee(0x35)
 RequiredEscapeeTerm
 
 SetRequiredEscapeesList(Chapter7,Chapter7EscapeeList)
@@ -107,6 +110,7 @@ BotanFinalEscapeQuoteList:
 CharEscapeQuote(Prologue, BotanPrologueFinalEscapeText)
 CharEscapeQuote(Chapter1, BotanChp1FinalEscapeText)
 CharEscapeQuote(Chapter3, BotanChp3FinalEscapeText)
+CharEscapeQuote(Chapter7, BotanChp7EscapeText)
 CharEscapeQuoteTerm
 
 ALIGN 4
@@ -159,6 +163,7 @@ ALIGN 4
 IrohaFinalEscapeQuoteList:
 CharEscapeQuote(Chapter1, IrohaFinalEscapeQuoteText)
 CharEscapeQuote(Chapter3, IrohaFinalChp3EscapeText)
+CharEscapeQuote(Chapter7, IrohaChapter7EscapeQuoteText)
 CharEscapeQuoteTerm
 
 ALIGN 4
@@ -172,6 +177,7 @@ ALIGN 4
 KoyoriFinalEscapeQuoteList:
 CharEscapeQuote(Chapter1, KoyoriFinalEscapeQuoteText)
 CharEscapeQuote(Chapter3, KoyoriFinalChp3EscapeText)
+CharEscapeQuote(Chapter7, KoyoriChapter7EscapeQuoteText)
 CharEscapeQuoteTerm
 
 ALIGN 4

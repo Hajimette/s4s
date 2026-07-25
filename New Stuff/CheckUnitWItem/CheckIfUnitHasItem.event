@@ -1,0 +1,3 @@
+// Takes item in slot 1, ROM char ID in slot 2, returns in slot C: 0 if not found, 1 if found.
+ALIGN 4; PUSH; ORG CURRENTOFFSET+1; ASMC_CheckIfUnitHasItem: POP
+#incbin "CheckIfUnitHasItem.bin"

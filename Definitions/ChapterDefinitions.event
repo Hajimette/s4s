@@ -155,7 +155,7 @@
 #define  FE5CastleAnimsID 0xcd
 #define  MetroAnimsID  0xD6
 #define  SnowFieldsAnimsID 0xDb
-//#define  0xE0
+#define  VillageRemakeAnimsID 0xE0
 
 
 

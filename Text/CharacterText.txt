@@ -561,4 +561,6 @@ Tamara[X]
 A hot headed Nousagi officer[N]
 in charge of a few patrols.[X]
 
-
+## BrigandDescID
+A group of outlaws on the[N]
+outskirts of civilization.[X]

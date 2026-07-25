@@ -1,0 +1,27 @@
+//HoloEmblem Death Item
+
+HoloEmblemDeathChloe:
+SVAL s1 0x88
+SVAL s2 0x1A
+ASMC ASMC_CheckIfUnitHasItem
+BEQ 0 sC s0
+Text(ChloeHoloDeath)  // If the item is in inventory
+  GOTO 1
+LABEL 0
+Text(ChloeDeath)  // If the item is *not* in inventory
+LABEL 1
+NoFade
+ENDA
+
+HoloEmblemDeath:
+SVAL s1 0x88
+SVAL s2 0x1
+ASMC ASMC_CheckIfUnitHasItem
+BEQ 0 sC s0
+Text(AmeDeathHolo)  // If the item is in inventory
+  GOTO 1
+LABEL 0
+Text(AmeDeath)  // If the item is *not* in inventory
+LABEL 1
+NoFade
+ENDA
