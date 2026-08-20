@@ -457,3 +457,14 @@ have ran...[A][CloseEyes][X]
 D...damn it! Why am I being[N]
 upstarted by these...these...[A][CloseEyes][X]
 
+## CarlsonDeath
+[MidLeft][LoadCarlson]
+[MidLeft]
+My... glorious painting...[N]
+why... why must it stop?[A][CloseEyes][X]
+
+## RandallDeath
+[MidLeft][LoadRandall]
+[MidLeft]
+Pekoland...I hope you're happy[N]
+with what I offered...[A][CloseEyes][X]

@@ -14,25 +14,25 @@ Chapter 3: Rabbits Luck[X]
 Interlude: Fresh Air[X]
 
 ## Chp5Title
-Chapter 5: Hope to the East[X]
+Chapter 4: Hope to the East[X]
 
 ## Chp6Title
-Chapter 6: Investigation[X]
+Chapter 5: Investigation[X]
 
 ## Chp7Title
-Chapter 7: The Path Forward[X]
+Chapter 6: The Path Forward[X]
 
 ## Chp8Title
-Chapter 8: Fire and Brimstone[X]
+Chapter 7: Fire and Brimstone[X]
 
 ## Interlude1Title
-Interlude: Regrouping[X]
+Interlude: Road to Hell[X]
 
 ## Chp9Title
-Chapter 9: Sand Remembers Blood[X]
+Chapter 8: Broken Pact[X]
 
 ## Chp9xTitle
-Chapter 9x: The Oni[X]
+Chapter 8x: The Oni[X]
 
 ## Chp10Title
 Chapter 10: Invasion[X]

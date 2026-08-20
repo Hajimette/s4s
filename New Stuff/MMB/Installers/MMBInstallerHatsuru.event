@@ -36,10 +36,13 @@ After each set of module options are definitions that you can use to adjust the 
 	#define MMBWidth 19
 	#define MMBTilemapPaletteIndex 3
 
+
+
 ALIGN 4
 
 	MMBTilemap:
 	#incbin "tsa/MMB.dmp"
+
 
 /*
 	ALIGN 4

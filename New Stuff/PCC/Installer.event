@@ -114,6 +114,7 @@ SetUnitPCC(Ninomae,3)
 SetUnitPCC(Neko,3)
 SetUnitPCC(Aqua_20,5)
 SetUnitPCC(Aqua_13,3)
+SetUnitPCC(0x4B,2) //Randall
 
 //Deadlords
 SetUnitPCC(Lui_Deadlord,5)

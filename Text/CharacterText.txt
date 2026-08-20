@@ -564,3 +564,10 @@ in charge of a few patrols.[X]
 ## BrigandDescID
 A group of outlaws on the[N]
 outskirts of civilization.[X]
+
+## CarlsonName
+Carlson[X]
+
+## CarlsonDesc
+A Nousagi officer with[N]
+a few screws loose.[X]

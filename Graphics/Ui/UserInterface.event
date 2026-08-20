@@ -1,0 +1,228 @@
+#include "Images/Installer.event"
+
+ALIGN 4
+MenuTiles:
+#incbin "MenuTiles.dmp"
+
+ALIGN 4
+MenuTilesPal:
+#incbin "BluePal.dmp"
+
+ALIGN 4
+BobPrepMenuItemsUnitHeader:
+#incbin "Dmp/PrepMenuItemsUnitHeader.dmp"
+
+ALIGN 4
+BluePalIm:
+#incbin "BluePal.dmp"
+
+#define MenuTilesPaletteBlue  BluePalIm
+#define MenuTilesPaletteRed   BluePalIm + 0x20
+#define MenuTilesPaletteGreen BluePalIm + 0x40
+#define MenuTilesPaletteGray  BluePalIm + 0x60
+
+PUSH
+
+ORG 0x5B6470
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+
+ORG 0x5B6BB4//Palettes
+#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+#incbin "GrayPal.dmp"
+
+//Darkened palettes
+#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+#incbin "GrayPal.dmp"
+
+ORG 0xA1738C//MMB Palettes
+#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+
+//Prep screen
+//ORG 0x86C40
+//WORD 0x8B175CC
+
+//Shops
+ORG 0xB4E14
+WORD 0x8B175CC
+
+//Options menu
+ORG 0x86DAC
+WORD 0x8B175CC
+
+//Status menu
+ORG 0x8E194
+WORD 0x8B175CC
+
+//idk (debug startup menu uses this)
+ORG 0x86BF8
+WORD 0x8B175CC
+
+ORG 0x5A09A8
+#incbin "Forecast.dmp"
+
+ORG $9AD648//Anims Off
+#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+#incbin "GrayPal.dmp"
+
+//SupportMenu
+ORG 0xA1DD0C
+#incbin "Dmp/SupportMenuGraphics.dmp"
+
+ORG $036D2C //main palette
+POIN MenuTilesPal
+
+ORG 0x36D2C
+POIN MenuTilesPal
+
+ORG 0x98468
+POIN BobPrepMenuItemsUnitHeader
+ORG 0x98528
+POIN MenuTilesPaletteBlue
+
+POP
+
+
+
+
+
+/*
+PUSH
+
+ORG $73d88
+POIN LevelUpScreen
+ORG $73d90
+POIN LevelUpScreenTSA
+ORG $73DA0
+POIN LevelUpScreenPal
+ORG $7eb84
+POIN LevelUpScreen
+ORG $7eb8c
+POIN LevelUpScreenTSA
+ORG 0x7EB94
+POIN LevelUpScreenPal
+
+POP
+
+ALIGN 4
+LevelUpScreen:
+//#incext Png2Dmp "LevelUp.png" --lz77
+#incbin "LevelUp.png.dmp"
+ALIGN 4
+LevelUpScreenTSA:
+#incbin "LevelUp.png.tsa.dmp"
+ALIGN 4
+LevelUpScreenPal:
+#incbin "LevelUp.png.pal.dmp"
+
+ALIGN 4 
+MenuTilesPal:
+#incbin "MenuTiles.png.pal.dmp"
+
+
+ALIGN 4
+MenuTilesMain:
+#incext Png2Dmp --lz77 "MenuTilesLong.png" 
+ALIGN 4
+MenuTilesPal:
+#incext Png2Dmp --palette-only "MenuTilesLong.png"
+
+
+// Dark Palette
+ORG 0xCEF08
+POIN MenuTilesPal
+
+
+ For the stat screen
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+
+// For each color style
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+
+
+// Battle Forecast
+ORG 0x36D2C
+POIN MenuTilesPaletteBlue
+ORG 0x36D34
+POIN MenuTilesPaletteRed
+ORG 0x36D3C
+POIN MenuTilesPaletteGreen
+ORG 0x36D48
+POIN MenuTilesPaletteGray
+
+
+
+// Battle Stats Anims Off
+ORG 0x7BDF8
+POIN MenuTilesPaletteBlue
+ORG 0x7BE00
+POIN MenuTilesPaletteRed
+ORG 0x7BE08
+POIN MenuTilesPaletteGreen
+ORG 0x7BE10
+POIN MenuTilesPaletteGray
+
+// For the Minimug Box
+ORG 0x8C2EC
+POIN MenuTilesPaletteBlue
+ORG 0x8C2F4
+POIN MenuTilesPaletteRed
+ORG 0x8C2FC
+POIN MenuTilesPaletteGreen
+
+ORG 0x5B6450
+// Palletes
+POIN MenuTilesPaletteBlue
+POIN MenuTilesPaletteRed
+POIN MenuTilesPaletteGreen
+POIN MenuTilesPaletteGray
+
+
+
+POP
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

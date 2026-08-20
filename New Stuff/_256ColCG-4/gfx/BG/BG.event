@@ -113,6 +113,7 @@ SetConvoBackground(CampfireWinter, CampWinterImage, CampWinterTSA, CampWinterPal
 SetConvoBackground(KroniiMoon, KroniiMoonImage, KroniiMoonTSA, KroniiMoonPal)
 SetConvoBackground(CaveDark, CaveDarkImage, CaveDarkTSA, CaveDarkPal)
 SetConvoBackground(SnowVillage, SnowVillageImage, SnowVillageTSA, SnowVillagePal)
+SetConvoBackground(RuinedVillage, RuinedVillageImage, RuinedVillageTSA, RuinedVillagePal)
 
 
 ALIGN 4
@@ -303,6 +304,18 @@ ALIGN 4
 SnowVillagePal:
 #incbin "SnowVillage.png.pal.dmp"
 
+ALIGN 4
+RuinedVillageImage:
+#incbin "RuinedVillage.png.dmp"
+
+ALIGN 4
+RuinedVillageTSA:
+#incbin "RuinedVillage.png.tsa.dmp"
+
+
+ALIGN 4
+RuinedVillagePal:
+#incbin "RuinedVillage.png.pal.dmp"
 
 
 /*

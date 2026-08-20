@@ -18,1735 +18,3508 @@
 //**************** Track 1 (Midi-Chn.0) ****************//
 
 FE4DanceintheSkies_001:
-// 000   ----------------------------------------
+//  #01 //000   ----------------------------------------
  BYTE   KEYSH   FE4DanceintheSkies_key+0
  BYTE   TEMPO   102*FE4DanceintheSkies_tbs/2
+ BYTE   VOICE   4
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   W96
+//  #01 //001   ----------------------------------------
+ BYTE   W96
+//  #01 //002   ----------------------------------------
+ BYTE   W96
+//  #01 //003   ----------------------------------------
+ BYTE   W96
+//  #01 //004   ----------------------------------------
+ BYTE   W96
+//  #01 //005   ----------------------------------------
+ BYTE   W96
+//  #01 //006   ----------------------------------------
+ BYTE   W96
+//  #01 //007   ----------------------------------------
+ BYTE   W96
+//  #01 //008   ----------------------------------------
+ BYTE   W96
+//  #01 //009   ----------------------------------------
+ BYTE   W96
+//  #01 //010   ----------------------------------------
+ BYTE   W96
+//  #01 //011   ----------------------------------------
+ BYTE   W96
+//  #01 //012   ----------------------------------------
+ BYTE   W96
+//  #01 //013   ----------------------------------------
+ BYTE   W96
+//  #01 //014   ----------------------------------------
+ BYTE   W96
+//  #01 //015   ----------------------------------------
+ BYTE   W96
+//  #01 //016   ----------------------------------------
+ BYTE   W96
+//  #01 //017   ----------------------------------------
+ BYTE   W96
+//  #01 //018   ----------------------------------------
+ BYTE   W96
+//  #01 //019   ----------------------------------------
+ BYTE   W96
+//  #01 //020   ----------------------------------------
+ BYTE   W96
+//  #01 //021   ----------------------------------------
+Label_B3E8B7:
  BYTE   PAN   c_v+0
- BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
- BYTE   MOD 0
- BYTE   CnM2
- BYTE   BEND   c_v+0
- BYTE   W02
- BYTE   VOICE   48
- BYTE   PAN   c_v+31
- BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
- BYTE   N12  Ds2  v127
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W10
-// 001   ----------------------------------------
-Label_0_551441:
- BYTE   W02
- BYTE   N12  Ds2  v127
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cn3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W10
- BYTE   PEND 
-Label_0_551451:
- BYTE   W02
- BYTE   N12  Gs2  v127
- BYTE   W12
- BYTE   Cn3
- BYTE   W10
-// 002   ----------------------------------------
-Label_0_551458:
- BYTE   W02
- BYTE   N12  Ds2  v127
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W10
- BYTE   PEND 
-// 003   ----------------------------------------
-Label_0_55146C:
- BYTE   W02
- BYTE   N12  Ds2  v127
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cn3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cn3
- BYTE   W10
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_0_551458
- BYTE   PATT
-  POIN2 Label_0_55146C
- BYTE   PATT
-  POIN2 Label_0_551458
- BYTE   PATT
-  POIN2 Label_0_55146C
- BYTE   PATT
-  POIN2 Label_0_551458
- BYTE   PATT
-  POIN2 Label_0_55146C
-// 004   ----------------------------------------
-Label_0_55149E:
- BYTE   W02
- BYTE   N12  Cs2  v127
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Gn2
- BYTE   W12
- BYTE   Cn3
- BYTE   W12
- BYTE   Cs2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Gn2
- BYTE   W12
- BYTE   Cn3
- BYTE   W10
- BYTE   PEND 
-// 005   ----------------------------------------
-Label_0_5514B2:
- BYTE   W02
- BYTE   N12  Cs2  v127
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Gn2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Cs2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Gn2
- BYTE   W12
- BYTE   As2
- BYTE   W10
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_0_55149E
- BYTE   PATT
-  POIN2 Label_0_5514B2
-// 006   ----------------------------------------
-Label_0_5514D0:
- BYTE   W14
- BYTE   N36  Cn3  v127
- BYTE   W48
- BYTE   N12
- BYTE   W12
- BYTE   Cs3
- BYTE   W12
- BYTE   Ds3
- BYTE   W10
- BYTE   PEND 
-// 007   ----------------------------------------
-Label_0_5514DC:
- BYTE   W14
- BYTE   N24  Cs3  v127
- BYTE   W24
- BYTE   N12
- BYTE   W24
- BYTE   N12
- BYTE   W12
- BYTE   Ds3
- BYTE   W12
- BYTE   Fn3
- BYTE   W10
- BYTE   PEND 
-// 008   ----------------------------------------
-Label_0_5514EA:
- BYTE   W14
- BYTE   N12  As2  v127
- BYTE   W12
- BYTE   Cs3
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   N48  Fn3
- BYTE   W44
- BYTE   W02
- BYTE   PEND 
-// 009   ----------------------------------------
-Label_0_5514F8:
- BYTE   W24
- BYTE   W02
- BYTE   N12  As2  v127
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   N48  Cs3
- BYTE   W44
- BYTE   W02
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_0_5514F8
-// 010   ----------------------------------------
-Label_0_55150A:
- BYTE   W24
- BYTE   W02
- BYTE   N12  Gn2  v127
- BYTE   W12
- BYTE   Fn2
- BYTE   W12
- BYTE   N48  Gs2
- BYTE   W44
- BYTE   W02
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_0_55150A
- BYTE   PATT
-  POIN2 Label_0_551458
- BYTE   PATT
-  POIN2 Label_0_55146C
- BYTE   PATT
-  POIN2 Label_0_551458
- BYTE   PATT
-  POIN2 Label_0_55146C
- BYTE   PATT
-  POIN2 Label_0_551458
- BYTE   PATT
-  POIN2 Label_0_55146C
- BYTE   PATT
-  POIN2 Label_0_551458
- BYTE   PATT
-  POIN2 Label_0_55146C
- BYTE   PATT
-  POIN2 Label_0_551458
- BYTE   PATT
-  POIN2 Label_0_55146C
- BYTE   PATT
-  POIN2 Label_0_55149E
- BYTE   PATT
-  POIN2 Label_0_5514B2
- BYTE   PATT
-  POIN2 Label_0_55149E
- BYTE   PATT
-  POIN2 Label_0_5514B2
- BYTE   PATT
-  POIN2 Label_0_5514D0
- BYTE   PATT
-  POIN2 Label_0_5514DC
- BYTE   PATT
-  POIN2 Label_0_5514EA
- BYTE   PATT
-  POIN2 Label_0_5514F8
- BYTE   PATT
-  POIN2 Label_0_5514F8
- BYTE   PATT
-  POIN2 Label_0_55150A
- BYTE   PATT
-  POIN2 Label_0_55150A
-// 011   ----------------------------------------
- BYTE   W02
- BYTE   VOICE   48
- BYTE   PAN   c_v+31
- BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
- BYTE   N12  Ds2  v127
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W10
- BYTE   PATT
-  POIN2 Label_0_551441
-// 012   ----------------------------------------
+ BYTE   VOL   80*FE4DanceintheSkies_mvl/mxv
+ BYTE   W96
+//  #01 //022   ----------------------------------------
+ BYTE   W96
+//  #01 //023   ----------------------------------------
+ BYTE   W96
+//  #01 //024   ----------------------------------------
+ BYTE   W96
+//  #01 //025   ----------------------------------------
+ BYTE   W96
+//  #01 //026   ----------------------------------------
+ BYTE   W96
+//  #01 //027   ----------------------------------------
+ BYTE   W96
+//  #01 //028   ----------------------------------------
+ BYTE   W96
+//  #01 //029   ----------------------------------------
+ BYTE   W96
+//  #01 //030   ----------------------------------------
+ BYTE   W96
+//  #01 //031   ----------------------------------------
+ BYTE   W96
+//  #01 //032   ----------------------------------------
+ BYTE   W96
+//  #01 //033   ----------------------------------------
+ BYTE   W96
+//  #01 //034   ----------------------------------------
+ BYTE   W96
+//  #01 //035   ----------------------------------------
+ BYTE   W01
+ BYTE   VOL   33*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v+34
+ BYTE   VOL   30*FE4DanceintheSkies_mvl/mxv
+ BYTE   N92  Cn3  v064
+ BYTE   W92
+ BYTE   W03
+//  #01 //036   ----------------------------------------
+ BYTE   W01
+ BYTE   Cs3  v068
+ BYTE   W92
+ BYTE   W03
+//  #01 //037   ----------------------------------------
+ BYTE   W01
+ BYTE   As2  v064
+ BYTE   W92
+ BYTE   W03
+//  #01 //038   ----------------------------------------
+ BYTE   W01
+ BYTE   Fs2  v072
+ BYTE   W92
+ BYTE   W03
+//  #01 //039   ----------------------------------------
+ BYTE   W01
+ BYTE   Fs2  v068
+ BYTE   W92
+ BYTE   W03
+//  #01 //040   ----------------------------------------
+ BYTE   W01
+ BYTE   Fn2  v064
+ BYTE   W92
+ BYTE   W03
+//  #01 //041   ----------------------------------------
+ BYTE   W01
+ BYTE   Fn2  v072
+ BYTE   W92
+ BYTE   W03
+//  #01 //042   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0_551451
-// 013   ----------------------------------------
- BYTE   W08
+  POIN2 Label_B3E8B7
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
 FE4DanceintheSkies_002:
-// 000   ----------------------------------------
+//  #02 //000   ----------------------------------------
  BYTE   KEYSH   FE4DanceintheSkies_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   W96
+//  #02 //001   ----------------------------------------
+ BYTE   W96
+//  #02 //002   ----------------------------------------
+ BYTE   W96
+//  #02 //003   ----------------------------------------
+ BYTE   W96
+//  #02 //004   ----------------------------------------
+ BYTE   W96
+//  #02 //005   ----------------------------------------
+ BYTE   W96
+//  #02 //006   ----------------------------------------
+ BYTE   W96
+//  #02 //007   ----------------------------------------
+ BYTE   W96
+//  #02 //008   ----------------------------------------
+ BYTE   W96
+//  #02 //009   ----------------------------------------
+ BYTE   W96
+//  #02 //010   ----------------------------------------
+ BYTE   W96
+//  #02 //011   ----------------------------------------
+ BYTE   W96
+//  #02 //012   ----------------------------------------
+ BYTE   W96
+//  #02 //013   ----------------------------------------
+ BYTE   W96
+//  #02 //014   ----------------------------------------
+ BYTE   W96
+//  #02 //015   ----------------------------------------
+ BYTE   W96
+//  #02 //016   ----------------------------------------
+ BYTE   W96
+//  #02 //017   ----------------------------------------
+ BYTE   W96
+//  #02 //018   ----------------------------------------
+ BYTE   W96
+//  #02 //019   ----------------------------------------
+ BYTE   W96
+//  #02 //020   ----------------------------------------
+ BYTE   W96
+//  #02 //021   ----------------------------------------
+Label_0100560B:
  BYTE   PAN   c_v+0
- BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
- BYTE   MOD 0
- BYTE   CnM2
- BYTE   BEND   c_v+0
- BYTE   W02
- BYTE   VOICE   48
- BYTE   PAN   c_v-54
- BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
+ BYTE   VOL   80*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOICE   2
+ BYTE   VOL   64*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W24
+ BYTE   N08  As2  v072
+ BYTE   W09
+ BYTE   PAN   c_v-43
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  As2  v028
+ BYTE   W08
+ BYTE   PAN   c_v+54
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N06  As2  v020
+ BYTE   W07
+ BYTE   PAN   c_v-61
+ BYTE   VOL   62*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  As2  v008
  BYTE   W06
- BYTE   N12  Ds2  v127
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W04
-// 001   ----------------------------------------
+ BYTE   PAN   c_v+63
+ BYTE   VOL   64*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05
+ BYTE   W06
+ BYTE   PAN   c_v+25
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  As2  v080
+ BYTE   W09
+ BYTE   PAN   c_v-43
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  As2  v028
  BYTE   W08
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cn3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W04
-Label_1_017A8459:
+ BYTE   PAN   c_v+54
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N06  As2  v020
+ BYTE   W07
+ BYTE   PAN   c_v-61
+ BYTE   VOL   62*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  As2  v008
+ BYTE   W06
+ BYTE   PAN   c_v+63
+ BYTE   VOL   64*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05
+ BYTE   W05
+//  #02 //022   ----------------------------------------
+Label_01005661:
+ BYTE   W24
+ BYTE   W01
+ BYTE   PAN   c_v+25
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  As2  v072
+ BYTE   W09
+ BYTE   PAN   c_v-43
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  As2  v028
  BYTE   W08
- BYTE   N12  Gs2  v127
- BYTE   W12
- BYTE   Cn3
- BYTE   W04
-// 002   ----------------------------------------
-Label_1_017A8460:
+ BYTE   PAN   c_v+54
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N06  As2  v020
+ BYTE   W07
+ BYTE   PAN   c_v-61
+ BYTE   VOL   62*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  As2  v008
+ BYTE   W06
+ BYTE   PAN   c_v+63
+ BYTE   VOL   64*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05
+ BYTE   W06
+ BYTE   PAN   c_v+25
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  As2  v080
+ BYTE   W09
+ BYTE   PAN   c_v-43
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  As2  v028
  BYTE   W08
- BYTE   N12  Ds2  v127
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W04
+ BYTE   PAN   c_v+54
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N06  As2  v020
+ BYTE   W07
+ BYTE   PAN   c_v-61
+ BYTE   VOL   62*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  As2  v008
+ BYTE   W06
+ BYTE   PAN   c_v+63
+ BYTE   VOL   64*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05
+ BYTE   W05
  BYTE   PEND 
-// 003   ----------------------------------------
-Label_1_017A8474:
- BYTE   W08
- BYTE   N12  Ds2  v127
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cn3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cn3
- BYTE   W04
- BYTE   PEND 
+//  #02 //023   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_1_017A8460
+  POIN2 Label_01005661
+//  #02 //024   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_1_017A8474
+  POIN2 Label_01005661
+//  #02 //025   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_1_017A8460
+  POIN2 Label_01005661
+//  #02 //026   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_1_017A8474
+  POIN2 Label_01005661
+//  #02 //027   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_1_017A8460
+  POIN2 Label_01005661
+//  #02 //028   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_1_017A8474
-// 004   ----------------------------------------
-Label_1_017A84A6:
- BYTE   W08
- BYTE   N12  Cs2  v127
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Gn2
- BYTE   W12
- BYTE   Cn3
- BYTE   W12
- BYTE   Cs2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Gn2
- BYTE   W12
- BYTE   Cn3
- BYTE   W04
- BYTE   PEND 
-// 005   ----------------------------------------
-Label_1_017A84BA:
- BYTE   W08
- BYTE   N12  Cs2  v127
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Gn2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Cs2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Gn2
- BYTE   W12
- BYTE   As2
- BYTE   W04
- BYTE   PEND 
+  POIN2 Label_01005661
+//  #02 //029   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_1_017A84A6
+  POIN2 Label_01005661
+//  #02 //030   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_1_017A84BA
-// 006   ----------------------------------------
-Label_1_017A84D8:
- BYTE   W20
- BYTE   N36  Cn3  v127
+  POIN2 Label_01005661
+//  #02 //031   ----------------------------------------
+ BYTE   W01
+ BYTE   PAN   c_v+25
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   TIE  Gs2  v056
+ BYTE   W92
+ BYTE   W03
+//  #02 //032   ----------------------------------------
+ BYTE   W90
+ BYTE   W01
+ BYTE   EOT
+ BYTE   W05
+//  #02 //033   ----------------------------------------
+ BYTE   W01
+ BYTE   TIE  Gs2  v040
+ BYTE   W92
+ BYTE   W03
+//  #02 //034   ----------------------------------------
+ BYTE   W90
+ BYTE   W01
+ BYTE   EOT
+ BYTE   W05
+//  #02 //035   ----------------------------------------
+ BYTE   W01
+ BYTE   N90  Gn2  v064
+ BYTE   W92
+ BYTE   W03
+//  #02 //036   ----------------------------------------
+ BYTE   W01
+ BYTE   Gs2  v072
+ BYTE   W92
+ BYTE   W03
+//  #02 //037   ----------------------------------------
+ BYTE   W01
+ BYTE   As2  v056
+ BYTE   W92
+ BYTE   W03
+//  #02 //038   ----------------------------------------
+ BYTE   W01
+ BYTE   N42  Cn3  v080
  BYTE   W48
- BYTE   N12
- BYTE   W12
- BYTE   Cs3
- BYTE   W12
- BYTE   Ds3
- BYTE   W04
- BYTE   PEND 
-// 007   ----------------------------------------
-Label_1_017A84E4:
- BYTE   W20
- BYTE   N24  Cs3  v127
+ BYTE   N20  As2  v072
  BYTE   W24
- BYTE   N12
- BYTE   W24
- BYTE   N12
- BYTE   W12
- BYTE   Ds3
- BYTE   W12
- BYTE   Fn3
- BYTE   W04
- BYTE   PEND 
-// 008   ----------------------------------------
-Label_1_017A84F2:
- BYTE   W20
- BYTE   N12  As2  v127
- BYTE   W12
- BYTE   Cs3
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   N48  Fn3
- BYTE   W40
- BYTE   PEND 
-// 009   ----------------------------------------
-Label_1_017A84FF:
- BYTE   W32
- BYTE   N12  As2  v127
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   N48  Cs3
- BYTE   W40
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_1_017A84FF
-// 010   ----------------------------------------
-Label_1_017A850F:
- BYTE   W32
- BYTE   N12  Gn2  v127
- BYTE   W12
- BYTE   Fn2
- BYTE   W12
- BYTE   N48  Gs2
- BYTE   W40
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_1_017A850F
- BYTE   PATT
-  POIN2 Label_1_017A8460
- BYTE   PATT
-  POIN2 Label_1_017A8474
- BYTE   PATT
-  POIN2 Label_1_017A8460
- BYTE   PATT
-  POIN2 Label_1_017A8474
- BYTE   PATT
-  POIN2 Label_1_017A8460
- BYTE   PATT
-  POIN2 Label_1_017A8474
- BYTE   PATT
-  POIN2 Label_1_017A8460
- BYTE   PATT
-  POIN2 Label_1_017A8474
- BYTE   PATT
-  POIN2 Label_1_017A8460
- BYTE   PATT
-  POIN2 Label_1_017A8474
- BYTE   PATT
-  POIN2 Label_1_017A84A6
- BYTE   PATT
-  POIN2 Label_1_017A84BA
- BYTE   PATT
-  POIN2 Label_1_017A84A6
- BYTE   PATT
-  POIN2 Label_1_017A84BA
- BYTE   PATT
-  POIN2 Label_1_017A84D8
- BYTE   PATT
-  POIN2 Label_1_017A84E4
- BYTE   PATT
-  POIN2 Label_1_017A84F2
- BYTE   PATT
-  POIN2 Label_1_017A84FF
- BYTE   PATT
-  POIN2 Label_1_017A84FF
- BYTE   PATT
-  POIN2 Label_1_017A850F
- BYTE   PATT
-  POIN2 Label_1_017A850F
-// 011   ----------------------------------------
- BYTE   W08
- BYTE   VOICE   48
- BYTE   PAN   c_v-54
- BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
- BYTE   W06
- BYTE   N12  Ds2  v127
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cs3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W10
-// 012   ----------------------------------------
- BYTE   W02
- BYTE   Cs3
- BYTE   W12
- BYTE   Ds2
- BYTE   W12
- BYTE   As2
- BYTE   W12
- BYTE   Gs2
- BYTE   W12
- BYTE   Cn3
- BYTE   W12
- BYTE   Ds2
- BYTE   W10
+ BYTE   Gs2  v064
+ BYTE   W23
+//  #02 //039   ----------------------------------------
+ BYTE   W01
+ BYTE   N90  Fs2
+ BYTE   W92
+ BYTE   W03
+//  #02 //040   ----------------------------------------
+ BYTE   W01
+ BYTE   N42  Gs2  v072
+ BYTE   W48
+ BYTE   N44  As2
+ BYTE   W44
+ BYTE   W03
+//  #02 //041   ----------------------------------------
+ BYTE   W01
+ BYTE   Cn3  v080
+ BYTE   W48
+ BYTE   Ds3  v088
+ BYTE   W44
+ BYTE   W03
+//  #02 //042   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_1_017A8459
-// 013   ----------------------------------------
- BYTE   W08
+  POIN2 Label_0100560B
  BYTE   FINE
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
 FE4DanceintheSkies_003:
-// 000   ----------------------------------------
+//  #03 //000   ----------------------------------------
  BYTE   KEYSH   FE4DanceintheSkies_key+0
- BYTE   PAN   c_v+0
- BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
- BYTE   MOD 0
- BYTE   CnM2
- BYTE   BEND   c_v+0
- BYTE   W02
- BYTE   VOICE   48
- BYTE   PAN   c_v+0
- BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   W96
+//  #03 //001   ----------------------------------------
+ BYTE   W96
+//  #03 //002   ----------------------------------------
+ BYTE   W96
+//  #03 //003   ----------------------------------------
+ BYTE   W96
+//  #03 //004   ----------------------------------------
+ BYTE   W96
+//  #03 //005   ----------------------------------------
+ BYTE   W96
+//  #03 //006   ----------------------------------------
+ BYTE   W96
+//  #03 //007   ----------------------------------------
+ BYTE   W96
+//  #03 //008   ----------------------------------------
+ BYTE   W96
+//  #03 //009   ----------------------------------------
+ BYTE   W96
+//  #03 //010   ----------------------------------------
+ BYTE   W96
+//  #03 //011   ----------------------------------------
+ BYTE   W96
+//  #03 //012   ----------------------------------------
+ BYTE   W96
+//  #03 //013   ----------------------------------------
+ BYTE   W96
+//  #03 //014   ----------------------------------------
+ BYTE   W01
+ BYTE   VOICE   1
+ BYTE   VOL   64*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v-34
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   N68  Cn2  v064
  BYTE   W92
- BYTE   W02
-// 001   ----------------------------------------
- BYTE   W72
-Label_2_017A8934:
- BYTE   W02
- BYTE   N06  Fs3  v127
- BYTE   W06
- BYTE   Gs3
- BYTE   W06
- BYTE   Fs3
- BYTE   W06
- BYTE   Fn3
- BYTE   W04
-// 002   ----------------------------------------
-Label_2_017A893F:
- BYTE   W02
- BYTE   N72  Fs3  v127
- BYTE   W72
- BYTE   N24  Cn4
- BYTE   W22
- BYTE   PEND 
-// 003   ----------------------------------------
-Label_2_017A8948:
- BYTE   W02
- BYTE   N72  Cs4  v127
- BYTE   W72
- BYTE   N24  As3
- BYTE   W22
- BYTE   PEND 
-// 004   ----------------------------------------
-Label_2_017A8951:
- BYTE   W02
- BYTE   TIE  Ds4  v127
+ BYTE   W03
+//  #03 //015   ----------------------------------------
+Label_B3E752:
+ BYTE   W01
+ BYTE   N68  Cs2  v068
  BYTE   W92
- BYTE   W02
+ BYTE   W03
  BYTE   PEND 
-// 005   ----------------------------------------
- BYTE   W72
- BYTE   W02
- BYTE   EOT
- BYTE   N06  Fn4
- BYTE   W06
- BYTE   Ds4
- BYTE   W06
- BYTE   Cs4
- BYTE   W06
- BYTE   Cn4
- BYTE   W04
-// 006   ----------------------------------------
-Label_2_017A8964:
- BYTE   W02
- BYTE   N72  As3  v127
- BYTE   W72
- BYTE   N24  Gs3
- BYTE   W22
+//  #03 //016   ----------------------------------------
+Label_B3E759:
+ BYTE   W01
+ BYTE   N72  As1  v064
+ BYTE   W92
+ BYTE   W03
  BYTE   PEND 
-// 007   ----------------------------------------
-Label_2_017A896D:
- BYTE   W02
- BYTE   N72  Fs3  v127
- BYTE   W72
- BYTE   N24  Fn3
- BYTE   W22
+//  #03 //017   ----------------------------------------
+Label_B3E760:
+ BYTE   W01
+ BYTE   N68  Fs1  v072
+ BYTE   W92
+ BYTE   W03
  BYTE   PEND 
-// 008   ----------------------------------------
-Label_2_017A8976:
- BYTE   W02
- BYTE   N24  Ds3  v127
- BYTE   W24
- BYTE   N72  Cn3
- BYTE   W68
- BYTE   W02
+//  #03 //018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B3E760
+//  #03 //019   ----------------------------------------
+Label_B3E76C:
+ BYTE   W01
+ BYTE   N68  Fn1  v068
+ BYTE   W92
+ BYTE   W03
  BYTE   PEND 
-// 009   ----------------------------------------
-Label_2_017A8980:
- BYTE   W72
- BYTE   W02
- BYTE   N06  Cs3  v127
- BYTE   W06
- BYTE   Cn3
- BYTE   W06
- BYTE   Cs3
- BYTE   W06
- BYTE   Ds3
- BYTE   W04
+//  #03 //020   ----------------------------------------
+Label_B3E773:
+ BYTE   W01
+ BYTE   N72  Fn1  v064
+ BYTE   W92
+ BYTE   W03
  BYTE   PEND 
-// 010   ----------------------------------------
-Label_2_017A898D:
- BYTE   W02
- BYTE   N48  Fn3  v127
+//  #03 //021   ----------------------------------------
+Label_B3E77A:
+ BYTE   PAN   c_v-34
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOICE   6
+ BYTE   VOL   73*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   VOL   73*FE4DanceintheSkies_mvl/mxv
+ BYTE   N23  Ds0  v048
  BYTE   W48
- BYTE   Gs3
+ BYTE   Ds0  v040
  BYTE   W44
- BYTE   W02
- BYTE   PEND 
-// 011   ----------------------------------------
-Label_2_017A8996:
- BYTE   W02
- BYTE   N48  Gn3  v127
+ BYTE   W03
+//  #03 //022   ----------------------------------------
+Label_B3E78F:
+ BYTE   W01
+ BYTE   N23  Ds0  v048
  BYTE   W48
- BYTE   As3
+ BYTE   Ds0  v056
  BYTE   W44
- BYTE   W02
+ BYTE   W03
  BYTE   PEND 
-// 012   ----------------------------------------
-Label_2_017A899F:
- BYTE   W02
- BYTE   N48  Gs3  v127
+//  #03 //023   ----------------------------------------
+Label_B3E799:
+ BYTE   W01
+ BYTE   N23  Ds0  v040
  BYTE   W48
- BYTE   Fn3
+ BYTE   Ds0  v048
  BYTE   W44
- BYTE   W02
+ BYTE   W03
  BYTE   PEND 
-// 013   ----------------------------------------
-Label_2_017A89A8:
- BYTE   W02
- BYTE   N72  Gn3  v127
- BYTE   W72
- BYTE   N06  As3
- BYTE   W06
- BYTE   Gs3
- BYTE   W06
- BYTE   Gn3
- BYTE   W06
- BYTE   Fn3
- BYTE   W04
- BYTE   PEND 
-// 014   ----------------------------------------
-Label_2_017A89B7:
- BYTE   W02
- BYTE   N48  Ds3  v127
+//  #03 //024   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B3E799
+//  #03 //025   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B3E78F
+//  #03 //026   ----------------------------------------
+ BYTE   W01
+ BYTE   N23  Ds0  v056
  BYTE   W48
- BYTE   Gn3
+ BYTE   Ds0  v048
  BYTE   W44
- BYTE   W02
- BYTE   PEND 
+ BYTE   W03
+//  #03 //027   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_2_017A898D
-// 015   ----------------------------------------
-Label_2_017A89C5:
- BYTE   W02
- BYTE   N72  Fn3  v127
- BYTE   W72
- BYTE   N12  Fs3
- BYTE   W12
- BYTE   Gs3
- BYTE   W10
- BYTE   PEND 
-// 016   ----------------------------------------
-Label_2_017A89D0:
- BYTE   W02
- BYTE   TIE  As3  v127
- BYTE   W92
- BYTE   W02
- BYTE   PEND 
-// 017   ----------------------------------------
- BYTE   W14
- BYTE   EOT
- BYTE   W12
- BYTE   N24
- BYTE   W24
- BYTE   N32  Gs3
- BYTE   W32
- BYTE   N16  Fs3
- BYTE   W14
-// 018   ----------------------------------------
-Label_2_017A89E2:
- BYTE   W02
- BYTE   TIE  Fn3  v127
- BYTE   W92
- BYTE   W02
- BYTE   PEND 
-// 019   ----------------------------------------
- BYTE   W72
- BYTE   W02
- BYTE   EOT
- BYTE   W22
- BYTE   PATT
-  POIN2 Label_2_017A89E2
-// 020   ----------------------------------------
+  POIN2 Label_B3E799
+//  #03 //028   ----------------------------------------
+ BYTE   W01
+ BYTE   N23  Ds0  v048
  BYTE   W48
- BYTE   W02
- BYTE   EOT
- BYTE   Fn3
- BYTE   W24
- BYTE   N06  Fs3  v127
- BYTE   W06
- BYTE   Gs3
- BYTE   W06
- BYTE   Fs3
- BYTE   W06
- BYTE   Fn3
- BYTE   W04
+ BYTE   Ds0  v040
+ BYTE   W44
+ BYTE   W03
+//  #03 //029   ----------------------------------------
+ BYTE   W01
+ BYTE   Ds0  v048
+ BYTE   W48
+ BYTE   N23
+ BYTE   W44
+ BYTE   W03
+//  #03 //030   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_2_017A893F
+  POIN2 Label_B3E799
+//  #03 //031   ----------------------------------------
+Label_B3E7D0:
+ BYTE   W01
+ BYTE   N23  Cs0  v048
+ BYTE   W48
+ BYTE   Cs0  v056
+ BYTE   W44
+ BYTE   W03
+ BYTE   PEND 
+//  #03 //032   ----------------------------------------
+ BYTE   W01
+ BYTE   Cs0  v048
+ BYTE   W48
+ BYTE   Cs0  v064
+ BYTE   W44
+ BYTE   W03
+//  #03 //033   ----------------------------------------
+ BYTE   W01
+ BYTE   Cs0  v056
+ BYTE   W48
+ BYTE   Cs0  v048
+ BYTE   W44
+ BYTE   W03
+//  #03 //034   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_2_017A8948
- BYTE   PATT
-  POIN2 Label_2_017A8951
-// 021   ----------------------------------------
- BYTE   W72
- BYTE   W02
- BYTE   EOT
- BYTE   Ds4
- BYTE   N06  Fn4  v127
- BYTE   W06
- BYTE   Ds4
- BYTE   W06
- BYTE   Cs4
- BYTE   W06
- BYTE   Cn4
- BYTE   W04
- BYTE   PATT
-  POIN2 Label_2_017A8964
- BYTE   PATT
-  POIN2 Label_2_017A896D
- BYTE   PATT
-  POIN2 Label_2_017A8976
- BYTE   PATT
-  POIN2 Label_2_017A8980
- BYTE   PATT
-  POIN2 Label_2_017A898D
- BYTE   PATT
-  POIN2 Label_2_017A8996
- BYTE   PATT
-  POIN2 Label_2_017A899F
- BYTE   PATT
-  POIN2 Label_2_017A89A8
- BYTE   PATT
-  POIN2 Label_2_017A89B7
- BYTE   PATT
-  POIN2 Label_2_017A898D
- BYTE   PATT
-  POIN2 Label_2_017A89C5
- BYTE   PATT
-  POIN2 Label_2_017A89D0
-// 022   ----------------------------------------
- BYTE   W14
- BYTE   EOT
- BYTE   As3
- BYTE   W12
- BYTE   N24  As3  v127
- BYTE   W24
- BYTE   N32  Gs3
- BYTE   W32
- BYTE   N16  Fs3
- BYTE   W14
- BYTE   PATT
-  POIN2 Label_2_017A89E2
-// 023   ----------------------------------------
- BYTE   W72
- BYTE   W02
- BYTE   EOT
- BYTE   Fn3
- BYTE   W22
-// 024   ----------------------------------------
- BYTE   W02
- BYTE   VOICE   48
- BYTE   PAN   c_v+0
- BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+  POIN2 Label_B3E7D0
+//  #03 //035   ----------------------------------------
+ BYTE   W01
+ BYTE   VOICE   1
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v+34
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   N68  Cn2  v064
  BYTE   W92
- BYTE   W02
-// 025   ----------------------------------------
- BYTE   W72
+ BYTE   W03
+//  #03 //036   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B3E752
+//  #03 //037   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B3E759
+//  #03 //038   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B3E760
+//  #03 //039   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B3E760
+//  #03 //040   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B3E76C
+//  #03 //041   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B3E773
+//  #03 //042   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_2_017A8934
-// 026   ----------------------------------------
- BYTE   W02
- BYTE   N06  Fs3  v127
- BYTE   W06
+  POIN2 Label_B3E77A
  BYTE   FINE
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
 FE4DanceintheSkies_004:
-// 000   ----------------------------------------
+//  #04 //000   ----------------------------------------
  BYTE   KEYSH   FE4DanceintheSkies_key+0
- BYTE   PAN   c_v+0
- BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
- BYTE   MOD 0
- BYTE   CnM2
- BYTE   BEND   c_v+0
- BYTE   W02
- BYTE   VOICE   32
- BYTE   PAN   c_v-49
- BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
- BYTE   N12  Ds1  v112
- BYTE   W48
- BYTE   N12
- BYTE   W44
- BYTE   W02
-// 001   ----------------------------------------
-Label_3_017A8AA0:
- BYTE   W02
- BYTE   N12  Ds1  v112
- BYTE   W48
- BYTE   N12
- BYTE   W22
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   W01
+ BYTE   VOICE   4
+ BYTE   VOL   62*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  Ds2  v084
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W12
+ BYTE   Ds2  v076
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W11
+//  #04 //001   ----------------------------------------
+Label_010057F6:
+ BYTE   W01
+ BYTE   N08  Ds2  v084
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cn3  v052
+ BYTE   W12
+ BYTE   Ds2  v076
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cn3  v056
+ BYTE   W11
  BYTE   PEND 
-Label_3_017A8AA8:
+//  #04 //002   ----------------------------------------
+Label_0100580F:
+ BYTE   W01
+ BYTE   N08  Ds2  v084
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W12
+ BYTE   Ds2  v076
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W11
+ BYTE   PEND 
+//  #04 //003   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010057F6
+//  #04 //004   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100580F
+//  #04 //005   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010057F6
+//  #04 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100580F
+//  #04 //007   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010057F6
+//  #04 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100580F
+//  #04 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010057F6
+//  #04 //010   ----------------------------------------
+Label_0100584B:
+ BYTE   W01
+ BYTE   N08  Cs2  v092
+ BYTE   W12
+ BYTE   Gs2  v060
+ BYTE   W12
+ BYTE   Gn2  v084
+ BYTE   W12
+ BYTE   Cn3  v072
+ BYTE   W12
+ BYTE   Cs2  v076
+ BYTE   W12
+ BYTE   Gs2  v068
+ BYTE   W12
+ BYTE   Gn2  v076
+ BYTE   W12
+ BYTE   Cn3  v068
+ BYTE   W11
+ BYTE   PEND 
+//  #04 //011   ----------------------------------------
+Label_01005866:
+ BYTE   W01
+ BYTE   N08  Cs2  v084
+ BYTE   W12
+ BYTE   Gs2  v060
+ BYTE   W12
+ BYTE   Gn2  v076
+ BYTE   W12
+ BYTE   As2  v068
+ BYTE   W12
+ BYTE   Cs2  v084
+ BYTE   W12
+ BYTE   Gs2  v060
+ BYTE   W12
+ BYTE   Gn2  v084
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W11
+ BYTE   PEND 
+//  #04 //012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100584B
+//  #04 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005866
+//  #04 //014   ----------------------------------------
+ BYTE   W01
+ BYTE   VOICE   4
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
  BYTE   W24
-// 002   ----------------------------------------
-Label_3_017A8AA9:
- BYTE   W02
- BYTE   N12  Ds1  v112
- BYTE   W48
- BYTE   N12
- BYTE   W44
- BYTE   W02
+ BYTE   N08  Ds3  v056
+ BYTE   W12
+ BYTE   N09  Cn3  v040
+ BYTE   W12
+ BYTE   N42  Gn3  v068
+ BYTE   W42
+ BYTE   W01
+ BYTE   N07  Gn3  v020
+ BYTE   W04
+//  #04 //015   ----------------------------------------
+Label_010058A2:
+ BYTE   W04
+ BYTE   N08  Gn3  v008
+ BYTE   W21
+ BYTE   Fn3  v056
+ BYTE   W12
+ BYTE   N09  Cs3  v040
+ BYTE   W12
+ BYTE   N42  Gs3  v072
+ BYTE   W42
+ BYTE   W01
+ BYTE   N07  Gs3  v020
+ BYTE   W04
  BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_3_017A8AA9
- BYTE   PATT
-  POIN2 Label_3_017A8AA9
- BYTE   PATT
-  POIN2 Label_3_017A8AA9
- BYTE   PATT
-  POIN2 Label_3_017A8AA9
- BYTE   PATT
-  POIN2 Label_3_017A8AA9
- BYTE   PATT
-  POIN2 Label_3_017A8AA9
- BYTE   PATT
-  POIN2 Label_3_017A8AA9
-// 003   ----------------------------------------
-Label_3_017A8AD5:
- BYTE   W02
- BYTE   N12  Cs1  v112
- BYTE   W48
- BYTE   N12
- BYTE   W44
- BYTE   W02
+//  #04 //016   ----------------------------------------
+Label_010058B8:
+ BYTE   W04
+ BYTE   N08  Gs3  v008
+ BYTE   W21
+ BYTE   Cs3  v060
+ BYTE   W12
+ BYTE   N09  As2  v048
+ BYTE   W12
+ BYTE   N42  Fn3  v068
+ BYTE   W42
+ BYTE   W01
+ BYTE   N07  Fn3  v020
+ BYTE   W04
  BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_3_017A8AD5
- BYTE   PATT
-  POIN2 Label_3_017A8AD5
- BYTE   PATT
-  POIN2 Label_3_017A8AD5
-// 004   ----------------------------------------
- BYTE   W02
- BYTE   N96  Cn1  v112
- BYTE   W92
- BYTE   W02
-// 005   ----------------------------------------
-Label_3_017A8AF3:
- BYTE   W02
- BYTE   N96  Cs1  v112
- BYTE   W92
- BYTE   W02
+//  #04 //017   ----------------------------------------
+Label_010058CE:
+ BYTE   W04
+ BYTE   N08  Fn3  v008
+ BYTE   W21
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   N09  Gs2  v056
+ BYTE   W12
+ BYTE   N42  Cs3  v080
+ BYTE   W42
+ BYTE   W01
+ BYTE   N07  Cs3  v020
+ BYTE   W04
  BYTE   PEND 
-// 006   ----------------------------------------
-Label_3_017A8AFA:
- BYTE   W02
- BYTE   N96  As0  v112
- BYTE   W92
- BYTE   W02
+//  #04 //018   ----------------------------------------
+Label_010058E4:
+ BYTE   W04
+ BYTE   N08  Cs3  v008
+ BYTE   W21
+ BYTE   As2  v068
+ BYTE   W12
+ BYTE   N09  Gs2  v056
+ BYTE   W12
+ BYTE   N42  Cs3  v080
+ BYTE   W42
+ BYTE   W01
+ BYTE   N07  Cs3  v020
+ BYTE   W04
  BYTE   PEND 
-// 007   ----------------------------------------
-Label_3_017A8B01:
- BYTE   W02
- BYTE   N96  Fs0  v112
- BYTE   W92
- BYTE   W02
+//  #04 //019   ----------------------------------------
+Label_010058FA:
+ BYTE   W04
+ BYTE   N08  Cs3  v008
+ BYTE   W21
+ BYTE   Gn2  v060
+ BYTE   W12
+ BYTE   N09  Fn2  v048
+ BYTE   W12
+ BYTE   N42  Gs2  v076
+ BYTE   W42
+ BYTE   W01
+ BYTE   N07  Gs2  v020
+ BYTE   W04
  BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_3_017A8B01
-// 008   ----------------------------------------
-Label_3_017A8B0D:
- BYTE   W02
- BYTE   N96  Fn0  v112
- BYTE   W92
- BYTE   W02
+//  #04 //020   ----------------------------------------
+Label_01005910:
+ BYTE   W04
+ BYTE   N08  Gs2  v008
+ BYTE   W21
+ BYTE   Gn2  v052
+ BYTE   W12
+ BYTE   N09  Fn2  v040
+ BYTE   W12
+ BYTE   N42  Gs2  v060
+ BYTE   W42
+ BYTE   W01
+ BYTE   N04  Gs2  v020
+ BYTE   W04
  BYTE   PEND 
+//  #04 //021   ----------------------------------------
+Label_01005926:
+ BYTE   PAN   c_v+25
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOICE   4
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v-25
+ BYTE   N08  Ds2  v084
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W12
+ BYTE   Ds2  v076
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W11
+//  #04 //022   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8B0D
-// 009   ----------------------------------------
- BYTE   W02
- BYTE   PAN   c_v-14
- BYTE   N12  Ds1  v112
- BYTE   W48
- BYTE   N12
- BYTE   W44
- BYTE   W02
+  POIN2 Label_010057F6
+//  #04 //023   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AA9
+  POIN2 Label_0100580F
+//  #04 //024   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AA9
+  POIN2 Label_010057F6
+//  #04 //025   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AA9
+  POIN2 Label_0100580F
+//  #04 //026   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AA9
+  POIN2 Label_010057F6
+//  #04 //027   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AA9
+  POIN2 Label_0100580F
+//  #04 //028   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AA9
+  POIN2 Label_010057F6
+//  #04 //029   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AA9
+  POIN2 Label_0100580F
+//  #04 //030   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AA9
+  POIN2 Label_010057F6
+//  #04 //031   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AA9
-// 010   ----------------------------------------
- BYTE   W02
- BYTE   PAN   c_v-39
- BYTE   N12  Cs1  v112
- BYTE   W48
- BYTE   N12
- BYTE   W44
- BYTE   W02
+  POIN2 Label_0100584B
+//  #04 //032   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AD5
+  POIN2 Label_01005866
+//  #04 //033   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AD5
+  POIN2 Label_0100584B
+//  #04 //034   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AD5
-// 011   ----------------------------------------
- BYTE   W02
- BYTE   PAN   c_v-14
- BYTE   N96  Cn1  v112
- BYTE   W92
- BYTE   W02
+  POIN2 Label_01005866
+//  #04 //035   ----------------------------------------
+ BYTE   W01
+ BYTE   VOICE   4
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W24
+ BYTE   N08  Ds3  v056
+ BYTE   W12
+ BYTE   N09  Cn3  v040
+ BYTE   W12
+ BYTE   N42  Gn3  v068
+ BYTE   W42
+ BYTE   W01
+ BYTE   N07  Gn3  v020
+ BYTE   W04
+//  #04 //036   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AF3
+  POIN2 Label_010058A2
+//  #04 //037   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8AFA
+  POIN2 Label_010058B8
+//  #04 //038   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8B01
+  POIN2 Label_010058CE
+//  #04 //039   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8B01
+  POIN2 Label_010058E4
+//  #04 //040   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8B0D
+  POIN2 Label_010058FA
+//  #04 //041   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_3_017A8B0D
-// 012   ----------------------------------------
- BYTE   W02
- BYTE   VOICE   32
- BYTE   PAN   c_v-49
- BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
- BYTE   N12  Ds1  v112
- BYTE   W48
- BYTE   N12
- BYTE   W44
- BYTE   W02
- BYTE   PATT
-  POIN2 Label_3_017A8AA0
-// 013   ----------------------------------------
+  POIN2 Label_01005910
+//  #04 //042   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_3_017A8AA8
-// 014   ----------------------------------------
- BYTE   W08
+  POIN2 Label_01005926
  BYTE   FINE
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
 FE4DanceintheSkies_005:
-// 000   ----------------------------------------
+//  #05 //000   ----------------------------------------
  BYTE   KEYSH   FE4DanceintheSkies_key+0
- BYTE   PAN   c_v+0
- BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
- BYTE   MOD 0
- BYTE   CnM2
- BYTE   BEND   c_v+0
- BYTE   W02
- BYTE   VOICE   52
- BYTE   PAN   c_v-4
- BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
- BYTE   N12  Ds3  v127
- BYTE   W48
- BYTE   N12
- BYTE   W44
- BYTE   W02
-// 001   ----------------------------------------
-Label_4_017A99A0:
- BYTE   W02
- BYTE   N12  Ds3  v127
- BYTE   W48
- BYTE   N12
- BYTE   W22
- BYTE   PEND 
-Label_4_017A99A8:
- BYTE   W24
-// 002   ----------------------------------------
-Label_4_017A99A9:
- BYTE   W02
- BYTE   N12  Ds3  v127
- BYTE   W48
- BYTE   N12
- BYTE   W44
- BYTE   W02
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
-// 003   ----------------------------------------
-Label_4_017A99D5:
- BYTE   W02
- BYTE   N12  Cs3  v127
- BYTE   W48
- BYTE   N12
- BYTE   W44
- BYTE   W02
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_4_017A99D5
- BYTE   PATT
-  POIN2 Label_4_017A99D5
- BYTE   PATT
-  POIN2 Label_4_017A99D5
-// 004   ----------------------------------------
- BYTE   W02
- BYTE   VOICE   51
- BYTE   PAN   c_v-34
- BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
- BYTE   N96  Cn2  v127
- BYTE   W92
- BYTE   W02
-// 005   ----------------------------------------
- BYTE   W02
- BYTE   Cs2
- BYTE   W92
- BYTE   W02
-// 006   ----------------------------------------
- BYTE   W02
- BYTE   As1
- BYTE   W92
- BYTE   W02
-// 007   ----------------------------------------
-Label_4_017A9A01:
- BYTE   W02
- BYTE   N84  Fs2  v127
- BYTE   W92
- BYTE   W02
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_4_017A9A01
-// 008   ----------------------------------------
-Label_4_017A9A0D:
- BYTE   W02
- BYTE   N84  Fn2  v127
- BYTE   W92
- BYTE   W02
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_4_017A9A0D
-// 009   ----------------------------------------
-Label_4_017A9A19:
- BYTE   W02
- BYTE   VOICE   52
- BYTE   PAN   c_v-4
- BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
- BYTE   N12  Ds3  v127
- BYTE   W48
- BYTE   N12
- BYTE   W44
- BYTE   W02
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99A9
- BYTE   PATT
-  POIN2 Label_4_017A99D5
- BYTE   PATT
-  POIN2 Label_4_017A99D5
- BYTE   PATT
-  POIN2 Label_4_017A99D5
- BYTE   PATT
-  POIN2 Label_4_017A99D5
-// 010   ----------------------------------------
- BYTE   W02
- BYTE   VOICE   60
- BYTE   PAN   c_v-44
- BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
- BYTE   N96  Gn2  v127
- BYTE   W92
- BYTE   W02
-// 011   ----------------------------------------
- BYTE   W02
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   W07
+ BYTE   VOICE   1
+ BYTE   VOL   29*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v-49
+ BYTE   VOL   27*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  Ds2  v084
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
  BYTE   Gs2
- BYTE   W92
- BYTE   W02
-// 012   ----------------------------------------
- BYTE   W02
- BYTE   As2
- BYTE   W92
- BYTE   W02
-// 013   ----------------------------------------
-Label_4_017A9A7D:
- BYTE   W02
- BYTE   N96  Fs2  v127
- BYTE   W92
- BYTE   W02
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W12
+ BYTE   Ds2  v076
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W05
+//  #05 //001   ----------------------------------------
+Label_01005416:
+ BYTE   W07
+ BYTE   N08  Ds2  v084
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cn3  v052
+ BYTE   W12
+ BYTE   Ds2  v076
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cn3  v056
+ BYTE   W05
  BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_4_017A9A7D
-// 014   ----------------------------------------
-Label_4_017A9A89:
- BYTE   W02
- BYTE   N96  Fn2  v127
- BYTE   W92
- BYTE   W02
+//  #05 //002   ----------------------------------------
+Label_0100542F:
+ BYTE   W07
+ BYTE   N08  Ds2  v084
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W12
+ BYTE   Ds2  v076
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W05
  BYTE   PEND 
+//  #05 //003   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_4_017A9A89
+  POIN2 Label_01005416
+//  #05 //004   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_4_017A9A19
+  POIN2 Label_0100542F
+//  #05 //005   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_4_017A99A0
-// 015   ----------------------------------------
+  POIN2 Label_01005416
+//  #05 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100542F
+//  #05 //007   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005416
+//  #05 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100542F
+//  #05 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005416
+//  #05 //010   ----------------------------------------
+Label_0100546B:
+ BYTE   W07
+ BYTE   N08  Cs2  v092
+ BYTE   W12
+ BYTE   Gs2  v060
+ BYTE   W12
+ BYTE   Gn2  v084
+ BYTE   W12
+ BYTE   Cn3  v072
+ BYTE   W12
+ BYTE   Cs2  v076
+ BYTE   W12
+ BYTE   Gs2  v068
+ BYTE   W12
+ BYTE   Gn2  v076
+ BYTE   W12
+ BYTE   Cn3  v068
+ BYTE   W05
+ BYTE   PEND 
+//  #05 //011   ----------------------------------------
+Label_01005486:
+ BYTE   W07
+ BYTE   N08  Cs2  v084
+ BYTE   W12
+ BYTE   Gs2  v060
+ BYTE   W12
+ BYTE   Gn2  v076
+ BYTE   W12
+ BYTE   As2  v068
+ BYTE   W12
+ BYTE   Cs2  v084
+ BYTE   W12
+ BYTE   Gs2  v060
+ BYTE   W12
+ BYTE   Gn2  v084
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W05
+ BYTE   PEND 
+//  #05 //012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100546B
+//  #05 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005486
+//  #05 //014   ----------------------------------------
+ BYTE   W07
+ BYTE   VOICE   1
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W06
+ BYTE   N78  Gn2  v056
+ BYTE   W80
+ BYTE   W03
+//  #05 //015   ----------------------------------------
+Label_010054BA:
+ BYTE   W13
+ BYTE   N72  Gs2  v052
+ BYTE   W80
+ BYTE   W03
+ BYTE   PEND 
+//  #05 //016   ----------------------------------------
+Label_010054C1:
+ BYTE   W13
+ BYTE   N72  Fn2  v064
+ BYTE   W80
+ BYTE   W03
+ BYTE   PEND 
+//  #05 //017   ----------------------------------------
+Label_010054C8:
+ BYTE   W13
+ BYTE   N72  Cs2  v068
+ BYTE   W80
+ BYTE   W03
+ BYTE   PEND 
+//  #05 //018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010054C8
+//  #05 //019   ----------------------------------------
+Label_010054D4:
+ BYTE   W13
+ BYTE   N72  Cn2  v056
+ BYTE   W80
+ BYTE   W03
+ BYTE   PEND 
+//  #05 //020   ----------------------------------------
+ BYTE   W13
+ BYTE   Cn2  v036
+ BYTE   W42
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+//  #05 //021   ----------------------------------------
+Label_0100550D:
+ BYTE   PAN   c_v-14
+ BYTE   W07
+ BYTE   VOICE   1
+ BYTE   VOL   23*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v+49
+ BYTE   VOL   23*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  Ds2  v084
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W12
+ BYTE   Ds2  v076
+ BYTE   W12
+ BYTE   As2  v060
+ BYTE   W12
+ BYTE   Gs2
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W05
+//  #05 //022   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005416
+//  #05 //023   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100542F
+//  #05 //024   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005416
+//  #05 //025   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100542F
+//  #05 //026   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005416
+//  #05 //027   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100542F
+//  #05 //028   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005416
+//  #05 //029   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100542F
+//  #05 //030   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005416
+//  #05 //031   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100546B
+//  #05 //032   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005486
+//  #05 //033   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100546B
+//  #05 //034   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005486
+//  #05 //035   ----------------------------------------
+ BYTE   W07
+ BYTE   VOICE   1
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W06
+ BYTE   N78  Gn2  v056
+ BYTE   W80
+ BYTE   W03
+//  #05 //036   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010054BA
+//  #05 //037   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010054C1
+//  #05 //038   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010054C8
+//  #05 //039   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010054C8
+//  #05 //040   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010054D4
+//  #05 //041   ----------------------------------------
+ BYTE   W13
+ BYTE   N72  Cn2  v036
+ BYTE   W42
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+//  #05 //042   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_4_017A99A8
-// 016   ----------------------------------------
- BYTE   W08
+  POIN2 Label_0100550D
  BYTE   FINE
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
 FE4DanceintheSkies_006:
-// 000   ----------------------------------------
+//  #06 //000   ----------------------------------------
+ BYTE   VOL   80*FE4DanceintheSkies_mvl/mxv
  BYTE   KEYSH   FE4DanceintheSkies_key+0
- BYTE   PAN   c_v+0
- BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
- BYTE   MOD 0
- BYTE   CnM2
- BYTE   BEND   c_v+0
- BYTE   W02
- BYTE   VOICE   51
- BYTE   PAN   c_v-24
- BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
- BYTE   W92
- BYTE   W02
-// 001   ----------------------------------------
- BYTE   W72
-Label_5_017A9ABC:
- BYTE   W24
-// 002   ----------------------------------------
- BYTE   W96
-// 003   ----------------------------------------
- BYTE   W96
-// 004   ----------------------------------------
- BYTE   W96
-// 005   ----------------------------------------
- BYTE   W96
-// 006   ----------------------------------------
- BYTE   W96
-// 007   ----------------------------------------
- BYTE   W96
-// 008   ----------------------------------------
- BYTE   W96
-// 009   ----------------------------------------
- BYTE   W96
-// 010   ----------------------------------------
- BYTE   W96
-// 011   ----------------------------------------
- BYTE   W96
-// 012   ----------------------------------------
- BYTE   W96
-// 013   ----------------------------------------
- BYTE   W96
-// 014   ----------------------------------------
- BYTE   W02
- BYTE   N96  Cn3  v127
- BYTE   W92
- BYTE   W02
-// 015   ----------------------------------------
- BYTE   W02
- BYTE   Cs3
- BYTE   W92
- BYTE   W02
-// 016   ----------------------------------------
- BYTE   W02
- BYTE   As2
- BYTE   W92
- BYTE   W02
-// 017   ----------------------------------------
-Label_5_017A9AD7:
- BYTE   W02
- BYTE   N84  Cs3  v127
- BYTE   W92
- BYTE   W02
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_5_017A9AD7
-// 018   ----------------------------------------
-Label_5_017A9AE3:
- BYTE   W02
- BYTE   N84  Cn3  v127
- BYTE   W92
- BYTE   W02
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_5_017A9AE3
-// 019   ----------------------------------------
- BYTE   W02
- BYTE   VOICE   60
- BYTE   PAN   c_v-44
- BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
- BYTE   W24
- BYTE   N12  Fn3  v127
- BYTE   W36
- BYTE   N12
- BYTE   W32
- BYTE   W02
-// 020   ----------------------------------------
-Label_5_017A9AFE:
- BYTE   W24
- BYTE   W02
- BYTE   N12  Fn3  v127
- BYTE   W36
- BYTE   N12
- BYTE   W32
- BYTE   W02
- BYTE   PEND 
-// 021   ----------------------------------------
-Label_5_017A9B08:
- BYTE   W24
- BYTE   W02
- BYTE   N12  Fs3  v127
- BYTE   W36
- BYTE   N12
- BYTE   W32
- BYTE   W02
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_5_017A9B08
- BYTE   PATT
-  POIN2 Label_5_017A9AFE
- BYTE   PATT
-  POIN2 Label_5_017A9B08
- BYTE   PATT
-  POIN2 Label_5_017A9AFE
- BYTE   PATT
-  POIN2 Label_5_017A9AFE
- BYTE   PATT
-  POIN2 Label_5_017A9B08
- BYTE   PATT
-  POIN2 Label_5_017A9AFE
-// 022   ----------------------------------------
- BYTE   W02
- BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
- BYTE   N48  Fn3  v127
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   W01
+ BYTE   N23  Ds2  v048
  BYTE   W48
- BYTE   Cs3
+ BYTE   Ds2  v040
  BYTE   W44
- BYTE   W02
-// 023   ----------------------------------------
- BYTE   W02
+ BYTE   W03
+//  #06 //001   ----------------------------------------
+Label_01005FDD:
+ BYTE   W01
+ BYTE   N23  Ds2  v048
+ BYTE   W48
+ BYTE   Ds2  v056
+ BYTE   W44
+ BYTE   W03
+ BYTE   PEND 
+//  #06 //002   ----------------------------------------
+Label_01005FE7:
+ BYTE   W01
+ BYTE   N23  Ds2  v040
+ BYTE   W48
+ BYTE   Ds2  v048
+ BYTE   W44
+ BYTE   W03
+ BYTE   PEND 
+//  #06 //003   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005FE7
+//  #06 //004   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005FDD
+//  #06 //005   ----------------------------------------
+ BYTE   W01
+ BYTE   N23  Ds2  v056
+ BYTE   W48
+ BYTE   Ds2  v048
+ BYTE   W44
+ BYTE   W03
+//  #06 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005FE7
+//  #06 //007   ----------------------------------------
+ BYTE   W01
+ BYTE   N23  Ds2  v048
+ BYTE   W48
+ BYTE   Ds2  v040
+ BYTE   W44
+ BYTE   W03
+//  #06 //008   ----------------------------------------
+ BYTE   W01
+ BYTE   Ds2  v048
+ BYTE   W48
+ BYTE   N23
+ BYTE   W44
+ BYTE   W03
+//  #06 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01005FE7
+//  #06 //010   ----------------------------------------
+Label_0100601E:
+ BYTE   W01
+ BYTE   N23  Cs2  v048
+ BYTE   W48
+ BYTE   Cs2  v056
+ BYTE   W44
+ BYTE   W03
+ BYTE   PEND 
+//  #06 //011   ----------------------------------------
+ BYTE   W01
+ BYTE   Cs2  v048
+ BYTE   W48
+ BYTE   Cs2  v064
+ BYTE   W44
+ BYTE   W03
+//  #06 //012   ----------------------------------------
+ BYTE   W01
+ BYTE   Cs2  v056
+ BYTE   W48
+ BYTE   Cs2  v048
+ BYTE   W44
+ BYTE   W03
+//  #06 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100601E
+//  #06 //014   ----------------------------------------
+ BYTE   W01
+ BYTE   VOICE   29
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v-34
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   N92  Cn3  v064
+ BYTE   W92
+ BYTE   W03
+//  #06 //015   ----------------------------------------
+ BYTE   W01
+ BYTE   Cs3  v068
+ BYTE   W92
+ BYTE   W03
+//  #06 //016   ----------------------------------------
+ BYTE   W01
+ BYTE   As2  v064
+ BYTE   W92
+ BYTE   W03
+//  #06 //017   ----------------------------------------
+ BYTE   W01
+ BYTE   Fs2  v072
+ BYTE   W92
+ BYTE   W03
+//  #06 //018   ----------------------------------------
+ BYTE   W01
+ BYTE   Fs2  v068
+ BYTE   W92
+ BYTE   W03
+//  #06 //019   ----------------------------------------
+ BYTE   W01
+ BYTE   Fn2  v064
+ BYTE   W92
+ BYTE   W03
+//  #06 //020   ----------------------------------------
+ BYTE   W01
+ BYTE   Fn2  v072
+ BYTE   W92
+ BYTE   W03
+//  #06 //021   ----------------------------------------
+Label_01006069:
+ BYTE   VOICE   29
+ BYTE   PAN   c_v-34
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOICE   29
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v-25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   W24
+ BYTE   N08  Fn3  v072
+ BYTE   W09
+ BYTE   PAN   c_v+54
+ BYTE   VOL   69*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  Fn3  v028
+ BYTE   W08
+ BYTE   PAN   c_v-54
+ BYTE   N06  Fn3  v020
+ BYTE   W07
+ BYTE   PAN   c_v+25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  Fn3  v008
+ BYTE   W06
+ BYTE   PAN   c_v-64
+ BYTE   VOL   73*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05
+ BYTE   W06
+ BYTE   PAN   c_v-25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  Fn3  v080
+ BYTE   W09
+ BYTE   PAN   c_v+54
+ BYTE   VOL   69*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  Fn3  v028
+ BYTE   W08
+ BYTE   PAN   c_v-54
+ BYTE   N06  Fn3  v020
+ BYTE   W07
+ BYTE   PAN   c_v+25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  Fn3  v008
+ BYTE   W06
+ BYTE   PAN   c_v-64
+ BYTE   VOL   73*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05
+ BYTE   W05
+//  #06 //022   ----------------------------------------
+Label_010060BD:
+ BYTE   W24
+ BYTE   W01
+ BYTE   PAN   c_v-25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  Fn3  v072
+ BYTE   W09
+ BYTE   PAN   c_v+54
+ BYTE   VOL   69*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  Fn3  v028
+ BYTE   W08
+ BYTE   PAN   c_v-54
+ BYTE   N06  Fn3  v020
+ BYTE   W07
+ BYTE   PAN   c_v+25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  Fn3  v008
+ BYTE   W06
+ BYTE   PAN   c_v-64
+ BYTE   VOL   73*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05
+ BYTE   W06
+ BYTE   PAN   c_v-25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  Fn3  v080
+ BYTE   W09
+ BYTE   PAN   c_v+54
+ BYTE   VOL   69*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  Fn3  v028
+ BYTE   W08
+ BYTE   PAN   c_v-54
+ BYTE   N06  Fn3  v020
+ BYTE   W07
+ BYTE   PAN   c_v+25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  Fn3  v008
+ BYTE   W06
+ BYTE   PAN   c_v-64
+ BYTE   VOL   73*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05
+ BYTE   W05
+ BYTE   PEND 
+//  #06 //023   ----------------------------------------
+Label_01006108:
+ BYTE   W24
+ BYTE   W01
+ BYTE   PAN   c_v-25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  Fs3  v072
+ BYTE   W09
+ BYTE   PAN   c_v+54
+ BYTE   VOL   69*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  Fs3  v028
+ BYTE   W08
+ BYTE   PAN   c_v-54
+ BYTE   N06  Fs3  v020
+ BYTE   W07
+ BYTE   PAN   c_v+25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  Fs3  v008
+ BYTE   W06
+ BYTE   PAN   c_v-64
+ BYTE   VOL   73*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05
+ BYTE   W06
+ BYTE   PAN   c_v-25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N08  Fs3  v080
+ BYTE   W09
+ BYTE   PAN   c_v+54
+ BYTE   VOL   69*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  Fs3  v028
+ BYTE   W08
+ BYTE   PAN   c_v-54
+ BYTE   N06  Fs3  v020
+ BYTE   W07
+ BYTE   PAN   c_v+25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  Fs3  v008
+ BYTE   W06
+ BYTE   PAN   c_v-64
+ BYTE   VOL   73*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05
+ BYTE   W05
+ BYTE   PEND 
+//  #06 //024   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006108
+//  #06 //025   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010060BD
+//  #06 //026   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006108
+//  #06 //027   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006108
+//  #06 //028   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006108
+//  #06 //029   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010060BD
+//  #06 //030   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006108
+//  #06 //031   ----------------------------------------
+ BYTE   W01
+ BYTE   PAN   c_v-25
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   N42  Fn3  v072
+ BYTE   W48
+ BYTE   Cs3  v056
+ BYTE   W44
+ BYTE   W03
+//  #06 //032   ----------------------------------------
+ BYTE   W01
  BYTE   Ds3
  BYTE   W48
  BYTE   Gn3
  BYTE   W44
- BYTE   W02
-// 024   ----------------------------------------
- BYTE   W02
+ BYTE   W03
+//  #06 //033   ----------------------------------------
+ BYTE   W01
  BYTE   Fn3
  BYTE   W48
- BYTE   Cs3
+ BYTE   Cs3  v048
  BYTE   W44
- BYTE   W02
-// 025   ----------------------------------------
- BYTE   W02
- BYTE   Ds3
+ BYTE   W03
+//  #06 //034   ----------------------------------------
+ BYTE   W01
+ BYTE   N40  Ds3
  BYTE   W48
- BYTE   Fn3
+ BYTE   N42  Fn3  v056
  BYTE   W44
- BYTE   W02
-// 026   ----------------------------------------
- BYTE   W02
+ BYTE   W03
+//  #06 //035   ----------------------------------------
+ BYTE   W01
  BYTE   Cn3
  BYTE   W48
- BYTE   Ds3
+ BYTE   Ds3  v072
  BYTE   W44
- BYTE   W02
-// 027   ----------------------------------------
- BYTE   W02
- BYTE   Cs3
+ BYTE   W03
+//  #06 //036   ----------------------------------------
+ BYTE   W01
+ BYTE   N32  Cs3
  BYTE   W48
- BYTE   N12
- BYTE   W12
- BYTE   N12
- BYTE   W12
- BYTE   N24  Ds3
- BYTE   W22
-// 028   ----------------------------------------
- BYTE   W02
- BYTE   N48  Fn3
+ BYTE   N21  Cs3  v064
+ BYTE   W24
+ BYTE   Ds3
+ BYTE   W23
+//  #06 //037   ----------------------------------------
+ BYTE   W01
+ BYTE   N42  Fn3
  BYTE   W48
  BYTE   Gs3
  BYTE   W44
+ BYTE   W03
+//  #06 //038   ----------------------------------------
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   TIE  As3  v100
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
  BYTE   W02
-// 029   ----------------------------------------
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
  BYTE   W02
- BYTE   TIE  As3
- BYTE   W92
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
  BYTE   W02
-// 030   ----------------------------------------
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   63*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
  BYTE   W48
- BYTE   W02
+//  #06 //039   ----------------------------------------
+ BYTE   W42
+ BYTE   W01
  BYTE   EOT
- BYTE   N32  Gs3
- BYTE   W32
- BYTE   N16  Fs3
- BYTE   W14
-// 031   ----------------------------------------
- BYTE   W02
- BYTE   TIE  Fn3
+ BYTE   W06
+ BYTE   N24  Gs3  v072
+ BYTE   W30
+ BYTE   N15  Fs3  v064
+ BYTE   W17
+//  #06 //040   ----------------------------------------
+ BYTE   W01
+ BYTE   TIE  Fn3  v072
  BYTE   W92
- BYTE   W02
-// 032   ----------------------------------------
- BYTE   W96
-// 033   ----------------------------------------
- BYTE   W02
+ BYTE   W03
+//  #06 //041   ----------------------------------------
+ BYTE   W90
+ BYTE   W01
  BYTE   EOT
- BYTE   VOICE   51
- BYTE   PAN   c_v-24
- BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
- BYTE   W92
- BYTE   W02
-// 034   ----------------------------------------
- BYTE   W72
+ BYTE   W05
+//  #06 //042   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_5_017A9ABC
-// 035   ----------------------------------------
- BYTE   W08
+  POIN2 Label_01006069
  BYTE   FINE
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
 FE4DanceintheSkies_007:
-// 000   ----------------------------------------
+//  #07 //000   ----------------------------------------
  BYTE   KEYSH   FE4DanceintheSkies_key+0
+ BYTE   VOICE   52
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   W96
+//  #07 //001   ----------------------------------------
+ BYTE   W01
+ BYTE   VOICE   52
+ BYTE   VOL   68*FE4DanceintheSkies_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
- BYTE   MOD 0
- BYTE   CnM2
- BYTE   BEND   c_v+0
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W68
+ BYTE   W03
+ BYTE   N05  Fs3  v048
+ BYTE   W06
+ BYTE   N03  Gs3  v052
+ BYTE   W06
+ BYTE   N04  Fs3  v056
+ BYTE   W06
+ BYTE   Fn3  v064
+ BYTE   W06
+//  #07 //002   ----------------------------------------
+Label_010068CF:
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   N68  Fs3  v068
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
  BYTE   W02
- BYTE   VOICE   60
- BYTE   PAN   c_v-9
- BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
- BYTE   W92
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
  BYTE   W02
-// 001   ----------------------------------------
- BYTE   W72
-Label_6_017A85C8:
- BYTE   W24
-// 002   ----------------------------------------
- BYTE   W96
-// 003   ----------------------------------------
- BYTE   W96
-// 004   ----------------------------------------
- BYTE   W96
-// 005   ----------------------------------------
- BYTE   W96
-// 006   ----------------------------------------
- BYTE   W96
-// 007   ----------------------------------------
- BYTE   W96
-// 008   ----------------------------------------
- BYTE   W96
-// 009   ----------------------------------------
- BYTE   W96
-// 010   ----------------------------------------
- BYTE   W96
-// 011   ----------------------------------------
- BYTE   W96
-// 012   ----------------------------------------
- BYTE   W96
-// 013   ----------------------------------------
- BYTE   W96
-// 014   ----------------------------------------
- BYTE   W96
-// 015   ----------------------------------------
- BYTE   W96
-// 016   ----------------------------------------
- BYTE   W96
-// 017   ----------------------------------------
- BYTE   W96
-// 018   ----------------------------------------
- BYTE   W96
-// 019   ----------------------------------------
- BYTE   W96
-// 020   ----------------------------------------
- BYTE   W96
-// 021   ----------------------------------------
-Label_6_017A85DC:
- BYTE   W24
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
  BYTE   W02
- BYTE   N12  As2  v127
- BYTE   W36
- BYTE   N12
- BYTE   W32
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W48
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   N21  Cn4  v040
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
  BYTE   W02
  BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_6_017A85DC
- BYTE   PATT
-  POIN2 Label_6_017A85DC
- BYTE   PATT
-  POIN2 Label_6_017A85DC
- BYTE   PATT
-  POIN2 Label_6_017A85DC
- BYTE   PATT
-  POIN2 Label_6_017A85DC
- BYTE   PATT
-  POIN2 Label_6_017A85DC
- BYTE   PATT
-  POIN2 Label_6_017A85DC
- BYTE   PATT
-  POIN2 Label_6_017A85DC
- BYTE   PATT
-  POIN2 Label_6_017A85DC
-// 022   ----------------------------------------
- BYTE   W02
- BYTE   TIE  Gs2  v127
- BYTE   W92
- BYTE   W02
-// 023   ----------------------------------------
- BYTE   W96
-// 024   ----------------------------------------
- BYTE   W02
- BYTE   EOT
- BYTE   TIE
- BYTE   W92
- BYTE   W02
-// 025   ----------------------------------------
- BYTE   W96
-// 026   ----------------------------------------
- BYTE   W02
- BYTE   EOT
- BYTE   N96  Gn2
- BYTE   W92
- BYTE   W02
-// 027   ----------------------------------------
- BYTE   W02
- BYTE   Gs2
- BYTE   W92
- BYTE   W02
-// 028   ----------------------------------------
- BYTE   W02
- BYTE   As2
- BYTE   W92
- BYTE   W02
-// 029   ----------------------------------------
- BYTE   W02
- BYTE   N48  Cn3
- BYTE   W48
- BYTE   N24  As2
- BYTE   W24
- BYTE   Gs2
- BYTE   W22
-// 030   ----------------------------------------
- BYTE   W02
- BYTE   N96  Fs2
- BYTE   W92
- BYTE   W02
-// 031   ----------------------------------------
- BYTE   W02
- BYTE   N48  Gs2
- BYTE   W48
- BYTE   As2
- BYTE   W44
- BYTE   W02
-// 032   ----------------------------------------
- BYTE   W02
- BYTE   Cn3
- BYTE   W48
- BYTE   Ds3
- BYTE   W44
- BYTE   W02
-// 033   ----------------------------------------
- BYTE   W02
- BYTE   VOICE   60
- BYTE   PAN   c_v-9
- BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
- BYTE   W92
- BYTE   W02
-// 034   ----------------------------------------
+//  #07 //003   ----------------------------------------
+Label_0100691F:
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N68  Cs4  v040
  BYTE   W72
- BYTE   GoTo
-  POIN2 Label_6_017A85C8
-// 035   ----------------------------------------
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   N21  As3  v052
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   PEND 
+//  #07 //004   ----------------------------------------
+Label_01006953:
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   TIE  Ds4  v064
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   38*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   39*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   PEND 
+//  #07 //005   ----------------------------------------
+Label_010069A5:
+ BYTE   W03
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   39*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   33*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   31*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   29*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   PEND 
+ BYTE   EOT
+ BYTE   Ds4
+ BYTE   VOL   24*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N03  Fn4  v044
+ BYTE   W06
+ BYTE   Ds4  v056
+ BYTE   W06
+ BYTE   N04  Cs4  v064
+ BYTE   W06
+ BYTE   N03  Cn4  v044
+ BYTE   W06
+//  #07 //006   ----------------------------------------
+Label_01006A13:
+ BYTE   W01
+ BYTE   N68  As3  v064
+ BYTE   W72
+ BYTE   N21  Gs3  v056
+ BYTE   W23
+ BYTE   PEND 
+//  #07 //007   ----------------------------------------
+Label_01006A1D:
+ BYTE   W01
+ BYTE   N68  Fs3  v068
+ BYTE   W72
+ BYTE   N22  Fn3  v060
+ BYTE   W23
+ BYTE   PEND 
+//  #07 //008   ----------------------------------------
+Label_01006A27:
+ BYTE   W01
+ BYTE   N21  Ds3  v056
+ BYTE   W24
+ BYTE   N68  Cn3  v060
+ BYTE   W36
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   PEND 
+//  #07 //009   ----------------------------------------
+Label_01006A59:
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-14
+ BYTE   N07  Cn3  v028
  BYTE   W08
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v024
+ BYTE   W08
+ BYTE   PAN   c_v-34
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  Cn3  v020
+ BYTE   W08
+ BYTE   PAN   c_v+34
+ BYTE   N07  Cn3  v012
+ BYTE   W08
+ BYTE   PAN   c_v-49
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   N07  Cn3  v008
+ BYTE   W08
+ BYTE   PAN   c_v+49
+ BYTE   N07
+ BYTE   W30
+ BYTE   W01
+ BYTE   VOL   63*FE4DanceintheSkies_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N03  Cs3  v064
+ BYTE   W06
+ BYTE   N04  Cn3  v056
+ BYTE   W06
+ BYTE   Cs3  v064
+ BYTE   W06
+ BYTE   N05  Ds3  v052
+ BYTE   W06
+ BYTE   PEND 
+//  #07 //010   ----------------------------------------
+Label_01006A99:
+ BYTE   W01
+ BYTE   N44  Fn3  v068
+ BYTE   W48
+ BYTE   Gs3  v056
+ BYTE   W44
+ BYTE   W03
+ BYTE   PEND 
+//  #07 //011   ----------------------------------------
+Label_01006AA3:
+ BYTE   W01
+ BYTE   N44  Gn3  v064
+ BYTE   W48
+ BYTE   As3  v068
+ BYTE   W44
+ BYTE   W03
+ BYTE   PEND 
+//  #07 //012   ----------------------------------------
+Label_01006AAD:
+ BYTE   W01
+ BYTE   N44  Gs3  v064
+ BYTE   W48
+ BYTE   Fn3
+ BYTE   W24
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   PEND 
+//  #07 //013   ----------------------------------------
+Label_01006AE4:
+ BYTE   W01
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   N66  Gn3  v064
+ BYTE   W01
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W23
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   39*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   38*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N04  As3  v056
+ BYTE   W06
+ BYTE   Gs3
+ BYTE   W06
+ BYTE   Gn3  v052
+ BYTE   W06
+ BYTE   Fn3  v044
+ BYTE   W06
+ BYTE   PEND 
+//  #07 //014   ----------------------------------------
+Label_01006B52:
+ BYTE   W01
+ BYTE   N56  Ds3  v056
+ BYTE   W60
+ BYTE   N07  Cn3  v064
+ BYTE   W12
+ BYTE   Cs3  v056
+ BYTE   W12
+ BYTE   Ds3  v040
+ BYTE   W11
+ BYTE   PEND 
+//  #07 //015   ----------------------------------------
+Label_01006B62:
+ BYTE   W01
+ BYTE   N52  Fn3  v068
+ BYTE   W60
+ BYTE   N07  Cs3  v064
+ BYTE   W12
+ BYTE   Ds3  v044
+ BYTE   W12
+ BYTE   Fn3  v056
+ BYTE   W11
+ BYTE   PEND 
+//  #07 //016   ----------------------------------------
+Label_01006B72:
+ BYTE   W01
+ BYTE   N52  Fn3  v068
+ BYTE   W60
+ BYTE   N07  Fn3  v064
+ BYTE   W12
+ BYTE   Fs3  v056
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W11
+ BYTE   PEND 
+//  #07 //017   ----------------------------------------
+Label_01006B81:
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   TIE  As3  v072
+ BYTE   W60
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   PEND 
+//  #07 //018   ----------------------------------------
+Label_01006BC1:
+ BYTE   W01
+ BYTE   VOL   63*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   70*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   71*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*FE4DanceintheSkies_mvl/mxv
+ BYTE   W06
+ BYTE   PEND 
+ BYTE   EOT
+ BYTE   As3
+ BYTE   W07
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N21  As3  v040
+ BYTE   W24
+ BYTE   N24  Gs3  v060
+ BYTE   W30
+ BYTE   W01
+ BYTE   N14  Fs3  v048
+ BYTE   W05
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+//  #07 //019   ----------------------------------------
+Label_01006C01:
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   TIE  Fn3  v060
+ BYTE   W92
+ BYTE   W03
+ BYTE   PEND 
+//  #07 //020   ----------------------------------------
+ BYTE   W48
+ BYTE   W02
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   39*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   33*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+ BYTE   EOT
+ BYTE   W09
+//  #07 //021   ----------------------------------------
+Label_01006C56:
+ BYTE   W01
+ BYTE   VOL   18*FE4DanceintheSkies_mvl/mxv
+ BYTE   TIE  Fn3  v080
+ BYTE   W01
+ BYTE   VOL   18*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   21*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   31*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   33*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   39*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*FE4DanceintheSkies_mvl/mxv
+ BYTE   W14
+//  #07 //022   ----------------------------------------
+ BYTE   W19
+ BYTE   VOL   69*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   39*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   33*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   VOL   31*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   29*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   25*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N05  Fs3  v048
+ BYTE   W06
+ BYTE   N03  Gs3  v052
+ BYTE   W06
+ BYTE   N04  Fs3  v056
+ BYTE   W06
+ BYTE   Fn3  v064
+ BYTE   W06
+//  #07 //023   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010068CF
+//  #07 //024   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100691F
+//  #07 //025   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006953
+//  #07 //026   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010069A5
+//  #07 //027   ----------------------------------------
+ BYTE   EOT
+ BYTE   Ds4
+ BYTE   VOL   24*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   23*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N03  Fn4  v044
+ BYTE   W06
+ BYTE   Ds4  v056
+ BYTE   W06
+ BYTE   N04  Cs4  v064
+ BYTE   W06
+ BYTE   N03  Cn4  v044
+ BYTE   W06
+//  #07 //028   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006A13
+//  #07 //029   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006A1D
+//  #07 //030   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006A27
+//  #07 //031   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006A59
+//  #07 //032   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006A99
+//  #07 //033   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006AA3
+//  #07 //034   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006AAD
+//  #07 //035   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006AE4
+//  #07 //036   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006B52
+//  #07 //037   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006B62
+//  #07 //038   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006B72
+//  #07 //039   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006B81
+//  #07 //040   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006BC1
+//  #07 //041   ----------------------------------------
+ BYTE   EOT
+ BYTE   As3
+ BYTE   W07
+ BYTE   VOL   61*FE4DanceintheSkies_mvl/mxv
+ BYTE   N21  As3  v040
+ BYTE   W24
+ BYTE   N24  Gs3  v060
+ BYTE   W30
+ BYTE   W01
+ BYTE   N14  Fs3  v048
+ BYTE   W05
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+//  #07 //042   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006C01
+//  #07 //043   ----------------------------------------
+ BYTE   W48
+ BYTE   W02
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   54*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   48*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   42*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   39*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   Fn3
+ BYTE   VOL   37*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*FE4DanceintheSkies_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   35*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*FE4DanceintheSkies_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   33*FE4DanceintheSkies_mvl/mxv
+ BYTE   W03
+//  #07 //044   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_01006C56
  BYTE   FINE
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
 FE4DanceintheSkies_008:
-// 000   ----------------------------------------
+//  #08 //000   ----------------------------------------
+ BYTE   VOL   80*FE4DanceintheSkies_mvl/mxv
  BYTE   KEYSH   FE4DanceintheSkies_key+0
- BYTE   PAN   c_v+0
- BYTE   VOL   10*FE4DanceintheSkies_mvl/mxv
- BYTE   MOD 0
- BYTE   CnM2
- BYTE   BEND   c_v+0
- BYTE   W02
- BYTE   VOICE   121
- BYTE   VOL   20*FE4DanceintheSkies_mvl/mxv
- BYTE   W92
- BYTE   W02
-// 001   ----------------------------------------
+ BYTE   VOICE   122
+ BYTE   MODT 0
+ BYTE   LFOS 44
  BYTE   W72
-Label_7_017A9BA2:
- BYTE   W24
-// 002   ----------------------------------------
- BYTE   W96
-// 003   ----------------------------------------
- BYTE   W96
-// 004   ----------------------------------------
- BYTE   W96
-// 005   ----------------------------------------
- BYTE   W96
-// 006   ----------------------------------------
- BYTE   W96
-// 007   ----------------------------------------
- BYTE   W96
-// 008   ----------------------------------------
- BYTE   W96
-// 009   ----------------------------------------
- BYTE   W96
-// 010   ----------------------------------------
-Label_7_017A9BAB:
- BYTE   W60
- BYTE   W02
- BYTE   PAN   c_v+0
- BYTE   N02  Bn4  v127
- BYTE   W18
- BYTE   N02
- BYTE   W16
- BYTE   PEND 
-// 011   ----------------------------------------
-Label_7_017A9BB6:
- BYTE   W60
- BYTE   W02
- BYTE   PAN   c_v-64
- BYTE   N02  Bn4  v127
- BYTE   W18
- BYTE   N02
- BYTE   W16
- BYTE   PEND 
- BYTE   PATT
-  POIN2 Label_7_017A9BAB
- BYTE   PATT
-  POIN2 Label_7_017A9BB6
- BYTE   PATT
-  POIN2 Label_7_017A9BAB
- BYTE   PATT
-  POIN2 Label_7_017A9BB6
- BYTE   PATT
-  POIN2 Label_7_017A9BAB
- BYTE   PATT
-  POIN2 Label_7_017A9BB6
- BYTE   PATT
-  POIN2 Label_7_017A9BAB
- BYTE   PATT
-  POIN2 Label_7_017A9BB6
-// 012   ----------------------------------------
- BYTE   W96
-// 013   ----------------------------------------
- BYTE   W96
-// 014   ----------------------------------------
- BYTE   W96
-// 015   ----------------------------------------
- BYTE   W96
-// 016   ----------------------------------------
- BYTE   W96
-// 017   ----------------------------------------
- BYTE   W96
-// 018   ----------------------------------------
- BYTE   W96
-// 019   ----------------------------------------
- BYTE   W96
-// 020   ----------------------------------------
- BYTE   W96
-// 021   ----------------------------------------
- BYTE   W96
-// 022   ----------------------------------------
- BYTE   W96
- BYTE   PATT
-  POIN2 Label_7_017A9BAB
- BYTE   PATT
-  POIN2 Label_7_017A9BB6
- BYTE   PATT
-  POIN2 Label_7_017A9BAB
- BYTE   PATT
-  POIN2 Label_7_017A9BB6
- BYTE   PATT
-  POIN2 Label_7_017A9BAB
- BYTE   PATT
-  POIN2 Label_7_017A9BB6
- BYTE   PATT
-  POIN2 Label_7_017A9BAB
- BYTE   PATT
-  POIN2 Label_7_017A9BB6
- BYTE   PATT
-  POIN2 Label_7_017A9BAB
- BYTE   PATT
-  POIN2 Label_7_017A9BB6
-// 023   ----------------------------------------
- BYTE   W96
-// 024   ----------------------------------------
- BYTE   W02
- BYTE   VOICE   121
- BYTE   VOL   20*FE4DanceintheSkies_mvl/mxv
- BYTE   W92
- BYTE   W02
-// 025   ----------------------------------------
- BYTE   W72
- BYTE   GoTo
-  POIN2 Label_7_017A9BA2
-// 026   ----------------------------------------
+ BYTE   W01
+ BYTE   N07  En0  v072
  BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  En0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W01
+//  #08 //001   ----------------------------------------
+Label_01006316:
+ BYTE   W02
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   Gs0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W88
+ BYTE   PEND 
+//  #08 //002   ----------------------------------------
+Label_01006321:
+ BYTE   W72
+ BYTE   W01
+ BYTE   N07  Ds0  v068
+ BYTE   W08
+ BYTE   N05  Ds0  v020
+ BYTE   W07
+ BYTE   N03  Ds0  v012
+ BYTE   W04
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W01
+ BYTE   PEND 
+//  #08 //003   ----------------------------------------
+Label_01006336:
+ BYTE   W02
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   Gn0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W88
+ BYTE   PEND 
+//  #08 //004   ----------------------------------------
+Label_01006341:
+ BYTE   W72
+ BYTE   W01
+ BYTE   N07  En0  v072
+ BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  En0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W01
+ BYTE   PEND 
+//  #08 //005   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006316
+//  #08 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006321
+//  #08 //007   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006336
+//  #08 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006341
+//  #08 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006316
+//  #08 //010   ----------------------------------------
+Label_0100636F:
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  Ds0  v072
+ BYTE   W08
+ BYTE   N05  Ds0  v020
+ BYTE   W07
+ BYTE   N03  Ds0  v012
+ BYTE   W04
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gn0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Cs0  v084
+ BYTE   W16
+ BYTE   N42  Cs0  v060
+ BYTE   W19
+ BYTE   PEND 
+//  #08 //011   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  En0  v072
+ BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  En0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gs0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Dn0  v092
+ BYTE   W16
+ BYTE   N42  Dn0  v060
+ BYTE   W19
+//  #08 //012   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  Ds0  v072
+ BYTE   W08
+ BYTE   N05  Ds0  v020
+ BYTE   W07
+ BYTE   N03  Ds0  v012
+ BYTE   W04
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gn0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Cs0  v088
+ BYTE   W16
+ BYTE   N42  Cs0  v060
+ BYTE   W19
+//  #08 //013   ----------------------------------------
+Label_010063D9:
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  En0  v072
+ BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  En0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gs0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N13  Dn0  v088
+ BYTE   W16
+ BYTE   N42  Dn0  v060
+ BYTE   W19
+ BYTE   PEND 
+//  #08 //014   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  Ds0  v072
+ BYTE   W08
+ BYTE   N05  Ds0  v020
+ BYTE   W07
+ BYTE   N03  Ds0  v012
+ BYTE   W04
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gn0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N13  Cs0  v084
+ BYTE   W16
+ BYTE   N42  Cs0  v060
+ BYTE   W19
+//  #08 //015   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  En0  v072
+ BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  En0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gs0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Dn0  v092
+ BYTE   W17
+ BYTE   N42  Dn0  v060
+ BYTE   W18
+//  #08 //016   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  Ds0  v072
+ BYTE   W08
+ BYTE   N05  Ds0  v020
+ BYTE   W07
+ BYTE   N03  Ds0  v012
+ BYTE   W04
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gn0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Cs0  v084
+ BYTE   W17
+ BYTE   N42  Cs0  v060
+ BYTE   W18
+//  #08 //017   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010063D9
+//  #08 //018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100636F
+//  #08 //019   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  En0  v072
+ BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  En0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gs0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Dn0  v088
+ BYTE   W16
+ BYTE   N42  Dn0  v060
+ BYTE   W19
+//  #08 //020   ----------------------------------------
+ BYTE   W72
+ BYTE   W01
+ BYTE   N07  Ds0  v080
+ BYTE   W08
+ BYTE   N05  Ds0  v020
+ BYTE   W07
+ BYTE   N03  Fn0  v012
+ BYTE   W04
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   N01  Gn0
+ BYTE   W01
+//  #08 //021   ----------------------------------------
+Label_010064A8:
+//  #08 //022   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006341
+//  #08 //023   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006316
+//  #08 //024   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006321
+//  #08 //025   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006336
+//  #08 //026   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006341
+//  #08 //027   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006316
+//  #08 //028   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006321
+//  #08 //029   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006336
+//  #08 //030   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006341
+//  #08 //031   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006316
+//  #08 //032   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  En0  v072
+ BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  En0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gs0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Dn0  v088
+ BYTE   W17
+ BYTE   N42  Dn0  v060
+ BYTE   W18
+//  #08 //033   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  Ds0  v072
+ BYTE   W08
+ BYTE   N05  Ds0  v020
+ BYTE   W07
+ BYTE   N03  Ds0  v012
+ BYTE   W04
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gn0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Cs0  v080
+ BYTE   W16
+ BYTE   N42  Cs0  v060
+ BYTE   W19
+//  #08 //034   ----------------------------------------
+Label_01006520:
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  En0  v072
+ BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  En0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gs0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Dn0  v084
+ BYTE   W16
+ BYTE   N42  Dn0  v060
+ BYTE   W19
+ BYTE   PEND 
+//  #08 //035   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  Ds0  v072
+ BYTE   W08
+ BYTE   N05  Ds0  v020
+ BYTE   W07
+ BYTE   N03  Ds0  v012
+ BYTE   W04
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gn0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Cs0  v080
+ BYTE   W17
+ BYTE   N42  Cs0  v060
+ BYTE   W18
+//  #08 //036   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  En0  v072
+ BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  En0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gs0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N13  Dn0  v092
+ BYTE   W16
+ BYTE   N42  Dn0  v060
+ BYTE   W19
+//  #08 //037   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  Ds0  v072
+ BYTE   W08
+ BYTE   N05  Ds0  v020
+ BYTE   W07
+ BYTE   N03  Ds0  v012
+ BYTE   W04
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gn0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N13  Cs0  v088
+ BYTE   W16
+ BYTE   N42  Cs0  v060
+ BYTE   W19
+//  #08 //038   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01006520
+//  #08 //039   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0100636F
+//  #08 //040   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  En0  v072
+ BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  En0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gs0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Dn0  v084
+ BYTE   W17
+ BYTE   N42  Dn0  v060
+ BYTE   W18
+//  #08 //041   ----------------------------------------
+ BYTE   W24
+ BYTE   W01
+ BYTE   N07  Ds0  v072
+ BYTE   W08
+ BYTE   N05  Ds0  v020
+ BYTE   W07
+ BYTE   N03  Ds0  v012
+ BYTE   W04
+ BYTE   N02  Fn0  v008
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   Gn0  v004
+ BYTE   W03
+ BYTE   N02
+ BYTE   W05
+ BYTE   N14  Cs0  v088
+ BYTE   W17
+ BYTE   N42  Cs0  v060
+ BYTE   W18
+//  #08 //042   ----------------------------------------
+ BYTE   W72
+ BYTE   W01
+ BYTE   N07  En0  v080
+ BYTE   W08
+ BYTE   N05  En0  v020
+ BYTE   W07
+ BYTE   N03  Fs0  v012
+ BYTE   W04
+ BYTE   N02  Fs0  v008
+ BYTE   W03
+ BYTE   N01  Gs0
+ BYTE   W01
+//  #08 //043   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_010064A8
  BYTE   FINE
 
 //******************************************************//

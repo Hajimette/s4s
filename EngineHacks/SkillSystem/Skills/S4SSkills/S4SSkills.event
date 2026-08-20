@@ -26,3 +26,13 @@ GozaruSkill:
 //POIN SkillTester
 //WORD GozaruID
 
+
+
+ALIGN 4
+Alchemist:
+//#incbin "Synthesis/despoil.lyn.event"
+//POIN SkillTester
+//WORD AlchemistID
+
+//POIN AlchemistEvent
+#include "Synthesis/SynthesisEvent.event"

@@ -78,8 +78,8 @@ POP
 #define SuiseiP 0x8
 #define SuiseiAlt1 0x49
 
-
 #define FlareP 0xE
+#define FlareAlt 0xD7
 #define SubaruP 0x13
 #define IrohaP 0x3
 #define SoraP 0x1C
@@ -126,6 +126,7 @@ POP
 #define NougalasPortrait 0xF9
 #define NyxPortrait 0xE5
 #define TamaraPortrait 0x1FB
+#define CarlsonPortrait 0x1FA
 
 // PegSisters
 #define PhinaPortrait 0xF6
@@ -581,12 +582,21 @@ FaunaData:
 setMugEntry(FaunaP, FaunaData, 2, 6, 2, 4)
 
 ALIGN 4
+FlareTData:
+#incbin "Dmps/FlareT_mug.dmp"
+#incbin "Dmps/FlareT_frames.dmp"
+#incbin "Dmps/FlareT_palette.dmp"
+#incbin "Dmps/FlareT_minimug.dmp"
+setMugEntry(FlareP, FlareTData, 2, 5, 2, 3)
+
+
+ALIGN 4
 FlareData:
 #incbin "Dmps/Flare_mug.dmp"
 #incbin "Dmps/Flare_frames.dmp"
 #incbin "Dmps/Flare_palette.dmp"
 #incbin "Dmps/Flare_minimug.dmp"
-setMugEntry(FlareP, FlareData, 2, 6, 3, 4)
+setMugEntry(FlareAlt, FlareData, 2, 6, 3, 4)
 
 ALIGN 4
 MikoData:
@@ -1017,6 +1027,14 @@ TamaraData:
 #incbin "Dmps/Tamara_palette.dmp"
 #incbin "Dmps/Tamara_minimug.dmp"
 setMugEntryExtend(TamaraPortrait, TamaraData, 5, 6, 5, 3, 254, 4, 0, 4)
+
+ALIGN 4
+CarlsonData:
+#incbin "Dmps/WarriorNousagi_mug.dmp"
+#incbin "Dmps/WarriorNousagi_frames.dmp"
+#incbin "Dmps/WarriorNousagi_palette.dmp"
+#incbin "Dmps/WarriorNousagi_minimug.dmp"
+setMugEntry(CarlsonPortrait, CarlsonData, 3, 5, 3, 3)
 
 /*
 ALIGN 4

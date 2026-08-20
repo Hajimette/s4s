@@ -15,7 +15,8 @@
 #define GozaruID 158
 
 
-
+//Investigation
+#define InvestigationID 201
 
 
 
@@ -76,8 +77,7 @@
 //Author Unknown (Initial Commit)
 #define GentilhommeID 255
 
-//Investigation
-#define InvestigationID 201
+
 
 //Hex: -15 avoid to all adjacent enemies.
 //By Snakey1

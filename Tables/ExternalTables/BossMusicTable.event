@@ -35,6 +35,11 @@ BossBGMEntry(0x45, FE5BossBattleID)
 //Chp7
 BossBGMEntry(0x4E, FE5BossBattleID)
 
+//Chp8
+BossBGMEntry(0x4B, FE5BossBattleID)
+
+//Chp9
+BossBGMEntry(0x4F, FE5BossBattleID)
 
 BossBGMTerminator
 

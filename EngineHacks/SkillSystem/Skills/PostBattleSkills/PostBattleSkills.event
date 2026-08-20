@@ -47,14 +47,6 @@ BYTE GrislyWoundID
 
 
 ALIGN 4
-Alchemist:
-#incbin "Alchemist/Alchemist.dmp"
-POIN SkillTester
-WORD AlchemistID
-POIN AlchemistEvent
-#include "Alchemist/AlchemistEvent.event"
-
-ALIGN 4
 Despoil:
 #incbin "Despoil/despoil.dmp"
 POIN SkillTester

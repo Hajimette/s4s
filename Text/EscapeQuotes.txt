@@ -20,7 +20,7 @@ rigged to explode...right?![A][X]
 ## AmeliaChapter7FinalEscapeText
 [MidRight][LoadAme]
 [MidRight]
-How many explosive do[N]
+How many explosives do[N]
 these people have?![A][X]
 
 ## AmeliaChapter7EscapeText
@@ -71,8 +71,8 @@ Get us out of here![A][X]
 ## ChloeChp7EscapeText
 [MidRight][LoadChloeMask]
 [MidRight]
-Iroha, Koyori, you[N]
-better hurry up![A][X]
+Iroha, Koyori, I'm[N]
+not waiting for you![A][X]
 
 
 

@@ -5,6 +5,7 @@
 #define Thunder_index 0x19
 #define Fire_index 0x16
 #define Water_index 0x49
+#define Nosferatu_index 0x1E
 
 #include "CSA System FE8/Master Spell Animation Installer.event"
 
@@ -16,6 +17,8 @@
 #include "Event/Wind.event"
 #include "Event/Fire.event" //Fire
 #include "Event/Water.event"
+#include "Event/Nosferatu.event"
+
 
 /*
 credits
@@ -24,7 +27,7 @@ credits
 Jormungand - Orihara Saki
 Wind - JeorgeReds, Alice
 Thunder SNES - MisakaMikoto
-
+Nos - MisakaMikoto
 */
 
 

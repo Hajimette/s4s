@@ -263,12 +263,12 @@ POP
 // Max Weapon Lvl for unpromo
 PUSH 
 ORG 0x2C1A2
-BYTE 71
+BYTE 121
 POP
 
 PUSH 
 ORG 0x2C1A6
-BYTE 71
+BYTE 121
 POP
 
 

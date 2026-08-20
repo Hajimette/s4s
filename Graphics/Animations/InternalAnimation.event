@@ -721,7 +721,6 @@ POP
 }
 
 
-
 ALIGN 4
 InvestigatorAnims:
 SwordAnim(0x01)

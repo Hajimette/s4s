@@ -1,0 +1,65 @@
+
+//#define NoTransparency
+/*Uncomment the above to disable transparency in the game's menus.
+If you'd only like some things to be transparent, leave this undefined and
+instead remove their specific surrounding ifdef statements.*/
+#include "MenuImages/Installer.event"
+#include "TSA/Installer.event"
+
+/*
+ORG $98468 //Preps Extra 2
+POIN PrepsExtra2Gfx
+
+
+
+ALIGN 4
+PrepsExtra2Gfx:
+#incext Png2Dmp --lz77 "Funds.png" */
+
+
+ALIGN 4
+LevelUpScreen:
+#incext Png2Dmp "LevelUp.png" --lz77
+//#incbin "Level Up Screen.png.dmp"
+ALIGN 4
+LevelUpScreenTSA:
+#incbin "LevelUp.png.tsa.dmp"
+ALIGN 4
+LevelUpScreenPal:
+#incbin "LevelUp.png.pal.dmp"
+
+
+PUSH
+ORG 0x5B6470
+// For each color style
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+POIN MenuTiles
+
+ORG 0x5B6BB4//Palettes
+#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+#incbin "GrayPal.dmp"
+#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+#incbin "GrayPal.dmp"
+
+ORG 0xA1738C//MMB Palettes
+#incbin "BluePal.dmp"
+#incbin "RedPal.dmp"
+#incbin "GreenPal.dmp"
+POP
+
+PUSH
+//Copy stuff from MenuInstaller.event here. If something is
+//pointed to rather than directly #incbinned, add its respective definition below too.
+POP
+
+ALIGN 4
+MenuTiles:
+#incext Png2Dmp --lz77 "MenuTiles.png"
+
+//Copy more stuff from MenuInstaller.event here.
