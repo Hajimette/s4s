@@ -14,8 +14,6 @@ Learned  [X]
 
 #include "statscreen_text.txt"
 
-
-
 #0xd4c LikesText
 //first text ID in the free block
 Likes:[X]

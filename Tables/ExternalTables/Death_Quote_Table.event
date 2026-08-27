@@ -12,7 +12,7 @@
 
 
 //HoloEmblem Death Quotes
-DeathQuote(0x1,Any,0x0,0x0,HoloEmblemDeath)
+DeathQuote(0x1,Any,GameOver,0x0,HoloEmblemDeath)
 DeathQuote(0x1A,Any,0x0,0x0,HoloEmblemDeathChloe)
 
 

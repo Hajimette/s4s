@@ -469,11 +469,14 @@ SongTable(RevolutionID, Revolution, MapMusicGroup)
 SongTable(FE11OutofDarknessID, OutofDarkness, MapMusicGroup)
 }
 
-
-
 {
 #include "MusicEvents/AdvanceA.event"
 SongTable(FE5AdvanceAID, AdvanceA, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/SearchingforVictory.event" 
+SongTable(FE5S4VID, SearchingforVictory, MapMusicGroup)
 }
 
 #include "SoundroomEditor.event"

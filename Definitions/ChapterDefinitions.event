@@ -24,15 +24,17 @@
 
 #define Chapter9 0x9
 
-#define Chapter10 0xA
+#define Chapter9x 0xA
 
-#define Chapter11 0xB
+#define Chapter10 0xB
+
+//#define Chapter11 0xB
 
 #define Chapter12 0xC
 
 #define Chapter13 0xD
 
-#define Chapter14 0xE
+//#define Chapter14 0xE
 
 //Map Changes
 #define Chapter1MapChanges 0x06
@@ -104,7 +106,9 @@
 #define Chapter7Event 0x24
 #define Chapter8Event 0x27
 #define Chapter9Event 0x2A //Interlude
-#define Chapter10Event 0x2D
+#define Chapter9xEvent 0x2D //9x
+
+// #define Chapter10Event
 #define Chapter11Event 0x33
 #define Chapter12Event 0x37
 #define Chapter13Event 0x3B

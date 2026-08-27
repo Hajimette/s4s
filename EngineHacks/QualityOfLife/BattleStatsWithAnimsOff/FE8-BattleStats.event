@@ -30,7 +30,8 @@
 	ORG $9A3680
 	POIN New_Battle_Anims_Off_Right_TSA
 	POIN New_Battle_Anims_Off_Left_TSA
-	
+*/
+PUSH	
 	//Make the box not overlap active units or go off-screen (will probably have to fiddle with this later)
 	ORG $7AB8A
 	SHORT 0x285F //cmp r0,#0x5F rather than 0x6F
@@ -45,20 +46,20 @@
 	jumpToHack(Show_Battle_Stats)
 	
 	POP
-	*/
-/*
+	
+
 	ALIGN 4
 	New_Battle_Anims_Off_Graphics:
 	//#incext Png2Dmp "Anims_Off_Battle_Graphic New.png" --lz77
 	#incbin "Anims_Off_Battle_Graphic-New.dmp"
 	
-	ALIGN 4
+/*	ALIGN 4
 	New_Battle_Anims_Off_Right_TSA:
-	#incbin "New_Battle_Anims_Off_Right_TSA.dmp" 
+	#incbin "BattleStatsRight.dmp" 
 	
 	ALIGN 4
 	New_Battle_Anims_Off_Left_TSA:
-	#incbin "New_Battle_Anims_Off_Left_TSA.dmp"
+	#incbin "BattleStatsLeft.dmp"
 */	
 
 

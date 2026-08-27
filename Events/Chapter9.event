@@ -13,12 +13,12 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-
+TurnEventEnemy(0, CarlsonTurn1, 1)
 	END_MAIN
 
 ALIGN 32
 CharacterBasedEvents:
-
+CharacterEvent(Flag10,MikoBotanShike, 0x5, 0x14)
 	END_MAIN
 
 MiscBasedEvents:
@@ -29,10 +29,14 @@ DefeatAll(EndingScene)
 LocationBasedEvents:
 Chest(0xD3,10,2)
 Village(0xB,Chp9Village,2,16)
+Armory(ShikeArmory,24,1)
+Vendor(ShikeVendor,3,4)
+House(0, Chp8Inn, 7,1)
 	END_MAIN
 
 Dunno1:
-
+AFEV 0x18 LaplusCheckShike 0
+AFEV 0x19 RBCShike 0
 	END_MAIN
 
 Dunno2:
@@ -76,7 +80,7 @@ UNIT 0x82 0x41 0x53 Level(13,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [SteelAxe] NoMo
 UNIT 0x82 0xF 0x53 Level(14,Enemy,True) [29,9] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
 UNIT 0x82 0x1A 0x53 Level(14,Enemy,True) [24,7] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
 UNIT 0x82 0x26 0x53 Level(14,Enemy,True) [28,5] 0x0 0x0 0x0 0x0 [Thunder] NoMoveAI
-UNIT 0x82 0x4E 0x53 Level(14,Enemy,True) [22,5] 0x0 0x0 0x0 0x0 [Javelin] NoMoveAI
+UNIT 0x82 0x4E 0x53 Level(14,Enemy,True) [22,5] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 UNIT 0x82 0x19 0x53 Level(13,Enemy,True) [17,3] 0x0 0x0 0x0 0x0 [SteelBow] NoMoveAI
 UNIT 0x82 0x42 0x53 Level(14,Enemy,True) [14,0] 0x0 0x0 0x0 0x0 [SteelAxe] NoMoveAI
 UNIT 0x82 0x45 0x53 Level(15,Enemy,True) [13,3] DropItem 0x0 0x0 0x0 [Heal,0x4D] HealAI
@@ -97,7 +101,7 @@ UNIT 0x82 0x41 0x53 Level(14,Enemy,True) [25,3] 0x0 0x0 0x0 0x0 [0x28] TwoAction
 UNIT 0x82 0x41 0x53 Level(14,Enemy,True) [25,3] 0x0 0x0 0x0 0x0 [0x28] TwoActionAI
 UNIT 0x82 0x3F 0x53 Level(15,Enemy,True) [20,1] 0x0 0x0 0x0 0x0 [SteelAxe] TwoActionAI
 UNIT 0x82 0x13 0x53 Level(14,Enemy,True) [7,1] 0x0 0x0 0x0 0x0 [0xD] TwoActionAI
-UNIT 0x82 0x41 0x53 Level(13,Enemy,True) [24,1] 0x0 0x0 0x0 0x0 [IronBow] TwoActionAI
+UNIT 0x82 0x41 0x53 Level(13,Enemy,True) [24,1] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
 UNIT 0x82 0xF 0x53 Level(13,Enemy,True) [19,17] 0x0 0x0 0x0 0x0 [IronSword] NoMoveAI
 UNIT 0x82 0x1A 0x53 Level(15,Enemy,True) [23,16] 0x0 0x0 0x0 0x0 [SteelBow] TwoActionAI
 
@@ -162,6 +166,8 @@ Traps2:
 	ENDTRAP
 	ALIGN 4
 
+
+
 BeginningScene:
 SetBackground(0x2D)
 MusicChange(0x34)
@@ -200,6 +206,7 @@ CLEARALL
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	CAM1 [28,15]
+	STAL 60
 	FadeBackBlack
 	LOAD3 0 CutsceneShike9
 	ENUN
@@ -216,7 +223,7 @@ MOVE 5 0xD1 [26,2]
 ENUN
 MOVE 5 0xD1 [26,10]
 ENUN
-MOVE 7 0xD1 [14,10]
+MOVE 7 0xD1 [12,10]
 ENUN
 EVBIT_F 9
 STAL 10
@@ -262,21 +269,214 @@ GiveItem(0x59,0xFFFF)
 NoFade
 ENDA
 
+CarlsonTurn1:
+CAM1 [2,11]
+MuteMusic
+PlayEmotionEffect(0x4F,DotDotDotEffect)
+STAL 45
+Text(CarlsonSniff)
 
 
+NoFade
+ENDA
+
+MikoBotanShike:
+MusicChange(0x17)
+Text(MikoSusShike)
+NoFade
+ENDA
+
+LaplusCheckShike:
+CHECK_ACTIVE
+	SVAL s1 0x2F
+	BEQ 1 s1 sC
+	ENUF 24 // unset completion flag if unit selected isn't Miko
+	GOTO 2
+	LABEL 1
+CHECK_DEPLOYED 0x2E
+SVAL s7 0
+BEQ 2 sC s7
+	Text(LaplusLuiShike)
+	LABEL 2
+NoFade
+ENDA
+
+RBCShike:
+CHECK_ACTIVE
+	SVAL s1 0x10
+	BEQ 1 s1 sC
+	ENUF 25 // unset completion flag if unit selected isn't Miko
+	GOTO 2
+	LABEL 1
+CHECK_DEPLOYED 0x11
+SVAL s7 0
+BEQ 2 sC s7
+	Text(RBCRisuShike)
+	LABEL 2
+NoFade
+ENDA
 
 
-
-
-
-
-
+Chp8Inn:
+FadeBlack
+SetBackground(0x9)
+FadeBackBlack
+CHECK_ACTIVEID 0x34
+	SVAL s1 0
+	BEQ 1 s1 sC
+Text(IrohaShikeInn)
+ENUT 20
+GOTO 21
+LABEL 1
+CHECK_ACTIVEID 0x35
+	SVAL s1 0
+	BEQ 2 s1 sC
+Text(KoyoriShikeInn)
+ENUT 20
+LABEL 2
+CHECK_ACTIVEID 0x2F
+	SVAL s1 0
+	BEQ 3 s1 sC
+Text(LaplusShikeInn)
+ENUT 20
+GOTO 21
+LABEL 3
+CHECK_ACTIVEID 0x2E
+	SVAL s1 0
+	BEQ 4 s1 sC
+Text(LuiShikeInn)
+ENUT 20
+GOTO 21
+LABEL 4
+CHECK_ACTIVEID 0x1A
+	SVAL s1 0
+	BEQ 5 s1 sC
+Text(ChloeShikeInn)
+ENUT 20
+GOTO 21
+LABEL 5
+Text(ShikeInnOtherGegs)
+LABEL 21
+FadeBlack
+CLEAN
+FadeBackBlack
+NoFade
+ENDA
 
 
 EndingScene:
-	MNC2 9
+FadeBlack
+MuteMusic
+SetBackground(0x49)
+FadeBackBlack
+CHECK_ALIVE 0x2
+SVAL s7 0
+BEQ 67 sC s7
+CHECK_ALIVE 0x5
+SVAL s7 0
+BEQ 67 sC s7
+CHECK_ALIVE 0x6
+SVAL s7 0
+BEQ 67 sC s7
+
+TEXTSTART
+TEXTSHOW ShikeEnding
+TEXTEND
+MusicChange(0x17)
+TEXTCONT
+TEXTEND
+STAL 45
+LABEL 67
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FadeBlack
+CHECK_EVENTID Flag14 //Checks if HoloX visited the Inn
+	SVAL s7 0
+	BEQ 37 sC s7
+SetBackground(0x22)
+FadeBackBlack
+CHECK_ALIVE 0x34
+SVAL s7 0
+BEQ 14 sC s7
+CHECK_ALIVE 0x35
+SVAL s7 0
+BEQ 14 sC s7
+Text(ShikeGaiden) //irh and kyr
+GOTO 13
+LABEL 14
+CHECK_ALIVE 0x2E
+SVAL s7 0
+BEQ 15 sC s7
+Text(ShikeGaidenLui)
+GOTO 13
+LABEL 15
+CHECK_ALIVE 0x1A
+SVAL s7 0
+BEQ 56 sC s7
+Text(ShikeGaidenChloe)
+GOTO 13
+LABEL 56
+Text(ShikeGaidenLap)
+LABEL 13
+FadeBlack
+CLEAN
+MNC2 10
+GOTO 21
+LABEL 37 //Put the event here that Cache is lost.
+FadeBlack
+MusicChange(0x2F)
+SetBackground(0x49)
+FadeBackBlack
+Text(ShikeGaidenFail)
+FadeBlack
+
+	MNC2 11
+	
+	LABEL 21
 	NoFade
 	ENDA
 
 
 
+ALIGN 4
+ShikeArmory:
+SHORT 0x1
+SHORT 0x3
+SHORT 0x14
+SHORT 0x16
+SHORT 0x1F
+SHORT 0x20
+SHORT 0x2D
+SHORT 0x2E
+SHORT 0x1C
+SHORT 0x28
+SHORT 0
+SHORT 0
+
+ALIGN 4
+ShikeVendor:
+SHORT Fire
+SHORT Thunder
+SHORT 0xC0
+SHORT 0xBD
+SHORT 0x45
+SHORT 0x46
+SHORT Heal
+SHORT Mend
+SHORT 0x56 
+SHORT 0x58
+SHORT 0x6C
+SHORT 0
+SHORT 0

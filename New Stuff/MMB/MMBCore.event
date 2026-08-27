@@ -22,7 +22,7 @@
 	WORD MMBHeight
 
 	#include "Internal/MMBClearScrolledWindow.lyn.event"
-	WORD MMBWidth
+	WORD MMBWidth-1
 	WORD MMBHeight
 
 	#include "Internal/MMBExtendWindow.lyn.event"

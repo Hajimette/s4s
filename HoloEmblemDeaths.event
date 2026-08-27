@@ -6,6 +6,7 @@ SVAL s2 0x1A
 ASMC ASMC_CheckIfUnitHasItem
 BEQ 0 sC s0
 Text(ChloeHoloDeath)  // If the item is in inventory
+CALL 0x592104
   GOTO 1
 LABEL 0
 Text(ChloeDeath)  // If the item is *not* in inventory

@@ -80,6 +80,7 @@
 #define FE5OnAlertID 0x3E0
 #define FE5PressingThreatFinalID 0x3DF
 #define FE5AdvanceAID 0x63
+#define FE5S4VID 0x3D9
 
 //FE6
 #define FE6ShamanID 0x37

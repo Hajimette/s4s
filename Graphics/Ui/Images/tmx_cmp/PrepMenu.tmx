@@ -4,6 +4,9 @@
   <image source="../../MenuTiles.png" width="128" height="64"/>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="28" height="12">
+  <properties>
+   <property name="PaletteID" type="int" value="0"/>
+  </properties>
   <data encoding="csv">
 2,3,4,4,4,4,4,4,4,4,47,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,6,
 7,55,55,55,55,55,55,55,55,55,48,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,11,

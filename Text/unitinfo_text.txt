@@ -1,3 +1,12 @@
+# 0x5A1
+ *{P}i*{ck}[X]
+
+# 0x5A2 ^
+Remaining[X]
+
+
+
+
 ## AmeliaLike
 Your Mother[X]
 
@@ -17,15 +26,15 @@ Resolve (Lvl.15)[X]
 150cm[X]
 
 ## ReineLike
-^{Extremely Spicy Food}[X]
+^{Extremely Spi}c{y Food}[X]
 
 ## ReineLike2
 Sweets[X]
 
-## ReineSkill
+## ReineSkill ^
 Rally Speed (Lvl. 5)[X]
 
-## ReineSkill2
+## ReineSkill2 ^
 Counter Magic (Lvl. 15)[X]
 
 ## AgeSecret
@@ -58,10 +67,10 @@ Cats[X]
 ## ZetaLike2
 Languages[X]
 
-## ZetaSkill1
+## ZetaSkill1 ^
 Dazzle (Lvl. 5)[X]
 
-## ZetaSkill2
+## ZetaSkill2 ^
 Provoke (Lvl. 15)[X]
 
 ## ZetaHeight

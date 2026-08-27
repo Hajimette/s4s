@@ -393,3 +393,6 @@ Out of the Darkness[X]
 
 ## AdanceATxt
 Advance A[X]
+
+## SearchingforVictoryTxt
+Searching for Victory[X]

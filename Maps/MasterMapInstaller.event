@@ -4,6 +4,7 @@
 #include "7.event"
 #include "7End.event"
 #include "9.event"
+#include "9x.event"
 #include "Chapter10.event"
 #include "Chapter3.event"
 #include "Chapter3End.event"
