@@ -11,10 +11,10 @@
   <properties>
    <property name="Anims1" value="0x5"/>
    <property name="Anims2" value="0x0"/>
-   <property name="ChapterID" value="0xA"/>
+   <property name="ChapterID" value="0xD"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0x36"/>
-   <property name="MapID" value="0x35"/>
+   <property name="MapChangesID" value="0"/>
+   <property name="MapID" value="0"/>
    <property name="ObjectType" value="0x6"/>
    <property name="PaletteID" value="0xA"/>
    <property name="TileConfig" value="0x6"/>

@@ -18,3 +18,11 @@ Avoid those hits![X]
 Select which units to[NL]
 deploy. The number is[NL]
 limited.[X]
+
+
+//# 0x5A1
+// Pick[X]
+
+
+# 0x5A2 ^
+Remaining[X]

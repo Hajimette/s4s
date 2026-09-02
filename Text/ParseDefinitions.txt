@@ -111,6 +111,10 @@
 [LoadZetaP] = [LoadFace][0x12][0x1]
 [LoadKaelaP] = [LoadFace][0xC4][0x1]
 [LoadIrohaP] = [LoadFace][0x3][0x1]
+[LoadIrohaAngry] = [LoadFace][0xD8][0x1]
+[LoadIrohaFrame1] = [LoadFace][0xDA][0x1]
+[LoadIrohaFrame2] = [LoadFace][0xDB][0x1]
+
 [LoadKoyoriP] = [LoadFace][0x27][0x1]
 [LoadKoyoriLeftP] = [LoadFace][0xD0][0x1]
 [LoadSanaP] = [LoadFace][0x53][0x1]
@@ -144,6 +148,7 @@
 [LoadNyx] = [LoadFace][0xE5][0x1]
 [LoadRandall] = [LoadFace][0xFF][0x1]
 [LoadBrigand] = [LoadFace][0x4C][0x1]
+[LoadKokushibyo] = [LoadFace][0xF9][0x2]
 
 // NPCs
 [LoadMan] = [LoadFace][0x5A][0x1]

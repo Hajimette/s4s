@@ -10,8 +10,8 @@ POP
 #define UnspecifiedAttackedConvo(Character,Chapter,EventID,TextID) "SHORT 0x0 Character Chapter EventID TextID 0x0 0x0 0x0"
 
 
-ALIGN 4
-BattleQuoteTable:
+//ALIGN 4
+//BattleQuoteTable:
 //Prologue
 SpecifiedBattleConvo(0x14,EmiliaBoss,Prologue,Flag13,BotanPrologueQuote)
 SpecifiedBattleConvo(0x11,EmiliaBoss,Prologue,Flag14,RisuPrologueQuote)
@@ -39,8 +39,19 @@ UnspecifiedAttackedConvo(0x4D,0x5,Flag15,BossChp5Attacked)
 UnspecifiedAttackedConvo(0x45,0x6,Flag13,BossChp6Attacked)
 
 //Chapter7
-SpecifiedBattleConvo(0x1A,0x4E,0x3,Flag14,ChloeTamChp7)
+SpecifiedBattleConvo(0x1A,0x4E,0x7,Flag14,ChloeTamChp7)
 UnspecifiedAttackedConvo(0x4E,0x7,Flag13,BossChp7Attacked)
 
+// Chapter 8 (Randall)
+UnspecifiedAttackedConvo(0x4B,0x8,Flag8,BossChp8Attacked)
+
+// Chapter 9 
+UnspecifiedAttackedConvo(0x4F,0x9,Flag8,BossChp9Attacked)
+
+// Chapter 9x
+
+SpecifiedBattleConvo(0x50,0x37,0xA,Flag11,AymKokuChp9x)
+SpecifiedBattleConvo(0x50,0x34,0xA,Flag12,IrhKokuChp9x)
+UnspecifiedAttackedConvo(0x50,0xA,Flag8,BossChp9xAttacked)
 
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0  // Terminator

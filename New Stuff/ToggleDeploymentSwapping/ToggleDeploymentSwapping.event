@@ -31,6 +31,12 @@ ForcedDeployment(0x1,LockedPosition,1,0x8)
 ForcedDeployment(0x2E,LockedPosition,1,0x8)
 ForcedDeployment(0x2F,LockedPosition,1,0x8)
 ForcedDeployment(0x1,UnlockedPosition,1,0x9)
+ForcedDeployment(0x1,UnlockedPosition,1,0xA)
+ForcedDeployment(0x34,UnlockedPosition,1,0xA)
+ForcedDeployment(0x35,UnlockedPosition,1,0xA)
+ForcedDeployment(0x1A,UnlockedPosition,1,0xA)
+ForcedDeployment(0x2F,UnlockedPosition,1,0xA)
+ForcedDeployment(0x2E,UnlockedPosition,1,0xA)
 
 EndForcedDeploymentList
 

@@ -47,14 +47,14 @@
 #include "TileChange/Installer.event"
 #include "CheckUnitWItem/CheckIfUnitHasItem.event"
 
-
-//#include "StatGain/HigherNumberGains.event"
-
 #include "NewPromoScreen/NewPromoScreen.event"
 #include "MoveCost/MoveCostsInstaller.event"
-
-
 #include "UpdatedLButtonCycling/UpdatedLButtonCycling.event"
+#include "DynamicPortraits/DynamicPortraitsInstaller.event"
+
+
+
+//#include "StatGain/HigherNumberGains.event"
 
 //#include "Guide/GuideInstaller.event"
 
@@ -71,7 +71,7 @@ ALIGN 4
 //#include "SilentGiveItem/SilentGiveItem.c"
 //	#include "SilentGiveItem/SilentGiveItem.lyn.event"
 
-
+// #include "ChangePortrait/Installer.event"
 
 
 

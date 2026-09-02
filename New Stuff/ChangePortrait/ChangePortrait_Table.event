@@ -1,0 +1,21 @@
+#define csvmacro000(arg000,arg001,arg002,arg003,arg004,arg005) "SHORT arg000; BYTE arg001 arg002 arg003 arg004; SHORT arg005; "
+
+
+/*
+First condition L to R
+
+Portrait
+Unit
+Class (0xFF or 0x00 for Any)
+MAPID (0xFF)
+Edition (1,2,3)
+Flag (0x00 Any)
+
+
+*/
+
+ChangeStatusBGEachChapter_Table:
+csvmacro000(0x34,0x00,0x0A,0xFF,0xFF,0x00)  // Iroha Oni Change
+
+
+csvmacro000(0x00,0x00,0x00,0x00,0x00,0x00)  // term

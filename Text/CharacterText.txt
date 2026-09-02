@@ -571,3 +571,10 @@ Carlson[X]
 ## CarlsonDesc
 A Nousagi officer with[N]
 a few screws loose.[X]
+
+## KokushibyoName
+Kokushibyo[X]
+
+## KokushibyoDesc
+A mercenary hired by Pekoland.[N]
+Finally found the cache.[X]

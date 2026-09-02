@@ -82,6 +82,10 @@ POP
 #define FlareAlt 0xD7
 #define SubaruP 0x13
 #define IrohaP 0x3
+#define IrohaAngy 0xD8
+#define IrohaFrm1 0xDA
+#define IrohaFrm2 0xDB
+
 #define SoraP 0x1C
 #define KoyoriP 0x27
 #define RushiaP 0xB
@@ -127,6 +131,7 @@ POP
 #define NyxPortrait 0xE5
 #define TamaraPortrait 0x1FB
 #define CarlsonPortrait 0x1FA
+#define KokushibyoPortrait 0x1F9
 
 // PegSisters
 #define PhinaPortrait 0xF6
@@ -1035,6 +1040,39 @@ CarlsonData:
 #incbin "Dmps/WarriorNousagi_palette.dmp"
 #incbin "Dmps/WarriorNousagi_minimug.dmp"
 setMugEntry(CarlsonPortrait, CarlsonData, 3, 5, 3, 3)
+
+ALIGN 4
+IRHangyData:
+#incbin "Dmps/IrohaSword_mug.dmp"
+#incbin "Dmps/IrohaSword_frames.dmp"
+#incbin "Dmps/IrohaSword_palette.dmp"
+#incbin "Dmps/IrohaSword_minimug.dmp"
+setMugEntryExtend(IrohaAngy, IRHangyData, 4, 7, 4, 5, 10, 4, 0, 0)
+
+ALIGN 4
+IrohaFrm1Data:
+#incbin "Dmps/Irohaframe1_mug.dmp"
+#incbin "Dmps/Irohaframe1_frames.dmp"
+#incbin "Dmps/Irohaframe1_palette.dmp"
+#incbin "Dmps/Irohaframe1_minimug.dmp"
+setMugEntry(IrohaFrm1, IrohaFrm1Data, 0, 0, 4, 5)
+
+ALIGN 4
+IrohaFrm2Data:
+#incbin "Dmps/Irohaframe2_mug.dmp"
+#incbin "Dmps/Irohaframe2_frames.dmp"
+#incbin "Dmps/Irohaframe2_palette.dmp"
+#incbin "Dmps/Irohaframe2_minimug.dmp"
+setMugEntry(IrohaFrm2, IrohaFrm2Data, 0, 0, 4, 5)
+
+ALIGN 4
+KokushibyoData:
+#incbin "Dmps/Kokushibyo_mug.dmp"
+#incbin "Dmps/Kokushibyo_frames.dmp"
+#incbin "Dmps/Kokushibyo_palette.dmp"
+#incbin "Dmps/Kokushibyo_minimug.dmp"
+setMugEntry(KokushibyoPortrait, KokushibyoData, 2, 6, 2, 4)
+
 
 /*
 ALIGN 4

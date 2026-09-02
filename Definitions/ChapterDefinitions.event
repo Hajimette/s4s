@@ -69,16 +69,16 @@
 #define Chapter1Map 0x04
 #define Chapter2Map 0x08
 #define Chapter3Map 0x0B
-#define Chapter4Map 0x11
+#define Chapter4Map 0x11 //Interlude
 #define Chapter5Map 0x15
 #define Chapter6Map 0x1B
 #define Chapter7Map 0x1F
 #define Chapter8Map 0x22
-#define Chapter9Map 0x25 //Chp8 
-#define Chapter10Map 0x28 //Interlude
-#define Chapter11Map 0x2B // 9
-#define Chapter12Map 0x31 //9x
-#define Chapter13Map 0x35 // 10
+#define Chapter9Map 0x25 
+#define Chapter10Map 0x28 
+#define Chapter11Map 0x2B // 8
+#define Chapter12Map 0x31 //9
+#define Chapter13Map 0x35 // 9x
 #define Chapter14Map 0x39
 #define Chapter15Map 0x3F
 #define Chapter16Map 0x45
@@ -107,14 +107,15 @@
 #define Chapter8Event 0x27
 #define Chapter9Event 0x2A //Interlude
 #define Chapter9xEvent 0x2D //9x
+#define Chapter10Event 0x33
+#define Chapter11Event 0x37
+#define Chapter12Event 0x3B
+#define Chapter13Event 0x41
+#define Chapter14Event 0x47
 
-// #define Chapter10Event
-#define Chapter11Event 0x33
-#define Chapter12Event 0x37
-#define Chapter13Event 0x3B
-#define Chapter14Event 0x41
-#define CalliCutsceneEvent 0x7F
-#define GrassCutscene 0x80
+
+//#define CalliCutsceneEvent 0x7F
+//#define GrassCutscene 0x80
 
 //Objects
 

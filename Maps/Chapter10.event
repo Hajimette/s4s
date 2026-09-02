@@ -26,7 +26,7 @@ ALIGN 4
 MapData:
   #incbin "Chapter10_data.dmp"
 
-SetChapterData(0xA, 0x6, 0, 0xA, 0x6, 0x35, MapData, 0x5, 0x0, 0x36)
+SetChapterData(0xD, 0x6, 0, 0xA, 0x6, 0, MapData, 0x5, 0x0, 0)
 
 ALIGN 4
 Map_Change_0:
@@ -72,6 +72,6 @@ MapChangesData:
   TileMap(7, 17, 7, 3, 2, Map_Change_7)
   TileMapEnd
 
-SetTileChanges(0x36, MapChangesData)
+SetTileChanges(0, MapChangesData)
 
 }

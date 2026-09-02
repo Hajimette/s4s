@@ -16,11 +16,14 @@ LockIDGetter:
 	#include "LockIDGetter_Classic.lyn.event"
 #endif // CONSOLIDATED_ADV_WEAPON_LOCKS
 
+#define SetLockAssociation(itemID,lockID) "PUSH; ORG LockAssociationTable+itemID; BYTE lockID; POP"
+
+
 // This is only used when consolidated adv weapon locks are on, add the lock ID with the macro here for the item ID
 LockAssociationTable:
+SetLockAssociation(0xC9,IrohaLock)
 FILL 256
 
-#define SetLockAssociation(itemID,lockID) "PUSH; ORG LockAssociationTable+itemID; BYTE lockID; POP"
 
 // e.g. `SetLockAssociation(IronSword,1)`
 // Then instead of putting this in byte 4 of the weapon ability word just set bit 0x01000000
@@ -93,5 +96,12 @@ KoyoriLock:
 BYTE HardCharLock
 BYTE 0x35
 BYTE EndLockArray
+
+AyameLock:
+BYTE HardCharLock
+BYTE 0x37
+BYTE EndLockArray
+
+
 
 #endif // ADV_WEAPON_LOCKS

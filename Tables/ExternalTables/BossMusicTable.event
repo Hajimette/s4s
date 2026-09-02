@@ -41,6 +41,9 @@ BossBGMEntry(0x4B, FE5BossBattleID)
 //Chp9
 BossBGMEntry(0x4F, FE5BossBattleID)
 
+//Chp9x
+BossBGMEntry(0x50, FE5BossBattleID)
+
 BossBGMTerminator
 
 PUSH

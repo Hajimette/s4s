@@ -1,3 +1,4 @@
+ALIGN 4
 SetChapterEvents(Chapter9xEvent, PointerList)
 
 PointerList:
@@ -7,14 +8,14 @@ PointerList:
 	POIN MiscBasedEvents
 	POIN Dunno1 Dunno2 Dunno3 Tutorial
 	POIN Traps1 Traps2
-	POIN PlayerUnits PlayerUnits  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN Units1 Units1
 	POIN $0 $0 $0
 	POIN $0 $0 $0
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 
-	END_MAIN
+END_MAIN
 
 ALIGN 32
 CharacterBasedEvents:
@@ -23,10 +24,14 @@ CharacterBasedEvents:
 
 MiscBasedEvents:
 	CauseGameOverIfLordDies
+	DefeatAll(EndingScene)
 	END_MAIN
 
 LocationBasedEvents:
-
+Chest(0x3F,17,0)
+Chest(0x59,2,9)
+Chest(0xDA,18,14)
+House(Flag10, Chp9xCave, 5,3)
 	END_MAIN
 
 Dunno1:
@@ -45,26 +50,88 @@ Tutorial:
 
 	END_MAIN
 
-PlayerUnits:
-
-UNIT Amelia 0x1 Amelia Level(1,Ally,False) [5,4] 0x0 0x0 0x0 0x0 [0,0] NoAI
-
-        UNIT 0x14 0x4 Amelia Level(1,Ally,False) [10,4] 0x0 0x0 0x0 0x0 [0,0] NoAI
-	
-	UNIT 0x10 0x4 Amelia Level(1,Ally,False) [12,3] 0x0 0x0 0x0 0x0 [0,0] NoAI
-	 
-	UNIT 0x11 0x4 Amelia Level(1,Ally,False) [9,12] 0x0 0x0 0x0 0x0 [0,0] NoAI
-	  
-	UNIT 0x19 0x4 Amelia Level(1,Ally,False) [8,4] 0x0 0x0 0x0 0x0 [0,0] NoAI
-	   
-	 UNIT 0x34 0x4 Amelia Level(1,Ally,False) [7,6] 0x0 0x0 0x0 0x0 [0,0] NoAI
-	
-	 UNIT 0x35 0x4 Amelia Level(1,Ally,False) [2,5] 0x0 0x0 0x0 0x0 [0,0] NoAI
- 
+Units1:
+UNIT Amelia 0x1 Amelia Level(1,Ally,False) [22,1] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	UNIT 0x32 0x91 Amelia Level(1,Ally,False) [24,1] 0x0 0x0 0x0 0x0 [SteelSword,0xD,Vulnerary] NoAI
+	UNIT 0x10 0x8F Amelia Level(1,Ally,False) [23,2] 0x0 0x0 0x0 0x0 [0xA0,0x6C] NoAI	
+	UNIT 0x11 0x8D Amelia Level(2,Ally,False) [24,3] 0x0 0x0 0x0 0x0 [0x45,0x38] NoAI
+	UNIT 0x14 0x89 Amelia Level(7,Ally,False) [21,4] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	UNIT 0x1B 0x9B Amelia Level(5,Ally,False) [23,4] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	UNIT 0x16 0xB9 Amelia Level(1,Ally,False) [22,5] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	UNIT 0x15 0x84 Amelia Level(4,Ally,False) [24,5] 0x0 0x0 0x0 0x0 [0,0] NoAI
 	UNIT
 
 EnemyUnits:
-UNIT 0x82 0x4E 0x53 Level(14,Enemy,True) [11,9] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
+UNIT 0x7D 0xD 0x53 Level(11,Enemy,True) [15,5] 0x0 0x0 1 REDA15R6 [IronSword,0x6B] ThiefAI
+UNIT 0x7D 0x4E 0x53 Level(14,Enemy,True) [9,10] 0x0 0x0 1 REDA10R11 [IronLance] DefaultAI
+UNIT 0x7D 0x19 0x53 Level(14,Enemy,True) [14,1] 0x0 0x0 1 REDA14R5 [SteelBow] DefaultAI
+UNIT 0x7D 0x41 0x53 Level(16,Enemy,True) [19,6] 0x0 0x0 1 REDA19R5 [IronAxe] DefaultAI
+UNIT 0x7D 0x4E 0x53 Level(14,Enemy,True) [18,6] 0x0 0x0 1 REDA18R8 [IronLance] DefaultAI
+UNIT 0x7D 0x19 0x53 Level(14,Enemy,True) [22,13] 0x0 0x0 1 REDA22R11 [IronBow] TwoActionAI
+UNIT 0x7D 0x3F 0x53 Level(14,Enemy,True) [21,11] 0x0 0x0 1 REDA21R10 [IronAxe] TwoActionAI
+UNIT 0x7D 0x3F 0x53 Level(14,Enemy,True) [16,2] 0x0 0x0 1 REDA16R3 [SteelAxe,0xD4] DefaultAI
+UNIT 0x7D 0x42 0x53 Level(14,Enemy,True) [11,6] 0x0 0x0 1 REDA11R7 [IronAxe] DefaultAI
+UNIT 0x7D 0xF 0x53 Level(13,Enemy,True) [12,8] 0x0 0x0 1 REDA13R8 [IronSword] DefaultAI
+UNIT 0x7D 0x19 0x53 Level(14,Enemy,True) [16,12] 0x0 0x0 1 REDA16R11 [IronBow] DefaultAI
+UNIT 0x7D 0x41 0x53 Level(15,Enemy,True) [24,13] 0x0 0x0 0x0 0x0 [SteelAxe] DefaultAI
+UNIT 0x7D 0x4E 0x53 Level(14,Enemy,True) [21,14] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
+UNIT 0x7D 0x42 0x53 Level(16,Enemy,True) [23,16] 0x0 0x0 0x0 0x0 [SteelAxe,0x5F] DefaultAI
+UNIT 0x7D 0x1A 0x53 Level(14,Enemy,True) [20,17] 0x0 0x0 0x0 0x0 [SteelBow] TwoActionAI
+UNIT 0x7D 0x41 0x53 Level(14,Enemy,True) [16,16] 0x0 0x0 0x0 0x0 [SteelAxe] NoMoveAI
+UNIT 0x7D 0x19 0x53 Level(16,Enemy,True) [13,14] 0x0 0x0 0x0 0x0 [SteelBow] TwoActionAI
+UNIT 0x7D 0x4E 0x53 Level(14,Enemy,True) [11,16] 0x0 0x0 0x0 0x0 [Javelin] NoMoveAI
+UNIT 0x7D 0x4E 0x53 Level(14,Enemy,True) [4,7] 0x0 0x0 0x0 0x0 [IronLance] TwoActionAI
+UNIT 0x7D 0x19 0x53 Level(15,Enemy,True) [10,1] 0x0 0x0 0x0 0x0 [SteelBow] NoMoveAI
+UNIT 0x7D 0x41 0x53 Level(16,Enemy,True) [5,11] 0x0 0x0 0x0 0x0 [IronAxe] NoMoveAI
+UNIT 0x7D 0x10 0x53 Level(14,Enemy,True) [6,17] 0x0 0x0 0x0 0x0 [IronSword] NoMoveAI
+UNIT 0x7D 0x13 0x53 Level(14,Enemy,True) [7,14] 0x0 0x0 0x0 0x0 [IronSword] NoMoveAI
+UNIT 0x7D 0x1A 0x53 Level(15,Enemy,True) [1,10] 0x0 0x0 0x0 0x0 [0x34] NoMoveAI
+UNIT 0x7D 0xF 0x53 Level(14,Enemy,True) [2,14] 0x0 0x0 0x0 0x0 [0xD] NoMoveAI
+UNIT 0x7D 0x10 0x53 Level(14,Enemy,True) [5,15] 0x0 0x0 0x0 0x0 [SteelSword] NoMoveAI
+UNIT 0x7D 0x41 0x53 Level(15,Enemy,True) [16,0] 0x0 0x0 0x0 0x0 [SteelAxe] NoMoveAI
+UNIT 0x7D 0x19 0x53 Level(14,Enemy,True) [17,1] 0x0 0x0 0x0 0x0 [IronBow] NoMoveAI
+UNIT 0x7D 0x19 0x53 Level(14,Enemy,True) [7,5] 0x0 0x0 0x0 0x0 [SteelBow] TwoActionAI
+UNIT 0x7D 0x40 0x53 Level(5,Enemy,True) [5,3] 0x0 0x0 0x0 0x0 [0x2A,0x2C] UnmovingAI
+UNIT 0x7D 0x1B 0x53 Level(5,Enemy,True) [0,2] 0x0 0x0 0x0 0x0 [0x33] UnmovingAI
+UNIT 0x7D 0x2C 0x53 Level(5,Enemy,True) [0,3] 0x0 0x0 0x0 0x0 [0x52,0x53,0x3F,0x57] UnmovingAI
+UNIT
+
+HoloXOni:
+	UNIT 0x34 0x91 Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA23R5 [0x0] NoAI
+	UNIT 0x35 0x91 Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA24R4 [0x0] NoAI
+	UNIT 0x2E 0x91 Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA22R4 [0x0] NoAI
+	UNIT 0x2F 0x91 Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA23R3 [0x0] NoAI
+	UNIT 0x1A 0x91 Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA21R3 [0x0] NoAI
+	
+UNIT
+
+AyameMapIntro:
+UNIT 0x37 0x99 Amelia Level(4,NPC,False) [12,8] 0x0 0x0 1 REDA13R11 [0xFE,0xCE] DefaultAI
+UNIT
+
+KokushibyoIntro:
+UNIT 0x50 0xC1 0x53 Level(5,Enemy,True) [0,16] 0x0 0x0 1 REDA2R16 [0x18] NoMoveAI
+UNIT
+
+AyameIntro:
+UNIT 0x37 0x99 Amelia Level(1,NPC,False) [23,7] 0x0 0x0 0x0 0x0 [0xFE,0xCE] NoAI
+UNIT
+
+Merc9x:
+UNIT 0x82 0xF 0x53 Level(14,Enemy,True) [22,9] 0x0 0x0 0x0 0x0 [0x0] DefaultAI
+UNIT
+
+Chp9xCam:
+UNIT 0xD1 0xCB Amelia Level(1,NPC,False) [22,2] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+HoloXDOni:
+	UNIT 0x80 0x1 Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA23R5 [0x0] NoAI
+	UNIT 0x81 0x4A Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA24R4 [0x0] NoAI
+	UNIT 0x84 0x89 Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA22R4 [0x0] NoAI
+	UNIT 0x83 0x3E Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA23R3 [0x0] NoAI
+	
+	
 UNIT
 
 Traps1:
@@ -76,13 +143,244 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+CAM1 [23,3]
+FadeBackBlack
+CHECK_ALIVE 0x35
+SVAL s7 0
+BEQ 0 sC s7
+CHECK_ALIVE 0x34
+SVAL s7 0
+BEQ 0 sC s7
+CHECK_ALIVE 0x1A
+SVAL s7 0
+BEQ 0 sC s7
+CHECK_ALIVE 0x2E
+SVAL s7 0
+BEQ 0 sC s7
+CHECK_ALIVE 0x2F
+SVAL s7 0
+BEQ 0 sC s7
+LOAD1 0 HoloXOni
+ENUN
+STAL 60
+PlayEmotionEffect(0x2F,DotDotDotEffect)
+STAL 60
+Text(HoloX9x)
+SoundEffect(0x2CE)
+Draw(MapSword,23,7)
+STAL 60
+Text(HoloX9x2)
+FlashCursor(23,7,60)
+LOAD1 1 AyameIntro //ayame
+SoundEffect(0x14A)
+Draw(MapThiefID,23,7)
+STAL 45
+PlayEmotionEffect(0x37,DotDotDotEffect)
+Text(AyameGaidenIntro)
+MusicChange(0x5F)
+MOVE 15 0x34 [23,6]
+ENUN
+SoundEffect(0xD7)
+Draw(ThinSlashAnimID,23,7)
+STAL 25
+MOVE 15 0x34 [23,7]
+MOVE 15 0x37 [23,8]
+ENUN
+SoundEffect(0x2CE)
+Draw(MapSword,23,7)
+STAL 45
+Text(IrohaAngy9x)
+MOVE 15 0x34 [22,8]
+MOVE 15 0x37 [22,7]
+ENUN
+SoundEffect(0x2CE)
+STAL 30
+SoundEffect(0xD7)
+Draw(ThinSlashAnimID,22,7)
+STAL 15
+SoundEffect(0x2CE)
+STAL 20
+SoundEffect(0x2CE)
+MOVE 15 0x34 [22,9]
+MOVE 15 0x37 [22,8]
+ENUN
+SoundEffect(0x2CE)
+STAL 15
+MOVE 15 0x34 [22,8]
+MOVE 15 0x37 [22,7]
+ENUN
+SoundEffect(0x2CE)
+STAL 30
+SoundEffect(0xD7)
+Draw(ThinSlashAnimID,22,7)
+Text(LaplusSus9x)
+MOVE 15 0x34 [24,7]
+MOVE 15 0x37 [23,7]
+ENUN
+SoundEffect(0x2CE)
+STAL 30
+SoundEffect(0x2CE)
+Draw(MapSword,23,7)
+STAL 45
+MOVE 15 0x34 [23,8]
+MOVE 15 0x37 [24,8]
+ENUN
+SoundEffect(0x2CE)
+STAL 30
+SoundEffect(0xD7)
+Draw(ThinSlashAnimID,24,8)
+LOAD1 1 Merc9x
+Draw(MapThiefID,22,9)
+STAL 45
+PlayEmotionEffect(0x37,ExclamationEffect)
+Text(Iroha9xScream)
+MOVE 15 0x82 [23,9]
+MOVE 15 0x34 [22,8]
+MOVE 15 0x37 [23,8]
+STAL 10
+SoundEffect(0x125)
+Draw(MapDark,23,9)
+STAL 45
+SET_SOMETHING 0x82
+STAL 30
+MuteMusic
+MOVE 15 0x2F [23,7]
+ENUN
+Text(IrohaSus9x)
+MusicChange(0x31)
 LOAD 1 EnemyUnits
+ENUN
+STAL 45
+Text(Ayame9x)
+Draw(MapThiefID,23,8)
+SoundEffect(0x262)
+DISA_IF 0x37
+STAL 30
+Text(IrohaLap9xWhattheSus)
+MOVE 15 0x2F [23,3]
+MOVE 15 0x34 [23,5]
+STAL 30
+Text(LapIro9x)
+
+GOTO 2
+LABEL 0 //HoloX not alive
+
+LOAD2 1 HoloXDOni
+ENUN
+STAL 60
+PlayEmotionEffect(0x2F,DotDotDotEffect)
+STAL 60
+Text(LaplusZeta9x)
+SoundEffect(0x2CE)
+Draw(MapSword,23,7)
+STAL 60
+Text(AmeliaSus9x)
+SoundEffect(0x2CE)
+Draw(MapSword,23,7)
+STAL 60
+Text(AmeliaSus9x2)
+FlashCursor(23,7,60)
+LOAD1 1 AyameIntro //ayame
+SoundEffect(0x14A)
+Draw(MapThiefID,23,7)
+STAL 45
+PlayEmotionEffect(0x37,DotDotDotEffect)
+Text(AyameAppears9x)
+LOAD1 1 Merc9x
+SoundEffect(0x14A)
+Draw(MapThiefID,22,9)
+STAL 45
+Text(Soldier9x)
+MOVE 15 0x82 [23,8]
+SoundEffect(0xD7)
+Draw(ThinSlashAnimID,23,7)
+SoundEffect(0x125)
+Draw(MapDark,23,8)
+STAL 45
+SET_SOMETHING 0x82
+STAL 60
+MOVE 15 0x83 [23,6]
+Text(AyameAnger9x)
+MusicChange(0x31)
+LOAD 1 EnemyUnits
+ENUN
+STAL 45
+Text(Ayame9x)
+Draw(MapThiefID,23,7)
+SoundEffect(0x262)
+DISA_IF 0x37
+STAL 30
+MOVE 15 0x83 [23,3]
+Text(LapAmeSus9x)
+LABEL 2
+MusicChange(0x2B)
+STAL 60
+LOAD1 1 Chp9xCam
+ENUN
+EVBIT_T 9
+MOVE 5 0xD1 [3,3]
+ENUN
+MOVE 5 0xD1 [3,15]
+ENUN
+MOVE 5 0xD1 [22,15]
+ENUN
+MOVE 5 0xD1 [22,7]
+ENUN
+MOVE 7 0xD1 [8,7]
+ENUN
+EVBIT_F 9
+STAL 10
+	ENUN
+FadeBlack
+CLEARALL
+LOAD 1 EnemyUnits
+ClearFatigue(0x35)
+ClearFatigue(0x34)
+ClearFatigue(0x1A)
+ClearFatigue(0x2E)
+ClearFatigue(0x2F)
+ENUT Flag7D
 	PreparationsThracia
+	FadeBlack
+	CAM1 [2,16]
+	FadeBackBlack
+	STAL 75
+	LOAD1 1 KokushibyoIntro
+	ENUN
+	PlayEmotionEffect(0x50,DotDotDotEffect)
+	STAL 45
+	Text(KokushibyoSpawn)
+	STAL 30
+	CAM1 [13,11]
+LOAD1 1 AyameMapIntro
+STAL 30
+Text(AyameAngery9x)
+CUSA 0x37
 	NoFade
 	ENDA
 
-EndingScene:
+Chp9xCave:
+FadeBlack
+SetBackground(0x47)
+FadeBackBlack
+CHECK_ACTIVEID 0x37 //Aym
+SVAL s7 0
+BEQ 0 sC s7
+TalkConvo(Chp9xCaveAym)
+GiveItem(0xA1,0xFFFF)
 
+GOTO 1
+LABEL 0
+TalkConvo(Chp9xCaveAny)
+GiveItem(0xF,0xFFFF)
+
+LABEL 1
+NoFade
+ENDA
+
+
+EndingScene:
+EnactAutoRepair
 	MNC2 11
 	NoFade
 	ENDA

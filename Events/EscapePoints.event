@@ -24,9 +24,12 @@ EscapePointEntry(24,0,EscapeUp)
 EscapePointEntry(23,0,EscapeUp)
 EscapePointTerminator
 
+OniNPCEscapeTable:
+EscapePointEntry(2,17,EscapeDown)
+EscapePointTerminator
 
 
 SetNPCEscapePoint(Prologue,PrologueNPCEscapeTable)
-
+SetNPCEscapePoint(0xA, OniNPCEscapeTable)
 
 SetEnemyEscapePoint(Chapter2,Chp2NPCEscapeTable)

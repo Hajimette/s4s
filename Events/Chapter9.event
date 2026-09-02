@@ -19,6 +19,17 @@ TurnEventEnemy(0, CarlsonTurn1, 1)
 ALIGN 32
 CharacterBasedEvents:
 CharacterEvent(Flag10,MikoBotanShike, 0x5, 0x14)
+CharacterEvent(Flag10,MikoBotanShike, 0x14, 0x5)
+CharacterEvent(Flag11,MikoAmeShike, 0x5, 0x1)
+CharacterEvent(Flag11,MikoAmeShike, 0x1, 0x5)
+CharacterEvent(Flag12,SuiseiRBCShike, 0x10, 0x6)
+CharacterEvent(Flag12,SuiseiRBCShike, 0x6, 0x10)
+CharacterEvent(Flag13,SuiSoraShike, 0x6, 0x15)
+CharacterEvent(Flag13,SuiSoraShike, 0x15, 0x6)
+CharacterEvent(Flag15,ReineBotanShike, 0x2, 0x14)
+CharacterEvent(Flag15,ReineBotanShike, 0x14, 0x2)
+CharacterEvent(Flag16,IrohaReineShike, 0x34, 0x2)
+CharacterEvent(Flag16,IrohaReineShike, 0x2, 0x34)
 	END_MAIN
 
 MiscBasedEvents:
@@ -157,6 +168,24 @@ UNIT 0x6 0x3F Amelia Level(15,Ally,False) [17,6] 0x0 0x0 1 REDA16R7 [SteelAxe,0x
 UNIT 0x5 0x4A Amelia Level(6,Ally,False) [17,6] 0x0 0x0 1 REDA18R7 [0xF4,0x4B,0x6C] NoAI
 UNIT
 
+BoLAmeShike:
+UNIT 0x67 0x89 Amelia Level(6,Ally,False) [15,10] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0x68 0x3E Amelia Level(6,Ally,False) [14,10] 0x0 0x0 0x0 0x0 [0x0] NoAI
+
+UNIT
+
+ShikeCiv:
+UNIT 0x6B 0x70 Amelia Level(6,NPC,False) [25,11] 0x0 0x0 1 REDA0R9 [0x0] NoAI
+UNIT 0x6B 0x6E Amelia Level(6,NPC,False) [26,11] 0x0 0x0 1 REDA0R10 [0x0] NoAI
+UNIT 0x6B 0x6D Amelia Level(6,NPC,False) [25,12] 0x0 0x0 1 REDA0R11 [0x0] NoAI
+UNIT 0x6B 0x70 Amelia Level(6,NPC,False) [26,12] 0x0 0x0 1 REDA0R12 [0x0] NoAI
+
+UNIT
+
+AmeHaatoShike:
+UNIT 0x1 0x1 Amelia Level(6,Ally,False) [2,17] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0x8A 0x70 Amelia Level(6,NPC,False) [3,17] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT
 
 Traps1:
 	ENDTRAP
@@ -252,8 +281,17 @@ STAL 10
 	SetUnitStatus(0x2,LightExp ,0)
 	SetUnitStatus(0x2,StaffExp ,0)
 	Text(SuiReikoIntro)
+	CHECK_DEPLOYED 0x10
+	SVAL s7 1
+BEQ 90 sC s7
+ENUT 25
 	
-	
+LABEL 90
+		CHECK_DEPLOYED 0x2F
+	SVAL s7 1
+BEQ 91 sC s7
+ENUT 24
+LABEL 91
 	NoFade
 	ENDA
 
@@ -281,10 +319,41 @@ NoFade
 ENDA
 
 MikoBotanShike:
-MusicChange(0x17)
+MusicChange(0x22)
 Text(MikoSusShike)
 NoFade
 ENDA
+
+MikoAmeShike:
+MusicChange(0x22)
+Text(MikoShikeAme)
+NoFade
+ENDA
+
+SuiseiRBCShike:
+MusicChange(0x22)
+Text(RBCSuiShike)
+NoFade
+ENDA
+
+SuiSoraShike:
+MusicChange(0x22)
+Text(SoraSuiShike)
+NoFade
+ENDA
+
+ReineBotanShike:
+MusicChange(0x22)
+Text(BotanReineShike)
+NoFade
+ENDA
+
+IrohaReineShike:
+MusicChange(0x22)
+Text(ReineIrohaShike)
+NoFade
+ENDA
+
 
 LaplusCheckShike:
 CHECK_ACTIVE
@@ -365,6 +434,7 @@ ENDA
 
 
 EndingScene:
+EnactAutoRepair
 FadeBlack
 MuteMusic
 SetBackground(0x49)
@@ -387,10 +457,24 @@ TEXTCONT
 TEXTEND
 STAL 45
 LABEL 67
-
-
-
-
+FadeBlack
+CLEARALL
+CLEAN
+Weather 0
+MuteMusic
+MusicChange(0x4C)
+STAL 45
+CAM1 [14,10]
+LOAD2 1 BoLAmeShike
+FadeBackBlack
+STAL 60
+LOAD1 1 ShikeCiv
+STAL 45
+Text(BotanLaplusShike)
+CLEN 0x0
+LOAD1 1 AmeHaatoShike
+CAM1 [2,17]
+Text(AmePensiveShike)
 
 
 

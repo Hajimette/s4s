@@ -1,3 +1,11 @@
+## BossChp8Attacked
+[MidLeft][LoadRandall]
+[MidLeft]
+I assure you, it's[N]
+not personal.[A][N]
+We can certaintly talk[N]
+this out, right?[A][X]
+
 ## Chp8Vill
 [MidRight][CurrentPortrait]
 [MidRight]
