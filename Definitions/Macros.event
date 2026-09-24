@@ -123,7 +123,10 @@
 
 //#define ImmBEQ(val,label) SVAL s7 val; BEQ label sC s7
 
-
+#define SetFatigue(charID,ftgValue) "SVAL 1 charID; SVAL 2 ftgValue; ASMC SetFatigueEvent"
+#define SetFatigueOneLess(charID) "SVAL 1 charID; SVAL 2 0xFF; ASMC SetFatigueEvent"
+#define CheckIfFatigued(charID) "SVAL s1 charID; ASMC CheckIfFatigued"
+#define EraseAllFatigue "ASMC FatiguePartyWipe"
 
 #define DefaultAI           [0x0,0x0,0x4,0x0]
 #define DefaultHealAI       [0x0,0x0,0x0,0x0]

@@ -548,16 +548,24 @@ ENDA
 
 Chp5NougalasMove:
 CAM1 0x4D
+CHECK_EVENTID DefeatBossFlag
+SVAL s7 0
+	BEQ 5 sC s7
 Text(NougalasMOVES)
+LABEL 5
 ENUT 4
 ChangeAI(0x4D, 0x0, 0x0)
 NoFade
 ENDA
 
 Chp5NougalasSus:
+CHECK_EVENTID DefeatBossFlag
+SVAL s7 0
+	BEQ 5 sC s7
 CAM1 0x4D
 Text(NougalasSussy)
 ChangeAI(0x4D, 0x0, 0x0)
+LABEL 5
 NoFade
 ENDA
 

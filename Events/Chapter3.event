@@ -497,6 +497,11 @@ NoFade
 ENDA
 
 DoorChapTree:
+CHECK_TURNS
+SVAL s7 15
+BEQ 20 sC s7 
+
+
 SoundEffect(0xB1)
 TILECHANGE 1
 STAL 30
@@ -516,8 +521,37 @@ CHECK_EVENTID 0x78 //Checks if triggered 78
 	Text(IrohaDoor3)
 	GOTO 19
 	LABEL 8
+	CAM1 [4,4]
+	LOAD1 0 CarmSpawn3
+	PlayEmotionEffect(0x48,AngryEffect)
+	STAL 15
+	Text(CarminaAngry3)
+	
+	CAM1 0x32
+	PlayEmotionEffect(0x32,SweatEffect)
+	STAL 15
+	Text(IrohaDoor3)
 	
 	LABEL 19
+	GOTO 21
+	LABEL 20
+	MOVE 15 0x48 [12,0]
+	ENUN
+	SET_SOMETHING 0x48
+	LOAD1 0 CarmSpawn3
+	PlayEmotionEffect(0x48,AngryEffect)
+	STAL 15
+	Text(CarminaAngry3)
+	
+	CAM1 0x32
+	PlayEmotionEffect(0x32,SweatEffect)
+	STAL 15
+	Text(IrohaDoor3)
+	
+	
+	
+	
+	LABEL 21
 NoFade
 ENDA
 

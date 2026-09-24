@@ -170,6 +170,7 @@ CHECK_EVENTID FlagA //Checks if triggered 78
 SVAL s7 1
 BEQ 1 sC s7 
 Text(IroAmeIntNoKoyo)
+ENUT GuideUnlockCanto
 TextBox(FatigueIntro)
 STAL 15
 Text(IrohaInt1Ame)

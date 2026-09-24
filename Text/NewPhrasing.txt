@@ -26,3 +26,9 @@ limited.[X]
 
 # 0x5A2 ^
 Remaining[X]
+
+# 0x5C9
+New Mechanics[X]
+
+# 0x5CA
+Lore[X]

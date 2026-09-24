@@ -164,22 +164,24 @@ POIN SpellAssociationTable
 ORG $78240
 POIN SpellAssociationTable
 
+
 ORG $CC7C8
-POIN PromotionBranchTable - 1
+POIN (PromotionBranchTable-1)
 ORG $CC7D0
-POIN PromotionBranchTable - 2
+POIN (PromotionBranchTable-2)
 ORG $CC824
-POIN PromotionBranchTable - 2
+POIN (PromotionBranchTable-2)
 ORG $CC860
-POIN PromotionBranchTable - 2
+POIN (PromotionBranchTable-2)
 ORG $CC8A4
-POIN PromotionBranchTable - 2
+POIN (PromotionBranchTable-2)
 ORG $CC8EC
-POIN PromotionBranchTable - 2
+POIN (PromotionBranchTable-2)
 ORG $CCE8C
-POIN PromotionBranchTable - 2
+POIN (PromotionBranchTable-2)
 ORG $CDB74
-POIN PromotionBranchTable - 2
+POIN (PromotionBranchTable-2)
+
 
 ORG $3462C
 POIN ChapterDataTable
@@ -375,3 +377,39 @@ ORG 0x29408
 POIN OceanSealList|IsPointer
 
 POP
+
+#define ClassAnimTable NewAnimTable
+#define AnimTableMaxEntries 0x350
+
+ALIGN 4
+NewAnimTable:
+	#incbin "NewAnimTable.bin"
+	ORG NewAnimTable + (AnimTableMaxEntries * 32)
+
+PUSH
+	ORG $59BD8
+	POIN NewAnimTable
+
+	ORG $5A600
+	POIN NewAnimTable
+
+	ORG $5A694
+	POIN NewAnimTable
+
+	ORG $5A82C
+	POIN NewAnimTable
+
+	ORG $6F6A8
+	POIN NewAnimTable
+
+	ORG $70940
+	POIN NewAnimTable
+
+	ORG $70A60
+	POIN NewAnimTable
+	
+POP
+
+PROTECT NewAnimTable
+
+

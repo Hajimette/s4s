@@ -19,6 +19,10 @@ Interlude1Menu:
 MenuDefinition(6, 5, 18, 0, 1, AmeliaInt1Options)
 
 ALIGN 4
+Interlude2Menu:
+MenuDefinition(6, 5, 18, 0, 1, AmeliaInt2Options)
+
+ALIGN 4
 ImSureMenu:
 MenuDefinition(6, 6, 18, 0, 1, ImSureOptions)
 
@@ -46,6 +50,10 @@ MenuOption(DefenseStanceOp, DefenseStanceDesc, 0)
 MenuOption(SpeedStanceOp, SpeedStanceDesc, 0)
 MenuTerminator
 
-
+ALIGN 4
+AmeliaInt2Options:
+MenuOption(CandyKingdomChoice,CandyKingdomChoiceDesc, 0)
+MenuOption(HoloPelagiaChoice, HoloPelagiaChoiceDesc, 0)
+MenuTerminator
 
 #include "LordSplitMenuPlus.lyn.event"

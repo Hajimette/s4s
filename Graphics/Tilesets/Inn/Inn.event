@@ -1,0 +1,11 @@
+ALIGN 4
+InnObject:
+#incbin "InnObject.dmp"
+
+ALIGN 4
+InnObjectPal:
+#incbin "InnObject_pal.dmp"
+
+ALIGN 4
+InnObjectConfig:
+#incbin "Inn_comp.dmp"

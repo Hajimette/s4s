@@ -11,6 +11,26 @@
 ModularEXPEntry(0x32,0,0,1,2)
 ModularEXPEntry(0x32,1,0,1,2)
 ModularEXPEntry(0x32,2,0,1,2)
-ModularEXPEntry(0x32,3,0,1,2) // Halved Zeta EXP
-	
+ModularEXPEntry(0x32,3,0,1,2) // Halved Zeta EXP for early game
+
+ModularEXPEntry(0x34,1,0,1,2)
+ModularEXPEntry(0x34,2,0,1,2)
+ModularEXPEntry(0x34,3,0,1,2)
+
+ModularEXPEntry(0x35,1,0,1,2)
+ModularEXPEntry(0x35,2,0,1,2)
+ModularEXPEntry(0x35,3,0,1,2)
+
+ModularEXPEntry(0x10,1,0,1,2)
+ModularEXPEntry(0x10,2,0,1,2)
+ModularEXPEntry(0x10,3,0,1,2)
+
+ModularEXPEntry(0x11,1,0,1,2)
+ModularEXPEntry(0x11,2,0,1,2)
+ModularEXPEntry(0x11,3,0,1,2)
+
+ModularEXPEntry(0x14,1,0,1,2)
+ModularEXPEntry(0x14,2,0,1,2)
+ModularEXPEntry(0x14,3,0,1,2)
+
 #endif // MODULAR_EXP

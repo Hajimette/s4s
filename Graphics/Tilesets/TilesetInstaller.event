@@ -59,6 +59,9 @@ SetTilesetObject(MetroID, MetroObject)
 SetTilesetPalette(MetroPalID, MetroObjectPal)
 SetTilesetConfig(MetroConfig, MetroObjectConfig)
 
-
+#include "Inn/Inn.event"
+SetTilesetObject(InnID, InnObject)
+SetTilesetPalette(InnPalID, InnObjectPal)
+SetTilesetConfig(InnConfigID, InnObjectConfig)
 
 

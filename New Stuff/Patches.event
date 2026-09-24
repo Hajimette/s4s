@@ -1,6 +1,6 @@
 #include "CustomItems/_Staff6C_BasicCases.event"
 #include "MapEmotions/MapEmotion.event"
-#include "ChapterTransitions/ChapterTransitionInstaller.event"
+//#include "ChapterTransitions/ChapterTransitionInstaller.event"
 #include "PCC/Installer.event"
 #include "Abort/AbortStaff.event"    
     #include "AumStaff/Aum.event"
@@ -56,7 +56,7 @@
 
 //#include "StatGain/HigherNumberGains.event"
 
-//#include "Guide/GuideInstaller.event"
+#include "Guide/Guide.event"
 
 //#include "MultiDancer/Installer.event"
 //#include "MultiDanceBGM/Installer.event"

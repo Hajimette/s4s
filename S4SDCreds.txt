@@ -678,6 +678,8 @@ Atlas:
 Prologue Grass Cutscene Map
 
 
+Tilesets
+Inn - RedShrike
 
 
 Music:
@@ -715,6 +717,7 @@ FE5 Crisis- SurfingKyogre
 FE5 Curing- Warpath
 FE5 Defend- DertheVaporeon
 FE5 Destiny- Hatsuru
+FE5 GameOver - Falkion
 FE5 Healing - Falkion
 FE5 Leif (Base)-RSFlame
 FE5 Loptous A - Falkion

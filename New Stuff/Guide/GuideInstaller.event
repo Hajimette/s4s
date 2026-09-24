@@ -1,5 +1,7 @@
 //Guide data is a series of lists; contained within these lists are the flags to use for unlock and read for each entry
 //This sets all of those flags to the same flag, effectively freeing up all of the guide flags for other uses
+
+
 #define UnlockGuideFlag 0xCB
 #define GuideChpt1 0xCC
 #define GuideChpt2 0xCD

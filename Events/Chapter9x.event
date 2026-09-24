@@ -23,8 +23,13 @@ CharacterBasedEvents:
 	END_MAIN
 
 MiscBasedEvents:
+AREA Flag11 Oni9xSp1 [19, 9] [24, 12]
+AREA Flag12 Oni9xSp2 [14, 2] [18, 8]
+AREA Flag13 Oni9xSp3 [13, 12] [19, 17]
+AREA Flag15 Oni9xSp5 [3, 1] [11, 6]
+AREA Flag16 Oni9xSp6 [4, 12] [10, 15]
 	CauseGameOverIfLordDies
-	DefeatAll(EndingScene)
+	DefeatBoss(EndingScene)
 	END_MAIN
 
 LocationBasedEvents:
@@ -130,9 +135,51 @@ HoloXDOni:
 	UNIT 0x81 0x4A Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA24R4 [0x0] NoAI
 	UNIT 0x84 0x89 Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA22R4 [0x0] NoAI
 	UNIT 0x83 0x3E Amelia Level(1,Ally,False) [24,0] 0x0 0x0 1 REDA23R3 [0x0] NoAI
-	
-	
+
 UNIT
+
+Oni9xJump1:
+UNIT 0x7D 0x42 0x53 Level(15,Enemy,True) [21,14] 0x0 0x0 1 REDA22R15 [SteelAxe] DefaultAI
+UNIT 0x7D 0x19 0x53 Level(14,Enemy,True) [23,17] 0x0 0x0 1 REDA23R16 [IronBow] DefaultAI
+UNIT 0x7D 0xF 0x53 Level(13,Enemy,True) [23,17] 0x0 0x0 1 REDA21R17 [IronSword] DefaultAI
+UNIT 0x7D 0x4E 0x53 Level(13,Enemy,True) [22,13] 0x0 0x0 1 REDA23R14 [Javelin] DefaultAI
+UNIT 0x7D 0x3F 0x53 Level(14,Enemy,True) [24,16] 0x0 0x0 1 REDA24R15 [SteelAxe] DefaultAI
+UNIT
+
+Oni9xJump2:
+UNIT 0x7D 0x42 0x53 Level(14,Enemy,True) [11,2] 0x0 0x0 1 REDA10R2 [SteelAxe] DefaultAI
+UNIT 0x7D 0x10 0x53 Level(14,Enemy,True) [9,5] 0x0 0x0 1 REDA8R4 [IronSword] DefaultAI
+UNIT 0x7D 0x19 0x53 Level(15,Enemy,True) [12,4] 0x0 0x0 0x0 0x0 [IronBow] DefaultAI
+UNIT 0x7D 0x1A 0x53 Level(13,Enemy,True) [13,8] 0x0 0x0 1 REDA13R9 [SteelBow] DefaultAI
+UNIT 0x7D 0x4E 0x53 Level(15,Enemy,True) [9,9] 0x0 0x0 1 REDA9R10 [SteelLance] DefaultAI
+UNIT
+
+Oni9xJump3:
+UNIT 0x7D 0x19 0x53 Level(14,Enemy,True) [12,15] 0x0 0x0 0x0 0x0 [IronBow] DefaultAI
+UNIT 0x7D 0x3F 0x53 Level(15,Enemy,True) [9,13] 0x0 0x0 1 REDA9R12 [SteelAxe] DefaultAI
+UNIT 0x7D 0x4E 0x53 Level(13,Enemy,True) [8,16] 0x0 0x0 1 REDA8R15 [Javelin] DefaultAI
+UNIT 0x7D 0x40 0x53 Level(5,Enemy,True) [7,13] 0x0 0x0 1 REDA7R13 [IronBow] DefaultAI
+UNIT 0x7D 0x4E 0x53 Level(13,Enemy,True) [11,13] 0x0 0x0 1 REDA11R13 [SteelLance] DefaultAI
+UNIT
+
+Oni9xJump5:
+UNIT 0x7D 0x3F 0x53 Level(13,Enemy,True) [1,8] 0x0 0x0 1 REDA1R9 [SteelAxe] DefaultAI
+UNIT 0x7D 0x4E 0x53 Level(14,Enemy,True) [5,11] 0x0 0x0 1 REDA4R11 [Javelin] DefaultAI
+UNIT 0x7D 0x1A 0x53 Level(13,Enemy,True) [2,12] 0x0 0x0 1 REDA2R12 [IronBow] DefaultAI
+UNIT 0x7D 0x3F 0x53 Level(15,Enemy,True) [3,13] 0x0 0x0 1 REDA3R14 [IronBow] DefaultAI
+UNIT 0x7D 0x10 0x53 Level(13,Enemy,True) [4,8] 0x0 0x0 1 REDA4R8 [SteelSword] DefaultAI
+UNIT
+
+Oni9xJump6:
+UNIT 0x7D 0x13 0x53 Level(12,Enemy,True) [0,17] 0x0 0x0 1 REDA2R17 [SteelSword] DefaultAI
+UNIT 0x7D 0x14 0x53 Level(12,Enemy,True) [0,17] 0x0 0x0 1 REDA1R15 [SteelSword] DefaultAI
+UNIT 0x7D 0x4E 0x53 Level(12,Enemy,True) [5,17] 0x0 0x0 1 REDA5R17 [Javelin] DefaultAI
+UNIT 0x7D 0x1A 0x53 Level(12,Enemy,True) [2,13] 0x0 0x0 1 REDA2R14 [SteelBow,0x6D] DefaultAI
+UNIT 0x7D 0x4E 0x53 Level(12,Enemy,True) [6,15] 0x0 0x0 1 REDA4R15 [SteelLance] DefaultAI
+UNIT
+
+
+
 
 Traps1:
 	ENDTRAP
@@ -334,11 +381,7 @@ STAL 10
 FadeBlack
 CLEARALL
 LOAD 1 EnemyUnits
-ClearFatigue(0x35)
-ClearFatigue(0x34)
-ClearFatigue(0x1A)
-ClearFatigue(0x2E)
-ClearFatigue(0x2F)
+
 ENUT Flag7D
 	PreparationsThracia
 	FadeBlack
@@ -356,6 +399,11 @@ LOAD1 1 AyameMapIntro
 STAL 30
 Text(AyameAngery9x)
 CUSA 0x37
+ClearFatigue(0x35)
+ClearFatigue(0x34)
+ClearFatigue(0x1A)
+ClearFatigue(0x2E)
+ClearFatigue(0x2F)
 	NoFade
 	ENDA
 
@@ -378,9 +426,88 @@ LABEL 1
 NoFade
 ENDA
 
+Oni9xSp1:
+CALL label142
+CAM1 [22,15]
+LOAD1 0 Oni9xJump1
+NoFade
+ENDA
+
+Oni9xSp2:
+CALL label142
+CAM1 [11,7]
+LOAD1 0 Oni9xJump2
+NoFade
+ENDA
+
+Oni9xSp3:
+CALL label142
+CAM1 [11,15]
+LOAD1 0 Oni9xJump3
+NoFade
+ENDA
+
+Oni9xSp5:
+CALL label142
+CAM1 [3,11]
+LOAD1 0 Oni9xJump5
+NoFade
+ENDA
+
+Oni9xSp6:
+CALL label142
+CAM1 [2,16]
+
+NoFade
+ENDA
+
+label41:
+CHECK_EVENTID
+SADD 0xC2
+ENUF_SLOT2
+EVBIT_T 0x7
+ENDB
+
+label142:
+CHECK_ALLEGIANCE 0xFFFF
+BEQ 0x0 0xC 0x2
+CALL label41
+LABEL 0x0
+ENDA
 
 EndingScene:
 EnactAutoRepair
+FadeBlack
+CLEARALL
+SetBackground(0x23)
+
+CHECK_ALIVE 0x37 //Check AYM alive
+SVAL s7 0
+BEQ 0 sC s7
+CHECK_ALIVE 0x34
+SVAL s7 0
+BEQ 2 sC s7
+MusicChange(0x2E)
+FadeBackBlack
+Text(Oni9xAymIrh)
+
+
+GOTO 1
+LABEL 2
+MusicChange(0x2F)
+FadeBackBlack
+Text(Oni9xAym) //No IRH
+
+GOTO 1
+LABEL 0
+MusicChange(0x2F)
+FadeBackBlack
+Text(Oni9xAymDEAD)
+
+LABEL 1
+FadeBlack
 	MNC2 11
+	ENUF Flag7D
 	NoFade
 	ENDA
+

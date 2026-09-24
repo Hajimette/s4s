@@ -396,3 +396,6 @@ Advance A[X]
 
 ## SearchingforVictoryTxt
 Searching for Victory[X]
+
+## PiecesTxt
+Pieces[X]

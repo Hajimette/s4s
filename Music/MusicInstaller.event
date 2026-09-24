@@ -479,4 +479,14 @@ SongTable(FE5AdvanceAID, AdvanceA, MapMusicGroup)
 SongTable(FE5S4VID, SearchingforVictory, MapMusicGroup)
 }
 
+{
+#include "MusicEvents/Pieces.event" 
+SongTable(PiecesID, PiecesSong, MapMusicGroup)
+}
+
+{
+#include "MusicEvents/GameOver.event"
+SongTable(GameOverID, GameOverSong, BattleMusicGroup)
+} 
+
 #include "SoundroomEditor.event"

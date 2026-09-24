@@ -33,3 +33,6 @@ Seize[X]
 ## EscapeChp7
 Escape deeper into[N]
 the facility.[X]
+
+## OniObj
+Defeat Kokushibyo.[X]

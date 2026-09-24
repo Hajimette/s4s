@@ -374,10 +374,13 @@ SetCharEscapeQuoteList(Rashid,RashidEscapeQuoteList)
 
 
 */
+
 ALIGN 4
 InterludeJoinTable:
-InterludeJoinTableEntry(Chapter10,Zeta)
+
+InterludeJoinTableEntry(Chapter12,Zeta)
 
 InterludeJoinTableEnd
+
 
 // ^ Scrap this later probably

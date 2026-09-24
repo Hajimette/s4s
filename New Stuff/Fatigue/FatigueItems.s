@@ -154,9 +154,9 @@ add r0,#0x3B
 mov r1,#0
 strb r1,[r0]
 
-@Refresh unit fatigue bit
+@refresh prep screen deploy
 mov r0,r4
-bl FatigueUnit
+bl RefreshPrepScreenDeployAllowance
 
 pop {r4-r7}
 ldr        r0,=GoBackLoc
@@ -210,9 +210,9 @@ WeAreNotLessThanZero1:
 strb r2,[r1]
 
 
-@Refresh unit fatigue bit
+@refresh prep screen deploy
 mov r0,r4
-bl FatigueUnit
+bl RefreshPrepScreenDeployAllowance
 
 pop {r4-r7}
 ldr        r0,=GoBackLoc
@@ -235,9 +235,9 @@ add r0,#0x3B
 mov r1,#0
 strb r1,[r0]
 
-@Refresh unit fatigue bit
+@refresh prep screen deploy
 mov r0,r4
-bl FatigueUnit
+bl RefreshPrepScreenDeployAllowance
 
 mov r0,r4
 mov r1,r7
@@ -292,7 +292,7 @@ blt FatigueRestorePrepScreenEffect_CannotDeploy
 
 @if so, we can deploy now
 mov r0,r4
-bl FatigueUnit
+bl RefreshPrepScreenDeployAllowance
 
 FatigueRestorePrepScreenEffect_CannotDeploy:
 

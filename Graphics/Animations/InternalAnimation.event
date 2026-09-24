@@ -894,8 +894,8 @@ WORD 0x0
 ALIGN 4
 FBishopAnim:
 LightAnim(0x83)
-StaffAnim(0x84)
-UnarmedAnim(0x83)
+StaffAnim(0x83)
+UnarmedAnim(0x84)
 WORD 0x0
 
 ALIGN 4

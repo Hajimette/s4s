@@ -61,3 +61,14 @@
 #include "Chapter9x.event"
 }
 
+{
+#include "Chapter10.event" //Interlude2
+}
+
+{
+//#include "Chapter10Inn.event" //Interlude2
+}
+
+{
+#include "Testmap.event"
+}

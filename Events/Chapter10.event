@@ -1,0 +1,511 @@
+ALIGN 4
+SetChapterEvents(Chapter10Event, PointerList)
+
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+CharacterEvent(Flag7,Int2AmeHaato, 0x1, 0xED)
+CharacterEvent(Flag8,Int2AmeReine, 0x1, 0x2)
+CharacterEvent(Flag9,EndingScene, 0x1, 0x5B)
+CharacterEvent(Flag9,EndingScene, 0x1, 0x5)
+CharacterEvent(0,Chp9xInnReturn, 0x1, 0xFB)
+CharacterEvent(Flag10,Int2AmeRBCRis, 0x1, 0x10)
+CharacterEvent(Flag11,Int2AmePolka, 0x1, 0x8)
+CharacterEvent(Flag12,Int2AmeSuisei, 0x1, 0x6)
+CharacterEvent(Flag13,Int2AmeAyame, 0x1, 0x37)
+CharacterEvent(Flag14,Int2AmeVillager, 0x1, 0xFD)
+CharacterEvent(Flag15,Int2AmeLamy, 0x1, 0x19)
+CharacterEvent(Flag16,Int2AmeIroha, 0x1, 0x34)
+CharacterEvent(Flag17,Int2AmeKoyori, 0x1, 0x35)
+CharacterEvent(Flag18,Int2AmeChloe, 0x1, 0x1A)
+CharacterEvent(Flag19,Int2AmeLui, 0x1, 0x2E)
+CharacterEvent(FlagA,Int2AmeWatame, 0x1, 0xB)
+	END_MAIN
+
+MiscBasedEvents:
+
+	CauseGameOverIfLordDies
+	END_MAIN
+
+LocationBasedEvents:
+Armory(ShikeArmory,24,12)
+Vendor(ShikeVendor,3,15)
+House(0, Chp9xInn, 7,12) //Event to get into the Inn
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+UNIT Amelia 0x1 Amelia Level(1,Ally,False) [13,11] 0x0 0x0 0x0 0x0 [0,0] NoAI
+	UNIT
+
+EnemyUnits:
+UNIT 0xFC 0x92 0x53 Level(1,Enemy,True) [5,17] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6D 0x53 Level(1,NPC,True) [5,16] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6F 0x53 Level(1,NPC,True) [6,15] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xED 0x70 0x53 Level(1,NPC,True) [13,2] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6F 0x53 Level(1,NPC,True) [28,14] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6D 0x53 Level(1,NPC,True) [27,14] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6E 0x53 Level(1,NPC,True) [18,3] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x19 0x53 Level(1,NPC,True) [4,8] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x72 0x53 Level(1,NPC,True) [27,18] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x71 0x53 Level(1,NPC,True) [18,8] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x87 0x53 Level(1,NPC,True) [10,18] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x70 0x53 Level(1,NPC,True) [8,18] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6F 0x53 Level(1,NPC,True) [9,19] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6E 0x53 Level(1,NPC,True) [8,7] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6D 0x53 Level(1,NPC,True) [9,7] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFD 0x70 0x53 Level(1,NPC,True) [1,3] 0x0 0x0 0x0 0x0 [0x0] NoAI
+	UNIT
+
+
+ReineInt2:
+UNIT 0x02 0x6F 0x53 Level(1,Ally,True) [6,16] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT
+
+MikoInt2:
+UNIT 0x05 0x6F 0x53 Level(1,Ally,True) [17,17] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT
+
+MikoAltInt2:
+UNIT 0x5B 0x4A 0x53 Level(1,NPC,True) [6,16] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT
+
+PolkaInt2:
+UNIT 0x8 0x4A 0x53 Level(1,Ally,True) [8,6] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT
+
+Int2AmeInn:
+UNIT Amelia 0x1 Amelia Level(1,Ally,False) [8,14] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+InnInt2:
+UNIT 0xFB 0x70 0x53 Level(1,NPC,True) [8,15] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x70 0x53 Level(1,NPC,True) [6,5] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6F 0x53 Level(1,NPC,True) [4,6] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6F 0x53 Level(1,NPC,True) [9,7] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x71 0x53 Level(1,NPC,True) [0,10] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x70 0x53 Level(1,NPC,True) [16,1] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x70 0x53 Level(1,NPC,True) [10,4] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x72 0x53 Level(1,NPC,True) [1,13] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x71 0x53 Level(1,NPC,True) [1,14] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x72 0x53 Level(1,NPC,True) [4,13] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x72 0x53 Level(1,NPC,True) [4,14] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x92 0x53 Level(1,Enemy,True) [14,5] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x92 0x53 Level(1,Enemy,True) [15,5] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x70 0x53 Level(1,NPC,True) [15,7] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT
+
+Int2AmeInnOut:
+UNIT Amelia 0x1 Amelia Level(1,Ally,False) [7,12] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+RBCTreeRatInt2:
+UNIT 0x10 0x1 Amelia Level(1,Ally,False) [11,8] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT 0x11 0x1 Amelia Level(1,Ally,False) [11,9] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+SuiAZSoraInt2:
+UNIT 0x15 0x1 Amelia Level(1,Ally,False) [1,4] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT 0x16 0x1 Amelia Level(1,Ally,False) [2,4] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT 0x6 0x1 Amelia Level(1,Ally,False) [1,7] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+WtmInt2:
+UNIT 0xB 0x1 Amelia Level(1,Ally,False) [4,11] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+AymInt2:
+UNIT 0x37 0x1 Amelia Level(1,Ally,False) [18,2] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+BotanLamyInt2:
+UNIT 0x14 0x1 Amelia Level(1,Ally,False) [4,11] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT 0x19 0x1 Amelia Level(1,Ally,False) [5,11] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+IrhInt2:
+UNIT 0x34 0x1 Amelia Level(1,Ally,False) [27,8] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+KyrInt2:
+UNIT 0x35 0x1 Amelia Level(1,Ally,False) [19,11] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+ChloeInt2:
+UNIT 0x1A 0x1 Amelia Level(1,Ally,False) [26,18] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+LuiLapInt2:
+UNIT 0x2E 0x1 Amelia Level(1,Ally,False) [6,2] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT 0x2F 0x1 Amelia Level(1,Ally,False) [5,2] 0x0 0x0 0x0 0x0 [0,0] NoAI
+UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+SetBackground(0x49)
+	LOAD1 0 Units1
+	LOAD1 0x1 EnemyUnits
+CAM1 [13,11]
+FadeBackBlack
+Text(AmeliaInt2)
+FadeBlack
+CLEAN
+
+PreparationsThracia
+FadeBlack
+CHECK_ALIVE 0x2
+SVAL s7 0
+BEQ 0 sC s7
+LOAD1 0 ReineInt2
+LABEL 0
+
+CHECK_ALIVE 0x5
+SVAL s7 0
+BEQ 1 sC s7
+LOAD1 0 MikoInt2
+GOTO 2
+LABEL 1
+LOAD2 0 MikoAltInt2
+LABEL 2
+
+CHECK_ALIVE 0x8
+SVAL s7 0
+BEQ 3 sC s7
+LOAD1 0 PolkaInt2
+LABEL 3
+
+CHECK_ALIVE 0x37
+SVAL s7 0
+BEQ 4 sC s7
+LOAD1 0 AymInt2
+LABEL 4
+
+CHECK_ALIVE 0x14
+SVAL s7 0
+BEQ 5 sC s7
+CHECK_ALIVE 0x19
+SVAL s7 0
+BEQ 5 sC s7
+LOAD1 0 BotanLamyInt2
+LABEL 5
+
+CHECK_ALIVE 0x34
+SVAL s7 0
+BEQ 6 sC s7
+LOAD1 0 IrhInt2
+LABEL 6
+
+CHECK_ALIVE 0x35
+SVAL s7 0
+BEQ 7 sC s7
+LOAD1 0 KyrInt2
+LABEL 7
+
+CHECK_ALIVE 0x1A
+SVAL s7 0
+BEQ 8 sC s7
+LOAD1 0 ChloeInt2
+LABEL 8
+
+
+CHECK_ALIVE 0x2E
+SVAL s7 0
+BEQ 9 sC s7
+CHECK_ALIVE 0x2F
+SVAL s7 0
+BEQ 9 sC s7
+LOAD1 0 LuiLapInt2
+LABEL 9
+	EnableFreeMovement
+	CAM1 [13,11]
+FadeBackBlack
+TextBox(Interlude2Intro)
+
+	
+
+NoFade
+ENDA
+
+
+Int2AmeHaato:
+TalkConvo(AmeHaatoInt2)
+NoFade
+ENDA
+
+Int2AmeReine:
+TalkConvo(AmeReineInt2)
+AddUnitStatus(0x2, Strength, 2)
+TextBox(ReineInterlude2Status)
+NoFade
+ENDA
+
+Int2AmeRBCRis:
+TalkConvo(RBCRisInt2)
+NoFade
+ENDA
+
+Int2AmePolka:
+TalkConvo(AmePolkaInt2)
+AddUnitStatus(0x8, MaxHP, 10)
+	TextBox(PolkaInterlude2Status)
+NoFade
+ENDA
+
+Int2AmeSuisei:
+TalkConvo(SuiAmeInt2)
+AddUnitStatus(0x6, Strength, 2)
+AddUnitStatus(0x15, Skill, 2)
+AddUnitStatus(0x16, Speed, 2)
+	TextBox(SuiseiInterlude2Status)
+NoFade
+ENDA
+
+Int2AmeAyame:
+TalkConvo(Int2Test)
+NoFade
+ENDA
+
+Int2AmeVillager:
+TalkConvo(Int2Test)
+NoFade
+ENDA
+
+Int2AmeLamy:
+TalkConvo(Int2Test)
+NoFade
+ENDA
+
+Int2AmeIroha:
+TalkConvo(IrhAmeInt2)
+NoFade
+ENDA
+
+Int2AmeChloe:
+TalkConvo(KuroAmeInt2)
+AddUnitStatus(0x1A, LuckStat, 3)
+	TextBox(ChloeInterlude2Status)
+NoFade
+ENDA
+
+Int2AmeKoyori:
+TalkConvo(Int2Test)
+NoFade
+ENDA
+
+Int2AmeLui:
+TalkConvo(Int2Test)
+NoFade
+ENDA
+
+Int2AmeWatame:
+TalkConvo(Int2Test)
+NoFade
+ENDA
+
+Chp9xInn:
+FadeBlack
+CAM1 [7,9]
+CLEARALL
+LOMA 0x45
+LOAD1 0 Int2AmeInn
+LOAD1 0 InnInt2
+
+CHECK_ALIVE 0x10
+SVAL s7 0
+BEQ 0 sC s7
+CHECK_ALIVE 0x11
+SVAL s7 0
+BEQ 0 sC s7
+LOAD1 0 RBCTreeRatInt2
+LABEL 0
+CHECK_ALIVE 0x15
+SVAL s7 0
+BEQ 1 sC s7
+CHECK_ALIVE 0x16
+SVAL s7 0
+BEQ 1 sC s7
+CHECK_ALIVE 0x6
+SVAL s7 0
+BEQ 1 sC s7
+LOAD1 0 SuiAZSoraInt2
+LABEL 1
+CHECK_ALIVE 0xB
+SVAL s7 0
+BEQ 2 sC s7
+LOAD1 0 WtmInt2
+LABEL 2
+
+FadeBackBlack
+
+
+NoFade
+ENDA
+
+Chp9xInnReturn:
+FadeBlack
+CLEARALL
+LOMA 0xB
+LOAD1 0 Int2AmeInnOut // Talk to door person
+
+LOAD1 0x1 EnemyUnits
+CAM1 [7,12]
+
+CHECK_ALIVE 0x2
+SVAL s7 0
+BEQ 0 sC s7
+LOAD1 0 ReineInt2
+LABEL 0
+
+CHECK_ALIVE 0x5
+SVAL s7 0
+BEQ 1 sC s7
+LOAD1 0 MikoInt2
+GOTO 2
+LABEL 1
+LOAD2 0 MikoAltInt2
+LABEL 2
+
+CHECK_ALIVE 0x8
+SVAL s7 0
+BEQ 3 sC s7
+LOAD1 0 PolkaInt2
+LABEL 3
+
+CHECK_ALIVE 0x37
+SVAL s7 0
+BEQ 4 sC s7
+LOAD1 0 AymInt2
+LABEL 4
+
+CHECK_ALIVE 0x14
+SVAL s7 0
+BEQ 5 sC s7
+CHECK_ALIVE 0x19
+SVAL s7 0
+BEQ 5 sC s7
+LOAD1 0 BotanLamyInt2
+LABEL 5
+
+CHECK_ALIVE 0x34
+SVAL s7 0
+BEQ 6 sC s7
+LOAD1 0 IrhInt2
+LABEL 6
+
+CHECK_ALIVE 0x35
+SVAL s7 0
+BEQ 7 sC s7
+LOAD1 0 KyrInt2
+LABEL 7
+
+CHECK_ALIVE 0x1A
+SVAL s7 0
+BEQ 8 sC s7
+LOAD1 0 ChloeInt2
+LABEL 8
+
+
+CHECK_ALIVE 0x2E
+SVAL s7 0
+BEQ 9 sC s7
+CHECK_ALIVE 0x2F
+SVAL s7 0
+BEQ 9 sC s7
+LOAD1 0 LuiLapInt2
+LABEL 9
+
+FadeBackBlack
+NoFade
+ENDA
+
+
+
+EndingScene:
+FadeBlack
+CLEARALL
+DisableFreeMovement
+DISA 0x5B
+SetBackground(0x2F)
+
+
+CallMenu(Interlude2Menu)
+SVAL s7 0
+BEQ 0 sC s7
+
+
+LABEL 0
+
+	MNC2 12
+	NoFade
+	ENDA
+
+
+
+
+ALIGN 4
+ShikeArmory:
+SHORT 0x1
+SHORT 0x3
+SHORT 0x14
+SHORT 0x16
+SHORT 0x1F
+SHORT 0x20
+SHORT 0x2D
+SHORT 0x2E
+SHORT 0x1C
+SHORT 0x28
+SHORT 0
+SHORT 0
+
+ALIGN 4
+ShikeVendor:
+SHORT Fire
+SHORT Thunder
+SHORT 0xC0
+SHORT 0xBD
+SHORT 0x45
+SHORT 0x46
+SHORT Heal
+SHORT Mend
+SHORT 0x56 
+SHORT 0x58
+SHORT 0x6C
+SHORT 0
+SHORT 0

@@ -80,7 +80,7 @@ Door(7,11)
 Door(7,14)
 LOCA Flag21 UnionPrologueDoor [2,16] 0x12
 Chest(CombatStim,8,16)
-Chest(0x6D,9,0)
+Chest(0x6D,7,17)
 Escape(13,0)
 Escape(14,0)
 
@@ -280,6 +280,7 @@ CHECK_ACTIVE
 ENDA
 
 RBCTutorialSelect:
+ENUT GuideUnlockEquips
 CHECK_ACTIVE
 	SVAL s1 0x10
 	BEQ 1 s1 sC
@@ -295,7 +296,7 @@ ENDA
 
 NorthCentral:
 SoundEffect(0xB1)
-TileChangeCheck(0x15)
+TileChangeCheck(0xF)
 	SVAL s7 0
 	BEQ 1 sC s7
 TILECHANGE 4
@@ -315,6 +316,10 @@ ENDA
 
 
 BeginningScene:
+ENUT UnlockGuideFlag
+ENUT GuideUnlockShove
+//ENUT GuideUnlockVigor
+
 EVBIT_MODIFY 4
 SetBackground(0x35)
 FadeBackBlack
@@ -570,7 +575,7 @@ STAL 60
 	TalkConvo(AmeliasBruhMoment)
 	    SetUnitStatus(0x49,0x1A,0)
 		TextBox(RequiredEscapesPrologue)
-		ENUT 0xCB
+		
 NoFade
 	ENDA
 

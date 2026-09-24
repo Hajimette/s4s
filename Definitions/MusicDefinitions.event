@@ -38,6 +38,7 @@
 #define ShallysID 0x3DD
 #define RatShopID 0x59
 #define EndofaLifeID 0x3DC
+#define PiecesID 0x64
 
 //FE4 
 #define FE4AnotherAssaultID 0x21
@@ -81,6 +82,7 @@
 #define FE5PressingThreatFinalID 0x3DF
 #define FE5AdvanceAID 0x63
 #define FE5S4VID 0x3D9
+#define GameOverID 0x3E
 
 //FE6
 #define FE6ShamanID 0x37

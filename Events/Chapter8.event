@@ -258,6 +258,7 @@ ENDA
 
 
 BeginningScene:
+ENUT GuideUnlockCapture
 CALL Chp8Aqua
 Weather 0
 CAM1 [2,20]

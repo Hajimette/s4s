@@ -26,7 +26,7 @@
 
 #define Chapter9x 0xA
 
-#define Chapter10 0xB
+#define Interlude2 0xB 
 
 //#define Chapter11 0xB
 
@@ -35,6 +35,8 @@
 #define Chapter13 0xD
 
 //#define Chapter14 0xE
+
+#define TestMapID 0x3E
 
 //Map Changes
 #define Chapter1MapChanges 0x06
@@ -105,9 +107,10 @@
 #define Chapter6Event 0x21
 #define Chapter7Event 0x24
 #define Chapter8Event 0x27
-#define Chapter9Event 0x2A //Interlude
+#define Chapter9Event 0x2A 
 #define Chapter9xEvent 0x2D //9x
-#define Chapter10Event 0x33
+#define Chapter10Event 0x33 //Interlude
+   #define Chapter10Inn 0x33
 #define Chapter11Event 0x37
 #define Chapter12Event 0x3B
 #define Chapter13Event 0x41
@@ -128,6 +131,7 @@
 #define DesertID 0x7
 #define MetroID 0x8
 #define SnowFieldsID 0x9
+#define InnID 0xB
 
 
 //Palettes
@@ -146,6 +150,7 @@
 #define SnowFieldsPalID 0xD
 #define FE5CastleSnowPalID 0xE
 #define SnowFieldsNightPalID 0xF
+#define InnPalID 0x10
 
 
 //Config
@@ -158,6 +163,7 @@
 #define DesertConfigID 0x7
 #define MetroConfig 0x8
 #define SnowFieldsConfigID 0x9
+#define InnConfigID 0xA
 
 // TileAnimations
 #define  FE4StyleFieldsID 0x01
