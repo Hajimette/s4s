@@ -44,6 +44,7 @@ POIN AxefaithHit
 POIN StancesASM
 POIN AirRaidSkillCheck
 POIN FactionSlayer
+POIN GozaruSkill
 POIN Investigation
 #ifdef ENABLE_GBA_LETHALITY
 POIN LethalitySkill 
@@ -107,6 +108,7 @@ AuraSkillEntry(BloodTideID)
 AuraSkillEntry(WhitePoolID)
 AuraSkillEntry(NightTideID)
 AuraSkillEntry(PastelVeilID)
+
 
 PUSH
 ORG 0x2a3f8

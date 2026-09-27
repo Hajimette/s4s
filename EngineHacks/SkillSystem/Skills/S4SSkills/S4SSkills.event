@@ -2,8 +2,12 @@
 gInvestigationID:
 BYTE InvestigationID
 
+gGozaruID:
+BYTE GozaruID
+
 #include "Investigation/Investigation.lyn.event"
 
+#include "Harmless/UtterPanicSkills.event"
 
 
 gTonjokID:
@@ -16,15 +20,14 @@ Tonjok:
 #include "Tonjok/Tonjok.lyn.event"
 
 
-gGozaruID:
-BYTE GozaruID
-
 ALIGN 4
 GozaruSkill:
 //#incbin "Gozaru/Gozaru.dmp"
-#incbin "Gozaru/Gozaru.lyn.event"
-//POIN SkillTester
-//WORD GozaruID
+//#incbin "Gozaru/Gozaru.lyn.event"
+#incbin "Gozaru/Adaptation/Adaptation.dmp"
+//#incbin "Gozaru/BackedIntoACorner/BackedIntoACorner.dmp"
+POIN SkillTester
+WORD GozaruID
 
 
 

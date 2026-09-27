@@ -583,10 +583,6 @@ allies in 2 tiles heal of 20% max HP.[X]
 Fury: +2 Atk/Spd/Def/Res. Unit[N]
 takes 6 damage after combat.[X]
 
-## SD_Dazzle
-Dazzle: Opponents cannot[N]
-counterattack this unit.[X]
-
 ## SD_TriAdept
 Triangle Adept: Doubles weapon[N]
 triangle effects for this unit.[X]
@@ -1857,3 +1853,7 @@ in two spaces, add (Spd/2) to damage.[X]
 ## SD_Alchemist
 Alchemist: Has a chance upon defeating[N]
 an enemy to create an item.[X]
+
+## SD_Harmless
+Harmless: Watame gains +200[N]
+AVO when attacked by enemies.[X]

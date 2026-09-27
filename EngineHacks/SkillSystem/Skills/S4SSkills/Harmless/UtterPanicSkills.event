@@ -1,0 +1,15 @@
+
+
+ALIGN 4
+UtterPanicCheck:
+#incbin "UtterPanic.dmp"
+POIN SkillTester
+POIN UtterPanicIDList
+
+ALIGN 4
+UtterPanicIDList:
+BYTE HarmlessID HarmlessID HarmlessID
+ALIGN 4
+
+
+//#include "Harmless.asm"

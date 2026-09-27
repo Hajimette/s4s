@@ -18,7 +18,8 @@
 //Investigation
 #define InvestigationID 201
 
-
+//Harmless +100 AVO when attacked
+#define HarmlessID 140
 
 //AI Skills
 
@@ -1069,7 +1070,7 @@
 
 //Dazzle: Opponents cannot counterattack this unit.
 //By circleseverywhere
-#define DazzleID 140
+#define DazzleID 255
 
 //Desperation: If HP < 50%, double attacks occur immediately.
 //By ??? (Initial Commit)

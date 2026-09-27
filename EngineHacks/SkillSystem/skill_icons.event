@@ -1205,10 +1205,14 @@ ORG SkillIcon(FactionSlayerID)
 #incbin "SkillIcons/FactionSlayer.dmp"
 
 ORG SkillIcon(InvestigationID)
-#incbin "SkillIcons/AmeliaIcon.dmp"
+#incbin "SkillIcons/Investigation.dmp"
+//#incbin "SkillIcons/AmeliaIcon.dmp"
 
 ORG SkillIcon(AlchemistID)
 #incbin "SkillIcons/Alchemist.dmp"
+
+ORG SkillIcon(HarmlessID)
+#incbin "SkillIcons/Harmless.dmp"
 
 ORG SkillIcons+0x8000
 
