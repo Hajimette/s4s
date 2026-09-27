@@ -1214,5 +1214,8 @@ ORG SkillIcon(AlchemistID)
 ORG SkillIcon(HarmlessID)
 #incbin "SkillIcons/Harmless.dmp"
 
+ORG SkillIcon(GozaruID)
+#incbin "SkillIcons/Gozaru.dmp"
+
 ORG SkillIcons+0x8000
 
