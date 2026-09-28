@@ -1,3 +1,4 @@
+@ Gozaru: If 3 or more enemies in 2 tiles, adds Spd/2 to attack during combat.
 .equ GozaruID, AuraSkillCheck+4
 .thumb
 
@@ -21,8 +22,7 @@ beq Done
 
 
 
-@Add 1/2 Spd to ATK
-mov     r0, #0x16
+mov     r0, #0x16        @Add 1/2 Spd to ATK
 ldrb    r0, [r4,r0]    @load spd
 lsr     r0, #1     @halve spd
 mov     r3, #0x5A
