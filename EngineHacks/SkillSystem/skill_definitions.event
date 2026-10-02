@@ -14,12 +14,38 @@
 // Iroha Skill
 #define GozaruID 158
 
-
 //Investigation
 #define InvestigationID 201
 
 //Harmless +100 AVO when attacked
 #define HarmlessID 140
+
+//Inochi If hp >75%, Crit and Crit AVO -50
+#define DauntID 202
+
+//Foresight: Avoid the damage from enemy Critical Hits and Skill Activations.
+//By Leonarth
+#define ForesightID 26
+
+//Synergy: Adds Laplus's Magic to ally Physical combat in 2 spaces.
+#define SynergyID 184
+
+//Cat Reflex: If 3 or more enemies in range, dodge first attack.
+#define CatReflexID 243
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //AI Skills
 
@@ -36,6 +62,7 @@
 #define ShadePlusID 45
 
 
+
 //Aura Skills
 
 //Anathema: -10 Avoid/Dodge to all enemies within 3 tiles.
@@ -48,15 +75,13 @@
 
 //Charisma: Grants +10 Hit/Avoid to all allies within three tiles.
 //By Darrman
-#define CharismaID 184
+#define CharismaID 255
 
 //Charm: Allies within 2 tiles deal +2 damage.
 //Author Unknown (Initial Commit)
 #define CharmID 189
 
-//Daunt: -5 Hit and Crit to all enemy units in a 3-tile radius.
-//By Sme
-#define DauntID 202
+
 
 //Demoiselle: Male allies within 2 tiles receive -2 damage.
 //Author Unknown (Initial Commit)
@@ -708,7 +733,7 @@
 
 //Prescience: When initiating battle, Hit and Avo +15.
 //By Sme
-#define PrescienceID 243
+#define PrescienceID 255
 
 //Puissance: +3 Damage when the user's Strength is higher than the enemy's.
 //By Zeta
@@ -964,9 +989,7 @@
 //By Sme
 #define FlareID 34
 
-//Foresight: Avoid the damage from enemy Critical Hits and Skill Activations.
-//By Leonarth
-#define ForesightID 26
+
 
 //Ignis: Add Def/2 and Res/2 to damage dealt. (Skill % activation)
 //Author Unknown (Initial Commit)

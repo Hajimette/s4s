@@ -440,3 +440,14 @@ SkillDescription(TonjokID, SD_Tonjok)
 SkillDescription(GozaruID, SD_Gozaru)
 SkillDescription(AlchemistID, SD_Alchemist)
 SkillDescription(HarmlessID,SD_Harmless)
+SkillDescription(SynergyID,SD_Synergy)
+SkillDescription(CatReflexID,SD_CatReflex)
+
+
+
+
+
+
+
+
+

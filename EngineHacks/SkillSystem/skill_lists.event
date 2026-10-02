@@ -10,6 +10,10 @@ PolkaSkillsList:
 BYTE 255 CantoID
 ALIGN 4
 
+LaplusSkillList:
+BYTE 255 ParagonID
+ALIGN 4
+
 EirikaLordSkillList:
 BYTE 00 00
 ALIGN 4

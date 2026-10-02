@@ -7,8 +7,15 @@ BYTE GozaruID
 
 #include "Investigation/Investigation.lyn.event"
 
+/*
 #include "Harmless/UtterPanicSkills.event"
 
+ALIGN 4
+Harmless:
+#include "Harmless/Harmless.asm"
+POIN SkillTester
+WORD HarmlessID
+*/
 
 gTonjokID:
 BYTE TonjokID
@@ -24,12 +31,11 @@ ALIGN 4
 GozaruSkill:
 //#incbin "Gozaru/Gozaru.dmp"
 //#incbin "Gozaru/Gozaru.lyn.event"
-#incbin "Gozaru/Adaptation/Adaptation.dmp"
 //#incbin "Gozaru/BackedIntoACorner/BackedIntoACorner.dmp"
+
+#incbin "Gozaru/Adaptation/Adaptation.dmp"
 POIN SkillTester
 WORD GozaruID
-
-
 
 ALIGN 4
 Alchemist:
@@ -39,3 +45,28 @@ Alchemist:
 
 //POIN AlchemistEvent
 #include "Synthesis/SynthesisEvent.event"
+
+
+ALIGN 4
+Synergy:
+#incbin "Synergy/Synergy.dmp"
+POIN SkillTester
+WORD SynergyID
+
+
+ALIGN 4
+CatReflex:
+#incbin "Cat Reflex/CatReflex.dmp"
+POIN SkillTester
+WORD CatReflexID
+
+ALIGN 4
+CatReflexDodge:
+#incbin "Cat Reflex/CatReflexDodge.dmp"
+POIN SkillTester
+WORD CatReflexID
+
+
+
+
+

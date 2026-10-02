@@ -1217,5 +1217,11 @@ ORG SkillIcon(HarmlessID)
 ORG SkillIcon(GozaruID)
 #incbin "SkillIcons/Gozaru.dmp"
 
+ORG SkillIcon(SynergyID)
+#incbin "SkillIcons/Synergy.dmp"
+
+ORG SkillIcon(CatReflexID)
+#incbin "SkillIcons/CatReflex.dmp"
+
 ORG SkillIcons+0x8000
 

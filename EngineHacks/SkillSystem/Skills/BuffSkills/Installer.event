@@ -93,6 +93,15 @@ ALIGN 4
 TakerSkillsStackable_Link: 
 WORD True 
 
+ALIGN 4
+NNNBuffAmount_Link:
+WORD 3
+
+NNNMaxBuff_Link:
+WORD 30
+
+
+
 ALIGN 4 
 StrTakerBuffAmount_Link: 
 WORD 4 

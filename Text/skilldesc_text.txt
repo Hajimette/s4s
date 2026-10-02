@@ -555,8 +555,8 @@ Quick Burn: +15 Hit and Avoid.[N]
 This bonus decreases each turn.[X]
 
 ## SD_SlowBurn
-Slow Burn: +1 Hit and Avoid for[N]
-each passing turn, up to 15.[X]
+Progenitor: Hit/Avo/Crit increased[N]
+by 5 for 13 turns. Max (65).[X]
 
 ## SD_Despoil
 Despoil: Obtain a Red Gem after[N]
@@ -711,9 +711,9 @@ Fortress Resistance:[N]
 +5 Res, -3 Str/Mag[X]
 
 ## SD_Foresight
-Foresight: Avoid the damage[N]
-from enemy Critical Hits and[N]
-Skill Activations.[X]
+Full Metal Body: Avoid the[N]
+damage from enemy Critical[N]
+Hits and Skill Activations.[X]
 
 ## SD_Axefaith
 Axefaith: Axes can't lose durability,[N]
@@ -922,8 +922,9 @@ Insight: Hit +20.[X]
 Vigilance: Avoid +20.[X]
 
 ## SD_Daunt
-Daunt: -5 Hit and Crit to all[N]
-enemy units in a 3-tile radius.[X]
+Inochi: If HP above 75%,[N]
+enemies in 3 tiles suffer[N]
+Crit and Crit AVO -50.[X]
 
 ## SD_BloodTide
 Blood Tide: Atk and Hit +5[N]
@@ -1857,3 +1858,13 @@ an enemy to create an item.[X]
 ## SD_Harmless
 Harmless: Watame gains +200[N]
 AVO when attacked by enemies.[X]
+
+## SD_Synergy
+Synergy: Laplus adds her magic[N]
+to ally physical attacks in[N]
+a range of 2 tiles.[X]
+
+## SD_CatReflex
+Cat Reflex: If 3 or more enemies[N]
+are near Zeta in 2 tiles, avoid[N]
+the first attack of each combat.[X]

@@ -62,10 +62,7 @@ Chest(IronBow,0,0)
 Chest(Vulnerary,1,0)
 Chest(Rapier,1,1)
 Door(2,4)
-//LOCA 0x0 NorthDoor [2,4] 0x12
 Door(3,4)
-//LOCA 0x0 NorthDoor [3,4] 0x12
-//Door(10,2)
 Door(0,2)
 LOCA 0x0 NorthCentral [10,2] 0x12
 
@@ -130,7 +127,6 @@ UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [15,6] 0x0 0x0 0x0 0x0 [IronLance,0x69] 
 UNIT 0x80 0x09 0x53 Level(4,Enemy,True) [14,0] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
  UNIT 0x80 0x09 0x53 Level(4,Enemy,True) [0,3] 0x0 0x0 0x0 0x0 [Javelin] UnmovingAI
   UNIT 0x80 0x4e 0x53 Level(1,Enemy,True) [12,9] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
-UNIT 0x49 0x89 0x53 Level(10,Enemy,True) [14,2] DropItem 0x0 0x0 0x0 [Crossbow] NoMoveAI
   UNIT 0x80 0x4e 0x53 Level(4,Enemy,True) [6,6] 0x0 0x0 0x0 0x0 [IronLance,0x69] NoMoveAI
 
  UNIT 0xF5 0x10 0x53 Level(5,NPC,True) [1,15] 0x0 0x0 0x0 0x0 [0x0] DefaultAI
@@ -167,7 +163,10 @@ UNIT 0x7F 0xC1 0x53 Level(10,Enemy,True) [15,24] 0x0 0x0 1 REDA15R23 [IronLance]
 UNIT
 
 
-
+EmiliaSpawn:
+UNIT 0x49 0x89 0x53 Level(10,Enemy,True) [14,2] DropItem 0x0 1 REDA14R0 [Crossbow] NoMoveAI
+UNIT 0x81 0xC1 0x53 Level(5,Enemy,True) [13,2] 0x0 0x0 1 REDA13R0 [Crossbow] NoMoveAI
+UNIT
 
 
 
@@ -296,20 +295,16 @@ ENDA
 
 NorthCentral:
 SoundEffect(0xB1)
-TileChangeCheck(0xF)
-	SVAL s7 0
-	BEQ 1 sC s7
-TILECHANGE 4
-LABEL 1
-CAM1 [13,3]
+TILECHANGE 3
+CHECK_ALIVE 0x49
+SVAL s7 0
+	BEQ 3 sC s7
 PlayEmotionEffect(0x49,ExclamationEffect)
 STAL 45
 Text(EmiliaBruhMoment)
+LABEL 3
 CAM1 [0,20]
 LOAD1 1 NousagiPrologueSpawn9
-
-
-TILECHANGE 15
 NoFade
 ENDA
 
@@ -619,7 +614,7 @@ ENDA
 
 BotanAmeliaDoorPrologue:
 SoundEffect(0xB1)
-TILECHANGE 5
+TILECHANGE 7
 NoFade
 FadeBlack
 MusicChange(0x17)
@@ -647,7 +642,7 @@ ENDA
 	
 UnionPrologueDoor:
 SoundEffect(0xB1)
-TILECHANGE 11
+TILECHANGE 13
 TalkConvo(UnionistsPrologue)
 SilentGiveItem(IronAxe, 0xEF)
 SilentGiveItem(IronSword, 0xF5)
@@ -676,7 +671,7 @@ ENDA
 
 PrologueNPCUpper:
 SoundEffect(0xB1)
-TILECHANGE 7
+TILECHANGE 9
 TalkConvo(NPCDialogueUpper)
 
 NoFade
@@ -685,7 +680,7 @@ ENDA
 
 PrologueNPCLower:
 SoundEffect(0xB1)
-TILECHANGE 10
+TILECHANGE 12
 TalkConvo(NPCDialogueLower)
 NoFade
 ENDA
@@ -737,37 +732,35 @@ ENDA
 
 PrologueBossDoor:
 SoundEffect(0xB1)
-TILECHANGE 15
-TileChangeCheck(0x4)
-	SVAL s7 0
-	BEQ 1 sC s7
-
-CAM1 [13,3]
+TILECHANGE 6
+CHECK_ALIVE 0x49
+SVAL s7 0
+	BEQ 3 sC s7
 PlayEmotionEffect(0x49,ExclamationEffect)
 STAL 45
 Text(EmiliaBruhMoment)
+LABEL 3
 CAM1 [0,20]
 LOAD1 1 NousagiPrologueSpawn9
-LABEL 1
 NoFade
 ENDA
 
 EmiliaQuestion:
-CHECK_EVENTID 0x10 //Checks if both alive and triggered 78
-	SVAL s7 0
-	BEQ 1 sC s7
- 
- 
+LOAD1 1 EmiliaSpawn
+ENUN
 MusicChange(0x3E3)
 CAM1 [13,3]
 FadeBlack
 SetBackground(Dungeon)
 FadeBackBlack
 Text(EmiliaWhatdehellgoingon)
+
 FadeBlack
 CLEAN
 FadeBackBlack
-LABEL 1
+MOVE 12 0x81 [13,0]
+ENUN
+DISA_IF 0x81
 NoFade
 ENDA
 

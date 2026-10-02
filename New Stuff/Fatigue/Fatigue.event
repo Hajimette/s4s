@@ -10,6 +10,24 @@
 //Add S Drink, which removes all fatigue when used
 //At the end of the prep screen, set fatigue to 0 for everyone marked undeployed
 
+//Contains check if unit can be fatigued, routines for incrementing fatigue after action, routine for clearing fatigue on undeployed units
+#include "Fatigue.lyn.event"
+
+//Contains fatigue getter for MSS, call before draw_number_at
+#include "FatigueMSS.lyn.event"
+
+//Contains denying deployment if fatigued
+#include "FatiguePrepScreen.lyn.event"
+
+//Contains fatigue-restoring items
+#include "FatigueItems.lyn.event"
+
+//Contains ASMC for setting fatigue
+#include "FatigueASMC.lyn.event"
+
+//Includes Fatigue Map Display
+#include "FatigueDisplay/DisplayFatigue.event"
+
 //Filling in text here because custom build doesn't like text processing
 
 ALIGN 4
@@ -38,23 +56,7 @@ setText(SS_FatigueText, SS_FatigueText_String)
 setText(MessageFatigueRestored, MessageFatigueRestored_String)
 }
 
-//Contains check if unit can be fatigued, routines for incrementing fatigue after action, routine for clearing fatigue on undeployed units
-#include "Fatigue.lyn.event"
 
-//Contains fatigue getter for MSS, call before draw_number_at
-#include "FatigueMSS.lyn.event"
-
-//Contains denying deployment if fatigued
-#include "FatiguePrepScreen.lyn.event"
-
-//Contains fatigue-restoring items
-#include "FatigueItems.lyn.event"
-
-//Contains ASMC for setting fatigue
-#include "FatigueASMC.lyn.event"
-
-//Includes Fatigue Map Display
-#include "FatigueDisplay/DisplayFatigue.event"
 
 //Debuffs
 ALIGN 4

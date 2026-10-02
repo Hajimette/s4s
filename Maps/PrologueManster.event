@@ -42,74 +42,74 @@ Map_Change_2:
 
 ALIGN 4
 Map_Change_3:
-  SHORT $180 $184 $84 $84
+  SHORT $388 $0 $384 $384 $384 $384
 
 ALIGN 4
 Map_Change_4:
-  SHORT $208 $184 $78 $1AC $1B0 $78 $204 $204 $F0 $22C $230 $F0 $204 $204 $1C0 $1C0 $1C0 $1C0 $188 $184 $184 $184 $184 $184 $114 $204 $184 $184 $184 $184
+  SHORT $184
 
 ALIGN 4
 Map_Change_5:
-  SHORT $1C0 $84 $184 $84
+  SHORT $180 $184
 
 ALIGN 4
 Map_Change_6:
-  SHORT $98
+  SHORT $180 $184
 
 ALIGN 4
 Map_Change_7:
-  SHORT $84 $1C0 $1C0 $84 $204 $204
+  SHORT $1C0 $84 $184 $84
 
 ALIGN 4
 Map_Change_8:
-  SHORT $180 $84
+  SHORT $98
 
 ALIGN 4
 Map_Change_9:
-  SHORT $13C $204
+  SHORT $1C0 $1C0 $204 $204
 
 ALIGN 4
 Map_Change_10:
-  SHORT $84 $1C0 $1C0 $84 $204 $204
+  SHORT $180
 
 ALIGN 4
 Map_Change_11:
-  SHORT $1C0 $84 $204 $84
+  SHORT $180
 
 ALIGN 4
 Map_Change_12:
-  SHORT $98
+  SHORT $1C0 $1C0 $204 $204
 
 ALIGN 4
 Map_Change_13:
-  SHORT $98
+  SHORT $1C0 $84 $204 $84
 
 ALIGN 4
 Map_Change_14:
-  SHORT $384
+  SHORT $98
 
 ALIGN 4
 Map_Change_15:
-  SHORT $0 $184 $78 $1AC $1B0 $78 $0 $184 $F0 $22C $230 $F0 $0 $184 $1C0 $1C0 $1C0 $1C0 $0 $184 $184 $184 $184 $184 $0 $184 $184 $184 $184 $184 $0 $0 $0 $180 $184 $0 $0 $0 $0 $0 $0 $0
+  SHORT $98
 
 ALIGN 4
 MapChangesData:
   TileMap(0, 0, 0, 1, 1, Map_Change_0)
   TileMap(1, 1, 0, 1, 1, Map_Change_1)
   TileMap(2, 1, 1, 1, 1, Map_Change_2)
-  TileMap(3, 2, 4, 2, 2, Map_Change_3)
-  TileMap(4, 10, 0, 6, 5, Map_Change_4)
-  TileMap(5, 2, 8, 2, 2, Map_Change_5)
-  TileMap(6, 7, 8, 1, 1, Map_Change_6)
-  TileMap(7, 12, 9, 3, 2, Map_Change_7)
-  TileMap(8, 7, 11, 1, 2, Map_Change_8)
-  TileMap(9, 7, 14, 1, 2, Map_Change_9)
-  TileMap(10, 12, 15, 3, 2, Map_Change_10)
-  TileMap(11, 2, 16, 2, 2, Map_Change_11)
-  TileMap(12, 8, 16, 1, 1, Map_Change_12)
-  TileMap(13, 7, 17, 1, 1, Map_Change_13)
-  TileMap(14, 0, 2, 1, 1, Map_Change_14)
-  TileMap(15, 10, 0, 6, 7, Map_Change_15)
+  TileMap(3, 10, 0, 2, 3, Map_Change_3)
+  TileMap(4, 0, 2, 1, 1, Map_Change_4)
+  TileMap(5, 2, 4, 2, 1, Map_Change_5)
+  TileMap(6, 13, 5, 2, 1, Map_Change_6)
+  TileMap(7, 2, 8, 2, 2, Map_Change_7)
+  TileMap(8, 7, 8, 1, 1, Map_Change_8)
+  TileMap(9, 13, 9, 2, 2, Map_Change_9)
+  TileMap(10, 7, 11, 1, 1, Map_Change_10)
+  TileMap(11, 7, 14, 1, 1, Map_Change_11)
+  TileMap(12, 13, 15, 2, 2, Map_Change_12)
+  TileMap(13, 2, 16, 2, 2, Map_Change_13)
+  TileMap(14, 8, 16, 1, 1, Map_Change_14)
+  TileMap(15, 7, 17, 1, 1, Map_Change_15)
   TileMapEnd
 
 SetTileChanges(6, MapChangesData)

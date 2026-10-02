@@ -61,7 +61,7 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x3B Manakete,0x0
 0x3C Manakete (F),ManaketeFSkillList|IsPointer
 0x3D Journeyman (1),0x0
-0x3E Pupil (1),0x0
+0x3E Catalyst,LaplusSkillList|IsPointer
 0x3F Fighter,FighterSkillList|IsPointer
 0x40 Warrior,WarriorSkillList|IsPointer
 0x41 Brigand,BrigandSkillList|IsPointer
