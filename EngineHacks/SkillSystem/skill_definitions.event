@@ -14,6 +14,8 @@
 // Iroha Skill
 #define GozaruID 158
 
+//Laplus
+#define SynergyID 130
 
 //Investigation
 #define InvestigationID 201
@@ -394,7 +396,7 @@
 
 //Quantum Visage: Face changes every time it's looked at.
 //By Leonarth
-#define RandomMugID 130
+#define RandomMugID 255
 
 
 //Identity Problems: This unit can't decide on a name or face.

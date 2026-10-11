@@ -29,8 +29,6 @@ GozaruSkill:
 POIN SkillTester
 WORD GozaruID
 
-
-
 ALIGN 4
 Alchemist:
 //#incbin "Synthesis/despoil.lyn.event"
@@ -39,3 +37,9 @@ Alchemist:
 
 //POIN AlchemistEvent
 #include "Synthesis/SynthesisEvent.event"
+
+ALIGN 4
+Synergy:
+#incbin "Synergy/Synergy.dmp"
+POIN SkillTester
+WORD SynergyID

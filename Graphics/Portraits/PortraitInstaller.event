@@ -74,6 +74,7 @@ POP
 #define NoelP 0xC
 #define MumeiP 0x5
 #define FaunaP 0x6
+#define FaunaAlt 0xDD
 #define MikoP 0x7
 #define SuiseiP 0x8
 #define SuiseiAlt1 0x49
@@ -114,6 +115,7 @@ POP
 #define GalzusEyesPortrait 0xD1
 #define AkiPortrait 0x1A
 #define NenePortrait 0x10
+#define NeneAlt 0x17
 #define MatsuriPortrait 0x19
 #define RushiaAlt 0xD6
 
@@ -580,11 +582,19 @@ setMugEntry(NoelP, NoelData, 2, 5, 3, 3)
 
 ALIGN 4
 FaunaData:
+#incbin "Dmps/FaunaTex_mug.dmp"
+#incbin "Dmps/FaunaTex_frames.dmp"
+#incbin "Dmps/FaunaTex_palette.dmp"
+#incbin "Dmps/FaunaTex_minimug.dmp"
+setMugEntryExtend(FaunaP, FaunaData, 3, 6, 3, 4, 0, 0, 0, 2)
+
+ALIGN 4
+FaunaAltData:
 #incbin "Dmps/Fauna_mug.dmp"
 #incbin "Dmps/Fauna_frames.dmp"
 #incbin "Dmps/Fauna_palette.dmp"
 #incbin "Dmps/Fauna_minimug.dmp"
-setMugEntry(FaunaP, FaunaData, 2, 6, 2, 4)
+setMugEntry(FaunaAlt, FaunaAltData, 2, 6, 2, 4)
 
 ALIGN 4
 FlareTData:
@@ -961,11 +971,19 @@ setMugEntryExtend(AkiPortrait, AkiData, 2, 6, 3, 4, 10, 2, 10, 4)
 
 ALIGN 4
 NeneData:
+#incbin "Dmps/NeneMorker_mug.dmp"
+#incbin "Dmps/NeneMorker_frames.dmp"
+#incbin "Dmps/NeneMorker_palette.dmp"
+#incbin "Dmps/NeneMorker_minimug.dmp"
+setMugEntry(NenePortrait, NeneData, 4, 6, 4, 4)
+
+ALIGN 4
+NeneAltData:
 #incbin "Dmps/Nene_mug.dmp"
 #incbin "Dmps/Nene_frames.dmp"
 #incbin "Dmps/Nene_palette.dmp"
 #incbin "Dmps/Nene_minimug.dmp"
-setMugEntry(NenePortrait, NeneData, 3, 6, 3, 4)
+setMugEntry(NeneAlt, NeneAltData, 3, 6, 3, 4)
 
 ALIGN 4
 MatsuriData:
