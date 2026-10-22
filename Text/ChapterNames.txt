@@ -35,30 +35,32 @@ Chapter 8: Broken Pact[X]
 Chapter 8x: The Oni[X]
 
 ## Chp10Title
-Chapter 10: Invasion[X]
+Chapter 10B: Trail of Tears[X]
 
 ## Chp11Title
-Chapter 11: Princess of Sweets[X]
+Chapter 11B: Till Death[X]
+
+## Chp12Title
+Chapter 12B: Fanaticism[X]
+
+## Chp13Title
+Chapter 13B: Bloody Palms[X]
+
+
+
+## Chp10ATitle
+Chapter 10A: Unorganized Retreat[X]
+
+## Chp11ATitle
+Chapter 11A: Invasion[X]
+
+## Chp12ATitle
+Chapter 12A: Princess of Sweets[X]
+
+## Chp13ATitle
+Chapter 13A: Cornered Beasts[X]
+
+
 
 ## Interlude2Title
 Interlude: Brief Respite[X]
-
-## Chp12Title
-Chapter 12: Liberty Calls[X]
-
-## Chp13Title
-Chapter 13: Forest Fires[X]
-
-## Chp14Title
-Chapter 14: Aggression[X]
-
-## Chp15Title
-Chapter 15: The Battle Begins[X]
-
-## Chp16Title
-Chapter 16: Tides Turn[X]
-
-## Chp17Title
-Chapter 17: Liberation[X]
-
-

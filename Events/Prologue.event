@@ -67,7 +67,7 @@ Door(3,4)
 //LOCA 0x0 NorthDoor [3,4] 0x12
 //Door(10,2)
 Door(0,2)
-LOCA 0x0 NorthCentral [10,2] 0x12
+LOCA 15 NorthCentral [10,2] 0x12
 
 LOCA 16 PrologueBossDoor [13,5] 0x12
 LOCA 16 PrologueBossDoor [14,5] 0x12
@@ -296,11 +296,7 @@ ENDA
 
 NorthCentral:
 SoundEffect(0xB1)
-TileChangeCheck(0xF)
-	SVAL s7 0
-	BEQ 1 sC s7
 TILECHANGE 4
-LABEL 1
 CAM1 [13,3]
 PlayEmotionEffect(0x49,ExclamationEffect)
 STAL 45

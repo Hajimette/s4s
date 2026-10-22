@@ -1857,3 +1857,7 @@ an enemy to create an item.[X]
 ## SD_Harmless
 Harmless: Watame gains +200[N]
 AVO when attacked by enemies.[X]
+
+## SD_Synergy
+Synergy: Laplus adds magic stat[N]
+to physical attacks in 2 spaces.[X]

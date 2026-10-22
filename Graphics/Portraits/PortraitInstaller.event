@@ -143,7 +143,7 @@ POP
 
 //Misc
 //Hatsuru
-
+#define OrangeGeg 0x55
 
 
 //Pending but aligned
@@ -160,6 +160,8 @@ POP
 //#incbin "Dmps/VanillaPortraitTable.dmp"
 
 // setMugEntry(UnitMugID, UnitMugData, MouthX, MouthY, EyeX, EyeY)
+
+
 
 
 ALIGN 4
@@ -1091,6 +1093,13 @@ KokushibyoData:
 #incbin "Dmps/Kokushibyo_minimug.dmp"
 setMugEntry(KokushibyoPortrait, KokushibyoData, 2, 6, 2, 4)
 
+ALIGN 4
+OrangeGegData:
+#incbin "Dmps/OrangeGeg_mug.dmp"
+#incbin "Dmps/OrangeGeg_frames.dmp"
+#incbin "Dmps/OrangeGeg_palette.dmp"
+#incbin "Dmps/OrangeGeg_minimug.dmp"
+setMugEntry(OrangeGeg, OrangeGegData, 3, 7, 3, 5)
 
 /*
 ALIGN 4

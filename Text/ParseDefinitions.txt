@@ -154,11 +154,12 @@
 [LoadMan] = [LoadFace][0x5A][0x1]
 [LoadBlondKid] = [LoadFace][0x5E][0x1]
 [LoadBlackHairGirl] = [LoadFace][0x62][0x1]
+[LoadYoungTwintails] = [LoadFace][0x63][0x1]
 [LoadBlondGirl] = [LoadFace][0x61][0x1]
 [LoadBlondOldMan] = [LoadFace][0x5B][0x1]
 [LoadOldLady] = [LoadFace][0x5f][0x1]
 [LoadGreenSoldier] = [LoadFace][0x6f][0x1]
-
+[LoadOrangeGeg] = [LoadFace][0x55][0x1]
 [LoadOldMan] = [LoadFace][0x59][0x1]
 [LoadBlondGuy] = [LoadFace][0x5C][0x1]
 

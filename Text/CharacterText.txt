@@ -2,8 +2,8 @@
 Amelia [X]
 
 ## AmeDesc
-Amelia Watson, searching for [N]
-a way home.[X]
+Amelia Watson, searching[N]
+for a way home.[X]
 
 ## ReineName
 Reine[X]

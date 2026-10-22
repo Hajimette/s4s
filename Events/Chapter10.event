@@ -75,7 +75,7 @@ UNIT 0xFC 0x6F 0x53 Level(1,NPC,True) [6,15] 0x0 0x0 0x0 0x0 [0x0] NoAI
 UNIT 0xED 0x70 0x53 Level(1,NPC,True) [13,2] 0x0 0x0 0x0 0x0 [0x0] NoAI
 UNIT 0xFC 0x6F 0x53 Level(1,NPC,True) [28,14] 0x0 0x0 0x0 0x0 [0x0] NoAI
 UNIT 0xFC 0x6D 0x53 Level(1,NPC,True) [27,14] 0x0 0x0 0x0 0x0 [0x0] NoAI
-UNIT 0xFC 0x6E 0x53 Level(1,NPC,True) [18,3] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT 0xFC 0x6D 0x53 Level(1,NPC,True) [18,3] 0x0 0x0 0x0 0x0 [0x0] NoAI
 UNIT 0xFC 0x19 0x53 Level(1,NPC,True) [4,8] 0x0 0x0 0x0 0x0 [0x0] NoAI
 UNIT 0xFC 0x72 0x53 Level(1,NPC,True) [27,18] 0x0 0x0 0x0 0x0 [0x0] NoAI
 UNIT 0xFC 0x71 0x53 Level(1,NPC,True) [18,8] 0x0 0x0 0x0 0x0 [0x0] NoAI
@@ -278,6 +278,8 @@ ENDA
 
 Int2AmeRBCRis:
 TalkConvo(RBCRisInt2)
+AddUnitStatus(0x11, Resistance, 2)
+	TextBox(RisuInterlude2Status)
 NoFade
 ENDA
 
@@ -298,17 +300,21 @@ NoFade
 ENDA
 
 Int2AmeAyame:
-TalkConvo(Int2Test)
+TalkConvo(Int2Ayametalk)
+AddUnitStatus(0x37, LuckStat, 1)
+	TextBox(AYMInterlude2Status)
 NoFade
 ENDA
 
 Int2AmeVillager:
-TalkConvo(Int2Test)
+TalkConvo(Int2AmeVillTalk)
 NoFade
 ENDA
 
 Int2AmeLamy:
-TalkConvo(Int2Test)
+TalkConvo(Int2LamyBotan)
+AddUnitStatus(0x19, LuckStat, 1)
+	TextBox(LamyInterlude2Status)
 NoFade
 ENDA
 
@@ -325,17 +331,26 @@ NoFade
 ENDA
 
 Int2AmeKoyori:
-TalkConvo(Int2Test)
+TalkConvo(Int2KoyoAme)
 NoFade
 ENDA
 
 Int2AmeLui:
 TalkConvo(Int2Test)
+AddUnitStatus(0x2F, Skill, 3)
+AddUnitStatus(0x2E, Skill, 3)
+	TextBox(LapLuiInterlude2Status)
 NoFade
 ENDA
 
 Int2AmeWatame:
-TalkConvo(Int2Test)
+TalkConvo(Int2Watame)
+PlayEmotionEffect(0xb,MusicNoteEffect)
+STAL 45
+MusicChange(0x9)
+STAL 150
+TalkConvo(Int2Watame2)
+MusicChange(0x64)
 NoFade
 ENDA
 
@@ -462,17 +477,26 @@ FadeBlack
 CLEARALL
 DisableFreeMovement
 DISA 0x5B
+MusicChange(0x12)
 SetBackground(0x2F)
-
-
+Text(Int2End)
+STAL 15
 CallMenu(Interlude2Menu)
 SVAL s7 0
 BEQ 0 sC s7
 
 
-LABEL 0
 
-	MNC2 12
+
+MNC2 12
+GOTO 21
+LABEL 0 //CANDY KINGDOM ARC
+
+
+
+
+	MNC2 16
+LABEL 21
 	NoFade
 	ENDA
 

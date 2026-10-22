@@ -87,7 +87,7 @@ gSaveBlockTypeSizeLookup:
 #ifdef USE_STRMAG_SPLIT
 	#ifdef STAIRS_ASM
 		MESSAGE EMS with strmag and Stair
-		#include "SrcModules/SaveUnitExpandedStrmagStairs.lyn.event" // Str/Mag and Stairs both require saving shenanigans.
+		#include "SrcModules/SaveUnitExpandedStrmagStairsFatigue.lyn.event" // Str/Mag, Stairs and Fatigue save shenanigans.
 	#else
 		#include "SrcModules/SaveUnitExpandedStrmag.lyn.event" // Only Str/Mag split.
 	#endif // STAIRS_ASM
@@ -139,13 +139,13 @@ gGameSaveChunks:
 
 	// $0680
 
-	// Save 62 blue units (62 * 0x2C = $0AA8)
-	DeclSaveChunk($0680, $0AA8, ESU_SaveGameUnits, ESU_LoadGameUnits, EMS_CHUNK_SAVEUNITS)
+	// Save 62 blue units with fatigue (62 * 0x30 = $0BA0)
+	DeclSaveChunk($0680, $0BA0, ESU_SaveGameUnits, ESU_LoadGameUnits, EMS_CHUNK_SAVEUNITS)
 
 	// Expanded Convoy (still 100 items, but saved durability)
-	DeclSaveChunk($1128, $00C8, MSa_WriteSupplyItems, MSa_ReadSupplyItems, EMS_CHUNK_CONVOYITEMS)
+	DeclSaveChunk($1220, $00C8, MSa_WriteSupplyItems, MSa_ReadSupplyItems, EMS_CHUNK_CONVOYITEMS)
 	
-	// $11F0
+	// $12E8
 	
 	// free up to $1344
 
