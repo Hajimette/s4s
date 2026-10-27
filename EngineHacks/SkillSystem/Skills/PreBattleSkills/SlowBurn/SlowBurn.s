@@ -18,12 +18,14 @@ ldr	r5,=#0x202BCF0
 ldrh	r5, [r5,#0x10]
 mov	r0, #0x01
 sub	r5, r0
-cmp	r5, #0x0F
+cmp	r5, #0x0D
 bls	SkipSet
-mov	r5, #0x0F
+mov	r5, #0x0D
 
 SkipSet:
 @add turn to hit and avoid (if turn is higher than 15, add 15)
+mov r2, #5
+mul r5, r2
 mov	r0, #0x60
 ldrh	r1, [r4,r0]	@load hit
 add	r1, r5		@add turn to hit (max 15)
@@ -34,6 +36,11 @@ ldrh	r1, [r4,r0]	@load avoid
 add	r1, r5		@add turn to avoid (max 15)
 strh	r1, [r4,r0]     @store
 
+mov r0, #0x66
+ldrh	r1, [r4,r0]	@load Crit
+add	r1, r5		@add turn to avoid (max 15)
+strh	r1, [r4,r0]     @store
+
 End:
 pop	{r4-r5, r15}
 .align
@@ -41,3 +48,4 @@ pop	{r4-r5, r15}
 SkillTester:
 @Poin SkillTester
 @WORD SlowBurnID
+

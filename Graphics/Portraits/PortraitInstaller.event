@@ -118,6 +118,11 @@ POP
 #define NeneAlt 0x17
 #define MatsuriPortrait 0x19
 #define RushiaAlt 0xD6
+#define KiaraPortrait 0x24
+#define KiaraFlamesPortrait 0xDE
+#define KiaraAngryPortrait 0xDF
+#define AnyaPortrait 0x17
+#define KoboPortrait 0xE6
 
 
 
@@ -149,8 +154,7 @@ POP
 //Pending but aligned
 
 
-//#define AnyaPortrait 0x17
-//#define KoboPortrait 0x1D
+
 
 
 
@@ -1100,6 +1104,47 @@ OrangeGegData:
 #incbin "Dmps/OrangeGeg_palette.dmp"
 #incbin "Dmps/OrangeGeg_minimug.dmp"
 setMugEntry(OrangeGeg, OrangeGegData, 3, 7, 3, 5)
+
+ALIGN 4
+KiaraData:
+#incbin "Dmps/Kiara_mug.dmp"
+#incbin "Dmps/Kiara_frames.dmp"
+#incbin "Dmps/Kiara_palette.dmp"
+#incbin "Dmps/Kiara_minimug.dmp"
+setMugEntryExtend(KiaraPortrait, KiaraData, 2, 6, 3, 4, 0, 2, 0, 0)
+
+ALIGN 4
+KiaraFlameData:
+#incbin "Dmps/KiaraFlames_mug.dmp"
+#incbin "Dmps/KiaraFlames_frames.dmp"
+#incbin "Dmps/KiaraFlames_palette.dmp"
+#incbin "Dmps/KiaraFlames_minimug.dmp"
+setMugEntryExtend(KiaraFlamesPortrait, KiaraFlameData, 2, 6, 3, 4, 0, 4, 0, 2)
+
+ALIGN 4
+KiaraAngryData:
+#incbin "Dmps/KiaraAngry_mug.dmp"
+#incbin "Dmps/KiaraAngry_frames.dmp"
+#incbin "Dmps/KiaraAngry_palette.dmp"
+#incbin "Dmps/KiaraAngry_minimug.dmp"
+setMugEntryExtend(KiaraAngryPortrait, KiaraAngryData, 2, 6, 2, 4, 0, 4, 0, 2)
+
+ALIGN 4
+KoboData:
+#incbin "Dmps/Kobo_mug.dmp"
+#incbin "Dmps/Kobo_frames.dmp"
+#incbin "Dmps/Kobo_palette.dmp"
+#incbin "Dmps/Kobo_minimug.dmp"
+setMugEntryExtend(KoboPortrait, KoboData, 2, 6, 3, 4, 0, 0, 0, 2)
+
+ALIGN 4
+AnyaData:
+#incbin "Dmps/Anya_mug.dmp"
+#incbin "Dmps/Anya_frames.dmp"
+#incbin "Dmps/Anya_palette.dmp"
+#incbin "Dmps/Anya_minimug.dmp"
+setMugEntryExtend(AnyaPortrait, AnyaData, 2, 6, 3, 4, 0, 2, 10, 3)
+
 
 /*
 ALIGN 4

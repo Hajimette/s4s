@@ -1,4 +1,7 @@
-CGs by Avil
+Legacy CGs by Avil
+
+Main Title Screen - Sakura Bunny
+
 
 Portraits:
 
@@ -77,14 +80,21 @@ Shion Variant
 Moona Variant
 Miko Variant
 
-
+Dale Sanguchito:
+Watame
+Kobo
+Mumei
+Anya
+Kiara
+Matsuri
+Aki
 
 
 MKCocoon:
 Amelia Variant 
 
 
-Zoramine Fae
+Zoramine Fae: 
 Botan
 Mumei Variant
 
@@ -100,7 +110,7 @@ Noir (Marduk) - Gustabo
 
 Emilia - Lord of Admiral
 
-Watame - Dale Sanguchito
+
 
 Lu-knight - Armor by Garytop
 
