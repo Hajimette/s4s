@@ -711,7 +711,7 @@ Fortress Resistance:[N]
 +5 Res, -3 Str/Mag[X]
 
 ## SD_Foresight
-Foresight: Avoid the damage[N]
+Full Metal Body: Avoid the damage[N]
 from enemy Critical Hits and[N]
 Skill Activations.[X]
 

@@ -73,6 +73,8 @@ POP
 #define BrigandPortrait 0x4d
 #define NoelP 0xC
 #define MumeiP 0x5
+#define MumeiAlt 0xE7
+#define EvilMumei 0xE8
 #define FaunaP 0x6
 #define FaunaAlt 0xDD
 #define MikoP 0x7
@@ -628,12 +630,12 @@ MikoData:
 setMugEntry(MikoP, MikoData, 3, 6, 3, 4)
 
 ALIGN 4
-MumeiData:
+MumeiAltData:
 #incbin "Dmps/Mumei_mug.dmp"
 #incbin "Dmps/Mumei_frames.dmp"
 #incbin "Dmps/Mumei_palette.dmp"
 #incbin "Dmps/Mumei_minimug.dmp"
-setMugEntry(MumeiP, MumeiData, 2, 6, 3, 4)
+setMugEntry(MumeiAlt, MumeiAltData, 2, 6, 3, 4)
 
 ALIGN 4
 SubaruData:
@@ -1145,6 +1147,21 @@ AnyaData:
 #incbin "Dmps/Anya_minimug.dmp"
 setMugEntryExtend(AnyaPortrait, AnyaData, 2, 6, 3, 4, 0, 2, 10, 3)
 
+ALIGN 4
+MumeiData:
+#incbin "Dmps/TheMoom_mug.dmp"
+#incbin "Dmps/TheMoom_frames.dmp"
+#incbin "Dmps/TheMoom_palette.dmp"
+#incbin "Dmps/TheMoom_minimug.dmp"
+setMugEntryExtend(MumeiP, MumeiData, 2, 6, 3, 4, 6, 254, 8, 254)
+
+ALIGN 4
+EvilMumeiData:
+#incbin "Dmps/MoomEvil_mug.dmp"
+#incbin "Dmps/MoomEvil_frames.dmp"
+#incbin "Dmps/MoomEvil_palette.dmp"
+#incbin "Dmps/MoomEvil_minimug.dmp"
+setMugEntryExtend(EvilMumei, EvilMumeiData, 3, 5, 3, 3, 6, 254, 8, 254)
 
 /*
 ALIGN 4
